@@ -1,0 +1,31 @@
+name: Daily AI progress update
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Update date in index.html
+        run: |
+          DATE=$(TZ="America/Toronto" date +"%Y年%-m月%-d日")
+          # Replace date in the heading 今日AI大事（...)符合 with current date
+          sed -i "s/今日AI大事（[^）]*）/今日AI大事（${DATE}）/" index.html
+      - name: Commit and push changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git add index.html
+            git commit -m "Automated update: ${DATE}"
+            git push
+          else
+            echo "No changes to commit"
+          fi
