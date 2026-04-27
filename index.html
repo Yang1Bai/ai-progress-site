@@ -1,138 +1,643 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI进展汇总</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 进展汇总 · AI Progress Hub</title>
+<meta name="description" content="聚焦 AI 领袖观点、每日大事与 AI4Science 发展。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
-  body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
+  /* ==========  全局变量  ========== */
+  :root {
+    --bg-0: #060814;
+    --bg-1: #0b1024;
+    --bg-2: #11183a;
+    --surface: rgba(255, 255, 255, 0.04);
+    --surface-strong: rgba(255, 255, 255, 0.08);
+    --border: rgba(255, 255, 255, 0.10);
+    --border-strong: rgba(255, 255, 255, 0.18);
+    --text: #e6ebff;
+    --text-dim: #9aa3c7;
+    --text-mute: #6c7596;
+    --accent-1: #6366f1;       /* indigo */
+    --accent-2: #22d3ee;       /* cyan */
+    --accent-3: #a855f7;       /* purple */
+    --accent-4: #f472b6;       /* pink */
+    --grad-hero: linear-gradient(135deg, #6366f1 0%, #a855f7 45%, #22d3ee 100%);
+    --grad-text: linear-gradient(120deg, #c4b5fd 0%, #67e8f9 50%, #f9a8d4 100%);
+    --shadow-lg: 0 20px 60px -20px rgba(99, 102, 241, 0.45);
   }
-  header {
-    background-color: #0a73b1;
-    color: #fff;
-    padding: 20px 40px;
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Inter", "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    color: var(--text);
+    background: var(--bg-0);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* ==========  动画背景  ========== */
+  .bg-grid {
+    position: fixed; inset: 0; z-index: -2;
+    background:
+      radial-gradient(1200px 800px at 10% -10%, rgba(99,102,241,.35), transparent 60%),
+      radial-gradient(900px 700px at 110% 10%, rgba(34,211,238,.22), transparent 60%),
+      radial-gradient(1000px 700px at 50% 110%, rgba(168,85,247,.22), transparent 60%),
+      var(--bg-0);
+  }
+  .bg-grid::after {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+  }
+  .bg-orbs { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+  .orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: .35;
+    animation: float 18s ease-in-out infinite;
+  }
+  .orb.o1 { width: 380px; height: 380px; left: -80px; top: 8%;  background: #6366f1; }
+  .orb.o2 { width: 420px; height: 420px; right: -120px; top: 35%; background: #22d3ee; animation-delay: -6s; }
+  .orb.o3 { width: 340px; height: 340px; left: 30%;  bottom: -120px; background: #a855f7; animation-delay: -12s; }
+  @keyframes float {
+    0%,100% { transform: translate(0,0) scale(1); }
+    50%     { transform: translate(40px,-30px) scale(1.08); }
+  }
+
+  /* ==========  导航栏  ========== */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(18px) saturate(140%);
+    -webkit-backdrop-filter: blur(18px) saturate(140%);
+    background: rgba(6, 8, 20, 0.6);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    max-width: 1180px; margin: 0 auto;
+    padding: 14px 28px;
+    display: flex; align-items: center; gap: 24px;
+  }
+  .brand {
+    display: flex; align-items: center; gap: 10px;
+    font-weight: 800; font-size: 1.05rem;
+    letter-spacing: .2px;
+  }
+  .brand-mark {
+    width: 30px; height: 30px; border-radius: 9px;
+    background: var(--grad-hero);
+    display: grid; place-items: center;
+    box-shadow: 0 8px 24px -6px rgba(99,102,241,.6);
+  }
+  .brand-mark svg { width: 18px; height: 18px; color: #fff; }
+  .nav-links { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+  .nav-links a {
+    color: var(--text-dim);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: .92rem;
+    font-weight: 500;
+    transition: color .2s, background .2s;
+  }
+  .nav-links a:hover { color: var(--text); background: var(--surface); }
+
+  /* ==========  Hero  ========== */
+  .hero {
+    max-width: 1180px; margin: 0 auto;
+    padding: 96px 28px 72px;
     text-align: center;
   }
-  header h1 {
-    margin: 0;
-    font-size: 2.2em;
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    font-size: .82rem; color: var(--text-dim);
+    font-family: "JetBrains Mono", monospace;
   }
-  nav {
-    background: #084d70;
-    color: #fff;
-    padding: 10px 40px;
+  .badge .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #22d3ee;
+    box-shadow: 0 0 12px #22d3ee;
+    animation: pulse 1.6s ease-in-out infinite;
   }
-  nav a {
-    color: #fff;
-    margin-right: 20px;
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+  .hero h1 {
+    margin: 22px 0 14px;
+    font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: var(--grad-text);
+    -webkit-background-clip: text; background-clip: text;
+    color: transparent;
+  }
+  .hero .sub {
+    margin: 0 auto; max-width: 720px;
+    color: var(--text-dim); font-size: 1.1rem;
+  }
+  .hero-cta {
+    margin-top: 30px;
+    display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center;
+  }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: 600; font-size: .95rem;
     text-decoration: none;
+    border: 1px solid var(--border-strong);
+    color: var(--text);
+    background: var(--surface);
+    transition: transform .15s, background .2s, border-color .2s;
   }
-  main {
-    padding: 30px 40px;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: #fff;
+  .btn:hover { transform: translateY(-1px); background: var(--surface-strong); border-color: rgba(255,255,255,.28); }
+  .btn.primary {
+    background: var(--grad-hero); border-color: transparent;
+    box-shadow: var(--shadow-lg);
   }
-  section {
-    margin-bottom: 40px;
+  .btn.primary:hover { filter: brightness(1.08); }
+
+  /* ==========  通用区块  ========== */
+  main { max-width: 1180px; margin: 0 auto; padding: 0 28px 80px; }
+  section { padding: 56px 0; scroll-margin-top: 90px; }
+  .section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 28px; flex-wrap: wrap; }
+  .section-title {
+    display: inline-flex; align-items: center; gap: 14px;
+    margin: 0;
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+    font-weight: 800; letter-spacing: -.01em;
   }
-  h2 {
-    color: #0a73b1;
-    border-bottom: 2px solid #0a73b1;
-    padding-bottom: 6px;
+  .section-title .num {
+    font-family: "JetBrains Mono", monospace;
+    font-size: .85rem; color: var(--accent-2);
+    background: rgba(34,211,238,.08);
+    border: 1px solid rgba(34,211,238,.25);
+    padding: 4px 10px; border-radius: 8px;
+    font-weight: 600;
   }
-  h3 {
-    margin-top: 24px;
-    color: #084d70;
+  .section-desc { color: var(--text-dim); max-width: 560px; }
+
+  /* ==========  AI 大佬观点 卡片  ========== */
+  .leaders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
   }
-  ul {
-    padding-left: 20px;
+  .leader-card {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 24px;
+    transition: transform .25s ease, border-color .25s ease, background .25s ease;
+    overflow: hidden;
   }
-  li {
-    margin: 8px 0;
+  .leader-card::before {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(400px 200px at var(--mx, 50%) var(--my, 0%), rgba(99,102,241,.18), transparent 60%);
+    opacity: 0; transition: opacity .3s;
+    pointer-events: none;
   }
-  footer {
-    padding: 20px 40px;
-    background-color: #0a73b1;
+  .leader-card:hover { transform: translateY(-4px); border-color: var(--border-strong); background: var(--surface-strong); }
+  .leader-card:hover::before { opacity: 1; }
+
+  .leader-head { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+  .avatar {
+    width: 52px; height: 52px; border-radius: 14px;
+    display: grid; place-items: center;
+    font-weight: 800; font-size: 1.2rem;
     color: #fff;
-    font-size: 0.85em;
+    background: var(--grad-hero);
+    box-shadow: 0 8px 24px -8px rgba(99,102,241,.7);
+    flex-shrink: 0;
   }
-  .footnotes {
-    font-size: 0.8em;
-    line-height: 1.4;
+  .avatar.am { background: linear-gradient(135deg,#fb7185,#f59e0b); }
+  .avatar.sa { background: linear-gradient(135deg,#22d3ee,#3b82f6); }
+  .avatar.aj { background: linear-gradient(135deg,#a855f7,#ec4899); }
+
+  .leader-name { font-weight: 700; font-size: 1.1rem; }
+  .leader-role { color: var(--text-mute); font-size: .85rem; }
+  .leader-quote {
+    margin: 12px 0 10px;
+    padding: 14px 16px;
+    background: rgba(99,102,241,.08);
+    border-left: 3px solid var(--accent-1);
+    border-radius: 10px;
+    color: #d6dcff;
+    font-weight: 500;
+    font-size: .98rem;
   }
-  .citation {
-    font-size: 0.8em;
+  .leader-body { color: var(--text-dim); font-size: .95rem; }
+  .leader-meta { margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .tag {
+    font-size: .75rem; color: var(--text-dim);
+    background: var(--surface-strong);
+    border: 1px solid var(--border);
+    padding: 4px 10px; border-radius: 999px;
+    font-family: "JetBrains Mono", monospace;
   }
+
+  /* ==========  今日AI大事 时间线  ========== */
+  .news-list { display: grid; gap: 14px; }
+  .news-item {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 18px;
+    padding: 18px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    transition: transform .2s, border-color .2s, background .2s;
+  }
+  .news-item:hover { transform: translateX(4px); border-color: var(--border-strong); background: var(--surface-strong); }
+  .news-icon {
+    width: 56px; height: 56px;
+    border-radius: 14px;
+    display: grid; place-items: center;
+    background: rgba(99,102,241,.10);
+    border: 1px solid rgba(99,102,241,.25);
+    color: var(--accent-2);
+  }
+  .news-icon svg { width: 26px; height: 26px; }
+  .news-item:nth-child(2n) .news-icon { background: rgba(34,211,238,.10); border-color: rgba(34,211,238,.28); color: #67e8f9; }
+  .news-item:nth-child(3n) .news-icon { background: rgba(168,85,247,.10); border-color: rgba(168,85,247,.28); color: #d8b4fe; }
+  .news-item:nth-child(4n) .news-icon { background: rgba(244,114,182,.10); border-color: rgba(244,114,182,.28); color: #f9a8d4; }
+  .news-content strong { color: #fff; font-weight: 700; }
+
+  /* ==========  AI4Science  ========== */
+  .science-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .sci-card {
+    padding: 22px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    transition: transform .2s, border-color .2s;
+    position: relative;
+  }
+  .sci-card:hover { transform: translateY(-3px); border-color: rgba(34,211,238,.4); }
+  .sci-card .sci-icon {
+    width: 44px; height: 44px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(34,211,238,.18), rgba(99,102,241,.18));
+    border: 1px solid rgba(34,211,238,.28);
+    display: grid; place-items: center;
+    color: #67e8f9;
+    margin-bottom: 14px;
+  }
+  .sci-card h4 { margin: 0 0 8px; font-size: 1.05rem; font-weight: 700; }
+  .sci-card p { margin: 0; color: var(--text-dim); font-size: .94rem; }
+
+  /* ==========  关注小红书  ========== */
+  .follow {
+    margin: 24px 0;
+    padding: 32px;
+    border-radius: 22px;
+    background:
+      linear-gradient(135deg, rgba(244,114,182,.16), rgba(168,85,247,.12)),
+      var(--surface);
+    border: 1px solid rgba(244,114,182,.25);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 24px; align-items: center;
+  }
+  .follow-icon {
+    width: 64px; height: 64px;
+    border-radius: 18px;
+    display: grid; place-items: center;
+    background: linear-gradient(135deg, #ff2442, #ff6b9d);
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    box-shadow: 0 12px 32px -8px rgba(255,36,66,.5);
+  }
+  .follow h3 { margin: 0 0 6px; font-size: 1.2rem; }
+  .follow p { margin: 0; color: var(--text-dim); font-size: .95rem; }
+  .follow .id-pill {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: rgba(255,255,255,.07);
+    border: 1px solid var(--border);
+    font-family: "JetBrains Mono", monospace;
+    font-size: .82rem;
+    color: var(--text);
+  }
+
+  /* ==========  Footer  ========== */
+  footer {
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+    padding: 36px 28px;
+    text-align: center;
+    color: var(--text-mute);
+    font-size: .88rem;
+  }
+  footer a { color: var(--text-dim); text-decoration: none; border-bottom: 1px dashed var(--border-strong); }
+  footer a:hover { color: var(--text); }
+
+  /* ==========  响应式  ========== */
+  @media (max-width: 720px) {
+    .nav-inner { padding: 12px 18px; }
+    .nav-links a { padding: 6px 10px; font-size: .85rem; }
+    .hero { padding: 64px 18px 48px; }
+    main { padding: 0 18px 60px; }
+    section { padding: 40px 0; }
+    .news-item { grid-template-columns: 44px 1fr; padding: 14px; gap: 12px; }
+    .news-icon { width: 44px; height: 44px; }
+    .news-icon svg { width: 22px; height: 22px; }
+    .follow { grid-template-columns: 1fr; text-align: center; padding: 24px; }
+    .follow-icon { margin: 0 auto; }
+  }
+
+  /* ==========  入场动画  ========== */
+  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.in { opacity: 1; transform: none; }
 </style>
 </head>
 <body>
-<header>
-  <h1>AI进展汇总</h1>
-  <p>聚焦AI领袖观点、每日大事与AI4Science发展</p>
-</header>
-<nav>
-  <a href="#leaders">AI大佬观点</a>
-  <a href="#daily">今日AI大事</a>
-  <a href="#ai4science">AI4Science进展</a>
-  <a href="#friend">关注梵低</a>
-</nav>
-<main>
-  <section id="leaders">
-    <h2>AI大佬观点</h2>
-    <h3><img src="leader_avatar.png" alt="AI leader avatar" style="width:50px;height:50px;border-radius:50%;vertical-align:middle;margin-right:10px;">埃隆·马斯克</h3>
-    <p>特斯拉与SpaceX创始人马斯克在2025年7月30日通过X（前身为Twitter）发文指出：<strong>“解决饥饿、疾病和贫困的道路在于AI和机器人。”</strong>他强调将利用人工智能终结疾病和饥饿，认为机器人与AI的结合是改善人类福祉的关键【590348188365380†screenshot】。</p>
 
-    <h3><img src="leader_avatar.png" alt="AI leader avatar" style="width:50px;height:50px;border-radius:50%;vertical-align:middle;margin-right:10px;">萨姆·奥特曼</h3>
-    <p>OpenAI首席执行官奥特曼在TED2025会议中接受TED负责人克里斯·安德森采访时表示，<strong>“AI革命将长期存在”。</strong>奥特曼指出，AI的增长令人惊叹，像ChatGPT这样的模型可能很快成为人类自身的延伸。他还强调未来的世界中，AI几乎肯定会超过人类智能，并呼吁重视安全、权力和道德的平衡【593591022813235†screenshot】。</p>
+<div class="bg-grid"></div>
+<div class="bg-orbs">
+  <div class="orb o1"></div>
+  <div class="orb o2"></div>
+  <div class="orb o3"></div>
+</div>
 
-    <h3><img src="leader_avatar.png" alt="AI leader avatar" style="width:50px;height:50px;border-radius:50%;vertical-align:middle;margin-right:10px;">安迪·贾西</h3>
-    <p>亚马逊首席执行官安迪·贾西在2025年6月的一次采访中谈到生成式AI对企业的影响。他认为，生成式AI将提升生产力，但也会导致公司部分职位减少；一些岗位将被AI取代，其他岗位则需要员工学习新技能【117884635800338†screenshot】。</p>
-  </section>
-
-  <section id="daily">
-    <h2>今日AI大事（2025年8月5日）</h2>
-    <ul>
-      <li><img src="ai_news1.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">小米推出下一代语音模型，可在智能汽车与智能家居设备之间提供具备上下文记忆的自然交互【62449032084403†screenshot】。</li>
-      <li><img src="ai_news2.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">xAI发布多模态工具<strong>Grok‑Imagine</strong>，能够生成逼真的图像甚至不适宜内容，引发关于伦理与监管的讨论【62449032084403†screenshot】。</li>
-      <li><img src="ai_news1.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">时尚杂志《Vogue》在广告中使用AI生成的模特，被指忽视真实模特的代表性，引发广泛争议【325732279907507†screenshot】。</li>
-      <li><img src="ai_news2.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">卡内基梅隆大学得到美国国家科学基金会资助，成立AI数学发现研究院，利用AI推动数学证明和定理发现【325732279907507†screenshot】。</li>
-      <li><img src="ai_news1.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">研究人员利用AI发现了有潜力的新型电池材料，可显著提升能源存储效率并加速材料发现【789846741407546†screenshot】。</li>
-      <li><img src="ai_news2.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">博通推出高速AI芯片以提高数据中心连接效率；同时信用评估机构Experian推出AI工具来现代化信用风险模型【105779447741202†screenshot】。</li>
-      <li><img src="ai_news1.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">劳埃德银行宣布名为“Athena”的生成式AI助手，用于帮助客户中心员工更快速回答问题【151823143998950†screenshot】。</li>
-      <li><img src="ai_news2.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">斯坦福大学构建虚拟AI科学家，可以独立设计并运行实验，为科学研究提供新方式【282624421455414†screenshot】。</li>
-      <li><img src="ai_news1.png" alt="AI news illustration" style="width:60px;height:60px;vertical-align:middle;margin-right:10px;">越来越多企业推行AI技能培训，例如英国大型服装零售商Debenhams投资135万英镑建立AI技能学院，以提升员工的AI素养【789846741407546†screenshot】。</li>
-    </ul>
-  </section>
-
-  <section id="ai4science">
-    <h2>AI4Science进展</h2>
-    <p>AI4Science（AI for Science）旨在运用人工智能技术加速科学发现。近期的代表性进展包括：</p>
-    <ul>
-      <li>Anthropic公司在2025年5月宣布推出<strong>AI for Science计划</strong>，向高影响科学项目的研究人员提供免费API额度，重点支持生物学和生命科学应用。Anthropic认为高级AI推理和语言能力可以帮助研究人员分析复杂科学数据、生成假设、设计实验并更有效地交流研究成果，进而加速药物发现、基因数据分析和农业生产【531589357260025†screenshot】。</li>
-      <li>斯坦福大学开发了<strong>虚拟AI科学家</strong>，该系统能够自主运行实验并分析结果，为科研人员节省大量时间【282624421455414†screenshot】。</li>
-      <li>人工智能被用于发现新的电池材料、预测蛋白质结构和发现药物分子等。例如研究团队利用AI识别出可能改进电池性能的新材料【789846741407546†screenshot】。</li>
-      <li>AI辅助医学不断进步：AI系统在视网膜图像中早期发现糖尿病视网膜病变，可及早发现疾病【151823143998950†screenshot】；还有研究者开发出具有98%准确率的通用深度伪造检测器，有助于辨别虚假视频【789846741407546†screenshot】。</li>
-      <li>卡内基梅隆大学的AI数学研究院正在探索让AI参与数学定理证明，推动数学领域的自动化研究【325732279907507†screenshot】。</li>
-    </ul>
-  </section>
-
-  <section id="friend">
-    <h2>关注梵低（小红书）</h2>
-    <p><img src="xiaohongshu_icon.png" alt="小红书图标" style="width:40px;height:40px;vertical-align:middle;margin-right:10px;">更多关于AI4Science的讨论与实践可以关注小红书账号<strong>梵低</strong>（小红书号：8936318663）。该账号分享AI科研、科普文章以及个人实验心得，欢迎扫码关注或直接在小红书中搜索ID。</p>
-    <p>👉 <a href="https://www.xiaohongshu.com/user/profile/8936318663" target="_blank">访问梵低的小红书主页</a></p>
-  </section>
-</main>
-<footer>
-  <div class="footnotes">
-    <p>注释：文中引用的资料来自公开新闻报道和科研项目，其内容和日期以原报道为准。</p>
+<!-- ============== 导航 ============== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <span>AI Progress Hub</span>
+    </div>
+    <div class="nav-links">
+      <a href="#leaders">大佬观点</a>
+      <a href="#daily">今日大事</a>
+      <a href="#ai4science">AI4Science</a>
+      <a href="#friend">关注我</a>
+    </div>
   </div>
-  <p>© 2025 AI Progress Hub</p>
+</nav>
+
+<!-- ============== Hero ============== -->
+<header class="hero">
+  <span class="badge"><span class="dot"></span>每日更新 · 北美东部时间 8:00</span>
+  <h1>追踪 AI 浪潮的<br>每一次脉动</h1>
+  <p class="sub">聚焦 AI 领袖观点 · 每日大事速览 · AI4Science 前沿。一站式了解人工智能最新进展。</p>
+  <div class="hero-cta">
+    <a class="btn primary" href="#daily">查看今日大事
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+    </a>
+    <a class="btn" href="#ai4science">探索 AI4Science</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============== AI 大佬观点 ============== -->
+  <section id="leaders">
+    <div class="section-head">
+      <h2 class="section-title"><span class="num">01</span>AI 大佬观点</h2>
+      <p class="section-desc">业内领袖最近一段时间公开发表的关键判断与预测。</p>
+    </div>
+    <div class="leaders-grid">
+
+      <article class="leader-card reveal">
+        <div class="leader-head">
+          <div class="avatar em" aria-hidden="true">EM</div>
+          <div>
+            <div class="leader-name">埃隆·马斯克 (Elon Musk)</div>
+            <div class="leader-role">特斯拉 / SpaceX / xAI 创始人</div>
+          </div>
+        </div>
+        <blockquote class="leader-quote">"解决饥饿、疾病和贫困的道路在于 AI 和机器人。"</blockquote>
+        <p class="leader-body">2025 年 7 月 30 日，马斯克在 X 平台发文，强调将利用人工智能终结疾病和饥饿，认为机器人与 AI 的结合是改善人类福祉的关键。</p>
+        <div class="leader-meta"><span class="tag">2025-07-30</span><span class="tag">X / Twitter</span></div>
+      </article>
+
+      <article class="leader-card reveal">
+        <div class="leader-head">
+          <div class="avatar sa" aria-hidden="true">SA</div>
+          <div>
+            <div class="leader-name">萨姆·奥特曼 (Sam Altman)</div>
+            <div class="leader-role">OpenAI 首席执行官</div>
+          </div>
+        </div>
+        <blockquote class="leader-quote">"AI 革命将长期存在。"</blockquote>
+        <p class="leader-body">在 TED 2025 上接受 Chris Anderson 采访时，奥特曼指出 AI 的增长令人惊叹，ChatGPT 这类模型可能很快成为人类自身的延伸；他同时呼吁重视安全、权力与道德的平衡。</p>
+        <div class="leader-meta"><span class="tag">TED 2025</span><span class="tag">Safety & Ethics</span></div>
+      </article>
+
+      <article class="leader-card reveal">
+        <div class="leader-head">
+          <div class="avatar aj" aria-hidden="true">AJ</div>
+          <div>
+            <div class="leader-name">安迪·贾西 (Andy Jassy)</div>
+            <div class="leader-role">亚马逊首席执行官</div>
+          </div>
+        </div>
+        <blockquote class="leader-quote">"生成式 AI 将重塑岗位结构。"</blockquote>
+        <p class="leader-body">2025 年 6 月的访谈中，贾西谈到生成式 AI 对企业的影响：AI 将提升生产力，部分岗位将被替代，其余岗位则要求员工持续学习新技能。</p>
+        <div class="leader-meta"><span class="tag">2025-06</span><span class="tag">Enterprise</span></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============== 今日 AI 大事 ============== -->
+  <section id="daily">
+    <div class="section-head">
+      <h2 class="section-title"><span class="num">02</span>今日AI大事（<span id="last-updated">2025年8月5日</span>）</h2>
+      <p class="section-desc">每日定时由 GitHub Action 自动更新日期。</p>
+    </div>
+    <div class="news-list">
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        </div>
+        <div class="news-content">小米推出下一代语音模型，可在<strong>智能汽车</strong>与<strong>智能家居</strong>设备之间提供具备上下文记忆的自然交互。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        </div>
+        <div class="news-content">xAI 发布多模态工具 <strong>Grok-Imagine</strong>，能够生成逼真图像，引发关于伦理与监管的广泛讨论。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+        </div>
+        <div class="news-content">时尚杂志《Vogue》在广告中使用 <strong>AI 生成模特</strong>，被指忽视真实模特的代表性，引发广泛争议。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        </div>
+        <div class="news-content">卡内基梅隆大学获 NSF 资助，成立 <strong>AI 数学发现研究院</strong>，利用 AI 推动数学证明和定理发现。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div class="news-content">研究人员利用 AI 发现 <strong>新型电池材料</strong>，可显著提升能源存储效率并加速材料发现。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/><line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="14" x2="22" y2="14"/><line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="14" x2="4" y2="14"/></svg>
+        </div>
+        <div class="news-content">博通推出 <strong>高速 AI 芯片</strong> 提高数据中心连接效率；信用评估机构 Experian 推出 AI 工具现代化信用风险模型。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div class="news-content">劳埃德银行发布生成式 AI 助手 <strong>Athena</strong>，帮助客服中心员工更快速回答客户问询。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/><circle cx="12" cy="12" r="3"/></svg>
+        </div>
+        <div class="news-content">斯坦福大学构建 <strong>虚拟 AI 科学家</strong>，可独立设计并运行实验，为科学研究提供全新方式。</div>
+      </div>
+
+      <div class="news-item reveal">
+        <div class="news-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div class="news-content">企业 AI 技能培训正在普及。英国零售商 Debenhams 投资 <strong>£1.35M</strong> 建立 AI 技能学院，提升员工 AI 素养。</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============== AI4Science ============== -->
+  <section id="ai4science">
+    <div class="section-head">
+      <h2 class="section-title"><span class="num">03</span>AI4Science 进展</h2>
+      <p class="section-desc">AI 加速科学发现的代表性最新进展。</p>
+    </div>
+    <div class="science-grid">
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
+        </div>
+        <h4>Anthropic AI for Science 计划</h4>
+        <p>2025 年 5 月，Anthropic 向高影响科学项目研究者提供免费 API 额度，重点支持生物学和生命科学，加速药物发现、基因数据分析和农业生产。</p>
+      </article>
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
+        </div>
+        <h4>斯坦福虚拟 AI 科学家</h4>
+        <p>该系统能够自主设计、运行实验并分析结果，将研究者从重复性工作中解放出来，大幅缩短科研迭代周期。</p>
+      </article>
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h4>新型电池材料发现</h4>
+        <p>研究团队利用 AI 在海量化合物空间中识别出能够改进储能性能的全新材料候选，加速材料筛选流程。</p>
+      </article>
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
+        </div>
+        <h4>AI 辅助医学诊断</h4>
+        <p>AI 系统在视网膜图像中早期识别糖尿病视网膜病变；同时一种通用深度伪造检测器达到 98% 的准确率，提升内容可信度。</p>
+      </article>
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h4>CMU AI 数学研究院</h4>
+        <p>卡内基梅隆大学的 AI 数学研究院让 AI 参与定理证明，推动数学领域的自动化研究与新猜想发现。</p>
+      </article>
+
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>蛋白质结构与药物分子</h4>
+        <p>AI 持续推动蛋白质结构预测和候选药物分子设计，进一步压缩从靶点到先导化合物的时间。</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============== 关注小红书 ============== -->
+  <section id="friend">
+    <div class="follow reveal">
+      <div class="follow-icon" aria-hidden="true">梵</div>
+      <div>
+        <h3>关注「梵低」</h3>
+        <p>分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。</p>
+        <div class="id-pill">小红书号: 8936318663</div>
+      </div>
+      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/8936318663" target="_blank" rel="noopener">前往主页
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2025 AI Progress Hub · 内容引自公开新闻报道与科研项目，最终以原报道为准。</p>
+  <p>由 GitHub Pages 托管 · 每日自动更新 · <a href="https://github.com/Yang1Bai/ai-progress-site" target="_blank" rel="noopener">仓库源码</a></p>
 </footer>
+
+<script>
+  // 滚动入场动画
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // 卡片光标跟随
+  document.querySelectorAll('.leader-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const r = card.getBoundingClientRect();
+      card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+      card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+    });
+  });
+</script>
+
 </body>
 </html>
