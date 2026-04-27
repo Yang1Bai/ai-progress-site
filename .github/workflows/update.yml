@@ -2,29 +2,48 @@ name: Daily AI progress update
 
 on:
   schedule:
+    # 每天 UTC 12:00（北美东部 8 点 / 北京 20 点）触发
     - cron: '0 12 * * *'
   workflow_dispatch:
+
+# 关键：给 GITHUB_TOKEN 写权限，否则 git push 会被拒绝
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-      - name: Set up Git
+        uses: actions/checkout@v4
+        with:
+          # 使用持久 token 以便后续 push
+          persist-credentials: true
+
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-      - name: Update date in index.html
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Compute today's date (Toronto TZ)
+        id: date
         run: |
           DATE=$(TZ="America/Toronto" date +"%Y年%-m月%-d日")
-          # Replace date in the heading 今日AI大事（...)符合 with current date
-          sed -i "s/今日AI大事（[^）]*）/今日AI大事（${DATE}）/" index.html
+          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
+          echo "Today: ${DATE}"
+
+      - name: Update date in index.html
+        run: |
+          DATE="${{ steps.date.outputs.date }}"
+          # 仅替换 <span id="last-updated">…</span> 内部的文字，保留标签便于样式锚点
+          sed -i "s|<span id=\"last-updated\">[^<]*</span>|<span id=\"last-updated\">${DATE}</span>|" index.html
+
       - name: Commit and push changes
         run: |
-          if [[ -n $(git status --porcelain) ]]; then
+          DATE="${{ steps.date.outputs.date }}"
+          if [[ -n "$(git status --porcelain)" ]]; then
             git add index.html
-            git commit -m "Automated update: ${DATE}"
+            git commit -m "chore: automated daily update ${DATE}"
             git push
           else
             echo "No changes to commit"
