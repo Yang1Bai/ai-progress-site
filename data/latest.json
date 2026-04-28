@@ -1,0 +1,145 @@
+{
+  "leaders": [
+    {
+      "name": "示例·一号",
+      "name_en": "Sample One",
+      "role": "示例公司 CEO",
+      "quote": "AI 将重塑下一个十年。",
+      "body": "占位（dry-run）。",
+      "tags": [
+        "2026-04"
+      ],
+      "initials": "S1",
+      "quote_date": "4月27日"
+    },
+    {
+      "name": "示例·二号",
+      "name_en": "Sample Two",
+      "role": "Anthropic 研究员",
+      "quote": "可解释性是 AGI 安全的关键。",
+      "body": "占位（dry-run）。",
+      "tags": [
+        "Anthropic"
+      ],
+      "initials": "S2",
+      "quote_date": "近期"
+    },
+    {
+      "name": "示例·三号",
+      "name_en": "Sample Three",
+      "role": "DeepMind VP",
+      "quote": "AI4Science 进入加速期。",
+      "body": "占位（dry-run）。",
+      "tags": [
+        "DeepMind"
+      ],
+      "initials": "S3",
+      "quote_date": "4月25日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>示例 A</strong>：占位新闻。",
+      "url": "https://example.com/a",
+      "importance": "breaking",
+      "tags": [
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>示例 B</strong>：占位新闻。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>示例 C</strong>：占位新闻。",
+      "url": "https://example.com/c",
+      "importance": "normal",
+      "tags": [
+        "#芯片"
+      ]
+    }
+  ],
+  "science": [
+    {
+      "title": "示例进展 alpha",
+      "body": "AI 在某科学问题上突破（占位）。"
+    },
+    {
+      "title": "示例进展 beta",
+      "body": "AI 在另一问题上突破（占位）。"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Materials",
+      "title": "Mock paper for dry-run rendering",
+      "authors": "Doe J. et al.",
+      "summary": "Mock 验证论文卡片渲染。",
+      "date": "2026-04-25",
+      "url": "https://example.com/p1",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Mock paper on AI-driven catalysis",
+      "authors": "Roe A. et al.",
+      "summary": "AI 引导的催化剂设计示例。",
+      "date": "2026-04-23",
+      "url": "https://example.com/p2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "NeurIPS 2025",
+      "title": "Mock GNN paper for crystals",
+      "authors": "Kim S. et al.",
+      "summary": "图神经网络预测晶体性质示例。",
+      "date": "2026-04-22",
+      "url": "https://example.com/p3",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 4",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-04-25",
+      "highlight": "最新旗舰推理模型",
+      "tier": "S"
+    },
+    {
+      "name": "GPT-5.5",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-04-24",
+      "highlight": "统一超级应用",
+      "tier": "S"
+    },
+    {
+      "name": "DeepSeek V4",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-04-23",
+      "highlight": "开源最强，100K ctx",
+      "tier": "A"
+    }
+  ],
+  "date": "2026年4月27日",
+  "stats": {
+    "news_count": 3,
+    "paper_count": 3,
+    "leader_count": 3,
+    "science_count": 2
+  }
+}

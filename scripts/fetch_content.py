@@ -8,6 +8,7 @@ fetch_content.py
   2. 今日 AI 大事 (news)  ← 每条带原文链接
   3. AI4Science 进展 (science)
   4. AI4Material 论文 (papers)  ← 严格材料领域过滤
+  5. 本周模型动态 (models)  ← 新增
 
 同时：
   - 保存原始 JSON 到 data/YYYY-MM-DD.json + data/latest.json
@@ -52,7 +53,7 @@ SYSTEM_PROMPT = (
     "重要术语可保留英文原名。"
 )
 
-USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web_search 工具搜索过去 1-7 天的最新 AI 资讯与论文，然后输出包含四个区块的 JSON。
+USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web_search 工具搜索过去 1-7 天的最新 AI 资讯与论文，然后输出包含五个区块的 JSON。
 
 要求：
 1. **leaders**：3 位 AI 行业领袖最近 1-2 周的公开观点。优先 OpenAI / Anthropic / Google DeepMind / Meta / xAI / 微软 / 英伟达 / 阿里 / 字节 / 智谱 等公司高管或知名研究者。每位提供：
@@ -66,6 +67,8 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - title (可省略, 留空字符串)
    - body (一句完整中文新闻概述, 30-60 字, 可包含 <strong>...</strong> 标签突出关键词，但只能使用 <strong>)
    - url (该新闻的原文链接，必须是真实存在的 https:// URL；如实在无法确认链接则留空字符串 "")
+   - importance ("breaking" | "major" | "normal"): breaking=突破性头条(每次最多1条), major=重磅消息, normal=普通资讯
+   - tags (1-2 个话题标签列表，从以下选择: ["#LLM", "#多模态", "#机器人", "#安全", "#芯片", "#材料", "#生物", "#政策", "#开源", "#Agent"])
 
 3. **science**：5-6 条最近 AI4Science 进展。每条提供：
    - title (短标题, 中文 <15 字)
@@ -91,6 +94,12 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - authors ("Smith J. et al." 格式)
    - summary (1-2 句中文要点, 40-80 字, 重点说明 AI 方法 + 材料应用)
    - date ("YYYY-MM-DD"), url (DOI / 会议 / arXiv 链接)
+   - is_week_pick (true | false): 每次只能有 1 篇为 true，选出本周最重要的材料 AI 论文
+
+5. **models**：本周发布或更新的 top AI 模型，4-6 个条目。每个提供：
+   - name (模型名称), org (机构全名), org_short (机构缩写 2-4 字母大写)
+   - release_date ("YYYY-MM-DD"), highlight (一句中文亮点 <20 字)
+   - tier ("S" | "A" | "B"): S=顶级旗舰, A=强力, B=实用
 
 关键约束：必须基于 web_search 结果，严禁编造不存在的论文或链接。如某来源近一周确实没有合适论文，宁可减少数量也不要造假。如果完全找不到，可放宽到过去两周。新闻 url 也必须是真实可访问链接，不确定则留空。
 
@@ -98,9 +107,10 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
 {{
   "date": "YYYY年M月D日",
   "leaders": [{{ "name": "...", "name_en": "...", "role": "...", "quote": "...", "body": "...", "tags": ["..."], "initials": "AB", "quote_date": "M月D日" }}],
-  "news": [{{ "title": "", "body": "...", "url": "https://..." }}],
+  "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"] }}],
   "science": [{{ "title": "...", "body": "..." }}],
-  "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://..." }}]
+  "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
+  "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}]
 }}
 
 只输出 JSON，不要 ```json 代码块包裹，不要任何前后说明文字。"""
@@ -192,6 +202,13 @@ def render_leaders(items):
 
 def render_news(items):
     out = []
+    # 找第一条 breaking 或直接用第一条作为 headline
+    headline_idx = 0
+    for i, it in enumerate(items[:10]):
+        if it.get("importance") == "breaking":
+            headline_idx = i
+            break
+
     for i, it in enumerate(items[:10]):
         icon = NEWS_ICONS[i % len(NEWS_ICONS)]
         body = sanitize_strong(it.get("body", ""))
@@ -199,13 +216,39 @@ def render_news(items):
         source_btn = ""
         if url.startswith(("http://", "https://")):
             source_btn = f'<a class="news-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">原文 {LINK_SVG}</a>'
-        out.append(f'''      <div class="news-item reveal">
+
+        importance = it.get("importance", "normal")
+        badge_html = ""
+        if importance == "breaking":
+            badge_html = '<span class="badge-breaking">BREAKING</span>'
+        elif importance == "major":
+            badge_html = '<span class="badge-major">⚡ 重磅</span>'
+
+        tags_html = ""
+        tags = it.get("tags") or []
+        if tags:
+            tag_items = "".join(f'<span class="news-tag" onclick="filterNews(\'{t}\')">{escape_text(t)}</span>' for t in tags[:2])
+            tags_html = f'<div class="news-tags">{tag_items}</div>'
+
+        if i == headline_idx:
+            # Headline style
+            out.append(f'''      <div class="news-headline reveal">
+        {badge_html}
+        <p class="news-body">{body}</p>
+        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+          {source_btn}
+          {tags_html}
+        </div>
+      </div>''')
+        else:
+            out.append(f'''      <div class="news-item reveal" data-tags="{escape_text(",".join(tags))}">
         <div class="news-icon" aria-hidden="true">
           {icon}
         </div>
         <div class="news-content">
+          {badge_html}
           <p class="news-body">{body}</p>
-          {source_btn}
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">{source_btn}{tags_html}</div>
         </div>
       </div>''')
     return "\n".join(out)
@@ -226,15 +269,21 @@ def render_science(items):
 
 
 def render_papers(items):
+    # 把 week pick 排最前
+    sorted_items = sorted(items[:8], key=lambda x: 0 if x.get("is_week_pick") else 1)
     out = []
-    for it in items[:8]:
+    for it in sorted_items:
         vt = (it.get("venue_type") or "conf").lower()
         if vt not in ("nature", "science", "conf"):
             vt = "conf"
         url = (it.get("url") or "").strip()
         if not url.startswith(("http://", "https://")):
             url = "#"
-        out.append(f'''      <article class="paper-card {vt} reveal">
+        pick = it.get("is_week_pick", False)
+        pick_banner = '<div class="pick-banner">⭐ 本周精选</div>' if pick else ""
+        pick_class = " paper-card-pick" if pick else ""
+        out.append(f'''      <article class="paper-card {vt}{pick_class} reveal">
+        {pick_banner}
         <span class="paper-venue">{escape_text(it.get("venue", ""))}</span>
         <h4 class="paper-title">{escape_text(it.get("title", ""))}</h4>
         <p class="paper-authors">{escape_text(it.get("authors", ""))}</p>
@@ -245,6 +294,36 @@ def render_papers(items):
         </div>
       </article>''')
     return "\n".join(out)
+
+
+def render_models(items):
+    out = []
+    for it in (items or [])[:8]:
+        tier = (it.get("tier") or "B").upper()
+        if tier not in ("S", "A", "B"):
+            tier = "B"
+        out.append(f'''      <div class="model-chip tier-{tier}">
+        <span class="model-org">{escape_text(it.get("org_short", ""))}</span>
+        <span class="model-name">{escape_text(it.get("name", ""))}</span>
+        <span class="model-tier">{tier}</span>
+      </div>''')
+    return "\n".join(out)
+
+
+def render_stats(data):
+    stats = data.get("stats", {})
+    nc = stats.get("news_count", 0)
+    pc = stats.get("paper_count", 0)
+    lc = stats.get("leader_count", 3)
+    sc = stats.get("science_count", 0)
+    date_str = escape_text(data.get("date", ""))
+    return f'''      <span class="badge" style="display:inline-flex;margin-bottom:20px;"><span class="dot"></span>Claude API · 每日自动抓取 · <span id="last-updated">{date_str}</span></span>
+      <div class="stats-bar">
+        <span class="stat-item"><span class="stat-num" data-target="{nc}">{nc}</span><span class="stat-label">条资讯</span></span>
+        <span class="stat-item"><span class="stat-num" data-target="{pc}">{pc}</span><span class="stat-label">篇论文</span></span>
+        <span class="stat-item"><span class="stat-num" data-target="{lc}">{lc}</span><span class="stat-label">位领袖</span></span>
+        <span class="stat-item"><span class="stat-num" data-target="{sc}">{sc}</span><span class="stat-label">项科学进展</span></span>
+      </div>'''
 
 
 # ---------------------------------------------------------------------------
@@ -423,8 +502,12 @@ def load_mock():
              "tags": ["DeepMind"], "initials": "S3", "quote_date": "4月25日"},
         ],
         "news": [
-            {"title": "", "body": "<strong>示例 A</strong>：占位新闻。", "url": "https://example.com/a"},
-            {"title": "", "body": "<strong>示例 B</strong>：占位新闻。", "url": ""},
+            {"title": "", "body": "<strong>示例 A</strong>：占位新闻。", "url": "https://example.com/a",
+             "importance": "breaking", "tags": ["#LLM"]},
+            {"title": "", "body": "<strong>示例 B</strong>：占位新闻。", "url": "",
+             "importance": "major", "tags": ["#Agent", "#开源"]},
+            {"title": "", "body": "<strong>示例 C</strong>：占位新闻。", "url": "https://example.com/c",
+             "importance": "normal", "tags": ["#芯片"]},
         ],
         "science": [
             {"title": "示例进展 alpha", "body": "AI 在某科学问题上突破（占位）。"},
@@ -435,17 +518,25 @@ def load_mock():
              "title": "Mock paper for dry-run rendering",
              "authors": "Doe J. et al.",
              "summary": "Mock 验证论文卡片渲染。",
-             "date": "2026-04-25", "url": "https://example.com/p1"},
+             "date": "2026-04-25", "url": "https://example.com/p1",
+             "is_week_pick": True},
             {"venue_type": "science", "venue": "Science",
              "title": "Mock paper on AI-driven catalysis",
              "authors": "Roe A. et al.",
              "summary": "AI 引导的催化剂设计示例。",
-             "date": "2026-04-23", "url": "https://example.com/p2"},
+             "date": "2026-04-23", "url": "https://example.com/p2",
+             "is_week_pick": False},
             {"venue_type": "conf", "venue": "NeurIPS 2025",
              "title": "Mock GNN paper for crystals",
              "authors": "Kim S. et al.",
              "summary": "图神经网络预测晶体性质示例。",
-             "date": "2026-04-22", "url": "https://example.com/p3"},
+             "date": "2026-04-22", "url": "https://example.com/p3",
+             "is_week_pick": False},
+        ],
+        "models": [
+            {"name": "Claude Sonnet 4", "org": "Anthropic", "org_short": "ANT", "release_date": "2026-04-25", "highlight": "最新旗舰推理模型", "tier": "S"},
+            {"name": "GPT-5.5", "org": "OpenAI", "org_short": "OAI", "release_date": "2026-04-24", "highlight": "统一超级应用", "tier": "S"},
+            {"name": "DeepSeek V4", "org": "DeepSeek", "org_short": "DS", "release_date": "2026-04-23", "highlight": "开源最强，100K ctx", "tier": "A"},
         ],
     }
 
@@ -469,6 +560,14 @@ def main():
             print(f"ERROR: Claude 调用失败: {e}", file=sys.stderr)
             return 3
 
+    # 自动计算 stats
+    data["stats"] = {
+        "news_count": len(data.get("news", [])),
+        "paper_count": len(data.get("papers", [])),
+        "leader_count": len(data.get("leaders", [])),
+        "science_count": len(data.get("science", [])),
+    }
+
     # 更新 index.html
     html = INDEX.read_text(encoding="utf-8")
     html = replace_block(html, "<!-- LEADERS:START -->", "<!-- LEADERS:END -->",
@@ -479,6 +578,11 @@ def main():
                          render_science(data.get("science", [])))
     html = replace_block(html, "<!-- MATERIAL:START -->", "<!-- MATERIAL:END -->",
                          render_papers(data.get("papers", [])))
+    html = replace_block(html, "<!-- MODELS:START -->", "<!-- MODELS:END -->",
+                         render_models(data.get("models", [])))
+    html = replace_block(html, "<!-- STATS:START -->", "<!-- STATS:END -->",
+                         render_stats(data))
+    # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
     INDEX.write_text(html, encoding="utf-8")
     print(f"[ok] 已更新 index.html（日期 {data.get('date', today)}）")
