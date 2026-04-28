@@ -628,7 +628,18 @@
       card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%');
     });
   });
+
+  // GoatCounter visitor count
+  fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
+    .then(r => r.json())
+    .then(d => {
+      const el = document.getElementById('visitor-count');
+      if (el && d.count) el.textContent = d.count;
+    }).catch(() => {});
 </script>
 
+
+<script data-goatcounter="https://yangbai-ai.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
