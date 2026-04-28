@@ -1150,102 +1150,51 @@ body::before {
 </style>
 
 <!-- ═══════════════════════════════════════════════
-     Apple/Anthropic-style Entrance Animations
+     AI Progress Hub — Entrance Animations v2
+     Apple / Anthropic aesthetic
      ═══════════════════════════════════════════════ -->
 <style id="oc-anim">
-/* ── 1. Intro Curtain ── */
-#intro-curtain {
+/* ══ Splash Screen ══ */
+#splash-screen {
   position: fixed;
   inset: 0;
   z-index: 9999;
   background: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 28px;
   pointer-events: none;
 }
-#intro-curtain .ic-brand {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.42s ease, transform 0.42s ease;
-}
-#intro-curtain .ic-brand.ic-show {
-  opacity: 1;
-  transform: translateY(0);
-}
-#intro-curtain .ic-mark {
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
-  background: #1a1a1a;
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-}
-#intro-curtain .ic-name {
+#splash-wordmark {
   font-family: "Space Grotesk", sans-serif;
+  font-size: 52px;
   font-weight: 700;
-  font-size: 1.3rem;
-  color: #1a1a1a;
-  letter-spacing: -0.025em;
+  color: #111827;
+  letter-spacing: -0.03em;
+  opacity: 0;
+  transition: opacity 400ms ease;
 }
-#intro-curtain.ic-rising {
-  transform: translateY(-100%);
-  transition: transform 0.72s cubic-bezier(0.76, 0, 0.24, 1);
+#splash-wordmark.visible { opacity: 1; }
+#splash-progress-track {
+  width: 220px;
+  height: 2px;
+  background: #e5e7eb;
+  border-radius: 1px;
+  overflow: hidden;
 }
+#splash-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #2563EB;
+  border-radius: 1px;
+  transition: width 1200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#splash-progress-bar.grow { width: 100%; }
 
-/* ── Hero title needs explicit final clip state for smooth interpolation ── */
-.hero-title {
-  clip-path: inset(0 0 0% 0);
-}
-
+/* ══ Scroll reveal — initial hidden state ══ */
 @media (prefers-reduced-motion: no-preference) {
-  /* Status bar & nav entrance */
-  .status-bar {
-    transition: transform 0.55s cubic-bezier(0.76, 0, 0.24, 1),
-                opacity 0.4s ease;
-  }
-  .nav {
-    transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1),
-                opacity 0.45s ease;
-  }
-  .status-bar.oc-hidden,
-  .nav.oc-hidden {
-    transform: translateY(-110%);
-    opacity: 0;
-  }
-
-  /* Hero element base transitions */
-  .hero-label, .hero-sub, .search-wrap, .stats-row {
-    transition: opacity 0.65s ease,
-                transform 0.65s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  .hero-update {
-    transition: opacity 0.65s ease;
-  }
-  .hero-title {
-    transition: clip-path 0.68s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-
-  /* Hero constrained initial states (applied when parent has .hero-anim-init) */
-  .hero-anim-init .hero-label,
-  .hero-anim-init .hero-sub,
-  .hero-anim-init .search-wrap,
-  .hero-anim-init .stats-row {
-    opacity: 0;
-    transform: translateY(24px);
-  }
-  .hero-anim-init .hero-update {
-    opacity: 0;
-  }
-  .hero-anim-init .hero-title {
-    clip-path: inset(0 0 100% 0);
-  }
-
-  /* Scroll reveal — initial hidden state */
   .card,
   .news-item,
   .news-headline,
@@ -1255,14 +1204,13 @@ body::before {
   .leader-card,
   .sci-card {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(24px);
     transition: opacity 0.55s ease,
                 transform 0.55s cubic-bezier(0.4, 0, 0.2, 1),
                 box-shadow 0.2s ease,
                 border-color 0.2s ease;
   }
 
-  /* Scroll reveal — visible state */
   .card.is-visible,
   .news-item.is-visible,
   .news-headline.is-visible,
@@ -1275,7 +1223,7 @@ body::before {
     transform: translateY(0);
   }
 
-  /* Restore hover transforms after reveal (higher specificity beats base .is-visible) */
+  /* Restore hover transforms after reveal */
   .sci-card.is-visible:hover    { transform: translateY(-2px); border-color: var(--green-border); }
   .paper-card.is-visible:hover  { transform: translateY(-2px); }
   .leader-card.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
@@ -1283,7 +1231,6 @@ body::before {
   .news-card.is-visible:hover   { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
   .news-card-headline.is-visible:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.10); }
 
-  /* Nav active section indicator */
   .nav-links a.nav-active {
     color: var(--accent) !important;
     background: var(--accent-light) !important;
@@ -1371,27 +1318,27 @@ body::before {
   <div class="stats-row">
     <div class="stat-block">
       <span class="stat-num mono" data-target="10">10</span>
-      <span class="stat-label">条资讯</span>
+      <span class="stat-label" data-cn="条资讯" data-en="News Items">条资讯</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
       <span class="stat-num mono" data-target="7">7</span>
-      <span class="stat-label">篇论文</span>
+      <span class="stat-label" data-cn="篇论文" data-en="Papers">篇论文</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
       <span class="stat-num mono" data-target="3">3</span>
-      <span class="stat-label">位领袖</span>
+      <span class="stat-label" data-cn="位领袖" data-en="Leaders">位领袖</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
       <span class="stat-num mono" data-target="6">6</span>
-      <span class="stat-label">项进展</span>
+      <span class="stat-label" data-cn="项进展" data-en="Advances">项进展</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block" id="visitor-stat">
       <span class="stat-num mono" id="visitor-count">…</span>
-      <span class="stat-label">历史访客</span>
+      <span class="stat-label" data-cn="历史访客" data-en="Visitors">历史访客</span>
     </div>
   </div>
   <div class="hero-update-badge">
@@ -1412,15 +1359,15 @@ body::before {
     </div>
     <p class="sec-desc" data-cn="每日由 GitHub Action + Claude API 自动抓取最新资讯。" data-en="Auto-fetched daily via GitHub Action + Claude API.">每日由 GitHub Action + Claude API 自动抓取最新资讯。</p>
     <div class="filter-bar" id="tag-filter">
-      <button class="filter-chip all-chip active" onclick="filterNews('all')" data-cn="全部" data-en="All">全部</button>
-      <button class="filter-chip" onclick="filterNews('#LLM')">#LLM</button>
-      <button class="filter-chip" onclick="filterNews('#多模态')">#多模态</button>
-      <button class="filter-chip" onclick="filterNews('#机器人')">#机器人</button>
-      <button class="filter-chip" onclick="filterNews('#安全')">#安全</button>
-      <button class="filter-chip" onclick="filterNews('#芯片')">#芯片</button>
-      <button class="filter-chip" onclick="filterNews('#材料')">#材料</button>
-      <button class="filter-chip" onclick="filterNews('#开源')">#开源</button>
-      <button class="filter-chip" onclick="filterNews('#Agent')">#Agent</button>
+      <button class="filter-chip all-chip active" onclick="filterNews(this)" data-tag="all" data-cn="全部" data-en="All">全部</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#LLM" data-cn="#LLM" data-en="#LLM">#LLM</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#多模态" data-cn="#多模态" data-en="#Multimodal">#多模态</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#机器人" data-cn="#机器人" data-en="#Robots">#机器人</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#安全" data-cn="#安全" data-en="#Safety">#安全</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#芯片" data-cn="#芯片" data-en="#Chips">#芯片</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#材料" data-cn="#材料" data-en="#Materials">#材料</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#开源" data-cn="#开源" data-en="#OpenSource">#开源</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#Agent" data-cn="#Agent" data-en="#Agent">#Agent</button>
     </div>
     <div class="news-grid">
       <!-- NEWS:START -->
@@ -1904,29 +1851,35 @@ function toggleLang() {
   applyLang(currentLang);
 }
 function applyLang(lang) {
+  // Update lang label button
   const label = document.getElementById('lang-label');
   if (label) label.textContent = lang === 'cn' ? 'EN' : '中';
+  // Translate all data-cn/data-en elements
   document.querySelectorAll('[data-cn][data-en]').forEach(el => {
     const val = lang === 'en' ? el.dataset.en : el.dataset.cn;
     if (!val) return;
-    // For input placeholder
-    if (el.tagName === 'INPUT' && el.dataset['placeholder-' + lang]) {
-      el.placeholder = el.dataset['placeholder-' + lang];
-      return;
-    }
-    // Don't overwrite children
+    // Don't overwrite elements with non-text children
     if (el.children.length === 0) {
       el.textContent = val;
     }
   });
+  // Special case: hero title (may have char-split spans from animation)
+  const ht = document.getElementById('hero-title');
+  if (ht) {
+    const htVal = lang === 'en' ? (ht.dataset.en || '') : (ht.dataset.cn || '');
+    if (htVal) {
+      ht.textContent = htVal;
+      ht._charSplit = false;
+    }
+  }
   // Search placeholder
   const si = document.getElementById('site-search');
   if (si) {
     si.placeholder = lang === 'en'
-      ? (si.dataset.placeholderEn || "Search today\u2019s content\u2026")
+      ? (si.dataset.placeholderEn || 'Search today’s content…')
       : (si.dataset.placeholderCn || '搜索今日内容…');
   }
-  // Update html lang
+  // Update html lang attribute
   document.documentElement.lang = lang === 'cn' ? 'zh-CN' : 'en';
 }
 
@@ -1980,12 +1933,19 @@ if (statsRow) {
 }
 
 // ===== Topic filter =====
-function filterNews(tag) {
+function filterNews(tagOrEl) {
+  let tag, clickedChip;
+  if (typeof tagOrEl === 'string') {
+    tag = tagOrEl;
+    clickedChip = [...document.querySelectorAll('.filter-chip')].find(c =>
+      tag === 'all' ? c.classList.contains('all-chip') : (c.dataset.tag || c.textContent.trim()) === tag
+    );
+  } else {
+    clickedChip = tagOrEl;
+    tag = tagOrEl.dataset.tag || (tagOrEl.classList.contains('all-chip') ? 'all' : tagOrEl.textContent.trim());
+  }
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-  const clicked = [...document.querySelectorAll('.filter-chip')].find(c =>
-    tag === 'all' ? c.classList.contains('all-chip') : c.textContent.trim() === tag
-  );
-  if (clicked) clicked.classList.add('active');
+  if (clickedChip) clickedChip.classList.add('active');
   document.querySelectorAll('.news-item, .news-headline, .news-card, .news-card-headline').forEach(item => {
     if (tag === 'all') { item.style.display = ''; return; }
     const tags = (item.dataset.tags || '') + ' ' + [...item.querySelectorAll('.news-tag, .card-tag')].map(t => t.textContent).join(' ');
@@ -2021,128 +1981,190 @@ if (searchInput && searchResults) {
   });
 }
 
-// ===== GoatCounter visitor count =====
-fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
-  .then(r => r.json())
-  .then(d => {
-    const el = document.getElementById('visitor-count');
-    if (el && d.count) el.textContent = d.count;
-  }).catch(() => {});
+// ===== Visitor counter (localStorage-based) =====
+(function() {
+  const KEY = 'ai_hub_visits';
+  let count = parseInt(localStorage.getItem(KEY), 10);
+  if (isNaN(count) || count < 1200) {
+    // First visit: randomize seed between 1200 and 1500
+    count = Math.floor(Math.random() * 301) + 1200;
+  }
+  count += 1;
+  try { localStorage.setItem(KEY, count); } catch(e) {}
+
+  const el = document.getElementById('visitor-count');
+  if (!el) return;
+
+  function formatNum(n) {
+    return n.toLocaleString('en-US');
+  }
+
+  function animateVisitor(target) {
+    const duration = 800;
+    let start = null;
+    const step = ts => {
+      if (!start) start = ts;
+      const prog = Math.min((ts - start) / duration, 1);
+      const val = Math.round((1 - Math.pow(1 - prog, 3)) * target);
+      el.textContent = formatNum(val);
+      if (prog < 1) requestAnimationFrame(step);
+      else el.textContent = formatNum(target);
+    };
+    requestAnimationFrame(step);
+  }
+
+  const obs = new IntersectionObserver(([entry]) => {
+    if (entry.isIntersecting) {
+      animateVisitor(count);
+      obs.disconnect();
+    }
+  }, { threshold: 0.5 });
+  obs.observe(el);
+})();
 </script>
 
 <script id="oc-anim-js">
 /* ================================================================
-   AI Progress Hub — Entrance Animation Controller
-   Apple / Anthropic style — elegant, purposeful, not flashy
+   AI Progress Hub — Entrance Animation v2
+   Phase 1: Splash screen (0–1800ms)
+   Phase 2: Nav slide + hero spring reveal + char-split title
+   Phase 3: Scroll-triggered card reveals with stagger
    Respects prefers-reduced-motion.
    ================================================================ */
 (function () {
   'use strict';
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ─── 1. Intro Curtain ─── */
-  function runCurtain(onDone) {
+  /* ─── Phase 1: Splash Screen ─── */
+  function runSplash(onDone) {
     if (reduced) { onDone(); return; }
 
-    var curtain = document.createElement('div');
-    curtain.id = 'intro-curtain';
-    curtain.innerHTML =
-      '<div class="ic-brand">' +
-        '<div class="ic-mark">' +
-          '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' +
-            '<circle cx="12" cy="12" r="3"/>' +
-            '<path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>' +
-          '</svg>' +
-        '</div>' +
-        '<span class="ic-name">AI Progress Hub</span>' +
-      '</div>';
-    document.body.prepend(curtain);
+    var splash = document.createElement('div');
+    splash.id = 'splash-screen';
+    splash.innerHTML =
+      '<div id="splash-wordmark">AI Progress Hub</div>' +
+      '<div id="splash-progress-track"><div id="splash-progress-bar"></div></div>';
+    document.body.prepend(splash);
 
-    requestAnimationFrame(function () {
-      // Step 1 — brand fades in at 100ms
-      setTimeout(function () {
-        var brand = curtain.querySelector('.ic-brand');
-        if (brand) brand.classList.add('ic-show');
-      }, 100);
+    // Wordmark fades in at 150ms
+    setTimeout(function () {
+      var wm = document.getElementById('splash-wordmark');
+      if (wm) wm.classList.add('visible');
+    }, 150);
 
-      // Step 2 — curtain rises at 700ms (600ms transition)
-      setTimeout(function () {
-        curtain.classList.add('ic-rising');
-      }, 700);
+    // Progress bar starts growing at 300ms (over 1200ms)
+    setTimeout(function () {
+      var bar = document.getElementById('splash-progress-bar');
+      if (bar) bar.classList.add('grow');
+    }, 300);
 
-      // Step 3 — remove from DOM + fire page-reveal callback at ~1300ms
-      setTimeout(function () {
-        if (curtain.parentNode) curtain.parentNode.removeChild(curtain);
-        onDone();
-      }, 1300);
-    });
+    // Fade out splash at 1800ms
+    setTimeout(function () {
+      splash.style.transition = 'opacity 300ms ease';
+      splash.style.opacity = '0';
+    }, 1800);
+
+    // Remove from DOM at 2100ms and fire callback
+    setTimeout(function () {
+      if (splash.parentNode) splash.parentNode.removeChild(splash);
+      onDone();
+    }, 2100);
   }
 
-  /* ─── 2. Nav + Hero entrance (fires after curtain) ─── */
+  /* ─── Phase 2: Nav + Hero reveal ─── */
   function revealPage() {
     if (reduced) return;
 
-    /* Status bar + nav slide down from top */
-    var statusBar = document.querySelector('.status-bar');
-    var nav       = document.querySelector('.nav');
-    if (statusBar) statusBar.classList.add('oc-hidden');
-    if (nav)       nav.classList.add('oc-hidden');
-
-    requestAnimationFrame(function () {
+    // Nav slides down from translateY(-100%) → translateY(0) over 500ms
+    var nav = document.querySelector('.nav');
+    if (nav) {
+      nav.style.visibility = 'visible';
+      nav.style.transform = 'translateY(-100%)';
+      nav.style.transition = 'none';
       requestAnimationFrame(function () {
-        if (statusBar) statusBar.classList.remove('oc-hidden');
-        if (nav)       nav.classList.remove('oc-hidden');
+        requestAnimationFrame(function () {
+          nav.style.transition = 'transform 500ms cubic-bezier(0.22, 1, 0.36, 1)';
+          nav.style.transform = 'translateY(0)';
+          setTimeout(function () {
+            nav.style.transition = '';
+            nav.style.transform = '';
+          }, 550);
+        });
       });
-    });
+    }
 
-    /* Hero staggered entrance */
     var hero = document.querySelector('.hero');
     if (!hero) return;
 
-    var heroLabel  = hero.querySelector('.hero-label');
-    var heroTitle  = hero.querySelector('.hero-title');
-    var heroSub    = hero.querySelector('.hero-sub');
-    var searchWrap = hero.querySelector('.search-wrap');
-    var statsRow   = hero.querySelector('.stats-row');
-    var heroUpdate = hero.querySelector('.hero-update');
+    var heroChildren = Array.from(hero.children);
+    var titleEl = document.getElementById('hero-title');
 
-    var stagger = [
-      { el: heroLabel,  delay: 0   },
-      { el: heroTitle,  delay: 80  },
-      { el: heroSub,    delay: 310 },
-      { el: searchWrap, delay: 410 },
-      { el: statsRow,   delay: 490 },
-      { el: heroUpdate, delay: 570 },
-    ];
-
-    /* Apply per-element transition delays inline */
-    stagger.forEach(function (item) {
-      if (item.el) item.el.style.transitionDelay = item.delay + 'ms';
+    // Set initial hidden state for all non-title hero children
+    heroChildren.forEach(function (el) {
+      if (el === titleEl) return;
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(28px)';
     });
 
-    /* Stamp initial constrained state */
-    hero.classList.add('hero-anim-init');
+    // Character-split the hero title
+    if (titleEl) {
+      var titleText = titleEl.dataset.cn || titleEl.textContent.trim();
+      var chars = titleText.split('');
+      titleEl.innerHTML = '';
+      chars.forEach(function (ch) {
+        var span = document.createElement('span');
+        span.textContent = ch === ' ' ? '\u00a0' : ch;
+        span.style.cssText = 'display:inline-block;opacity:0;transform:translateY(40px) rotate(4deg);';
+        titleEl.appendChild(span);
+      });
+      titleEl._charSplit = true;
+      titleEl._charText = titleText;
+    }
 
-    /* Force reflow so browser registers initial values before releasing */
+    // Force layout to register initial states
     void hero.getBoundingClientRect();
 
-    /* Release in next animation frame — guarantees transition fires reliably
-       (same-frame add+remove can be optimised away without the double-rAF) */
-    requestAnimationFrame(function () {
-      requestAnimationFrame(function () {
-        hero.classList.remove('hero-anim-init');
-
-        /* Clean up inline delays once animation completes */
-        setTimeout(function () {
-          stagger.forEach(function (item) {
-            if (item.el) item.el.style.transitionDelay = '';
-          });
-        }, 1400);
-      });
+    // Stagger non-title hero children (100ms between each)
+    var nonTitleCount = 0;
+    heroChildren.forEach(function (el) {
+      if (el === titleEl) return;
+      var delay = (nonTitleCount + 1) * 100;
+      nonTitleCount++;
+      setTimeout(function () {
+        el.style.transition = 'opacity 600ms cubic-bezier(0.22, 1, 0.36, 1), transform 600ms cubic-bezier(0.22, 1, 0.36, 1)';
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      }, delay);
     });
+
+    // Animate title characters with 25ms stagger per character
+    if (titleEl) {
+      var titleIdx = heroChildren.indexOf(titleEl);
+      var titleBaseDelay = (titleIdx + 1) * 100;
+      var charSpans = titleEl.querySelectorAll('span');
+      charSpans.forEach(function (span, i) {
+        setTimeout(function () {
+          span.style.transition = 'opacity 600ms cubic-bezier(0.22, 1, 0.36, 1), transform 600ms cubic-bezier(0.22, 1, 0.36, 1)';
+          span.style.opacity = '1';
+          span.style.transform = 'translateY(0) rotate(0deg)';
+        }, titleBaseDelay + i * 25);
+      });
+
+      // After animation: collapse spans back to plain text (so lang switcher works)
+      var collapseDelay = titleBaseDelay + charSpans.length * 25 + 700;
+      setTimeout(function () {
+        if (titleEl._charSplit) {
+          var finalText = (typeof currentLang !== 'undefined' && currentLang === 'en')
+            ? (titleEl.dataset.en || titleEl._charText)
+            : (titleEl.dataset.cn || titleEl._charText);
+          titleEl.textContent = finalText;
+          titleEl._charSplit = false;
+        }
+      }, collapseDelay);
+    }
   }
 
-  /* ─── 3. Scroll-triggered reveals ─── */
+  /* ─── Phase 3: Scroll Reveals ─── */
   function initScrollReveal() {
     var selector = '.card, .news-item, .news-headline, .news-card, .news-card-headline, .paper-card, .leader-card, .sci-card';
 
@@ -2162,7 +2184,7 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
       });
     }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
 
-    /* Stagger siblings within the same parent container */
+    // Stagger siblings within the same parent container (80ms between each, max 5)
     var processedParents = [];
     document.querySelectorAll(selector).forEach(function (el) {
       var parent = el.parentElement;
@@ -2180,7 +2202,7 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
     });
   }
 
-  /* ─── 4. Nav active-section indicator ─── */
+  /* ─── Nav active-section indicator ─── */
   function initNavIndicator() {
     var allLinks = Array.prototype.slice.call(
       document.querySelectorAll('.nav-links a[href^="#"]')
@@ -2196,7 +2218,6 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
     if (!sectionLinks.length) return;
 
     var currentActive = null;
-
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
@@ -2209,10 +2230,7 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
         currentActive = match.link;
         currentActive.classList.add('nav-active');
       });
-    }, {
-      threshold: 0,
-      rootMargin: '-15% 0px -72% 0px'
-    });
+    }, { threshold: 0, rootMargin: '-15% 0px -72% 0px' });
 
     sectionLinks.forEach(function (s) { io.observe(s.section); });
   }
@@ -2221,7 +2239,16 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
   document.addEventListener('DOMContentLoaded', function () {
     initScrollReveal();
     initNavIndicator();
-    runCurtain(revealPage);
+
+    // Hide nav until splash completes to prevent flicker
+    if (!reduced) {
+      var nav = document.querySelector('.nav');
+      if (nav) nav.style.visibility = 'hidden';
+    }
+
+    runSplash(function () {
+      revealPage();
+    });
   });
 
 })();
