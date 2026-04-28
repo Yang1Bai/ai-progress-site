@@ -162,7 +162,7 @@
     .follow-icon { margin: 0 auto; }
   }
 
-  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal { opacity: 1; transform: none; transition: opacity .7s ease, transform .7s ease; }
   .reveal.in { opacity: 1; transform: none; }
 </style>
 </head>
@@ -452,4 +452,25 @@
         <h3>关注「梵低」</h3>
         <p>分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。</p>
         <div class="id-pill">小红书号: 8936318663</div>
-      
+      </div>
+      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/8936318663" target="_blank" rel="noopener">前往主页</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 AI Progress Hub</p>
+  <p><a href="https://github.com/Yang1Bai/ai-progress-site" target="_blank" rel="noopener">仓库源码</a></p>
+</footer>
+
+<script>
+  document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
