@@ -74,6 +74,14 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - title (短标题, 中文 <15 字)
    - body (1-2 句中文说明, 40-80 字)
 
+5. **benchmarks**：当前 5-7 个最顶级 AI 大模型的主要基准分数（基于 web_search 最新数据）。每个：
+   - model (模型名), org (机构简称), mmlu (MMLU 百分比, 如 "91.2"), math (MATH 百分比), humaneval (HumanEval 百分比), notes (1句亮点说明)
+   - 如某项无公开数据，填 "N/A"
+
+6. **conferences**：未来 3 个月内 AI/ML 顶级会议的重要截止日期（论文提交或通知截止）。每个：
+   - name (会议名, 如 "NeurIPS 2026"), event_type ("submission"|"notification"|"camera_ready"), deadline ("YYYY-MM-DD"), url (官网), days_left (距今天 {today} 的天数, 整数)
+   - 只列真实的、已公布的截止日期，不要猜测
+
 4. **papers**：6-8 篇过去 7 天的 AI4Material（AI 用于材料科学/化学/能源/催化）相关论文，必须真实存在。
    严格定义：论文核心必须是 AI/ML 方法用于以下任一方向：
    ① 材料发现、合成预测、性质预测（晶体、合金、聚合物、多孔材料等）
@@ -110,7 +118,9 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
   "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"] }}],
   "science": [{{ "title": "...", "body": "..." }}],
   "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
-  "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}]
+  "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}],
+  "benchmarks": [{{ "model": "...", "org": "...", "mmlu": "91.2", "math": "88.3", "humaneval": "91.2", "notes": "..." }}],
+  "conferences": [{{ "name": "...", "event_type": "submission", "deadline": "YYYY-MM-DD", "url": "https://...", "days_left": 18 }}]
 }}
 
 只输出 JSON，不要 ```json 代码块包裹，不要任何前后说明文字。"""
@@ -310,6 +320,61 @@ def render_models(items):
     return "\n".join(out)
 
 
+def render_benchmarks(items):
+    if not items:
+        return '      <tr><td colspan="6" style="text-align:center;color:#3d4d6a;padding:24px;">暂无数据</td></tr>'
+    rows = []
+    for it in items[:8]:
+        def score_cell(v):
+            v = str(v or "N/A")
+            if v == "N/A":
+                return f'<td class="score" style="color:#3d4d6a">{v}</td>'
+            try:
+                f = float(v)
+                color = "#00ff88" if f >= 90 else "#00e5ff" if f >= 80 else "#ffaa00" if f >= 70 else "#ff2d78"
+                return f'<td class="score" style="color:{color}">{v}</td>'
+            except Exception:
+                return f'<td class="score">{escape_text(v)}</td>'
+        rows.append(f'''        <tr>
+          <td class="model-cell">{escape_text(it.get("model",""))}</td>
+          <td class="org-cell">{escape_text(it.get("org",""))}</td>
+          {score_cell(it.get("mmlu"))}
+          {score_cell(it.get("math"))}
+          {score_cell(it.get("humaneval"))}
+          <td class="note">{escape_text(it.get("notes",""))}</td>
+        </tr>''')
+    return "\n".join(rows)
+
+
+def render_conferences(items):
+    if not items:
+        return '      <div class="conf-card"><div class="conf-name" style="color:#3d4d6a;">暂无近期截止</div></div>'
+    out = []
+    sorted_items = sorted(items, key=lambda x: x.get("days_left", 999))
+    for it in sorted_items[:8]:
+        days = it.get("days_left", 0)
+        if isinstance(days, (int, float)):
+            if days <= 14:
+                day_cls = "urgent"
+            elif days <= 30:
+                day_cls = "soon"
+            else:
+                day_cls = "normal"
+            day_txt = f"还有 {days} 天"
+        else:
+            day_cls = "normal"
+            day_txt = str(days)
+        url = it.get("url", "#")
+        event_map = {"submission": "投稿截止", "notification": "录取通知", "camera_ready": "终稿截止"}
+        etype = event_map.get(it.get("event_type", ""), it.get("event_type", ""))
+        out.append(f'''      <a class="conf-card reveal" href="{escape_text(url)}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">{escape_text(it.get("name",""))}</div>
+        <div class="conf-deadline">{escape_text(etype)} · {escape_text(it.get("deadline",""))}</div>
+        <div class="conf-days {day_cls}">{day_txt}</div>
+      </a>''')
+    return "\n".join(out)
+
+
 def render_stats(data):
     stats = data.get("stats", {})
     nc = stats.get("news_count", 0)
@@ -317,13 +382,37 @@ def render_stats(data):
     lc = stats.get("leader_count", 3)
     sc = stats.get("science_count", 0)
     date_str = escape_text(data.get("date", ""))
-    return f'''      <span class="badge" style="display:inline-flex;margin-bottom:20px;"><span class="dot"></span>Claude API · 每日自动抓取 · <span id="last-updated">{date_str}</span></span>
-      <div class="stats-bar">
-        <span class="stat-item"><span class="stat-num" data-target="{nc}">{nc}</span><span class="stat-label">条资讯</span></span>
-        <span class="stat-item"><span class="stat-num" data-target="{pc}">{pc}</span><span class="stat-label">篇论文</span></span>
-        <span class="stat-item"><span class="stat-num" data-target="{lc}">{lc}</span><span class="stat-label">位领袖</span></span>
-        <span class="stat-item"><span class="stat-num" data-target="{sc}">{sc}</span><span class="stat-label">项科学进展</span></span>
-      </div>'''
+    return f'''  <div class="stats-row">
+    <div class="stat-block">
+      <span class="stat-num mono" data-target="{nc}">{nc}</span>
+      <span class="stat-label">条资讯</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <span class="stat-num mono" data-target="{pc}">{pc}</span>
+      <span class="stat-label">篇论文</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <span class="stat-num mono" data-target="{lc}">{lc}</span>
+      <span class="stat-label">位领袖</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <span class="stat-num mono" data-target="{sc}">{sc}</span>
+      <span class="stat-label">项进展</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block" id="visitor-stat">
+      <span class="stat-num mono" id="visitor-count">…</span>
+      <span class="stat-label">历史访客</span>
+    </div>
+  </div>
+  <div class="hero-update-badge">
+    <span class="badge-dot"></span>
+    <span class="mono" style="font-size:.72rem;color:var(--text-mute);">LAST UPDATE</span>
+    <span class="mono" style="font-size:.72rem;color:var(--cyan);" id="last-updated">{date_str}</span>
+  </div>'''
 
 
 # ---------------------------------------------------------------------------
@@ -538,6 +627,17 @@ def load_mock():
             {"name": "GPT-5.5", "org": "OpenAI", "org_short": "OAI", "release_date": "2026-04-24", "highlight": "统一超级应用", "tier": "S"},
             {"name": "DeepSeek V4", "org": "DeepSeek", "org_short": "DS", "release_date": "2026-04-23", "highlight": "开源最强，100K ctx", "tier": "A"},
         ],
+        "benchmarks": [
+            {"model": "Claude Sonnet 4", "org": "Anthropic", "mmlu": "91.5", "math": "87.2", "humaneval": "90.1", "notes": "最新旗舰，强推理"},
+            {"model": "GPT-5.5", "org": "OpenAI", "mmlu": "92.1", "math": "88.3", "humaneval": "91.2", "notes": "统一超级应用"},
+            {"model": "Gemini 2.5 Pro", "org": "Google", "mmlu": "90.8", "math": "91.0", "humaneval": "88.5", "notes": "数学最强"},
+            {"model": "DeepSeek V4", "org": "DeepSeek", "mmlu": "88.5", "math": "85.1", "humaneval": "87.3", "notes": "开源最强"},
+        ],
+        "conferences": [
+            {"name": "ICML 2026", "event_type": "notification", "deadline": "2026-05-15", "url": "https://icml.cc", "days_left": 18},
+            {"name": "NeurIPS 2026", "event_type": "submission", "deadline": "2026-05-30", "url": "https://neurips.cc", "days_left": 33},
+            {"name": "ICLR 2027", "event_type": "submission", "deadline": "2026-09-27", "url": "https://iclr.cc", "days_left": 153},
+        ],
     }
 
 
@@ -582,6 +682,10 @@ def main():
                          render_models(data.get("models", [])))
     html = replace_block(html, "<!-- STATS:START -->", "<!-- STATS:END -->",
                          render_stats(data))
+    html = replace_block(html, "<!-- BENCHMARKS:START -->", "<!-- BENCHMARKS:END -->",
+                         render_benchmarks(data.get("benchmarks", [])))
+    html = replace_block(html, "<!-- CONFERENCES:START -->", "<!-- CONFERENCES:END -->",
+                         render_conferences(data.get("conferences", [])))
     # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
     INDEX.write_text(html, encoding="utf-8")
