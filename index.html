@@ -1786,7 +1786,7 @@ function applyLang(lang) {
   const si = document.getElementById('site-search');
   if (si) {
     si.placeholder = lang === 'en'
-      ? (si.dataset.placeholderEn || 'Search today's content…')
+      ? (si.dataset.placeholderEn || "Search today\u2019s content\u2026")
       : (si.dataset.placeholderCn || '搜索今日内容…');
   }
   // Update html lang
@@ -1922,22 +1922,22 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
     document.body.prepend(curtain);
 
     requestAnimationFrame(function () {
-      // Step 1 — brand fades in
+      // Step 1 — brand fades in at 100ms
       setTimeout(function () {
         var brand = curtain.querySelector('.ic-brand');
         if (brand) brand.classList.add('ic-show');
-      }, 120);
+      }, 100);
 
-      // Step 2 — curtain rises
+      // Step 2 — curtain rises at 700ms (600ms transition)
       setTimeout(function () {
         curtain.classList.add('ic-rising');
-      }, 730);
+      }, 700);
 
-      // Step 3 — remove from DOM + fire page-reveal callback
+      // Step 3 — remove from DOM + fire page-reveal callback at ~1300ms
       setTimeout(function () {
         if (curtain.parentNode) curtain.parentNode.removeChild(curtain);
         onDone();
-      }, 1390);
+      }, 1300);
     });
   }
 
@@ -1989,15 +1989,20 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
     /* Force reflow so browser registers initial values before releasing */
     void hero.getBoundingClientRect();
 
-    /* Release — each element transitions to its natural CSS state */
-    hero.classList.remove('hero-anim-init');
+    /* Release in next animation frame — guarantees transition fires reliably
+       (same-frame add+remove can be optimised away without the double-rAF) */
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        hero.classList.remove('hero-anim-init');
 
-    /* Clean up inline delays once animation completes */
-    setTimeout(function () {
-      stagger.forEach(function (item) {
-        if (item.el) item.el.style.transitionDelay = '';
+        /* Clean up inline delays once animation completes */
+        setTimeout(function () {
+          stagger.forEach(function (item) {
+            if (item.el) item.el.style.transitionDelay = '';
+          });
+        }, 1400);
       });
-    }, 1400);
+    });
   }
 
   /* ─── 3. Scroll-triggered reveals ─── */
