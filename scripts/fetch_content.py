@@ -111,7 +111,12 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - release_date ("YYYY-MM-DD"), highlight (一句中文亮点 <20 字)
    - tier ("S" | "A" | "B"): S=顶级旗舰, A=强力, B=实用
 
-关键约束：必须基于 web_search 结果，严禁编造不存在的论文或链接。如某来源近一周确实没有合适论文，宁可减少数量也不要造假。如果完全找不到，可放宽到过去两周。新闻 url 也必须是真实可访问链接，不确定则留空。
+关键约束：
+- 必须基于 web_search 结果，不要编造不存在的论文或链接
+- 数量不够时宁可减少条目（papers 最少 2 篇也可以），不要强行凑数
+- 可放宽到过去两周，实在没有某类内容则返回空数组 []
+- 新闻 url 不确定则留空字符串
+- **无论如何都必须输出完整 JSON，绝对不允许输出解释文字或拒绝消息**
 
 输出 JSON Schema：
 {{
@@ -855,10 +860,17 @@ def main():
         if not os.environ.get("ANTHROPIC_API_KEY"):
             print("ERROR: 未设置 ANTHROPIC_API_KEY", file=sys.stderr)
             return 2
-        try:
-            data = call_claude(today)
-        except Exception as e:
-            print(f"ERROR: Claude 调用失败: {e}", file=sys.stderr)
+        last_err = None
+        data = None
+        for attempt in range(3):
+            try:
+                data = call_claude(today)
+                break
+            except Exception as e:
+                last_err = e
+                print(f"WARN: 第 {attempt+1} 次尝试失败: {e}", file=sys.stderr)
+        if data is None:
+            print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
             return 3
 
     # 自动计算 stats
