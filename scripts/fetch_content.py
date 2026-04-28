@@ -210,9 +210,52 @@ def render_leaders(items):
     return "\n".join(out)
 
 
+
+# Topic emoji mapping for headline card image placeholder
+TOPIC_ICONS = [
+    ("OpenAI", "\U0001f916", "OpenAI"),
+    ("Google", "\U0001f50d", "Google"),
+    ("Anthropic", "\U0001f9e0", "Anthropic"),
+    ("release", "\u26a1", "Release"),
+    ("launch", "\u26a1", "Launch"),
+    ("\u53d1\u5e03", "\u26a1", "Release"),
+    ("safety", "\U0001f6e1\ufe0f", "Safety"),
+    ("\u5b89\u5168", "\U0001f6e1\ufe0f", "Safety"),
+    ("research", "\U0001f52c", "Research"),
+    ("\u7814\u7a76", "\U0001f52c", "Research"),
+    ("regulation", "\u2696\ufe0f", "Policy"),
+    ("\u76d1\u7ba1", "\u2696\ufe0f", "Policy"),
+    ("\u6cd5\u89c4", "\u2696\ufe0f", "Policy"),
+]
+DEFAULT_TOPIC_ICON = ("\U0001f4e1", "AI News")
+
+
+def get_topic_icon(text: str):
+    """Return (emoji, label) based on text content."""
+    t = text.lower()
+    for keyword, emoji, label in TOPIC_ICONS:
+        if keyword.lower() in t:
+            return emoji, label
+    return DEFAULT_TOPIC_ICON
+
+
+def get_badge_class(title: str, body: str) -> str:
+    """Determine badge class from title+body text."""
+    combined = (title or "") + " " + (body or "")
+    breaking_kws = ["\u7a81\u7834", "\u9996\u6b21", "\u53d1\u5e03", "launch", "release"]
+    major_kws = ["\u8b66\u544a", "\u76d1\u7ba1", "\u6cd5\u89c4"]
+    for kw in breaking_kws:
+        if kw in combined:
+            return "breaking"
+    for kw in major_kws:
+        if kw in combined:
+            return "major"
+    return "update"
+
+
 def render_news(items):
     out = []
-    # 找第一条 breaking 或直接用第一条作为 headline
+    # Find first breaking item or use index 0 as headline
     headline_idx = 0
     for i, it in enumerate(items[:10]):
         if it.get("importance") == "breaking":
@@ -220,49 +263,84 @@ def render_news(items):
             break
 
     for i, it in enumerate(items[:10]):
-        icon = NEWS_ICONS[i % len(NEWS_ICONS)]
         body = sanitize_strong(it.get("body", ""))
         url = (it.get("url") or "").strip()
-        source_btn = ""
-        if url.startswith(("http://", "https://")):
-            source_btn = f'<a class="news-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">原文 {LINK_SVG}</a>'
-
-        importance = it.get("importance", "normal")
-        badge_html = ""
-        if importance == "breaking":
-            badge_html = '<span class="badge-breaking">BREAKING</span>'
-        elif importance == "major":
-            badge_html = '<span class="badge-major">⚡ 重磅</span>'
-
-        tags_html = ""
         tags = it.get("tags") or []
+        tags_str = escape_text(",".join(tags))
+        source_link = ""
+        if url.startswith(("http://", "https://")):
+            source_link = f'<a class="card-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">\u539f\u6587 \u2197</a>'
+
+        # Determine badge
+        importance = it.get("importance", "normal")
+        raw_title = it.get("title") or ""
+        badge_cls = get_badge_class(raw_title, it.get("body", ""))
+        if importance == "breaking":
+            badge_cls = "breaking"
+        elif importance == "major" and badge_cls == "update":
+            badge_cls = "major"
+        badge_label = {"breaking": "BREAKING", "major": "MAJOR", "update": "UPDATE"}.get(badge_cls, "UPDATE")
+        badge_html = f'<span class="card-badge {badge_cls}">{badge_label}</span>'
+
+        card_tags_html = ""
         if tags:
-            tag_items = "".join(f'<span class="news-tag" onclick="filterNews(\'{t}\')">{escape_text(t)}</span>' for t in tags[:2])
-            tags_html = f'<div class="news-tags">{tag_items}</div>'
+            tag_items = "".join(
+                f'<span class="card-tag" onclick="filterNews(\'{escape_text(t)}\')">{escape_text(t)}</span>'
+                for t in tags[:2]
+            )
+            card_tags_html = f'<div class="card-tags">{tag_items}</div>'
+
+        # Derive a short title from body if title is empty
+        display_title = raw_title
+        if not display_title:
+            plain = re.sub(r"<[^>]+>", "", it.get("body", ""))
+            display_title = plain[:30].rstrip() + ("\u2026" if len(plain) > 30 else "")
+        display_title = escape_text(display_title)
 
         if i == headline_idx:
-            # Headline style
-            out.append(f'''      <div class="news-headline reveal">
+            # Full-width headline card with image placeholder
+            topic_icon_text = it.get("body", "") + " " + (it.get("title") or "")
+            icon_emoji, icon_label = get_topic_icon(topic_icon_text)
+            out.append(f'''      <div class="news-card-headline reveal" data-tags="{tags_str}">
+        <div class="card-image">
+          <div class="card-image-placeholder">
+            <span class="topic-icon">{icon_emoji}</span>
+            <span class="topic-label">{escape_text(icon_label)}</span>
+          </div>
+        </div>
+        <div class="card-body">
+          {badge_html}
+          <h3 class="card-title">{display_title}</h3>
+          <p class="card-summary">{body}</p>
+          <div class="card-footer">
+            {source_link}
+            {card_tags_html}
+          </div>
+        </div>
+      </div>''')
+        elif i == (headline_idx + 1) % len(items[:10]):
+            # Second card — medium (spans 2 cols)
+            out.append(f'''      <div class="news-card medium reveal" data-tags="{tags_str}">
         {badge_html}
-        <p class="news-body">{body}</p>
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-          {source_btn}
-          {tags_html}
+        <h3 class="card-title">{display_title}</h3>
+        <p class="card-summary">{body}</p>
+        <div class="card-footer">
+          {source_link}
+          {card_tags_html}
         </div>
       </div>''')
         else:
-            out.append(f'''      <div class="news-item reveal" data-tags="{escape_text(",".join(tags))}">
-        <div class="news-icon" aria-hidden="true">
-          {icon}
-        </div>
-        <div class="news-content">
-          {badge_html}
-          <p class="news-body">{body}</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">{source_btn}{tags_html}</div>
+            # Standard card (1 col)
+            out.append(f'''      <div class="news-card reveal" data-tags="{tags_str}">
+        {badge_html}
+        <h3 class="card-title">{display_title}</h3>
+        <p class="card-summary">{body}</p>
+        <div class="card-footer">
+          {source_link}
+          {card_tags_html}
         </div>
       </div>''')
     return "\n".join(out)
-
 
 def render_science(items):
     out = []

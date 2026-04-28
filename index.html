@@ -466,53 +466,178 @@ section {
   border-color: var(--accent);
   color: #fff;
 }
-.news-list { display: grid; gap: 10px; }
-.news-headline {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--red);
-  border-radius: 12px;
-  padding: 18px 20px;
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow .2s, border-color .2s;
+/* News card grid */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.news-headline:hover { box-shadow: var(--shadow-md); }
-.news-headline .news-body {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1rem;
+/* Headline card — spans full width */
+.news-card-headline {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #E5E7EB;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.news-card-headline:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  transform: translateY(-2px);
+}
+.news-card-headline .card-image {
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8ecf8 100%);
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.news-card-headline .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+}
+.card-image-placeholder .topic-icon {
+  font-size: 3rem;
+  opacity: 0.4;
+}
+.card-image-placeholder .topic-label {
+  font-size: 0.75rem;
+  color: #9CA3AF;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', monospace;
+}
+.news-card-headline .card-body {
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+/* Regular news cards */
+.news-card {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  position: relative;
+}
+.news-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.news-card.medium { grid-column: span 2; }
+/* Shared card elements */
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.card-badge.breaking {
+  background: #FEE2E2;
+  color: #DC2626;
+  border: 1px solid #FECACA;
+}
+.card-badge.breaking::before {
+  content: '';
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #EF4444;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.card-badge.major {
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FED7AA;
+}
+.card-badge.update {
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+}
+.card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.4;
+  margin: 0;
+}
+.news-card-headline .card-title { font-size: 1.35rem; line-height: 1.3; }
+.card-summary {
+  color: #6B7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #F3F4F6;
+  gap: 8px;
+}
+.card-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #2563EB;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  text-decoration: none;
   font-weight: 600;
-  color: var(--brand);
-  margin: 0 0 10px;
+  transition: opacity 0.15s;
 }
-.news-item {
-  display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 14px;
-  padding: 16px 18px;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: var(--shadow-xs);
-  transition: box-shadow .2s, border-color .2s, transform .2s;
+.card-source-link:hover { opacity: 0.75; }
+.card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.card-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  color: #6B7280;
+  cursor: pointer;
+  transition: all 0.15s;
 }
-.news-item:hover { box-shadow: var(--shadow-md); border-color: var(--border-dark); transform: translateX(2px); }
-.news-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 11px;
-  display: grid;
-  place-items: center;
-  background: var(--accent-light);
-  color: var(--accent);
-  flex-shrink: 0;
+.card-tag:hover {
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+  color: #2563EB;
 }
-.news-icon svg { width: 22px; height: 22px; }
-.news-item:nth-child(2n) .news-icon { background: var(--green-bg); color: var(--green); }
-.news-item:nth-child(3n) .news-icon { background: var(--purple-bg); color: var(--purple); }
-.news-item:nth-child(4n) .news-icon { background: var(--amber-bg); color: var(--amber); }
-.news-body { margin: 0 0 8px; color: var(--text-2); font-size: .92rem; }
-.news-body strong { color: var(--brand); font-weight: 700; }
-.news-content { min-width: 0; }
+/* Legacy compatibility */
 .news-source-link {
   display: inline-flex;
   align-items: center;
@@ -1009,8 +1134,14 @@ body::before {
   .subscribe-form { flex-direction: column; }
   .subscribe-form input[type=email] { min-width: unset; }
   .papers-grid { grid-template-columns: 1fr; }
-  .news-item { grid-template-columns: 44px 1fr; gap: 10px; padding: 14px; }
-  .news-icon { width: 44px; height: 44px; }
+  .news-grid { grid-template-columns: repeat(2, 1fr); }
+  .news-card-headline { grid-template-columns: 1fr; }
+  .news-card-headline .card-image { min-height: 180px; }
+  .news-card.medium { grid-column: span 2; }
+}
+@media (max-width: 600px) {
+  .news-grid { grid-template-columns: 1fr; }
+  .news-card.medium { grid-column: span 1; }
 }
 @media (max-width: 480px) {
   .status-bar { display: none; }
@@ -1118,6 +1249,8 @@ body::before {
   .card,
   .news-item,
   .news-headline,
+  .news-card,
+  .news-card-headline,
   .paper-card,
   .leader-card,
   .sci-card {
@@ -1133,6 +1266,8 @@ body::before {
   .card.is-visible,
   .news-item.is-visible,
   .news-headline.is-visible,
+  .news-card.is-visible,
+  .news-card-headline.is-visible,
   .paper-card.is-visible,
   .leader-card.is-visible,
   .sci-card.is-visible {
@@ -1145,6 +1280,8 @@ body::before {
   .paper-card.is-visible:hover  { transform: translateY(-2px); }
   .leader-card.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
   .news-item.is-visible:hover   { transform: translateX(2px);  border-color: var(--border-dark); }
+  .news-card.is-visible:hover   { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
+  .news-card-headline.is-visible:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.10); }
 
   /* Nav active section indicator */
   .nav-links a.nav-active {
@@ -1285,104 +1422,104 @@ body::before {
       <button class="filter-chip" onclick="filterNews('#开源')">#开源</button>
       <button class="filter-chip" onclick="filterNews('#Agent')">#Agent</button>
     </div>
-    <div class="news-list">
+    <div class="news-grid">
       <!-- NEWS:START -->
-      <div class="news-headline reveal">
-        <span class="badge-breaking">BREAKING</span>
-        <p class="news-body"><strong>Google投资400亿美元</strong>于Anthropic，首批100亿估值3800亿美元，剩余300亿取决于里程碑。Anthropic年化收入已超<strong>300亿美元</strong>。</p>
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-          <a class="news-source-link" href="https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-          <div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+      <div class="news-card-headline reveal" data-tags="#政策,#LLM">
+        <div class="card-image">
+          <div class="card-image-placeholder">
+            <span class="topic-icon">🧠</span>
+            <span class="topic-label">Anthropic</span>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-badge breaking">BREAKING</span>
+          <h3 class="card-title">Google投资400亿美元于Anthropic</h3>
+          <p class="card-summary"><strong>Google投资400亿美元</strong>于Anthropic，首批100亿估值3800亿美元，剩余300亿取决于里程碑。Anthropic年化收入已超<strong>300亿美元</strong>。</p>
+          <div class="card-footer">
+            <a class="card-source-link" href="https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html" target="_blank" rel="noopener">原文 ↗</a>
+            <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+          </div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#政策,#Agent">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body">中国<strong>阻止Meta收购</strong>新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#Agent')">#Agent</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#LLM,#开源">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body"><strong>DeepSeek V4</strong>发布，1.6万亿参数，价格仅GPT-5.2的<strong>1/50</strong>，性能达其90%。中国模型在成本效率上取得突破。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.usnews.com/news/business/articles/2026-04-24/chinas-deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span><span class="news-tag" onclick="filterNews('#开源')">#开源</span></div></div>
+      <div class="news-card medium reveal" data-tags="#政策,#Agent">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">中国阻止Meta收购Manus</h3>
+        <p class="card-summary">中国<strong>阻止Meta收购</strong>新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#芯片,#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body">Google发布<strong>TurboQuant</strong>算法，将AI推理内存开销降低<strong>6倍</strong>且零精度损失，解决KV缓存瓶颈，加速效率优先AI开发。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#芯片')">#芯片</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#Agent,#多模态">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">NASA毅力号火星车完成首次<strong>AI规划驾驶</strong>，使用Anthropic Claude视觉模型分析轨道图像自主生成安全路径，行驶456米。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#Agent')">#Agent</span><span class="news-tag" onclick="filterNews('#多模态')">#多模态</span></div></div>
+      <div class="news-card reveal" data-tags="#LLM,#开源">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">DeepSeek V4 发布</h3>
+        <p class="card-summary"><strong>DeepSeek V4</strong>发布，1.6万亿参数，价格仅GPT-5.2的<strong>1/50</strong>，性能达其90%。中国模型在成本效率上取得突破。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.usnews.com/news/business/articles/2026-04-24/chinas-deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#多模态,#政策">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">OpenAI关闭Sora视频应用，每天烧钱<strong>100万美元</strong>，将算力转向编程工具和企业产品，确认AI辅助编程成为核心战场。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://ai2.work/blog/google-s-brin-forms-deepmind-strike-team-to-close-anthropic-coding-gap" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#多模态')">#多模态</span><span class="news-tag" onclick="filterNews('#政策')">#政策</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#政策,#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">Meta、Google、OpenAI等顶尖AI实验室高级员工<strong>大量离职</strong>创业，2026年Q1 AI初创融资188亿美元，投资者提供资金吸引顶级研究者。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
+      <div class="news-card reveal" data-tags="#芯片,#LLM">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">Google发布TurboQuant算法</h3>
+        <p class="card-summary">Google发布<strong>TurboQuant</strong>算法，将AI推理内存开销降低<strong>6倍</strong>且零精度损失，解决KV缓存瓶颈，加速效率优先AI开发。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#芯片,#政策">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">AI数据中心将使美国<strong>2028年电力消耗增至12%</strong>，面临9-18GW短缺。微软重启三里岛核电站，亚马逊寻求专用核电站。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#芯片')">#芯片</span><span class="news-tag" onclick="filterNews('#政策')">#政策</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#LLM,#材料">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">AI物理突破：Emory大学用<strong>物理定制机器学习</strong>揭示尘埃等离子体中非互易力新规律，发表于PNAS，可扩展至细胞等复杂系统。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.sciencedaily.com/releases/2026/04/260422044635.htm" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span><span class="news-tag" onclick="filterNews('#材料')">#材料</span></div></div>
+      <div class="news-card reveal" data-tags="#Agent,#多模态">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">NASA火星车完成首次AI规划驾驶</h3>
+        <p class="card-summary">NASA毅力号火星车完成首次<strong>AI规划驾驶</strong>，使用Anthropic Claude视觉模型分析轨道图像自主生成安全路径，行驶456米。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+      <div class="news-card reveal" data-tags="#多模态,#政策">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">OpenAI关闭Sora视频应用</h3>
+        <p class="card-summary">OpenAI关闭Sora视频应用，每天烧钱<strong>100万美元</strong>，将算力转向编程工具和企业产品，确认AI辅助编程成为核心战场。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://ai2.work/blog/google-s-brin-forms-deepmind-strike-team-to-close-anthropic-coding-gap" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
         </div>
-        <div class="news-content">
-          
-          <p class="news-body"><strong>ICLR 2026</strong>于4月23-27日在巴西里约举行，展示前沿AI研究。AI4Mat工作坊聚焦强化学习在材料科学中的应用。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://iclr.cc/Conferences/2026/Dates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
+      </div>
+      <div class="news-card reveal" data-tags="#政策,#LLM">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">顶尖AI实验室人才大量离职创业</h3>
+        <p class="card-summary">Meta、Google、OpenAI等顶尖AI实验室高级员工<strong>大量离职</strong>创业，2026年Q1 AI初创融资188亿美元，投资者提供资金吸引顶级研究者。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#芯片,#政策">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">AI数据中心推高美国电力需求</h3>
+        <p class="card-summary">AI数据中心将使美国<strong>2028年电力消耗增至12%</strong>，面临9-18GW短缺。微软重启三里岛核电站，亚马逊寻求专用核电站。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#LLM,#材料">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">AI物理突破：揭示等离子体新规律</h3>
+        <p class="card-summary">AI物理突破：Emory大学用<strong>物理定制机器学习</strong>揭示尘埃等离子体中非互易力新规律，发表于PNAS，可扩展至细胞等复杂系统。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.sciencedaily.com/releases/2026/04/260422044635.htm" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#材料')">#材料</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#LLM">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">ICLR 2026 里约大会</h3>
+        <p class="card-summary"><strong>ICLR 2026</strong>于4月23-27日在巴西里约举行，展示前沿AI研究。AI4Mat工作坊聚焦强化学习在材料科学中的应用。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://iclr.cc/Conferences/2026/Dates" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
         </div>
       </div>
       <!-- NEWS:END -->
@@ -1849,9 +1986,9 @@ function filterNews(tag) {
     tag === 'all' ? c.classList.contains('all-chip') : c.textContent.trim() === tag
   );
   if (clicked) clicked.classList.add('active');
-  document.querySelectorAll('.news-item, .news-headline').forEach(item => {
+  document.querySelectorAll('.news-item, .news-headline, .news-card, .news-card-headline').forEach(item => {
     if (tag === 'all') { item.style.display = ''; return; }
-    const tags = (item.dataset.tags || '') + ' ' + [...item.querySelectorAll('.news-tag')].map(t => t.textContent).join(' ');
+    const tags = (item.dataset.tags || '') + ' ' + [...item.querySelectorAll('.news-tag, .card-tag')].map(t => t.textContent).join(' ');
     item.style.display = tags.includes(tag) ? '' : 'none';
   });
 }
@@ -2007,7 +2144,7 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
 
   /* ─── 3. Scroll-triggered reveals ─── */
   function initScrollReveal() {
-    var selector = '.card, .news-item, .news-headline, .paper-card, .leader-card, .sci-card';
+    var selector = '.card, .news-item, .news-headline, .news-card, .news-card-headline, .paper-card, .leader-card, .sci-card';
 
     if (reduced) {
       document.querySelectorAll(selector).forEach(function (el) {
