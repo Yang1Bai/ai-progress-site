@@ -40,8 +40,8 @@ jobs:
       - name: Commit and push changes
         run: |
           DATE=$(TZ="America/Toronto" date +"%Y-%m-%d")
+          git add index.html feed.xml data/ archive/ 2>/dev/null || true
           if [[ -n "$(git status --porcelain)" ]]; then
-            git add index.html
             git commit -m "chore: daily auto-update ${DATE}"
             git push
           else

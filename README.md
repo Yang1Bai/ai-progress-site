@@ -1,10 +1,25 @@
 # AI Progress Hub · ai-progress-site
 
-每日由 Claude API + Web Search 自动汇总三大模块：AI 大佬观点 · 今日 AI 大事 · AI4Science 进展。
+每日由 Claude API + Web Search 自动汇总四大模块：AI 大佬观点 · 今日 AI 大事 · AI4Science 进展 · AI4Material 论文。
 
 ## 在线访问
 
-`https://yang1bai.github.io/ai-progress-site/`
+**主站：** https://yang1bai.github.io/ai-progress-site/
+
+**历史归档：** https://yang1bai.github.io/ai-progress-site/archive/
+
+**RSS 订阅：** https://yang1bai.github.io/ai-progress-site/feed.xml
+
+---
+
+## 特色功能
+
+- 🤖 **Claude API + Web Search 驱动** — 每日自动搜索真实最新资讯
+- 🔗 **新闻原文链接** — 每条新闻附带来源链接，一键跳转
+- 📅 **领袖言论时间戳** — 显示观点发表日期
+- 📁 **历史归档** — 每日 HTML 快照 + 原始 JSON，可随时回溯
+- 📡 **RSS 订阅** — `feed.xml` 支持任意 RSS 阅读器
+- 🔬 **严格 AI4Material 过滤** — 材料科学/催化/能源/化学，非材料论文不入库
 
 ---
 
@@ -13,19 +28,29 @@
 ```
 .
 ├── index.html                    # 主页（深色科技感 UI）
+├── feed.xml                      # RSS/Atom 订阅源（自动生成）
 ├── .nojekyll
 ├── README.md
+├── data/
+│   ├── index.json                # 归档日期列表（自动生成）
+│   ├── latest.json               # 最新一期原始 JSON
+│   └── YYYY-MM-DD.json           # 每日原始数据归档
+├── archive/
+│   ├── index.html                # 归档目录页（自动生成）
+│   └── YYYY-MM-DD.html           # 每日 HTML 快照
 ├── scripts/
-│   └── fetch_content.py          # 调用 Claude API + web_search 抓取最新内容
+│   ├── fetch_content.py          # 调用 Claude API + web_search 抓取最新内容
+│   └── icons.py                  # SVG 图标定义
 └── .github/workflows/update.yml  # 每日 cron 触发，运行脚本并自动 commit
 ```
 
-`index.html` 中三个区块用 HTML 注释做锚点，脚本只替换标记之间的内容：
+`index.html` 中四个区块用 HTML 注释做锚点，脚本只替换标记之间的内容：
 
 ```html
 <!-- LEADERS:START --> ... <!-- LEADERS:END -->
 <!-- NEWS:START -->    ... <!-- NEWS:END -->
 <!-- SCIENCE:START --> ... <!-- SCIENCE:END -->
+<!-- MATERIAL:START --> ... <!-- MATERIAL:END -->
 ```
 
 ---
@@ -54,18 +79,18 @@
 ### 5. 手动触发一次 Action 验证
 
 仓库 → **Actions** → 左侧 **Daily AI progress update** → 右上 **Run workflow** → 点绿色按钮。
-等 1-2 分钟，看到绿色 ✅ 后访问网站，三大模块应该已是最新内容。
+等 1-2 分钟，看到绿色 ✅ 后访问网站。
 
 ---
 
 ## 成本估算
 
-模型默认 `claude-sonnet-4-5`，启用 `web_search`（最多 6 次）：
-- 每次运行约 ~10K input + ~3K output tokens + ~6 次搜索
-- 单次成本约 **$0.10–0.15**
-- 每天跑 1 次 → **每月 ~$3-5**
+模型默认 `claude-sonnet-4-5`，启用 `web_search`（最多 12 次）：
+- 每次运行约 ~12K input + ~4K output tokens + ~12 次搜索
+- 单次成本约 **$0.15–0.20**
+- 每天跑 1 次 → **每月 ~$5-6**
 
-如果想更省，把 `update.yml` 里的 `ANTHROPIC_MODEL` 改成 `claude-haiku-4-5`，大约能降到月 $1。
+如果想更省，把 `update.yml` 里的 `ANTHROPIC_MODEL` 改成 `claude-haiku-4-5`，大约能降到月 $1-2。
 
 ---
 
@@ -80,7 +105,7 @@ DRY_RUN=1 python scripts/fetch_content.py
 调真 API：
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+export ANTHROPIC_KEY=sk-ant-...
 python scripts/fetch_content.py
 ```
 
@@ -88,6 +113,6 @@ python scripts/fetch_content.py
 
 ## 已知限制
 
-- 内容质量依赖模型搜索结果。如发现错误，可在仓库提 Issue 或手动修正后下次自动覆盖。
-- Web search 偶尔可能抓不到结果，脚本会基于训练知识合理整理（已在 prompt 里要求不编造具体数字/论文名）。
+- 内容质量依赖 Claude 的 web_search 结果。如发现错误，可在仓库提 Issue 或手动修正。
+- 新闻 URL 为 Claude 搜索到的原文链接；偶尔可能有链接失效，属正常现象。
 - 可以编辑 `scripts/fetch_content.py` 里的 `USER_PROMPT_TEMPLATE` 调整内容偏好。
