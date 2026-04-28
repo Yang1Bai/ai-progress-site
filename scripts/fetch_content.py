@@ -159,7 +159,22 @@ def call_claude(today: str) -> dict:
     e = raw.rfind("}")
     if s == -1 or e == -1:
         raise RuntimeError(f"Claude 未返回 JSON: {raw[:500]}")
-    return json.loads(raw[s : e + 1])
+    candidate = raw[s : e + 1]
+    # 先尝试直接解析
+    try:
+        return json.loads(candidate)
+    except json.JSONDecodeError:
+        pass
+    # 兜底：用 json-repair 修复常见问题（未转义引号、多余逗号等）
+    try:
+        from json_repair import repair_json
+        repaired = repair_json(candidate)
+        return json.loads(repaired)
+    except Exception:
+        pass
+    # 最后兜底：去掉控制字符后再试
+    cleaned = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', candidate)
+    return json.loads(cleaned)
 
 
 # ---------------------------------------------------------------------------
