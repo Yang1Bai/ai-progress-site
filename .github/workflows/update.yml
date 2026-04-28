@@ -2,11 +2,10 @@ name: Daily AI progress update
 
 on:
   schedule:
-    # 每天 UTC 12:00（北美东部 8 点 / 北京 20 点）触发
+    # UTC 12:00 = 多伦多 8:00 / 北京 20:00
     - cron: '0 12 * * *'
   workflow_dispatch:
 
-# 关键：给 GITHUB_TOKEN 写权限，否则 git push 会被拒绝
 permissions:
   contents: write
 
@@ -17,33 +16,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # 使用持久 token 以便后续 push
           persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install --quiet "anthropic>=0.40.0"
 
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Compute today's date (Toronto TZ)
-        id: date
-        run: |
-          DATE=$(TZ="America/Toronto" date +"%Y年%-m月%-d日")
-          echo "date=${DATE}" >> "$GITHUB_OUTPUT"
-          echo "Today: ${DATE}"
-
-      - name: Update date in index.html
-        run: |
-          DATE="${{ steps.date.outputs.date }}"
-          # 仅替换 <span id="last-updated">…</span> 内部的文字，保留标签便于样式锚点
-          sed -i "s|<span id=\"last-updated\">[^<]*</span>|<span id=\"last-updated\">${DATE}</span>|" index.html
+      - name: Fetch latest content via Claude API
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: claude-sonnet-4-5
+        run: python scripts/fetch_content.py
 
       - name: Commit and push changes
         run: |
-          DATE="${{ steps.date.outputs.date }}"
+          DATE=$(TZ="America/Toronto" date +"%Y-%m-%d")
           if [[ -n "$(git status --porcelain)" ]]; then
             git add index.html
-            git commit -m "chore: automated daily update ${DATE}"
+            git commit -m "chore: daily auto-update ${DATE}"
             git push
           else
             echo "No changes to commit"

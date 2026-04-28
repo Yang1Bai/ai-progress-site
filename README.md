@@ -1,52 +1,93 @@
 # AI Progress Hub · ai-progress-site
 
-聚焦 AI 领袖观点、每日大事与 AI4Science 发展的静态站点。
+每日由 Claude API + Web Search 自动汇总三大模块：AI 大佬观点 · 今日 AI 大事 · AI4Science 进展。
 
 ## 在线访问
 
-启用 GitHub Pages 后访问：`https://yang1bai.github.io/ai-progress-site/`
+`https://yang1bai.github.io/ai-progress-site/`
 
-## 部署步骤（关键，请按顺序执行）
+---
 
-1. 把本目录的所有文件覆盖推送到仓库 `Yang1Bai/ai-progress-site` 的 `main` 分支。
-2. 打开仓库 → **Settings** → **Pages**。
-3. 在 *Build and deployment* 中：
-   - Source 选 **Deploy from a branch**
-   - Branch 选 **main**，文件夹选 **/ (root)**，保存。
-4. 等待 1–2 分钟构建完成，访问上面的链接即可。
-5. 打开 **Settings → Actions → General**，把 *Workflow permissions* 设置为 **Read and write permissions**，否则定时更新无法 push。
-
-## 本次修复的问题
-
-| # | 问题 | 修复 |
-|---|------|------|
-| 1 | GitHub Action 中 `DATE` 变量在步骤间丢失，导致 commit message 为空且替换无效 | 改为 `steps.date.outputs.date` 跨步骤传递 |
-| 2 | workflow 缺少 `contents: write` 权限，`git push` 会被拒绝 | 顶层 `permissions: contents: write` |
-| 3 | `actions/checkout@v3` 已过时 | 升级到 `@v4` |
-| 4 | 正文里残留 `【数字†screenshot】` 这种研究标记 | 全部清理 |
-| 5 | 多位领袖共用同一张 `leader_avatar.png`，且大体积 PNG 影响加载 | 用纯 CSS 渐变 + 文字 / 内联 SVG 图标替换 |
-| 6 | UI 朴素 | 重写为深色科技感设计：渐变背景、玻璃拟态卡片、滚动动画、响应式 |
-
-## 文件结构
+## 架构
 
 ```
 .
-├── index.html              # 主页（深色科技感 UI）
-├── .nojekyll               # 跳过 Jekyll 处理，避免下划线开头文件被忽略
-├── README.md               # 本文件
-└── .github/
-    └── workflows/
-        └── update.yml      # 每日更新「今日AI大事」日期的 Action
+├── index.html                    # 主页（深色科技感 UI）
+├── .nojekyll
+├── README.md
+├── scripts/
+│   └── fetch_content.py          # 调用 Claude API + web_search 抓取最新内容
+└── .github/workflows/update.yml  # 每日 cron 触发，运行脚本并自动 commit
 ```
 
-## 自动更新逻辑
+`index.html` 中三个区块用 HTML 注释做锚点，脚本只替换标记之间的内容：
 
-`update.yml` 每天 UTC 12:00（多伦多 8:00 / 北京 20:00）触发，将
-`<span id="last-updated">YYYY年M月D日</span>` 中的日期替换为当天日期并自动 commit。
-也支持在 Actions 页面手动触发（workflow_dispatch）。
+```html
+<!-- LEADERS:START --> ... <!-- LEADERS:END -->
+<!-- NEWS:START -->    ... <!-- NEWS:END -->
+<!-- SCIENCE:START --> ... <!-- SCIENCE:END -->
+```
 
-## 后续可优化
+---
 
-- 把「今日AI大事」从静态文本改为 Action 调用模型生成 / RSS 抓取自动写入。
-- 加入暗/浅色切换。
-- 接入 Google Analytics / Umami 做访问统计。
+## 部署清单（按顺序做完一次即可）
+
+### 1. 推送代码到仓库
+
+把本目录所有文件推送到 `Yang1Bai/ai-progress-site` 的 `main` 分支。注意 `.nojekyll` 是隐藏文件别漏。
+
+### 2. 配置 Anthropic API Key（关键）
+
+在仓库 → **Settings → Secrets and variables → Actions** → 点击 **New repository secret**：
+
+- **Name**：`ANTHROPIC_API_KEY`
+- **Secret**：粘贴你在 https://console.anthropic.com/settings/keys 创建的 API key（以 `sk-ant-` 开头）
+
+### 3. 打开 Actions 写权限
+
+仓库 → **Settings → Actions → General** → 滚到底 → **Workflow permissions** → 选 **Read and write permissions** → Save。
+
+### 4. 启用 GitHub Pages（如未启用）
+
+仓库 → **Settings → Pages** → Source 选 *Deploy from a branch* → 分支 `main` / `(root)` → Save。
+
+### 5. 手动触发一次 Action 验证
+
+仓库 → **Actions** → 左侧 **Daily AI progress update** → 右上 **Run workflow** → 点绿色按钮。
+等 1-2 分钟，看到绿色 ✅ 后访问网站，三大模块应该已是最新内容。
+
+---
+
+## 成本估算
+
+模型默认 `claude-sonnet-4-5`，启用 `web_search`（最多 6 次）：
+- 每次运行约 ~10K input + ~3K output tokens + ~6 次搜索
+- 单次成本约 **$0.10–0.15**
+- 每天跑 1 次 → **每月 ~$3-5**
+
+如果想更省，把 `update.yml` 里的 `ANTHROPIC_MODEL` 改成 `claude-haiku-4-5`，大约能降到月 $1。
+
+---
+
+## 本地开发 / 调试
+
+不调 API 验证模板逻辑：
+
+```bash
+DRY_RUN=1 python scripts/fetch_content.py
+```
+
+调真 API：
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+python scripts/fetch_content.py
+```
+
+---
+
+## 已知限制
+
+- 内容质量依赖模型搜索结果。如发现错误，可在仓库提 Issue 或手动修正后下次自动覆盖。
+- Web search 偶尔可能抓不到结果，脚本会基于训练知识合理整理（已在 prompt 里要求不编造具体数字/论文名）。
+- 可以编辑 `scripts/fetch_content.py` 里的 `USER_PROMPT_TEMPLATE` 调整内容偏好。
