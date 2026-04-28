@@ -123,6 +123,22 @@
   .sci-card h4 { margin: 0 0 8px; font-size: 1.05rem; font-weight: 700; }
   .sci-card p { margin: 0; color: var(--text-dim); font-size: .94rem; }
 
+  .papers-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
+  .paper-card { padding: 22px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; transition: transform .2s, border-color .2s; display: flex; flex-direction: column; gap: 10px; position: relative; }
+  .paper-card:hover { transform: translateY(-3px); border-color: rgba(168,85,247,.45); }
+  .paper-venue { display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; font-family: "JetBrains Mono", monospace; font-size: .72rem; padding: 4px 10px; border-radius: 999px; background: rgba(168,85,247,.12); border: 1px solid rgba(168,85,247,.30); color: #d8b4fe; font-weight: 600; letter-spacing: .3px; }
+  .paper-card.nature .paper-venue { background: rgba(34,197,94,.10); border-color: rgba(34,197,94,.30); color: #86efac; }
+  .paper-card.science .paper-venue { background: rgba(239,68,68,.10); border-color: rgba(239,68,68,.30); color: #fca5a5; }
+  .paper-card.conf .paper-venue { background: rgba(34,211,238,.10); border-color: rgba(34,211,238,.30); color: #67e8f9; }
+  .paper-title { font-size: 1.02rem; font-weight: 700; line-height: 1.4; color: var(--text); margin: 0; }
+  .paper-authors { color: var(--text-mute); font-size: .82rem; }
+  .paper-summary { color: var(--text-dim); font-size: .9rem; margin: 0; }
+  .paper-meta { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: 10px; padding-top: 10px; border-top: 1px dashed var(--border); }
+  .paper-date { font-family: "JetBrains Mono", monospace; font-size: .76rem; color: var(--text-mute); }
+  .paper-link { display: inline-flex; align-items: center; gap: 4px; color: var(--accent-2); font-size: .82rem; text-decoration: none; font-weight: 600; }
+  .paper-link:hover { color: #67e8f9; }
+  .paper-link svg { width: 14px; height: 14px; }
+
   .follow { margin: 24px 0; padding: 32px; border-radius: 22px; background: linear-gradient(135deg, rgba(244,114,182,.16), rgba(168,85,247,.12)), var(--surface); border: 1px solid rgba(244,114,182,.25); display: grid; grid-template-columns: auto 1fr auto; gap: 24px; align-items: center; }
   .follow-icon { width: 64px; height: 64px; border-radius: 18px; display: grid; place-items: center; background: linear-gradient(135deg, #ff2442, #ff6b9d); color: #fff; font-weight: 900; font-size: 1.5rem; box-shadow: 0 12px 32px -8px rgba(255,36,66,.5); }
   .follow h3 { margin: 0 0 6px; font-size: 1.2rem; }
@@ -167,6 +183,7 @@
       <a href="#leaders">大佬观点</a>
       <a href="#daily">今日大事</a>
       <a href="#ai4science">AI4Science</a>
+      <a href="#papers">AI4Material 论文</a>
       <a href="#friend">关注我</a>
     </div>
   </div>
@@ -175,7 +192,7 @@
 <header class="hero">
   <span class="badge"><span class="dot"></span>Claude API · 每日自动抓取</span>
   <h1>追踪 AI 浪潮的<br>每一次脉动</h1>
-  <p class="sub">三大模块每日由 Claude + Web Search 自动更新：领袖观点 · 今日大事 · AI4Science 前沿。</p>
+  <p class="sub">四大模块每日由 Claude + Web Search 自动更新：领袖观点 · 今日大事 · AI4Science · AI4Material 论文动态。</p>
   <div class="hero-cta">
     <a class="btn primary" href="#daily">查看今日大事
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
@@ -202,20 +219,20 @@
           </div>
         </div>
         <blockquote class="leader-quote">"AI 将重塑下一个十年。"</blockquote>
-        <p class="leader-body">在最近的访谈中，他表示生成式 AI 已进入企业大规模部署阶段。</p>
-        <div class="leader-meta"><span class="tag">2026-04</span><span class="tag">Enterprise</span></div>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">2026-04</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
           <div class="avatar sa" aria-hidden="true">S2</div>
           <div>
             <div class="leader-name">示例·二号 (Sample Two)</div>
-            <div class="leader-role">Anthropic 首席研究员</div>
+            <div class="leader-role">Anthropic 研究员</div>
           </div>
         </div>
         <blockquote class="leader-quote">"可解释性是 AGI 安全的关键。"</blockquote>
-        <p class="leader-body">他强调下一代模型必须把可解释性研究放在与能力同等重要的位置。</p>
-        <div class="leader-meta"><span class="tag">Anthropic</span><span class="tag">Safety</span></div>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">Anthropic</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
@@ -226,8 +243,8 @@
           </div>
         </div>
         <blockquote class="leader-quote">"AI4Science 进入加速期。"</blockquote>
-        <p class="leader-body">他列举了过去 6 个月在材料发现与蛋白质设计上的多项突破。</p>
-        <div class="leader-meta"><span class="tag">DeepMind</span><span class="tag">AI4Science</span></div>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">DeepMind</span></div>
       </article>
       <!-- LEADERS:END -->
     </div>
@@ -244,13 +261,13 @@
         <div class="news-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
         </div>
-        <div class="news-content"><strong>示例新闻 A</strong>：这是一条用于本地 dry-run 的占位新闻。</div>
+        <div class="news-content"><strong>示例 A</strong>：占位新闻。</div>
       </div>
       <div class="news-item reveal">
         <div class="news-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
         </div>
-        <div class="news-content"><strong>示例新闻 B</strong>：再来一条占位新闻。</div>
+        <div class="news-content"><strong>示例 B</strong>：占位新闻。</div>
       </div>
       <!-- NEWS:END -->
     </div>
@@ -267,17 +284,58 @@
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
         </div>
-        <h4>示例进展 α</h4>
-        <p>AI 在某科学问题上取得突破（占位）。</p>
+        <h4>示例进展 alpha</h4>
+        <p>AI 在某科学问题上突破（占位）。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
         </div>
-        <h4>示例进展 β</h4>
-        <p>AI 在另一科学问题上取得突破（占位）。</p>
+        <h4>示例进展 beta</h4>
+        <p>AI 在另一问题上突破（占位）。</p>
       </article>
       <!-- SCIENCE:END -->
+    </div>
+  </section>
+
+  <section id="papers">
+    <div class="section-head">
+      <h2 class="section-title"><span class="num">04</span>AI4Material 最新论文</h2>
+      <p class="section-desc">近一周 Nature 正刊 / 大子刊系列、Science、ML 顶会（NeurIPS / ICML / ICLR / KDD 等）涉及 AI for Materials 的代表性论文。</p>
+    </div>
+    <div class="papers-grid">
+      <!-- MATERIAL:START -->
+      <article class="paper-card nature reveal">
+        <span class="paper-venue">Nature Materials</span>
+        <h4 class="paper-title">Mock paper for dry-run rendering</h4>
+        <p class="paper-authors">Doe J. et al.</p>
+        <p class="paper-summary">Mock 验证论文卡片渲染。</p>
+        <div class="paper-meta">
+          <span class="paper-date">2026-04-25</span>
+          <a class="paper-link" href="https://example.com/p1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card science reveal">
+        <span class="paper-venue">Science</span>
+        <h4 class="paper-title">Mock paper on AI-driven catalysis</h4>
+        <p class="paper-authors">Roe A. et al.</p>
+        <p class="paper-summary">AI 引导的催化剂设计示例。</p>
+        <div class="paper-meta">
+          <span class="paper-date">2026-04-23</span>
+          <a class="paper-link" href="https://example.com/p2" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+        <span class="paper-venue">NeurIPS 2025</span>
+        <h4 class="paper-title">Mock GNN paper for crystals</h4>
+        <p class="paper-authors">Kim S. et al.</p>
+        <p class="paper-summary">图神经网络预测晶体性质示例。</p>
+        <div class="paper-meta">
+          <span class="paper-date">2026-04-22</span>
+          <a class="paper-link" href="https://example.com/p3" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <!-- MATERIAL:END -->
     </div>
   </section>
 
@@ -288,34 +346,4 @@
         <h3>关注「梵低」</h3>
         <p>分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。</p>
         <div class="id-pill">小红书号: 8936318663</div>
-      </div>
-      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/8936318663" target="_blank" rel="noopener">前往主页
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-      </a>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <p>© 2026 AI Progress Hub · 内容由 Claude + Web Search 自动汇总，最终以原报道为准。</p>
-  <p>由 GitHub Pages 托管 · 每日自动更新 · <a href="https://github.com/Yang1Bai/ai-progress-site" target="_blank" rel="noopener">仓库源码</a></p>
-</footer>
-
-<script>
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-  document.querySelectorAll('.leader-card').forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-      const r = card.getBoundingClientRect();
-      card.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
-      card.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
-    });
-  });
-</script>
-
-</body>
-</html>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+      
