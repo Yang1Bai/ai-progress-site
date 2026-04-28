@@ -5,34 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-04-28T04:13:35Z</updated>
+  <updated>2026-04-28T04:23:08Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年4月28日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html</id>
-    <updated>2026-04-28T04:13:35Z</updated>
+    <updated>2026-04-28T04:23:08Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>示例 A：占位新闻。…</title>
-    <link href="https://example.com/a"/>
-    <id>https://example.com/a</id>
-    <updated>2026-04-28T04:13:35Z</updated>
-    <summary>示例 A：占位新闻。</summary>
+    <title>中国阻止 Meta 收购 AI 初创公司 Manus，北京叫停这笔 20 亿美元交易，加剧中美科技竞争紧张局势…</title>
+    <link href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html"/>
+    <id>https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>中国阻止 Meta 收购 AI 初创公司 Manus，北京叫停这笔 20 亿美元交易，加剧中美科技竞争紧张局势</summary>
   </entry>
   <entry>
-    <title>示例 B：占位新闻。…</title>
+    <title>Google 向 Anthropic 追加投资至 400 亿美元，首笔 100 亿美元以 3800 亿估值完成，同时提供 5GW 算力应对基础设施压力…</title>
+    <link href="https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html"/>
+    <id>https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>Google 向 Anthropic 追加投资至 400 亿美元，首笔 100 亿美元以 3800 亿估值完成，同时提供 5GW 算力应对基础设施压力</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek 发布 V4 开源模型系列，包含 Pro 和 Flash 版本，在编码与推理任务上挑战 OpenAI、Anthropic 头部模型…</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"/>
+    <id>https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>DeepSeek 发布 V4 开源模型系列，包含 Pro 和 Flash 版本，在编码与推理任务上挑战 OpenAI、Anthropic 头部模型</summary>
+  </entry>
+  <entry>
+    <title>NASA 火星探测车首次采用 AI 自主规划路径，使用 Anthropic Claude 视觉模型分析地形数据，完成 456 米自主行驶…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>NASA 火星探测车首次采用 AI 自主规划路径，使用 Anthropic Claude 视觉模型分析地形数据，完成 456 米自主行驶</summary>
+  </entry>
+  <entry>
+    <title>剑桥大学发布类脑芯片可削减 AI 能耗 70%，采用氧化铪材料模拟神经元同步处理与存储信息，突破传统芯片能耗瓶颈…</title>
+    <link href="https://www.sciencedaily.com/releases/2026/04/260422044633.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/04/260422044633.htm</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>剑桥大学发布类脑芯片可削减 AI 能耗 70%，采用氧化铪材料模拟神经元同步处理与存储信息，突破传统芯片能耗瓶颈</summary>
+  </entry>
+  <entry>
+    <title>Snap 宣布裁员 1000 人，CEO 表示 AI 现已生成超 65% 新代码，小团队可达成相同产出，预计节省超 5 亿美元年度成本…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>Snap 宣布裁员 1000 人，CEO 表示 AI 现已生成超 65% 新代码，小团队可达成相同产出，预计节省超 5 亿美元年度成本</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 与诺和诺德达成战略合作，将 AI 整合至药物发现、临床试验、制造供应链全流程，计划 2026 年底全面部署…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>OpenAI 与诺和诺德达成战略合作，将 AI 整合至药物发现、临床试验、制造供应链全流程，计划 2026 年底全面部署</summary>
+  </entry>
+  <entry>
+    <title>ICLR 2026 于巴西里约热内卢举行，会议时间 4 月 23-28 日，展示机器学习前沿研究与 AI4Science 工作坊最新成果…</title>
+    <link href="https://radicaldatascience.wordpress.com/2026/04/24/ai-news-briefs-bulletin-board-for-april-2026/"/>
+    <id>https://radicaldatascience.wordpress.com/2026/04/24/ai-news-briefs-bulletin-board-for-april-2026/</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>ICLR 2026 于巴西里约热内卢举行，会议时间 4 月 23-28 日，展示机器学习前沿研究与 AI4Science 工作坊最新成果</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 三位高管于 4 月离职，包括印度裔 CTO 在内多名产品负责人离开，公司两年留存率 67% 低于 Anthropic 和 DeepMind…</title>
+    <link href="https://jobsbyculture.com/blog/openai-layoffs-2026"/>
+    <id>https://jobsbyculture.com/blog/openai-layoffs-2026</id>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>OpenAI 三位高管于 4 月离职，包括印度裔 CTO 在内多名产品负责人离开，公司两年留存率 67% 低于 Anthropic 和 DeepMind</summary>
+  </entry>
+  <entry>
+    <title>Google 发布 TurboQuant 压缩算法，将 AI 推理内存需求降低 6 倍且零精度损失，大幅削减大模型部署成本…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-28T04:13:35Z</updated>
-    <summary>示例 B：占位新闻。</summary>
-  </entry>
-  <entry>
-    <title>示例 C：占位新闻。…</title>
-    <link href="https://example.com/c"/>
-    <id>https://example.com/c</id>
-    <updated>2026-04-28T04:13:35Z</updated>
-    <summary>示例 C：占位新闻。</summary>
+    <updated>2026-04-28T04:23:08Z</updated>
+    <summary>Google 发布 TurboQuant 压缩算法，将 AI 推理内存需求降低 6 倍且零精度损失，大幅削减大模型部署成本</summary>
   </entry>
 </feed>

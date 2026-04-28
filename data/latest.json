@@ -1,202 +1,388 @@
 {
+  "date": "2026年4月28日",
   "leaders": [
     {
-      "name": "示例·一号",
-      "name_en": "Sample One",
-      "role": "示例公司 CEO",
-      "quote": "AI 将重塑下一个十年。",
-      "body": "占位（dry-run）。",
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI 首席执行官",
+      "quote": "AI 发现已成为持续加速的过程",
+      "body": "OpenAI 在 4 月经历高管离职潮后，仍保持 4.5 分 Glassdoor 评分，年营收超 100 亿美元，向商业化 AI 强力公司转型。",
       "tags": [
-        "2026-04"
+        "#商业化",
+        "#领导力",
+        "#增长"
       ],
-      "initials": "S1",
-      "quote_date": "4月27日"
-    },
-    {
-      "name": "示例·二号",
-      "name_en": "Sample Two",
-      "role": "Anthropic 研究员",
-      "quote": "可解释性是 AGI 安全的关键。",
-      "body": "占位（dry-run）。",
-      "tags": [
-        "Anthropic"
-      ],
-      "initials": "S2",
+      "initials": "SA",
       "quote_date": "近期"
     },
     {
-      "name": "示例·三号",
-      "name_en": "Sample Three",
-      "role": "DeepMind VP",
-      "quote": "AI4Science 进入加速期。",
-      "body": "占位（dry-run）。",
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic 首席执行官",
+      "quote": "将 AI 风险摆上台面是我们的责任",
+      "body": "Anthropic 在 4 月发布 Claude Mythos 5 但因安全顾虑限制为仅 50 家机构访问，年营收突破 300 亿美元，获谷歌、亚马逊巨额投资。",
       "tags": [
-        "DeepMind"
+        "#AI安全",
+        "#前沿模型",
+        "#融资"
       ],
-      "initials": "S3",
-      "quote_date": "4月25日"
+      "initials": "DA",
+      "quote_date": "4月7日"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 首席执行官",
+      "quote": "我们尚未拥有完全自主的科学家",
+      "body": "DeepMind 在 4 月推出 Gemini 3.1 与 AlphaEvolve 优化系统，在科学发现与推理基准上持续领先，继续探索 AI 基础研究边界。",
+      "tags": [
+        "#基础研究",
+        "#科学AI",
+        "#多模态"
+      ],
+      "initials": "DH",
+      "quote_date": "近期"
     }
   ],
   "news": [
     {
       "title": "",
-      "body": "<strong>示例 A</strong>：占位新闻。",
-      "url": "https://example.com/a",
-      "importance": "breaking",
+      "body": "<strong>中国阻止 Meta 收购 AI 初创公司 Manus</strong>，北京叫停这笔 20 亿美元交易，加剧中美科技竞争紧张局势",
+      "url": "https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html",
+      "importance": "major",
       "tags": [
+        "#政策",
+        "#中美竞争"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 向 Anthropic 追加投资至 400 亿美元</strong>，首笔 100 亿美元以 3800 亿估值完成，同时提供 5GW 算力应对基础设施压力",
+      "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+      "importance": "major",
+      "tags": [
+        "#投融资",
+        "#算力"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>DeepSeek 发布 V4 开源模型系列</strong>，包含 Pro 和 Flash 版本，在编码与推理任务上挑战 OpenAI、Anthropic 头部模型",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "importance": "major",
+      "tags": [
+        "#开源",
         "#LLM"
       ]
     },
     {
       "title": "",
-      "body": "<strong>示例 B</strong>：占位新闻。",
-      "url": "",
-      "importance": "major",
+      "body": "<strong>NASA 火星探测车首次采用 AI 自主规划路径</strong>，使用 Anthropic Claude 视觉模型分析地形数据，完成 456 米自主行驶",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "importance": "breaking",
       "tags": [
-        "#Agent",
-        "#开源"
+        "#机器人",
+        "#Agent"
       ]
     },
     {
       "title": "",
-      "body": "<strong>示例 C</strong>：占位新闻。",
-      "url": "https://example.com/c",
+      "body": "<strong>剑桥大学发布类脑芯片可削减 AI 能耗 70%</strong>，采用氧化铪材料模拟神经元同步处理与存储信息，突破传统芯片能耗瓶颈",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#材料"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>Snap 宣布裁员 1000 人</strong>，CEO 表示 AI 现已生成超 65% 新代码，小团队可达成相同产出，预计节省超 5 亿美元年度成本",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
       "importance": "normal",
       "tags": [
-        "#芯片"
+        "#政策",
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI 与诺和诺德达成战略合作</strong>，将 AI 整合至药物发现、临床试验、制造供应链全流程，计划 2026 年底全面部署",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "importance": "major",
+      "tags": [
+        "#生物",
+        "#Agent"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>ICLR 2026 于巴西里约热内卢举行</strong>，会议时间 4 月 23-28 日，展示机器学习前沿研究与 AI4Science 工作坊最新成果",
+      "url": "https://radicaldatascience.wordpress.com/2026/04/24/ai-news-briefs-bulletin-board-for-april-2026/",
+      "importance": "normal",
+      "tags": [
+        "#开源",
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI 三位高管于 4 月离职</strong>，包括印度裔 CTO 在内多名产品负责人离开，公司两年留存率 67% 低于 Anthropic 和 DeepMind",
+      "url": "https://jobsbyculture.com/blog/openai-layoffs-2026",
+      "importance": "normal",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 发布 TurboQuant 压缩算法</strong>，将 AI 推理内存需求降低 6 倍且零精度损失，大幅削减大模型部署成本",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#LLM"
       ]
     }
   ],
   "science": [
     {
-      "title": "示例进展 alpha",
-      "body": "AI 在某科学问题上突破（占位）。"
+      "title": "NASA 火星车实现 AI 自主导航",
+      "body": "毅力号火星车首次采用 Anthropic Claude 视觉语言模型分析轨道图像与地形数据，自主生成安全路径点并完成两次共 456 米行驶，这是人类 28 年来首次由 AI 完全接管此任务，标志着未来探测器千米级自主探索迈出关键一步。"
     },
     {
-      "title": "示例进展 beta",
-      "body": "AI 在另一问题上突破（占位）。"
+      "title": "类脑芯片削减 AI 能耗 70%",
+      "body": "剑桥大学团队开发出基于改性氧化铪的纳米电子器件，模拟神经元同时处理与存储信息，避免传统芯片数据搬移能耗，可使当前高耗能 AI 系统效率提升至超低功耗运行。"
+    },
+    {
+      "title": "AlphaEvolve 优化企业物流系统",
+      "body": "Google DeepMind 的 AlphaEvolve 代理系统在法国物流公司 FM Logistic 仓库中优化工人拣货路径，通过迭代实验与算法编程显著提升效率，展示 AI 从数学竞赛到真实企业应用的跨越。"
+    },
+    {
+      "title": "AI 预测材料研究趋势 2-3 年",
+      "body": "卡尔斯鲁厄理工学院团队结合大语言模型与机器学习系统分析材料科学文献，通过概念图谱追踪术语关联变化，成功预测未来两到三年新兴研究方向，帮助科学家从海量论文中发现新思路。"
+    },
+    {
+      "title": "蛋白质 3D 结构预测登上 NeurIPS",
+      "body": "密苏里大学团队利用 Purdue Anvil 超算训练深度学习模型，实现比先前方法更精准的蛋白质三维结构重建，该研究在 NeurIPS 2025 的 AI4Science 工作坊展示，强调开源实现与数据访问的重要性。"
+    },
+    {
+      "title": "AI 地图预测化学空间可持续探索",
+      "body": "德累斯顿 SusML 研讨会讨论将绿色 AI 理念引入材料科学与化学领域，强调从量子数据生成到自动化实验流程的全链条资源优化，推动可持续 AI 驱动科学发现范式转变。"
     }
   ],
   "papers": [
     {
       "venue_type": "nature",
-      "venue": "Nature Materials",
-      "title": "Mock paper for dry-run rendering",
-      "authors": "Doe J. et al.",
-      "summary": "Mock 验证论文卡片渲染。",
-      "date": "2026-04-25",
-      "url": "https://example.com/p1",
+      "venue": "Angewandte Chemie Intl Ed",
+      "title": "Accelerating Catalyst Materials Discovery With Large Artificial Intelligence Models",
+      "authors": "Zhang D. et al.",
+      "summary": "东北大学团队综述大规模 AI 模型（通用机器学习原子间势 MLIPs 与大语言模型 LLMs）如何重塑催化剂发现范式，整合高质量数据库、自动化实验与闭环平台，实现催化剂性能预测先于合成，加速清洁能源与可持续技术创新。",
+      "date": "2026-02-17",
+      "url": "https://doi.org/10.1002/anie.202526150",
       "is_week_pick": true
     },
     {
-      "venue_type": "science",
-      "venue": "Science",
-      "title": "Mock paper on AI-driven catalysis",
-      "authors": "Roe A. et al.",
-      "summary": "AI 引导的催化剂设计示例。",
-      "date": "2026-04-23",
-      "url": "https://example.com/p2",
+      "venue_type": "nature",
+      "venue": "ACS Materials Au",
+      "title": "AI-Accelerated Discovery of Electrocatalyst Materials",
+      "authors": "Authors from Univ. Sydney et al.",
+      "summary": "悉尼大学团队综述 AI 在电催化剂发现中的关键作用，涵盖数据质量、描述符选择与机器学习模型，强调 AI 如何显著缩短传统试错与 DFT 计算时间成本，加速高性能稳定电催化剂设计。",
+      "date": "2026-01-20",
+      "url": "https://doi.org/10.1021/acsmaterialsau.5c00135",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "ACS Nano",
+      "title": "Accelerating Multi-Elemental Catalyst Discovery with Interpretable Machine Learning and Automated Experimentation",
+      "authors": "Chen G. et al.",
+      "summary": "华南理工大学团队结合可解释机器学习与商业机器人自动化平台，实现多元素催化剂闭环优化发现工作流，采用 SHAP 分析揭示非线性组成-性能贡献，为环境应用中高级氧化过程催化剂开发提供可复现自动化策略。",
+      "date": "2026-04-10",
+      "url": "https://doi.org/10.1021/acsnano.5c20552",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Communications Materials",
+      "title": "AI-powered open-source infrastructure for accelerating materials discovery and advanced manufacturing",
+      "authors": "Authors et al.",
+      "summary": "提出构建透明、可扩展、可持续的 AI 驱动基础设施框架，跨越材料概念化到商业化全流程，强调开源工具统一数据获取、建模、仿真与部署，整合自驱动实验室、区块链溯源等关键组件，推动材料发现与先进制造民主化访问。",
+      "date": "2026-02-17",
+      "url": "https://doi.org/10.1038/s43246-026-01105-0",
       "is_week_pick": false
     },
     {
       "venue_type": "conf",
-      "venue": "NeurIPS 2025",
-      "title": "Mock GNN paper for crystals",
-      "authors": "Kim S. et al.",
-      "summary": "图神经网络预测晶体性质示例。",
-      "date": "2026-04-22",
-      "url": "https://example.com/p3",
+      "venue": "arXiv / Materials",
+      "title": "Perspective: Towards sustainable exploration of chemical spaces with machine learning",
+      "authors": "Medrano Sandonas L. et al.",
+      "summary": "德累斯顿 SusML 研讨会成果，探讨 AI 驱动分子与材料科学中的可持续性挑战，从量子数据生成、模型训练到自动化研究工作流的资源消耗，提出物理约束分层工作流、开放数据模型与领域专用 AI 系统等策略，平衡科学价值与计算成本。",
+      "date": "2026-03-31",
+      "url": "https://arxiv.org/abs/2604.00069",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv / Chemistry",
+      "title": "Survey on Recent Progress of AI for Chemistry: Methods, Applications, and Opportunities",
+      "authors": "Ding H. et al.",
+      "summary": "从计算视角全面综述 AI 技术在化学中的进展，涵盖多样数据源特征、各类表示方法、多个主题任务现有模型，并突出数据质量、模型可解释性、跨学科整合等关键挑战，为 AI 加速化学研究提供系统性方法论参考。",
+      "date": "2025-02-09",
+      "url": "https://arxiv.org/abs/2502.17456",
       "is_week_pick": false
     }
   ],
   "models": [
     {
-      "name": "Claude Sonnet 4",
-      "org": "Anthropic",
-      "org_short": "ANT",
-      "release_date": "2026-04-25",
-      "highlight": "最新旗舰推理模型",
-      "tier": "S"
-    },
-    {
-      "name": "GPT-5.5",
-      "org": "OpenAI",
-      "org_short": "OAI",
-      "release_date": "2026-04-24",
-      "highlight": "统一超级应用",
-      "tier": "S"
-    },
-    {
       "name": "DeepSeek V4",
       "org": "DeepSeek",
       "org_short": "DS",
+      "release_date": "2026-04-24",
+      "highlight": "开源旗舰挑战闭源模型",
+      "tier": "A"
+    },
+    {
+      "name": "Claude Sonnet 4.6",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-02-17",
+      "highlight": "接近 Opus 级性能 Sonnet 价格",
+      "tier": "S"
+    },
+    {
+      "name": "GPT-5.4",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-03-05",
+      "highlight": "105 万 token 上下文窗口",
+      "tier": "S"
+    },
+    {
+      "name": "Gemini 3.1 Pro",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-02-28",
+      "highlight": "实时语音与图像多模态分析",
+      "tier": "S"
+    },
+    {
+      "name": "Qwen 3.6-Max-Preview",
+      "org": "Alibaba",
+      "org_short": "BABA",
       "release_date": "2026-04-23",
-      "highlight": "开源最强，100K ctx",
+      "highlight": "编码推理 Agent 性能提升",
+      "tier": "A"
+    },
+    {
+      "name": "Gemma 4",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-04-02",
+      "highlight": "Apache 2.0 开源多模态",
       "tier": "A"
     }
   ],
   "benchmarks": [
     {
-      "model": "Claude Sonnet 4",
+      "model": "Claude Sonnet 4.5",
       "org": "Anthropic",
-      "mmlu": "91.5",
-      "math": "87.2",
-      "humaneval": "90.1",
-      "notes": "最新旗舰，强推理"
+      "mmlu": "~91",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 当前第一，GDPval 实际工作基准领先"
     },
     {
-      "model": "GPT-5.5",
+      "model": "GPT-5.4",
       "org": "OpenAI",
-      "mmlu": "92.1",
-      "math": "88.3",
-      "humaneval": "91.2",
-      "notes": "统一超级应用"
+      "mmlu": "~92",
+      "math": "N/A",
+      "humaneval": "94.5",
+      "notes": "GDPval 83% 超人类专家，综合排名第二"
     },
     {
-      "model": "Gemini 2.5 Pro",
+      "model": "Gemini 3.1 Pro",
       "org": "Google",
-      "mmlu": "90.8",
-      "math": "91.0",
-      "humaneval": "88.5",
-      "notes": "数学最强"
+      "mmlu": "~90",
+      "math": "N/A",
+      "humaneval": "93.0",
+      "notes": "GPQA Diamond 94.3% 科学推理领先"
     },
     {
       "model": "DeepSeek V4",
       "org": "DeepSeek",
-      "mmlu": "88.5",
-      "math": "85.1",
-      "humaneval": "87.3",
-      "notes": "开源最强"
+      "mmlu": "~89",
+      "math": "N/A",
+      "humaneval": "94.8",
+      "notes": "SWE-bench 81% 开源顶级编码性能"
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "mmlu": "~91",
+      "math": "N/A",
+      "humaneval": "95.2",
+      "notes": "Aider Polyglot 82.1% 多语言代理第一"
+    },
+    {
+      "model": "R1",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.4",
+      "notes": "推理模型交换速度换精度"
+    },
+    {
+      "model": "Grok 4",
+      "org": "xAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.0",
+      "notes": "多 Agent 并行推理架构"
     }
   ],
   "conferences": [
     {
       "name": "ICML 2026",
-      "event_type": "notification",
-      "deadline": "2026-05-15",
-      "url": "https://icml.cc",
-      "days_left": 18
+      "event_type": "submission",
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/Conferences/2026/Dates",
+      "days_left": 5
     },
     {
       "name": "NeurIPS 2026",
       "event_type": "submission",
-      "deadline": "2026-05-30",
-      "url": "https://neurips.cc",
-      "days_left": 33
+      "deadline": "2026-05-07",
+      "url": "https://neurips.cc/Conferences/2026/Dates",
+      "days_left": 9
     },
     {
-      "name": "ICLR 2027",
+      "name": "ICML 2026 (J2C Track)",
+      "event_type": "camera_ready",
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/public/JournalToConference",
+      "days_left": 5
+    },
+    {
+      "name": "KDD 2026",
       "event_type": "submission",
-      "deadline": "2026-09-27",
-      "url": "https://iclr.cc",
-      "days_left": 153
+      "deadline": "2026-02-06",
+      "url": "http://aideadlines.org/",
+      "days_left": -82
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-15",
+      "url": "http://aideadlines.org/",
+      "days_left": 109
     }
   ],
-  "date": "2026年4月28日",
   "stats": {
-    "news_count": 3,
-    "paper_count": 3,
+    "news_count": 10,
+    "paper_count": 6,
     "leader_count": 3,
-    "science_count": 2
+    "science_count": 6
   }
 }
