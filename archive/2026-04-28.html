@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 进展汇总 · AI Progress Hub</title>
-<meta name="description" content="聚焦 AI 领袖观点、每日大事与 AI4Science 发展。">
+<meta name="description" content="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完。领袖观点、今日大事、AI4Science 进展与材料科学论文。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -466,53 +466,185 @@ section {
   border-color: var(--accent);
   color: #fff;
 }
-.news-list { display: grid; gap: 10px; }
-.news-headline {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-left: 3px solid var(--red);
-  border-radius: 12px;
-  padding: 18px 20px;
-  box-shadow: var(--shadow-sm);
-  transition: box-shadow .2s, border-color .2s;
+/* News card grid */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
-.news-headline:hover { box-shadow: var(--shadow-md); }
-.news-headline .news-body {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1rem;
+/* Headline card — spans full width */
+.news-card-headline {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #E5E7EB;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.news-card-headline:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  transform: translateY(-2px);
+}
+.news-card-headline .card-image {
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8ecf8 100%);
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.news-card-headline .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+}
+.card-image-placeholder .topic-icon {
+  font-size: 3rem;
+  opacity: 0.4;
+}
+.card-image-placeholder .topic-label {
+  font-size: 0.75rem;
+  color: #9CA3AF;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: 'JetBrains Mono', monospace;
+}
+.news-card.medium .card-img-top {
+  width: calc(100% + 48px);
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  margin: -24px -24px 16px -24px;
+}
+.news-card-headline .card-body {
+  padding: 32px 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+/* Regular news cards */
+.news-card {
+  background: #fff;
+  border: 1px solid #E5E7EB;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  position: relative;
+}
+.news-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.news-card.medium { grid-column: span 2; }
+/* Shared card elements */
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+.card-badge.breaking {
+  background: #FEE2E2;
+  color: #DC2626;
+  border: 1px solid #FECACA;
+}
+.card-badge.breaking::before {
+  content: '';
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #EF4444;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.card-badge.major {
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FED7AA;
+}
+.card-badge.update {
+  background: #EFF6FF;
+  color: #2563EB;
+  border: 1px solid #BFDBFE;
+}
+.card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.4;
+  margin: 0;
+}
+.news-card-headline .card-title { font-size: 1.35rem; line-height: 1.3; }
+.card-summary {
+  color: #6B7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #F3F4F6;
+  gap: 8px;
+}
+.card-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #2563EB;
+  font-size: 0.8rem;
+  font-family: 'JetBrains Mono', monospace;
+  text-decoration: none;
   font-weight: 600;
-  color: var(--brand);
-  margin: 0 0 10px;
+  transition: opacity 0.15s;
 }
-.news-item {
-  display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 14px;
-  padding: 16px 18px;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: var(--shadow-xs);
-  transition: box-shadow .2s, border-color .2s, transform .2s;
+.card-source-link:hover { opacity: 0.75; }
+.card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+.card-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  color: #6B7280;
+  cursor: pointer;
+  transition: all 0.15s;
 }
-.news-item:hover { box-shadow: var(--shadow-md); border-color: var(--border-dark); transform: translateX(2px); }
-.news-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 11px;
-  display: grid;
-  place-items: center;
-  background: var(--accent-light);
-  color: var(--accent);
-  flex-shrink: 0;
+.card-tag:hover {
+  background: #EFF6FF;
+  border-color: #BFDBFE;
+  color: #2563EB;
 }
-.news-icon svg { width: 22px; height: 22px; }
-.news-item:nth-child(2n) .news-icon { background: var(--green-bg); color: var(--green); }
-.news-item:nth-child(3n) .news-icon { background: var(--purple-bg); color: var(--purple); }
-.news-item:nth-child(4n) .news-icon { background: var(--amber-bg); color: var(--amber); }
-.news-body { margin: 0 0 8px; color: var(--text-2); font-size: .92rem; }
-.news-body strong { color: var(--brand); font-weight: 700; }
-.news-content { min-width: 0; }
+/* Legacy compatibility */
 .news-source-link {
   display: inline-flex;
   align-items: center;
@@ -1009,12 +1141,107 @@ body::before {
   .subscribe-form { flex-direction: column; }
   .subscribe-form input[type=email] { min-width: unset; }
   .papers-grid { grid-template-columns: 1fr; }
-  .news-item { grid-template-columns: 44px 1fr; gap: 10px; padding: 14px; }
-  .news-icon { width: 44px; height: 44px; }
+  .news-grid { grid-template-columns: repeat(2, 1fr); }
+  .news-card-headline { grid-template-columns: 1fr; }
+  .news-card-headline .card-image { min-height: 180px; }
+  .news-card.medium { grid-column: span 2; }
+}
+@media (max-width: 600px) {
+  .news-grid { grid-template-columns: 1fr; }
+  .news-card.medium { grid-column: span 1; }
 }
 @media (max-width: 480px) {
   .status-bar { display: none; }
   .nav { top: 0; }
+}
+</style>
+
+<!-- ═══════════════════════════════════════════════
+     AI Progress Hub — Entrance Animations v2
+     Apple / Anthropic aesthetic
+     ═══════════════════════════════════════════════ -->
+<style id="oc-anim">
+/* ══ Splash Screen ══ */
+#splash-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  pointer-events: none;
+}
+#splash-wordmark {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: -0.03em;
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+#splash-wordmark.visible { opacity: 1; }
+#splash-progress-track {
+  width: 220px;
+  height: 2px;
+  background: #e5e7eb;
+  border-radius: 1px;
+  overflow: hidden;
+}
+#splash-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #2563EB;
+  border-radius: 1px;
+  transition: width 1200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+#splash-progress-bar.grow { width: 100%; }
+
+/* ══ Scroll reveal — initial hidden state ══ */
+@media (prefers-reduced-motion: no-preference) {
+  .card,
+  .news-item,
+  .news-headline,
+  .news-card,
+  .news-card-headline,
+  .paper-card,
+  .leader-card,
+  .sci-card {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.55s ease,
+                transform 0.55s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.2s ease,
+                border-color 0.2s ease;
+  }
+
+  .card.is-visible,
+  .news-item.is-visible,
+  .news-headline.is-visible,
+  .news-card.is-visible,
+  .news-card-headline.is-visible,
+  .paper-card.is-visible,
+  .leader-card.is-visible,
+  .sci-card.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Restore hover transforms after reveal */
+  .sci-card.is-visible:hover    { transform: translateY(-2px); border-color: var(--green-border); }
+  .paper-card.is-visible:hover  { transform: translateY(-2px); }
+  .leader-card.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
+  .news-item.is-visible:hover   { transform: translateX(2px);  border-color: var(--border-dark); }
+  .news-card.is-visible:hover   { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
+  .news-card-headline.is-visible:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.10); }
+
+  .nav-links a.nav-active {
+    color: var(--accent) !important;
+    background: var(--accent-light) !important;
+  }
 }
 </style>
 </head>
@@ -1041,12 +1268,12 @@ body::before {
     </a>
 
     <div class="nav-links">
-      <a href="#daily" data-cn="今日资讯" data-en="Daily News">今日资讯</a>
-      <a href="#ai4science" data-cn="AI4Science" data-en="AI4Science">AI4Science</a>
-      <a href="#papers" data-cn="论文" data-en="Papers">论文</a>
+      <a href="#daily" data-cn="今日" data-en="Daily">今日</a>
+      <a href="#ai4science" data-cn="科学" data-en="Science">科学</a>
+      <a href="#papers" data-cn="材料" data-en="Materials">材料</a>
       <a href="#models" data-cn="模型" data-en="Models">模型</a>
-      <a href="#benchmarks" data-cn="基准" data-en="Benchmarks">基准</a>
-      <a href="#leaders" data-cn="大佬观点" data-en="Leaders">大佬观点</a>
+      <a href="#benchmarks" data-cn="基准" data-en="Bench">基准</a>
+      <a href="#leaders" data-cn="领袖" data-en="Leaders">领袖</a>
       <a href="archive/" data-cn="历史归档" data-en="Archive">历史归档</a>
       <a href="feed.xml" class="nav-rss" title="RSS 订阅">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
@@ -1067,12 +1294,12 @@ body::before {
 
 <!-- Mobile menu -->
 <div class="mobile-menu" id="mobile-menu">
-  <a href="#daily" onclick="toggleMenu()" data-cn="今日资讯" data-en="Daily News">今日资讯</a>
-  <a href="#ai4science" onclick="toggleMenu()" data-cn="AI4Science" data-en="AI4Science">AI4Science</a>
-  <a href="#papers" onclick="toggleMenu()" data-cn="论文" data-en="Papers">论文</a>
+  <a href="#daily" onclick="toggleMenu()" data-cn="今日" data-en="Daily">今日</a>
+  <a href="#ai4science" onclick="toggleMenu()" data-cn="科学" data-en="Science">科学</a>
+  <a href="#papers" onclick="toggleMenu()" data-cn="材料" data-en="Materials">材料</a>
   <a href="#models" onclick="toggleMenu()" data-cn="模型" data-en="Models">模型</a>
-  <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Benchmarks">基准</a>
-  <a href="#leaders" onclick="toggleMenu()" data-cn="大佬观点" data-en="Leaders">大佬观点</a>
+  <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Bench">基准</a>
+  <a href="#leaders" onclick="toggleMenu()" data-cn="领袖" data-en="Leaders">领袖</a>
   <a href="archive/" onclick="toggleMenu()" data-cn="历史归档" data-en="Archive">历史归档</a>
   <a href="feed.xml">RSS</a>
   <div class="mobile-lang">
@@ -1084,9 +1311,9 @@ body::before {
 
 <!-- Hero -->
 <header class="hero">
-  <div class="hero-label" data-cn="AI 情报中心" data-en="Intelligence Feed">AI 情报中心</div>
-  <h1 class="hero-title" id="hero-title" data-cn="追踪 AI 浪潮的每一次脉动" data-en="Track Every Pulse of the AI Wave">追踪 AI 浪潮的每一次脉动</h1>
-  <p class="hero-sub" data-cn="领袖观点 · 今日大事 · AI4Science · AI4Material 论文 · 模型基准 · 会议日历" data-en="Leader Insights · Daily News · AI4Science · AI4Material Papers · Model Benchmarks · Conferences">领袖观点 · 今日大事 · AI4Science · AI4Material 论文 · 模型基准 · 会议日历</p>
+  <div class="hero-label" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</div>
+  <h1 class="hero-title" id="hero-title" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</h1>
+  <p class="hero-sub" data-cn="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完" data-en="Track the AI frontier daily — model releases, research breakthroughs, and expert takes, curated in one place">每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完</p>
 
   <div class="search-wrap">
     <input type="text" id="site-search" placeholder="搜索今日内容…" autocomplete="off" data-placeholder-cn="搜索今日内容…" data-placeholder-en="Search today's content…" />
@@ -1097,12 +1324,12 @@ body::before {
   <!-- STATS:START -->
   <div class="stats-row">
     <div class="stat-block">
-      <span class="stat-num mono" data-target="10">10</span>
+      <span class="stat-num mono" data-target="8">8</span>
       <span class="stat-label">条资讯</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="7">7</span>
+      <span class="stat-num mono" data-target="3">3</span>
       <span class="stat-label">篇论文</span>
     </div>
     <div class="stat-divider"></div>
@@ -1112,7 +1339,7 @@ body::before {
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="6">6</span>
+      <span class="stat-num mono" data-target="5">5</span>
       <span class="stat-label">项进展</span>
     </div>
     <div class="stat-divider"></div>
@@ -1135,118 +1362,98 @@ body::before {
   <section id="daily">
     <div class="sec-header">
       <span class="sec-badge badge-blue" data-cn="今日资讯" data-en="Daily News">今日资讯</span>
-      <h2 class="sec-title" data-cn="今日AI大事" data-en="Today's AI News">今日AI大事</h2>
+      <h2 class="sec-title" data-cn="今日大事" data-en="Today's AI News">今日大事</h2>
     </div>
-    <p class="sec-desc" data-cn="每日由 GitHub Action + Claude API 自动抓取最新资讯。" data-en="Auto-fetched daily via GitHub Action + Claude API.">每日由 GitHub Action + Claude API 自动抓取最新资讯。</p>
+    <p class="sec-desc" data-cn="由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展" data-en="Curated by Claude — model launches, policy shifts, and industry moves">由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展</p>
     <div class="filter-bar" id="tag-filter">
-      <button class="filter-chip all-chip active" onclick="filterNews('all')" data-cn="全部" data-en="All">全部</button>
-      <button class="filter-chip" onclick="filterNews('#LLM')">#LLM</button>
-      <button class="filter-chip" onclick="filterNews('#多模态')">#多模态</button>
-      <button class="filter-chip" onclick="filterNews('#机器人')">#机器人</button>
-      <button class="filter-chip" onclick="filterNews('#安全')">#安全</button>
-      <button class="filter-chip" onclick="filterNews('#芯片')">#芯片</button>
-      <button class="filter-chip" onclick="filterNews('#材料')">#材料</button>
-      <button class="filter-chip" onclick="filterNews('#开源')">#开源</button>
-      <button class="filter-chip" onclick="filterNews('#Agent')">#Agent</button>
+      <button class="filter-chip all-chip active" onclick="filterNews(this)" data-tag="all" data-cn="全部" data-en="All">全部</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#LLM" data-cn="#LLM" data-en="#LLM">#LLM</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#多模态" data-cn="#多模态" data-en="#Multimodal">#多模态</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#机器人" data-cn="#机器人" data-en="#Robots">#机器人</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#安全" data-cn="#安全" data-en="#Safety">#安全</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#芯片" data-cn="#芯片" data-en="#Chips">#芯片</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#材料" data-cn="#材料" data-en="#Materials">#材料</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#开源" data-cn="#开源" data-en="#OpenSource">#开源</button>
+      <button class="filter-chip" onclick="filterNews(this)" data-tag="#Agent" data-cn="#Agent" data-en="#Agent">#Agent</button>
     </div>
-    <div class="news-list">
+    <div class="news-grid">
       <!-- NEWS:START -->
-      <div class="news-headline reveal">
-        <span class="badge-breaking">BREAKING</span>
-        <p class="news-body"><strong>Google投资400亿美元</strong>于Anthropic，首批100亿估值3800亿美元，剩余300亿取决于里程碑。Anthropic年化收入已超<strong>300亿美元</strong>。</p>
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
-          <a class="news-source-link" href="https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-          <div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+      <div class="news-card-headline reveal" data-tags="#政策,#LLM">
+        <div class="card-image">
+          <img src="https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4144x2331+0+216/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F7d%2F4268ba0f43c9b9dff405ab1fc774%2Fap26118555622828.jpg" alt="马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构…" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?OpenAI%20artificial%20intelligence'">
+        </div>
+        <div class="card-body">
+          <span class="card-badge breaking">BREAKING</span>
+          <h3 class="card-title">马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构…</h3>
+          <p class="card-summary"><strong>马斯克诉 OpenAI 案</strong>今日开庭：指控奥特曼「窃取慈善机构」，寻求剥夺其董事职位并索赔 1500 亿美元，OpenAI 辩称马斯克因嫉妒提告。</p>
+          <div class="card-footer">
+            <a class="card-source-link" href="https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements" target="_blank" rel="noopener">原文 ↗</a>
+            <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+          </div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#政策,#Agent">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body">中国<strong>阻止Meta收购</strong>新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#Agent')">#Agent</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#LLM,#开源">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body"><strong>DeepSeek V4</strong>发布，1.6万亿参数，价格仅GPT-5.2的<strong>1/50</strong>，性能达其90%。中国模型在成本效率上取得突破。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.usnews.com/news/business/articles/2026-04-24/chinas-deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span><span class="news-tag" onclick="filterNews('#开源')">#开源</span></div></div>
+      <div class="news-card medium reveal" data-tags="#LLM,#政策">
+        <img class="card-img-top" src="https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2236546488.jpg?resize=1200,600" alt="OpenAI CFO 与奥特曼就支出产生分歧：CFO Sar…" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?OpenAI%20artificial%20intelligence'">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">OpenAI CFO 与奥特曼就支出产生分歧：CFO Sar…</h3>
+        <p class="card-summary"><strong>OpenAI CFO 与奥特曼</strong>就支出产生分歧：CFO Sarah Friar 担心数据中心支出过高，收入增长不足以支撑合同，双方称报道「荒谬」，但对即将 IPO 构成压力。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#芯片,#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        </div>
-        <div class="news-content">
-          <span class="badge-major">⚡ 重磅</span>
-          <p class="news-body">Google发布<strong>TurboQuant</strong>算法，将AI推理内存开销降低<strong>6倍</strong>且零精度损失，解决KV缓存瓶颈，加速效率优先AI开发。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#芯片')">#芯片</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
+      <div class="news-card reveal" data-tags="#政策,#Agent">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">中国封杀 Meta 20 亿美元收购 AI 初创 Manus…</h3>
+        <p class="card-summary"><strong>中国封杀 Meta 20 亿美元收购</strong> AI 初创 Manus：北京要求撤回交易，新加坡「洗白」策略彻底失效，凸显中美科技脱钩加剧。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#Agent,#多模态">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      <div class="news-card reveal" data-tags="#LLM,#开源">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">DeepSeek V4 发布：中国深度求索推出 V4 Fla…</h3>
+        <p class="card-summary"><strong>DeepSeek V4</strong> 发布：中国深度求索推出 V4 Flash 与 Pro 系列，强化推理与 Agent 能力，采用混合注意力架构支持 100 万 token 上下文窗口。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
         </div>
-        <div class="news-content">
+      </div>
+      <div class="news-card reveal" data-tags="#LLM">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">OpenAI 软件高管跳槽潮：Salesforce、Snow…</h3>
+        <p class="card-summary"><strong>OpenAI 软件高管跳槽潮</strong>：Salesforce、Snowflake、Palantir 多名高管近期加入 OpenAI，企业软件行业面临 AI 颠覆与人才流失双重压力。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#LLM,#Agent">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">DeepMind 前研究员 David Silver 创立…</h3>
+        <p class="card-summary"><strong>DeepMind 前研究员</strong> David Silver 创立 Ineffable Intelligence，融资 11 亿美元估值 51 亿，致力于无需人类数据的强化学习「超级学习者」。</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#芯片,#材料">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">AI 数据中心电力短缺加剧：美国 2027 年将面临 9-1…</h3>
+        <p class="card-summary"><strong>AI 数据中心电力短缺</strong>加剧：美国 2027 年将面临 9-18 GW 电力缺口，微软重启三哩岛核电站，科技巨头转向离网核能与天然气。</p>
+        <div class="card-footer">
           
-          <p class="news-body">NASA毅力号火星车完成首次<strong>AI规划驾驶</strong>，使用Anthropic Claude视觉模型分析轨道图像自主生成安全路径，行驶456米。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#Agent')">#Agent</span><span class="news-tag" onclick="filterNews('#多模态')">#多模态</span></div></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span><span class="card-tag" onclick="filterNews('#材料')">#材料</span></div>
         </div>
       </div>
-      <div class="news-item reveal" data-tags="#多模态,#政策">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
-        </div>
-        <div class="news-content">
+      <div class="news-card reveal" data-tags="#政策,#安全">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">Google 与国防部签署新合约：继 Anthropic 拒…</h3>
+        <p class="card-summary"><strong>Google 与国防部</strong>签署新合约：继 Anthropic 拒绝后，Google 同意为国防部提供 AI 服务，引发内部 600 余员工联名抗议。</p>
+        <div class="card-footer">
           
-          <p class="news-body">OpenAI关闭Sora视频应用，每天烧钱<strong>100万美元</strong>，将算力转向编程工具和企业产品，确认AI辅助编程成为核心战场。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://ai2.work/blog/google-s-brin-forms-deepmind-strike-team-to-close-anthropic-coding-gap" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#多模态')">#多模态</span><span class="news-tag" onclick="filterNews('#政策')">#政策</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#政策,#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">Meta、Google、OpenAI等顶尖AI实验室高级员工<strong>大量离职</strong>创业，2026年Q1 AI初创融资188亿美元，投资者提供资金吸引顶级研究者。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#政策')">#政策</span><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#芯片,#政策">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">AI数据中心将使美国<strong>2028年电力消耗增至12%</strong>，面临9-18GW短缺。微软重启三里岛核电站，亚马逊寻求专用核电站。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#芯片')">#芯片</span><span class="news-tag" onclick="filterNews('#政策')">#政策</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#LLM,#材料">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body">AI物理突破：Emory大学用<strong>物理定制机器学习</strong>揭示尘埃等离子体中非互易力新规律，发表于PNAS，可扩展至细胞等复杂系统。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://www.sciencedaily.com/releases/2026/04/260422044635.htm" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span><span class="news-tag" onclick="filterNews('#材料')">#材料</span></div></div>
-        </div>
-      </div>
-      <div class="news-item reveal" data-tags="#LLM">
-        <div class="news-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-        </div>
-        <div class="news-content">
-          
-          <p class="news-body"><strong>ICLR 2026</strong>于4月23-27日在巴西里约举行，展示前沿AI研究。AI4Mat工作坊聚焦强化学习在材料科学中的应用。</p>
-          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;"><a class="news-source-link" href="https://iclr.cc/Conferences/2026/Dates" target="_blank" rel="noopener">原文 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a><div class="news-tags"><span class="news-tag" onclick="filterNews('#LLM')">#LLM</span></div></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
         </div>
       </div>
       <!-- NEWS:END -->
@@ -1259,50 +1466,43 @@ body::before {
       <span class="sec-badge badge-green" data-cn="科学进展" data-en="Science">科学进展</span>
       <h2 class="sec-title" data-cn="AI4Science 进展" data-en="AI4Science Advances">AI4Science 进展</h2>
     </div>
-    <p class="sec-desc" data-cn="AI 加速科学发现的代表性最新进展，每日自动更新。" data-en="Latest AI-accelerated science breakthroughs, updated daily.">AI 加速科学发现的代表性最新进展，每日自动更新。</p>
+    <p class="sec-desc" data-cn="AI 正在重写科学研究的方式。这里追踪真正改变实验室的进展" data-en="AI is rewriting how science is done. These are the advances actually changing labs">AI 正在重写科学研究的方式。这里追踪真正改变实验室的进展</p>
     <div class="science-grid">
       <!-- SCIENCE:START -->
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
         </div>
-        <h4>AI驱动材料逆向设计</h4>
-        <p>Nature Materials综述展示深度生成模型驱动的材料设计范式转变，从传统筛选到逆向生成，加速具有优异功能材料的发现。发表于2026年1月。</p>
+        <h4>多模态 LLM 材料</h4>
+        <p>Nature Machine Intelligence 发表 MatterChat 框架，整合材料结构数据与大语言模型，实现高精度性质预测并提供可解释推理，加速材料发现。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
         </div>
-        <h4>多模态LLM用于材料</h4>
-        <p>Nature Machine Intelligence报道MatterChat框架，将材料结构数据与大语言模型集成，实现高精度性质预测和可解释推理，加速材料发现。发表于4月24日。</p>
+        <h4>AI 预测材料趋势</h4>
+        <p>卡尔斯鲁厄理工学院团队利用 LLM 与概念图谱系统分析材料科学文献，成功预测未来 2-3 年研究方向，论文发表于 Nature Machine Intelligence。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
         </div>
-        <h4>条件生成加速材料搜索</h4>
-        <p>npj Computational Materials发布PODGen框架，整合生成模型与性质预测，搜索拓扑绝缘体成功率提升&lt;strong&gt;5倍&lt;/strong&gt;。AI技术优化目标导向材料设计效率。</p>
+        <h4>AI 催化剂设计综述</h4>
+        <p>多篇顶刊综述（ACS Catalysis、JACS）讨论 AI 在均相催化与电催化中的应用，强调机器学习势能、生成模型与 LLM 在催化剂筛选与反应机理解析中的潜力。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
         </div>
-        <h4>自驱动实验室合成材料</h4>
-        <p>Berkeley Lab的AI驱动机器人实验室17天内成功合成41种新材料（58种尝试），展示自主材料合成与AI预测结合的转化潜力。</p>
+        <h4>神经形态计算材料</h4>
+        <p>研究者展示脑启发神经形态计算机可解决复杂物理模拟方程，能耗远低于传统超算，为材料与气候建模提供新范式。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         </div>
-        <h4>神经形态计算解物理方程</h4>
-        <p>研究人员证明神经形态计算机可解决物理模拟背后的复杂方程，此前被认为仅超级计算机可完成，为低能耗科学计算开辟新路径。</p>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h4>ChatBattery锂电池设计</h4>
-        <p>专家引导LLM推理框架ChatBattery成功识别、合成三种新型锂离子电池正极材料，实际容量比NMC811提升28.8%、25.2%、18.5%，展示AI驱动完整材料发明周期。</p>
+        <h4>自驱动材料实验室</h4>
+        <p>Communications Materials 提出 AI 驱动开源基础设施框架，结合自驱动实验室、高保真计算与区块链数据共享，民主化材料发现全流程。</p>
       </article>
       <!-- SCIENCE:END -->
     </div>
@@ -1314,15 +1514,15 @@ body::before {
       <span class="sec-badge badge-purple" data-cn="论文精选" data-en="Papers">论文精选</span>
       <h2 class="sec-title" data-cn="AI4Material 最新论文" data-en="AI4Material Latest Papers">AI4Material 最新论文</h2>
     </div>
-    <p class="sec-desc" data-cn="近一周 Nature 正刊 / 大子刊系列、Science、ML 顶会涉及 AI for Materials 的代表性论文。" data-en="Representative papers on AI for Materials from Nature, Science, and top ML conferences in the past week.">近一周 Nature 正刊 / 大子刊系列、Science、ML 顶会涉及 AI for Materials 的代表性论文。</p>
+    <p class="sec-desc" data-cn="材料科学 × 机器学习：从催化剂发现到晶体结构预测" data-en="Materials science meets ML: catalyst discovery, crystal structure prediction, and beyond">材料科学 × 机器学习：从催化剂发现到晶体结构预测</p>
     <div class="papers-grid">
       <!-- MATERIAL:START -->
       <article class="paper-card nature paper-card-pick reveal">
         <div class="pick-banner">⭐ 本周精选</div>
-        <span class="paper-venue">Nature Machine Intelligence</span>
+        <span class="paper-venue">Nat Mach Intell</span>
         <h4 class="paper-title">A multimodal large language model for materials science</h4>
         <p class="paper-authors">Tang Y. et al.</p>
-        <p class="paper-summary">提出MatterChat多模态框架，有效整合材料结构数据与大语言模型，实现高精度性质预测并提供可解释推理，加速材料发现。</p>
+        <p class="paper-summary">提出 MatterChat 多模态框架，整合材料结构与 LLM 实现高精度性质预测与可解释推理，加速材料发现。</p>
         <div class="paper-meta">
           <span class="paper-date">2026-04-24</span>
           <a class="paper-link" href="https://www.nature.com/articles/s42256-026-01214-y" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
@@ -1330,68 +1530,24 @@ body::before {
       </article>
       <article class="paper-card nature reveal">
         
-        <span class="paper-venue">Nature Materials</span>
-        <h4 class="paper-title">Artificial intelligence-driven approaches for materials design and discovery</h4>
-        <p class="paper-authors">Cheng M. et al.</p>
-        <p class="paper-summary">综述AI驱动的材料设计计算进展，重点介绍从传统筛选到深度生成模型驱动逆向设计的范式转变，讨论材料逆向设计的挑战与未来展望。</p>
+        <span class="paper-venue">Nat Mach Intell</span>
+        <h4 class="paper-title">Predicting new research directions in materials science using large language models and concept graphs</h4>
+        <p class="paper-authors">Marwitz T. et al.</p>
+        <p class="paper-summary">利用 LLM 构建材料科学概念图并训练 ML 模型，成功预测未来 2-3 年新兴研究组合，为科学家提供灵感。</p>
         <div class="paper-meta">
-          <span class="paper-date">2026-01-02</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41563-025-02403-7" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-04-01</span>
+          <a class="paper-link" href="https://www.nature.com/articles/s42256-026-01206-y" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <article class="paper-card nature reveal">
         
-        <span class="paper-venue">Communications Materials</span>
+        <span class="paper-venue">Commun Mater</span>
         <h4 class="paper-title">AI-powered open-source infrastructure for accelerating materials discovery and advanced manufacturing</h4>
         <p class="paper-authors">Salas M. et al.</p>
-        <p class="paper-summary">提出构建透明、可扩展、可持续AI驱动基础设施的框架，涵盖材料发现与先进制造全流程，强调开源工具、自驱动实验室和区块链数据共享。</p>
+        <p class="paper-summary">提出 AI 驱动开源基础设施框架，整合自驱动实验室、计算模拟与区块链，实现材料发现全流程自动化与可复现性。</p>
         <div class="paper-meta">
           <span class="paper-date">2026-02-17</span>
           <a class="paper-link" href="https://www.nature.com/articles/s43246-026-01105-0" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">npj Computational Materials</span>
-        <h4 class="paper-title">Materials discovery acceleration by using conditional generative methodology</h4>
-        <p class="paper-authors">Ye C. et al.</p>
-        <p class="paper-summary">开发PODGen条件生成框架，整合通用生成模型与多个性质预测模型，用于高通量晶体条件生成搜索拓扑绝缘体，成功率比无约束方法高约5倍。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-12-26</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41524-025-01930-w" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">Communications Materials</span>
-        <h4 class="paper-title">Materials Expert-Artificial Intelligence for materials discovery</h4>
-        <p class="paper-authors">Stanev V. et al.</p>
-        <p class="paper-summary">提出ME-AI机器学习框架，将专家直觉转化为定量描述符，使用基于测量的数据训练，揭示超价态作为拓扑半金属关键预测因子。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-09-29</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s43246-025-00928-7" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">npj Computational Materials</span>
-        <h4 class="paper-title">Toward high entropy material discovery for energy applications using computational and machine learning methods</h4>
-        <p class="paper-authors">Cao Z. et al.</p>
-        <p class="paper-summary">综述高熵材料在能源应用中的计算与机器学习方法，重点讨论高熵MXenes的晶体结构编码解码、量子计算及数据库构建，加速电池与超级电容器材料设计。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-12-30</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41524-025-01918-6" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Expert-Guided LLM Reasoning for Battery Discovery: ChatBattery</h4>
-        <p class="paper-authors">Guo H. et al.</p>
-        <p class="paper-summary">提出ChatBattery专家引导LLM推理框架用于电池材料发现，成功合成三种新型锂离子电池正极材料，实际容量比NMC811分别提升28.8%、25.2%和18.5%。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-05-12</span>
-          <a class="paper-link" href="https://arxiv.org/pdf/2507.16110" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <!-- MATERIAL:END -->
@@ -1404,6 +1560,7 @@ body::before {
       <span class="sec-badge badge-blue" data-cn="模型动态" data-en="Models">模型动态</span>
       <h2 class="sec-title" data-cn="本周模型动态" data-en="This Week's Models">本周模型动态</h2>
     </div>
+    <p class="sec-desc" data-cn="当前主流大模型一览，持续跟踪能力边界" data-en="A live snapshot of frontier models and where their capabilities stand">当前主流大模型一览，持续跟踪能力边界</p>
     <div class="models-strip-wrap">
       <div class="models-strip">
         <!-- MODELS:START -->
@@ -1413,8 +1570,8 @@ body::before {
         <span class="model-tier">A</span>
       </div>
       <div class="model-chip tier-S">
-        <span class="model-org">ANTH</span>
-        <span class="model-name">Claude Mythos 5</span>
+        <span class="model-org">OAI</span>
+        <span class="model-name">GPT-5.5</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-S">
@@ -1423,19 +1580,9 @@ body::before {
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-S">
-        <span class="model-org">OAI</span>
-        <span class="model-name">GPT-5.4</span>
+        <span class="model-org">ANTH</span>
+        <span class="model-name">Claude Opus 4.7</span>
         <span class="model-tier">S</span>
-      </div>
-      <div class="model-chip tier-A">
-        <span class="model-org">GOOG</span>
-        <span class="model-name">Gemma 4</span>
-        <span class="model-tier">A</span>
-      </div>
-      <div class="model-chip tier-A">
-        <span class="model-org">META</span>
-        <span class="model-name">Llama 4 Maverick</span>
-        <span class="model-tier">A</span>
       </div>
       <!-- MODELS:END -->
       </div>
@@ -1449,6 +1596,7 @@ body::before {
       <h2 class="sec-title" data-cn="模型基准速查" data-en="Model Benchmarks">模型基准速查</h2>
       <span class="sec-meta" data-cn="每日更新" data-en="Updated daily">每日更新</span>
     </div>
+    <p class="sec-desc" data-cn="关键基准横向对比，数字不说谎" data-en="Key benchmarks side by side. Numbers don't lie">关键基准横向对比，数字不说谎</p>
     <div class="card" style="overflow:auto;">
       <table class="bench-table">
         <thead>
@@ -1464,44 +1612,44 @@ body::before {
         <tbody>
         <!-- BENCHMARKS:START -->
         <tr>
-          <td class="model-cell">GPT-5.4</td>
+          <td class="model-cell">GPT-5.5</td>
           <td class="org-cell">OpenAI</td>
-          <td class="score" style="color:#00ff88">92.0</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">94.5</td>
-          <td class="note">GDPval 83%超人类知识工作</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="note">Terminal-Bench 82.7%，SWE-bench 74.9%</td>
+        </tr>
+        <tr>
+          <td class="model-cell">Claude Opus 4.7</td>
+          <td class="org-cell">Anthropic</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#00ff88">95.4</td>
+          <td class="note">SWE-bench 87.6%，GPQA 91.3%</td>
         </tr>
         <tr>
           <td class="model-cell">Gemini 3.1 Pro</td>
           <td class="org-cell">Google</td>
-          <td class="score" style="color:#00ff88">90.0</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">93.0</td>
-          <td class="note">GPQA Diamond 94.3%领先</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#00ff88">100</td>
+          <td class="note">GPQA 94.3%，ARC-AGI 77.1%</td>
         </tr>
         <tr>
-          <td class="model-cell">Claude Opus 4.6</td>
-          <td class="org-cell">Anthropic</td>
-          <td class="score" style="color:#00ff88">91.0</td>
+          <td class="model-cell">GPT-5.4 Pro</td>
+          <td class="org-cell">OpenAI</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">95.2</td>
-          <td class="note">GDPval-AA Elo 1633领先</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#00ff88">92.4</td>
+          <td class="note">GPQA 92.8%，综合 benchmark 57</td>
         </tr>
         <tr>
           <td class="model-cell">DeepSeek V4</td>
-          <td class="org-cell">DeepSeek</td>
-          <td class="score" style="color:#00e5ff">89.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">94.8</td>
-          <td class="note">SWE-bench 81.0%最高</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Grok 4.3</td>
-          <td class="org-cell">xAI</td>
+          <td class="org-cell">深度求索</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">四专家并行推理架构</td>
+          <td class="note">成本 $0.28/M，性能约 GPT-5.4 的 90%</td>
         </tr>
       <!-- BENCHMARKS:END -->
         </tbody>
@@ -1517,20 +1665,20 @@ body::before {
     </div>
     <div class="conf-grid">
     <!-- CONFERENCES:START -->
-      <a class="conf-card reveal" href="https://iclr.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
-        <div class="conf-name">ICLR 2026</div>
-        <div class="conf-deadline">录取通知 · 2026-01-25</div>
-        <div class="conf-days urgent">还有 -94 天</div>
-      </a>
-      <a class="conf-card reveal" href="https://icml.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
-        <div class="conf-name">ICML 2026</div>
-        <div class="conf-deadline">录取通知 · 2026-05-03</div>
+      <a class="conf-card reveal" href="https://icml.cc/public/JournalToConference" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">ICML 2026 Journal-to-Conf</div>
+        <div class="conf-deadline">投稿截止 · 2026-05-03</div>
         <div class="conf-days urgent">还有 5 天</div>
       </a>
-      <a class="conf-card reveal" href="https://neurips.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+      <a class="conf-card reveal" href="https://neurips.cc/Conferences/2026/CallForPapers" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">NeurIPS 2026</div>
-        <div class="conf-deadline">投稿截止 · 2026-05-07</div>
-        <div class="conf-days urgent">还有 9 天</div>
+        <div class="conf-deadline">投稿截止 · 2026-05-06</div>
+        <div class="conf-days urgent">还有 8 天</div>
+      </a>
+      <a class="conf-card reveal" href="https://iclr.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">ICLR 2027 (预估)</div>
+        <div class="conf-deadline">投稿截止 · 2026-10-01</div>
+        <div class="conf-days normal">还有 156 天</div>
       </a>
       <!-- CONFERENCES:END -->
     </div>
@@ -1540,46 +1688,46 @@ body::before {
   <section id="leaders">
     <div class="sec-header">
       <span class="sec-badge badge-blue" data-cn="大佬观点" data-en="Leaders">大佬观点</span>
-      <h2 class="sec-title" data-cn="AI 大佬观点" data-en="AI Leader Insights">AI 大佬观点</h2>
+      <h2 class="sec-title" data-cn="领袖观点" data-en="Leader Insights">领袖观点</h2>
     </div>
-    <p class="sec-desc" data-cn="业内领袖最近公开发表的关键判断与预测，每日自动刷新。" data-en="Key judgments and predictions from industry leaders, auto-refreshed daily.">业内领袖最近公开发表的关键判断与预测，每日自动刷新。</p>
+    <p class="sec-desc" data-cn="行业领袖在想什么，说了什么" data-en="What the people shaping AI are actually thinking and saying">行业领袖在想什么，说了什么</p>
     <div class="leaders-grid">
       <!-- LEADERS:START -->
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar em" aria-hidden="true">SB</div>
+          <div class="avatar em" aria-hidden="true">SA</div>
           <div>
-            <div class="leader-name">谢尔盖·布林 (Sergey Brin)</div>
-            <div class="leader-role">Google联合创始人</div>
+            <div class="leader-name">萨姆·奥特曼 (Sam Altman)</div>
+            <div class="leader-role">OpenAI CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"必须紧急弥合代理执行差距"</blockquote>
-        <p class="leader-body">布林组建DeepMind突击队应对Anthropic的Claude Code优势，内部备忘录要求将模型转变为主要开发者。Google AI代码生成占比约50%，而Anthropic接近100%。</p>
-        <div class="leader-meta"><span class="tag">编程AI</span><span class="tag">Google</span><span class="tag">竞争</span><span class="tag tag-date">4月21日</span></div>
+        <blockquote class="leader-quote">"AI 权力应由人民分散持有"</blockquote>
+        <p class="leader-body">4月26日发表《我们的原则》，强调未来 AI 权力不应集中于少数公司，而应通过分散方式赋予普通人。同日因加拿大枪击案争议公开致歉。</p>
+        <div class="leader-meta"><span class="tag">#安全</span><span class="tag">#政策</span><span class="tag tag-date">4月26日</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar sa" aria-hidden="true">MZ</div>
+          <div class="avatar sa" aria-hidden="true">EM</div>
           <div>
-            <div class="leader-name">马克·扎克伯格 (Mark Zuckerberg)</div>
-            <div class="leader-role">Meta CEO</div>
+            <div class="leader-name">埃隆·马斯克 (Elon Musk)</div>
+            <div class="leader-role">xAI CEO / Tesla CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"开源不再适用于前沿权重"</blockquote>
-        <p class="leader-body">Meta在4月8日发布首个专有模型Muse Spark，结束三年开源策略。此前Meta通过Llama系列建立开源信誉，但竞争压力达到临界点促使战略转变。</p>
-        <div class="leader-meta"><span class="tag">开源</span><span class="tag">战略</span><span class="tag">Meta</span><span class="tag tag-date">4月8日</span></div>
+        <blockquote class="leader-quote">"OpenAI 窃取了一个慈善机构"</blockquote>
+        <p class="leader-body">4月28日在奥克兰联邦法院开庭，指控 OpenAI 背离非营利使命。律师称「没有马斯克就没有 OpenAI」，要求剥夺奥特曼董事职位并寻求 1500 亿美元赔偿。</p>
+        <div class="leader-meta"><span class="tag">#政策</span><span class="tag">#LLM</span><span class="tag tag-date">4月28日</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar aj" aria-hidden="true">DA</div>
+          <div class="avatar aj" aria-hidden="true">JH</div>
           <div>
-            <div class="leader-name">达里奥·阿莫代伊 (Dario Amodei)</div>
-            <div class="leader-role">Anthropic CEO</div>
+            <div class="leader-name">黄仁勋 (Jensen Huang)</div>
+            <div class="leader-role">NVIDIA CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"Claude Mythos风险过高不公开"</blockquote>
-        <p class="leader-body">Anthropic确认10万亿参数Claude Mythos模型，因触发ASL-4安全协议仅向50家机构提供受限访问。这是首个因安全理由扣留的前沿模型。</p>
-        <div class="leader-meta"><span class="tag">安全</span><span class="tag">模型</span><span class="tag">Anthropic</span><span class="tag tag-date">4月7日</span></div>
+        <blockquote class="leader-quote">"你不会输给 AI，而是输给会用它的同事"</blockquote>
+        <p class="leader-body">近期公开演讲中强调 AI 不会取代人类，但会用 AI 的人将取代不会用的人。NVIDIA 在 AI 算力需求激增背景下持续主导市场。</p>
+        <div class="leader-meta"><span class="tag">#芯片</span><span class="tag">#开源</span><span class="tag tag-date">近期</span></div>
       </article>
       <!-- LEADERS:END -->
     </div>
@@ -1600,26 +1748,44 @@ body::before {
   <!-- Follow -->
   <section id="friend" style="padding-top:16px;">
     <div class="follow">
-      <div class="follow-icon" aria-hidden="true">梵</div>
+      <div class="follow-icon" aria-hidden="true" style="background:none;border:none;padding:0;width:64px;height:64px;border-radius:50%;overflow:hidden;flex-shrink:0;">
+        <img src="xiaohongshu-avatar.jpg" alt="小红书头像" style="width:100%;height:100%;object-fit:cover;">
+      </div>
       <div>
         <h3 data-cn="关注「梵低」" data-en="Follow 「梵低」">关注「梵低」</h3>
-        <p data-cn="分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。" data-en="Sharing AI research, science articles, and personal experiment insights. Join on Xiaohongshu to talk AI4Science.">分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。</p>
+        <p data-cn="分享 AI4Science 前沿、科研心得与个人实验笔记。欢迎来聊。" data-en="AI4Science insights, research notes, and lab experiments. Come talk.">分享 AI4Science 前沿、科研心得与个人实验笔记。欢迎来聊。</p>
         <div class="id-pill" data-cn="小红书号: 8936318663" data-en="Xiaohongshu: 8936318663">小红书号: 8936318663</div>
       </div>
-      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/8936318663" target="_blank" rel="noopener" data-cn="前往主页" data-en="Visit Profile">前往主页</a>
+      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/64a21eab000000002a037d47" target="_blank" rel="noopener" data-cn="关注" data-en="Follow">关注</a>
+    </div>
+  </section>
+
+  <!-- Podcast -->  
+  <section id="podcast" style="padding-top:16px;">
+    <div class="follow">
+      <div class="follow-icon" aria-hidden="true" style="background:none;border:none;padding:0;width:64px;height:64px;border-radius:12px;overflow:hidden;flex-shrink:0;">
+        <img src="podcast-cover.jpg" alt="科研面对面" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+      </div>
+      <div>
+        <h3 data-cn="🎙️ 科研面对面" data-en="🎙️ Science Face to Face">🎙️ 科研面对面</h3>
+        <p data-cn="对话 AI 与科学交叉领域的一线研究者。每期一位，一个问题：AI 正在如何改变你的研究？" data-en="One researcher. One question: how is AI changing your work? Deep conversations at the intersection of AI and science.">对话 AI 与科学交叉领域的一线研究者。每期一位，一个问题：AI 正在如何改变你的研究？</p>
+      </div>
+      <a class="btn primary" href="https://www.xiaoyuzhoufm.com/podcast/68313c849229d4651f7e86ce" target="_blank" rel="noopener" data-cn="去听" data-en="Listen">去听</a>
     </div>
   </section>
 
 </main>
 
 <footer>
-  <p data-cn="© 2026 AI Progress Hub · 每日由 Claude API 自动更新" data-en="© 2026 AI Progress Hub · Auto-updated daily by Claude API">© 2026 AI Progress Hub · 每日由 Claude API 自动更新</p>
+  <p data-cn="© 2026 AI Progress Hub · 由 Claude API 每日自动更新" data-en="© 2026 AI Progress Hub · Auto-updated daily via Claude API">© 2026 AI Progress Hub · 由 Claude API 每日自动更新</p>
   <p>
     <a href="https://github.com/Yang1Bai/ai-progress-site" target="_blank" rel="noopener" data-cn="仓库源码" data-en="GitHub Repo">仓库源码</a>
     &nbsp;·&nbsp;
     <a href="archive/" data-cn="历史归档" data-en="Archive">历史归档</a>
     &nbsp;·&nbsp;
     <a href="feed.xml" data-cn="RSS 订阅" data-en="RSS Feed">RSS 订阅</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.xiaoyuzhoufm.com/podcast/68313c849229d4651f7e86ce" target="_blank" rel="noopener" data-cn="🎙️ 播客：科研面对面" data-en="🎙️ Podcast: Science Face to Face">🎙️ 播客：科研面对面</a>
   </p>
 </footer>
 
@@ -1631,29 +1797,35 @@ function toggleLang() {
   applyLang(currentLang);
 }
 function applyLang(lang) {
+  // Update lang label button
   const label = document.getElementById('lang-label');
   if (label) label.textContent = lang === 'cn' ? 'EN' : '中';
+  // Translate all data-cn/data-en elements
   document.querySelectorAll('[data-cn][data-en]').forEach(el => {
     const val = lang === 'en' ? el.dataset.en : el.dataset.cn;
     if (!val) return;
-    // For input placeholder
-    if (el.tagName === 'INPUT' && el.dataset['placeholder-' + lang]) {
-      el.placeholder = el.dataset['placeholder-' + lang];
-      return;
-    }
-    // Don't overwrite children
+    // Don't overwrite elements with non-text children
     if (el.children.length === 0) {
       el.textContent = val;
     }
   });
+  // Special case: hero title (may have char-split spans from animation)
+  const ht = document.getElementById('hero-title');
+  if (ht) {
+    const htVal = lang === 'en' ? (ht.dataset.en || '') : (ht.dataset.cn || '');
+    if (htVal) {
+      ht.textContent = htVal;
+      ht._charSplit = false;
+    }
+  }
   // Search placeholder
   const si = document.getElementById('site-search');
   if (si) {
     si.placeholder = lang === 'en'
-      ? (si.dataset.placeholderEn || 'Search today's content…')
+      ? (si.dataset.placeholderEn || 'Search today’s content…')
       : (si.dataset.placeholderCn || '搜索今日内容…');
   }
-  // Update html lang
+  // Update html lang attribute
   document.documentElement.lang = lang === 'cn' ? 'zh-CN' : 'en';
 }
 
@@ -1707,15 +1879,22 @@ if (statsRow) {
 }
 
 // ===== Topic filter =====
-function filterNews(tag) {
+function filterNews(tagOrEl) {
+  let tag, clickedChip;
+  if (typeof tagOrEl === 'string') {
+    tag = tagOrEl;
+    clickedChip = [...document.querySelectorAll('.filter-chip')].find(c =>
+      tag === 'all' ? c.classList.contains('all-chip') : (c.dataset.tag || c.textContent.trim()) === tag
+    );
+  } else {
+    clickedChip = tagOrEl;
+    tag = tagOrEl.dataset.tag || (tagOrEl.classList.contains('all-chip') ? 'all' : tagOrEl.textContent.trim());
+  }
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-  const clicked = [...document.querySelectorAll('.filter-chip')].find(c =>
-    tag === 'all' ? c.classList.contains('all-chip') : c.textContent.trim() === tag
-  );
-  if (clicked) clicked.classList.add('active');
-  document.querySelectorAll('.news-item, .news-headline').forEach(item => {
+  if (clickedChip) clickedChip.classList.add('active');
+  document.querySelectorAll('.news-item, .news-headline, .news-card, .news-card-headline').forEach(item => {
     if (tag === 'all') { item.style.display = ''; return; }
-    const tags = (item.dataset.tags || '') + ' ' + [...item.querySelectorAll('.news-tag')].map(t => t.textContent).join(' ');
+    const tags = (item.dataset.tags || '') + ' ' + [...item.querySelectorAll('.news-tag, .card-tag')].map(t => t.textContent).join(' ');
     item.style.display = tags.includes(tag) ? '' : 'none';
   });
 }
@@ -1748,16 +1927,273 @@ if (searchInput && searchResults) {
   });
 }
 
-// ===== GoatCounter visitor count =====
-fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
-  .then(r => r.json())
-  .then(d => {
-    const el = document.getElementById('visitor-count');
-    if (el && d.count) el.textContent = d.count;
-  }).catch(() => {});
+// ===== Visitor counter (Cloudflare Analytics) =====
+(function() {
+  const el = document.getElementById('visitor-count');
+  if (!el) return;
+
+  function formatNum(n) { return n.toLocaleString('en-US'); }
+
+  function animateVisitor(target) {
+    if (target === 0) { el.textContent = '—'; return; }
+    const duration = 800;
+    let start = null;
+    const step = ts => {
+      if (!start) start = ts;
+      const prog = Math.min((ts - start) / duration, 1);
+      const val = Math.round((1 - Math.pow(1 - prog, 3)) * target);
+      el.textContent = formatNum(val);
+      if (prog < 1) requestAnimationFrame(step);
+      else el.textContent = formatNum(target);
+    };
+    requestAnimationFrame(step);
+  }
+
+  // Fetch real visitor count from Cloudflare Worker
+  fetch('https://ai-hub-visitor-counter.yangbai0110.workers.dev')
+    .then(r => r.json())
+    .then(data => {
+      const count = data.visitors || 0;
+      const obs = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) { animateVisitor(count); obs.disconnect(); }
+      }, { threshold: 0.5 });
+      obs.observe(el);
+    })
+    .catch(() => { el.textContent = '—'; });
+})();
 </script>
 
-<script data-goatcounter="https://yangbai-ai.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<script id="oc-anim-js">
+/* ================================================================
+   AI Progress Hub — Entrance Animation v2
+   Phase 1: Splash screen (0–1800ms)
+   Phase 2: Nav slide + hero spring reveal + char-split title
+   Phase 3: Scroll-triggered card reveals with stagger
+   Respects prefers-reduced-motion.
+   ================================================================ */
+(function () {
+  'use strict';
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ─── Phase 1: Splash Screen ─── */
+  function runSplash(onDone) {
+    if (reduced) { onDone(); return; }
+
+    var splash = document.createElement('div');
+    splash.id = 'splash-screen';
+    splash.innerHTML =
+      '<div id="splash-wordmark">AI Progress Hub</div>' +
+      '<div id="splash-progress-track"><div id="splash-progress-bar"></div></div>';
+    document.body.prepend(splash);
+
+    // Wordmark fades in at 150ms
+    setTimeout(function () {
+      var wm = document.getElementById('splash-wordmark');
+      if (wm) wm.classList.add('visible');
+    }, 150);
+
+    // Progress bar starts growing at 300ms (over 1200ms)
+    setTimeout(function () {
+      var bar = document.getElementById('splash-progress-bar');
+      if (bar) bar.classList.add('grow');
+    }, 300);
+
+    // Fade out splash at 1800ms
+    setTimeout(function () {
+      splash.style.transition = 'opacity 300ms ease';
+      splash.style.opacity = '0';
+    }, 1800);
+
+    // Remove from DOM at 2100ms and fire callback
+    setTimeout(function () {
+      if (splash.parentNode) splash.parentNode.removeChild(splash);
+      onDone();
+    }, 2100);
+  }
+
+  /* ─── Phase 2: Nav + Hero reveal ─── */
+  function revealPage() {
+    if (reduced) return;
+
+    // Nav slides down from translateY(-100%) → translateY(0) over 500ms
+    var nav = document.querySelector('.nav');
+    if (nav) {
+      nav.style.visibility = 'visible';
+      nav.style.transform = 'translateY(-100%)';
+      nav.style.transition = 'none';
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          nav.style.transition = 'transform 500ms cubic-bezier(0.22, 1, 0.36, 1)';
+          nav.style.transform = 'translateY(0)';
+          setTimeout(function () {
+            nav.style.transition = '';
+            nav.style.transform = '';
+          }, 550);
+        });
+      });
+    }
+
+    var hero = document.querySelector('.hero');
+    if (!hero) return;
+
+    var heroChildren = Array.from(hero.children);
+    var titleEl = document.getElementById('hero-title');
+
+    // Set initial hidden state for all non-title hero children
+    heroChildren.forEach(function (el) {
+      if (el === titleEl) return;
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(28px)';
+    });
+
+    // Character-split the hero title
+    if (titleEl) {
+      var titleText = titleEl.dataset.cn || titleEl.textContent.trim();
+      var chars = titleText.split('');
+      titleEl.innerHTML = '';
+      chars.forEach(function (ch) {
+        var span = document.createElement('span');
+        span.textContent = ch === ' ' ? '\u00a0' : ch;
+        span.style.cssText = 'display:inline-block;opacity:0;transform:translateY(40px) rotate(4deg);';
+        titleEl.appendChild(span);
+      });
+      titleEl._charSplit = true;
+      titleEl._charText = titleText;
+    }
+
+    // Force layout to register initial states
+    void hero.getBoundingClientRect();
+
+    // Stagger non-title hero children (100ms between each)
+    var nonTitleCount = 0;
+    heroChildren.forEach(function (el) {
+      if (el === titleEl) return;
+      var delay = (nonTitleCount + 1) * 100;
+      nonTitleCount++;
+      setTimeout(function () {
+        el.style.transition = 'opacity 600ms cubic-bezier(0.22, 1, 0.36, 1), transform 600ms cubic-bezier(0.22, 1, 0.36, 1)';
+        el.style.opacity = '1';
+        el.style.transform = 'translateY(0)';
+      }, delay);
+    });
+
+    // Animate title characters with 25ms stagger per character
+    if (titleEl) {
+      var titleIdx = heroChildren.indexOf(titleEl);
+      var titleBaseDelay = (titleIdx + 1) * 100;
+      var charSpans = titleEl.querySelectorAll('span');
+      charSpans.forEach(function (span, i) {
+        setTimeout(function () {
+          span.style.transition = 'opacity 600ms cubic-bezier(0.22, 1, 0.36, 1), transform 600ms cubic-bezier(0.22, 1, 0.36, 1)';
+          span.style.opacity = '1';
+          span.style.transform = 'translateY(0) rotate(0deg)';
+        }, titleBaseDelay + i * 25);
+      });
+
+      // After animation: collapse spans back to plain text (so lang switcher works)
+      var collapseDelay = titleBaseDelay + charSpans.length * 25 + 700;
+      setTimeout(function () {
+        if (titleEl._charSplit) {
+          var finalText = (typeof currentLang !== 'undefined' && currentLang === 'en')
+            ? (titleEl.dataset.en || titleEl._charText)
+            : (titleEl.dataset.cn || titleEl._charText);
+          titleEl.textContent = finalText;
+          titleEl._charSplit = false;
+        }
+      }, collapseDelay);
+    }
+  }
+
+  /* ─── Phase 3: Scroll Reveals ─── */
+  function initScrollReveal() {
+    var selector = '.card, .news-item, .news-headline, .news-card, .news-card-headline, .paper-card, .leader-card, .sci-card';
+
+    if (reduced) {
+      document.querySelectorAll(selector).forEach(function (el) {
+        el.classList.add('is-visible');
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+    // Stagger siblings within the same parent container (80ms between each, max 5)
+    var processedParents = [];
+    document.querySelectorAll(selector).forEach(function (el) {
+      var parent = el.parentElement;
+      if (processedParents.indexOf(parent) === -1) {
+        processedParents.push(parent);
+        var idx = 0;
+        Array.prototype.forEach.call(parent.children, function (child) {
+          if (child.matches && child.matches(selector)) {
+            child.style.transitionDelay = Math.min(idx, 5) * 80 + 'ms';
+            idx++;
+          }
+        });
+      }
+      observer.observe(el);
+    });
+  }
+
+  /* ─── Nav active-section indicator ─── */
+  function initNavIndicator() {
+    var allLinks = Array.prototype.slice.call(
+      document.querySelectorAll('.nav-links a[href^="#"]')
+    );
+    if (!allLinks.length) return;
+
+    var sectionLinks = allLinks.map(function (link) {
+      var id = link.getAttribute('href').slice(1);
+      var section = document.getElementById(id);
+      return section ? { section: section, link: link } : null;
+    }).filter(Boolean);
+
+    if (!sectionLinks.length) return;
+
+    var currentActive = null;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var match = null;
+        for (var i = 0; i < sectionLinks.length; i++) {
+          if (sectionLinks[i].section === entry.target) { match = sectionLinks[i]; break; }
+        }
+        if (!match) return;
+        if (currentActive) currentActive.classList.remove('nav-active');
+        currentActive = match.link;
+        currentActive.classList.add('nav-active');
+      });
+    }, { threshold: 0, rootMargin: '-15% 0px -72% 0px' });
+
+    sectionLinks.forEach(function (s) { io.observe(s.section); });
+  }
+
+  /* ─── Bootstrap ─── */
+  document.addEventListener('DOMContentLoaded', function () {
+    initScrollReveal();
+    initNavIndicator();
+
+    // Hide nav until splash completes to prevent flicker
+    if (!reduced) {
+      var nav = document.querySelector('.nav');
+      if (nav) nav.style.visibility = 'hidden';
+    }
+
+    runSplash(function () {
+      revealPage();
+    });
+  });
+
+})();
+</script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "11c933b645ae45848efd2bdff764d937"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

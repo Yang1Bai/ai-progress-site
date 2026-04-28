@@ -5,83 +5,69 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-04-28T17:28:39Z</updated>
+  <updated>2026-04-28T21:48:20Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年4月28日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html</id>
-    <updated>2026-04-28T17:28:39Z</updated>
+    <updated>2026-04-28T21:48:20Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google投资400亿美元于Anthropic，首批100亿估值3800亿美元，剩余300亿取决于里程碑。Anthropic年化收入已超300亿美元。…</title>
-    <link href="https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html"/>
-    <id>https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>Google投资400亿美元于Anthropic，首批100亿估值3800亿美元，剩余300亿取决于里程碑。Anthropic年化收入已超300亿美元。</summary>
+    <title>马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构」，寻求剥夺其董事职位并索赔 1500 亿美元，OpenAI 辩称马斯克因嫉妒提告。…</title>
+    <link href="https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements"/>
+    <id>https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构」，寻求剥夺其董事职位并索赔 1500 亿美元，OpenAI 辩称马斯克因嫉妒提告。</summary>
   </entry>
   <entry>
-    <title>中国阻止Meta收购新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。…</title>
+    <title>OpenAI CFO 与奥特曼就支出产生分歧：CFO Sarah Friar 担心数据中心支出过高，收入增长不足以支撑合同，双方称报道「荒谬」，但对即将 IPO…</title>
+    <link href="https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/"/>
+    <id>https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>OpenAI CFO 与奥特曼就支出产生分歧：CFO Sarah Friar 担心数据中心支出过高，收入增长不足以支撑合同，双方称报道「荒谬」，但对即将 IPO 构成压力。</summary>
+  </entry>
+  <entry>
+    <title>中国封杀 Meta 20 亿美元收购 AI 初创 Manus：北京要求撤回交易，新加坡「洗白」策略彻底失效，凸显中美科技脱钩加剧。…</title>
     <link href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html"/>
     <id>https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>中国阻止Meta收购新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。</summary>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>中国封杀 Meta 20 亿美元收购 AI 初创 Manus：北京要求撤回交易，新加坡「洗白」策略彻底失效，凸显中美科技脱钩加剧。</summary>
   </entry>
   <entry>
-    <title>DeepSeek V4发布，1.6万亿参数，价格仅GPT-5.2的1/50，性能达其90%。中国模型在成本效率上取得突破。…</title>
-    <link href="https://www.usnews.com/news/business/articles/2026-04-24/chinas-deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model"/>
-    <id>https://www.usnews.com/news/business/articles/2026-04-24/chinas-deepseek-rolls-out-a-long-anticipated-update-of-its-ai-model</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>DeepSeek V4发布，1.6万亿参数，价格仅GPT-5.2的1/50，性能达其90%。中国模型在成本效率上取得突破。</summary>
+    <title>DeepSeek V4 发布：中国深度求索推出 V4 Flash 与 Pro 系列，强化推理与 Agent 能力，采用混合注意力架构支持 100 万 token…</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"/>
+    <id>https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>DeepSeek V4 发布：中国深度求索推出 V4 Flash 与 Pro 系列，强化推理与 Agent 能力，采用混合注意力架构支持 100 万 token 上下文窗口。</summary>
   </entry>
   <entry>
-    <title>Google发布TurboQuant算法，将AI推理内存开销降低6倍且零精度损失，解决KV缓存瓶颈，加速效率优先AI开发。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>Google发布TurboQuant算法，将AI推理内存开销降低6倍且零精度损失，解决KV缓存瓶颈，加速效率优先AI开发。</summary>
+    <title>OpenAI 软件高管跳槽潮：Salesforce、Snowflake、Palantir 多名高管近期加入 OpenAI，企业软件行业面临 AI 颠覆与人才流失…</title>
+    <link href="https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html"/>
+    <id>https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>OpenAI 软件高管跳槽潮：Salesforce、Snowflake、Palantir 多名高管近期加入 OpenAI，企业软件行业面临 AI 颠覆与人才流失双重压力。</summary>
   </entry>
   <entry>
-    <title>NASA毅力号火星车完成首次AI规划驾驶，使用Anthropic Claude视觉模型分析轨道图像自主生成安全路径，行驶456米。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>NASA毅力号火星车完成首次AI规划驾驶，使用Anthropic Claude视觉模型分析轨道图像自主生成安全路径，行驶456米。</summary>
+    <title>DeepMind 前研究员 David Silver 创立 Ineffable Intelligence，融资 11 亿美元估值 51 亿，致力于无需人类数据的…</title>
+    <link href="https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"/>
+    <id>https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>DeepMind 前研究员 David Silver 创立 Ineffable Intelligence，融资 11 亿美元估值 51 亿，致力于无需人类数据的强化学习「超级学习者」。</summary>
   </entry>
   <entry>
-    <title>OpenAI关闭Sora视频应用，每天烧钱100万美元，将算力转向编程工具和企业产品，确认AI辅助编程成为核心战场。…</title>
-    <link href="https://ai2.work/blog/google-s-brin-forms-deepmind-strike-team-to-close-anthropic-coding-gap"/>
-    <id>https://ai2.work/blog/google-s-brin-forms-deepmind-strike-team-to-close-anthropic-coding-gap</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>OpenAI关闭Sora视频应用，每天烧钱100万美元，将算力转向编程工具和企业产品，确认AI辅助编程成为核心战场。</summary>
+    <title>AI 数据中心电力短缺加剧：美国 2027 年将面临 9-18 GW 电力缺口，微软重启三哩岛核电站，科技巨头转向离网核能与天然气。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>AI 数据中心电力短缺加剧：美国 2027 年将面临 9-18 GW 电力缺口，微软重启三哩岛核电站，科技巨头转向离网核能与天然气。</summary>
   </entry>
   <entry>
-    <title>Meta、Google、OpenAI等顶尖AI实验室高级员工大量离职创业，2026年Q1 AI初创融资188亿美元，投资者提供资金吸引顶级研究者。…</title>
-    <link href="https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html"/>
-    <id>https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>Meta、Google、OpenAI等顶尖AI实验室高级员工大量离职创业，2026年Q1 AI初创融资188亿美元，投资者提供资金吸引顶级研究者。</summary>
-  </entry>
-  <entry>
-    <title>AI数据中心将使美国2028年电力消耗增至12%，面临9-18GW短缺。微软重启三里岛核电站，亚马逊寻求专用核电站。…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>AI数据中心将使美国2028年电力消耗增至12%，面临9-18GW短缺。微软重启三里岛核电站，亚马逊寻求专用核电站。</summary>
-  </entry>
-  <entry>
-    <title>AI物理突破：Emory大学用物理定制机器学习揭示尘埃等离子体中非互易力新规律，发表于PNAS，可扩展至细胞等复杂系统。…</title>
-    <link href="https://www.sciencedaily.com/releases/2026/04/260422044635.htm"/>
-    <id>https://www.sciencedaily.com/releases/2026/04/260422044635.htm</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>AI物理突破：Emory大学用物理定制机器学习揭示尘埃等离子体中非互易力新规律，发表于PNAS，可扩展至细胞等复杂系统。</summary>
-  </entry>
-  <entry>
-    <title>ICLR 2026于4月23-27日在巴西里约举行，展示前沿AI研究。AI4Mat工作坊聚焦强化学习在材料科学中的应用。…</title>
-    <link href="https://iclr.cc/Conferences/2026/Dates"/>
-    <id>https://iclr.cc/Conferences/2026/Dates</id>
-    <updated>2026-04-28T17:28:39Z</updated>
-    <summary>ICLR 2026于4月23-27日在巴西里约举行，展示前沿AI研究。AI4Mat工作坊聚焦强化学习在材料科学中的应用。</summary>
+    <title>Google 与国防部签署新合约：继 Anthropic 拒绝后，Google 同意为国防部提供 AI 服务，引发内部 600 余员工联名抗议。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-28T21:48:20Z</updated>
+    <summary>Google 与国防部签署新合约：继 Anthropic 拒绝后，Google 同意为国防部提供 AI 服务，引发内部 600 余员工联名抗议。</summary>
   </entry>
 </feed>
