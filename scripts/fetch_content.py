@@ -29,6 +29,8 @@ import os
 import re
 import shutil
 import sys
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -211,6 +213,105 @@ def render_leaders(items):
 
 
 
+# ---------------------------------------------------------------------------
+# Image helpers
+# ---------------------------------------------------------------------------
+
+def fetch_og_image(url: str, timeout: int = 5):
+    """Fetch og:image from a URL. Returns image URL or None."""
+    if not url or not url.startswith('http'):
+        return None
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            html = resp.read(32768).decode('utf-8', errors='ignore')
+        # Try og:image
+        m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']( https?://[^"\']+)["\']', html, re.I)
+        if not m:
+            m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
+        if m:
+            v = m.group(1).strip()
+            if v.startswith('http'):
+                return v
+        # Try og:image with reversed attribute order
+        m = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html, re.I)
+        if m:
+            v = m.group(1).strip()
+            if v.startswith('http'):
+                return v
+        # Try twitter:image
+        m = re.search(r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)["\']', html, re.I)
+        if m:
+            v = m.group(1).strip()
+            if v.startswith('http'):
+                return v
+        m = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']', html, re.I)
+        if m:
+            v = m.group(1).strip()
+            if v.startswith('http'):
+                return v
+        return None
+    except Exception:
+        return None
+
+
+# Keyword map for Unsplash: Chinese/English terms → English Unsplash search terms
+_UNSPLASH_KW_MAP = [
+    ("OpenAI", "OpenAI artificial intelligence"),
+    ("Anthropic", "Anthropic artificial intelligence"),
+    ("Google", "Google technology research"),
+    ("DeepSeek", "deep learning neural network"),
+    ("Meta", "Meta artificial intelligence"),
+    ("xAI", "artificial intelligence technology"),
+    ("Grok", "artificial intelligence technology"),
+    ("Gemini", "Google AI research"),
+    ("GPT", "OpenAI language model"),
+    ("Claude", "Anthropic AI model"),
+    ("NASA", "NASA space technology robot"),
+    ("\u706b\u661f", "Mars space robot"),          # 火星
+    ("\u673a\u5668\u4eba", "robot automation"),     # 机器人
+    ("\u82af\u7247", "semiconductor chip technology"),  # 芯片
+    ("\u7535\u529b", "power energy data center"),   # 电力
+    ("\u6838\u7535", "nuclear power energy"),        # 核电
+    ("\u5b89\u5168", "AI safety security"),           # 安全
+    ("\u76d1\u7ba1", "AI regulation policy"),         # 监管
+    ("\u6cd5\u89c4", "AI regulation policy"),         # 法规
+    ("\u79d1\u5b66", "science research laboratory"),  # 科学
+    ("\u6750\u6599", "materials science laboratory"), # 材料
+    ("\u751f\u7269", "biology research laboratory"),  # 生物
+    ("\u533b\u7597", "medical healthcare AI"),        # 医疗
+    ("\u6295\u8d44", "investment finance technology"), # 投资
+    ("\u521b\u4e1a", "startup technology innovation"), # 创业
+]
+_DEFAULT_UNSPLASH_KW = "artificial intelligence technology"
+
+
+def _extract_unsplash_keywords(text: str) -> str:
+    """Extract Unsplash-friendly English keywords from a news body/title string."""
+    for trigger, keywords in _UNSPLASH_KW_MAP:
+        if trigger.lower() in text.lower():
+            return keywords
+    return _DEFAULT_UNSPLASH_KW
+
+
+def search_news_image(query: str, timeout: int = 5) -> str:
+    """Return a source.unsplash.com URL for relevant stock photo. No API key needed."""
+    try:
+        keywords = _extract_unsplash_keywords(query)
+        encoded = urllib.parse.quote(keywords)
+        return f"https://source.unsplash.com/800x450/?{encoded}"
+    except Exception:
+        return "https://source.unsplash.com/800x450/?artificial+intelligence"
+
+
+def get_card_image_url(url: str, fallback_text: str) -> str:
+    """Try og:image first, then Unsplash fallback. Never returns None."""
+    img = fetch_og_image(url)
+    if img:
+        return img
+    return search_news_image(fallback_text)
+
+
 # Topic emoji mapping for headline card image placeholder
 TOPIC_ICONS = [
     ("OpenAI", "\U0001f916", "OpenAI"),
@@ -298,15 +399,17 @@ def render_news(items):
         display_title = escape_text(display_title)
 
         if i == headline_idx:
-            # Full-width headline card with image placeholder
-            topic_icon_text = it.get("body", "") + " " + (it.get("title") or "")
+            # Full-width headline card — real og:image, else Unsplash fallback
+            fallback_text = it.get("body", "") + " " + (it.get("title") or "")
+            img_url = get_card_image_url(url, fallback_text)
+            img_safe = escape_text(img_url)
+            # Build fallback emoji for onerror
+            topic_icon_text = fallback_text
             icon_emoji, icon_label = get_topic_icon(topic_icon_text)
+            fallback_unsplash = escape_text(search_news_image(fallback_text))
             out.append(f'''      <div class="news-card-headline reveal" data-tags="{tags_str}">
         <div class="card-image">
-          <div class="card-image-placeholder">
-            <span class="topic-icon">{icon_emoji}</span>
-            <span class="topic-label">{escape_text(icon_label)}</span>
-          </div>
+          <img src="{img_safe}" alt="{escape_text(display_title)}" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='{fallback_unsplash}'">
         </div>
         <div class="card-body">
           {badge_html}
@@ -319,8 +422,13 @@ def render_news(items):
         </div>
       </div>''')
         elif i == (headline_idx + 1) % len(items[:10]):
-            # Second card — medium (spans 2 cols)
+            # Second card — medium (spans 2 cols) with image strip
+            fallback_text2 = it.get("body", "") + " " + (it.get("title") or "")
+            img_url2 = get_card_image_url(url, fallback_text2)
+            img_safe2 = escape_text(img_url2)
+            fallback_unsplash2 = escape_text(search_news_image(fallback_text2))
             out.append(f'''      <div class="news-card medium reveal" data-tags="{tags_str}">
+        <img class="card-img-top" src="{img_safe2}" alt="{escape_text(display_title)}" loading="lazy" onerror="this.src='{fallback_unsplash2}'">
         {badge_html}
         <h3 class="card-title">{display_title}</h3>
         <p class="card-summary">{body}</p>

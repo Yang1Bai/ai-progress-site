@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 进展汇总 · AI Progress Hub</title>
-<meta name="description" content="聚焦 AI 领袖观点、每日大事与 AI4Science 发展。">
+<meta name="description" content="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完。领袖观点、今日大事、AI4Science 进展与材料科学论文。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -522,6 +522,13 @@ section {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-family: 'JetBrains Mono', monospace;
+}
+.news-card.medium .card-img-top {
+  width: calc(100% + 48px);
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  margin: -24px -24px 16px -24px;
 }
 .news-card-headline .card-body {
   padding: 32px 36px;
@@ -1261,12 +1268,12 @@ body::before {
     </a>
 
     <div class="nav-links">
-      <a href="#daily" data-cn="今日资讯" data-en="Daily News">今日资讯</a>
-      <a href="#ai4science" data-cn="AI4Science" data-en="AI4Science">AI4Science</a>
-      <a href="#papers" data-cn="论文" data-en="Papers">论文</a>
+      <a href="#daily" data-cn="今日" data-en="Daily">今日</a>
+      <a href="#ai4science" data-cn="科学" data-en="Science">科学</a>
+      <a href="#papers" data-cn="材料" data-en="Materials">材料</a>
       <a href="#models" data-cn="模型" data-en="Models">模型</a>
-      <a href="#benchmarks" data-cn="基准" data-en="Benchmarks">基准</a>
-      <a href="#leaders" data-cn="大佬观点" data-en="Leaders">大佬观点</a>
+      <a href="#benchmarks" data-cn="基准" data-en="Bench">基准</a>
+      <a href="#leaders" data-cn="领袖" data-en="Leaders">领袖</a>
       <a href="archive/" data-cn="历史归档" data-en="Archive">历史归档</a>
       <a href="feed.xml" class="nav-rss" title="RSS 订阅">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
@@ -1287,12 +1294,12 @@ body::before {
 
 <!-- Mobile menu -->
 <div class="mobile-menu" id="mobile-menu">
-  <a href="#daily" onclick="toggleMenu()" data-cn="今日资讯" data-en="Daily News">今日资讯</a>
-  <a href="#ai4science" onclick="toggleMenu()" data-cn="AI4Science" data-en="AI4Science">AI4Science</a>
-  <a href="#papers" onclick="toggleMenu()" data-cn="论文" data-en="Papers">论文</a>
+  <a href="#daily" onclick="toggleMenu()" data-cn="今日" data-en="Daily">今日</a>
+  <a href="#ai4science" onclick="toggleMenu()" data-cn="科学" data-en="Science">科学</a>
+  <a href="#papers" onclick="toggleMenu()" data-cn="材料" data-en="Materials">材料</a>
   <a href="#models" onclick="toggleMenu()" data-cn="模型" data-en="Models">模型</a>
-  <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Benchmarks">基准</a>
-  <a href="#leaders" onclick="toggleMenu()" data-cn="大佬观点" data-en="Leaders">大佬观点</a>
+  <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Bench">基准</a>
+  <a href="#leaders" onclick="toggleMenu()" data-cn="领袖" data-en="Leaders">领袖</a>
   <a href="archive/" onclick="toggleMenu()" data-cn="历史归档" data-en="Archive">历史归档</a>
   <a href="feed.xml">RSS</a>
   <div class="mobile-lang">
@@ -1304,9 +1311,9 @@ body::before {
 
 <!-- Hero -->
 <header class="hero">
-  <div class="hero-label" data-cn="AI 情报中心" data-en="Intelligence Feed">AI 情报中心</div>
-  <h1 class="hero-title" id="hero-title" data-cn="追踪 AI 浪潮的每一次脉动" data-en="Track Every Pulse of the AI Wave">追踪 AI 浪潮的每一次脉动</h1>
-  <p class="hero-sub" data-cn="领袖观点 · 今日大事 · AI4Science · AI4Material 论文 · 模型基准 · 会议日历" data-en="Leader Insights · Daily News · AI4Science · AI4Material Papers · Model Benchmarks · Conferences">领袖观点 · 今日大事 · AI4Science · AI4Material 论文 · 模型基准 · 会议日历</p>
+  <div class="hero-label" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</div>
+  <h1 class="hero-title" id="hero-title" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</h1>
+  <p class="hero-sub" data-cn="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完" data-en="Track the AI frontier daily — model releases, research breakthroughs, and expert takes, curated in one place">每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完</p>
 
   <div class="search-wrap">
     <input type="text" id="site-search" placeholder="搜索今日内容…" autocomplete="off" data-placeholder-cn="搜索今日内容…" data-placeholder-en="Search today's content…" />
@@ -1317,28 +1324,28 @@ body::before {
   <!-- STATS:START -->
   <div class="stats-row">
     <div class="stat-block">
-      <span class="stat-num mono" data-target="10">10</span>
-      <span class="stat-label" data-cn="条资讯" data-en="News Items">条资讯</span>
-    </div>
-    <div class="stat-divider"></div>
-    <div class="stat-block">
-      <span class="stat-num mono" data-target="7">7</span>
-      <span class="stat-label" data-cn="篇论文" data-en="Papers">篇论文</span>
+      <span class="stat-num mono" data-target="3">3</span>
+      <span class="stat-label">条资讯</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
       <span class="stat-num mono" data-target="3">3</span>
-      <span class="stat-label" data-cn="位领袖" data-en="Leaders">位领袖</span>
+      <span class="stat-label">篇论文</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="6">6</span>
-      <span class="stat-label" data-cn="项进展" data-en="Advances">项进展</span>
+      <span class="stat-num mono" data-target="3">3</span>
+      <span class="stat-label">位领袖</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-block">
+      <span class="stat-num mono" data-target="2">2</span>
+      <span class="stat-label">项进展</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block" id="visitor-stat">
       <span class="stat-num mono" id="visitor-count">…</span>
-      <span class="stat-label" data-cn="历史访客" data-en="Visitors">历史访客</span>
+      <span class="stat-label">历史访客</span>
     </div>
   </div>
   <div class="hero-update-badge">
@@ -1355,9 +1362,9 @@ body::before {
   <section id="daily">
     <div class="sec-header">
       <span class="sec-badge badge-blue" data-cn="今日资讯" data-en="Daily News">今日资讯</span>
-      <h2 class="sec-title" data-cn="今日AI大事" data-en="Today's AI News">今日AI大事</h2>
+      <h2 class="sec-title" data-cn="今日大事" data-en="Today's AI News">今日大事</h2>
     </div>
-    <p class="sec-desc" data-cn="每日由 GitHub Action + Claude API 自动抓取最新资讯。" data-en="Auto-fetched daily via GitHub Action + Claude API.">每日由 GitHub Action + Claude API 自动抓取最新资讯。</p>
+    <p class="sec-desc" data-cn="由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展" data-en="Curated by Claude — model launches, policy shifts, and industry moves">由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展</p>
     <div class="filter-bar" id="tag-filter">
       <button class="filter-chip all-chip active" onclick="filterNews(this)" data-tag="all" data-cn="全部" data-en="All">全部</button>
       <button class="filter-chip" onclick="filterNews(this)" data-tag="#LLM" data-cn="#LLM" data-en="#LLM">#LLM</button>
@@ -1373,10 +1380,7 @@ body::before {
       <!-- NEWS:START -->
       <div class="news-card-headline reveal" data-tags="#政策,#LLM">
         <div class="card-image">
-          <div class="card-image-placeholder">
-            <span class="topic-icon">🧠</span>
-            <span class="topic-label">Anthropic</span>
-          </div>
+          <img src="https://source.unsplash.com/800x450/?Anthropic,artificial,intelligence" alt="Google投资400亿美元于Anthropic" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial+intelligence+investment'">
         </div>
         <div class="card-body">
           <span class="card-badge breaking">BREAKING</span>
@@ -1389,6 +1393,7 @@ body::before {
         </div>
       </div>
       <div class="news-card medium reveal" data-tags="#政策,#Agent">
+        <img class="card-img-top" src="https://source.unsplash.com/800x450/?china,technology,policy" alt="中国阻止Meta收购Manus" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?technology+policy'">
         <span class="card-badge major">MAJOR</span>
         <h3 class="card-title">中国阻止Meta收购Manus</h3>
         <p class="card-summary">中国<strong>阻止Meta收购</strong>新加坡AI初创公司Manus（20-25亿美元），要求撤回已完成交易。北京加强防止先进AI人才和知识产权流向美企。</p>
@@ -1479,50 +1484,22 @@ body::before {
       <span class="sec-badge badge-green" data-cn="科学进展" data-en="Science">科学进展</span>
       <h2 class="sec-title" data-cn="AI4Science 进展" data-en="AI4Science Advances">AI4Science 进展</h2>
     </div>
-    <p class="sec-desc" data-cn="AI 加速科学发现的代表性最新进展，每日自动更新。" data-en="Latest AI-accelerated science breakthroughs, updated daily.">AI 加速科学发现的代表性最新进展，每日自动更新。</p>
+    <p class="sec-desc" data-cn="AI 正在重写科学研究的方式。这里追踪真正改变实验室的进展" data-en="AI is rewriting how science is done. These are the advances actually changing labs">AI 正在重写科学研究的方式。这里追踪真正改变实验室的进展</p>
     <div class="science-grid">
       <!-- SCIENCE:START -->
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
         </div>
-        <h4>AI驱动材料逆向设计</h4>
-        <p>Nature Materials综述展示深度生成模型驱动的材料设计范式转变，从传统筛选到逆向生成，加速具有优异功能材料的发现。发表于2026年1月。</p>
+        <h4>示例进展 alpha</h4>
+        <p>AI 在某科学问题上突破（占位）。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
         </div>
-        <h4>多模态LLM用于材料</h4>
-        <p>Nature Machine Intelligence报道MatterChat框架，将材料结构数据与大语言模型集成，实现高精度性质预测和可解释推理，加速材料发现。发表于4月24日。</p>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-        </div>
-        <h4>条件生成加速材料搜索</h4>
-        <p>npj Computational Materials发布PODGen框架，整合生成模型与性质预测，搜索拓扑绝缘体成功率提升&lt;strong&gt;5倍&lt;/strong&gt;。AI技术优化目标导向材料设计效率。</p>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
-        </div>
-        <h4>自驱动实验室合成材料</h4>
-        <p>Berkeley Lab的AI驱动机器人实验室17天内成功合成41种新材料（58种尝试），展示自主材料合成与AI预测结合的转化潜力。</p>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        </div>
-        <h4>神经形态计算解物理方程</h4>
-        <p>研究人员证明神经形态计算机可解决物理模拟背后的复杂方程，此前被认为仅超级计算机可完成，为低能耗科学计算开辟新路径。</p>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h4>ChatBattery锂电池设计</h4>
-        <p>专家引导LLM推理框架ChatBattery成功识别、合成三种新型锂离子电池正极材料，实际容量比NMC811提升28.8%、25.2%、18.5%，展示AI驱动完整材料发明周期。</p>
+        <h4>示例进展 beta</h4>
+        <p>AI 在另一问题上突破（占位）。</p>
       </article>
       <!-- SCIENCE:END -->
     </div>
@@ -1534,84 +1511,40 @@ body::before {
       <span class="sec-badge badge-purple" data-cn="论文精选" data-en="Papers">论文精选</span>
       <h2 class="sec-title" data-cn="AI4Material 最新论文" data-en="AI4Material Latest Papers">AI4Material 最新论文</h2>
     </div>
-    <p class="sec-desc" data-cn="近一周 Nature 正刊 / 大子刊系列、Science、ML 顶会涉及 AI for Materials 的代表性论文。" data-en="Representative papers on AI for Materials from Nature, Science, and top ML conferences in the past week.">近一周 Nature 正刊 / 大子刊系列、Science、ML 顶会涉及 AI for Materials 的代表性论文。</p>
+    <p class="sec-desc" data-cn="材料科学 × 机器学习：从催化剂发现到晶体结构预测" data-en="Materials science meets ML: catalyst discovery, crystal structure prediction, and beyond">材料科学 × 机器学习：从催化剂发现到晶体结构预测</p>
     <div class="papers-grid">
       <!-- MATERIAL:START -->
       <article class="paper-card nature paper-card-pick reveal">
         <div class="pick-banner">⭐ 本周精选</div>
-        <span class="paper-venue">Nature Machine Intelligence</span>
-        <h4 class="paper-title">A multimodal large language model for materials science</h4>
-        <p class="paper-authors">Tang Y. et al.</p>
-        <p class="paper-summary">提出MatterChat多模态框架，有效整合材料结构数据与大语言模型，实现高精度性质预测并提供可解释推理，加速材料发现。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2026-04-24</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s42256-026-01214-y" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
         <span class="paper-venue">Nature Materials</span>
-        <h4 class="paper-title">Artificial intelligence-driven approaches for materials design and discovery</h4>
-        <p class="paper-authors">Cheng M. et al.</p>
-        <p class="paper-summary">综述AI驱动的材料设计计算进展，重点介绍从传统筛选到深度生成模型驱动逆向设计的范式转变，讨论材料逆向设计的挑战与未来展望。</p>
+        <h4 class="paper-title">Mock paper for dry-run rendering</h4>
+        <p class="paper-authors">Doe J. et al.</p>
+        <p class="paper-summary">Mock 验证论文卡片渲染。</p>
         <div class="paper-meta">
-          <span class="paper-date">2026-01-02</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41563-025-02403-7" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-04-25</span>
+          <a class="paper-link" href="https://example.com/p1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
-      <article class="paper-card nature reveal">
+      <article class="paper-card science reveal">
         
-        <span class="paper-venue">Communications Materials</span>
-        <h4 class="paper-title">AI-powered open-source infrastructure for accelerating materials discovery and advanced manufacturing</h4>
-        <p class="paper-authors">Salas M. et al.</p>
-        <p class="paper-summary">提出构建透明、可扩展、可持续AI驱动基础设施的框架，涵盖材料发现与先进制造全流程，强调开源工具、自驱动实验室和区块链数据共享。</p>
+        <span class="paper-venue">Science</span>
+        <h4 class="paper-title">Mock paper on AI-driven catalysis</h4>
+        <p class="paper-authors">Roe A. et al.</p>
+        <p class="paper-summary">AI 引导的催化剂设计示例。</p>
         <div class="paper-meta">
-          <span class="paper-date">2026-02-17</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s43246-026-01105-0" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">npj Computational Materials</span>
-        <h4 class="paper-title">Materials discovery acceleration by using conditional generative methodology</h4>
-        <p class="paper-authors">Ye C. et al.</p>
-        <p class="paper-summary">开发PODGen条件生成框架，整合通用生成模型与多个性质预测模型，用于高通量晶体条件生成搜索拓扑绝缘体，成功率比无约束方法高约5倍。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-12-26</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41524-025-01930-w" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">Communications Materials</span>
-        <h4 class="paper-title">Materials Expert-Artificial Intelligence for materials discovery</h4>
-        <p class="paper-authors">Stanev V. et al.</p>
-        <p class="paper-summary">提出ME-AI机器学习框架，将专家直觉转化为定量描述符，使用基于测量的数据训练，揭示超价态作为拓扑半金属关键预测因子。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-09-29</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s43246-025-00928-7" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">npj Computational Materials</span>
-        <h4 class="paper-title">Toward high entropy material discovery for energy applications using computational and machine learning methods</h4>
-        <p class="paper-authors">Cao Z. et al.</p>
-        <p class="paper-summary">综述高熵材料在能源应用中的计算与机器学习方法，重点讨论高熵MXenes的晶体结构编码解码、量子计算及数据库构建，加速电池与超级电容器材料设计。</p>
-        <div class="paper-meta">
-          <span class="paper-date">2025-12-30</span>
-          <a class="paper-link" href="https://www.nature.com/articles/s41524-025-01918-6" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-04-23</span>
+          <a class="paper-link" href="https://example.com/p2" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <article class="paper-card conf reveal">
         
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Expert-Guided LLM Reasoning for Battery Discovery: ChatBattery</h4>
-        <p class="paper-authors">Guo H. et al.</p>
-        <p class="paper-summary">提出ChatBattery专家引导LLM推理框架用于电池材料发现，成功合成三种新型锂离子电池正极材料，实际容量比NMC811分别提升28.8%、25.2%和18.5%。</p>
+        <span class="paper-venue">NeurIPS 2025</span>
+        <h4 class="paper-title">Mock GNN paper for crystals</h4>
+        <p class="paper-authors">Kim S. et al.</p>
+        <p class="paper-summary">图神经网络预测晶体性质示例。</p>
         <div class="paper-meta">
-          <span class="paper-date">2025-05-12</span>
-          <a class="paper-link" href="https://arxiv.org/pdf/2507.16110" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-04-22</span>
+          <a class="paper-link" href="https://example.com/p3" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <!-- MATERIAL:END -->
@@ -1624,37 +1557,23 @@ body::before {
       <span class="sec-badge badge-blue" data-cn="模型动态" data-en="Models">模型动态</span>
       <h2 class="sec-title" data-cn="本周模型动态" data-en="This Week's Models">本周模型动态</h2>
     </div>
+    <p class="sec-desc" data-cn="当前主流大模型一览，持续跟踪能力边界" data-en="A live snapshot of frontier models and where their capabilities stand">当前主流大模型一览，持续跟踪能力边界</p>
     <div class="models-strip-wrap">
       <div class="models-strip">
         <!-- MODELS:START -->
-      <div class="model-chip tier-A">
-        <span class="model-org">DS</span>
-        <span class="model-name">DeepSeek V4</span>
-        <span class="model-tier">A</span>
-      </div>
       <div class="model-chip tier-S">
-        <span class="model-org">ANTH</span>
-        <span class="model-name">Claude Mythos 5</span>
-        <span class="model-tier">S</span>
-      </div>
-      <div class="model-chip tier-S">
-        <span class="model-org">GOOG</span>
-        <span class="model-name">Gemini 3.1 Pro</span>
+        <span class="model-org">ANT</span>
+        <span class="model-name">Claude Sonnet 4</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-S">
         <span class="model-org">OAI</span>
-        <span class="model-name">GPT-5.4</span>
+        <span class="model-name">GPT-5.5</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-A">
-        <span class="model-org">GOOG</span>
-        <span class="model-name">Gemma 4</span>
-        <span class="model-tier">A</span>
-      </div>
-      <div class="model-chip tier-A">
-        <span class="model-org">META</span>
-        <span class="model-name">Llama 4 Maverick</span>
+        <span class="model-org">DS</span>
+        <span class="model-name">DeepSeek V4</span>
         <span class="model-tier">A</span>
       </div>
       <!-- MODELS:END -->
@@ -1669,6 +1588,7 @@ body::before {
       <h2 class="sec-title" data-cn="模型基准速查" data-en="Model Benchmarks">模型基准速查</h2>
       <span class="sec-meta" data-cn="每日更新" data-en="Updated daily">每日更新</span>
     </div>
+    <p class="sec-desc" data-cn="关键基准横向对比，数字不说谎" data-en="Key benchmarks side by side. Numbers don't lie">关键基准横向对比，数字不说谎</p>
     <div class="card" style="overflow:auto;">
       <table class="bench-table">
         <thead>
@@ -1684,44 +1604,36 @@ body::before {
         <tbody>
         <!-- BENCHMARKS:START -->
         <tr>
-          <td class="model-cell">GPT-5.4</td>
-          <td class="org-cell">OpenAI</td>
-          <td class="score" style="color:#00ff88">92.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">94.5</td>
-          <td class="note">GDPval 83%超人类知识工作</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Gemini 3.1 Pro</td>
-          <td class="org-cell">Google</td>
-          <td class="score" style="color:#00ff88">90.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">93.0</td>
-          <td class="note">GPQA Diamond 94.3%领先</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Claude Opus 4.6</td>
+          <td class="model-cell">Claude Sonnet 4</td>
           <td class="org-cell">Anthropic</td>
+          <td class="score" style="color:#00ff88">91.5</td>
+          <td class="score" style="color:#00e5ff">87.2</td>
+          <td class="score" style="color:#00ff88">90.1</td>
+          <td class="note">最新旗舰，强推理</td>
+        </tr>
+        <tr>
+          <td class="model-cell">GPT-5.5</td>
+          <td class="org-cell">OpenAI</td>
+          <td class="score" style="color:#00ff88">92.1</td>
+          <td class="score" style="color:#00e5ff">88.3</td>
+          <td class="score" style="color:#00ff88">91.2</td>
+          <td class="note">统一超级应用</td>
+        </tr>
+        <tr>
+          <td class="model-cell">Gemini 2.5 Pro</td>
+          <td class="org-cell">Google</td>
+          <td class="score" style="color:#00ff88">90.8</td>
           <td class="score" style="color:#00ff88">91.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">95.2</td>
-          <td class="note">GDPval-AA Elo 1633领先</td>
+          <td class="score" style="color:#00e5ff">88.5</td>
+          <td class="note">数学最强</td>
         </tr>
         <tr>
           <td class="model-cell">DeepSeek V4</td>
           <td class="org-cell">DeepSeek</td>
-          <td class="score" style="color:#00e5ff">89.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00ff88">94.8</td>
-          <td class="note">SWE-bench 81.0%最高</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Grok 4.3</td>
-          <td class="org-cell">xAI</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">四专家并行推理架构</td>
+          <td class="score" style="color:#00e5ff">88.5</td>
+          <td class="score" style="color:#00e5ff">85.1</td>
+          <td class="score" style="color:#00e5ff">87.3</td>
+          <td class="note">开源最强</td>
         </tr>
       <!-- BENCHMARKS:END -->
         </tbody>
@@ -1737,20 +1649,20 @@ body::before {
     </div>
     <div class="conf-grid">
     <!-- CONFERENCES:START -->
-      <a class="conf-card reveal" href="https://iclr.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
-        <div class="conf-name">ICLR 2026</div>
-        <div class="conf-deadline">录取通知 · 2026-01-25</div>
-        <div class="conf-days urgent">还有 -94 天</div>
-      </a>
-      <a class="conf-card reveal" href="https://icml.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+      <a class="conf-card reveal" href="https://icml.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">ICML 2026</div>
-        <div class="conf-deadline">录取通知 · 2026-05-03</div>
-        <div class="conf-days urgent">还有 5 天</div>
+        <div class="conf-deadline">录取通知 · 2026-05-15</div>
+        <div class="conf-days soon">还有 18 天</div>
       </a>
-      <a class="conf-card reveal" href="https://neurips.cc/Conferences/2026/Dates" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+      <a class="conf-card reveal" href="https://neurips.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">NeurIPS 2026</div>
-        <div class="conf-deadline">投稿截止 · 2026-05-07</div>
-        <div class="conf-days urgent">还有 9 天</div>
+        <div class="conf-deadline">投稿截止 · 2026-05-30</div>
+        <div class="conf-days normal">还有 33 天</div>
+      </a>
+      <a class="conf-card reveal" href="https://iclr.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">ICLR 2027</div>
+        <div class="conf-deadline">投稿截止 · 2026-09-27</div>
+        <div class="conf-days normal">还有 153 天</div>
       </a>
       <!-- CONFERENCES:END -->
     </div>
@@ -1760,46 +1672,46 @@ body::before {
   <section id="leaders">
     <div class="sec-header">
       <span class="sec-badge badge-blue" data-cn="大佬观点" data-en="Leaders">大佬观点</span>
-      <h2 class="sec-title" data-cn="AI 大佬观点" data-en="AI Leader Insights">AI 大佬观点</h2>
+      <h2 class="sec-title" data-cn="领袖观点" data-en="Leader Insights">领袖观点</h2>
     </div>
-    <p class="sec-desc" data-cn="业内领袖最近公开发表的关键判断与预测，每日自动刷新。" data-en="Key judgments and predictions from industry leaders, auto-refreshed daily.">业内领袖最近公开发表的关键判断与预测，每日自动刷新。</p>
+    <p class="sec-desc" data-cn="行业领袖在想什么，说了什么" data-en="What the people shaping AI are actually thinking and saying">行业领袖在想什么，说了什么</p>
     <div class="leaders-grid">
       <!-- LEADERS:START -->
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar em" aria-hidden="true">SB</div>
+          <div class="avatar em" aria-hidden="true">S1</div>
           <div>
-            <div class="leader-name">谢尔盖·布林 (Sergey Brin)</div>
-            <div class="leader-role">Google联合创始人</div>
+            <div class="leader-name">示例·一号 (Sample One)</div>
+            <div class="leader-role">示例公司 CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"必须紧急弥合代理执行差距"</blockquote>
-        <p class="leader-body">布林组建DeepMind突击队应对Anthropic的Claude Code优势，内部备忘录要求将模型转变为主要开发者。Google AI代码生成占比约50%，而Anthropic接近100%。</p>
-        <div class="leader-meta"><span class="tag">编程AI</span><span class="tag">Google</span><span class="tag">竞争</span><span class="tag tag-date">4月21日</span></div>
+        <blockquote class="leader-quote">"AI 将重塑下一个十年。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">2026-04</span><span class="tag tag-date">4月27日</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar sa" aria-hidden="true">MZ</div>
+          <div class="avatar sa" aria-hidden="true">S2</div>
           <div>
-            <div class="leader-name">马克·扎克伯格 (Mark Zuckerberg)</div>
-            <div class="leader-role">Meta CEO</div>
+            <div class="leader-name">示例·二号 (Sample Two)</div>
+            <div class="leader-role">Anthropic 研究员</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"开源不再适用于前沿权重"</blockquote>
-        <p class="leader-body">Meta在4月8日发布首个专有模型Muse Spark，结束三年开源策略。此前Meta通过Llama系列建立开源信誉，但竞争压力达到临界点促使战略转变。</p>
-        <div class="leader-meta"><span class="tag">开源</span><span class="tag">战略</span><span class="tag">Meta</span><span class="tag tag-date">4月8日</span></div>
+        <blockquote class="leader-quote">"可解释性是 AGI 安全的关键。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">Anthropic</span><span class="tag tag-date">近期</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar aj" aria-hidden="true">DA</div>
+          <div class="avatar aj" aria-hidden="true">S3</div>
           <div>
-            <div class="leader-name">达里奥·阿莫代伊 (Dario Amodei)</div>
-            <div class="leader-role">Anthropic CEO</div>
+            <div class="leader-name">示例·三号 (Sample Three)</div>
+            <div class="leader-role">DeepMind VP</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"Claude Mythos风险过高不公开"</blockquote>
-        <p class="leader-body">Anthropic确认10万亿参数Claude Mythos模型，因触发ASL-4安全协议仅向50家机构提供受限访问。这是首个因安全理由扣留的前沿模型。</p>
-        <div class="leader-meta"><span class="tag">安全</span><span class="tag">模型</span><span class="tag">Anthropic</span><span class="tag tag-date">4月7日</span></div>
+        <blockquote class="leader-quote">"AI4Science 进入加速期。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">DeepMind</span><span class="tag tag-date">4月25日</span></div>
       </article>
       <!-- LEADERS:END -->
     </div>
@@ -1825,10 +1737,10 @@ body::before {
       </div>
       <div>
         <h3 data-cn="关注「梵低」" data-en="Follow 「梵低」">关注「梵低」</h3>
-        <p data-cn="分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。" data-en="Sharing AI research, science articles, and personal experiment insights. Join on Xiaohongshu to talk AI4Science.">分享 AI 科研、科普文章以及个人实验心得。欢迎到小红书来一起聊 AI4Science。</p>
+        <p data-cn="分享 AI4Science 前沿、科研心得与个人实验笔记。欢迎来聊。" data-en="AI4Science insights, research notes, and lab experiments. Come talk.">分享 AI4Science 前沿、科研心得与个人实验笔记。欢迎来聊。</p>
         <div class="id-pill" data-cn="小红书号: 8936318663" data-en="Xiaohongshu: 8936318663">小红书号: 8936318663</div>
       </div>
-      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/64a21eab000000002a037d47" target="_blank" rel="noopener" data-cn="前往主页" data-en="Visit Profile">前往主页</a>
+      <a class="btn primary" href="https://www.xiaohongshu.com/user/profile/64a21eab000000002a037d47" target="_blank" rel="noopener" data-cn="关注" data-en="Follow">关注</a>
     </div>
   </section>
 
@@ -1839,17 +1751,17 @@ body::before {
         <img src="podcast-cover.jpg" alt="科研面对面" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
       </div>
       <div>
-        <h3 data-cn="🎙️ 播客：科研面对面" data-en="🎙️ Podcast: Science Face to Face">🎙️ 播客：科研面对面</h3>
-        <p data-cn="对话AI、化学、材料等领域一线研究者，探索 AI4Science 的前沿与未来。在小宇宙可以找到我。" data-en="Conversations with researchers at the frontier of AI, chemistry, and materials science. Find me on Xiaoyuzhoufm.">对话AI、化学、材料等领域一线研究者，探索 AI4Science 的前沿与未来。在小宇宙可以找到我。</p>
+        <h3 data-cn="🎙️ 科研面对面" data-en="🎙️ Science Face to Face">🎙️ 科研面对面</h3>
+        <p data-cn="对话 AI 与科学交叉领域的一线研究者。每期一位，一个问题：AI 正在如何改变你的研究？" data-en="One researcher. One question: how is AI changing your work? Deep conversations at the intersection of AI and science.">对话 AI 与科学交叉领域的一线研究者。每期一位，一个问题：AI 正在如何改变你的研究？</p>
       </div>
-      <a class="btn primary" href="https://www.xiaoyuzhoufm.com/podcast/68313c849229d4651f7e86ce" target="_blank" rel="noopener" data-cn="去听播客" data-en="Listen Now">去听播客</a>
+      <a class="btn primary" href="https://www.xiaoyuzhoufm.com/podcast/68313c849229d4651f7e86ce" target="_blank" rel="noopener" data-cn="去听" data-en="Listen">去听</a>
     </div>
   </section>
 
 </main>
 
 <footer>
-  <p data-cn="© 2026 AI Progress Hub · 每日由 Claude API 自动更新" data-en="© 2026 AI Progress Hub · Auto-updated daily by Claude API">© 2026 AI Progress Hub · 每日由 Claude API 自动更新</p>
+  <p data-cn="© 2026 AI Progress Hub · 由 Claude API 每日自动更新" data-en="© 2026 AI Progress Hub · Auto-updated daily via Claude API">© 2026 AI Progress Hub · 由 Claude API 每日自动更新</p>
   <p>
     <a href="https://github.com/Yang1Bai/ai-progress-site" target="_blank" rel="noopener" data-cn="仓库源码" data-en="GitHub Repo">仓库源码</a>
     &nbsp;·&nbsp;
