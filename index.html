@@ -1017,6 +1017,142 @@ body::before {
   .nav { top: 0; }
 }
 </style>
+
+<!-- ═══════════════════════════════════════════════
+     Apple/Anthropic-style Entrance Animations
+     ═══════════════════════════════════════════════ -->
+<style id="oc-anim">
+/* ── 1. Intro Curtain ── */
+#intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+#intro-curtain .ic-brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.42s ease, transform 0.42s ease;
+}
+#intro-curtain .ic-brand.ic-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+#intro-curtain .ic-mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: #1a1a1a;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+#intro-curtain .ic-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  letter-spacing: -0.025em;
+}
+#intro-curtain.ic-rising {
+  transform: translateY(-100%);
+  transition: transform 0.72s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* ── Hero title needs explicit final clip state for smooth interpolation ── */
+.hero-title {
+  clip-path: inset(0 0 0% 0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Status bar & nav entrance */
+  .status-bar {
+    transition: transform 0.55s cubic-bezier(0.76, 0, 0.24, 1),
+                opacity 0.4s ease;
+  }
+  .nav {
+    transition: transform 0.6s cubic-bezier(0.76, 0, 0.24, 1),
+                opacity 0.45s ease;
+  }
+  .status-bar.oc-hidden,
+  .nav.oc-hidden {
+    transform: translateY(-110%);
+    opacity: 0;
+  }
+
+  /* Hero element base transitions */
+  .hero-label, .hero-sub, .search-wrap, .stats-row {
+    transition: opacity 0.65s ease,
+                transform 0.65s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  .hero-update {
+    transition: opacity 0.65s ease;
+  }
+  .hero-title {
+    transition: clip-path 0.68s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  /* Hero constrained initial states (applied when parent has .hero-anim-init) */
+  .hero-anim-init .hero-label,
+  .hero-anim-init .hero-sub,
+  .hero-anim-init .search-wrap,
+  .hero-anim-init .stats-row {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  .hero-anim-init .hero-update {
+    opacity: 0;
+  }
+  .hero-anim-init .hero-title {
+    clip-path: inset(0 0 100% 0);
+  }
+
+  /* Scroll reveal — initial hidden state */
+  .card,
+  .news-item,
+  .news-headline,
+  .paper-card,
+  .leader-card,
+  .sci-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.55s ease,
+                transform 0.55s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.2s ease,
+                border-color 0.2s ease;
+  }
+
+  /* Scroll reveal — visible state */
+  .card.is-visible,
+  .news-item.is-visible,
+  .news-headline.is-visible,
+  .paper-card.is-visible,
+  .leader-card.is-visible,
+  .sci-card.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Restore hover transforms after reveal (higher specificity beats base .is-visible) */
+  .sci-card.is-visible:hover    { transform: translateY(-2px); border-color: var(--green-border); }
+  .paper-card.is-visible:hover  { transform: translateY(-2px); }
+  .leader-card.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
+  .news-item.is-visible:hover   { transform: translateX(2px);  border-color: var(--border-dark); }
+
+  /* Nav active section indicator */
+  .nav-links a.nav-active {
+    color: var(--accent) !important;
+    background: var(--accent-light) !important;
+  }
+}
+</style>
 </head>
 <body>
 
@@ -1755,6 +1891,198 @@ fetch('https://yangbai-ai.goatcounter.com/counter/index.html.json')
     const el = document.getElementById('visitor-count');
     if (el && d.count) el.textContent = d.count;
   }).catch(() => {});
+</script>
+
+<script id="oc-anim-js">
+/* ================================================================
+   AI Progress Hub — Entrance Animation Controller
+   Apple / Anthropic style — elegant, purposeful, not flashy
+   Respects prefers-reduced-motion.
+   ================================================================ */
+(function () {
+  'use strict';
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ─── 1. Intro Curtain ─── */
+  function runCurtain(onDone) {
+    if (reduced) { onDone(); return; }
+
+    var curtain = document.createElement('div');
+    curtain.id = 'intro-curtain';
+    curtain.innerHTML =
+      '<div class="ic-brand">' +
+        '<div class="ic-mark">' +
+          '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' +
+            '<circle cx="12" cy="12" r="3"/>' +
+            '<path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>' +
+          '</svg>' +
+        '</div>' +
+        '<span class="ic-name">AI Progress Hub</span>' +
+      '</div>';
+    document.body.prepend(curtain);
+
+    requestAnimationFrame(function () {
+      // Step 1 — brand fades in
+      setTimeout(function () {
+        var brand = curtain.querySelector('.ic-brand');
+        if (brand) brand.classList.add('ic-show');
+      }, 120);
+
+      // Step 2 — curtain rises
+      setTimeout(function () {
+        curtain.classList.add('ic-rising');
+      }, 730);
+
+      // Step 3 — remove from DOM + fire page-reveal callback
+      setTimeout(function () {
+        if (curtain.parentNode) curtain.parentNode.removeChild(curtain);
+        onDone();
+      }, 1390);
+    });
+  }
+
+  /* ─── 2. Nav + Hero entrance (fires after curtain) ─── */
+  function revealPage() {
+    if (reduced) return;
+
+    /* Status bar + nav slide down from top */
+    var statusBar = document.querySelector('.status-bar');
+    var nav       = document.querySelector('.nav');
+    if (statusBar) statusBar.classList.add('oc-hidden');
+    if (nav)       nav.classList.add('oc-hidden');
+
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        if (statusBar) statusBar.classList.remove('oc-hidden');
+        if (nav)       nav.classList.remove('oc-hidden');
+      });
+    });
+
+    /* Hero staggered entrance */
+    var hero = document.querySelector('.hero');
+    if (!hero) return;
+
+    var heroLabel  = hero.querySelector('.hero-label');
+    var heroTitle  = hero.querySelector('.hero-title');
+    var heroSub    = hero.querySelector('.hero-sub');
+    var searchWrap = hero.querySelector('.search-wrap');
+    var statsRow   = hero.querySelector('.stats-row');
+    var heroUpdate = hero.querySelector('.hero-update');
+
+    var stagger = [
+      { el: heroLabel,  delay: 0   },
+      { el: heroTitle,  delay: 80  },
+      { el: heroSub,    delay: 310 },
+      { el: searchWrap, delay: 410 },
+      { el: statsRow,   delay: 490 },
+      { el: heroUpdate, delay: 570 },
+    ];
+
+    /* Apply per-element transition delays inline */
+    stagger.forEach(function (item) {
+      if (item.el) item.el.style.transitionDelay = item.delay + 'ms';
+    });
+
+    /* Stamp initial constrained state */
+    hero.classList.add('hero-anim-init');
+
+    /* Force reflow so browser registers initial values before releasing */
+    void hero.getBoundingClientRect();
+
+    /* Release — each element transitions to its natural CSS state */
+    hero.classList.remove('hero-anim-init');
+
+    /* Clean up inline delays once animation completes */
+    setTimeout(function () {
+      stagger.forEach(function (item) {
+        if (item.el) item.el.style.transitionDelay = '';
+      });
+    }, 1400);
+  }
+
+  /* ─── 3. Scroll-triggered reveals ─── */
+  function initScrollReveal() {
+    var selector = '.card, .news-item, .news-headline, .paper-card, .leader-card, .sci-card';
+
+    if (reduced) {
+      document.querySelectorAll(selector).forEach(function (el) {
+        el.classList.add('is-visible');
+      });
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+    /* Stagger siblings within the same parent container */
+    var processedParents = [];
+    document.querySelectorAll(selector).forEach(function (el) {
+      var parent = el.parentElement;
+      if (processedParents.indexOf(parent) === -1) {
+        processedParents.push(parent);
+        var idx = 0;
+        Array.prototype.forEach.call(parent.children, function (child) {
+          if (child.matches && child.matches(selector)) {
+            child.style.transitionDelay = Math.min(idx, 5) * 80 + 'ms';
+            idx++;
+          }
+        });
+      }
+      observer.observe(el);
+    });
+  }
+
+  /* ─── 4. Nav active-section indicator ─── */
+  function initNavIndicator() {
+    var allLinks = Array.prototype.slice.call(
+      document.querySelectorAll('.nav-links a[href^="#"]')
+    );
+    if (!allLinks.length) return;
+
+    var sectionLinks = allLinks.map(function (link) {
+      var id = link.getAttribute('href').slice(1);
+      var section = document.getElementById(id);
+      return section ? { section: section, link: link } : null;
+    }).filter(Boolean);
+
+    if (!sectionLinks.length) return;
+
+    var currentActive = null;
+
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var match = null;
+        for (var i = 0; i < sectionLinks.length; i++) {
+          if (sectionLinks[i].section === entry.target) { match = sectionLinks[i]; break; }
+        }
+        if (!match) return;
+        if (currentActive) currentActive.classList.remove('nav-active');
+        currentActive = match.link;
+        currentActive.classList.add('nav-active');
+      });
+    }, {
+      threshold: 0,
+      rootMargin: '-15% 0px -72% 0px'
+    });
+
+    sectionLinks.forEach(function (s) { io.observe(s.section); });
+  }
+
+  /* ─── Bootstrap ─── */
+  document.addEventListener('DOMContentLoaded', function () {
+    initScrollReveal();
+    initNavIndicator();
+    runCurtain(revealPage);
+  });
+
+})();
 </script>
 
 <script data-goatcounter="https://yangbai-ai.goatcounter.com/count"
