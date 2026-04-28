@@ -1981,25 +1981,15 @@ if (searchInput && searchResults) {
   });
 }
 
-// ===== Visitor counter (localStorage-based) =====
+// ===== Visitor counter (Cloudflare Analytics) =====
 (function() {
-  const KEY = 'ai_hub_visits';
-  let count = parseInt(localStorage.getItem(KEY), 10);
-  if (isNaN(count) || count < 1200) {
-    // First visit: randomize seed between 1200 and 1500
-    count = Math.floor(Math.random() * 301) + 1200;
-  }
-  count += 1;
-  try { localStorage.setItem(KEY, count); } catch(e) {}
-
   const el = document.getElementById('visitor-count');
   if (!el) return;
 
-  function formatNum(n) {
-    return n.toLocaleString('en-US');
-  }
+  function formatNum(n) { return n.toLocaleString('en-US'); }
 
   function animateVisitor(target) {
+    if (target === 0) { el.textContent = '—'; return; }
     const duration = 800;
     let start = null;
     const step = ts => {
@@ -2013,13 +2003,17 @@ if (searchInput && searchResults) {
     requestAnimationFrame(step);
   }
 
-  const obs = new IntersectionObserver(([entry]) => {
-    if (entry.isIntersecting) {
-      animateVisitor(count);
-      obs.disconnect();
-    }
-  }, { threshold: 0.5 });
-  obs.observe(el);
+  // Fetch real visitor count from Cloudflare Worker
+  fetch('https://ai-hub-visitor-counter.yangbai0110.workers.dev')
+    .then(r => r.json())
+    .then(data => {
+      const count = data.visitors || 0;
+      const obs = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting) { animateVisitor(count); obs.disconnect(); }
+      }, { threshold: 0.5 });
+      obs.observe(el);
+    })
+    .catch(() => { el.textContent = '—'; });
 })();
 </script>
 
