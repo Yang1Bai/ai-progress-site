@@ -243,7 +243,7 @@ body {
 .hero {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 56px 24px 40px;
+  padding: 36px 24px 28px;
   text-align: center;
 }
 .hero-label {
@@ -387,7 +387,7 @@ main {
 }
 section {
   scroll-margin-top: calc(var(--status-height) + var(--nav-height) + 16px);
-  padding-top: 56px;
+  padding-top: 40px;
 }
 
 /* ===== Section Headers ===== */
@@ -427,7 +427,7 @@ section {
 .sec-desc {
   color: var(--text-muted);
   font-size: .88rem;
-  margin: 4px 0 20px;
+  margin: 4px 0 14px;
   max-width: 520px;
 }
 
@@ -1396,6 +1396,15 @@ body::before {
           <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
         </div>
       </div>
+      <div class="news-card reveal" data-tags="#多模态,#开源">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">NVIDIA发布Nemotron 3 Nano Omni多模…</h3>
+        <p class="card-summary"><strong>NVIDIA</strong>发布Nemotron 3 Nano Omni多模态开源模型,统一视觉、音频和语言,在6个排行榜上领先,效率提升最高达9倍</p>
+        <div class="card-footer">
+          <a class="card-source-link" href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+        </div>
+      </div>
       <div class="news-card-headline reveal" data-tags="#LLM,#安全">
         <div class="card-image">
           <img src="https://source.unsplash.com/800x450/?Anthropic%20artificial%20intelligence" alt="Anthropic确认Claude Mythos 5存在,参…" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?Anthropic%20artificial%20intelligence'">
@@ -1418,15 +1427,6 @@ body::before {
         <div class="card-footer">
           <a class="card-source-link" href="https://www.marketingprofs.com/opinions/2026/54587/ai-update-april-24-2026-ai-news-and-views-from-the-past-week" target="_blank" rel="noopener">原文 ↗</a>
           <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span></div>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#多模态,#开源">
-        <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">NVIDIA发布Nemotron 3 Nano Omni多模…</h3>
-        <p class="card-summary"><strong>NVIDIA</strong>发布Nemotron 3 Nano Omni多模态开源模型,统一视觉、音频和语言,在6个排行榜上领先,效率提升最高达9倍</p>
-        <div class="card-footer">
-          <a class="card-source-link" href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
         </div>
       </div>
       <div class="news-card reveal" data-tags="#芯片,#LLM">
@@ -1456,10 +1456,10 @@ body::before {
           <div class="card-tags"><span class="card-tag" onclick="filterNews('#机器人')">#机器人</span><span class="card-tag" onclick="filterNews('#AI4Science')">#AI4Science</span></div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#芯片,#材料">
+      <div class="news-card reveal" style="grid-column: span 2;" data-tags="#芯片,#材料">
         <span class="card-badge update">UPDATE</span>
-        <h3 class="card-title">剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式,…</h3>
-        <p class="card-summary">剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式,AI能耗可降低最高70%</p>
+        <h3 class="card-title">剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式</h3>
+        <p class="card-summary">剑桥大学开发改性氧化铪纳米电子器件,模仿神经元同时处理和存储信息,突破传统芯片数据搬运瓶颈,可将AI能耗降低最高70%,有望革新边缘AI设备</p>
         <div class="card-footer">
           <a class="card-source-link" href="https://www.sciencedaily.com/releases/2026/04/260422044633.htm" target="_blank" rel="noopener">原文 ↗</a>
           <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span><span class="card-tag" onclick="filterNews('#材料')">#材料</span></div>
