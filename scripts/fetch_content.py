@@ -206,6 +206,55 @@ def sanitize_strong(s: str) -> str:
                 .replace("&lt;/strong&gt;", "</strong>"))
 
 
+# Source credibility inference
+_OFFICIAL_DOMAINS = {
+    "openai.com", "anthropic.com", "deepmind.google", "meta.com", "microsoft.com",
+    "nvidia.com", "blogs.nvidia.com", "ai.google", "blog.google", "research.google",
+    "mistral.ai", "cohere.com", "ai.sony", "ai.meta.com",
+}
+_PAPER_DOMAINS = {
+    "nature.com", "science.org", "cell.com", "acs.org", "wiley.com", "springer.com",
+    "pubs.acs.org", "onlinelibrary.wiley.com", "advanced.onlinelibrary.wiley.com",
+    "pnas.org", "sciencemag.org", "rsc.org", "iopscience.iop.org",
+}
+_PREPRINT_DOMAINS = {"arxiv.org", "biorxiv.org", "chemrxiv.org", "openreview.net"}
+_MEDIA_DOMAINS = {
+    "bloomberg.com", "reuters.com", "techcrunch.com", "wired.com", "theverge.com",
+    "wsj.com", "nytimes.com", "bbc.com", "cnn.com", "ft.com", "economist.com",
+    "arstechnica.com", "euronews.com", "technologyreview.com",
+}
+_BLOG_DOMAINS = {"substack.com", "medium.com", "huggingface.co", "marketingprofs.com", "sciencedaily.com"}
+
+
+def infer_source_type(url: str) -> str:
+    """Infer the source credibility type from a URL."""
+    if not url or not url.startswith("http"):
+        return "Unknown"
+    try:
+        host = urllib.parse.urlparse(url).netloc.lower().lstrip("www.")
+    except Exception:
+        return "Unknown"
+    # Check "blog" in URL path/host
+    if "blog" in url.lower():
+        return "Blog"
+    for domain in _OFFICIAL_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return "Official"
+    for domain in _PAPER_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return "Paper"
+    for domain in _PREPRINT_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return "Preprint"
+    for domain in _MEDIA_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return "Major media"
+    for domain in _BLOG_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return "Blog"
+    return "Unknown"
+
+
 def render_leaders(items):
     out = []
     for i, it in enumerate(items[:3]):
@@ -389,8 +438,13 @@ def render_news(items):
         tags = it.get("tags") or []
         tags_str = escape_text(",".join(tags))
         source_link = ""
+        src_type = infer_source_type(url)
+        src_cls = src_type.lower().replace(" ", "-")
+        src_badge = f'<span class="src-badge src-{src_cls}">{escape_text(src_type)}</span>'
         if url.startswith(("http://", "https://")):
-            source_link = f'<a class="card-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">\u539f\u6587 \u2197</a>'
+            source_link = f'{src_badge}<a class="card-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">\u539f\u6587 \u2197</a>'
+        else:
+            source_link = src_badge
 
         # Determine badge
         importance = it.get("importance", "normal")
@@ -470,6 +524,85 @@ def render_news(items):
       </div>''')
     return "\n".join(out)
 
+
+def render_top3(news_items, papers_items):
+    """Select top 3 items from news + papers by importance heuristic."""
+    candidates = []
+    # Add breaking news first
+    for it in (news_items or []):
+        score = 0
+        if it.get("importance") == "breaking": score += 100
+        elif it.get("importance") == "major": score += 50
+        tags = it.get("tags", [])
+        if any(t in ["#\u6750\u6599", "#AI4Science", "#\u673a\u5668\u4eba"] for t in tags): score += 20
+        candidates.append({"type": "news", "score": score, "data": it})
+    # Add week pick papers
+    for it in (papers_items or []):
+        score = 0
+        if it.get("is_week_pick"): score += 80
+        if it.get("venue_type") == "nature": score += 30
+        candidates.append({"type": "paper", "score": score, "data": it})
+    candidates.sort(key=lambda x: -x["score"])
+    top3 = candidates[:3]
+
+    rank_labels = ["01", "02", "03"]
+    out = []
+    for idx, c in enumerate(top3):
+        rank = rank_labels[idx]
+        d = c["data"]
+        if c["type"] == "news":
+            body = sanitize_strong(d.get("body", ""))
+            plain_title = re.sub(r"<[^>]+>", "", d.get("body", ""))[:40].rstrip()
+            display_title = escape_text(plain_title + ("\u2026" if len(re.sub(r"<[^>]+>", "", d.get("body", ""))) > 40 else ""))
+            url = (d.get("url") or "").strip()
+            tags = d.get("tags", [])
+            tags_str = escape_text(",".join(tags))
+            src_type = infer_source_type(url)
+            src_cls = src_type.lower().replace(" ", "-")
+            src_badge = f'<span class="src-badge src-{src_cls}">{escape_text(src_type)}</span>'
+            link_html = f'<a class="card-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">\u539f\u6587 \u2197</a>' if url.startswith("http") else ""
+            tag_items = "".join(f'<span class="card-tag">{escape_text(t)}</span>' for t in tags[:2])
+            imp = d.get("importance", "normal")
+            why_map = {
+                "breaking": "\u4eca\u65e5\u5934\u6761\u2014\u2014\u7a81\u7834\u6027\u8fdb\u5c55\uff0c\u5024\u5f97\u7b2c\u4e00\u65f6\u95f4\u5173\u6ce8",
+                "major": "\u91cd\u78c5\u6d88\u606f\u2014\u2014\u5bf9 AI \u683c\u5c40\u6709\u663e\u8457\u5f71\u54cd",
+                "normal": "\u5024\u5f97\u5173\u6ce8\u7684\u884c\u4e1a\u52a8\u6001",
+            }
+            why = why_map.get(imp, "\u5024\u5f97\u5173\u6ce8\u7684\u91cd\u8981\u8fdb\u5c55")
+            out.append(f'''    <div class="top3-card reveal" data-tags="{tags_str}">
+      <div class="top3-rank">{rank}</div>
+      {src_badge}
+      <h3 class="top3-title">{display_title}</h3>
+      <p class="top3-summary">{body}</p>
+      <div class="top3-why"><strong>\u4e3a\u4f55\u91cd\u8981</strong>\u3000{escape_text(why)}</div>
+      <div class="top3-footer">
+        {link_html}
+        <div class="card-tags">{tag_items}</div>
+      </div>
+    </div>''')
+        else:  # paper
+            title = escape_text(d.get("title", ""))
+            summary = escape_text(d.get("summary", ""))
+            venue = escape_text(d.get("venue", ""))
+            url = (d.get("url") or "").strip()
+            link_html = f'<a class="card-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">\u9605\u8bfb \u2197</a>' if url.startswith("http") else ""
+            src_badge = '<span class="src-badge src-paper">Paper</span>'
+            why = f"\u53d1\u8868\u4e8e {d.get('venue', '')}\uff0c\u662f\u672c\u671f AI4Materials \u7cbe\u9009\u8bba\u6587"
+            out.append(f'''    <div class="top3-card reveal" data-tags="#\u6750\u6599,#AI4Science">
+      <div class="top3-rank">{rank}</div>
+      {src_badge}
+      <span class="paper-venue">{venue}</span>
+      <h3 class="top3-title">{title}</h3>
+      <p class="top3-summary">{summary}</p>
+      <div class="top3-why"><strong>\u4e3a\u4f55\u91cd\u8981</strong>\u3000{escape_text(why)}</div>
+      <div class="top3-footer">
+        {link_html}
+        <div class="card-tags"><span class="card-tag">#AI4Science</span><span class="card-tag">#\u6750\u6599</span></div>
+      </div>
+    </div>''')
+    return "\n".join(out)
+
+
 def render_science(items):
     out = []
     for i, it in enumerate(items[:6]):
@@ -496,14 +629,22 @@ def render_papers(items):
         if not url.startswith(("http://", "https://")):
             url = "#"
         pick = it.get("is_week_pick", False)
-        pick_banner = '<div class="pick-banner">⭐ 本周精选</div>' if pick else ""
+        pick_banner = '<div class="pick-banner">\U0001f52c Yang\'s Pick</div>' if pick else ""
         pick_class = " paper-card-pick" if pick else ""
+        yang_comment = it.get("yang_comment") or ""
+        yangs_pick_block = ""
+        if pick:
+            why_text = yang_comment if yang_comment else "精选理由：该论文对 AI 驱动材料发现具有重要方法论意义，值得优先阅读。"
+            yangs_pick_block = f'''        <div class="yangs-pick-why">
+          <span class="yangs-pick-label">\U0001f52c Yang's Pick</span>{escape_text(why_text)}
+        </div>'''
         out.append(f'''      <article class="paper-card {vt}{pick_class} reveal">
         {pick_banner}
         <span class="paper-venue">{escape_text(it.get("venue", ""))}</span>
         <h4 class="paper-title">{escape_text(it.get("title", ""))}</h4>
         <p class="paper-authors">{escape_text(it.get("authors", ""))}</p>
         <p class="paper-summary">{escape_text(it.get("summary", ""))}</p>
+{yangs_pick_block}
         <div class="paper-meta">
           <span class="paper-date">{escape_text(it.get("date", ""))}</span>
           <a class="paper-link" href="{escape_text(url)}" target="_blank" rel="noopener">阅读 {LINK_SVG}</a>
@@ -556,17 +697,30 @@ def render_conferences(items):
     if not items:
         return '      <div class="conf-card"><div class="conf-name" style="color:#3d4d6a;">暂无近期截止</div></div>'
     out = []
-    sorted_items = sorted(items, key=lambda x: x.get("days_left", 999))
+    # Sort: upcoming (days_left >= 0) first sorted by days_left, past last
+    sorted_items = sorted(
+        items,
+        key=lambda x: (0 if (x.get("days_left", 0) or 0) >= 0 else 1,
+                       x.get("days_left", 999) if (x.get("days_left", 0) or 0) >= 0 else 0)
+    )
     for it in sorted_items[:8]:
         days = it.get("days_left", 0)
         if isinstance(days, (int, float)):
-            if days <= 14:
+            if days < 0:
+                day_cls = "past"
+                day_txt = "已结束"
+            elif days == 0:
                 day_cls = "urgent"
+                day_txt = "今天截止"
+            elif days <= 14:
+                day_cls = "urgent"
+                day_txt = f"还有 {days} 天"
             elif days <= 30:
                 day_cls = "soon"
+                day_txt = f"还有 {days} 天"
             else:
                 day_cls = "normal"
-            day_txt = f"还有 {days} 天"
+                day_txt = f"还有 {days} 天"
         else:
             day_cls = "normal"
             day_txt = str(days)
@@ -899,6 +1053,8 @@ def main():
                          render_benchmarks(data.get("benchmarks", [])))
     html = replace_block(html, "<!-- CONFERENCES:START -->", "<!-- CONFERENCES:END -->",
                          render_conferences(data.get("conferences", [])))
+    html = replace_block(html, "<!-- TOP3:START -->", "<!-- TOP3:END -->",
+                         render_top3(data.get("news", []), data.get("papers", [])))
     # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
     INDEX.write_text(html, encoding="utf-8")

@@ -1,246 +1,121 @@
 {
-  "date": "2026年4月29日",
   "leaders": [
     {
-      "name": "萨姆·奥特曼",
-      "name_en": "Sam Altman",
-      "role": "OpenAI CEO",
-      "quote": "劳动与资本的平衡正在剧烈转变",
-      "body": "4月在BlackRock峰会上承认AI正面临公关危机,并表示传统劳资平衡已被打破。他预测超级智能可能在2028年前到来,并警告AI智能体将很快能独立执行多日多周任务。",
+      "name": "示例·一号",
+      "name_en": "Sample One",
+      "role": "示例公司 CEO",
+      "quote": "AI 将重塑下一个十年。",
+      "body": "占位（dry-run）。",
       "tags": [
-        "超级智能",
-        "劳动力",
-        "智能体"
+        "2026-04"
       ],
-      "initials": "SA",
-      "quote_date": "4月11日"
+      "initials": "S1",
+      "quote_date": "4月27日"
     },
     {
-      "name": "德米斯·哈萨比斯",
-      "name_en": "Demis Hassabis",
-      "role": "Google DeepMind CEO",
-      "quote": "我做AI是为了知识和科学",
-      "body": "在多个场合表示AGI可能在未来5年内到达,但对超级智能持更审慎态度。强调AI发展需要谦逊态度,并与Altman形成对比,称自己追求科学而非权力。",
+      "name": "示例·二号",
+      "name_en": "Sample Two",
+      "role": "Anthropic 研究员",
+      "quote": "可解释性是 AGI 安全的关键。",
+      "body": "占位（dry-run）。",
       "tags": [
-        "AGI",
-        "科学",
-        "审慎"
+        "Anthropic"
       ],
-      "initials": "DH",
-      "quote_date": "4月"
+      "initials": "S2",
+      "quote_date": "近期"
     },
     {
-      "name": "谢尔盖·布林",
-      "name_en": "Sergey Brin",
-      "role": "Google 联合创始人",
-      "quote": "必须紧急缩小代理执行差距",
-      "body": "4月21日亲自组建DeepMind特别小组,目标是追赶Anthropic的编码能力。内部备忘录要求将模型转变为主要开发者,显示Google在AI编码竞赛中的紧迫感。",
+      "name": "示例·三号",
+      "name_en": "Sample Three",
+      "role": "DeepMind VP",
+      "quote": "AI4Science 进入加速期。",
+      "body": "占位（dry-run）。",
       "tags": [
-        "编码",
-        "代理AI",
-        "竞争"
+        "DeepMind"
       ],
-      "initials": "SB",
-      "quote_date": "4月21日"
+      "initials": "S3",
+      "quote_date": "4月25日"
     }
   ],
   "news": [
     {
       "title": "",
-      "body": "<strong>DeepSeek V4</strong>发布,采用1.6万亿参数MoE架构,上下文窗口100万token,在编码基准测试中领先,并完成华为昇腾全栈适配",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
-      "importance": "major",
-      "tags": [
-        "#LLM",
-        "#开源"
-      ]
-    },
-    {
-      "title": "",
-      "body": "<strong>Google</strong>向美国国防部提供<strong>Gemini</strong>用于机密环境,引发内部员工公开反对,超20名高管签署抗议信",
-      "url": "https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use",
-      "importance": "major",
-      "tags": [
-        "#政策",
-        "#安全"
-      ]
-    },
-    {
-      "title": "",
-      "body": "<strong>Anthropic</strong>确认Claude Mythos 5存在,参数达10万亿,但因触发ASL-4安全协议不对外发布,仅50家机构通过Project Glasswing获得受限访问",
-      "url": "",
+      "body": "<strong>示例 A</strong>：占位新闻。",
+      "url": "https://example.com/a",
       "importance": "breaking",
       "tags": [
-        "#LLM",
-        "#安全"
+        "#LLM"
       ]
     },
     {
       "title": "",
-      "body": "<strong>OpenAI</strong>发布GPT-5.5,定位为AI超级应用的重要一步,整合ChatGPT、编码工具和浏览器功能于单一界面,持续快速发布周期",
-      "url": "https://www.marketingprofs.com/opinions/2026/54587/ai-update-april-24-2026-ai-news-and-views-from-the-past-week",
+      "body": "<strong>示例 B</strong>：占位新闻。",
+      "url": "",
       "importance": "major",
       "tags": [
-        "#LLM",
-        "#Agent"
-      ]
-    },
-    {
-      "title": "",
-      "body": "<strong>NVIDIA</strong>发布Nemotron 3 Nano Omni多模态开源模型,统一视觉、音频和语言,在6个排行榜上领先,效率提升最高达9倍",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
-      "importance": "major",
-      "tags": [
-        "#多模态",
+        "#Agent",
         "#开源"
       ]
     },
     {
       "title": "",
-      "body": "<strong>Google</strong>在ICLR 2026发布TurboQuant算法,将KV缓存内存开销降低6倍,零精度损失,大幅提升推理效率",
-      "url": "",
+      "body": "<strong>示例 C</strong>：占位新闻。",
+      "url": "https://example.com/c",
       "importance": "normal",
       "tags": [
-        "#芯片",
-        "#LLM"
-      ]
-    },
-    {
-      "title": "",
-      "body": "马斯克诉OpenAI案开庭,要求130亿美元赔偿并恢复非营利结构,称AI可能\"杀死所有人\",法官警告双方限制社交媒体言论",
-      "url": "https://www.cnn.com/2026/04/28/tech/elon-musk-sam-altman-openai",
-      "importance": "major",
-      "tags": [
-        "#政策",
-        "#LLM"
-      ]
-    },
-    {
-      "title": "",
-      "body": "<strong>Sony AI</strong>在Nature发表突破性研究,机器人Ace首次在乒乓球竞技中达到职业水平,战胜多名精英和职业选手",
-      "url": "https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics",
-      "importance": "major",
-      "tags": [
-        "#机器人",
-        "#AI4Science"
-      ]
-    },
-    {
-      "title": "",
-      "body": "剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式,AI能耗可降低最高70%",
-      "url": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
-      "importance": "normal",
-      "tags": [
-        "#芯片",
-        "#材料"
-      ]
-    },
-    {
-      "title": "",
-      "body": "Tufts大学研究团队结合神经网络与符号推理,AI能耗降低100倍同时提升准确性,机器人推理效率大幅提升",
-      "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
-      "importance": "normal",
-      "tags": [
-        "#机器人",
-        "#安全"
+        "#芯片"
       ]
     }
   ],
   "science": [
     {
-      "title": "AI发现等离子体新物理",
-      "body": "Emory大学团队利用神经网络结合3D粒子追踪技术,在\"第四态物质\"尘埃等离子体中发现隐藏的粒子相互作用模式,为从太空到野火等环境提供新认知。"
+      "title": "示例进展 alpha",
+      "body": "AI 在某科学问题上突破（占位）。"
     },
     {
-      "title": "类脑芯片降低AI能耗70%",
-      "body": "剑桥大学开发改性氧化铪纳米电子器件,模仿神经元同时处理和存储信息,突破传统芯片数据搬运瓶颈,可将AI能耗降低最高70%。"
-    },
-    {
-      "title": "索尼机器人达职业乒乓水平",
-      "body": "Sony AI项目Ace成为首个在常见竞技运动中达到人类专家水平的机器人系统,在Nature发表研究显示其在快速感知、规划和控制方面突破物理世界AI挑战。"
-    },
-    {
-      "title": "符号推理AI能耗降百倍",
-      "body": "Tufts大学团队结合神经网络与人类式符号推理,使机器人思考更具逻辑而非依赖蛮力试错,在提升准确性同时将AI能耗降低高达100倍。"
-    },
-    {
-      "title": "量子机器学习商用平台",
-      "body": "AWS推出全球首个面向企业的全托管量子机器学习服务平台Braket Synapse,允许数据科学家无需深厚量子物理背景即可训练模型,在金融风控、材料模拟和药物优化等领域显示潜力。"
-    },
-    {
-      "title": "多模态LLM减少幻觉",
-      "body": "OpenAI与清华大学独立发布论文,通过溯源增强训练、跨模态一致性校验和不确定性量化输出等方法,在减少多模态模型幻觉方面取得原理性突破。"
+      "title": "示例进展 beta",
+      "body": "AI 在另一问题上突破（占位）。"
     }
   ],
   "papers": [
     {
       "venue_type": "nature",
-      "venue": "Nature",
-      "title": "Outplaying Elite Table Tennis Players with an Autonomous Robot",
-      "authors": "Sony AI et al.",
-      "summary": "索尼AI团队开发的机器人系统Ace首次在乒乓球竞技中达到职业水平,结合高速感知、实时规划和精准控制,在快速动态物理环境中战胜精英和职业选手,标志着AI从数字域向物理世界的重大突破。",
-      "date": "2026-04-23",
-      "url": "https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics",
+      "venue": "Nature Materials",
+      "title": "Mock paper for dry-run rendering",
+      "authors": "Doe J. et al.",
+      "summary": "Mock 验证论文卡片渲染。",
+      "date": "2026-04-25",
+      "url": "https://example.com/p1",
       "is_week_pick": true
     },
     {
-      "venue_type": "nature",
-      "venue": "Nature Materials",
-      "title": "Artificial intelligence-driven approaches for materials design and discovery",
-      "authors": "Cheng M. et al.",
-      "summary": "MIT团队综述计算方法在材料设计中的关键进展,重点介绍从传统筛选向深度生成模型驱动的逆向生成的范式转变,讨论材料逆向设计的当前挑战和未来展望。",
-      "date": "2026-01-02",
-      "url": "https://www.nature.com/articles/s41563-025-02403-7",
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Mock paper on AI-driven catalysis",
+      "authors": "Roe A. et al.",
+      "summary": "AI 引导的催化剂设计示例。",
+      "date": "2026-04-23",
+      "url": "https://example.com/p2",
       "is_week_pick": false
     },
     {
-      "venue_type": "science",
-      "venue": "Angewandte Chemie",
-      "title": "Accelerating Catalyst Materials Discovery With Large Artificial Intelligence Models",
-      "authors": "Zhang D. et al.",
-      "summary": "东北大学团队阐述AI如何重塑催化剂发现范式,通过通用机器学习原子间势能(MLIPs)和大语言模型(LLMs),实现大规模模拟、高效数据获取和自主研究,加速目标催化剂开发。",
-      "date": "2026-02-17",
-      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202526150",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "science",
-      "venue": "Advanced Energy Materials",
-      "title": "Machine Learning for Accelerating Energy Materials Discovery: Bridging Quantum Accuracy with Computational Efficiency",
-      "authors": "Kim K.S. et al.",
-      "summary": "综述机器学习在能源材料发现中的革命性作用,通过ML势能实现量子级精度原子模拟且速度提升2-4个数量级,应用涵盖电池材料、电催化剂、太阳能电池和储氢系统。",
-      "date": "2026-01-15",
-      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/aenm.202503356",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "science",
-      "venue": "ACS Catalysis",
-      "title": "Thermodynamics-Guided Machine Learning Framework with a Multiobjective Optimizer for Catalyst Discovery",
-      "authors": "Authors et al.",
-      "summary": "从零开始构建具有热力学指导的ML框架用于逆水煤气转化反应多金属催化剂探索,通过归一化方法重新定义元素物化性质,结合遗传算法多目标优化器实现催化剂逆向工程和实验验证。",
-      "date": "2026-01-02",
-      "url": "https://pubs.acs.org/doi/10.1021/acscatal.5c07191",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "science",
-      "venue": "ACS Nano",
-      "title": "Accelerating Multi-Elemental Catalyst Discovery with Interpretable Machine Learning and Automated Experimentation",
-      "authors": "South China University of Technology et al.",
-      "summary": "在全商用机器人自动化平台上实现可迁移、可复现闭环发现工作流,结合遗传算法和多层感知器代理模型,将多元催化剂四环素降解效率从78%提升至93%,展示自动化材料优化策略。",
-      "date": "2026-04-05",
-      "url": "https://pubs.acs.org/doi/10.1021/acsnano.5c20552",
+      "venue_type": "conf",
+      "venue": "NeurIPS 2025",
+      "title": "Mock GNN paper for crystals",
+      "authors": "Kim S. et al.",
+      "summary": "图神经网络预测晶体性质示例。",
+      "date": "2026-04-22",
+      "url": "https://example.com/p3",
       "is_week_pick": false
     }
   ],
   "models": [
     {
-      "name": "DeepSeek V4",
-      "org": "DeepSeek",
-      "org_short": "DS",
-      "release_date": "2026-04-24",
-      "highlight": "开源1.6万亿参数100万上下文",
+      "name": "Claude Sonnet 4",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-04-25",
+      "highlight": "最新旗舰推理模型",
       "tier": "S"
     },
     {
@@ -248,126 +123,80 @@
       "org": "OpenAI",
       "org_short": "OAI",
       "release_date": "2026-04-24",
-      "highlight": "AI超级应用整合界面",
+      "highlight": "统一超级应用",
       "tier": "S"
     },
     {
-      "name": "Claude Mythos 5",
-      "org": "Anthropic",
-      "org_short": "ANT",
-      "release_date": "2026-04-07",
-      "highlight": "10万亿参数受限发布",
-      "tier": "S"
-    },
-    {
-      "name": "Nemotron 3 Nano Omni",
-      "org": "NVIDIA",
-      "org_short": "NVDA",
-      "release_date": "2026-04-28",
-      "highlight": "开源多模态9倍效率提升",
-      "tier": "A"
-    },
-    {
-      "name": "Gemini 3.1 Pro",
-      "org": "Google DeepMind",
-      "org_short": "GOOG",
-      "release_date": "2026-04-01",
-      "highlight": "实时语音图像分析领先",
-      "tier": "S"
-    },
-    {
-      "name": "Gemma 4",
-      "org": "Google",
-      "org_short": "GOOG",
-      "release_date": "2026-04-02",
-      "highlight": "Apache 2.0开源多模态",
+      "name": "DeepSeek V4",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-04-23",
+      "highlight": "开源最强，100K ctx",
       "tier": "A"
     }
   ],
   "benchmarks": [
     {
-      "model": "GPT-5.4",
-      "org": "OpenAI",
-      "mmlu": "92.0",
-      "math": "N/A",
-      "humaneval": "94.5",
-      "notes": "知识工作GDPval达83%超人类专家"
-    },
-    {
-      "model": "Gemini 3.1 Pro",
-      "org": "Google",
-      "mmlu": "90.0",
-      "math": "N/A",
-      "humaneval": "93.0",
-      "notes": "GPQA Diamond 94.3%科学推理领先"
-    },
-    {
-      "model": "Claude Opus 4.6",
+      "model": "Claude Sonnet 4",
       "org": "Anthropic",
-      "mmlu": "91.0",
-      "math": "N/A",
-      "humaneval": "95.2",
-      "notes": "GDPval-AA Elo 1633分领先"
+      "mmlu": "91.5",
+      "math": "87.2",
+      "humaneval": "90.1",
+      "notes": "最新旗舰，强推理"
+    },
+    {
+      "model": "GPT-5.5",
+      "org": "OpenAI",
+      "mmlu": "92.1",
+      "math": "88.3",
+      "humaneval": "91.2",
+      "notes": "统一超级应用"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google",
+      "mmlu": "90.8",
+      "math": "91.0",
+      "humaneval": "88.5",
+      "notes": "数学最强"
     },
     {
       "model": "DeepSeek V4",
       "org": "DeepSeek",
-      "mmlu": "89.0",
-      "math": "N/A",
-      "humaneval": "94.8",
-      "notes": "SWE-bench 81%编码领先开源"
-    },
-    {
-      "model": "Claude Mythos 5",
-      "org": "Anthropic",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "SWE-bench 93.9%受限访问"
-    },
-    {
-      "model": "Grok 4.3",
-      "org": "xAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "四代理并行架构实时X数据"
+      "mmlu": "88.5",
+      "math": "85.1",
+      "humaneval": "87.3",
+      "notes": "开源最强"
     }
   ],
   "conferences": [
     {
-      "name": "ICLR 2026",
-      "event_type": "notification",
-      "deadline": "2026-01-25",
-      "url": "https://iclr.cc/Conferences/2026/Dates",
-      "days_left": -94
-    },
-    {
       "name": "ICML 2026",
-      "event_type": "submission",
-      "deadline": "2026-05-03",
-      "url": "https://icml.cc/Conferences/2026/CallForPapers",
-      "days_left": 4
+      "event_type": "notification",
+      "deadline": "2026-05-15",
+      "url": "https://icml.cc",
+      "days_left": 18
     },
     {
       "name": "NeurIPS 2026",
       "event_type": "submission",
-      "deadline": "2026-05-05",
-      "url": "https://neurips.cc/",
-      "days_left": 6
+      "deadline": "2026-05-30",
+      "url": "https://neurips.cc",
+      "days_left": 33
     },
     {
-      "name": "NeurIPS 2026",
+      "name": "ICLR 2027",
       "event_type": "submission",
-      "deadline": "2026-05-07",
-      "url": "https://neurips.cc/",
-      "days_left": 8
+      "deadline": "2026-09-27",
+      "url": "https://iclr.cc",
+      "days_left": 153
     }
   ],
+  "date": "2026年4月29日",
   "stats": {
-    "news_count": 10,
-    "paper_count": 6,
+    "news_count": 3,
+    "paper_count": 3,
     "leader_count": 3,
-    "science_count": 6
+    "science_count": 2
   }
 }
