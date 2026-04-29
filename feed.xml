@@ -5,34 +5,69 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-04-29T21:41:04Z</updated>
+  <updated>2026-04-29T21:48:07Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年4月29日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html</id>
-    <updated>2026-04-29T21:41:04Z</updated>
+    <updated>2026-04-29T21:48:07Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>示例 A：占位新闻。…</title>
-    <link href="https://example.com/a"/>
-    <id>https://example.com/a</id>
-    <updated>2026-04-29T21:41:04Z</updated>
-    <summary>示例 A：占位新闻。</summary>
-  </entry>
-  <entry>
-    <title>示例 B：占位新闻。…</title>
+    <title>Anthropic年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:41:04Z</updated>
-    <summary>示例 B：占位新闻。</summary>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>Anthropic年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。</summary>
   </entry>
   <entry>
-    <title>示例 C：占位新闻。…</title>
-    <link href="https://example.com/c"/>
-    <id>https://example.com/c</id>
-    <updated>2026-04-29T21:41:04Z</updated>
-    <summary>示例 C：占位新闻。</summary>
+    <title>OpenAI与微软解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>OpenAI与微软解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。</summary>
+  </entry>
+  <entry>
+    <title>Google员工联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>Google员工联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。</summary>
+  </entry>
+  <entry>
+    <title>DeepMind David Silver以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>DeepMind David Silver以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。</summary>
+  </entry>
+  <entry>
+    <title>中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。</summary>
+  </entry>
+  <entry>
+    <title>ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。</summary>
+  </entry>
+  <entry>
+    <title>英伟达发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。…</title>
+    <link href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/"/>
+    <id>https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>英伟达发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。</summary>
+  </entry>
+  <entry>
+    <title>马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-04-29T21:48:07Z</updated>
+    <summary>马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。</summary>
   </entry>
 </feed>

@@ -1451,12 +1451,12 @@ body::before {
   <!-- STATS:START -->
   <div class="stats-row">
     <div class="stat-block">
-      <span class="stat-num mono" data-target="3">3</span>
+      <span class="stat-num mono" data-target="8">8</span>
       <span class="stat-label">条资讯</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="3">3</span>
+      <span class="stat-num mono" data-target="4">4</span>
       <span class="stat-label">篇论文</span>
     </div>
     <div class="stat-divider"></div>
@@ -1466,7 +1466,7 @@ body::before {
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="2">2</span>
+      <span class="stat-num mono" data-target="5">5</span>
       <span class="stat-label">项进展</span>
     </div>
     <div class="stat-divider"></div>
@@ -1524,35 +1524,35 @@ body::before {
     <div class="top3-card reveal" data-tags="#材料,#AI4Science">
       <div class="top3-rank">01</div>
       <span class="src-badge src-paper">Paper</span>
-      <span class="paper-venue">Nature Materials</span>
-      <h3 class="top3-title">Mock paper for dry-run rendering</h3>
-      <p class="top3-summary">Mock 验证论文卡片渲染。</p>
-      <div class="top3-why"><strong>为何重要</strong>　发表于 Nature Materials，是本期 AI4Materials 精选论文</div>
+      <span class="paper-venue">Nature Machine Intelligence</span>
+      <h3 class="top3-title">Predicting new research directions in materials science using large language models and concept graphs</h3>
+      <p class="top3-summary">使用大语言模型从材料科学摘要构建语义概念图,训练机器学习模型预测新兴主题组合,可提前2-3年识别研究趋势,为材料发现提供数据驱动指导。</p>
+      <div class="top3-why"><strong>为何重要</strong>　发表于 Nature Machine Intelligence，是本期 AI4Materials 精选论文</div>
       <div class="top3-footer">
-        <a class="card-source-link" href="https://example.com/p1" target="_blank" rel="noopener">阅读 ↗</a>
+        <a class="card-source-link" href="https://doi.org/10.1038/s42256-026-01206-y" target="_blank" rel="noopener">阅读 ↗</a>
         <div class="card-tags"><span class="card-tag">#AI4Science</span><span class="card-tag">#材料</span></div>
       </div>
     </div>
     <div class="top3-card reveal" data-tags="#LLM">
       <div class="top3-rank">02</div>
       <span class="src-badge src-unknown">Unknown</span>
-      <h3 class="top3-title">示例 A：占位新闻。</h3>
-      <p class="top3-summary"><strong>示例 A</strong>：占位新闻。</p>
+      <h3 class="top3-title">DeepMind David Silver以51亿美元估值为Ineffable…</h3>
+      <p class="top3-summary"><strong>DeepMind David Silver</strong>以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。</p>
       <div class="top3-why"><strong>为何重要</strong>　今日头条——突破性进展，値得第一时间关注</div>
       <div class="top3-footer">
-        <a class="card-source-link" href="https://example.com/a" target="_blank" rel="noopener">原文 ↗</a>
+        
         <div class="card-tags"><span class="card-tag">#LLM</span></div>
       </div>
     </div>
-    <div class="top3-card reveal" data-tags="#Agent,#开源">
+    <div class="top3-card reveal" data-tags="#LLM,#政策">
       <div class="top3-rank">03</div>
       <span class="src-badge src-unknown">Unknown</span>
-      <h3 class="top3-title">示例 B：占位新闻。</h3>
-      <p class="top3-summary"><strong>示例 B</strong>：占位新闻。</p>
+      <h3 class="top3-title">Anthropic年化收入冲至300亿美元,成为美国历史上增长最快的公司,Cla…</h3>
+      <p class="top3-summary"><strong>Anthropic</strong>年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。</p>
       <div class="top3-why"><strong>为何重要</strong>　重磅消息——对 AI 格局有显著影响</div>
       <div class="top3-footer">
         
-        <div class="card-tags"><span class="card-tag">#Agent</span><span class="card-tag">#开源</span></div>
+        <div class="card-tags"><span class="card-tag">#LLM</span><span class="card-tag">#政策</span></div>
       </div>
     </div>
       <!-- TOP3:END -->
@@ -1579,37 +1579,82 @@ body::before {
     </div>
     <div class="news-grid">
       <!-- NEWS:START -->
+      <div class="news-card reveal" data-tags="#LLM,#政策">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">Anthropic年化收入冲至300亿美元,成为美国历史上增…</h3>
+        <p class="card-summary"><strong>Anthropic</strong>年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。</p>
+        <div class="card-footer">
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#LLM,#开源">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">OpenAI与微软解除独立性协议,AWS随后在Bedrock…</h3>
+        <p class="card-summary"><strong>OpenAI与微软</strong>解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。</p>
+        <div class="card-footer">
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#政策,#安全">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">Google员工联名致信CEO拒绝AI用于机密军事用途,超2…</h3>
+        <p class="card-summary"><strong>Google员工</strong>联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。</p>
+        <div class="card-footer">
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
+        </div>
+      </div>
       <div class="news-card-headline reveal" data-tags="#LLM">
         <div class="card-image">
-          <img src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="示例 A：占位新闻。" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
+          <img src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="DeepMind David Silver以51亿美元估值为…" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
         </div>
         <div class="card-body">
           <span class="card-badge breaking">BREAKING</span>
-          <h3 class="card-title">示例 A：占位新闻。</h3>
-          <p class="card-summary"><strong>示例 A</strong>：占位新闻。</p>
+          <h3 class="card-title">DeepMind David Silver以51亿美元估值为…</h3>
+          <p class="card-summary"><strong>DeepMind David Silver</strong>以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。</p>
           <div class="card-footer">
-            <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://example.com/a" target="_blank" rel="noopener">原文 ↗</a>
+            <span class="src-badge src-unknown">Unknown</span>
             <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
           </div>
         </div>
       </div>
-      <div class="news-card medium reveal" data-tags="#Agent,#开源">
-        <img class="card-img-top" src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="示例 B：占位新闻。" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
+      <div class="news-card medium reveal" data-tags="#政策">
+        <img class="card-img-top" src="https://source.unsplash.com/800x450/?Meta%20artificial%20intelligence" alt="中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初…" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?Meta%20artificial%20intelligence'">
         <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">示例 B：占位新闻。</h3>
-        <p class="card-summary"><strong>示例 B</strong>：占位新闻。</p>
+        <h3 class="card-title">中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初…</h3>
+        <p class="card-summary"><strong>中国监管部门</strong>以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#芯片">
+      <div class="news-card reveal" data-tags="#Agent,#安全">
         <span class="card-badge update">UPDATE</span>
-        <h3 class="card-title">示例 C：占位新闻。</h3>
-        <p class="card-summary"><strong>示例 C</strong>：占位新闻。</p>
+        <h3 class="card-title">ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步…</h3>
+        <p class="card-summary"><strong>ICLR 2026</strong>论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。</p>
         <div class="card-footer">
-          <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://example.com/c" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span></div>
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#多模态,#开源">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">英伟达发布Nemotron 3 Nano Omni多模态模型…</h3>
+        <p class="card-summary"><strong>英伟达</strong>发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。</p>
+        <div class="card-footer">
+          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+        </div>
+      </div>
+      <div class="news-card reveal" data-tags="#政策">
+        <span class="card-badge update">UPDATE</span>
+        <h3 class="card-title">马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从…</h3>
+        <p class="card-summary"><strong>马斯克诉OpenAI</strong>案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。</p>
+        <div class="card-footer">
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
         </div>
       </div>
       <!-- NEWS:END -->
@@ -1629,15 +1674,36 @@ body::before {
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
         </div>
-        <h4>示例进展 alpha</h4>
-        <p>AI 在某科学问题上突破（占位）。</p>
+        <h4>AI预测材料趋势</h4>
+        <p>卡尔斯鲁厄理工学院团队在Nature Machine Intelligence发表论文,使用大语言模型构建材料科学概念图,可提前2-3年预测研究趋势。</p>
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
         </div>
-        <h4>示例进展 beta</h4>
-        <p>AI 在另一问题上突破（占位）。</p>
+        <h4>多模态材料LLM</h4>
+        <p>MatterChat框架整合材料结构数据与大语言模型,实现高精度性质预测并提供可解释推理,加速材料发现。</p>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h4>AI驱动催化剂发现</h4>
+        <p>东北大学研究团队在Angewandte Chemie发表综述,介绍通用机器学习势能和大语言模型如何重新定义催化剂发现流程。</p>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
+        </div>
+        <h4>固态电池AI设计</h4>
+        <p>Science Advances发表综述,系统总结AI在固态电池电解质设计和界面工程中的应用,从稳定性到离子传输机制全面优化。</p>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h4>自主材料实验室</h4>
+        <p>DeepMind的A-Lab和伯克利实验室展示自主固态合成系统,实现氧化物和磷酸盐等电池材料的自主发现与合成。</p>
       </article>
       <!-- SCIENCE:END -->
     </div>
@@ -1654,40 +1720,52 @@ body::before {
       <!-- MATERIAL:START -->
       <article class="paper-card nature paper-card-pick reveal">
         <div class="pick-banner">🔬 Yang's Pick</div>
-        <span class="paper-venue">Nature Materials</span>
-        <h4 class="paper-title">Mock paper for dry-run rendering</h4>
-        <p class="paper-authors">Doe J. et al.</p>
-        <p class="paper-summary">Mock 验证论文卡片渲染。</p>
+        <span class="paper-venue">Nature Machine Intelligence</span>
+        <h4 class="paper-title">Predicting new research directions in materials science using large language models and concept graphs</h4>
+        <p class="paper-authors">Marwitz T. et al.</p>
+        <p class="paper-summary">使用大语言模型从材料科学摘要构建语义概念图,训练机器学习模型预测新兴主题组合,可提前2-3年识别研究趋势,为材料发现提供数据驱动指导。</p>
         <div class="yangs-pick-why">
           <span class="yangs-pick-label">🔬 Yang's Pick</span>精选理由：该论文对 AI 驱动材料发现具有重要方法论意义，值得优先阅读。
         </div>
         <div class="paper-meta">
-          <span class="paper-date">2026-04-25</span>
-          <a class="paper-link" href="https://example.com/p1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-04-01</span>
+          <a class="paper-link" href="https://doi.org/10.1038/s42256-026-01206-y" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card nature reveal">
+        
+        <span class="paper-venue">Nature Machine Intelligence</span>
+        <h4 class="paper-title">A multimodal large language model for materials science</h4>
+        <p class="paper-authors">Tang Y. et al.</p>
+        <p class="paper-summary">MatterChat框架将材料结构数据与大语言模型有效整合,实现高精度材料性质预测和可解释推理,为自动化材料发现提供新路径。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-04-24</span>
+          <a class="paper-link" href="https://doi.org/10.1038/s42256-026-01214-y" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card nature reveal">
+        
+        <span class="paper-venue">Communications Materials</span>
+        <h4 class="paper-title">AI-powered open-source infrastructure for accelerating materials discovery and advanced manufacturing</h4>
+        <p class="paper-authors">Salas M. et al.</p>
+        <p class="paper-summary">提出透明、可扩展的AI驱动材料发现基础设施框架,强调开源工具统一数据获取、建模、模拟和部署,促进协作并提升可重复性。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-02-17</span>
+          <a class="paper-link" href="https://doi.org/10.1038/s43246-026-01105-0" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <article class="paper-card science reveal">
         
-        <span class="paper-venue">Science</span>
-        <h4 class="paper-title">Mock paper on AI-driven catalysis</h4>
-        <p class="paper-authors">Roe A. et al.</p>
-        <p class="paper-summary">AI 引导的催化剂设计示例。</p>
+        <span class="paper-venue">Science Advances</span>
+        <h4 class="paper-title">Toward AI ecosystems for electrolyte and interface engineering in solid-state batteries</h4>
+        <p class="paper-authors">Multiple authors</p>
+        <p class="paper-summary">全面综述AI在固态电池电解质和界面工程中的应用,涵盖稳定性、电导率、机械性能和界面电阻,提出多尺度建模和多模态物理约束模型路线图。</p>
 
         <div class="paper-meta">
-          <span class="paper-date">2026-04-23</span>
-          <a class="paper-link" href="https://example.com/p2" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">NeurIPS 2025</span>
-        <h4 class="paper-title">Mock GNN paper for crystals</h4>
-        <p class="paper-authors">Kim S. et al.</p>
-        <p class="paper-summary">图神经网络预测晶体性质示例。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-04-22</span>
-          <a class="paper-link" href="https://example.com/p3" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+          <span class="paper-date">2026-01-15</span>
+          <a class="paper-link" href="https://doi.org/10.1126/sciadv.aea0638" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
         </div>
       </article>
       <!-- MATERIAL:END -->
@@ -1706,17 +1784,22 @@ body::before {
         <!-- MODELS:START -->
       <div class="model-chip tier-S">
         <span class="model-org">ANT</span>
-        <span class="model-name">Claude Sonnet 4</span>
+        <span class="model-name">Claude Opus 4.7</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-S">
-        <span class="model-org">OAI</span>
-        <span class="model-name">GPT-5.5</span>
+        <span class="model-org">GOOG</span>
+        <span class="model-name">Gemini 3.1 Pro</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-A">
-        <span class="model-org">DS</span>
-        <span class="model-name">DeepSeek V4</span>
+        <span class="model-org">NVDA</span>
+        <span class="model-name">Nemotron 3 Nano Omni</span>
+        <span class="model-tier">A</span>
+      </div>
+      <div class="model-chip tier-A">
+        <span class="model-org">GOOG</span>
+        <span class="model-name">Gemma 4</span>
         <span class="model-tier">A</span>
       </div>
       <!-- MODELS:END -->
@@ -1747,36 +1830,44 @@ body::before {
         <tbody>
         <!-- BENCHMARKS:START -->
         <tr>
-          <td class="model-cell">Claude Sonnet 4</td>
-          <td class="org-cell">Anthropic</td>
-          <td class="score" style="color:#00ff88">91.5</td>
-          <td class="score" style="color:#00e5ff">87.2</td>
-          <td class="score" style="color:#00ff88">90.1</td>
-          <td class="note">最新旗舰，强推理</td>
-        </tr>
-        <tr>
-          <td class="model-cell">GPT-5.5</td>
-          <td class="org-cell">OpenAI</td>
-          <td class="score" style="color:#00ff88">92.1</td>
-          <td class="score" style="color:#00e5ff">88.3</td>
-          <td class="score" style="color:#00ff88">91.2</td>
-          <td class="note">统一超级应用</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Gemini 2.5 Pro</td>
+          <td class="model-cell">Gemini 3.1 Pro</td>
           <td class="org-cell">Google</td>
-          <td class="score" style="color:#00ff88">90.8</td>
-          <td class="score" style="color:#00ff88">91.0</td>
-          <td class="score" style="color:#00e5ff">88.5</td>
-          <td class="note">数学最强</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="note">据报道在16项主要基准中领先13项,GPQA Diamond达94.3%</td>
         </tr>
         <tr>
-          <td class="model-cell">DeepSeek V4</td>
+          <td class="model-cell">Claude Opus 4.6</td>
+          <td class="org-cell">Anthropic</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="note">GDPval-AA Elo基准领先,GPQA Diamond达91.3%</td>
+        </tr>
+        <tr>
+          <td class="model-cell">GPT-5.4</td>
+          <td class="org-cell">OpenAI</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="note">105万token上下文窗口,事实准确性提升33%</td>
+        </tr>
+        <tr>
+          <td class="model-cell">Kimi K2.5</td>
+          <td class="org-cell">Moonshot AI</td>
+          <td class="score" style="color:#00ff88">92.0</td>
+          <td class="score" style="color:#00ff88">98.0</td>
+          <td class="score" style="color:#00ff88">99.0</td>
+          <td class="note">HumanEval接近满分,开源模型顶级性能</td>
+        </tr>
+        <tr>
+          <td class="model-cell">DeepSeek-R1</td>
           <td class="org-cell">DeepSeek</td>
-          <td class="score" style="color:#00e5ff">88.5</td>
-          <td class="score" style="color:#00e5ff">85.1</td>
-          <td class="score" style="color:#00e5ff">87.3</td>
-          <td class="note">开源最强</td>
+          <td class="score" style="color:#00ff88">90.8</td>
+          <td class="score" style="color:#00ff88">97.3</td>
+          <td class="score" style="color:#00ff88">90.2</td>
+          <td class="note">强数学推理,成本效率极高</td>
         </tr>
       <!-- BENCHMARKS:END -->
         </tbody>
@@ -1792,20 +1883,30 @@ body::before {
     </div>
     <div class="conf-grid">
     <!-- CONFERENCES:START -->
-      <a class="conf-card reveal" href="https://icml.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
-        <div class="conf-name">ICML 2026</div>
-        <div class="conf-deadline">录取通知 · 2026-05-15</div>
-        <div class="conf-days soon">还有 18 天</div>
-      </a>
-      <a class="conf-card reveal" href="https://neurips.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+      <a class="conf-card reveal" href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">NeurIPS 2026</div>
-        <div class="conf-deadline">投稿截止 · 2026-05-30</div>
-        <div class="conf-days normal">还有 33 天</div>
+        <div class="conf-deadline">投稿截止 · 2026-05-07</div>
+        <div class="conf-days urgent">还有 8 天</div>
+      </a>
+      <a class="conf-card reveal" href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">ICML 2026</div>
+        <div class="conf-deadline">投稿截止 · 2026-01-24</div>
+        <div class="conf-days past">已结束</div>
       </a>
       <a class="conf-card reveal" href="https://iclr.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
-        <div class="conf-name">ICLR 2027</div>
-        <div class="conf-deadline">投稿截止 · 2026-09-27</div>
-        <div class="conf-days normal">还有 153 天</div>
+        <div class="conf-name">ICLR 2026</div>
+        <div class="conf-deadline">终稿截止 · 2026-04-24</div>
+        <div class="conf-days past">已结束</div>
+      </a>
+      <a class="conf-card reveal" href="https://kdd2026.kdd.org" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">KDD 2026</div>
+        <div class="conf-deadline">投稿截止 · 2026-02-06</div>
+        <div class="conf-days past">已结束</div>
+      </a>
+      <a class="conf-card reveal" href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">AAAI 2026</div>
+        <div class="conf-deadline">录取通知 · 2025-12-09</div>
+        <div class="conf-days past">已结束</div>
       </a>
       <!-- CONFERENCES:END -->
     </div>
@@ -1822,39 +1923,39 @@ body::before {
       <!-- LEADERS:START -->
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar em" aria-hidden="true">S1</div>
+          <div class="avatar em" aria-hidden="true">JH</div>
           <div>
-            <div class="leader-name">示例·一号 (Sample One)</div>
-            <div class="leader-role">示例公司 CEO</div>
+            <div class="leader-name">黄仁勋 (Jensen Huang)</div>
+            <div class="leader-role">英伟达CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"AI 将重塑下一个十年。"</blockquote>
-        <p class="leader-body">占位（dry-run）。</p>
-        <div class="leader-meta"><span class="tag">2026-04</span><span class="tag tag-date">4月27日</span></div>
+        <blockquote class="leader-quote">"AI变革正加速各行业创新"</blockquote>
+        <p class="leader-body">英伟达在2026年持续推动AI芯片与计算平台发展，最新发布的Nemotron 3系列模型超过5000万次下载。</p>
+        <div class="leader-meta"><span class="tag">AI芯片</span><span class="tag">计算平台</span><span class="tag tag-date">4月下旬</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar sa" aria-hidden="true">S2</div>
+          <div class="avatar sa" aria-hidden="true">DA</div>
           <div>
-            <div class="leader-name">示例·二号 (Sample Two)</div>
-            <div class="leader-role">Anthropic 研究员</div>
+            <div class="leader-name">达里奥·阿莫代 (Dario Amodei)</div>
+            <div class="leader-role">Anthropic CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"可解释性是 AGI 安全的关键。"</blockquote>
-        <p class="leader-body">占位（dry-run）。</p>
-        <div class="leader-meta"><span class="tag">Anthropic</span><span class="tag tag-date">近期</span></div>
+        <blockquote class="leader-quote">"安全第一是我们的核心原则"</blockquote>
+        <p class="leader-body">Anthropic在4月确认Claude Mythos模型因安全考虑不会公开发布,仅向约50家机构提供受限访问。</p>
+        <div class="leader-meta"><span class="tag">AI安全</span><span class="tag">模型发布</span><span class="tag tag-date">4月初</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar aj" aria-hidden="true">S3</div>
+          <div class="avatar aj" aria-hidden="true">SA</div>
           <div>
-            <div class="leader-name">示例·三号 (Sample Three)</div>
-            <div class="leader-role">DeepMind VP</div>
+            <div class="leader-name">萨姆·奥特曼 (Sam Altman)</div>
+            <div class="leader-role">OpenAI CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"AI4Science 进入加速期。"</blockquote>
-        <p class="leader-body">占位（dry-run）。</p>
-        <div class="leader-meta"><span class="tag">DeepMind</span><span class="tag tag-date">4月25日</span></div>
+        <blockquote class="leader-quote">"对AI的恐惧和焦虑是合理的"</blockquote>
+        <p class="leader-body">4月初奥特曼家中遭遇袭击后发表声明,强调权力不能过度集中,反映出AI发展带来的社会紧张。</p>
+        <div class="leader-meta"><span class="tag">AI治理</span><span class="tag">安全</span><span class="tag tag-date">4月初</span></div>
       </article>
       <!-- LEADERS:END -->
     </div>
