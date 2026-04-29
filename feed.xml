@@ -5,69 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-04-28T21:48:20Z</updated>
+  <updated>2026-04-29T13:49:30Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年4月28日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-28.html</id>
-    <updated>2026-04-28T21:48:20Z</updated>
+    <title>每日汇总 2026年4月29日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html</id>
+    <updated>2026-04-29T13:49:30Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构」，寻求剥夺其董事职位并索赔 1500 亿美元，OpenAI 辩称马斯克因嫉妒提告。…</title>
-    <link href="https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements"/>
-    <id>https://www.npr.org/2026/04/28/nx-s1-5801438/musk-altman-openai-trial-opening-statements</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>马斯克诉 OpenAI 案今日开庭：指控奥特曼「窃取慈善机构」，寻求剥夺其董事职位并索赔 1500 亿美元，OpenAI 辩称马斯克因嫉妒提告。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI CFO 与奥特曼就支出产生分歧：CFO Sarah Friar 担心数据中心支出过高，收入增长不足以支撑合同，双方称报道「荒谬」，但对即将 IPO…</title>
-    <link href="https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/"/>
-    <id>https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>OpenAI CFO 与奥特曼就支出产生分歧：CFO Sarah Friar 担心数据中心支出过高，收入增长不足以支撑合同，双方称报道「荒谬」，但对即将 IPO 构成压力。</summary>
-  </entry>
-  <entry>
-    <title>中国封杀 Meta 20 亿美元收购 AI 初创 Manus：北京要求撤回交易，新加坡「洗白」策略彻底失效，凸显中美科技脱钩加剧。…</title>
-    <link href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html"/>
-    <id>https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>中国封杀 Meta 20 亿美元收购 AI 初创 Manus：北京要求撤回交易，新加坡「洗白」策略彻底失效，凸显中美科技脱钩加剧。</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek V4 发布：中国深度求索推出 V4 Flash 与 Pro 系列，强化推理与 Agent 能力，采用混合注意力架构支持 100 万 token…</title>
+    <title>DeepSeek V4发布,采用1.6万亿参数MoE架构,上下文窗口100万token,在编码基准测试中领先,并完成华为昇腾全栈适配…</title>
     <link href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"/>
     <id>https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>DeepSeek V4 发布：中国深度求索推出 V4 Flash 与 Pro 系列，强化推理与 Agent 能力，采用混合注意力架构支持 100 万 token 上下文窗口。</summary>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>DeepSeek V4发布,采用1.6万亿参数MoE架构,上下文窗口100万token,在编码基准测试中领先,并完成华为昇腾全栈适配</summary>
   </entry>
   <entry>
-    <title>OpenAI 软件高管跳槽潮：Salesforce、Snowflake、Palantir 多名高管近期加入 OpenAI，企业软件行业面临 AI 颠覆与人才流失…</title>
-    <link href="https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html"/>
-    <id>https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>OpenAI 软件高管跳槽潮：Salesforce、Snowflake、Palantir 多名高管近期加入 OpenAI，企业软件行业面临 AI 颠覆与人才流失双重压力。</summary>
+    <title>Google向美国国防部提供Gemini用于机密环境,引发内部员工公开反对,超20名高管签署抗议信…</title>
+    <link href="https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use"/>
+    <id>https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>Google向美国国防部提供Gemini用于机密环境,引发内部员工公开反对,超20名高管签署抗议信</summary>
   </entry>
   <entry>
-    <title>DeepMind 前研究员 David Silver 创立 Ineffable Intelligence，融资 11 亿美元估值 51 亿，致力于无需人类数据的…</title>
-    <link href="https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/"/>
-    <id>https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>DeepMind 前研究员 David Silver 创立 Ineffable Intelligence，融资 11 亿美元估值 51 亿，致力于无需人类数据的强化学习「超级学习者」。</summary>
-  </entry>
-  <entry>
-    <title>AI 数据中心电力短缺加剧：美国 2027 年将面临 9-18 GW 电力缺口，微软重启三哩岛核电站，科技巨头转向离网核能与天然气。…</title>
+    <title>Anthropic确认Claude Mythos 5存在,参数达10万亿,但因触发ASL-4安全协议不对外发布,仅50家机构通过Project Glasswin…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>AI 数据中心电力短缺加剧：美国 2027 年将面临 9-18 GW 电力缺口，微软重启三哩岛核电站，科技巨头转向离网核能与天然气。</summary>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>Anthropic确认Claude Mythos 5存在,参数达10万亿,但因触发ASL-4安全协议不对外发布,仅50家机构通过Project Glasswing获得受限访问</summary>
   </entry>
   <entry>
-    <title>Google 与国防部签署新合约：继 Anthropic 拒绝后，Google 同意为国防部提供 AI 服务，引发内部 600 余员工联名抗议。…</title>
+    <title>OpenAI发布GPT-5.5,定位为AI超级应用的重要一步,整合ChatGPT、编码工具和浏览器功能于单一界面,持续快速发布周期…</title>
+    <link href="https://www.marketingprofs.com/opinions/2026/54587/ai-update-april-24-2026-ai-news-and-views-from-the-past-week"/>
+    <id>https://www.marketingprofs.com/opinions/2026/54587/ai-update-april-24-2026-ai-news-and-views-from-the-past-week</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>OpenAI发布GPT-5.5,定位为AI超级应用的重要一步,整合ChatGPT、编码工具和浏览器功能于单一界面,持续快速发布周期</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA发布Nemotron 3 Nano Omni多模态开源模型,统一视觉、音频和语言,在6个排行榜上领先,效率提升最高达9倍…</title>
+    <link href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/"/>
+    <id>https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>NVIDIA发布Nemotron 3 Nano Omni多模态开源模型,统一视觉、音频和语言,在6个排行榜上领先,效率提升最高达9倍</summary>
+  </entry>
+  <entry>
+    <title>Google在ICLR 2026发布TurboQuant算法,将KV缓存内存开销降低6倍,零精度损失,大幅提升推理效率…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-28T21:48:20Z</updated>
-    <summary>Google 与国防部签署新合约：继 Anthropic 拒绝后，Google 同意为国防部提供 AI 服务，引发内部 600 余员工联名抗议。</summary>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>Google在ICLR 2026发布TurboQuant算法,将KV缓存内存开销降低6倍,零精度损失,大幅提升推理效率</summary>
+  </entry>
+  <entry>
+    <title>马斯克诉OpenAI案开庭,要求130亿美元赔偿并恢复非营利结构,称AI可能&quot;杀死所有人&quot;,法官警告双方限制社交媒体言论…</title>
+    <link href="https://www.cnn.com/2026/04/28/tech/elon-musk-sam-altman-openai"/>
+    <id>https://www.cnn.com/2026/04/28/tech/elon-musk-sam-altman-openai</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>马斯克诉OpenAI案开庭,要求130亿美元赔偿并恢复非营利结构,称AI可能&quot;杀死所有人&quot;,法官警告双方限制社交媒体言论</summary>
+  </entry>
+  <entry>
+    <title>Sony AI在Nature发表突破性研究,机器人Ace首次在乒乓球竞技中达到职业水平,战胜多名精英和职业选手…</title>
+    <link href="https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics"/>
+    <id>https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>Sony AI在Nature发表突破性研究,机器人Ace首次在乒乓球竞技中达到职业水平,战胜多名精英和职业选手</summary>
+  </entry>
+  <entry>
+    <title>剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式,AI能耗可降低最高70%…</title>
+    <link href="https://www.sciencedaily.com/releases/2026/04/260422044633.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/04/260422044633.htm</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>剑桥大学开发基于氧化铪的神经拟态芯片,模仿大脑处理信息方式,AI能耗可降低最高70%</summary>
+  </entry>
+  <entry>
+    <title>Tufts大学研究团队结合神经网络与符号推理,AI能耗降低100倍同时提升准确性,机器人推理效率大幅提升…</title>
+    <link href="https://www.sciencedaily.com/releases/2026/04/260405003952.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/04/260405003952.htm</id>
+    <updated>2026-04-29T13:49:30Z</updated>
+    <summary>Tufts大学研究团队结合神经网络与符号推理,AI能耗降低100倍同时提升准确性,机器人推理效率大幅提升</summary>
   </entry>
 </feed>
