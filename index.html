@@ -3,8 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 进展汇总 · AI Progress Hub</title>
-<meta name="description" content="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完。领袖观点、今日大事、AI4Science 进展与材料科学论文。">
+<title>AI Progress Hub — Daily Radar for AI, AI4Science &amp; Materials Discovery</title>
+<meta name="description" content="A daily radar for frontier AI, AI4Science breakthroughs, and materials discovery. Model releases, benchmarks, conference deadlines — curated for researchers. 专为研究者构建的 AI 进展每日雷达。">
+<!-- Open Graph -->
+<meta property="og:title" content="AI Progress Hub — Daily AI Research Radar">
+<meta property="og:description" content="Track frontier AI, AI4Science breakthroughs, materials discovery, model releases and benchmarks. Curated daily for researchers. 专为研究者构建。">
+<meta property="og:image" content="https://yang1bai.github.io/ai-progress-site/ai_news1.png">
+<meta property="og:url" content="https://yang1bai.github.io/ai-progress-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Progress Hub">
+<!-- Twitter / X Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Progress Hub — Daily AI Research Radar">
+<meta name="twitter:description" content="Daily radar for AI, AI4Science &amp; Materials Discovery. Curated for researchers.">
+<meta name="twitter:image" content="https://yang1bai.github.io/ai-progress-site/ai_news1.png">
+<!-- Canonical -->
+<link rel="canonical" href="https://yang1bai.github.io/ai-progress-site/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -1443,6 +1457,137 @@ body::before {
   font-size: .8rem; color: var(--brand); line-height: 1.2;
 }
 .hsc-sub { font-size: .67rem; color: var(--text-muted); line-height: 1.3; }
+
+/* ===== Compact List Mode ===== */
+.news-grid.compact-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+}
+.news-grid.compact-mode .news-card,
+.news-grid.compact-mode .news-card.medium {
+  grid-column: unset !important;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+  padding: 12px 18px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--white);
+  transform: none !important;
+}
+.news-grid.compact-mode .news-card:last-child { border-bottom: none; }
+.news-grid.compact-mode .news-card:hover { background: var(--accent-light); }
+.news-grid.compact-mode .news-card .card-badge { flex-shrink: 0; align-self: flex-start; margin-top: 2px; }
+.news-grid.compact-mode .news-card .card-title { font-size: .88rem; margin: 0; }
+.news-grid.compact-mode .news-card .card-summary { display: none; }
+.news-grid.compact-mode .news-card .card-footer { padding-top: 4px; border: none; margin-top: 0; }
+.news-grid.compact-mode .news-card .card-img-top { display: none; }
+/* Headline card in compact mode */
+.news-grid.compact-mode .news-card-headline {
+  display: flex; flex-direction: row; align-items: flex-start;
+  gap: 12px; border-radius: 0; border: none;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none; padding: 12px 18px; grid-column: unset !important;
+  background: var(--white);
+  transform: none !important;
+}
+.news-grid.compact-mode .news-card-headline:hover { background: var(--accent-light); }
+.news-grid.compact-mode .news-card-headline .card-image { display: none; }
+.news-grid.compact-mode .news-card-headline .card-body {
+  padding: 0; display: flex; flex-direction: row; align-items: flex-start; gap: 12px; flex: 1;
+}
+.news-grid.compact-mode .news-card-headline .card-body .card-summary { display: none; }
+.news-grid.compact-mode .news-card-headline .card-body .card-title { font-size: .88rem; }
+
+/* View toggle button */
+.view-toggle-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 5px 11px; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--white);
+  color: var(--text-muted); font-size: .75rem; font-weight: 600;
+  cursor: pointer; transition: all .15s; white-space: nowrap;
+  font-family: inherit;
+}
+.view-toggle-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+.view-toggle-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.view-toggle-btn svg { width: 13px; height: 13px; }
+
+/* ===== Bookmark System ===== */
+.bookmark-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; border-radius: 6px; border: 1px solid var(--border);
+  background: transparent; cursor: pointer; color: var(--text-faint);
+  transition: all .15s; flex-shrink: 0; padding: 0;
+  font-size: .9rem; line-height: 1;
+}
+.bookmark-btn:hover { border-color: var(--amber); color: var(--amber); background: var(--amber-bg); }
+.bookmark-btn.bookmarked { border-color: var(--amber); color: var(--amber); background: var(--amber-bg); }
+
+/* Bookmark count badge in nav */
+.nav-bookmark-count {
+  display: none;
+  background: var(--amber); color: #fff;
+  font-size: .62rem; font-weight: 800;
+  min-width: 16px; height: 16px; border-radius: 8px;
+  padding: 0 4px; line-height: 16px; text-align: center;
+  margin-left: 4px;
+}
+.nav-bookmark-count.has-items { display: inline-block; }
+
+/* Saved panel (toast) */
+.saved-toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(12px);
+  background: var(--brand); color: #fff;
+  padding: 10px 20px; border-radius: 10px;
+  font-size: .85rem; font-weight: 600;
+  opacity: 0; pointer-events: none;
+  transition: opacity .25s, transform .25s;
+  z-index: 9999; white-space: nowrap;
+  box-shadow: 0 4px 16px rgba(0,0,0,.18);
+}
+.saved-toast.show {
+  opacity: 1; transform: translateX(-50%) translateY(0);
+}
+
+/* ===== Subscribe / Growth CTA ===== */
+.subscribe-strip {
+  margin: 0 0 8px;
+  padding: 18px 24px;
+  background: linear-gradient(135deg, #f0f7ff 0%, #f5f3ff 100%);
+  border: 1px solid var(--accent-mid);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.subscribe-strip-icon { font-size: 1.6rem; flex-shrink: 0; }
+.subscribe-strip-body { flex: 1; min-width: 200px; }
+.subscribe-strip-body strong { display: block; font-family: "Space Grotesk", sans-serif; font-weight: 700; color: var(--brand); font-size: .95rem; margin-bottom: 2px; }
+.subscribe-strip-body span { font-size: .82rem; color: var(--text-muted); }
+.subscribe-strip-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; flex-wrap: wrap; }
+.btn-subscribe {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 18px; border-radius: 8px;
+  background: var(--accent); color: #fff;
+  font-size: .82rem; font-weight: 700;
+  text-decoration: none; transition: opacity .15s; white-space: nowrap;
+  font-family: inherit;
+}
+.btn-subscribe:hover { opacity: .85; }
+.btn-subscribe.secondary {
+  background: transparent; color: var(--accent);
+  border: 1px solid var(--accent-mid);
+}
+.btn-subscribe.secondary:hover { background: var(--accent-light); opacity: 1; }
 </style>
 
 <!-- ═══════════════════════════════════════════════
@@ -1535,6 +1680,9 @@ body::before {
 </style>
 </head>
 <body>
+
+<!-- Toast notification -->
+<div class="saved-toast" id="saved-toast"></div>
 
 <!-- Status bar -->
 <div class="status-bar">
@@ -1772,6 +1920,22 @@ body::before {
 
 <main>
 
+  <!-- ===== Subscribe Strip ===== -->
+  <div class="subscribe-strip">
+    <span class="subscribe-strip-icon">📡</span>
+    <div class="subscribe-strip-body">
+      <strong data-cn="订阅每日摘要" data-en="Get the daily digest">订阅每日摘要</strong>
+      <span data-cn="将 AI 全郁就来突破、材料发现论文、模型动态直接发到邮笱——每日一封" data-en="AI breakthroughs, materials papers, and model updates — straight to your inbox, once a day">将 AI 全郁就来突破、材料发现论文、模型动态直接发到邮笱——每日一封</span>
+    </div>
+    <div class="subscribe-strip-actions">
+      <a class="btn-subscribe" href="feed.xml" title="RSS Feed">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
+        RSS订阅
+      </a>
+      <a class="btn-subscribe secondary" href="archive/" data-cn="历史归档" data-en="Archive">历史归档</a>
+    </div>
+  </div>
+
   <!-- ===== TODAY'S TOP 3 ===== -->
   <section id="top3">
     <div class="sec-header">
@@ -1825,6 +1989,16 @@ body::before {
     <div class="sec-header">
       <span class="sec-badge badge-blue" data-cn="今日资讯" data-en="Daily News">今日资讯</span>
       <h2 class="sec-title" data-cn="今日大事" data-en="Today's AI News">今日大事</h2>
+      <div style="margin-left:auto;display:flex;gap:6px;align-items:center;">
+        <button class="view-toggle-btn" id="view-card-btn" onclick="setNewsView('card')" title="卡片视图">
+          <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1"/><rect x="9" y="1" width="6" height="6" rx="1"/><rect x="1" y="9" width="6" height="6" rx="1"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+          <span data-cn="卡片" data-en="Cards">卡片</span>
+        </button>
+        <button class="view-toggle-btn active" id="view-list-btn" onclick="setNewsView('list')" title="列表视图">
+          <svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="2" width="14" height="2" rx="1"/><rect x="1" y="7" width="14" height="2" rx="1"/><rect x="1" y="12" width="14" height="2" rx="1"/></svg>
+          <span data-cn="列表" data-en="List">列表</span>
+        </button>
+      </div>
     </div>
     <p class="sec-desc" data-cn="由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展" data-en="Curated by Claude — model launches, policy shifts, and industry moves">由 Claude 搜索汇总，覆盖模型发布、政策动态、行业进展</p>
     <div class="filter-bar" id="tag-filter">
@@ -1838,36 +2012,39 @@ body::before {
       <button class="filter-chip" onclick="filterNews(this)" data-tag="#开源" data-cn="#开源" data-en="#OpenSource">#开源</button>
       <button class="filter-chip" onclick="filterNews(this)" data-tag="#Agent" data-cn="#Agent" data-en="#Agent">#Agent</button>
     </div>
-    <div class="news-grid">
+    <div class="news-grid compact-mode" id="news-grid">
       <!-- NEWS:START -->
-      <div class="news-card reveal" data-tags="#LLM,#政策">
+      <div class="news-card reveal" data-bookmark-id="news-1"> data-tags="#LLM,#政策">
         <span class="card-badge major">MAJOR</span>
         <h3 class="card-title">Anthropic年化收入冲至300亿美元,成为美国历史上增…</h3>
         <p class="card-summary"><strong>Anthropic</strong>年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#政策')">#政策</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#LLM,#开源">
+      <div class="news-card reveal" data-bookmark-id="news-2"> data-tags="#LLM,#开源">
         <span class="card-badge major">MAJOR</span>
         <h3 class="card-title">OpenAI与微软解除独立性协议,AWS随后在Bedrock…</h3>
         <p class="card-summary"><strong>OpenAI与微软</strong>解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#政策,#安全">
+      <div class="news-card reveal" data-bookmark-id="news-3"> data-tags="#政策,#安全">
         <span class="card-badge major">MAJOR</span>
         <h3 class="card-title">Google员工联名致信CEO拒绝AI用于机密军事用途,超2…</h3>
         <p class="card-summary"><strong>Google员工</strong>联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card-headline reveal" data-tags="#LLM">
+      <div class="news-card-headline reveal" data-bookmark-id="news-4"> data-tags="#LLM">
         <div class="card-image">
           <img src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="DeepMind David Silver以51亿美元估值为…" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
         </div>
@@ -1877,45 +2054,50 @@ body::before {
           <p class="card-summary"><strong>DeepMind David Silver</strong>以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。</p>
           <div class="card-footer">
             <span class="src-badge src-unknown">Unknown</span>
-            <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
+            <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
           </div>
         </div>
       </div>
-      <div class="news-card medium reveal" data-tags="#政策">
+      <div class="news-card medium reveal" data-bookmark-id="news-5"> data-tags="#政策">
         <img class="card-img-top" src="https://source.unsplash.com/800x450/?Meta%20artificial%20intelligence" alt="中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初…" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?Meta%20artificial%20intelligence'">
         <span class="card-badge major">MAJOR</span>
         <h3 class="card-title">中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初…</h3>
         <p class="card-summary"><strong>中国监管部门</strong>以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#Agent,#安全">
+      <div class="news-card reveal" data-bookmark-id="news-6"> data-tags="#Agent,#安全">
         <span class="card-badge update">UPDATE</span>
         <h3 class="card-title">ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步…</h3>
         <p class="card-summary"><strong>ICLR 2026</strong>论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#安全')">#安全</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#多模态,#开源">
+      <div class="news-card reveal" data-bookmark-id="news-7"> data-tags="#多模态,#开源">
         <span class="card-badge breaking">BREAKING</span>
         <h3 class="card-title">英伟达发布Nemotron 3 Nano Omni多模态模型…</h3>
         <p class="card-summary"><strong>英伟达</strong>发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。</p>
         <div class="card-footer">
           <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#政策">
+      <div class="news-card reveal" data-bookmark-id="news-8"> data-tags="#政策">
         <span class="card-badge update">UPDATE</span>
         <h3 class="card-title">马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从…</h3>
         <p class="card-summary"><strong>马斯克诉OpenAI</strong>案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span><button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+          </div>
         </div>
       </div>
       <!-- NEWS:END -->
@@ -2279,6 +2461,87 @@ body::before {
 </footer>
 
 <script>
+// ===== News View Toggle (Card / List) =====
+let newsView = localStorage.getItem('news-view') || 'list';
+function setNewsView(mode) {
+  newsView = mode;
+  localStorage.setItem('news-view', mode);
+  var grid = document.querySelector('.news-grid');
+  var cardBtn = document.getElementById('view-card-btn');
+  var listBtn = document.getElementById('view-list-btn');
+  if (!grid) return;
+  if (mode === 'list') {
+    grid.classList.add('compact-mode');
+    if (listBtn) { listBtn.classList.add('active'); }
+    if (cardBtn) { cardBtn.classList.remove('active'); }
+  } else {
+    grid.classList.remove('compact-mode');
+    if (cardBtn) { cardBtn.classList.add('active'); }
+    if (listBtn) { listBtn.classList.remove('active'); }
+  }
+}
+// Apply saved view on load
+document.addEventListener('DOMContentLoaded', function() {
+  setNewsView(newsView);
+});
+
+// ===== Bookmark System =====
+var BOOKMARK_KEY = 'ai-hub-bookmarks';
+function getBookmarks() {
+  try { return JSON.parse(localStorage.getItem(BOOKMARK_KEY) || '{}'); }
+  catch(e) { return {}; }
+}
+function saveBookmarks(bm) {
+  try { localStorage.setItem(BOOKMARK_KEY, JSON.stringify(bm)); } catch(e) {}
+}
+function updateBookmarkNav() {
+  var bm = getBookmarks();
+  var count = Object.keys(bm).length;
+  var badge = document.getElementById('nav-bookmark-badge');
+  if (badge) {
+    badge.textContent = count;
+    badge.classList.toggle('has-items', count > 0);
+  }
+}
+function toggleBookmark(btn) {
+  var card = btn.closest('[data-bookmark-id]');
+  if (!card) return;
+  var id = card.dataset.bookmarkId;
+  var title = card.querySelector('.card-title, .top3-title, .paper-title, h4, h3');
+  var titleText = title ? title.textContent.trim() : id;
+  var bm = getBookmarks();
+  if (bm[id]) {
+    delete bm[id];
+    btn.classList.remove('bookmarked');
+    btn.title = '收藏';
+    showToast('已取消收藏');
+  } else {
+    bm[id] = { title: titleText.slice(0, 80), saved: Date.now() };
+    btn.classList.add('bookmarked');
+    btn.title = '取消收藏';
+    showToast('★ 已收藏');
+  }
+  saveBookmarks(bm);
+  updateBookmarkNav();
+}
+function showToast(msg) {
+  var t = document.getElementById('saved-toast');
+  if (!t) return;
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(function() { t.classList.remove('show'); }, 2000);
+}
+// Init bookmarks on load
+document.addEventListener('DOMContentLoaded', function() {
+  var bm = getBookmarks();
+  document.querySelectorAll('[data-bookmark-id]').forEach(function(card) {
+    var id = card.dataset.bookmarkId;
+    var btn = card.querySelector('.bookmark-btn');
+    if (btn && bm[id]) { btn.classList.add('bookmarked'); btn.title = '取消收藏'; }
+  });
+  updateBookmarkNav();
+});
+
 // ===== Language Switcher =====
 let currentLang = 'cn';
 function toggleLang() {

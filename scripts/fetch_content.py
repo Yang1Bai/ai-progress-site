@@ -437,6 +437,9 @@ def render_news(items):
         url = (it.get("url") or "").strip()
         tags = it.get("tags") or []
         tags_str = escape_text(",".join(tags))
+        # Stable bookmark id from body text
+        bm_id = escape_text(re.sub(r'[^\w]', '', (it.get('body') or ''))[:24])
+        bookmark_btn = '<button class="bookmark-btn" onclick="toggleBookmark(this)" title="\u6536\u85cf">\u2606</button>'
         source_link = ""
         src_type = infer_source_type(url)
         src_cls = src_type.lower().replace(" ", "-")
@@ -481,7 +484,7 @@ def render_news(items):
             topic_icon_text = fallback_text
             icon_emoji, icon_label = get_topic_icon(topic_icon_text)
             fallback_unsplash = escape_text(search_news_image(fallback_text))
-            out.append(f'''      <div class="news-card-headline reveal" data-tags="{tags_str}">
+            out.append(f'''      <div class="news-card-headline reveal" data-tags="{tags_str}" data-bookmark-id="{bm_id}">
         <div class="card-image">
           <img src="{img_safe}" alt="{escape_text(display_title)}" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='{fallback_unsplash}'">
         </div>
@@ -492,6 +495,7 @@ def render_news(items):
           <div class="card-footer">
             {source_link}
             {card_tags_html}
+            {bookmark_btn}
           </div>
         </div>
       </div>''')
@@ -501,7 +505,7 @@ def render_news(items):
             img_url2 = get_card_image_url(url, fallback_text2)
             img_safe2 = escape_text(img_url2)
             fallback_unsplash2 = escape_text(search_news_image(fallback_text2))
-            out.append(f'''      <div class="news-card medium reveal" data-tags="{tags_str}">
+            out.append(f'''      <div class="news-card medium reveal" data-tags="{tags_str}" data-bookmark-id="{bm_id}">
         <img class="card-img-top" src="{img_safe2}" alt="{escape_text(display_title)}" loading="lazy" onerror="this.src='{fallback_unsplash2}'">
         {badge_html}
         <h3 class="card-title">{display_title}</h3>
@@ -509,17 +513,19 @@ def render_news(items):
         <div class="card-footer">
           {source_link}
           {card_tags_html}
+          {bookmark_btn}
         </div>
       </div>''')
         else:
             # Standard card (1 col)
-            out.append(f'''      <div class="news-card reveal" data-tags="{tags_str}">
+            out.append(f'''      <div class="news-card reveal" data-tags="{tags_str}" data-bookmark-id="{bm_id}">
         {badge_html}
         <h3 class="card-title">{display_title}</h3>
         <p class="card-summary">{body}</p>
         <div class="card-footer">
           {source_link}
           {card_tags_html}
+          {bookmark_btn}
         </div>
       </div>''')
     return "\n".join(out)
