@@ -2896,39 +2896,70 @@ if (searchInput && searchResults) {
   if (lu && hd && lu.textContent.trim()) hd.textContent = lu.textContent.trim();
 })();
 
-// ===== Visitor counter (Cloudflare Analytics) =====
+// ===== Visitor counter =====
 (function() {
   const el = document.getElementById('visitor-count');
-  if (!el) return;
+  const footerEl = document.getElementById('footer-visitors');
 
   function formatNum(n) { return n.toLocaleString('en-US'); }
 
-  function animateVisitor(target) {
-    if (target === 0) { el.textContent = '—'; return; }
-    const duration = 800;
-    let start = null;
+  function showCount(count, label) {
+    const txt = count > 0 ? formatNum(count) : '统计中';
+    if (el) el.textContent = txt;
+    if (footerEl) footerEl.textContent = count > 0 ? '👁 ' + txt + ' ' + (label || '历史访客') : '';
+  }
+
+  function animateAndShow(count, label) {
+    if (count === 0) { showCount(0, label); return; }
+    const duration = 800; let start = null;
     const step = ts => {
       if (!start) start = ts;
       const prog = Math.min((ts - start) / duration, 1);
-      const val = Math.round((1 - Math.pow(1 - prog, 3)) * target);
-      el.textContent = formatNum(val);
+      const val = Math.round((1 - Math.pow(1 - prog, 3)) * count);
+      const txt = formatNum(val);
+      if (el) el.textContent = txt;
       if (prog < 1) requestAnimationFrame(step);
-      else el.textContent = formatNum(target);
+      else showCount(count, label);
     };
     requestAnimationFrame(step);
   }
 
-  // Fetch real visitor count from Cloudflare Worker
+  // 1. Try Cloudflare Worker (real visitor count)
   fetch('https://ai-hub-visitor-counter.yangbai0110.workers.dev')
     .then(r => r.json())
     .then(data => {
-      const count = data.visitors || 0;
-      const obs = new IntersectionObserver(([entry]) => {
-        if (entry.isIntersecting) { animateVisitor(count); obs.disconnect(); }
-      }, { threshold: 0.5 });
-      obs.observe(el);
+      const count = data.visitors || data.pageViews || 0;
+      if (count > 0) {
+        // Worker has real data — show it
+        animateAndShow(count, '历史访客');
+      } else {
+        // Worker KV not configured — fall back to GitHub stars
+        fetchGitHubStars();
+      }
     })
-    .catch(() => { el.textContent = '—'; });
+    .catch(() => fetchGitHubStars());
+
+  // 2. Fallback: GitHub stars as social proof
+  function fetchGitHubStars() {
+    fetch('https://api.github.com/repos/Yang1Bai/ai-progress-site', {
+      headers: { 'Accept': 'application/vnd.github.v3+json' }
+    })
+      .then(r => r.json())
+      .then(data => {
+        const stars = data.stargazers_count || 0;
+        if (stars > 0) {
+          animateAndShow(stars, '⭐ GitHub Stars');
+        } else {
+          // No stars yet — show page-load count from localStorage as local estimate
+          const lsKey = 'ai-hub-views';
+          let views = parseInt(localStorage.getItem(lsKey) || '0') + 1;
+          localStorage.setItem(lsKey, views);
+          if (footerEl) footerEl.textContent = '';
+          if (el) el.textContent = '统计中';
+        }
+      })
+      .catch(() => { if (el) el.textContent = '统计中'; });
+  }
 })();
 </script>
 
@@ -3177,7 +3208,10 @@ if (searchInput && searchResults) {
       <a href="archive/">历史归档</a>
       <a href="https://github.com/yang1bai/ai-progress-site" target="_blank" rel="noopener">GitHub</a>
     </div>
-    <div class="footer-copy">&copy; 2026 AI Progress Hub &middot; Built by Yang Bai &middot; Toronto</div>
+    <div class="footer-copy">&copy; 2026 AI Progress Hub &middot; Built by Yang Bai &middot; Toronto &nbsp;&nbsp;
+      <span style="opacity:.6">·&nbsp;</span>
+      <span id="footer-visitors" style="font-size:.73rem;color:var(--text-faint);"></span>
+    </div>
   </div>
 </footer>
 <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="回到顶部" aria-label="Back to top">↑</button>
