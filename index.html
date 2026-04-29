@@ -1284,6 +1284,165 @@ body::before {
 .footer-links a { color: var(--text-muted); text-decoration: none; font-size: .82rem; transition: color .15s; }
 .footer-links a:hover { color: var(--accent); }
 .footer-copy { grid-column: 1 / -1; font-size: .75rem; color: var(--text-faint); padding-top: 16px; border-top: 1px solid var(--border); }
+
+/* ===== Radar Hero Redesign ===== */
+
+/* Override centred hero — left-aligned on desktop */
+@media (min-width: 900px) {
+  .hero { text-align: left !important; padding-right: 360px !important; min-height: 320px; }
+  .hero-sub { text-align: left; }
+  .search-wrap { margin-left: 0; }
+  .stats-row { text-align: left; justify-content: flex-start; }
+}
+
+/* Hide old hero chrome */
+.hero-label { display: none !important; }
+.stats-row  { display: none !important; }
+.hero-update-badge { display: none !important; }
+.hero-entry-cards  { display: none !important; }
+
+/* New eyebrow */
+.hero-eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: .72rem; font-weight: 600; color: var(--text-muted);
+  letter-spacing: .07em; text-transform: uppercase; margin-bottom: 16px;
+}
+.eyebrow-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #22c55e; flex-shrink: 0;
+  animation: pulse 2s ease-in-out infinite;
+}
+.eyebrow-date { color: var(--accent); margin-left: 4px; }
+
+/* Override hero-title text-align */
+.hero-title { text-align: inherit !important; }
+
+/* New tagline */
+.hero-tagline {
+  font-size: 1.05rem; color: var(--text-2); line-height: 1.55;
+  margin: 0 0 12px; font-weight: 500; max-width: 540px;
+}
+.ht-ai  { color: var(--accent);  font-style: normal; font-weight: 700; }
+.ht-sci { color: var(--green);   font-style: normal; font-weight: 700; }
+.ht-mat { color: #0d9488;        font-style: normal; font-weight: 700; }
+
+/* New description */
+.hero-desc {
+  font-size: .88rem; color: var(--text-muted); line-height: 1.7;
+  max-width: 500px; margin: 0 0 20px;
+}
+
+/* Search stays but compact */
+.hero-search { max-width: 400px !important; margin-left: 0 !important; margin-bottom: 0 !important; }
+
+/* ===== Floating Radar ===== */
+.hero-radar-float {
+  display: none; /* hidden on mobile */
+  position: absolute; right: 24px; top: 24px;
+  width: 316px; height: 316px;
+  align-items: center; justify-content: center;
+}
+@media (min-width: 900px) { .hero-radar-float { display: flex; } }
+
+.radar-bg {
+  position: relative; width: 280px; height: 280px;
+}
+/* Sweep: conic gradient that rotates */
+.radar-sweep {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(37,99,235,.10) 50deg,
+    rgba(37,99,235,.02) 80deg,
+    transparent 81deg
+  );
+  animation: radar-spin 5s linear infinite;
+}
+@keyframes radar-spin { to { transform: rotate(360deg); } }
+
+.radar-svg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  overflow: visible;
+}
+/* SVG internals */
+.r-ring       { fill: none; stroke: var(--border); stroke-width: 1; }
+.r-ring-outer { stroke: var(--border-dark); opacity: .6; }
+.r-cross      { stroke: var(--border); stroke-width: .8; opacity: .5; }
+.r-cross-d    { stroke: var(--border); stroke-width: .5; opacity: .25; }
+.r-center     { fill: var(--accent); }
+
+/* Blips */
+.r-blip       { fill: var(--bc,#2563eb); }
+.r-blip-ring  {
+  fill: none; stroke: var(--bc,#2563eb); stroke-width: 1.5;
+  animation: blip-ring 3s ease-out infinite;
+}
+.r-blip-g { animation: blip-pulse 3s ease-in-out infinite; }
+.r-blip-g:nth-child(2) { animation-delay: .5s; }
+.r-blip-g:nth-child(3) { animation-delay: 1.0s; }
+.r-blip-g:nth-child(4) { animation-delay: 1.5s; }
+.r-blip-g:nth-child(5) { animation-delay: 2.0s; }
+.r-blip-g:nth-child(6) { animation-delay: 2.5s; }
+
+@keyframes blip-ring {
+  0%   { r: 7;   opacity: .7; }
+  60%  { r: 16;  opacity: 0;  }
+  100% { r: 16;  opacity: 0;  }
+}
+@keyframes blip-pulse {
+  0%,100% { opacity: .4; }
+  50%     { opacity: 1;  }
+}
+
+/* Radar labels */
+.r-label {
+  position: absolute; font-size: .62rem; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase;
+  white-space: nowrap; line-height: 1;
+}
+.r-lbl-top { top:  -16px; left: 50%; transform: translateX(-50%); }
+.r-lbl-tr  { top:   64px; right: -64px; }
+.r-lbl-br  { bottom: 64px; right: -64px; }
+.r-lbl-bot { bottom: -16px; left: 50%; transform: translateX(-50%); }
+.r-lbl-bl  { bottom: 64px; left: -64px; text-align: right; }
+.r-lbl-tl  { top:   64px; left: -64px; text-align: right; }
+
+/* ===== 6-up Section Cards ===== */
+.hero-section-cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 8px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 900px)  { .hero-section-cards { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 520px)  { .hero-section-cards { grid-template-columns: repeat(2, 1fr); } }
+
+.hsc {
+  display: flex; flex-direction: column; gap: 5px;
+  padding: 11px 13px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--white);
+  text-decoration: none; color: inherit;
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow .2s, border-color .15s, transform .15s;
+}
+.hsc:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: var(--hsc-accent, var(--accent));
+}
+.hsc-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--c, var(--accent)); flex-shrink: 0;
+  margin-bottom: 2px;
+}
+.hsc-name {
+  font-family: "Space Grotesk", sans-serif; font-weight: 700;
+  font-size: .8rem; color: var(--brand); line-height: 1.2;
+}
+.hsc-sub { font-size: .67rem; color: var(--text-muted); line-height: 1.3; }
 </style>
 
 <!-- ═══════════════════════════════════════════════
@@ -1438,11 +1597,34 @@ body::before {
 
 <!-- Hero -->
 <header class="hero">
-  <div class="hero-label" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</div>
-  <h1 class="hero-title" id="hero-title" data-cn="AI 进展汇总" data-en="AI Progress Hub">AI 进展汇总</h1>
-  <p class="hero-sub" data-cn="每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完" data-en="Track the AI frontier daily — model releases, research breakthroughs, and expert takes, curated in one place">每日追踪 AI 前沿动态，从模型发布到科研突破，一站读完</p>
+  <!-- Eyebrow -->
+  <div class="hero-eyebrow">
+    <span class="eyebrow-dot"></span>
+    <span data-cn="AI Research Radar" data-en="AI Research Radar">AI Research Radar</span>
+    <span style="opacity:.4">·</span>
+    <span class="eyebrow-date" id="hero-date-display">每日更新</span>
+  </div>
 
-  <div class="search-wrap">
+  <!-- Title -->
+  <h1 class="hero-title" id="hero-title" data-cn="AI Progress Hub" data-en="AI Progress Hub">AI Progress Hub</h1>
+
+  <!-- Tagline -->
+  <p class="hero-tagline"
+     data-cn="AI · AI4Science · 材料发现 每日雷达——专为前沿研究者构建"
+     data-en="A daily radar for AI · AI4Science · Materials Discovery — built for researchers">
+    A daily radar for <span class="ht-ai">AI</span> · <span class="ht-sci">AI4Science</span> · <span class="ht-mat">Materials Discovery</span>
+  </p>
+
+  <!-- Description -->
+  <p class="hero-desc"
+     data-cn="追踪前沿模型发布、科学机器学习突破、材料发现进展、基准测试与会议截止——每日更新"
+     data-en="Track frontier model releases, scientific ML breakthroughs, materials discovery, benchmarks, and conference deadlines — updated daily.">
+    Track frontier model releases, scientific ML breakthroughs, materials discovery,
+    benchmarks, and conference deadlines — updated daily.
+  </p>
+
+  <!-- Search (functional, kept compact) -->
+  <div class="search-wrap hero-search">
     <input type="text" id="site-search" placeholder="搜索今日内容…" autocomplete="off" data-placeholder-cn="搜索今日内容…" data-placeholder-en="Search today's content…" />
     <svg class="search-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
     <div class="search-results" id="search-results"></div>
@@ -1481,30 +1663,109 @@ body::before {
     <span class="mono" style="font-size:.72rem;color:var(--cyan);" id="last-updated">2026年4月29日</span>
   </div>
       <!-- STATS:END -->
-  <div class="hero-entry-cards">
-    <a class="hero-entry-card" href="#top3">
-      <span class="hec-icon">🔥</span>
-      <div class="hec-body">
-        <div class="hec-title" data-cn="今日 Top 3" data-en="Today's Top 3">今日 Top 3</div>
-        <div class="hec-sub" data-cn="最値得关注的三条" data-en="Top 3 picks">最値得关注的三条</div>
-      </div>
-      <span class="hec-arrow">→</span>
+
+  <!-- ===== Radar Visual (desktop only, absolute right) ===== -->
+  <div class="hero-radar-float" aria-hidden="true">
+    <div class="radar-bg">
+      <div class="radar-sweep"></div>
+      <svg class="radar-svg" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+        <!-- rings -->
+        <circle cx="140" cy="140" r="32"  class="r-ring"/>
+        <circle cx="140" cy="140" r="64"  class="r-ring"/>
+        <circle cx="140" cy="140" r="100" class="r-ring"/>
+        <circle cx="140" cy="140" r="128" class="r-ring r-ring-outer"/>
+        <!-- cross -->
+        <line x1="140" y1="8"   x2="140" y2="272" class="r-cross"/>
+        <line x1="8"   y1="140" x2="272" y2="140" class="r-cross"/>
+        <!-- diagonals -->
+        <line x1="50"  y1="50"  x2="230" y2="230" class="r-cross-d"/>
+        <line x1="230" y1="50"  x2="50"  y2="230" class="r-cross-d"/>
+        <!--
+          6 blips at r=100 on clock positions:
+          12-o'clock (Top3):     (140, 40)
+          2-o'clock (AI4Sci):    (140+87, 140-50) = (227, 90)
+          4-o'clock (Materials): (227, 190)
+          6-o'clock (Models):    (140, 240)
+          8-o'clock (Benchmarks):(53, 190)
+          10-o'clock (Leaders):  (53, 90)
+        -->
+        <!-- Top 3 — red -->
+        <g class="r-blip-g">
+          <circle cx="140" cy="40"  r="6" class="r-blip" style="--bc:#ef4444"/>
+          <circle cx="140" cy="40"  r="6" class="r-blip-ring" style="--bc:#ef4444"/>
+        </g>
+        <!-- AI4Science — green -->
+        <g class="r-blip-g">
+          <circle cx="227" cy="90"  r="6" class="r-blip" style="--bc:#16a34a"/>
+          <circle cx="227" cy="90"  r="6" class="r-blip-ring" style="--bc:#16a34a"/>
+        </g>
+        <!-- Materials — teal -->
+        <g class="r-blip-g">
+          <circle cx="227" cy="190" r="6" class="r-blip" style="--bc:#0d9488"/>
+          <circle cx="227" cy="190" r="6" class="r-blip-ring" style="--bc:#0d9488"/>
+        </g>
+        <!-- Models — blue -->
+        <g class="r-blip-g">
+          <circle cx="140" cy="240" r="6" class="r-blip" style="--bc:#2563eb"/>
+          <circle cx="140" cy="240" r="6" class="r-blip-ring" style="--bc:#2563eb"/>
+        </g>
+        <!-- Benchmarks — purple -->
+        <g class="r-blip-g">
+          <circle cx="53"  cy="190" r="6" class="r-blip" style="--bc:#7c3aed"/>
+          <circle cx="53"  cy="190" r="6" class="r-blip-ring" style="--bc:#7c3aed"/>
+        </g>
+        <!-- Leaders — amber -->
+        <g class="r-blip-g">
+          <circle cx="53"  cy="90"  r="6" class="r-blip" style="--bc:#d97706"/>
+          <circle cx="53"  cy="90"  r="6" class="r-blip-ring" style="--bc:#d97706"/>
+        </g>
+        <!-- center -->
+        <circle cx="140" cy="140" r="3.5" class="r-center"/>
+      </svg>
+    </div>
+    <!-- labels positioned around .radar-bg -->
+    <div class="r-label r-lbl-top" style="color:#ef4444"  data-cn="Top 3"     data-en="Top 3">Top 3</div>
+    <div class="r-label r-lbl-tr"  style="color:#16a34a"  data-cn="AI4Science" data-en="AI4Science">AI4Science</div>
+    <div class="r-label r-lbl-br"  style="color:#0d9488"  data-cn="材料"       data-en="Materials">材料</div>
+    <div class="r-label r-lbl-bot" style="color:#2563eb"  data-cn="模型"       data-en="Models">模型</div>
+    <div class="r-label r-lbl-bl"  style="color:#7c3aed"  data-cn="基准"       data-en="Benchmarks">基准</div>
+    <div class="r-label r-lbl-tl"  style="color:#d97706"  data-cn="领袖"       data-en="Leaders">领袖</div>
+  </div>
+
+  <!-- ===== 6-up section quick-access cards ===== -->
+  <div class="hero-section-cards">
+    <a class="hsc" href="#top3"
+       style="--hsc-accent:#ef4444"
+       data-cn-name="今日 Top 3" data-en-name="Today's Top 3"
+       data-cn-sub="精选三条最重要进展" data-en-sub="Three top picks">
+      <span class="hsc-dot" style="--c:#ef4444"></span>
+      <div class="hsc-name" data-cn="今日 Top 3" data-en="Today's Top 3">今日 Top 3</div>
+      <div class="hsc-sub" data-cn="精选三条最重要进展" data-en-sub="Three top picks">精选三条最重要进展</div>
     </a>
-    <a class="hero-entry-card" href="#ai4science">
-      <span class="hec-icon">🔬</span>
-      <div class="hec-body">
-        <div class="hec-title" data-cn="科研视角" data-en="For Scientists">科研视角</div>
-        <div class="hec-sub" data-cn="AI4Science 与材料发现" data-en="AI4Science &amp; Materials">AI4Science 与材料发现</div>
-      </div>
-      <span class="hec-arrow">→</span>
+    <a class="hsc" href="#ai4science" style="--hsc-accent:#16a34a">
+      <span class="hsc-dot" style="--c:#16a34a"></span>
+      <div class="hsc-name" data-cn="For Scientists" data-en="For Scientists">For Scientists</div>
+      <div class="hsc-sub" data-cn="AI4Science 进展" data-en="AI4Science updates">AI4Science 进展</div>
     </a>
-    <a class="hero-entry-card" href="#models">
-      <span class="hec-icon">📊</span>
-      <div class="hec-body">
-        <div class="hec-title" data-cn="模型与基准" data-en="Models &amp; Benchmarks">模型与基准</div>
-        <div class="hec-sub" data-cn="最新模型发布与性能对比" data-en="Latest releases &amp; benchmarks">最新模型发布与性能对比</div>
-      </div>
-      <span class="hec-arrow">→</span>
+    <a class="hsc" href="#papers" style="--hsc-accent:#0d9488">
+      <span class="hsc-dot" style="--c:#0d9488"></span>
+      <div class="hsc-name" data-cn="材料发现" data-en="Materials">材料发现</div>
+      <div class="hsc-sub" data-cn="AI4Materials 论文" data-en="AI4Materials papers">AI4Materials 论文</div>
+    </a>
+    <a class="hsc" href="#models" style="--hsc-accent:#2563eb">
+      <span class="hsc-dot" style="--c:#2563eb"></span>
+      <div class="hsc-name" data-cn="模型动态" data-en="Models">模型动态</div>
+      <div class="hsc-sub" data-cn="最新发布与更新" data-en="Latest releases">最新发布与更新</div>
+    </a>
+    <a class="hsc" href="#benchmarks" style="--hsc-accent:#7c3aed">
+      <span class="hsc-dot" style="--c:#7c3aed"></span>
+      <div class="hsc-name" data-cn="基准测试" data-en="Benchmarks">基准测试</div>
+      <div class="hsc-sub" data-cn="主流模型性能对比" data-en="Performance comparisons">主流模型性能对比</div>
+    </a>
+    <a class="hsc" href="#leaders" style="--hsc-accent:#d97706">
+      <span class="hsc-dot" style="--c:#d97706"></span>
+      <div class="hsc-name" data-cn="领袖观点" data-en="Leaders">领袖观点</div>
+      <div class="hsc-sub" data-cn="行业重要声音" data-en="Key voices">行业重要声音</div>
     </a>
   </div>
 </header>
@@ -2154,6 +2415,13 @@ if (searchInput && searchResults) {
       searchResults.classList.remove('visible');
   });
 }
+
+// ===== Sync hero date display from hidden stats block =====
+(function() {
+  var lu = document.getElementById('last-updated');
+  var hd = document.getElementById('hero-date-display');
+  if (lu && hd && lu.textContent.trim()) hd.textContent = lu.textContent.trim();
+})();
 
 // ===== Visitor counter (Cloudflare Analytics) =====
 (function() {
