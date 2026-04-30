@@ -2,51 +2,52 @@
   "date": "2026年4月29日",
   "leaders": [
     {
-      "name": "黄仁勋",
-      "name_en": "Jensen Huang",
-      "role": "英伟达CEO",
-      "quote": "AI变革正加速各行业创新",
-      "body": "英伟达在2026年持续推动AI芯片与计算平台发展，最新发布的Nemotron 3系列模型超过5000万次下载。",
-      "tags": [
-        "AI芯片",
-        "计算平台"
-      ],
-      "initials": "JH",
-      "quote_date": "4月下旬"
-    },
-    {
-      "name": "达里奥·阿莫代",
+      "name": "达里奥·阿莫代伊",
       "name_en": "Dario Amodei",
       "role": "Anthropic CEO",
-      "quote": "安全第一是我们的核心原则",
-      "body": "Anthropic在4月确认Claude Mythos模型因安全考虑不会公开发布,仅向约50家机构提供受限访问。",
+      "quote": "更强大的 AI 来临速度比预期快",
+      "body": "4月阿莫代伊会见白宫高官协商 Anthropic 重返联邦机构供应链事宜，此前因拒绝\"一切合法用途\"要求被五角大楼列为供应链风险。Anthropic 发布博客称未来两年将出现更重大进展，AI 发展正在加速。",
       "tags": [
-        "AI安全",
-        "模型发布"
+        "#安全",
+        "#政策",
+        "#AGI"
       ],
       "initials": "DA",
-      "quote_date": "4月初"
+      "quote_date": "近期"
     },
     {
       "name": "萨姆·奥特曼",
       "name_en": "Sam Altman",
       "role": "OpenAI CEO",
-      "quote": "对AI的恐惧和焦虑是合理的",
-      "body": "4月初奥特曼家中遭遇袭击后发表声明,强调权力不能过度集中,反映出AI发展带来的社会紧张。",
+      "quote": "OpenAI 目标 2026 年达到实习研究员水平",
+      "body": "奥特曼透露 OpenAI 内部目标是 2026 年 AI 达到\"实习研究员\"级别，2028 年创造真正的自动化 AI 研究员。4月初其旧金山住所遭两次袭击后表示\"对 AI 的恐惧与焦虑是合理的\"。",
       "tags": [
-        "AI治理",
-        "安全"
+        "#AGI",
+        "#安全"
       ],
       "initials": "SA",
-      "quote_date": "4月初"
+      "quote_date": "近期"
+    },
+    {
+      "name": "埃隆·马斯克",
+      "name_en": "Elon Musk",
+      "role": "xAI 创始人",
+      "quote": "储蓄退休已无关紧要，AI 将创造富足世界",
+      "body": "马斯克在公开采访中表示将 10 倍算力应用于 LLM 训练可有效使模型\"智能\"翻倍，缩放定律依然成立。4月 xAI 与 SpaceX 完成 2500 亿美元合并，创史上最大 M&A 交易。",
+      "tags": [
+        "#AGI",
+        "#算力"
+      ],
+      "initials": "EM",
+      "quote_date": "4月26日"
     }
   ],
   "news": [
     {
       "title": "",
-      "body": "<strong>Anthropic</strong>年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。",
-      "url": "",
-      "importance": "major",
+      "body": "<strong>Anthropic</strong> 年化营收从 2024 年底 10 亿美元飙升至本月 300 亿美元，成为美国史上增长最快企业，超过 1000 家公司年支出超 100 万美元使用 Claude",
+      "url": "https://www.axios.com/2026/04/29/ai-models-speed-warning",
+      "importance": "breaking",
       "tags": [
         "#LLM",
         "#政策"
@@ -54,18 +55,18 @@
     },
     {
       "title": "",
-      "body": "<strong>OpenAI与微软</strong>解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。",
-      "url": "",
+      "body": "<strong>Microsoft 和 OpenAI</strong> 解除独家协议，次日 AWS 在 Bedrock 平台推出三项 OpenAI 新服务，包括联合构建的 Agent 服务",
+      "url": "https://llm-stats.com/ai-news",
       "importance": "major",
       "tags": [
         "#LLM",
-        "#开源"
+        "#Agent"
       ]
     },
     {
       "title": "",
-      "body": "<strong>Google员工</strong>联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。",
-      "url": "",
+      "body": "白宫正起草指引允许联邦机构重新使用 Anthropic 服务及 <strong>Claude Mythos</strong> 模型，此前因拒绝军事用途被列为供应链风险",
+      "url": "https://llm-stats.com/ai-news",
       "importance": "major",
       "tags": [
         "#政策",
@@ -74,35 +75,27 @@
     },
     {
       "title": "",
-      "body": "<strong>DeepMind David Silver</strong>以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。",
-      "url": "",
-      "importance": "breaking",
+      "body": "<strong>DeepSeek</strong> 于4月24日发布 V4 Flash 和 V4 Pro 系列，号称最强开源模型，采用混合注意力架构，支持 100 万 token 上下文窗口",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough",
+      "importance": "major",
       "tags": [
+        "#开源",
         "#LLM"
       ]
     },
     {
       "title": "",
-      "body": "<strong>中国监管部门</strong>以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。",
-      "url": "",
+      "body": "<strong>Google</strong> 员工联名致信 CEO 拒绝与国防部秘密 AI 军事合作，超 20 名董事级以上员工公开签署，涉及 Gemini 模型用于机密环境",
+      "url": "https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use",
       "importance": "major",
       "tags": [
-        "#政策"
-      ]
-    },
-    {
-      "title": "",
-      "body": "<strong>ICLR 2026</strong>论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。",
-      "url": "",
-      "importance": "normal",
-      "tags": [
-        "#Agent",
+        "#政策",
         "#安全"
       ]
     },
     {
       "title": "",
-      "body": "<strong>英伟达</strong>发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。",
+      "body": "<strong>NVIDIA</strong> 发布 Nemotron 3 Nano Omni 多模态开源模型，统一视频、音频、图像和文本推理，在 6 项 benchmark 排名第一",
       "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
       "importance": "normal",
       "tags": [
@@ -112,55 +105,79 @@
     },
     {
       "title": "",
-      "body": "<strong>马斯克诉OpenAI</strong>案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。",
-      "url": "",
+      "body": "<strong>Claude</strong> 编码 Agent 误删除公司整个数据库并移除备份的事件引发对自主 AI 系统风险的警示，事件发生在数秒内",
+      "url": "https://hipther.com/latest-news/2026/04/29/110947/ai-dispatch-daily-trends-and-innovations-april-29-2026-claude-ai-agent-taylor-swift-openai-pompeii-ai-reconstruction-nvidia-nemotron/",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#安全"
+      ]
+    },
+    {
+      "title": "",
+      "body": "苹果 iOS 27 将于 6 月 8 日 WWDC 发布，新增多项 <strong>AI 驱动照片编辑</strong>功能，Tim Cook 将于 9 月 1 日卸任 CEO 由 John Ternus 接任",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "美联储维持利率不变，<strong>Powell 最后一次主持 FOMC</strong> 会议出现 4 票反对（1992 年以来首次），预示未来货币政策分歧加剧",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update",
       "importance": "normal",
       "tags": [
         "#政策"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 发布首个专有模型 Muse Spark，标志其从纯开源战略转向，同时宣布 2026 年 AI 资本支出 1150-1350 亿美元，几乎翻倍",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#开源"
       ]
     }
   ],
   "science": [
     {
-      "title": "AI预测材料趋势",
-      "body": "卡尔斯鲁厄理工学院团队在Nature Machine Intelligence发表论文,使用大语言模型构建材料科学概念图,可提前2-3年预测研究趋势。"
+      "title": "神经符号方法减少AI能耗百倍",
+      "body": "Tufts 大学研究团队通过结合神经网络与符号推理，使机器人 AI 能耗降低最高 100 倍同时提升准确性，该方法让机器人像人类一样逻辑思考而非暴力试错。论文发表于 arXiv 2月。"
     },
     {
-      "title": "多模态材料LLM",
-      "body": "MatterChat框架整合材料结构数据与大语言模型,实现高精度性质预测并提供可解释推理,加速材料发现。"
+      "title": "类脑芯片可削减70%能耗",
+      "body": "剑桥大学团队利用改性氧化铪开发新型纳米电子器件，模仿神经元同时处理和存储信息，与传统芯片相比可减少高达 70% 能耗，论文 4 月 23 日发表于 ScienceDaily。"
     },
     {
-      "title": "AI驱动催化剂发现",
-      "body": "东北大学研究团队在Angewandte Chemie发表综述,介绍通用机器学习势能和大语言模型如何重新定义催化剂发现流程。"
+      "title": "AI加速量子计算突破",
+      "body": "Caltech 团队与 Google Quantum AI 合作，利用 AI 在数月内将量子比特数需求大幅降低，AI 以新颖方式组合过往科学成果并尝试数千种想法，研究于 3 月底同时在 Google 和 Oratomic 发表。"
     },
     {
-      "title": "固态电池AI设计",
-      "body": "Science Advances发表综述,系统总结AI在固态电池电解质设计和界面工程中的应用,从稳定性到离子传输机制全面优化。"
+      "title": "神经形态计算机解物理方程",
+      "body": "研究人员证明神经形态处理器（仿人脑设计）可求解物理模拟复杂方程，这项能力曾被认为只有耗能超算才能完成，可用于气候建模、材料科学和药物发现。"
     },
     {
-      "title": "自主材料实验室",
-      "body": "DeepMind的A-Lab和伯克利实验室展示自主固态合成系统,实现氧化物和磷酸盐等电池材料的自主发现与合成。"
+      "title": "AI用于脑部MRI秒级诊断",
+      "body": "密歇根大学创建 AI 系统可在数秒内解读脑部 MRI 扫描，准确识别多种神经疾病并标记需要紧急护理的病例，在急诊环境中速度决定恢复与永久损伤的差异。"
+    },
+    {
+      "title": "Google TurboQuant减少推理内存6倍",
+      "body": "Google 在 ICLR 2026 发布 TurboQuant 算法，通过两步法（PolarQuant 向量旋转 + 压缩方法）将 KV cache 内存开销减少 6 倍且零精度损失，可显著加速效率优先的 AI 开发。"
     }
   ],
   "papers": [
     {
       "venue_type": "nature",
-      "venue": "Nature Machine Intelligence",
-      "title": "Predicting new research directions in materials science using large language models and concept graphs",
-      "authors": "Marwitz T. et al.",
-      "summary": "使用大语言模型从材料科学摘要构建语义概念图,训练机器学习模型预测新兴主题组合,可提前2-3年识别研究趋势,为材料发现提供数据驱动指导。",
-      "date": "2026-04-01",
-      "url": "https://doi.org/10.1038/s42256-026-01206-y",
-      "is_week_pick": true
-    },
-    {
-      "venue_type": "nature",
-      "venue": "Nature Machine Intelligence",
-      "title": "A multimodal large language model for materials science",
-      "authors": "Tang Y. et al.",
-      "summary": "MatterChat框架将材料结构数据与大语言模型有效整合,实现高精度材料性质预测和可解释推理,为自动化材料发现提供新路径。",
-      "date": "2026-04-24",
-      "url": "https://doi.org/10.1038/s42256-026-01214-y",
+      "venue": "Nature Materials",
+      "title": "Artificial intelligence-driven approaches for materials design and discovery",
+      "authors": "Han X.-Q. et al.",
+      "summary": "综述深度生成模型驱动的材料逆向设计范式转变，从传统筛选到 AI 生成，讨论当前挑战与未来材料逆向设计方向，发表于2月。",
+      "date": "2026-02-17",
+      "url": "https://www.nature.com/articles/s41563-025-02403-7",
       "is_week_pick": false
     },
     {
@@ -168,19 +185,49 @@
       "venue": "Communications Materials",
       "title": "AI-powered open-source infrastructure for accelerating materials discovery and advanced manufacturing",
       "authors": "Salas M. et al.",
-      "summary": "提出透明、可扩展的AI驱动材料发现基础设施框架,强调开源工具统一数据获取、建模、模拟和部署,促进协作并提升可重复性。",
+      "summary": "提出从概念到商业化的 AI 驱动透明可扩展基础设施框架，强调开源工具统一数据获取、建模和部署，结合自驱动实验室、区块链追溯机制，发表于 2 月 17 日。",
       "date": "2026-02-17",
-      "url": "https://doi.org/10.1038/s43246-026-01105-0",
+      "url": "https://www.nature.com/articles/s43246-026-01105-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "npj Computational Materials",
+      "title": "Materials discovery acceleration by using conditional generative methodology",
+      "authors": "Ye C. et al.",
+      "summary": "开发高可迁移条件生成框架 PODGen，结合通用生成模型与多属性预测模型，用于拓扑绝缘体搜索，成功率比无约束方法高约 5 倍，发表于 12 月 26 日。",
+      "date": "2025-12-26",
+      "url": "https://www.nature.com/articles/s41524-025-01930-w",
       "is_week_pick": false
     },
     {
-      "venue_type": "science",
-      "venue": "Science Advances",
-      "title": "Toward AI ecosystems for electrolyte and interface engineering in solid-state batteries",
-      "authors": "Multiple authors",
-      "summary": "全面综述AI在固态电池电解质和界面工程中的应用,涵盖稳定性、电导率、机械性能和界面电阻,提出多尺度建模和多模态物理约束模型路线图。",
-      "date": "2026-01-15",
-      "url": "https://doi.org/10.1126/sciadv.aea0638",
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Real-time artificial intelligence for solid-state lithium metal batteries",
+      "authors": "Ye L. et al.",
+      "summary": "将机器学习模块直接集成到电池测试站，实时检测电压-电流曲线信号，通过强化学习动态调整充电策略，显著延长固态锂金属电池寿命，发表于 12 月 16 日。",
+      "date": "2025-12-16",
+      "url": "https://www.nature.com/articles/s41467-025-66079-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "npj Computational Materials",
+      "title": "Application-oriented design of machine learning paradigms for battery science",
+      "authors": "Fung V. et al.",
+      "summary": "从应用导向视角设计电池科学机器学习范式，涵盖高能量密度、固态电解质发现、快充、寿命预测和环保回收五大挑战，讨论生成式无监督学习（GAN、VAE、扩散模型）在聚合物电解质设计中的应用。",
+      "date": "2025-04-02",
+      "url": "https://www.nature.com/articles/s41524-025-01575-9",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "High-voltage anode-free sodium–sulfur batteries",
+      "authors": "Geng S. et al.",
+      "summary": "报道新型钠硫电池，采用无阳极设计，室温放电电压 3.6V，通过非易燃二氰胺钠电解质实现 S0/S4+ 氧化还原化学，能量密度达 2021 Wh/kg，成本 5.03 美元/kWh，发表于 1 月 8 日。",
+      "date": "2026-01-08",
+      "url": "https://techxplore.com/news/2026-01-sodium-sulfur-battery-safer-cheaper.html",
       "is_week_pick": false
     }
   ],
@@ -188,119 +235,159 @@
     {
       "name": "Claude Opus 4.7",
       "org": "Anthropic",
-      "org_short": "ANT",
+      "org_short": "ANTH",
       "release_date": "2026-04-16",
-      "highlight": "复杂推理和长期Agent工作流旗舰",
+      "highlight": "复杂推理与长时 Agent 工作流旗舰",
+      "tier": "S"
+    },
+    {
+      "name": "GPT-5.4",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-03-05",
+      "highlight": "105 万 token 窗口，GDPval 83%",
       "tier": "S"
     },
     {
       "name": "Gemini 3.1 Pro",
       "org": "Google DeepMind",
       "org_short": "GOOG",
-      "release_date": "2026-02-15",
-      "highlight": "实时多模态推理领先13项基准",
+      "release_date": "2026-03-01",
+      "highlight": "实时多模态，100 万 token 原生",
       "tier": "S"
+    },
+    {
+      "name": "DeepSeek V4",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-04-24",
+      "highlight": "1.6 万亿参数，混合注意力架构",
+      "tier": "A"
+    },
+    {
+      "name": "Gemma 4",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-04-02",
+      "highlight": "开源 Apache 2.0，31B 全球第三",
+      "tier": "A"
+    },
+    {
+      "name": "Llama 4 Maverick",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-04-05",
+      "highlight": "400B MoE，1000 万 token 窗口",
+      "tier": "A"
     },
     {
       "name": "Nemotron 3 Nano Omni",
       "org": "NVIDIA",
       "org_short": "NVDA",
       "release_date": "2026-04-28",
-      "highlight": "开源多模态效率提升9倍",
-      "tier": "A"
-    },
-    {
-      "name": "Gemma 4",
-      "org": "Google DeepMind",
-      "org_short": "GOOG",
-      "release_date": "2026-04-02",
-      "highlight": "Apache 2.0四变体最高31B参数",
-      "tier": "A"
+      "highlight": "多模态开源，视频音频文本统一",
+      "tier": "B"
     }
   ],
   "benchmarks": [
     {
-      "model": "Gemini 3.1 Pro",
-      "org": "Google",
-      "mmlu": "N/A",
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "91.0",
       "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "据报道在16项主要基准中领先13项,GPQA Diamond达94.3%"
+      "humaneval": "97.6",
+      "notes": "HumanEval 当前第一，GDPval-AA Elo 领先"
+    },
+    {
+      "model": "GPT-5.4 Pro",
+      "org": "OpenAI",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "94.5",
+      "notes": "GDPval 83%，知识工作排名第一"
+    },
+    {
+      "model": "Gemini 3.1 Ultra",
+      "org": "Google",
+      "mmlu": "90.0",
+      "math": "N/A",
+      "humaneval": "93.0",
+      "notes": "GPQA Diamond 94.3%，ARC-AGI-2 77.1%"
     },
     {
       "model": "Claude Opus 4.6",
       "org": "Anthropic",
-      "mmlu": "N/A",
+      "mmlu": "91.0",
       "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "GDPval-AA Elo基准领先,GPQA Diamond达91.3%"
+      "humaneval": "95.2",
+      "notes": "GPQA Diamond 68.4%，Aider Polyglot 82.1%"
     },
     {
-      "model": "GPT-5.4",
-      "org": "OpenAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "105万token上下文窗口,事实准确性提升33%"
-    },
-    {
-      "model": "Kimi K2.5",
-      "org": "Moonshot AI",
-      "mmlu": "92.0",
-      "math": "98.0",
-      "humaneval": "99.0",
-      "notes": "HumanEval接近满分,开源模型顶级性能"
-    },
-    {
-      "model": "DeepSeek-R1",
+      "model": "DeepSeek V4",
       "org": "DeepSeek",
-      "mmlu": "90.8",
-      "math": "97.3",
-      "humaneval": "90.2",
-      "notes": "强数学推理,成本效率极高"
+      "mmlu": "89.0",
+      "math": "N/A",
+      "humaneval": "94.8",
+      "notes": "SWE-bench 81.0%，成本仅 GPT 五十分之一"
+    },
+    {
+      "model": "R1",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.4",
+      "notes": "HumanEval 第二，推理模型"
+    },
+    {
+      "model": "Grok 4",
+      "org": "xAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.0",
+      "notes": "四智能体并行架构，实时 X 数据接入"
     }
   ],
   "conferences": [
     {
-      "name": "NeurIPS 2026",
-      "event_type": "submission",
-      "deadline": "2026-05-07",
-      "url": "https://neurips.cc/Conferences/2026",
-      "days_left": 8
+      "name": "ICLR 2026",
+      "event_type": "notification",
+      "deadline": "2026-01-15",
+      "url": "https://iclr.cc/Conferences/2026/Dates",
+      "days_left": -105
     },
     {
       "name": "ICML 2026",
       "event_type": "submission",
-      "deadline": "2026-01-24",
-      "url": "https://icml.cc/Conferences/2026",
-      "days_left": -95
+      "deadline": "2026-01-30",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "days_left": -90
     },
     {
-      "name": "ICLR 2026",
+      "name": "ICLR 2026 主会",
       "event_type": "camera_ready",
-      "deadline": "2026-04-24",
-      "url": "https://iclr.cc",
-      "days_left": -5
+      "deadline": "2026-04-23",
+      "url": "https://iclr.cc/Conferences/2026/Dates",
+      "days_left": -6
     },
     {
-      "name": "KDD 2026",
+      "name": "ICML 2026 Journal-to-Conf",
       "event_type": "submission",
-      "deadline": "2026-02-06",
-      "url": "https://kdd2026.kdd.org",
-      "days_left": -82
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/public/JournalToConference",
+      "days_left": 4
     },
     {
-      "name": "AAAI 2026",
-      "event_type": "notification",
-      "deadline": "2025-12-09",
-      "url": "https://aaai.org/conference/aaai/aaai-26/",
-      "days_left": -141
+      "name": "NeurIPS 2026 Journal-to-Conf",
+      "event_type": "submission",
+      "deadline": "2026-09-26",
+      "url": "https://neurips.cc/public/JournalToConference",
+      "days_left": 150
     }
   ],
   "stats": {
-    "news_count": 8,
-    "paper_count": 4,
+    "news_count": 10,
+    "paper_count": 6,
     "leader_count": 3,
-    "science_count": 5
+    "science_count": 6
   }
 }

@@ -5,69 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-04-29T21:48:07Z</updated>
+  <updated>2026-04-30T00:35:25Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年4月29日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-04-29.html</id>
-    <updated>2026-04-29T21:48:07Z</updated>
+    <updated>2026-04-30T00:35:25Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>Anthropic年化收入冲至300亿美元,成为美国历史上增长最快的公司,Claude企业客户超1000家月付费超百万美元。</summary>
+    <title>Anthropic 年化营收从 2024 年底 10 亿美元飙升至本月 300 亿美元，成为美国史上增长最快企业，超过 1000 家公司年支出超 100 万美元…</title>
+    <link href="https://www.axios.com/2026/04/29/ai-models-speed-warning"/>
+    <id>https://www.axios.com/2026/04/29/ai-models-speed-warning</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>Anthropic 年化营收从 2024 年底 10 亿美元飙升至本月 300 亿美元，成为美国史上增长最快企业，超过 1000 家公司年支出超 100 万美元使用 Claude</summary>
   </entry>
   <entry>
-    <title>OpenAI与微软解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>OpenAI与微软解除独立性协议,AWS随后在Bedrock平台推出三项OpenAI服务,包括联合开发的Agent服务。</summary>
+    <title>Microsoft 和 OpenAI 解除独家协议，次日 AWS 在 Bedrock 平台推出三项 OpenAI 新服务，包括联合构建的 Agent 服务…</title>
+    <link href="https://llm-stats.com/ai-news"/>
+    <id>https://llm-stats.com/ai-news</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>Microsoft 和 OpenAI 解除独家协议，次日 AWS 在 Bedrock 平台推出三项 OpenAI 新服务，包括联合构建的 Agent 服务</summary>
   </entry>
   <entry>
-    <title>Google员工联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>Google员工联名致信CEO拒绝AI用于机密军事用途,超20位高管公开签署,引发科技伦理讨论。</summary>
+    <title>白宫正起草指引允许联邦机构重新使用 Anthropic 服务及 Claude Mythos 模型，此前因拒绝军事用途被列为供应链风险…</title>
+    <link href="https://llm-stats.com/ai-news"/>
+    <id>https://llm-stats.com/ai-news</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>白宫正起草指引允许联邦机构重新使用 Anthropic 服务及 Claude Mythos 模型，此前因拒绝军事用途被列为供应链风险</summary>
   </entry>
   <entry>
-    <title>DeepMind David Silver以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>DeepMind David Silver以51亿美元估值为Ineffable Intelligence完成11亿美元种子轮,创纪录AI融资。</summary>
+    <title>DeepSeek 于4月24日发布 V4 Flash 和 V4 Pro 系列，号称最强开源模型，采用混合注意力架构，支持 100 万 token 上下文窗口…</title>
+    <link href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough"/>
+    <id>https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>DeepSeek 于4月24日发布 V4 Flash 和 V4 Pro 系列，号称最强开源模型，采用混合注意力架构，支持 100 万 token 上下文窗口</summary>
   </entry>
   <entry>
-    <title>中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>中国监管部门以国家安全为由阻止Meta 20亿美元收购AI初创公司Manus,要求全面撤资。</summary>
+    <title>Google 员工联名致信 CEO 拒绝与国防部秘密 AI 军事合作，超 20 名董事级以上员工公开签署，涉及 Gemini 模型用于机密环境…</title>
+    <link href="https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use"/>
+    <id>https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>Google 员工联名致信 CEO 拒绝与国防部秘密 AI 军事合作，超 20 名董事级以上员工公开签署，涉及 Gemini 模型用于机密环境</summary>
   </entry>
   <entry>
-    <title>ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>ICLR 2026论文《推理陷阱》发现强化学习增强推理会同步提升工具幻觉率,对Agent部署构成挑战。</summary>
-  </entry>
-  <entry>
-    <title>英伟达发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。…</title>
+    <title>NVIDIA 发布 Nemotron 3 Nano Omni 多模态开源模型，统一视频、音频、图像和文本推理，在 6 项 benchmark 排名第一…</title>
     <link href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/"/>
     <id>https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>英伟达发布Nemotron 3 Nano Omni多模态模型,统一视觉、音频和语言能力,效率提升9倍。</summary>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>NVIDIA 发布 Nemotron 3 Nano Omni 多模态开源模型，统一视频、音频、图像和文本推理，在 6 项 benchmark 排名第一</summary>
   </entry>
   <entry>
-    <title>马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-04-29T21:48:07Z</updated>
-    <summary>马斯克诉OpenAI案件进入审判阶段,双方将就OpenAI从非营利转为营利组织的合法性展开法庭对抗。</summary>
+    <title>Claude 编码 Agent 误删除公司整个数据库并移除备份的事件引发对自主 AI 系统风险的警示，事件发生在数秒内…</title>
+    <link href="https://hipther.com/latest-news/2026/04/29/110947/ai-dispatch-daily-trends-and-innovations-april-29-2026-claude-ai-agent-taylor-swift-openai-pompeii-ai-reconstruction-nvidia-nemotron/"/>
+    <id>https://hipther.com/latest-news/2026/04/29/110947/ai-dispatch-daily-trends-and-innovations-april-29-2026-claude-ai-agent-taylor-swift-openai-pompeii-ai-reconstruction-nvidia-nemotron/</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>Claude 编码 Agent 误删除公司整个数据库并移除备份的事件引发对自主 AI 系统风险的警示，事件发生在数秒内</summary>
+  </entry>
+  <entry>
+    <title>苹果 iOS 27 将于 6 月 8 日 WWDC 发布，新增多项 AI 驱动照片编辑功能，Tim Cook 将于 9 月 1 日卸任 CEO 由 John T…</title>
+    <link href="https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update"/>
+    <id>https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>苹果 iOS 27 将于 6 月 8 日 WWDC 发布，新增多项 AI 驱动照片编辑功能，Tim Cook 将于 9 月 1 日卸任 CEO 由 John Ternus 接任</summary>
+  </entry>
+  <entry>
+    <title>美联储维持利率不变，Powell 最后一次主持 FOMC 会议出现 4 票反对（1992 年以来首次），预示未来货币政策分歧加剧…</title>
+    <link href="https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update"/>
+    <id>https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>美联储维持利率不变，Powell 最后一次主持 FOMC 会议出现 4 票反对（1992 年以来首次），预示未来货币政策分歧加剧</summary>
+  </entry>
+  <entry>
+    <title>Meta 发布首个专有模型 Muse Spark，标志其从纯开源战略转向，同时宣布 2026 年 AI 资本支出 1150-1350 亿美元，几乎翻倍…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-04-30T00:35:25Z</updated>
+    <summary>Meta 发布首个专有模型 Muse Spark，标志其从纯开源战略转向，同时宣布 2026 年 AI 资本支出 1150-1350 亿美元，几乎翻倍</summary>
   </entry>
 </feed>
