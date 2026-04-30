@@ -2230,7 +2230,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <button class="filter-chip" onclick="filterNews(this)" data-tag="#开源" data-cn="#开源" data-en="#OpenSource">#开源</button>
       <button class="filter-chip" onclick="filterNews(this)" data-tag="#Agent" data-cn="#Agent" data-en="#Agent">#Agent</button>
     </div>
-    <div class="news-grid compact-mode" id="news-grid">
+    <div class="news-grid" id="news-grid">
       <!-- NEWS:START -->
       <div class="news-card-headline reveal" data-tags="#LLM,#政策" data-bookmark-id="strongAnthropicstrong年化营">
         <div class="card-image">
@@ -2762,7 +2762,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
 
 <script>
 // ===== News View Toggle (Card / List) =====
-let newsView = localStorage.getItem('news-view') || 'list';
+let newsView = localStorage.getItem('news-view') || 'card';
 function setNewsView(mode) {
   newsView = mode;
   localStorage.setItem('news-view', mode);
