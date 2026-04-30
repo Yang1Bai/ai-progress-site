@@ -472,7 +472,16 @@ def render_news(items):
         display_title = raw_title
         if not display_title:
             plain = re.sub(r"<[^>]+>", "", it.get("body", ""))
-            display_title = plain[:30].rstrip() + ("\u2026" if len(plain) > 30 else "")
+            # Natural title: first clause up to ，；。or first 60 chars
+            title_text = plain
+            for sep in ['\uff0c', '\uff1b', '\u3002', '\uff1a', ',']:
+                idx2 = plain.find(sep)
+                if 0 < idx2 <= 55:
+                    title_text = plain[:idx2]
+                    break
+            else:
+                title_text = plain[:60].rstrip() + ("\u2026" if len(plain) > 60 else "")
+            display_title = title_text
         display_title = escape_text(display_title)
 
         if i == headline_idx:

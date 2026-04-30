@@ -493,33 +493,23 @@ section {
 /* Headline card — spans full width */
 .news-card-headline {
   grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0;
+  display: flex;
+  flex-direction: column;
   border-radius: 16px;
   overflow: hidden;
-  border: 1px solid #E5E7EB;
-  background: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border: 1px solid var(--border);
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  border-top: 4px solid var(--accent);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 .news-card-headline:hover {
-  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  box-shadow: var(--shadow-lg);
   transform: translateY(-2px);
 }
-.news-card-headline .card-image {
-  background: linear-gradient(135deg, #f0f4ff 0%, #e8ecf8 100%);
-  min-height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.news-card-headline .card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+/* Hide broken external images entirely */
+.news-card-headline .card-image { display: none; }
+.news-card.medium .card-img-top { display: none; }
 .card-image-placeholder {
   display: flex;
   flex-direction: column;
@@ -549,11 +539,11 @@ section {
   margin: -24px -24px 16px -24px;
 }
 .news-card-headline .card-body {
-  padding: 32px 36px;
+  padding: 24px 28px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 12px;
+  gap: 10px;
+  width: 100%;
 }
 /* Regular news cards */
 .news-card {
@@ -2238,7 +2228,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
         </div>
         <div class="card-body">
           <span class="card-badge breaking">BREAKING</span>
-          <h3 class="card-title">Anthropic 年化营收从 2024 年底 10 亿美元…</h3>
+          <h3 class="card-title">Anthropic 年化营收从 2024 年底 10 亿美元飙升至本月 300 亿美元</h3>
           <p class="card-summary"><strong>Anthropic</strong> 年化营收从 2024 年底 10 亿美元飙升至本月 300 亿美元，成为美国史上增长最快企业，超过 1000 家公司年支出超 100 万美元使用 Claude</p>
           <div class="card-footer">
             <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://www.axios.com/2026/04/29/ai-models-speed-warning" target="_blank" rel="noopener">原文 ↗</a>
@@ -2250,7 +2240,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <div class="news-card medium reveal" data-tags="#LLM,#Agent" data-bookmark-id="strongMicrosoft和OpenAIst">
         <img class="card-img-top" src="https://llm-stats.com/og/main.png" alt="Microsoft 和 OpenAI 解除独家协议，次日 A…" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?OpenAI%20artificial%20intelligence'">
         <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">Microsoft 和 OpenAI 解除独家协议，次日 A…</h3>
+        <h3 class="card-title">Microsoft 和 OpenAI 解除独家协议</h3>
         <p class="card-summary"><strong>Microsoft 和 OpenAI</strong> 解除独家协议，次日 AWS 在 Bedrock 平台推出三项 OpenAI 新服务，包括联合构建的 Agent 服务</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">原文 ↗</a>
@@ -2260,7 +2250,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#政策,#安全" data-bookmark-id="白宫正起草指引允许联邦机构重新使用Anthrop">
         <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">白宫正起草指引允许联邦机构重新使用 Anthropic 服务…</h3>
+        <h3 class="card-title">白宫正起草指引允许联邦机构重新使用 Anthropic 服务及 Claude Mythos 模型</h3>
         <p class="card-summary">白宫正起草指引允许联邦机构重新使用 Anthropic 服务及 <strong>Claude Mythos</strong> 模型，此前因拒绝军事用途被列为供应链风险</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://llm-stats.com/ai-news" target="_blank" rel="noopener">原文 ↗</a>
@@ -2270,7 +2260,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#开源,#LLM" data-bookmark-id="strongDeepSeekstrong于4月2">
         <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">DeepSeek 于4月24日发布 V4 Flash 和 V…</h3>
+        <h3 class="card-title">DeepSeek 于4月24日发布 V4 Flash 和 V4 Pro 系列</h3>
         <p class="card-summary"><strong>DeepSeek</strong> 于4月24日发布 V4 Flash 和 V4 Pro 系列，号称最强开源模型，采用混合注意力架构，支持 100 万 token 上下文窗口</p>
         <div class="card-footer">
           <span class="src-badge src-major-media">Major media</span><a class="card-source-link" href="https://www.bloomberg.com/news/articles/2026-04-24/deepseek-unveils-newest-flagship-a-year-after-ai-breakthrough" target="_blank" rel="noopener">原文 ↗</a>
@@ -2280,7 +2270,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#政策,#安全" data-bookmark-id="strongGooglestrong员工联名致信">
         <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">Google 员工联名致信 CEO 拒绝与国防部秘密 AI…</h3>
+        <h3 class="card-title">Google 员工联名致信 CEO 拒绝与国防部秘密 AI 军事合作</h3>
         <p class="card-summary"><strong>Google</strong> 员工联名致信 CEO 拒绝与国防部秘密 AI 军事合作，超 20 名董事级以上员工公开签署，涉及 Gemini 模型用于机密环境</p>
         <div class="card-footer">
           <span class="src-badge src-major-media">Major media</span><a class="card-source-link" href="https://www.euronews.com/next/2026/04/28/google-employees-urge-ceo-to-reject-inhumane-classified-military-ai-use" target="_blank" rel="noopener">原文 ↗</a>
@@ -2290,7 +2280,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#多模态,#开源" data-bookmark-id="strongNVIDIAstrong发布Nemo">
         <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">NVIDIA 发布 Nemotron 3 Nano Omni…</h3>
+        <h3 class="card-title">NVIDIA 发布 Nemotron 3 Nano Omni 多模态开源模型</h3>
         <p class="card-summary"><strong>NVIDIA</strong> 发布 Nemotron 3 Nano Omni 多模态开源模型，统一视频、音频、图像和文本推理，在 6 项 benchmark 排名第一</p>
         <div class="card-footer">
           <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" target="_blank" rel="noopener">原文 ↗</a>
@@ -2300,7 +2290,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#Agent,#安全" data-bookmark-id="strongClaudestrong编码Agen">
         <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">Claude 编码 Agent 误删除公司整个数据库并移除备…</h3>
+        <h3 class="card-title">Claude 编码 Agent 误删除公司整个数据库并移除备份的事件引发对自主 AI 系统风险的警示</h3>
         <p class="card-summary"><strong>Claude</strong> 编码 Agent 误删除公司整个数据库并移除备份的事件引发对自主 AI 系统风险的警示，事件发生在数秒内</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://hipther.com/latest-news/2026/04/29/110947/ai-dispatch-daily-trends-and-innovations-april-29-2026-claude-ai-agent-taylor-swift-openai-pompeii-ai-reconstruction-nvidia-nemotron/" target="_blank" rel="noopener">原文 ↗</a>
@@ -2310,7 +2300,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#多模态,#LLM" data-bookmark-id="苹果iOS27将于6月8日WWDC发布新增多项s">
         <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">苹果 iOS 27 将于 6 月 8 日 WWDC 发布，新…</h3>
+        <h3 class="card-title">苹果 iOS 27 将于 6 月 8 日 WWDC 发布</h3>
         <p class="card-summary">苹果 iOS 27 将于 6 月 8 日 WWDC 发布，新增多项 <strong>AI 驱动照片编辑</strong>功能，Tim Cook 将于 9 月 1 日卸任 CEO 由 John Ternus 接任</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update" target="_blank" rel="noopener">原文 ↗</a>
@@ -2320,7 +2310,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#政策" data-bookmark-id="美联储维持利率不变strongPowell最后一">
         <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">美联储维持利率不变，Powell 最后一次主持 FOMC 会…</h3>
+        <h3 class="card-title">美联储维持利率不变</h3>
         <p class="card-summary">美联储维持利率不变，<strong>Powell 最后一次主持 FOMC</strong> 会议出现 4 票反对（1992 年以来首次），预示未来货币政策分歧加剧</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update" target="_blank" rel="noopener">原文 ↗</a>
@@ -2330,7 +2320,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <div class="news-card reveal" data-tags="#LLM,#开源" data-bookmark-id="strongMetastrong发布首个专有模型">
         <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">Meta 发布首个专有模型 Muse Spark，标志其从纯…</h3>
+        <h3 class="card-title">Meta 发布首个专有模型 Muse Spark</h3>
         <p class="card-summary"><strong>Meta</strong> 发布首个专有模型 Muse Spark，标志其从纯开源战略转向，同时宣布 2026 年 AI 资本支出 1150-1350 亿美元，几乎翻倍</p>
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 ↗</a>
