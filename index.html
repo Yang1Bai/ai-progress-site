@@ -2987,13 +2987,14 @@ if (searchInput && searchResults) {
 })();
 
 // ===== Visitor counter (Cloudflare Worker + KV) =====
-(function() {
+// Wrapped in DOMContentLoaded so footer elements exist before getElementById runs
+document.addEventListener('DOMContentLoaded', function() {
   const WORKER = 'https://ai-hub-visitor-counter.yangbai0110.workers.dev';
   const LS_KEY = 'ai_hub_visited';
 
   const visEl  = document.getElementById('footer-visitors');
   const pvEl   = document.getElementById('footer-pageviews');
-  const legacyEl = document.getElementById('visitor-count'); // hidden stats row
+  const legacyEl = document.getElementById('visitor-count');
 
   function fmt(n) { return Number(n).toLocaleString('en-US'); }
 
@@ -3022,7 +3023,6 @@ if (searchInput && searchResults) {
     if (legacyEl) legacyEl.textContent = '统计中';
   }
 
-  // Determine new vs returning visitor via localStorage
   const isNew = !localStorage.getItem(LS_KEY);
   const url = WORKER + (isNew ? '?newVisitor=1' : '?newVisitor=0');
 
@@ -3033,7 +3033,7 @@ if (searchInput && searchResults) {
       render(data);
     })
     .catch(showError);
-})();
+});
 </script>
 
 <script id="oc-anim-js">
