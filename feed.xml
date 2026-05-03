@@ -5,83 +5,69 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-02T13:03:56Z</updated>
+  <updated>2026-05-03T13:02:44Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月2日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-02.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-02.html</id>
-    <updated>2026-05-02T13:03:56Z</updated>
+    <title>每日汇总 2026年5月3日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-03.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-03.html</id>
+    <updated>2026-05-03T13:02:44Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>五角大楼与 OpenAI、Google、微软、英伟达、亚马逊等七家科技巨头签署协议，在机密网络部署 AI 工具，Anthropic 因安全护栏争议被列入供应链风…</title>
+    <title>OpenAI 发布 GPT-5.5，4月24日 API 上线，最强代理模型在 SWE-Bench 等基准大幅领先，专攻自主编码和计算机操作任务。…</title>
+    <link href="https://openai.com/index/introducing-gpt-5-5/"/>
+    <id>https://openai.com/index/introducing-gpt-5-5/</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>OpenAI 发布 GPT-5.5，4月24日 API 上线，最强代理模型在 SWE-Bench 等基准大幅领先，专攻自主编码和计算机操作任务。</summary>
+  </entry>
+  <entry>
+    <title>五角大楼签约 7 家科技巨头（OpenAI/Google/微软/亚马逊/Nvidia/SpaceX/Reflection）部署 AI 至机密网络，排除 Anth…</title>
     <link href="https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"/>
     <id>https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>五角大楼与 OpenAI、Google、微软、英伟达、亚马逊等七家科技巨头签署协议，在机密网络部署 AI 工具，Anthropic 因安全护栏争议被列入供应链风险名单，但白宫已重启谈判。</summary>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>五角大楼签约 7 家科技巨头（OpenAI/Google/微软/亚马逊/Nvidia/SpaceX/Reflection）部署 AI 至机密网络，排除 Anthropic。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 GPT-5.5（4月23日），仅6周后跟进 GPT-5.4，部署更严格的网络安全分类器，模型在代码生成、计算机使用和科研推理任务上表现领先。…</title>
-    <link href="https://releasebot.io/updates/openai"/>
-    <id>https://releasebot.io/updates/openai</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>OpenAI 发布 GPT-5.5（4月23日），仅6周后跟进 GPT-5.4，部署更严格的网络安全分类器，模型在代码生成、计算机使用和科研推理任务上表现领先。</summary>
+    <title>马斯克起诉 OpenAI 案进入第四日庭审，奥特曼 4月28日出庭，指控 OpenAI 背离非营利使命，索赔 1300 亿美元。…</title>
+    <link href="https://www.cnn.com/2026/04/28/tech/elon-musk-sam-altman-openai-trial"/>
+    <id>https://www.cnn.com/2026/04/28/tech/elon-musk-sam-altman-openai-trial</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>马斯克起诉 OpenAI 案进入第四日庭审，奥特曼 4月28日出庭，指控 OpenAI 背离非营利使命，索赔 1300 亿美元。</summary>
   </entry>
   <entry>
-    <title>Google 发布 Gemini 3.1 Ultra，支持200万 token 原生多模态上下文窗口（文本、图像、音频、视频），并推出 Gemini 3.1 F…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Google 发布 Gemini 3.1 Ultra，支持200万 token 原生多模态上下文窗口（文本、图像、音频、视频），并推出 Gemini 3.1 Flash-Lite 以2.5倍速度和45%更快输出降低成本至每百万 token 0.25美元。</summary>
+    <title>Anthropic Mythos 模型擅长网络安全漏洞发现，4月17日与白宫举行&quot;建设性&quot;会谈，关系缓和但法律诉讼仍在进行。…</title>
+    <link href="https://www.cnn.com/2026/04/17/business/anthropic-white-house-meeting-dario-amodei"/>
+    <id>https://www.cnn.com/2026/04/17/business/anthropic-white-house-meeting-dario-amodei</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>Anthropic Mythos 模型擅长网络安全漏洞发现，4月17日与白宫举行&quot;建设性&quot;会谈，关系缓和但法律诉讼仍在进行。</summary>
   </entry>
   <entry>
-    <title>华为 AI 芯片营收预计2026年达到120亿美元，同比增长60%，其 Ascend 950PR 订单激增，填补英伟达在中国市场的空白。…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>华为 AI 芯片营收预计2026年达到120亿美元，同比增长60%，其 Ascend 950PR 订单激增，填补英伟达在中国市场的空白。</summary>
+    <title>OpenAI CFO 与奥特曼传出分歧：Q1 营收未达标且数据中心支出过高，双方发联合声明否认，称报道&quot;荒谬&quot;。…</title>
+    <link href="https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/"/>
+    <id>https://fortune.com/2026/04/28/openai-cfo-sam-altman-missed-revenue-target/</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>OpenAI CFO 与奥特曼传出分歧：Q1 营收未达标且数据中心支出过高，双方发联合声明否认，称报道&quot;荒谬&quot;。</summary>
   </entry>
   <entry>
-    <title>Sony AI 发布 Ace 乒乓球机器人，在《Nature》封面论文中展示首个击败精英及职业选手的自主物理 AI 系统，标志着 AI 在高速物理交互领域的里程…</title>
-    <link href="https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics"/>
-    <id>https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Sony AI 发布 Ace 乒乓球机器人，在《Nature》封面论文中展示首个击败精英及职业选手的自主物理 AI 系统，标志着 AI 在高速物理交互领域的里程碑。</summary>
+    <title>中国科协撤销 NeurIPS 2026 学术认可，因会议制裁条款引发抵制，多位华人学者退出组委会职位。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>中国科协撤销 NeurIPS 2026 学术认可，因会议制裁条款引发抵制，多位华人学者退出组委会职位。</summary>
   </entry>
   <entry>
-    <title>Anthropic 推出 Project Glasswing，联合主要科技公司和网络安全厂商建立联盟，保护关键软件安全，同时发布 Claude Opus 4.7…</title>
-    <link href="https://fortune.com/2026/04/07/openai-drama-sam-altman-ipo-anthropic-cybersecurity-risks-eye-on-ai/"/>
-    <id>https://fortune.com/2026/04/07/openai-drama-sam-altman-ipo-anthropic-cybersecurity-risks-eye-on-ai/</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Anthropic 推出 Project Glasswing，联合主要科技公司和网络安全厂商建立联盟，保护关键软件安全，同时发布 Claude Opus 4.7 和内部测试的 Mythos 网络安全模型。</summary>
+    <title>摩根士丹利警告 2026 上半年将有 AI 重大突破，GPT-5.4 Thinking 在 GDPVal 已达人类专家水平（83%）。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>摩根士丹利警告 2026 上半年将有 AI 重大突破，GPT-5.4 Thinking 在 GDPVal 已达人类专家水平（83%）。</summary>
   </entry>
   <entry>
-    <title>Google 在 ICLR 2026 发布 TurboQuant 算法，通过 PolarQuant 和 Quantized Johnson-Lindenstra…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Google 在 ICLR 2026 发布 TurboQuant 算法，通过 PolarQuant 和 Quantized Johnson-Lindenstrauss 压缩方法，将 KV 缓存内存开销降低6倍，显著提升大模型推理效率。</summary>
-  </entry>
-  <entry>
-    <title>Novo Nordisk 与 OpenAI 达成战略合作，计划在2026年底前将 AI 全面整合到药物发现、临床试验、制造、供应链和商业运营，加速肥胖和糖尿病治…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Novo Nordisk 与 OpenAI 达成战略合作，计划在2026年底前将 AI 全面整合到药物发现、临床试验、制造、供应链和商业运营，加速肥胖和糖尿病治疗药物开发。</summary>
-  </entry>
-  <entry>
-    <title>Meta 推出 Muse Spark，首个由新成立的超级智能实验室（负责人为前 Scale AI CEO 王亚历山大）开发的旗舰大模型，偏离过去的开源 Llam…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>Meta 推出 Muse Spark，首个由新成立的超级智能实验室（负责人为前 Scale AI CEO 王亚历山大）开发的旗舰大模型，偏离过去的开源 Llama 策略，在多模态感知和推理任务上达到竞争性能且计算成本更低。</summary>
-  </entry>
-  <entry>
-    <title>阿里巴巴 Happy Horse 1.0 视频生成模型在 Artificial Analysis Video Arena 匿名测试中以1389 Elo 分登顶榜…</title>
-    <link href="https://www.buildfastwithai.com/blogs/best-ai-models-may-2026-leaderboard"/>
-    <id>https://www.buildfastwithai.com/blogs/best-ai-models-may-2026-leaderboard</id>
-    <updated>2026-05-02T13:03:56Z</updated>
-    <summary>阿里巴巴 Happy Horse 1.0 视频生成模型在 Artificial Analysis Video Arena 匿名测试中以1389 Elo 分登顶榜首，150亿参数规模成为 AI 视频历史最高分，中国实验室主导视频生成赛道。</summary>
+    <title>Meta 收购机器人 AI 公司 Assured Robot Intelligence，加码人形机器人技术开发。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-05-03T13:02:44Z</updated>
+    <summary>Meta 收购机器人 AI 公司 Assured Robot Intelligence，加码人形机器人技术开发。</summary>
   </entry>
 </feed>
