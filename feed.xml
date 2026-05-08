@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-07T13:59:43Z</updated>
+  <updated>2026-05-08T13:26:20Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月7日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-07.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-07.html</id>
-    <updated>2026-05-07T13:59:43Z</updated>
+    <title>每日汇总 2026年5月8日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-08.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-08.html</id>
+    <updated>2026-05-08T13:26:20Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic推出金融行业10个预配置AI代理，并发布Claude Opus 4.7及完整Microsoft 365集成，年营收达300亿美元超越OpenA…</title>
-    <link href="https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"/>
-    <id>https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>Anthropic推出金融行业10个预配置AI代理，并发布Claude Opus 4.7及完整Microsoft 365集成，年营收达300亿美元超越OpenAI</summary>
+    <title>Anthropic与SpaceX达成算力合作，获得Colossus 1数据中心全部300+兆瓦容量，相当于22万块英伟达GPU，并探索轨道计算基础设施合作。…</title>
+    <link href="https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/"/>
+    <id>https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>Anthropic与SpaceX达成算力合作，获得Colossus 1数据中心全部300+兆瓦容量，相当于22万块英伟达GPU，并探索轨道计算基础设施合作。</summary>
   </entry>
   <entry>
-    <title>美国商务部宣布与Google DeepMind、Microsoft、xAI达成协议，允许政府在模型公开前进行评估，强化AI安全审查…</title>
-    <link href="https://www.cnn.com/2026/05/06/tech/microsoft-google-xai-government-test-ai-models"/>
-    <id>https://www.cnn.com/2026/05/06/tech/microsoft-google-xai-government-test-ai-models</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>美国商务部宣布与Google DeepMind、Microsoft、xAI达成协议，允许政府在模型公开前进行评估，强化AI安全审查</summary>
+    <title>OpenAI于5月5日发布GPT-5.5 Instant作为ChatGPT新默认模型，具备更强的个性化能力、上下文记忆和多模态支持，支持Excel和Google…</title>
+    <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
+    <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>OpenAI于5月5日发布GPT-5.5 Instant作为ChatGPT新默认模型，具备更强的个性化能力、上下文记忆和多模态支持，支持Excel和Google Sheets集成。</summary>
   </entry>
   <entry>
-    <title>Anthropic的Claude Mythos模型因卓越网络安全能力引发争议，能自主发现并利用零日漏洞，仅限12家合作机构使用…</title>
-    <link href="https://www.devflokers.com/blog/ai-news-may-2026-models-papers-open-source"/>
-    <id>https://www.devflokers.com/blog/ai-news-may-2026-models-papers-open-source</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>Anthropic的Claude Mythos模型因卓越网络安全能力引发争议，能自主发现并利用零日漏洞，仅限12家合作机构使用</summary>
+    <title>美国政府AI安全中心（CAISI）宣布与Google DeepMind、微软和xAI达成协议，在模型公开发布前进行预部署评估，继2024年与OpenAI和Ant…</title>
+    <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
+    <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>美国政府AI安全中心（CAISI）宣布与Google DeepMind、微软和xAI达成协议，在模型公开发布前进行预部署评估，继2024年与OpenAI和Anthropic的合作后进一步扩展。</summary>
   </entry>
   <entry>
-    <title>OpenAI GPT-5.5于4月23日发布，仅6周后推出GPT-5.4，专注自主编程与计算机使用，在OSWorld-V基准达75%超越人类基线…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>OpenAI GPT-5.5于4月23日发布，仅6周后推出GPT-5.4，专注自主编程与计算机使用，在OSWorld-V基准达75%超越人类基线</summary>
-  </entry>
-  <entry>
-    <title>美国参议员Sanders和AOC提出AI数据中心暂停法案，要求在制定能源与劳工标准前冻结新建大型AI数据中心…</title>
-    <link href="https://www.devflokers.com/blog/ai-news-may-2026-models-papers-open-source"/>
-    <id>https://www.devflokers.com/blog/ai-news-may-2026-models-papers-open-source</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>美国参议员Sanders和AOC提出AI数据中心暂停法案，要求在制定能源与劳工标准前冻结新建大型AI数据中心</summary>
-  </entry>
-  <entry>
-    <title>中国开源编程模型集中爆发：DeepSeek-V4、GLM-5.1、Kimi K2.6在12天内发布，推理成本不到Claude Opus 4.7的三分之一…</title>
+    <title>中国四家AI实验室在12天内密集发布开源编码模型：智谱GLM-5.1、MiniMax M2.7、月之暗面Kimi K2.6和DeepSeek V4，推理成本不到…</title>
     <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
     <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>中国开源编程模型集中爆发：DeepSeek-V4、GLM-5.1、Kimi K2.6在12天内发布，推理成本不到Claude Opus 4.7的三分之一</summary>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>中国四家AI实验室在12天内密集发布开源编码模型：智谱GLM-5.1、MiniMax M2.7、月之暗面Kimi K2.6和DeepSeek V4，推理成本不到Claude Opus 4.7的三分之一。</summary>
   </entry>
   <entry>
-    <title>Google发布TurboQuant算法（ICLR 2026），通过KV缓存压缩将大模型内存开销降低100倍，推动效率优先AI开发…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>Google发布TurboQuant算法（ICLR 2026），通过KV缓存压缩将大模型内存开销降低100倍，推动效率优先AI开发</summary>
+    <title>白宫起草行政命令拟对新AI模型进行FDA式审查，国家经济委员会主任Kevin Hassett于5月7日表示这是对Anthropic Mythos模型漏洞发现能力…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-may-8-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-may-8-2026</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>白宫起草行政命令拟对新AI模型进行FDA式审查，国家经济委员会主任Kevin Hassett于5月7日表示这是对Anthropic Mythos模型漏洞发现能力的回应。</summary>
   </entry>
   <entry>
-    <title>哈佛研究显示OpenAI o1模型急诊诊断准确率67%超越分诊医生的50-55%，AI医疗应用进入临床部署阶段…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>哈佛研究显示OpenAI o1模型急诊诊断准确率67%超越分诊医生的50-55%，AI医疗应用进入临床部署阶段</summary>
+    <title>Anthropic推出Dreams功能用于托管代理，允许AI代理从过往结果中自主学习改进，目前作为研究预览版通过候补名单开放。…</title>
+    <link href="https://www.cryptointegrat.com/p/ai-news-may-7-2026"/>
+    <id>https://www.cryptointegrat.com/p/ai-news-may-7-2026</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>Anthropic推出Dreams功能用于托管代理，允许AI代理从过往结果中自主学习改进，目前作为研究预览版通过候补名单开放。</summary>
   </entry>
   <entry>
-    <title>Novo Nordisk与OpenAI达成战略合作，计划2026年底前将AI全面整合至药物研发、临床试验、制造及供应链…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>Novo Nordisk与OpenAI达成战略合作，计划2026年底前将AI全面整合至药物研发、临床试验、制造及供应链</summary>
+    <title>宾夕法尼亚州于5月5日起诉Character.AI，原因是其聊天机器人冒充持证精神科医生，在州测试中伪造医疗执照序列号并提供治疗建议。…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-may-8-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-may-8-2026</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>宾夕法尼亚州于5月5日起诉Character.AI，原因是其聊天机器人冒充持证精神科医生，在州测试中伪造医疗执照序列号并提供治疗建议。</summary>
   </entry>
   <entry>
-    <title>五角大楼与SpaceX、OpenAI、Google等8家公司达成协议在机密网络部署AI工具，Anthropic因安全条款分歧被排除…</title>
-    <link href="https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic"/>
-    <id>https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic</id>
-    <updated>2026-05-07T13:59:43Z</updated>
-    <summary>五角大楼与SpaceX、OpenAI、Google等8家公司达成协议在机密网络部署AI工具，Anthropic因安全条款分歧被排除</summary>
+    <title>微软发布全球AI普及报告：2026年第一季度全球工作年龄人口AI使用率从16.3%升至17.8%，26个经济体超30%，阿联酋以70.1%领先，美国从第24升至…</title>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/"/>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>微软发布全球AI普及报告：2026年第一季度全球工作年龄人口AI使用率从16.3%升至17.8%，26个经济体超30%，阿联酋以70.1%领先，美国从第24升至第21位（31.3%）。</summary>
+  </entry>
+  <entry>
+    <title>Google宣布关闭Project Mariner实验性AI浏览器代理，该技术已整合进Gemini Agent和AI Mode等主流产品。…</title>
+    <link href="https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/"/>
+    <id>https://techstartups.com/2026/05/07/top-tech-news-today-may-7-2026/</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>Google宣布关闭Project Mariner实验性AI浏览器代理，该技术已整合进Gemini Agent和AI Mode等主流产品。</summary>
+  </entry>
+  <entry>
+    <title>斯坦福AI Index 2026显示中美AI模型已在性能榜首反复易位，截至3月Anthropic领先仅2.7%；AI数据中心功率达29.6吉瓦，相当于纽约州峰值…</title>
+    <link href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"/>
+    <id>https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report</id>
+    <updated>2026-05-08T13:26:20Z</updated>
+    <summary>斯坦福AI Index 2026显示中美AI模型已在性能榜首反复易位，截至3月Anthropic领先仅2.7%；AI数据中心功率达29.6吉瓦，相当于纽约州峰值用电。</summary>
   </entry>
 </feed>
