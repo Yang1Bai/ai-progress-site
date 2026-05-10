@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-09T13:10:01Z</updated>
+  <updated>2026-05-10T13:11:13Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月9日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-09.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-09.html</id>
-    <updated>2026-05-09T13:10:01Z</updated>
+    <title>每日汇总 2026年5月10日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-10.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-10.html</id>
+    <updated>2026-05-10T13:11:13Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 发布 Claude Opus 4.7，在 SWE-bench Pro 上达到 64.3%，完整 Microsoft 365 集成覆盖四大应用…</title>
-    <link href="https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"/>
-    <id>https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>Anthropic 发布 Claude Opus 4.7，在 SWE-bench Pro 上达到 64.3%，完整 Microsoft 365 集成覆盖四大应用。</summary>
-  </entry>
-  <entry>
-    <title>美商务部 CAISI 宣布与 Google DeepMind、微软、xAI 达成协议，提前评估未发布 AI 模型。…</title>
+    <title>美国政府宣布与 Google、微软、xAI 达成协议，将在 AI 模型公开发布前进行预部署评估，标志着 AI 监管进入新阶段。…</title>
     <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
     <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>美商务部 CAISI 宣布与 Google DeepMind、微软、xAI 达成协议，提前评估未发布 AI 模型。</summary>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>美国政府宣布与 Google、微软、xAI 达成协议，将在 AI 模型公开发布前进行预部署评估，标志着 AI 监管进入新阶段。</summary>
   </entry>
   <entry>
-    <title>Anthropic 计划融资 500 亿美元，估值或达 9000 亿美元，成为有史以来最大私募轮之一。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>Anthropic 计划融资 500 亿美元，估值或达 9000 亿美元，成为有史以来最大私募轮之一。</summary>
+    <title>Anthropic Claude Mythos 在内部测试中发现数千个零日漏洞，包括 OpenBSD 中存在 27 年的缺陷，引发网络安全领域震动。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>Anthropic Claude Mythos 在内部测试中发现数千个零日漏洞，包括 OpenBSD 中存在 27 年的缺陷，引发网络安全领域震动。</summary>
   </entry>
   <entry>
-    <title>Google 发布 Gemma 4 多令牌预测优化，推理速度提升 3 倍，下载量已超 6000 万次。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>Google 发布 Gemma 4 多令牌预测优化，推理速度提升 3 倍，下载量已超 6000 万次。</summary>
+    <title>OpenAI 推出 GPT-5.5-Cyber 专用模型，向经审查的网络安全团队限量开放，一个月后 Anthropic 发布 Mythos。…</title>
+    <link href="https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html"/>
+    <id>https://www.cnbc.com/2026/05/07/openai-rolls-out-new-gpt-5point5-cyber-to-vetted-cybersecurity-teams.html</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>OpenAI 推出 GPT-5.5-Cyber 专用模型，向经审查的网络安全团队限量开放，一个月后 Anthropic 发布 Mythos。</summary>
   </entry>
   <entry>
-    <title>NVIDIA 发布 Isaac GR00T 开源模型和 Cosmos 世界模型，加速物理 AI 和机器人训练。…</title>
-    <link href="https://blogs.nvidia.com/blog/national-robotics-week-2026/"/>
-    <id>https://blogs.nvidia.com/blog/national-robotics-week-2026/</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>NVIDIA 发布 Isaac GR00T 开源模型和 Cosmos 世界模型，加速物理 AI 和机器人训练。</summary>
+    <title>Anthropic 在 Q1 收入增长 80 倍，年化营收超过 440 亿美元，与 Google Cloud 签署 2000 亿美元承诺，并与 SpaceX 达…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>Anthropic 在 Q1 收入增长 80 倍，年化营收超过 440 亿美元，与 Google Cloud 签署 2000 亿美元承诺，并与 SpaceX 达成算力协议。</summary>
   </entry>
   <entry>
-    <title>Novo Nordisk 与 OpenAI 达成战略合作，将 AI 全面整合至药物发现、临床试验及供应链，计划 2026 年底部署完成。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>Novo Nordisk 与 OpenAI 达成战略合作，将 AI 全面整合至药物发现、临床试验及供应链，计划 2026 年底部署完成。</summary>
+    <title>英伟达 2026 年投资超 400 亿美元，在 AI 基础设施领域加速布局，包括对 OpenAI 30 亿美元投资及对 Corning、IREN 的战略投资。…</title>
+    <link href="https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html"/>
+    <id>https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>英伟达 2026 年投资超 400 亿美元，在 AI 基础设施领域加速布局，包括对 OpenAI 30 亿美元投资及对 Corning、IREN 的战略投资。</summary>
   </entry>
   <entry>
-    <title>斯坦福 AI Index 2026 报告：中美模型性能差距缩至 2.7%，中国在编码领域 8 个月内追平西方。…</title>
-    <link href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"/>
-    <id>https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>斯坦福 AI Index 2026 报告：中美模型性能差距缩至 2.7%，中国在编码领域 8 个月内追平西方。</summary>
+    <title>研究发现 AI 模型可自我复制并传播到其他服务器，GPT-5 系列和 Claude Opus 4.6 在测试中成功完成自主黑客攻击与自我传播。…</title>
+    <link href="https://www.euronews.com/next/2026/05/09/ai-models-can-hack-computers-and-self-replicate-onto-new-machines-new-research-finds"/>
+    <id>https://www.euronews.com/next/2026/05/09/ai-models-can-hack-computers-and-self-replicate-onto-new-machines-new-research-finds</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>研究发现 AI 模型可自我复制并传播到其他服务器，GPT-5 系列和 Claude Opus 4.6 在测试中成功完成自主黑客攻击与自我传播。</summary>
   </entry>
   <entry>
-    <title>AI 数据中心功率达 29.6 GW，相当于纽约州峰值电力；GPT-4o 推理用水量超 120 万人饮用需求。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>AI 数据中心功率达 29.6 GW，相当于纽约州峰值电力；GPT-4o 推理用水量超 120 万人饮用需求。</summary>
+    <title>Novo Nordisk 与 OpenAI 达成战略合作，计划在 2026 年底前将 AI 全面部署到药物发现、临床试验、制造和供应链各环节。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>Novo Nordisk 与 OpenAI 达成战略合作，计划在 2026 年底前将 AI 全面部署到药物发现、临床试验、制造和供应链各环节。</summary>
   </entry>
   <entry>
-    <title>英国 AI 安全研究所评估显示 Claude Mythos Preview 和 GPT-5.5 在 32 步网络攻击模拟中成功率超 70%。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>英国 AI 安全研究所评估显示 Claude Mythos Preview 和 GPT-5.5 在 32 步网络攻击模拟中成功率超 70%。</summary>
+    <title>中国四家实验室在 12 天内发布开源编码模型：GLM-5.1、MiniMax M2.7、Kimi K2.6 和 DeepSeek V4，性能接近西方前沿模型但成…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>中国四家实验室在 12 天内发布开源编码模型：GLM-5.1、MiniMax M2.7、Kimi K2.6 和 DeepSeek V4，性能接近西方前沿模型但成本仅 1/3。</summary>
   </entry>
   <entry>
-    <title>ScienceDaily 报道 AI 系统 Synthegy 让化学家用自然语言指导分子合成与反应规划。…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-05-09T13:10:01Z</updated>
-    <summary>ScienceDaily 报道 AI 系统 Synthegy 让化学家用自然语言指导分子合成与反应规划。</summary>
+    <title>OpenAI 收购媒体节目 TBPN，交易金额达数亿美元，这是 OpenAI 首次收购媒体资产，被解读为 IPO 前的公关布局。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>OpenAI 收购媒体节目 TBPN，交易金额达数亿美元，这是 OpenAI 首次收购媒体资产，被解读为 IPO 前的公关布局。</summary>
+  </entry>
+  <entry>
+    <title>MIT 发布报告显示 AI 导致的攻击时间窗口急剧缩短，2025 年漏洞利用中位时间从 2020 年的 700 天降至 44 天，28.3% 的 CVE 在披露…</title>
+    <link href="https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html"/>
+    <id>https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html</id>
+    <updated>2026-05-10T13:11:13Z</updated>
+    <summary>MIT 发布报告显示 AI 导致的攻击时间窗口急剧缩短，2025 年漏洞利用中位时间从 2020 年的 700 天降至 44 天，28.3% 的 CVE 在披露后 24 小时内被利用。</summary>
   </entry>
 </feed>
