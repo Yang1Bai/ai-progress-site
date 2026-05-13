@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-12T14:14:25Z</updated>
+  <updated>2026-05-13T14:26:23Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月12日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-12.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-12.html</id>
-    <updated>2026-05-12T14:14:25Z</updated>
+    <title>每日汇总 2026年5月13日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-13.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-13.html</id>
+    <updated>2026-05-13T14:26:23Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google 成功阻止黑客组织利用 AI 进行大规模攻击事件，该组织计划使用 AI 工具 OpenClaw 发动零日攻击，但 Google 的主动发现可能阻止了…</title>
-    <link href="https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html"/>
-    <id>https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Google 成功阻止黑客组织利用 AI 进行大规模攻击事件，该组织计划使用 AI 工具 OpenClaw 发动零日攻击，但 Google 的主动发现可能阻止了其使用。</summary>
+    <title>OpenAI CEO 萨姆·奥特曼出庭作证，反驳马斯克指控，称 Musk 曾要求 90% 股权并提议将 OpenAI 传给子女…</title>
+    <link href="https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial"/>
+    <id>https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>OpenAI CEO 萨姆·奥特曼出庭作证，反驳马斯克指控，称 Musk 曾要求 90% 股权并提议将 OpenAI 传给子女</summary>
   </entry>
   <entry>
-    <title>Microsoft、Google 和 xAI 同意向美国政府提供 AI 模型早期访问权限，供商务部 CAISI 在公开发布前进行国家安全测试和风险评估。…</title>
-    <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
-    <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Microsoft、Google 和 xAI 同意向美国政府提供 AI 模型早期访问权限，供商务部 CAISI 在公开发布前进行国家安全测试和风险评估。</summary>
+    <title>Anthropic 一季度营收年化增长 80 倍，CEO 称增长「太疯狂」，与 SpaceX 合作获取 300+ MW 算力…</title>
+    <link href="https://www.cnbc.com/2026/05/06/anthropic-ceo-dario-amodei-says-company-crew-80-fold-in-first-quarter.html"/>
+    <id>https://www.cnbc.com/2026/05/06/anthropic-ceo-dario-amodei-says-company-crew-80-fold-in-first-quarter.html</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>Anthropic 一季度营收年化增长 80 倍，CEO 称增长「太疯狂」，与 SpaceX 合作获取 300+ MW 算力</summary>
   </entry>
   <entry>
-    <title>Anthropic 推出 Project Glasswing 计划，向精选企业（AWS、Apple、Cisco、Google 等）开放 Claude Mytho…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Anthropic 推出 Project Glasswing 计划，向精选企业（AWS、Apple、Cisco、Google 等）开放 Claude Mythos Preview，该模型能发现零日漏洞，数周测试发现数千个主要操作系统和浏览器漏洞。</summary>
+    <title>Anthropic Claude Mythos 模型发现数万软件漏洞，CEO 警告有 6-12 个月窗口期修复，中国 AI 追赶迅速…</title>
+    <link href="https://www.cnbc.com/2026/05/05/anthropic-ceo-cyber-moment-of-danger-mythos-vulnerabilities.html"/>
+    <id>https://www.cnbc.com/2026/05/05/anthropic-ceo-cyber-moment-of-danger-mythos-vulnerabilities.html</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>Anthropic Claude Mythos 模型发现数万软件漏洞，CEO 警告有 6-12 个月窗口期修复，中国 AI 追赶迅速</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 新的默认模型，在 AIME 2025 数学测试中得分 81.2（前代 65.4），能搜…</title>
+    <title>OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 新默认模型，减少 50% 幻觉率，并可搜索历史对话和文件…</title>
     <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
     <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 新的默认模型，在 AIME 2025 数学测试中得分 81.2（前代 65.4），能搜索过去对话、文件和 Gmail 提供个性化回答。</summary>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>OpenAI 发布 GPT-5.5 Instant，成为 ChatGPT 新默认模型，减少 50% 幻觉率，并可搜索历史对话和文件</summary>
   </entry>
   <entry>
-    <title>OpenAI 和 Anthropic 正探索收购工程服务和咨询公司，OpenAI 计划筹集约 40 亿美元建立部署公司，Anthropic 也筹集约 15 亿美…</title>
+    <title>Google 发布 Gemma 4 开源模型，针对高级推理与智能体工作流优化，已有 5 亿次下载量…</title>
+    <link href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"/>
+    <id>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>Google 发布 Gemma 4 开源模型，针对高级推理与智能体工作流优化，已有 5 亿次下载量</summary>
+  </entry>
+  <entry>
+    <title>黄仁勋在卡内基梅隆大学毕业演讲中称，毕业生正站在 AI 革命起点，这一时刻无比完美…</title>
+    <link href="https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/"/>
+    <id>https://blogs.nvidia.com/blog/nvidia-ceo-carnegie-mellon-commencement-address/</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>黄仁勋在卡内基梅隆大学毕业演讲中称，毕业生正站在 AI 革命起点，这一时刻无比完美</summary>
+  </entry>
+  <entry>
+    <title>中国四家 AI 实验室 12 天内发布开源编码模型，包括 GLM-5.1、MiniMax M2.7、Kimi K2.6 和 DeepSeek V4…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>中国四家 AI 实验室 12 天内发布开源编码模型，包括 GLM-5.1、MiniMax M2.7、Kimi K2.6 和 DeepSeek V4</summary>
+  </entry>
+  <entry>
+    <title>Meta 宣布 AI 资本支出达 1150-1350 亿美元，几乎是去年两倍，并推出 Llama 4 小型专有模型…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>OpenAI 和 Anthropic 正探索收购工程服务和咨询公司，OpenAI 计划筹集约 40 亿美元建立部署公司，Anthropic 也筹集约 15 亿美元用于企业 AI 部署。</summary>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>Meta 宣布 AI 资本支出达 1150-1350 亿美元，几乎是去年两倍，并推出 Llama 4 小型专有模型</summary>
   </entry>
   <entry>
-    <title>Nvidia 在 2026 年承诺超过 400 亿美元股权投资，包括对 OpenAI 投资 300 亿美元、Corning 32 亿美元和 IREN 21 亿美…</title>
+    <title>NVIDIA 与 Corning 合作将美国光纤产能提升 10 倍，在北卡和德州建三家新厂，创造 3000+ 就业…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Nvidia 在 2026 年承诺超过 400 亿美元股权投资，包括对 OpenAI 投资 300 亿美元、Corning 32 亿美元和 IREN 21 亿美元。</summary>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>NVIDIA 与 Corning 合作将美国光纤产能提升 10 倍，在北卡和德州建三家新厂，创造 3000+ 就业</summary>
   </entry>
   <entry>
-    <title>四家中国实验室在 12 天内发布开源编码模型：智谱 GLM-5.1、MiniMax M2.7、Moonshot Kimi K2.6 和 DeepSeek V4，…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>四家中国实验室在 12 天内发布开源编码模型：智谱 GLM-5.1、MiniMax M2.7、Moonshot Kimi K2.6 和 DeepSeek V4，达到西方前沿水平但推理成本不到 Claude Opus 4.7 的三分之一。</summary>
-  </entry>
-  <entry>
-    <title>Alphabet 股价在过去 12 个月上涨 160%，分析师称其因拥有芯片、模型、基础设施和分发渠道的「全栈」能力而成为最佳定位的 AI 公司之一。…</title>
-    <link href="https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html"/>
-    <id>https://www.cnbc.com/2026/05/10/alphabet-160percent-rally-in-year-reflects-value-of-owning-most-of-ai-stack.html</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Alphabet 股价在过去 12 个月上涨 160%，分析师称其因拥有芯片、模型、基础设施和分发渠道的「全栈」能力而成为最佳定位的 AI 公司之一。</summary>
-  </entry>
-  <entry>
-    <title>Stanford AI Index 2026 报告显示，生成式 AI 在三年内达到 53% 的人口采用率，快于个人电脑或互联网；美国消费者从生成式 AI 工具获…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>Stanford AI Index 2026 报告显示，生成式 AI 在三年内达到 53% 的人口采用率，快于个人电脑或互联网；美国消费者从生成式 AI 工具获得的估计价值达每年 1720 亿美元。</summary>
-  </entry>
-  <entry>
-    <title>76% 的组织在 2026 年雇佣首席 AI 官（CAIO），而 2025 年仅为 26%，突显企业对专门 AI 领导的战略重视。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-12T14:14:25Z</updated>
-    <summary>76% 的组织在 2026 年雇佣首席 AI 官（CAIO），而 2025 年仅为 26%，突显企业对专门 AI 领导的战略重视。</summary>
+    <title>澳大利亚 2026 年公有云支出将达 336 亿美元，同比增长 17.9%，AI 工作负载推动需求…</title>
+    <link href="https://www.arnnet.com.au/article/4169761/ai-demand-drives-surge-in-expected-public-cloud-spend-to-33-6b.html"/>
+    <id>https://www.arnnet.com.au/article/4169761/ai-demand-drives-surge-in-expected-public-cloud-spend-to-33-6b.html</id>
+    <updated>2026-05-13T14:26:23Z</updated>
+    <summary>澳大利亚 2026 年公有云支出将达 336 亿美元，同比增长 17.9%，AI 工作负载推动需求</summary>
   </entry>
 </feed>
