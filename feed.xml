@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-15T13:59:58Z</updated>
+  <updated>2026-05-16T13:16:18Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月15日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-15.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-15.html</id>
-    <updated>2026-05-15T13:59:58Z</updated>
+    <title>每日汇总 2026年5月16日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-16.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-16.html</id>
+    <updated>2026-05-16T13:16:18Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 与盖茨基金会达成2亿美元合作伙伴关系，同时于5月13日推出 Claude for Small Business 服务，集成 QuickBoo…</title>
-    <link href="https://www.anthropic.com/news"/>
-    <id>https://www.anthropic.com/news</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>Anthropic 与盖茨基金会达成2亿美元合作伙伴关系，同时于5月13日推出 Claude for Small Business 服务，集成 QuickBooks、PayPal、HubSpot 等工具。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 发布 GPT-5.5 Instant 成为 ChatGPT 新默认模型（5月5日），在 AIME 2025 数学测试中得分81.2%，MMMU-P…</title>
+    <title>OpenAI发布GPT-5.5 Instant成为ChatGPT新默认模型,在数学推理(AIME 81.2分)和多模态任务上显著提升,支持记忆搜索个性化回答。…</title>
     <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
     <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>OpenAI 发布 GPT-5.5 Instant 成为 ChatGPT 新默认模型（5月5日），在 AIME 2025 数学测试中得分81.2%，MMMU-Pro 多模态推理得分76%。</summary>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>OpenAI发布GPT-5.5 Instant成为ChatGPT新默认模型,在数学推理(AIME 81.2分)和多模态任务上显著提升,支持记忆搜索个性化回答。</summary>
   </entry>
   <entry>
-    <title>美国商务部 CAISI 与 Google DeepMind、微软、xAI 签署协议，将在模型公开发布前进行预部署评估和安全研究。…</title>
+    <title>谷歌推出开源Gemma 4系列模型,专为高级推理和Agent工作流设计,提供前所未有的单参数智能密度,下载量已超5亿次。…</title>
+    <link href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"/>
+    <id>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</id>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>谷歌推出开源Gemma 4系列模型,专为高级推理和Agent工作流设计,提供前所未有的单参数智能密度,下载量已超5亿次。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic启动Project Glasswing项目,向AWS、苹果、思科等机构提供Claude Mythos Preview用于漏洞发现,数周内识别包…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>Anthropic启动Project Glasswing项目,向AWS、苹果、思科等机构提供Claude Mythos Preview用于漏洞发现,数周内识别包括27年历史OpenBSD漏洞在内的数千个零日漏洞。</summary>
+  </entry>
+  <entry>
+    <title>马斯克xAI宣布不再独立运营,将大部分算力转交给Anthropic,Grok产品并入SpaceXAI,标志着AI竞争格局重大调整。…</title>
+    <link href="https://www.digitimes.com/news/a20260511PD229/anthropic-xai-elon-musk-computing-power-2026.html"/>
+    <id>https://www.digitimes.com/news/a20260511PD229/anthropic-xai-elon-musk-computing-power-2026.html</id>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>马斯克xAI宣布不再独立运营,将大部分算力转交给Anthropic,Grok产品并入SpaceXAI,标志着AI竞争格局重大调整。</summary>
+  </entry>
+  <entry>
+    <title>微软发布MAI-Transcribe-1语音转文本模型,准确率和速度达到行业领先,同时推出MAI-Voice-1和MAI-Image-2模型供商业使用。…</title>
+    <link href="https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/"/>
+    <id>https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/</id>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>微软发布MAI-Transcribe-1语音转文本模型,准确率和速度达到行业领先,同时推出MAI-Voice-1和MAI-Image-2模型供商业使用。</summary>
+  </entry>
+  <entry>
+    <title>美国政府AI标准与创新中心与谷歌DeepMind、微软、xAI达成协议,在模型公开发布前进行预部署评估和安全研究。…</title>
     <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
     <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>美国商务部 CAISI 与 Google DeepMind、微软、xAI 签署协议，将在模型公开发布前进行预部署评估和安全研究。</summary>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>美国政府AI标准与创新中心与谷歌DeepMind、微软、xAI达成协议,在模型公开发布前进行预部署评估和安全研究。</summary>
   </entry>
   <entry>
-    <title>Meta 发布 Muse Spark 视觉理解模型（5月中旬），首个从 Meta Superintelligence Labs 推出的模型，可在图像中识别内容而…</title>
+    <title>Novo Nordisk与OpenAI达成战略合作,计划到2026年底在药物发现、临床试验、制造等全业务链部署AI,加速肥胖和糖尿病新疗法开发。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>Meta 发布 Muse Spark 视觉理解模型（5月中旬），首个从 Meta Superintelligence Labs 推出的模型，可在图像中识别内容而非仅读取文本。</summary>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>Novo Nordisk与OpenAI达成战略合作,计划到2026年底在药物发现、临床试验、制造等全业务链部署AI,加速肥胖和糖尿病新疗法开发。</summary>
   </entry>
   <entry>
-    <title>Google 推出 Gemma 4 系列开源模型（5月4日），包括31B Dense、26B MoE 和边缘设备专用的 E4B/E2B 变体，专为推理和智能体工…</title>
+    <title>麻省理工蛋白质折叠生成模型可精准预测合成蛋白质结构与靶标相互作用,有望为癌症、自身免疫疾病药物研发节省数十亿美元。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>Google 推出 Gemma 4 系列开源模型（5月4日），包括31B Dense、26B MoE 和边缘设备专用的 E4B/E2B 变体，专为推理和智能体工作流设计。</summary>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>麻省理工蛋白质折叠生成模型可精准预测合成蛋白质结构与靶标相互作用,有望为癌症、自身免疫疾病药物研发节省数十亿美元。</summary>
   </entry>
   <entry>
-    <title>OpenAI 宣布关闭 Sora 视频生成应用（发布仅6个月），日活用户跌至50万以下，每日计算成本达1500万美元但总收入仅210万美元。…</title>
+    <title>英伟达Blackwell架构芯片供不应求,AMD MI300X、谷歌/亚马逊定制ASIC正在蚕食市场份额,美国CHIPS法案加速本土产能建设。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>OpenAI 宣布关闭 Sora 视频生成应用（发布仅6个月），日活用户跌至50万以下，每日计算成本达1500万美元但总收入仅210万美元。</summary>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>英伟达Blackwell架构芯片供不应求,AMD MI300X、谷歌/亚马逊定制ASIC正在蚕食市场份额,美国CHIPS法案加速本土产能建设。</summary>
   </entry>
   <entry>
-    <title>Virgin Voyages 部署超1500个 AI 智能体（4个月内增长2900%），与 Google Cloud 合作，内容制作时间减少60%，促销产出翻倍…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>Virgin Voyages 部署超1500个 AI 智能体（4个月内增长2900%），与 Google Cloud 合作，内容制作时间减少60%，促销产出翻倍。</summary>
-  </entry>
-  <entry>
-    <title>微软全球 AI 使用率在2026年第一季度从16.3%增至17.8%，软件开发者 Git 提交量同比增长78%，美国开发者就业达220万创历史新高。…</title>
-    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/"/>
-    <id>https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>微软全球 AI 使用率在2026年第一季度从16.3%增至17.8%，软件开发者 Git 提交量同比增长78%，美国开发者就业达220万创历史新高。</summary>
-  </entry>
-  <entry>
-    <title>Novo Nordisk 与 OpenAI 达成战略合作，计划2026年底前在药物发现、临床试验、制造和供应链全业务线部署 AI 技术。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>Novo Nordisk 与 OpenAI 达成战略合作，计划2026年底前在药物发现、临床试验、制造和供应链全业务线部署 AI 技术。</summary>
-  </entry>
-  <entry>
-    <title>美国空军首次实战运用 WarMatrix AI 战争推演环境（3月13-27日），150多名参与者执行6轮24小时推演，系统可比实时快1万倍运行模拟。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-15T13:59:58Z</updated>
-    <summary>美国空军首次实战运用 WarMatrix AI 战争推演环境（3月13-27日），150多名参与者执行6轮24小时推演，系统可比实时快1万倍运行模拟。</summary>
+    <title>AI能耗问题加剧:数据中心用电已占美国总量10%以上,MIT预测2026年全球数据中心耗电620-1050 TWh,生成模型是主要推手。…</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-05-16T13:16:18Z</updated>
+    <summary>AI能耗问题加剧:数据中心用电已占美国总量10%以上,MIT预测2026年全球数据中心耗电620-1050 TWh,生成模型是主要推手。</summary>
   </entry>
 </feed>
