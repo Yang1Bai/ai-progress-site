@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-16T13:16:18Z</updated>
+  <updated>2026-05-17T13:13:58Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月16日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-16.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-16.html</id>
-    <updated>2026-05-16T13:16:18Z</updated>
+    <title>每日汇总 2026年5月17日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-17.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-17.html</id>
+    <updated>2026-05-17T13:13:58Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI发布GPT-5.5 Instant成为ChatGPT新默认模型,在数学推理(AIME 81.2分)和多模态任务上显著提升,支持记忆搜索个性化回答。…</title>
-    <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
-    <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>OpenAI发布GPT-5.5 Instant成为ChatGPT新默认模型,在数学推理(AIME 81.2分)和多模态任务上显著提升,支持记忆搜索个性化回答。</summary>
+    <title>OpenAI 正式将 ChatGPT、编码代理 Codex 和开发者 API 合并为单一产品团队，由 Codex 负责人领导，目标打造集成 Atlas 浏览器的…</title>
+    <link href="https://openai.com/news/"/>
+    <id>https://openai.com/news/</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>OpenAI 正式将 ChatGPT、编码代理 Codex 和开发者 API 合并为单一产品团队，由 Codex 负责人领导，目标打造集成 Atlas 浏览器的&quot;超级应用&quot;。</summary>
   </entry>
   <entry>
-    <title>谷歌推出开源Gemma 4系列模型,专为高级推理和Agent工作流设计,提供前所未有的单参数智能密度,下载量已超5亿次。…</title>
-    <link href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/"/>
-    <id>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>谷歌推出开源Gemma 4系列模型,专为高级推理和Agent工作流设计,提供前所未有的单参数智能密度,下载量已超5亿次。</summary>
+    <title>Anthropic 在商业采用上首次超越 OpenAI，Ramp AI 指数显示其企业采用量同比增长 4 倍，而 OpenAI 仅增长 0.3%，但面临算力瓶颈…</title>
+    <link href="https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15"/>
+    <id>https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>Anthropic 在商业采用上首次超越 OpenAI，Ramp AI 指数显示其企业采用量同比增长 4 倍，而 OpenAI 仅增长 0.3%，但面临算力瓶颈挑战。</summary>
   </entry>
   <entry>
-    <title>Anthropic启动Project Glasswing项目,向AWS、苹果、思科等机构提供Claude Mythos Preview用于漏洞发现,数周内识别包…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>Anthropic启动Project Glasswing项目,向AWS、苹果、思科等机构提供Claude Mythos Preview用于漏洞发现,数周内识别包括27年历史OpenBSD漏洞在内的数千个零日漏洞。</summary>
+    <title>xAI 正式解散，于 5 月 6 日并入 SpaceX 成为 SpaceXAI 部门，Elon Musk 称之为垂直整合，但多位联合创始人已离开创立新公司。…</title>
+    <link href="https://medium.com/@mrudulgole/the-week-ai-stopped-pretending-may-11-15-2026-5604151b9153"/>
+    <id>https://medium.com/@mrudulgole/the-week-ai-stopped-pretending-may-11-15-2026-5604151b9153</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>xAI 正式解散，于 5 月 6 日并入 SpaceX 成为 SpaceXAI 部门，Elon Musk 称之为垂直整合，但多位联合创始人已离开创立新公司。</summary>
   </entry>
   <entry>
-    <title>马斯克xAI宣布不再独立运营,将大部分算力转交给Anthropic,Grok产品并入SpaceXAI,标志着AI竞争格局重大调整。…</title>
-    <link href="https://www.digitimes.com/news/a20260511PD229/anthropic-xai-elon-musk-computing-power-2026.html"/>
-    <id>https://www.digitimes.com/news/a20260511PD229/anthropic-xai-elon-musk-computing-power-2026.html</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>马斯克xAI宣布不再独立运营,将大部分算力转交给Anthropic,Grok产品并入SpaceXAI,标志着AI竞争格局重大调整。</summary>
-  </entry>
-  <entry>
-    <title>微软发布MAI-Transcribe-1语音转文本模型,准确率和速度达到行业领先,同时推出MAI-Voice-1和MAI-Image-2模型供商业使用。…</title>
-    <link href="https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/"/>
-    <id>https://www.geekwire.com/2026/microsoft-releases-new-ai-models-to-further-expand-beyond-openai/</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>微软发布MAI-Transcribe-1语音转文本模型,准确率和速度达到行业领先,同时推出MAI-Voice-1和MAI-Image-2模型供商业使用。</summary>
-  </entry>
-  <entry>
-    <title>美国政府AI标准与创新中心与谷歌DeepMind、微软、xAI达成协议,在模型公开发布前进行预部署评估和安全研究。…</title>
+    <title>美国政府扩大 AI 安全评估计划，Google DeepMind、微软和 xAI 同意在公开发布前提供前沿模型供政府测试网络安全和生物安全漏洞。…</title>
     <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
     <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>美国政府AI标准与创新中心与谷歌DeepMind、微软、xAI达成协议,在模型公开发布前进行预部署评估和安全研究。</summary>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>美国政府扩大 AI 安全评估计划，Google DeepMind、微软和 xAI 同意在公开发布前提供前沿模型供政府测试网络安全和生物安全漏洞。</summary>
   </entry>
   <entry>
-    <title>Novo Nordisk与OpenAI达成战略合作,计划到2026年底在药物发现、临床试验、制造等全业务链部署AI,加速肥胖和糖尿病新疗法开发。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>Novo Nordisk与OpenAI达成战略合作,计划到2026年底在药物发现、临床试验、制造等全业务链部署AI,加速肥胖和糖尿病新疗法开发。</summary>
+    <title>英国 AI 安全研究所报告称 Anthropic 最新 Mythos 模型在网络攻击测试中展示&quot;显著能力跃升&quot;，可完成完整网络接管，引发副总统 JD Vance…</title>
+    <link href="https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15"/>
+    <id>https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>英国 AI 安全研究所报告称 Anthropic 最新 Mythos 模型在网络攻击测试中展示&quot;显著能力跃升&quot;，可完成完整网络接管，引发副总统 JD Vance 对关键基础设施安全的警告。</summary>
   </entry>
   <entry>
-    <title>麻省理工蛋白质折叠生成模型可精准预测合成蛋白质结构与靶标相互作用,有望为癌症、自身免疫疾病药物研发节省数十亿美元。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>麻省理工蛋白质折叠生成模型可精准预测合成蛋白质结构与靶标相互作用,有望为癌症、自身免疫疾病药物研发节省数十亿美元。</summary>
+    <title>OpenAI 发布 GPT-5.5，仅在 GPT-5.4 发布六周后推出，达到 60.24 智能指数分数，并推出 GPT-5.5-Cyber 限量预览版专供关键…</title>
+    <link href="https://blog.mean.ceo/new-ai-model-releases-news-may-2026/"/>
+    <id>https://blog.mean.ceo/new-ai-model-releases-news-may-2026/</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>OpenAI 发布 GPT-5.5，仅在 GPT-5.4 发布六周后推出，达到 60.24 智能指数分数，并推出 GPT-5.5-Cyber 限量预览版专供关键基础设施防御者使用。</summary>
   </entry>
   <entry>
-    <title>英伟达Blackwell架构芯片供不应求,AMD MI300X、谷歌/亚马逊定制ASIC正在蚕食市场份额,美国CHIPS法案加速本土产能建设。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>英伟达Blackwell架构芯片供不应求,AMD MI300X、谷歌/亚马逊定制ASIC正在蚕食市场份额,美国CHIPS法案加速本土产能建设。</summary>
+    <title>Google Cloud 组建数百人&quot;前置工程师&quot;团队帮助企业客户部署 AI 产品，追随 OpenAI 和 Anthropic 建立 PE 支持的企业合资公司战…</title>
+    <link href="https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15"/>
+    <id>https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>Google Cloud 组建数百人&quot;前置工程师&quot;团队帮助企业客户部署 AI 产品，追随 OpenAI 和 Anthropic 建立 PE 支持的企业合资公司战略。</summary>
   </entry>
   <entry>
-    <title>AI能耗问题加剧:数据中心用电已占美国总量10%以上,MIT预测2026年全球数据中心耗电620-1050 TWh,生成模型是主要推手。…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-05-16T13:16:18Z</updated>
-    <summary>AI能耗问题加剧:数据中心用电已占美国总量10%以上,MIT预测2026年全球数据中心耗电620-1050 TWh,生成模型是主要推手。</summary>
+    <title>美国至少 11 个州提出限制性数据中心立法，Sanders 和 Ocasio-Cortez 参议员提出联邦暂停法案，数据中心 NIMBYism 成为 AI 扩展…</title>
+    <link href="https://www.democracynow.org/2026/5/13/astra_taylor_ai_data_centers_backlash"/>
+    <id>https://www.democracynow.org/2026/5/13/astra_taylor_ai_data_centers_backlash</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>美国至少 11 个州提出限制性数据中心立法，Sanders 和 Ocasio-Cortez 参议员提出联邦暂停法案，数据中心 NIMBYism 成为 AI 扩展的一阶瓶颈。</summary>
+  </entry>
+  <entry>
+    <title>中国四家实验室在 12 天内发布开源权重编码模型：智谱 GLM-5.1、MiniMax M2.7、月之暗面 Kimi K2.6 和 DeepSeek V4，成本…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>中国四家实验室在 12 天内发布开源权重编码模型：智谱 GLM-5.1、MiniMax M2.7、月之暗面 Kimi K2.6 和 DeepSeek V4，成本不到 Claude Opus 4.7 的三分之一。</summary>
+  </entry>
+  <entry>
+    <title>Google 将于 5 月 19 日 I/O 大会发布新 Gemini 模型，预计重点关注智能体 AI 和 Gemini 能力更新，Android 17 已进入…</title>
+    <link href="https://tech.yahoo.com/general/article/google-io-2026-what-to-expect-next-week-including-android-17-ai-announcements-and-more-131200995.html"/>
+    <id>https://tech.yahoo.com/general/article/google-io-2026-what-to-expect-next-week-including-android-17-ai-announcements-and-more-131200995.html</id>
+    <updated>2026-05-17T13:13:58Z</updated>
+    <summary>Google 将于 5 月 19 日 I/O 大会发布新 Gemini 模型，预计重点关注智能体 AI 和 Gemini 能力更新，Android 17 已进入测试阶段。</summary>
   </entry>
 </feed>
