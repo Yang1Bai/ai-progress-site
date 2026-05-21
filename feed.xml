@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-20T14:56:30Z</updated>
+  <updated>2026-05-21T14:59:44Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月20日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-20.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-20.html</id>
-    <updated>2026-05-20T14:56:30Z</updated>
+    <title>每日汇总 2026年5月21日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-21.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-21.html</id>
+    <updated>2026-05-21T14:59:44Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google I/O 2026 将于5月19日揭晓 Gemini 4.0 及 agentic coding 更新，同时发布 Android XR 眼镜与多项 A…</title>
-    <link href="https://io.google"/>
-    <id>https://io.google</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>Google I/O 2026 将于5月19日揭晓 Gemini 4.0 及 agentic coding 更新，同时发布 Android XR 眼镜与多项 AI 工具</summary>
+    <title>Google I/O 2026 发布 Gemini 3.5 Flash，成为 Gemini 应用全球默认模型，速度提升 4 倍、价格仅为竞品一半，同时推出 Ge…</title>
+    <link href="https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"/>
+    <id>https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>Google I/O 2026 发布 Gemini 3.5 Flash，成为 Gemini 应用全球默认模型，速度提升 4 倍、价格仅为竞品一半，同时推出 Gemini Spark 通用 AI 智能体</summary>
   </entry>
   <entry>
-    <title>OpenAI 与 Dell 合作将 Codex 引入混合云和本地企业环境，并于5月15日推出 ChatGPT 个人财务体验功能…</title>
-    <link href="https://openai.com/news/"/>
-    <id>https://openai.com/news/</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>OpenAI 与 Dell 合作将 Codex 引入混合云和本地企业环境，并于5月15日推出 ChatGPT 个人财务体验功能</summary>
+    <title>OpenAI 于 5 月 5 日将 GPT-5.5 Instant 设为 ChatGPT 新默认模型，AIME 2025 数学测试得分从 65.4 跃升至 81…</title>
+    <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
+    <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>OpenAI 于 5 月 5 日将 GPT-5.5 Instant 设为 ChatGPT 新默认模型，AIME 2025 数学测试得分从 65.4 跃升至 81.2，并首次实现跨对话、文件和 Gmail 的记忆搜索</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Mythos 通过 Project Glasswing 向 AWS、Apple、Cisco 等机构开放，数周内发现数千个零日漏…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>Anthropic Claude Mythos 通过 Project Glasswing 向 AWS、Apple、Cisco 等机构开放，数周内发现数千个零日漏洞</summary>
+    <title>Andrej Karpathy 于 5 月 19 日宣布加入 Anthropic，这一消息在几小时内获得 1130 万次浏览和 10.2 万点赞，标志着顶尖 A…</title>
+    <link href="https://jls42.org/en/news/ia-actualites-19-may-2026"/>
+    <id>https://jls42.org/en/news/ia-actualites-19-may-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>Andrej Karpathy 于 5 月 19 日宣布加入 Anthropic，这一消息在几小时内获得 1130 万次浏览和 10.2 万点赞，标志着顶尖 AI 人才流向信号</summary>
   </entry>
   <entry>
-    <title>Meta Avocado 模型延期至6月发布，内部测试显示性能介于 Gemini 2.5 与 3.0 之间，低于 GPT-5.5 和 Claude Opus 4…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>Meta Avocado 模型延期至6月发布，内部测试显示性能介于 Gemini 2.5 与 3.0 之间，低于 GPT-5.5 和 Claude Opus 4.7</summary>
+    <title>美国联邦陪审团用不到 2 小时驳回马斯克对 OpenAI、Sam Altman 和微软的全部诉讼，认定其起诉时间过晚…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>美国联邦陪审团用不到 2 小时驳回马斯克对 OpenAI、Sam Altman 和微软的全部诉讼，认定其起诉时间过晚</summary>
   </entry>
   <entry>
-    <title>Anthropic 正在谈判 900 亿美元估值的 300 亿美元融资，Q1 年化收入超 440 亿美元（同比增长80倍）…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>Anthropic 正在谈判 900 亿美元估值的 300 亿美元融资，Q1 年化收入超 440 亿美元（同比增长80倍）</summary>
+    <title>梵蒂冈宣布教皇利奥十四世将于 5 月 25 日与 Anthropic 联合创始人 Christopher Olah 共同发布首份关于 AI 的教皇通谕《Magn…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>梵蒂冈宣布教皇利奥十四世将于 5 月 25 日与 Anthropic 联合创始人 Christopher Olah 共同发布首份关于 AI 的教皇通谕《Magnifica Humanitas》</summary>
   </entry>
   <entry>
-    <title>美国政府推动 AI 模型上市前测试制度，Microsoft 和 xAI 等公司同意向监管机构提供早期访问权限…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>美国政府推动 AI 模型上市前测试制度，Microsoft 和 xAI 等公司同意向监管机构提供早期访问权限</summary>
+    <title>Anthropic 的 Claude Mythos Preview 成为首个通过英国 AI 安全研究所 32 步端到端网络攻击测试的模型，OpenAI GPT-…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>Anthropic 的 Claude Mythos Preview 成为首个通过英国 AI 安全研究所 32 步端到端网络攻击测试的模型，OpenAI GPT-5.5 三周后跟进</summary>
   </entry>
   <entry>
-    <title>IBM 报告显示 76% 企业已设立首席AI官（CAIO）职位，较2025年的26%大幅提升…</title>
-    <link href="https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html"/>
-    <id>https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>IBM 报告显示 76% 企业已设立首席AI官（CAIO）职位，较2025年的26%大幅提升</summary>
+    <title>David Silver 为 Ineffable Intelligence 筹集 11 亿美元种子轮（欧洲史上最大，估值 51 亿美元），目标通过自我博弈构建超…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>David Silver 为 Ineffable Intelligence 筹集 11 亿美元种子轮（欧洲史上最大，估值 51 亿美元），目标通过自我博弈构建超级智能，完全不使用人类生成的训练数据</summary>
   </entry>
   <entry>
-    <title>OpenAI 推出自助广告管理平台，目标今年实现25亿美元、2030年实现1000亿美元广告收入…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>OpenAI 推出自助广告管理平台，目标今年实现25亿美元、2030年实现1000亿美元广告收入</summary>
+    <title>SpaceX 对 Cursor 发出 600 亿美元收购要约，抢先其计划中的 20 亿美元融资；OpenAI 完成第七笔收购交易（收购 Hiro）…</title>
+    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
+    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>SpaceX 对 Cursor 发出 600 亿美元收购要约，抢先其计划中的 20 亿美元融资；OpenAI 完成第七笔收购交易（收购 Hiro）</summary>
   </entry>
   <entry>
-    <title>Snap 与 Perplexity 终止 4 亿美元 AI 合作伙伴关系，同时裁员16%以进行 AI 重组…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>Snap 与 Perplexity 终止 4 亿美元 AI 合作伙伴关系，同时裁员16%以进行 AI 重组</summary>
+    <title>诺和诺德宣布与 OpenAI 达成战略合作，计划到 2026 年底在药物发现、临床试验、制造和供应链全流程部署 AI，CEO 强调目标是增强而非替代科学家…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>诺和诺德宣布与 OpenAI 达成战略合作，计划到 2026 年底在药物发现、临床试验、制造和供应链全流程部署 AI，CEO 强调目标是增强而非替代科学家</summary>
   </entry>
   <entry>
-    <title>arXiv 宣布禁止明显由 AI 生成的论文，提交者将被禁止投稿一年，并不再接受计算机科学综述和立场论文…</title>
-    <link href="https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/"/>
-    <id>https://www.404media.co/new-arxiv-rules-ai-generated-papers-ban/</id>
-    <updated>2026-05-20T14:56:30Z</updated>
-    <summary>arXiv 宣布禁止明显由 AI 生成的论文，提交者将被禁止投稿一年，并不再接受计算机科学综述和立场论文</summary>
+    <title>斯坦福 AI 指数 2026 报告显示：中国 AI 能力已追平美国，顶级模型排名多次易位，Anthropic 领先仅 2.7%；生成式 AI 用户价值达 172…</title>
+    <link href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"/>
+    <id>https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report</id>
+    <updated>2026-05-21T14:59:44Z</updated>
+    <summary>斯坦福 AI 指数 2026 报告显示：中国 AI 能力已追平美国，顶级模型排名多次易位，Anthropic 领先仅 2.7%；生成式 AI 用户价值达 1720 亿美元/年</summary>
   </entry>
 </feed>
