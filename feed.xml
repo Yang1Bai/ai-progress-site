@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-05-21T14:59:44Z</updated>
+  <updated>2026-05-22T14:32:45Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年5月21日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-21.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-21.html</id>
-    <updated>2026-05-21T14:59:44Z</updated>
+    <title>每日汇总 2026年5月22日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-05-22.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-05-22.html</id>
+    <updated>2026-05-22T14:32:45Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google I/O 2026 发布 Gemini 3.5 Flash，成为 Gemini 应用全球默认模型，速度提升 4 倍、价格仅为竞品一半，同时推出 Ge…</title>
-    <link href="https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html"/>
-    <id>https://www.cnbc.com/2026/05/19/google-ai-ultra-gemini-spark-omni.html</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>Google I/O 2026 发布 Gemini 3.5 Flash，成为 Gemini 应用全球默认模型，速度提升 4 倍、价格仅为竞品一半，同时推出 Gemini Spark 通用 AI 智能体</summary>
+    <title>OpenAI 准备提交 IPO 申请，最早 5 月 22 日向 SEC 秘密递交 S-1 文件，目标估值 8520 亿至 1 万亿美元，9 月上市…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>OpenAI 准备提交 IPO 申请，最早 5 月 22 日向 SEC 秘密递交 S-1 文件，目标估值 8520 亿至 1 万亿美元，9 月上市</summary>
   </entry>
   <entry>
-    <title>OpenAI 于 5 月 5 日将 GPT-5.5 Instant 设为 ChatGPT 新默认模型，AIME 2025 数学测试得分从 65.4 跃升至 81…</title>
-    <link href="https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"/>
-    <id>https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>OpenAI 于 5 月 5 日将 GPT-5.5 Instant 设为 ChatGPT 新默认模型，AIME 2025 数学测试得分从 65.4 跃升至 81.2，并首次实现跨对话、文件和 Gmail 的记忆搜索</summary>
+    <title>Google I/O 发布 Gemini 3.5 Flash，速度提升 4 倍，价格仅为同级模型一半，并推出 Gemini Spark 全天候 AI 代理…</title>
+    <link href="https://blog.google/products-and-platforms/products/search/search-io-2026/"/>
+    <id>https://blog.google/products-and-platforms/products/search/search-io-2026/</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>Google I/O 发布 Gemini 3.5 Flash，速度提升 4 倍，价格仅为同级模型一半，并推出 Gemini Spark 全天候 AI 代理</summary>
   </entry>
   <entry>
-    <title>Andrej Karpathy 于 5 月 19 日宣布加入 Anthropic，这一消息在几小时内获得 1130 万次浏览和 10.2 万点赞，标志着顶尖 A…</title>
+    <title>Anthropic Q2 营收预计 109 亿美元，同比增长 130%，首次实现季度运营盈利，10 月目标 IPO…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>Anthropic Q2 营收预计 109 亿美元，同比增长 130%，首次实现季度运营盈利，10 月目标 IPO</summary>
+  </entry>
+  <entry>
+    <title>美国政府与 Google DeepMind、微软、xAI 达成协议，在 AI 模型公开发布前进行预部署安全评估…</title>
+    <link href="https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html"/>
+    <id>https://www.cnbc.com/2026/05/05/ai-oversight-trump-google-microsoft-xai.html</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>美国政府与 Google DeepMind、微软、xAI 达成协议，在 AI 模型公开发布前进行预部署安全评估</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 模型破解数学猜想，成为生成式 AI 对数学领域最有意义的贡献之一…</title>
+    <link href="https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/"/>
+    <id>https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>OpenAI 模型破解数学猜想，成为生成式 AI 对数学领域最有意义的贡献之一</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 与 SpaceX 达成月度 12.5 亿美元 GPU 算力协议，持续至 2029 年 5 月…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-22-2026</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>Anthropic 与 SpaceX 达成月度 12.5 亿美元 GPU 算力协议，持续至 2029 年 5 月</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 推出自助广告平台，目标 2026 年广告营收 25 亿美元、2030 年达 1000 亿美元…</title>
+    <link href="https://www.marketingprofs.com/opinions/2026/54655/ai-update-may-8-2026-ai-news-and-views-from-the-past-week"/>
+    <id>https://www.marketingprofs.com/opinions/2026/54655/ai-update-may-8-2026-ai-news-and-views-from-the-past-week</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>OpenAI 推出自助广告平台，目标 2026 年广告营收 25 亿美元、2030 年达 1000 亿美元</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA 发布 Isaac GR00T 开放模型，机器人可理解自然语言指令并执行多步复杂任务…</title>
+    <link href="https://blogs.nvidia.com/blog/national-robotics-week-2026/"/>
+    <id>https://blogs.nvidia.com/blog/national-robotics-week-2026/</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>NVIDIA 发布 Isaac GR00T 开放模型，机器人可理解自然语言指令并执行多步复杂任务</summary>
+  </entry>
+  <entry>
+    <title>Andrej Karpathy 加入 Anthropic，前 OpenAI 高管回归 AI 前沿研究，引发 1130 万次浏览…</title>
     <link href="https://jls42.org/en/news/ia-actualites-19-may-2026"/>
     <id>https://jls42.org/en/news/ia-actualites-19-may-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>Andrej Karpathy 于 5 月 19 日宣布加入 Anthropic，这一消息在几小时内获得 1130 万次浏览和 10.2 万点赞，标志着顶尖 AI 人才流向信号</summary>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>Andrej Karpathy 加入 Anthropic，前 OpenAI 高管回归 AI 前沿研究，引发 1130 万次浏览</summary>
   </entry>
   <entry>
-    <title>美国联邦陪审团用不到 2 小时驳回马斯克对 OpenAI、Sam Altman 和微软的全部诉讼，认定其起诉时间过晚…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>美国联邦陪审团用不到 2 小时驳回马斯克对 OpenAI、Sam Altman 和微软的全部诉讼，认定其起诉时间过晚</summary>
-  </entry>
-  <entry>
-    <title>梵蒂冈宣布教皇利奥十四世将于 5 月 25 日与 Anthropic 联合创始人 Christopher Olah 共同发布首份关于 AI 的教皇通谕《Magn…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-may-20-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>梵蒂冈宣布教皇利奥十四世将于 5 月 25 日与 Anthropic 联合创始人 Christopher Olah 共同发布首份关于 AI 的教皇通谕《Magnifica Humanitas》</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 的 Claude Mythos Preview 成为首个通过英国 AI 安全研究所 32 步端到端网络攻击测试的模型，OpenAI GPT-…</title>
-    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
-    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>Anthropic 的 Claude Mythos Preview 成为首个通过英国 AI 安全研究所 32 步端到端网络攻击测试的模型，OpenAI GPT-5.5 三周后跟进</summary>
-  </entry>
-  <entry>
-    <title>David Silver 为 Ineffable Intelligence 筹集 11 亿美元种子轮（欧洲史上最大，估值 51 亿美元），目标通过自我博弈构建超…</title>
-    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
-    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>David Silver 为 Ineffable Intelligence 筹集 11 亿美元种子轮（欧洲史上最大，估值 51 亿美元），目标通过自我博弈构建超级智能，完全不使用人类生成的训练数据</summary>
-  </entry>
-  <entry>
-    <title>SpaceX 对 Cursor 发出 600 亿美元收购要约，抢先其计划中的 20 亿美元融资；OpenAI 完成第七笔收购交易（收购 Hiro）…</title>
-    <link href="https://press.airstreet.com/p/state-of-ai-may-2026"/>
-    <id>https://press.airstreet.com/p/state-of-ai-may-2026</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>SpaceX 对 Cursor 发出 600 亿美元收购要约，抢先其计划中的 20 亿美元融资；OpenAI 完成第七笔收购交易（收购 Hiro）</summary>
-  </entry>
-  <entry>
-    <title>诺和诺德宣布与 OpenAI 达成战略合作，计划到 2026 年底在药物发现、临床试验、制造和供应链全流程部署 AI，CEO 强调目标是增强而非替代科学家…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>诺和诺德宣布与 OpenAI 达成战略合作，计划到 2026 年底在药物发现、临床试验、制造和供应链全流程部署 AI，CEO 强调目标是增强而非替代科学家</summary>
-  </entry>
-  <entry>
-    <title>斯坦福 AI 指数 2026 报告显示：中国 AI 能力已追平美国，顶级模型排名多次易位，Anthropic 领先仅 2.7%；生成式 AI 用户价值达 172…</title>
-    <link href="https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report"/>
-    <id>https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report</id>
-    <updated>2026-05-21T14:59:44Z</updated>
-    <summary>斯坦福 AI 指数 2026 报告显示：中国 AI 能力已追平美国，顶级模型排名多次易位，Anthropic 领先仅 2.7%；生成式 AI 用户价值达 1720 亿美元/年</summary>
+    <title>OpenAI 整合 SynthID 水印技术，所有 ChatGPT 生成图像加入 Google DeepMind 的不可见数字水印…</title>
+    <link href="https://jls42.org/en/news/ia-actualites-19-may-2026"/>
+    <id>https://jls42.org/en/news/ia-actualites-19-may-2026</id>
+    <updated>2026-05-22T14:32:45Z</updated>
+    <summary>OpenAI 整合 SynthID 水印技术，所有 ChatGPT 生成图像加入 Google DeepMind 的不可见数字水印</summary>
   </entry>
 </feed>
