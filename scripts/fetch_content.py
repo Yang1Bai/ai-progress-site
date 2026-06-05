@@ -31,7 +31,7 @@ import shutil
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -84,7 +84,9 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - name (会议名, 如 "NeurIPS 2026"), event_type ("submission"|"notification"|"camera_ready"), deadline ("YYYY-MM-DD"), url (官网), days_left (距今天 {today} 的天数, 整数)
    - 只列真实的、已公布的截止日期，不要猜测
 
-4. **papers**：6-8 篇过去 7 天的 AI4Material（AI 用于材料科学/化学/能源/催化）相关论文，必须真实存在。
+4. **papers**：6-8 篇 AI4Material（AI 用于材料科学/化学/能源/催化）相关论文，必须真实存在。
+   **严格要求：必须是过去 14 天（两周）内发表的**，每篇论文的 date 字段必须是 {today} 往前推14天内的日期，否则不得收录。
+   如果找不到足够的最新论文，宁可只返回1-2篇，绝对不能收录14天以前的论文。
    严格定义：论文核心必须是 AI/ML 方法用于以下任一方向：
    ① 材料发现、合成预测、性质预测（晶体、合金、聚合物、多孔材料等）
    ② 催化剂设计与优化
@@ -114,7 +116,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
 关键约束：
 - 必须基于 web_search 结果，不要编造不存在的论文或链接
 - 数量不够时宁可减少条目（papers 最少 2 篇也可以），不要强行凑数
-- 可放宽到过去两周，实在没有某类内容则返回空数组 []
+- 实在没有某类内容则返回空数组 []（papers 部分绝对不得放宽日期限制，宁缺勿滥）
 - 新闻 url 不确定则留空字符串
 - **无论如何都必须输出完整 JSON，绝对不允许输出解释文字或拒绝消息**
 
@@ -1041,6 +1043,21 @@ def main():
         if data is None:
             print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
             return 3
+
+    # Filter papers: only keep papers from the last 14 days
+    cutoff = now - timedelta(days=14)
+    papers = data.get("papers", [])
+    recent_papers = []
+    for p in papers:
+        try:
+            pdate = datetime.strptime(p.get("date", ""), "%Y-%m-%d").replace(tzinfo=TZ)
+            if pdate >= cutoff:
+                recent_papers.append(p)
+            else:
+                print(f"[filter] Dropping old paper ({p.get('date')}): {p.get('title','')[:60]}", flush=True)
+        except ValueError:
+            recent_papers.append(p)  # keep if date can't be parsed
+    data["papers"] = recent_papers
 
     # 自动计算 stats
     data["stats"] = {
