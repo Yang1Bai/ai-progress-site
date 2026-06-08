@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-07T13:46:00Z</updated>
+  <updated>2026-06-08T15:42:44Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月7日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-07.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-07.html</id>
-    <updated>2026-06-07T13:46:00Z</updated>
+    <title>每日汇总 2026年6月8日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-08.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-08.html</id>
+    <updated>2026-06-08T15:42:44Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic融资650亿美元，估值达9650亿美元，首次超越OpenAI成为全球最高估值私有AI公司，并于6月2日秘密提交IPO申请文件。…</title>
+    <title>Anthropic 以 9650 亿美元估值超越 OpenAI，成为全球最高估值私人 AI 公司，已于6月2日递交 IPO 申请文件…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>Anthropic融资650亿美元，估值达9650亿美元，首次超越OpenAI成为全球最高估值私有AI公司，并于6月2日秘密提交IPO申请文件。</summary>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>Anthropic 以 9650 亿美元估值超越 OpenAI，成为全球最高估值私人 AI 公司，已于6月2日递交 IPO 申请文件</summary>
   </entry>
   <entry>
-    <title>OpenAI、Anthropic、Google DeepMind、微软AI领导人联名致信国会，呼吁立法强制要求合成DNA供应商筛查订单和客户身份，防范AI辅助生…</title>
-    <link href="https://www.yahoo.com/news/politics/articles/openai-anthropic-google-ceos-call-135317808.html"/>
-    <id>https://www.yahoo.com/news/politics/articles/openai-anthropic-google-ceos-call-135317808.html</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>OpenAI、Anthropic、Google DeepMind、微软AI领导人联名致信国会，呼吁立法强制要求合成DNA供应商筛查订单和客户身份，防范AI辅助生物武器风险。</summary>
+    <title>OpenAI、Anthropic、Google DeepMind、微软 四家 CEO 联署致信国会，要求强制筛查合成 DNA 供应商以防生物武器风险…</title>
+    <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
+    <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind、微软 四家 CEO 联署致信国会，要求强制筛查合成 DNA 供应商以防生物武器风险</summary>
   </entry>
   <entry>
-    <title>微软Build 2026发布MAI系列7款自研模型，包括推理旗舰MAI-Thinking-1、编程模型MAI-Code-1-Flash及图像生成MAI-Imag…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>微软Build 2026发布MAI系列7款自研模型，包括推理旗舰MAI-Thinking-1、编程模型MAI-Code-1-Flash及图像生成MAI-Image-2.5，全部由微软独立训练，非OpenAI提供。</summary>
+    <title>微软 Build 2026 发布 MAI 系列模型：推理旗舰 MAI-Thinking-1、代码模型 MAI-Code-1-Flash，减少对 OpenAI 依…</title>
+    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
+    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>微软 Build 2026 发布 MAI 系列模型：推理旗舰 MAI-Thinking-1、代码模型 MAI-Code-1-Flash，减少对 OpenAI 依赖</summary>
   </entry>
   <entry>
-    <title>ChatGPT Dreaming V3架构于6月4日向美国Plus和Pro用户推送，在对话结束后自动后台合成用户偏好、约束和项目背景，无需显式要求即可记忆。…</title>
+    <title>GitHub Copilot 于6月1日全面转向按 token 计费，开发者强烈反弹，有用户月费从 29 美元飙升至 750 美元…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>GitHub Copilot 于6月1日全面转向按 token 计费，开发者强烈反弹，有用户月费从 29 美元飙升至 750 美元</summary>
+  </entry>
+  <entry>
+    <title>SpaceX（含 xAI）将于6月12日上市，IPO 估值目标 1.75 万亿美元，零售投资者获 30% 配额…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>SpaceX（含 xAI）将于6月12日上市，IPO 估值目标 1.75 万亿美元，零售投资者获 30% 配额</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 推出 ChatGPT Dreaming V3，自动合成对话后记忆，无需用户手动保存，6月4日向 Plus 和 Pro 用户推送…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-5-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-5-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>ChatGPT Dreaming V3架构于6月4日向美国Plus和Pro用户推送，在对话结束后自动后台合成用户偏好、约束和项目背景，无需显式要求即可记忆。</summary>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>OpenAI 推出 ChatGPT Dreaming V3，自动合成对话后记忆，无需用户手动保存，6月4日向 Plus 和 Pro 用户推送</summary>
   </entry>
   <entry>
-    <title>Cognition旗下Devin以260亿美元估值融资10亿美元，SoftBank承诺在法国投入750亿欧元建设5GW AI基础设施。…</title>
+    <title>Cognition 的 Devin 完成 10 亿美元融资，估值达 260 亿美元，成为 AI 编程助手领域最大一笔融资…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>Cognition旗下Devin以260亿美元估值融资10亿美元，SoftBank承诺在法国投入750亿欧元建设5GW AI基础设施。</summary>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>Cognition 的 Devin 完成 10 亿美元融资，估值达 260 亿美元，成为 AI 编程助手领域最大一笔融资</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot于6月1日全面转向按Token计费，开发者强烈反对，有用户报告月费用从29美元飙升至750美元。…</title>
+    <title>Sysdig 记录首个真实 LLM Agent 自主网络攻击：在1小时内自主渗透并窃取 AWS 数据库…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>GitHub Copilot于6月1日全面转向按Token计费，开发者强烈反对，有用户报告月费用从29美元飙升至750美元。</summary>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>Sysdig 记录首个真实 LLM Agent 自主网络攻击：在1小时内自主渗透并窃取 AWS 数据库</summary>
   </entry>
   <entry>
-    <title>Sysdig记录首例确认的LLM Agent自主网络攻击，该攻击在一小时内自主渗透并导出AWS数据库。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>Sysdig记录首例确认的LLM Agent自主网络攻击，该攻击在一小时内自主渗透并导出AWS数据库。</summary>
+    <title>美国参议院提出《大美国 AI 法案》，269 页法案可能联邦抢占各州 AI 监管权，科罗拉多州 AI 法案6月30日生效…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>美国参议院提出《大美国 AI 法案》，269 页法案可能联邦抢占各州 AI 监管权，科罗拉多州 AI 法案6月30日生效</summary>
   </entry>
   <entry>
-    <title>阿里Qwen 3.7 Max在Agent基准测试上接近Claude Opus 4.7性能，但输入成本约为其一半，输出成本仅四分之一，适合高容量生产负载。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-6-2026</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>阿里Qwen 3.7 Max在Agent基准测试上接近Claude Opus 4.7性能，但输入成本约为其一半，输出成本仅四分之一，适合高容量生产负载。</summary>
-  </entry>
-  <entry>
-    <title>亚马逊定制芯片业务（Graviton、Trainium、Nitro）年营收已突破200亿美元，同比增长超100%，成为全球前三大数据中心芯片业务之一。…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>亚马逊定制芯片业务（Graviton、Trainium、Nitro）年营收已突破200亿美元，同比增长超100%，成为全球前三大数据中心芯片业务之一。</summary>
-  </entry>
-  <entry>
-    <title>中国科协撤销对NeurIPS 2026的学术认可，停止资助学者参会，并规定该会议论文不得作为代表性成果申报项目，引发顶会审稿危机。…</title>
-    <link href="https://eu.36kr.com/en/p/3740795974336772"/>
-    <id>https://eu.36kr.com/en/p/3740795974336772</id>
-    <updated>2026-06-07T13:46:00Z</updated>
-    <summary>中国科协撤销对NeurIPS 2026的学术认可，停止资助学者参会，并规定该会议论文不得作为代表性成果申报项目，引发顶会审稿危机。</summary>
+    <title>Google 确认 Gemini 3.5 Pro 将在6月发布，Flash 版本已上线，推理评分 55、速度达 284 tokens/秒…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026</id>
+    <updated>2026-06-08T15:42:44Z</updated>
+    <summary>Google 确认 Gemini 3.5 Pro 将在6月发布，Flash 版本已上线，推理评分 55、速度达 284 tokens/秒</summary>
   </entry>
 </feed>
