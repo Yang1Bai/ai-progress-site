@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-10T15:25:36Z</updated>
+  <updated>2026-06-11T15:53:33Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月10日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-10.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-10.html</id>
-    <updated>2026-06-10T15:25:36Z</updated>
+    <title>每日汇总 2026年6月11日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-11.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-11.html</id>
+    <updated>2026-06-11T15:53:33Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google Gemini 今日大规模宕机，用户持续遭遇&quot;出错&quot;提示，工程团队正在修复，预计美东时间上午 11 点前恢复。…</title>
-    <link href="https://www.aol.com/articles/gemini-down-today-latest-updates-142422000.html"/>
-    <id>https://www.aol.com/articles/gemini-down-today-latest-updates-142422000.html</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Google Gemini 今日大规模宕机，用户持续遭遇&quot;出错&quot;提示，工程团队正在修复，预计美东时间上午 11 点前恢复。</summary>
+    <title>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物安全筛查，警告 …</title>
+    <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
+    <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物安全筛查，警告 AI 正在降低生物材料武器化的技术门槛。</summary>
   </entry>
   <entry>
-    <title>Microsoft Build 2026 发布 7 款自研 AI 模型，包括推理模型 MAI-Thinking-1、编码模型 MAI-Code-1-Flash …</title>
-    <link href="https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"/>
-    <id>https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Microsoft Build 2026 发布 7 款自研 AI 模型，包括推理模型 MAI-Thinking-1、编码模型 MAI-Code-1-Flash 及图像、语音模型，并宣布与梅奥诊所共建医疗 AI。</summary>
+    <title>特朗普总统签署 AI 行政令（6月2日），要求前沿 AI 开发者在公开发布前 30 天自愿提交模型供联邦政府进行网络安全基准测试，强调不会扼杀创新的过度监管。…</title>
+    <link href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"/>
+    <id>https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/</id>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>特朗普总统签署 AI 行政令（6月2日），要求前沿 AI 开发者在公开发布前 30 天自愿提交模型供联邦政府进行网络安全基准测试，强调不会扼杀创新的过度监管。</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Opus 4.8 在 SWE-bench Verified 达 88.6%，并推出&quot;自我改进梦境&quot;系统，强化自主 Agent …</title>
+    <title>Anthropic 完成 650 亿美元融资，估值达 9650 亿美元，首次超越 OpenAI 成为全球最有价值的私营 AI 公司，并于 6月1日提交了保密 I…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>Anthropic 完成 650 亿美元融资，估值达 9650 亿美元，首次超越 OpenAI 成为全球最有价值的私营 AI 公司，并于 6月1日提交了保密 IPO 申请。</summary>
+  </entry>
+  <entry>
+    <title>微软在 Build 2026 发布 MAI 系列自研模型，包括编码模型 MAI-Code-1-Flash 和推理模型 MAI-Thinking-1，旨在降低对 …</title>
+    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
+    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>微软在 Build 2026 发布 MAI 系列自研模型，包括编码模型 MAI-Code-1-Flash 和推理模型 MAI-Thinking-1，旨在降低对 OpenAI 依赖并为开发者提供更低成本选择。</summary>
+  </entry>
+  <entry>
+    <title>Snap CEO 宣布裁员约 1000 人，关闭 300 多个职位，称&quot;AI 的快速进步&quot;使更小的团队能实现相同产出，AI 现已生成 Snap 超过 65% 的…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Anthropic Claude Opus 4.8 在 SWE-bench Verified 达 88.6%，并推出&quot;自我改进梦境&quot;系统，强化自主 Agent 能力。</summary>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>Snap CEO 宣布裁员约 1000 人，关闭 300 多个职位，称&quot;AI 的快速进步&quot;使更小的团队能实现相同产出，AI 现已生成 Snap 超过 65% 的新代码。</summary>
   </entry>
   <entry>
-    <title>苹果 WWDC 宣布 Siri 由 Gemini 驱动，首次将 Claude 整合到 iPhone，iOS 27 Beta 1 同日发布，AI 战略全面转向多模…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>苹果 WWDC 宣布 Siri 由 Gemini 驱动，首次将 Claude 整合到 iPhone，iOS 27 Beta 1 同日发布，AI 战略全面转向多模型架构。</summary>
+    <title>英伟达 AI 硬件和芯片股今日上涨，受 Oracle 强劲 AI 需求前景推动，Oracle 计划继续扩大数据中心规模，预计筹集约 400 亿美元用于 AI 基…</title>
+    <link href="https://www.tipranks.com/news/nvda-amd-dell-smci-why-ai-hardware-and-chip-stocks-are-rising-today-june-11-2026"/>
+    <id>https://www.tipranks.com/news/nvda-amd-dell-smci-why-ai-hardware-and-chip-stocks-are-rising-today-june-11-2026</id>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>英伟达 AI 硬件和芯片股今日上涨，受 Oracle 强劲 AI 需求前景推动，Oracle 计划继续扩大数据中心规模，预计筹集约 400 亿美元用于 AI 基础设施。</summary>
   </entry>
   <entry>
-    <title>Anthropic 于 6 月 1 日秘密提交 IPO 申请，最新融资估值 9650 亿美元，IPO 估值或超 1 万亿美元。…</title>
+    <title>Meta 推进 AI 可穿戴战略，据报道正在测试 AI 驱动的挂件设备并推出&quot;Wearables for Work&quot;业务产品，计划在 2026 年大幅提升可穿戴…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Anthropic 于 6 月 1 日秘密提交 IPO 申请，最新融资估值 9650 亿美元，IPO 估值或超 1 万亿美元。</summary>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>Meta 推进 AI 可穿戴战略，据报道正在测试 AI 驱动的挂件设备并推出&quot;Wearables for Work&quot;业务产品，计划在 2026 年大幅提升可穿戴设备销量。</summary>
   </entry>
   <entry>
-    <title>中国科协宣布撤销 NeurIPS 2026 学术认可，今年收录论文不得作为代表作，抗议其针对中国学者的制裁条款。…</title>
+    <title>ChatGPT 推出 Dreaming V3 记忆升级（6月4日），该系统可自动跨年读取历史对话、合成信息并具备时间感知能力，将计算成本降低约 5 倍后将首次覆…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>中国科协宣布撤销 NeurIPS 2026 学术认可，今年收录论文不得作为代表作，抗议其针对中国学者的制裁条款。</summary>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>ChatGPT 推出 Dreaming V3 记忆升级（6月4日），该系统可自动跨年读取历史对话、合成信息并具备时间感知能力，将计算成本降低约 5 倍后将首次覆盖免费用户。</summary>
   </entry>
   <entry>
-    <title>Claude 自写代码占 Anthropic 生产代码库合并量超 80%，工程师日均合并代码量达 2024 年的 8 倍，自我递归改进速度超预期。…</title>
+    <title>科罗拉多州 AI 法案将于 6月30日生效，这是美国首部全面的州级 AI 法律，要求高风险 AI 系统开发者保护居民免受算法歧视，距离执行仅剩 19 天。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Claude 自写代码占 Anthropic 生产代码库合并量超 80%，工程师日均合并代码量达 2024 年的 8 倍，自我递归改进速度超预期。</summary>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>科罗拉多州 AI 法案将于 6月30日生效，这是美国首部全面的州级 AI 法律，要求高风险 AI 系统开发者保护居民免受算法歧视，距离执行仅剩 19 天。</summary>
   </entry>
   <entry>
-    <title>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，提升工业环…</title>
+    <title>谷歌研究团队在 ICLR 2026 发布 TurboQuant，该算法显著降低 KV 缓存内存开销，可使大型 AI 模型更高效运行，有望加速从参数规模扩展向效率…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，提升工业环境自主决策能力。</summary>
-  </entry>
-  <entry>
-    <title>Standard Bots 获 2 亿美元融资，估值 10 亿美元，专注美国本土 AI 机械臂生产。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>Standard Bots 获 2 亿美元融资，估值 10 亿美元，专注美国本土 AI 机械臂生产。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 收购科技访谈节目 TBPN，这是其首次收购媒体公司，节目将保持编辑独立性并汇报给战略部门。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-10T15:25:36Z</updated>
-    <summary>OpenAI 收购科技访谈节目 TBPN，这是其首次收购媒体公司，节目将保持编辑独立性并汇报给战略部门。</summary>
+    <updated>2026-06-11T15:53:33Z</updated>
+    <summary>谷歌研究团队在 ICLR 2026 发布 TurboQuant，该算法显著降低 KV 缓存内存开销，可使大型 AI 模型更高效运行，有望加速从参数规模扩展向效率优先的 AI 开发转变。</summary>
   </entry>
 </feed>
