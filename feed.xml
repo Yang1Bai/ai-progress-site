@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-11T15:53:33Z</updated>
+  <updated>2026-06-12T14:51:07Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月11日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-11.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-11.html</id>
-    <updated>2026-06-11T15:53:33Z</updated>
+    <title>每日汇总 2026年6月12日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-12.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-12.html</id>
+    <updated>2026-06-12T14:51:07Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物安全筛查，警告 …</title>
+    <title>Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，并于 6 月 1 日秘密提交 S-1 IPO 文件，成为全球估值最高的 AI 创业…</title>
+    <link href="https://www.anthropic.com/news"/>
+    <id>https://www.anthropic.com/news</id>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>Anthropic 以 9650 亿美元估值完成 650 亿美元 H 轮融资，并于 6 月 1 日秘密提交 S-1 IPO 文件，成为全球估值最高的 AI 创业公司</summary>
+  </entry>
+  <entry>
+    <title>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人 6 月 5 日联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物…</title>
     <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
     <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物安全筛查，警告 AI 正在降低生物材料武器化的技术门槛。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind 和微软 AI 负责人 6 月 5 日联名致信美国国会，呼吁对合成 DNA 供应商实施强制性生物安全筛查</summary>
   </entry>
   <entry>
-    <title>特朗普总统签署 AI 行政令（6月2日），要求前沿 AI 开发者在公开发布前 30 天自愿提交模型供联邦政府进行网络安全基准测试，强调不会扼杀创新的过度监管。…</title>
-    <link href="https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"/>
-    <id>https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>特朗普总统签署 AI 行政令（6月2日），要求前沿 AI 开发者在公开发布前 30 天自愿提交模型供联邦政府进行网络安全基准测试，强调不会扼杀创新的过度监管。</summary>
+    <title>Anthropic 发布 Project Glasswing，向 AWS、Apple、Cisco、Google 等机构提供未发布的 Claude Mythos …</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>Anthropic 发布 Project Glasswing，向 AWS、Apple、Cisco、Google 等机构提供未发布的 Claude Mythos Preview 模型，用于发现和修复关键软件漏洞</summary>
   </entry>
   <entry>
-    <title>Anthropic 完成 650 亿美元融资，估值达 9650 亿美元，首次超越 OpenAI 成为全球最有价值的私营 AI 公司，并于 6月1日提交了保密 I…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-1-2026</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>Anthropic 完成 650 亿美元融资，估值达 9650 亿美元，首次超越 OpenAI 成为全球最有价值的私营 AI 公司，并于 6月1日提交了保密 IPO 申请。</summary>
-  </entry>
-  <entry>
-    <title>微软在 Build 2026 发布 MAI 系列自研模型，包括编码模型 MAI-Code-1-Flash 和推理模型 MAI-Thinking-1，旨在降低对 …</title>
+    <title>微软 Build 2026（6月2日）发布首个自研编码模型 MAI-Code-1-Flash，旨在降低对 OpenAI 依赖并为开发者提供更低成本选择…</title>
     <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
     <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>微软在 Build 2026 发布 MAI 系列自研模型，包括编码模型 MAI-Code-1-Flash 和推理模型 MAI-Thinking-1，旨在降低对 OpenAI 依赖并为开发者提供更低成本选择。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>微软 Build 2026（6月2日）发布首个自研编码模型 MAI-Code-1-Flash，旨在降低对 OpenAI 依赖并为开发者提供更低成本选择</summary>
   </entry>
   <entry>
-    <title>Snap CEO 宣布裁员约 1000 人，关闭 300 多个职位，称&quot;AI 的快速进步&quot;使更小的团队能实现相同产出，AI 现已生成 Snap 超过 65% 的…</title>
+    <title>Google 确认 Gemini 3.5 Pro 将于 6 月发布，定位于复杂企业和代理工作负载，支持深度推理和超长上下文处理…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>Snap CEO 宣布裁员约 1000 人，关闭 300 多个职位，称&quot;AI 的快速进步&quot;使更小的团队能实现相同产出，AI 现已生成 Snap 超过 65% 的新代码。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>Google 确认 Gemini 3.5 Pro 将于 6 月发布，定位于复杂企业和代理工作负载，支持深度推理和超长上下文处理</summary>
   </entry>
   <entry>
-    <title>英伟达 AI 硬件和芯片股今日上涨，受 Oracle 强劲 AI 需求前景推动，Oracle 计划继续扩大数据中心规模，预计筹集约 400 亿美元用于 AI 基…</title>
-    <link href="https://www.tipranks.com/news/nvda-amd-dell-smci-why-ai-hardware-and-chip-stocks-are-rising-today-june-11-2026"/>
-    <id>https://www.tipranks.com/news/nvda-amd-dell-smci-why-ai-hardware-and-chip-stocks-are-rising-today-june-11-2026</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>英伟达 AI 硬件和芯片股今日上涨，受 Oracle 强劲 AI 需求前景推动，Oracle 计划继续扩大数据中心规模，预计筹集约 400 亿美元用于 AI 基础设施。</summary>
-  </entry>
-  <entry>
-    <title>Meta 推进 AI 可穿戴战略，据报道正在测试 AI 驱动的挂件设备并推出&quot;Wearables for Work&quot;业务产品，计划在 2026 年大幅提升可穿戴…</title>
+    <title>SpaceX 于 6 月 12 日在纳斯达克（SPCX）上市交易，目标融资 750 亿美元，估值 1.75 万亿美元以上，将成为史上最大 IPO…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>Meta 推进 AI 可穿戴战略，据报道正在测试 AI 驱动的挂件设备并推出&quot;Wearables for Work&quot;业务产品，计划在 2026 年大幅提升可穿戴设备销量。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>SpaceX 于 6 月 12 日在纳斯达克（SPCX）上市交易，目标融资 750 亿美元，估值 1.75 万亿美元以上，将成为史上最大 IPO</summary>
   </entry>
   <entry>
-    <title>ChatGPT 推出 Dreaming V3 记忆升级（6月4日），该系统可自动跨年读取历史对话、合成信息并具备时间感知能力，将计算成本降低约 5 倍后将首次覆…</title>
+    <title>波士顿动力与 Google Cloud、DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器人和 Orbit AI …</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>ChatGPT 推出 Dreaming V3 记忆升级（6月4日），该系统可自动跨年读取历史对话、合成信息并具备时间感知能力，将计算成本降低约 5 倍后将首次覆盖免费用户。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>波士顿动力与 Google Cloud、DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器人和 Orbit AI 视觉检测平台，增强工业环境中的自主决策能力</summary>
   </entry>
   <entry>
-    <title>科罗拉多州 AI 法案将于 6月30日生效，这是美国首部全面的州级 AI 法律，要求高风险 AI 系统开发者保护居民免受算法歧视，距离执行仅剩 19 天。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>科罗拉多州 AI 法案将于 6月30日生效，这是美国首部全面的州级 AI 法律，要求高风险 AI 系统开发者保护居民免受算法歧视，距离执行仅剩 19 天。</summary>
+    <title>纽约州立法机构通过 7 项 AI 相关法案，包括儿童聊天机器人安全、AI 训练数据透明度法案和数据中心暂停令，已提交州长签署…</title>
+    <link href="https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026"/>
+    <id>https://www.transparencycoalition.ai/news/ai-legislative-update-june12-2026</id>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>纽约州立法机构通过 7 项 AI 相关法案，包括儿童聊天机器人安全、AI 训练数据透明度法案和数据中心暂停令，已提交州长签署</summary>
   </entry>
   <entry>
-    <title>谷歌研究团队在 ICLR 2026 发布 TurboQuant，该算法显著降低 KV 缓存内存开销，可使大型 AI 模型更高效运行，有望加速从参数规模扩展向效率…</title>
+    <title>Cognition（Devin 开发商）5 月 28 日完成超 10 亿美元融资，估值达 260 亿美元，年化收入从 3700 万美元快速增长…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-11T15:53:33Z</updated>
-    <summary>谷歌研究团队在 ICLR 2026 发布 TurboQuant，该算法显著降低 KV 缓存内存开销，可使大型 AI 模型更高效运行，有望加速从参数规模扩展向效率优先的 AI 开发转变。</summary>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>Cognition（Devin 开发商）5 月 28 日完成超 10 亿美元融资，估值达 260 亿美元，年化收入从 3700 万美元快速增长</summary>
+  </entry>
+  <entry>
+    <title>中国深圳人形机器人制造商 EngineAI 秘密提交香港 IPO，该公司 2026 年 4 月估值 15 亿美元…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-12T14:51:07Z</updated>
+    <summary>中国深圳人形机器人制造商 EngineAI 秘密提交香港 IPO，该公司 2026 年 4 月估值 15 亿美元</summary>
   </entry>
 </feed>
