@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-14T13:55:27Z</updated>
+  <updated>2026-06-14T16:19:45Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年6月14日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-14.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-14.html</id>
-    <updated>2026-06-14T13:55:27Z</updated>
+    <updated>2026-06-14T16:19:45Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI、谷歌、Anthropic CEO 确认出席下周法国 G7 峰会，三家 AI 巨头领袖将与世界领导人面对面讨论技术风险与就业影响…</title>
-    <link href="https://www.technobezz.com/news/openai-google-and-anthropic-ceos-will-join-g7-leaders-in-france-next-week"/>
-    <id>https://www.technobezz.com/news/openai-google-and-anthropic-ceos-will-join-g7-leaders-in-france-next-week</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>OpenAI、谷歌、Anthropic CEO 确认出席下周法国 G7 峰会，三家 AI 巨头领袖将与世界领导人面对面讨论技术风险与就业影响</summary>
+    <title>Anthropic Claude Fable 5 于 6月9日发布，首个公开 Mythos 级模型在 SWE-Bench Pro 达到 80.3%，显著超越 G…</title>
+    <link href="https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb"/>
+    <id>https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>Anthropic Claude Fable 5 于 6月9日发布，首个公开 Mythos 级模型在 SWE-Bench Pro 达到 80.3%，显著超越 GPT-5.5 的 58.6%</summary>
   </entry>
   <entry>
-    <title>OpenAI 秘密提交 IPO，Anthropic 本月早些时候也已提交，SpaceX 本周以 1.35 万亿美元估值上市，吸收了可能流向 AI 公司的市场流动…</title>
-    <link href="https://www.technobezz.com/news/openai-google-and-anthropic-ceos-will-join-g7-leaders-in-france-next-week"/>
-    <id>https://www.technobezz.com/news/openai-google-and-anthropic-ceos-will-join-g7-leaders-in-france-next-week</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>OpenAI 秘密提交 IPO，Anthropic 本月早些时候也已提交，SpaceX 本周以 1.35 万亿美元估值上市，吸收了可能流向 AI 公司的市场流动性</summary>
+    <title>OpenAI、Anthropic、Google DeepMind 三家 CEO 将于 6月15-17日首次集体出席法国 G7 峰会，AI 治理成为核心议题…</title>
+    <link href="https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/"/>
+    <id>https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind 三家 CEO 将于 6月15-17日首次集体出席法国 G7 峰会，AI 治理成为核心议题</summary>
   </entry>
   <entry>
-    <title>Snap CEO 宣布裁员约 1000 人，AI 现已生成 Snap 超 65% 新代码，重组预计下半年节省超 5 亿美元成本，股价盘前上涨 11%…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>Snap CEO 宣布裁员约 1000 人，AI 现已生成 Snap 超 65% 新代码，重组预计下半年节省超 5 亿美元成本，股价盘前上涨 11%</summary>
-  </entry>
-  <entry>
-    <title>谷歌在 Cloud Next 披露 75% 新代码由 AI 生成并经工程师审核，较去年秋季 50%、一年前 30% 大幅提升…</title>
-    <link href="https://aiweekly.co/ai-news-today/google-ai-news"/>
-    <id>https://aiweekly.co/ai-news-today/google-ai-news</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>谷歌在 Cloud Next 披露 75% 新代码由 AI 生成并经工程师审核，较去年秋季 50%、一年前 30% 大幅提升</summary>
-  </entry>
-  <entry>
-    <title>美国政府要求 Anthropic 关闭 Fable 5 和 Mythos 5 全球访问，称存在越狱风险，Anthropic 正遵守但公开反驳称漏洞被轻微夸大…</title>
+    <title>美国政府勒令 Anthropic 关闭 Fable 5 和 Mythos 5 全球访问，理由是&quot;越狱风险&quot;，Anthropic 公开质疑该决定…</title>
     <link href="https://llm-stats.com/ai-news"/>
     <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>美国政府要求 Anthropic 关闭 Fable 5 和 Mythos 5 全球访问，称存在越狱风险，Anthropic 正遵守但公开反驳称漏洞被轻微夸大</summary>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>美国政府勒令 Anthropic 关闭 Fable 5 和 Mythos 5 全球访问，理由是&quot;越狱风险&quot;，Anthropic 公开质疑该决定</summary>
   </entry>
   <entry>
-    <title>英伟达发布 Nemotron 3.5 内容安全模型，可定制的多模态安全模型专为全球企业 AI 应用设计，统一跨文本、图像、音频的安全检查…</title>
-    <link href="https://dev.to/vjswamy/latest-ai-model-releases-june-2026-roundup-49j5"/>
-    <id>https://dev.to/vjswamy/latest-ai-model-releases-june-2026-roundup-49j5</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>英伟达发布 Nemotron 3.5 内容安全模型，可定制的多模态安全模型专为全球企业 AI 应用设计，统一跨文本、图像、音频的安全检查</summary>
+    <title>OpenAI GPT-5.5 于4月23日发布，Terminal-Bench 2.0 达 82.7%，在代码生成与长时序任务上显著强于前代…</title>
+    <link href="https://openai.com/index/introducing-gpt-5-5/"/>
+    <id>https://openai.com/index/introducing-gpt-5-5/</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>OpenAI GPT-5.5 于4月23日发布，Terminal-Bench 2.0 达 82.7%，在代码生成与长时序任务上显著强于前代</summary>
   </entry>
   <entry>
-    <title>IBM 公开宣称 2026 年将首次实现量子计算机超越经典计算机，将解锁药物开发、材料科学、金融优化等领域突破…</title>
-    <link href="https://www.ibm.com/think/news/ai-tech-trends-predictions-2026"/>
-    <id>https://www.ibm.com/think/news/ai-tech-trends-predictions-2026</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>IBM 公开宣称 2026 年将首次实现量子计算机超越经典计算机，将解锁药物开发、材料科学、金融优化等领域突破</summary>
+    <title>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，实现增强空…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，实现增强空间推理与自主决策</summary>
   </entry>
   <entry>
-    <title>Moonshot AI 开源 Kimi K2.7-Code，基于 Kimi K2.6 构建的代码专注型 Agent 模型，256K 上下文窗口，采用修改版 MI…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>Moonshot AI 开源 Kimi K2.7-Code，基于 Kimi K2.6 构建的代码专注型 Agent 模型，256K 上下文窗口，采用修改版 MIT 许可</summary>
+    <title>Adobe 数据显示 2026年 Q1 AI 驱动流量转化率比其他渠道高 42%，访问时长增加 48%，AI 正重塑消费者购物路径…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>Adobe 数据显示 2026年 Q1 AI 驱动流量转化率比其他渠道高 42%，访问时长增加 48%，AI 正重塑消费者购物路径</summary>
   </entry>
   <entry>
-    <title>研究人员对顶级 AI 模型进行心理学注意力测试，发现重大缺陷：短列表颜色命名准确，但任务变长变复杂时性能急剧下降…</title>
+    <title>Snap CEO 宣布裁员约 1000 人，AI 已生成超 65% 新代码，预计每年节省超 5 亿美元成本…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>Snap CEO 宣布裁员约 1000 人，AI 已生成超 65% 新代码，预计每年节省超 5 亿美元成本</summary>
+  </entry>
+  <entry>
+    <title>微软 Build 2026 宣布 Majorana 2 量子芯片可靠性提升 1000 倍，接近商用量子计算里程碑…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>微软 Build 2026 宣布 Majorana 2 量子芯片可靠性提升 1000 倍，接近商用量子计算里程碑</summary>
+  </entry>
+  <entry>
+    <title>Google I/O 宣布 Gemini 3.5 Pro 即将于6月正式发布，目标在代码与推理任务上同时达到前沿水平…</title>
+    <link href="https://www.essamamdani.com/blog/june-2026-ai-model-flood-gpt-gemini-claude"/>
+    <id>https://www.essamamdani.com/blog/june-2026-ai-model-flood-gpt-gemini-claude</id>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>Google I/O 宣布 Gemini 3.5 Pro 即将于6月正式发布，目标在代码与推理任务上同时达到前沿水平</summary>
+  </entry>
+  <entry>
+    <title>宾夕法尼亚大学研究人员创造光-物质混合粒子用于 AI 计算，大幅提升速度并降低能耗…</title>
     <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
     <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>研究人员对顶级 AI 模型进行心理学注意力测试，发现重大缺陷：短列表颜色命名准确，但任务变长变复杂时性能急剧下降</summary>
-  </entry>
-  <entry>
-    <title>华为发布 HarmonyOS 7，引入「Agent 友好」架构，连接超 2000 个专业 AI Agent，增强语音助手功能…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-06-14T13:55:27Z</updated>
-    <summary>华为发布 HarmonyOS 7，引入「Agent 友好」架构，连接超 2000 个专业 AI Agent，增强语音助手功能</summary>
+    <updated>2026-06-14T16:19:45Z</updated>
+    <summary>宾夕法尼亚大学研究人员创造光-物质混合粒子用于 AI 计算，大幅提升速度并降低能耗</summary>
   </entry>
 </feed>
