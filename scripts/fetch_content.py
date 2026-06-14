@@ -161,6 +161,163 @@ def fetch_arxiv_papers(today_dt: datetime, days_back: int = 30, max_per_query: i
 
 
 # ---------------------------------------------------------------------------
+# 0b. Semantic Scholar API — Nature / Science 家族期刊论文
+# ---------------------------------------------------------------------------
+
+# CrossRef 高影响力期刊 ISSN 列表
+_HIGH_IMPACT_ISSNS = [
+    "0028-0836",  # Nature
+    "1476-4687",  # Nature (online)
+    "1476-1122",  # Nature Materials
+    "1755-4330",  # Nature Chemistry
+    "2058-7546",  # Nature Energy
+    "2520-1158",  # Nature Catalysis
+    "1476-1114",  # Nature Nanotechnology
+    "2731-0582",  # Nature Synthesis
+    "2522-5839",  # Nature Machine Intelligence
+    "2041-1723",  # Nature Communications
+    "2662-8457",  # Nature Computational Science
+    "0036-8075",  # Science
+    "2375-2548",  # Science Advances
+    "2057-3960",  # npj Computational Materials
+    "1944-8244",  # ACS Applied Materials & Interfaces
+    "0897-4756",  # Chemistry of Materials
+    "1936-0851",  # ACS Nano
+    "0002-7863",  # JACS
+    "1521-3773",  # Angewandte Chemie Int Ed
+    "1614-6840",  # Advanced Energy Materials
+    "0935-9648",  # Advanced Materials
+]
+
+_JOURNAL_VENUE_MAP = {
+    "0028-0836": ("nature", "Nature"),
+    "1476-4687": ("nature", "Nature"),
+    "1476-1122": ("nature", "Nature Materials"),
+    "1755-4330": ("nature", "Nature Chemistry"),
+    "2058-7546": ("nature", "Nature Energy"),
+    "2520-1158": ("nature", "Nature Catalysis"),
+    "1476-1114": ("nature", "Nature Nanotechnology"),
+    "2731-0582": ("nature", "Nature Synthesis"),
+    "2522-5839": ("nature", "Nature Machine Intelligence"),
+    "2041-1723": ("nature", "Nature Communications"),
+    "2662-8457": ("nature", "Nature Computational Science"),
+    "0036-8075": ("science", "Science"),
+    "2375-2548": ("science", "Science Advances"),
+    "2057-3960": ("nature", "npj Computational Materials"),
+    "1944-8244": ("nature", "ACS Applied Materials & Interfaces"),
+    "0897-4756": ("nature", "Chemistry of Materials"),
+    "1936-0851": ("nature", "ACS Nano"),
+    "0002-7863": ("nature", "JACS"),
+    "1521-3773": ("nature", "Angewandte Chemie"),
+    "1614-6840": ("nature", "Advanced Energy Materials"),
+    "0935-9648": ("nature", "Advanced Materials"),
+}
+
+
+def fetch_journal_papers(today_dt: datetime, days_back: int = 30, max_results: int = 12) -> list[dict]:
+    """Fetch recent AI4Material papers from high-impact journals via CrossRef API."""
+    from_date = (today_dt - timedelta(days=days_back)).strftime("%Y-%m-%d")
+
+    kw_queries = [
+        "machine learning materials crystal",
+        "deep learning catalyst battery electrode",
+        "neural network polymer alloy synthesis",
+        "generative model molecule crystal discovery",
+    ]
+
+    papers: list[dict] = []
+    seen_dois: set[str] = set()
+
+    import time as _time
+
+    for issn in _HIGH_IMPACT_ISSNS:
+        if len(papers) >= max_results:
+            break
+        venue_type, venue_name = _JOURNAL_VENUE_MAP.get(issn, ("nature", ""))
+        for kw in kw_queries:
+            if len(papers) >= max_results:
+                break
+            encoded_kw = urllib.parse.quote(kw)
+            url = (
+                f"https://api.crossref.org/works"
+                f"?filter=issn:{issn},from-pub-date:{from_date},type:journal-article"
+                f"&query.title={encoded_kw}"
+                f"&select=DOI,title,author,published,abstract"
+                f"&rows=5&sort=published&order=desc"
+            )
+            try:
+                req = urllib.request.Request(url, headers={
+                    'User-Agent': 'ai-progress-site/1.0 (mailto:noreply@ai-progress-site.app)',
+                    'Accept': 'application/json',
+                })
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    result = json.loads(resp.read())
+
+                for item in result.get("message", {}).get("items", []):
+                    doi = item.get("DOI", "")
+                    if not doi or doi in seen_dois:
+                        continue
+                    seen_dois.add(doi)
+
+                    # 解析发表日期
+                    pub_parts = item.get("published", {}).get("date-parts", [[]])[0]
+                    if len(pub_parts) < 3:
+                        continue
+                    pub_date = f"{pub_parts[0]:04d}-{pub_parts[1]:02d}-{pub_parts[2]:02d}"
+                    try:
+                        pub_dt = datetime.strptime(pub_date, "%Y-%m-%d").replace(tzinfo=today_dt.tzinfo)
+                        if (today_dt - pub_dt).days > days_back:
+                            continue
+                    except ValueError:
+                        continue
+
+                    # 识别是否 AI4Material (简单关键词过滤)
+                    raw_title = "".join(item.get("title") or [])
+                    abstract_raw = item.get("abstract") or ""
+                    combined = (raw_title + " " + abstract_raw).lower()
+                    ai4mat_kws = [
+                        "machine learning", "deep learning", "neural network",
+                        "generative", "graph network", "transformer", "diffusion model",
+                        "reinforcement learning", "gaussian process", "active learning",
+                    ]
+                    if not any(k in combined for k in ai4mat_kws):
+                        continue
+
+                    # 作者
+                    authors_list = item.get("author") or []
+                    if authors_list:
+                        first = authors_list[0]
+                        last_name = first.get("family") or first.get("name", "").split()[-1]
+                        authors_str = f"{last_name} et al." if len(authors_list) > 1 else (
+                            f"{first.get('given', '')} {first.get('family', '')}".strip()
+                        )
+                    else:
+                        authors_str = "et al."
+
+                    # 清理 abstract HTML
+                    clean_abstract = re.sub(r"<[^>]+>", "", abstract_raw).strip()[:400]
+
+                    papers.append({
+                        "venue_type": venue_type,
+                        "venue": venue_name,
+                        "title": raw_title,
+                        "authors": authors_str,
+                        "abstract": clean_abstract,
+                        "date": pub_date,
+                        "url": f"https://doi.org/{doi}",
+                        "is_week_pick": False,
+                        "_source": "crossref",
+                    })
+
+            except Exception as e:
+                print(f"[crossref] {issn} / '{kw[:30]}': {e}", flush=True)
+            _time.sleep(0.1)  # CrossRef polite pool: 微延迟
+
+    print(f"[crossref] 找到 {len(papers)} 篇 Nature/Science 期刊论文", flush=True)
+    return papers[:max_results]
+
+
+# ---------------------------------------------------------------------------
 # 1. Prompt
 # ---------------------------------------------------------------------------
 SYSTEM_PROMPT = (
@@ -169,19 +326,30 @@ SYSTEM_PROMPT = (
     "重要术语可保留英文原名。"
 )
 
-ARXIV_SUPPLEMENT = """
+PAPERS_SUPPLEMENT = """
 
 ---
-**[arXiv API 直接获取的近期论文参考列表]**
-以下是 arXiv API 按发表时间降序返回的最新 AI4Material 论文（真实存在，日期准确）。
-请从中挑选 6-8 篇最相关、最重要的，为每篇写 40-80 字的中文摘要（summary 字段），并判断是否为 week pick。
-这些论文已经是真实的，不需要 web_search 验证，直接使用即可。
+**[API 直接获取的近期 AI4Material 论文列表（真实存在，日期准确）]**
 
+{journal_section}{arxiv_section}
+---
+
+**任务：**
+1. 从以上列表中挑选总共 6-8 篇最相关、最重要的论文填入 papers 字段。
+2. 优先级：高影响力期刊（Nature/Science 家族）> arXiv。
+3. 为每篇写 40-80 字中文摘要（summary 字段），重点说明 AI 方法 + 材料应用。
+4. 选出 1 篇 is_week_pick=true（优先选期刊论文）。
+5. venue/venue_type/url 字段照原填入，不要编造。
+6. 这些论文均为实际 API 返回结果，无需 web_search 验证。
+"""
+
+_JOURNAL_SECTION_TMPL = """✨ **高影响力期刊（Nature/Science 家族及 ACS/Wiley 顶刺）：**
+{journal_list}
+"""
+
+_ARXIV_SECTION_TMPL = """
+📚 **arXiv 预印本：**
 {arxiv_list}
----
-
-请在 papers 区块中优先使用以上 arXiv 结果（venue 字段设为 "arXiv"，venue_type 设为 "conf"）。
-如果你通过 web_search 还找到了 Nature/Science 发表的近期论文，也可以加入。
 """
 
 USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web_search 工具搜索过去 1-7 天的最新 AI 资讯与论文，然后输出包含五个区块的 JSON。
@@ -274,19 +442,40 @@ def call_claude(today: str, arxiv_papers: list[dict] | None = None) -> dict:
     client = anthropic.Anthropic()
     user_prompt = USER_PROMPT_TEMPLATE.format(today=today)
 
-    # 如果有 arXiv 论文，追加到 prompt 作为参考
-    if arxiv_papers:
-        lines = []
-        for i, p in enumerate(arxiv_papers[:20], 1):
-            lines.append(
-                f"{i}. [{p['date']}] {p['title']}\n"
-                f"   Authors: {p['authors']}\n"
-                f"   URL: {p['url']}\n"
-                f"   Abstract: {p.get('abstract', '')[:300]}"
+    # 如果有 arXiv/期刊论文，追加到 prompt 作为参考
+    all_papers = (arxiv_papers or [])
+    if all_papers:
+        # 分离期刊和 arXiv
+        journal_papers = [p for p in all_papers if p.get("_source") == "crossref"]
+        arxiv_only = [p for p in all_papers if p.get("_source") == "arxiv_api"]
+
+        def _format_papers(papers_list, start_idx=1):
+            lines = []
+            for i, p in enumerate(papers_list, start_idx):
+                lines.append(
+                    f"{i}. [{p['date']}] **{p['venue']}** | {p['title']}\n"
+                    f"   Authors: {p['authors']}\n"
+                    f"   URL: {p['url']}\n"
+                    f"   Abstract: {p.get('abstract', '')[:300]}"
+                )
+            return "\n\n".join(lines)
+
+        journal_section = ""
+        if journal_papers:
+            journal_section = _JOURNAL_SECTION_TMPL.format(
+                journal_list=_format_papers(journal_papers)
             )
-        arxiv_list = "\n\n".join(lines)
-        user_prompt += ARXIV_SUPPLEMENT.format(arxiv_list=arxiv_list)
-        print(f"[claude] 注入 {len(arxiv_papers)} 篇 arXiv 论文作为参考", flush=True)
+        arxiv_section = ""
+        if arxiv_only:
+            arxiv_section = _ARXIV_SECTION_TMPL.format(
+                arxiv_list=_format_papers(arxiv_only, start_idx=len(journal_papers) + 1)
+            )
+
+        user_prompt += PAPERS_SUPPLEMENT.format(
+            journal_section=journal_section,
+            arxiv_section=arxiv_section,
+        )
+        print(f"[claude] 注入 {len(journal_papers)} 篇期刊 + {len(arxiv_only)} 篇 arXiv 论文作为参考", flush=True)
 
     print(f"[claude] model={MODEL}  date={today}", flush=True)
 
@@ -1167,12 +1356,18 @@ def main():
     today = now.strftime("%Y年%-m月%-d日")
     today_iso = now.strftime("%Y-%m-%d")
 
-    # 先从 arXiv API 拉最新论文（不依赖 web_search，日期可靠）
+    # 先从 arXiv API + Semantic Scholar 拉最新论文
     arxiv_papers: list[dict] = []
     try:
-        arxiv_papers = fetch_arxiv_papers(now, days_back=30)
+        journal_papers_fetched = fetch_journal_papers(now, days_back=30)
+        arxiv_fetched = fetch_arxiv_papers(now, days_back=30)
+        arxiv_papers = journal_papers_fetched + arxiv_fetched  # 期刊优先
     except Exception as e:
-        print(f"[arxiv] 获取失败（将依赖 web_search 备用）: {e}", flush=True)
+        print(f"[fetch] 论文获取失败（将依赖 web_search 备用）: {e}", flush=True)
+        try:
+            arxiv_papers = fetch_arxiv_papers(now, days_back=30)
+        except Exception as e2:
+            print(f"[arxiv] 也失败: {e2}", flush=True)
 
     if os.environ.get("DRY_RUN") == "1":
         print("[dry-run] 跳过 Claude API，使用 mock JSON")
