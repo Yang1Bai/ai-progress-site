@@ -31,6 +31,7 @@ import shutil
 import sys
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -47,6 +48,119 @@ MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5")
 TZ = ZoneInfo("America/Toronto")
 
 # ---------------------------------------------------------------------------
+# 0. arXiv API — 直接拉最新 AI4Material 论文
+# ---------------------------------------------------------------------------
+
+_ARXIV_NS = {'a': 'http://www.w3.org/2005/Atom'}
+
+
+def _parse_arxiv_entry(entry, papers: list, seen_ids: set, cutoff: datetime) -> None:
+    """Parse one arXiv Atom entry and append to papers if it's recent enough."""
+    id_elem = entry.find('a:id', _ARXIV_NS)
+    if id_elem is None:
+        return
+    arxiv_id = id_elem.text.strip()
+    if arxiv_id in seen_ids:
+        return
+    seen_ids.add(arxiv_id)
+
+    pub_elem = entry.find('a:published', _ARXIV_NS)
+    if pub_elem is None:
+        return
+    pub_str = pub_elem.text.strip()[:10]
+    try:
+        pub_dt = datetime.strptime(pub_str, "%Y-%m-%d").replace(tzinfo=cutoff.tzinfo)
+    except ValueError:
+        return
+    if pub_dt < cutoff:
+        return
+
+    title_elem = entry.find('a:title', _ARXIV_NS)
+    title = (title_elem.text or "").strip().replace('\n', ' ') if title_elem is not None else ""
+
+    summary_elem = entry.find('a:summary', _ARXIV_NS)
+    abstract = (summary_elem.text or "").strip().replace('\n', ' ')[:500] if summary_elem is not None else ""
+
+    author_names = []
+    for ae in entry.findall('a:author', _ARXIV_NS):
+        ne = ae.find('a:name', _ARXIV_NS)
+        if ne is not None and ne.text:
+            author_names.append(ne.text.strip())
+
+    if author_names:
+        last = author_names[0].split()[-1]
+        authors_str = f"{last} et al." if len(author_names) > 1 else author_names[0]
+    else:
+        authors_str = "et al."
+
+    url = arxiv_id.replace("http://", "https://")
+    papers.append({
+        "venue_type": "conf",
+        "venue": "arXiv",
+        "title": title,
+        "authors": authors_str,
+        "abstract": abstract,
+        "date": pub_str,
+        "url": url,
+        "is_week_pick": False,
+        "_source": "arxiv_api",
+    })
+
+
+def fetch_arxiv_papers(today_dt: datetime, days_back: int = 30, max_per_query: int = 8) -> list[dict]:
+    """Query arXiv API for recent AI4Material papers via category and keyword searches."""
+    cutoff = today_dt - timedelta(days=days_back)
+    papers: list[dict] = []
+    seen_ids: set[str] = set()
+
+    def _do_query(search_query: str) -> list:
+        url = (
+            f"http://export.arxiv.org/api/query"
+            f"?search_query={search_query}"
+            f"&start=0&max_results={max_per_query}"
+            f"&sortBy=submittedDate&sortOrder=descending"
+        )
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'ai-progress-site/1.0 (github.com/Yang1Bai)'})
+            with urllib.request.urlopen(req, timeout=25) as resp:
+                data = resp.read()
+            root = ET.fromstring(data)
+            return root.findall('a:entry', _ARXIV_NS)
+        except Exception as e:
+            print(f"[arxiv] query error ({search_query[:60]}): {e}", flush=True)
+            return []
+
+    # 1. Category cross-listing: materials science + ML
+    cat_queries = [
+        "cat:cond-mat.mtrl-sci+AND+cat:cs.LG",
+        "cat:physics.chem-ph+AND+cat:cs.LG",
+        "cat:cond-mat.mes-hall+AND+cat:cs.LG",
+        "cat:cond-mat.supr-con+AND+cat:cs.LG",
+    ]
+    for cq in cat_queries:
+        if len(papers) >= 16:
+            break
+        for entry in _do_query(cq):
+            _parse_arxiv_entry(entry, papers, seen_ids, cutoff)
+
+    # 2. Keyword searches in title (catch energy/battery/catalyst papers)
+    kw_queries = [
+        "ti:machine+learning+AND+(ti:material+OR+ti:crystal+OR+ti:catalyst)",
+        "ti:neural+network+AND+(ti:battery+OR+ti:polymer+OR+ti:alloy)",
+        "ti:generative+AND+(ti:molecule+OR+ti:material+OR+ti:crystal+OR+ti:catalyst)",
+        "ti:graph+neural+AND+(ti:material+OR+ti:crystal+OR+ti:perovskite)",
+    ]
+    for kq in kw_queries:
+        if len(papers) >= 24:
+            break
+        for entry in _do_query(kq):
+            _parse_arxiv_entry(entry, papers, seen_ids, cutoff)
+
+    print(f"[arxiv] 找到 {len(papers)} 篇近 {days_back} 天内的 AI4Material 论文", flush=True)
+    return papers[:24]
+
+
+# ---------------------------------------------------------------------------
 # 1. Prompt
 # ---------------------------------------------------------------------------
 SYSTEM_PROMPT = (
@@ -54,6 +168,21 @@ SYSTEM_PROMPT = (
     "不能在 JSON 之外写任何字符。全部正文使用中文（简体）。"
     "重要术语可保留英文原名。"
 )
+
+ARXIV_SUPPLEMENT = """
+
+---
+**[arXiv API 直接获取的近期论文参考列表]**
+以下是 arXiv API 按发表时间降序返回的最新 AI4Material 论文（真实存在，日期准确）。
+请从中挑选 6-8 篇最相关、最重要的，为每篇写 40-80 字的中文摘要（summary 字段），并判断是否为 week pick。
+这些论文已经是真实的，不需要 web_search 验证，直接使用即可。
+
+{arxiv_list}
+---
+
+请在 papers 区块中优先使用以上 arXiv 结果（venue 字段设为 "arXiv"，venue_type 设为 "conf"）。
+如果你通过 web_search 还找到了 Nature/Science 发表的近期论文，也可以加入。
+"""
 
 USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web_search 工具搜索过去 1-7 天的最新 AI 资讯与论文，然后输出包含五个区块的 JSON。
 
@@ -139,11 +268,26 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
 # 2. 调用 Claude API
 # ---------------------------------------------------------------------------
 
-def call_claude(today: str) -> dict:
+def call_claude(today: str, arxiv_papers: list[dict] | None = None) -> dict:
     import anthropic
 
     client = anthropic.Anthropic()
     user_prompt = USER_PROMPT_TEMPLATE.format(today=today)
+
+    # 如果有 arXiv 论文，追加到 prompt 作为参考
+    if arxiv_papers:
+        lines = []
+        for i, p in enumerate(arxiv_papers[:20], 1):
+            lines.append(
+                f"{i}. [{p['date']}] {p['title']}\n"
+                f"   Authors: {p['authors']}\n"
+                f"   URL: {p['url']}\n"
+                f"   Abstract: {p.get('abstract', '')[:300]}"
+            )
+        arxiv_list = "\n\n".join(lines)
+        user_prompt += ARXIV_SUPPLEMENT.format(arxiv_list=arxiv_list)
+        print(f"[claude] 注入 {len(arxiv_papers)} 篇 arXiv 论文作为参考", flush=True)
+
     print(f"[claude] model={MODEL}  date={today}", flush=True)
 
     msg = client.messages.create(
@@ -1023,6 +1167,13 @@ def main():
     today = now.strftime("%Y年%-m月%-d日")
     today_iso = now.strftime("%Y-%m-%d")
 
+    # 先从 arXiv API 拉最新论文（不依赖 web_search，日期可靠）
+    arxiv_papers: list[dict] = []
+    try:
+        arxiv_papers = fetch_arxiv_papers(now, days_back=30)
+    except Exception as e:
+        print(f"[arxiv] 获取失败（将依赖 web_search 备用）: {e}", flush=True)
+
     if os.environ.get("DRY_RUN") == "1":
         print("[dry-run] 跳过 Claude API，使用 mock JSON")
         data = load_mock()
@@ -1035,7 +1186,7 @@ def main():
         data = None
         for attempt in range(3):
             try:
-                data = call_claude(today)
+                data = call_claude(today, arxiv_papers=arxiv_papers)
                 break
             except Exception as e:
                 last_err = e
@@ -1044,8 +1195,9 @@ def main():
             print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
             return 3
 
-    # Filter papers: only keep papers from the last 14 days
-    cutoff = now - timedelta(days=14)
+    # Filter papers: keep papers from the last 60 days
+    # (arXiv papers are date-verified; 60 days is generous fallback for web_search results)
+    cutoff = now - timedelta(days=60)
     papers = data.get("papers", [])
     recent_papers = []
     for p in papers:
