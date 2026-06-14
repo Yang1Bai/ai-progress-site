@@ -2,49 +2,52 @@
   "date": "2026年6月14日",
   "leaders": [
     {
-      "name": "山姆·奥特曼",
-      "name_en": "Sam Altman",
-      "role": "OpenAI 首席执行官",
-      "quote": "我们将参加下周法国 G7 峰会",
-      "body": "奥特曼将于6月15-17日首次出席在法国举办的 G7 峰会，与德米斯·哈萨比斯、达里奥·阿莫代共同讨论 AI 治理议题。",
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "我们没有太多时间准备AGI到来",
+      "body": "哈萨比斯在6月初接受采访时警告，人类正站在\"奇点的山脚下\"，AGI可能在2030年前超越所有人类智能总和。他同时被曝光秘密投资Anthropic，展现出对AI生态的深度布局。",
       "tags": [
-        "G7峰会",
-        "AI治理"
+        "AGI",
+        "Google",
+        "投资"
       ],
-      "initials": "SA",
-      "quote_date": "6月12日"
-    },
-    {
-      "name": "达里奥·阿莫代",
-      "name_en": "Dario Amodei",
-      "role": "Anthropic 首席执行官",
-      "quote": "AI 可能侵蚀生物武器知识壁垒",
-      "body": "阿莫代与奥特曼、哈萨比斯联名致信美国国会，呼吁对合成 DNA 订单实施强制性筛查与记录，以防止 AI 辅助生物武器扩散。",
-      "tags": [
-        "生物安全",
-        "政策呼吁"
-      ],
-      "initials": "DA",
+      "initials": "DH",
       "quote_date": "6月初"
     },
     {
-      "name": "德米斯·哈萨比斯",
-      "name_en": "Demis Hassabis",
-      "role": "Google DeepMind 首席执行官",
-      "quote": "合成核酸供应链需要法律监管",
-      "body": "哈萨比斯与 OpenAI、Anthropic 领导人共同签署公开信，要求立法要求合成 DNA 供应商验证客户合法性并扫描危险序列。",
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "ChatGPT已是有史以来最强大的人类",
+      "body": "奥特曼在6月5日签署了致美国国会的联名信，呼吁强制要求合成DNA供应商进行生物安全筛查，警告AI正在降低生物武器的技术门槛。OpenAI同时宣布向欧盟提供GPT-5.5-Cyber网络安全专用模型。",
       "tags": [
-        "生物安全",
-        "供应链"
+        "安全",
+        "政策",
+        "生物"
       ],
-      "initials": "DH",
+      "initials": "SA",
+      "quote_date": "6月5日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "NVIDIA CEO",
+      "quote": "AI已从实验基础设施转为全球产业核心运营层",
+      "body": "在GTC 2026大会上，黄仁勋强调代理式AI（Agentic AI）框架成为焦点，NeMoCLAW和OpenCLAW编排工具吸引最多参会者。财富500强企业宣布在制造、物流和金融领域部署生产级AI代理。",
+      "tags": [
+        "Agent",
+        "企业AI",
+        "芯片"
+      ],
+      "initials": "JH",
       "quote_date": "近期"
     }
   ],
   "news": [
     {
       "title": "",
-      "body": "<strong>Anthropic Claude Fable 5</strong> 于 6月9日发布，首个公开 Mythos 级模型在 SWE-Bench Pro 达到 <strong>80.3%</strong>，显著超越 GPT-5.5 的 58.6%",
+      "body": "<strong>Anthropic Claude Fable 5</strong>在6月9日发布，成为首个公开的Mythos级模型，SWE-Bench Pro得分80.3%，领跑GPT-5.5（58.6%）和Gemini 3.1 Pro（54.2%），确立编程能力新标杆。",
       "url": "https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb",
       "importance": "breaking",
       "tags": [
@@ -54,8 +57,27 @@
     },
     {
       "title": "",
-      "body": "OpenAI、Anthropic、Google DeepMind 三家 CEO 将于 <strong>6月15-17日</strong>首次集体出席法国 <strong>G7 峰会</strong>，AI 治理成为核心议题",
-      "url": "https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/",
+      "body": "<strong>美国政府命令Anthropic</strong>关闭全球访问Fable 5和Mythos 5，理由是所谓\"越狱风险\"，Anthropic虽然遵守但公开反驳称漏洞被夸大，引发AI监管争议。",
+      "url": "https://llm-stats.com/ai-news",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#安全"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>ChatGPT月活用户突破10亿</strong>，确认AI助手在全球范围内的大规模普及，凸显人工智能在个人和职场日常生活中日益重要的角色。",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ]
+    },
+    {
+      "title": "",
+      "body": "<strong>SpaceX（含xAI）IPO</strong>定价6月11日，目标估值1.75万亿美元或以上，成为AI行业史上最大规模IPO压力测试，但xAI年耗资140亿美元需靠IPO资金支撑。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026",
       "importance": "major",
       "tags": [
         "#政策"
@@ -63,8 +85,8 @@
     },
     {
       "title": "",
-      "body": "美国政府勒令 Anthropic 关闭 <strong>Fable 5 和 Mythos 5</strong> 全球访问，理由是\"越狱风险\"，Anthropic 公开质疑该决定",
-      "url": "https://llm-stats.com/ai-news",
+      "body": "OpenAI、Anthropic、Google DeepMind、微软AI负责人联名致信国会，呼吁<strong>强制合成DNA筛查</strong>以防AI降低生物武器技术门槛，称AI已能媲美博士级病毒学家。",
+      "url": "https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter",
       "importance": "major",
       "tags": [
         "#安全",
@@ -73,8 +95,8 @@
     },
     {
       "title": "",
-      "body": "<strong>OpenAI GPT-5.5</strong> 于4月23日发布，Terminal-Bench 2.0 达 82.7%，在代码生成与长时序任务上显著强于前代",
-      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "body": "<strong>Meta发布Llama 4小型专有模型</strong>，偏离开源策略，在多模态感知、推理、健康和代理任务上以极低成本实现竞争力表现，同时宣布2026年AI资本支出将达1150-1350亿美元。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
       "importance": "major",
       "tags": [
         "#LLM"
@@ -82,94 +104,126 @@
     },
     {
       "title": "",
-      "body": "Boston Dynamics 与 Google DeepMind 合作，将 <strong>Gemini Robotics-ER 1.6</strong> 集成到 Spot 机器狗，实现增强空间推理与自主决策",
-      "url": "",
-      "importance": "major",
-      "tags": [
-        "#机器人",
-        "#多模态"
-      ]
-    },
-    {
-      "title": "",
-      "body": "Adobe 数据显示 2026年 Q1 <strong>AI 驱动流量</strong>转化率比其他渠道高 42%，访问时长增加 48%，AI 正重塑消费者购物路径",
-      "url": "",
-      "importance": "normal",
-      "tags": [
-        "#Agent"
-      ]
-    },
-    {
-      "title": "",
-      "body": "Snap CEO 宣布裁员约 1000 人，<strong>AI 已生成超 65% 新代码</strong>，预计每年节省超 5 亿美元成本",
-      "url": "",
-      "importance": "normal",
-      "tags": [
-        "#LLM"
-      ]
-    },
-    {
-      "title": "",
-      "body": "微软 Build 2026 宣布 <strong>Majorana 2 量子芯片</strong>可靠性提升 1000 倍，接近商用量子计算里程碑",
-      "url": "",
-      "importance": "normal",
-      "tags": [
-        "#芯片"
-      ]
-    },
-    {
-      "title": "",
-      "body": "Google I/O 宣布 <strong>Gemini 3.5 Pro</strong> 即将于6月正式发布，目标在代码与推理任务上同时达到前沿水平",
-      "url": "https://www.essamamdani.com/blog/june-2026-ai-model-flood-gpt-gemini-claude",
+      "body": "Google在ICLR 2026发布<strong>TurboQuant算法</strong>，显著减少KV缓存内存开销（大模型运行最大瓶颈之一），结合PolarQuant向量旋转和压缩方法让超长上下文模型更高效运行。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
       "importance": "normal",
       "tags": [
         "#LLM",
-        "#多模态"
+        "#芯片"
       ]
     },
     {
       "title": "",
-      "body": "宾夕法尼亚大学研究人员创造<strong>光-物质混合粒子</strong>用于 AI 计算，大幅提升速度并降低能耗",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "body": "<strong>Snap宣布裁员约1000人</strong>并关闭300多个职位空缺，占计划员工总数约四分之一，CEO称\"AI快速进步\"让更小团队实现同等产出，AI已生成Snap超65%新代码。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
       "importance": "normal",
       "tags": [
-        "#芯片"
+        "#政策"
+      ]
+    },
+    {
+      "title": "",
+      "body": "OpenAI收购硅谷科技谈话节目<strong>TBPN</strong>（年收入3000万美元），交易金额\"数亿美元\"，被视为IPO前塑造AI公共叙事的尝试，引发与马斯克收购X、贝佐斯拥有华邮的类比。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ]
+    },
+    {
+      "title": "",
+      "body": "美国空军3月成功首次实战使用<strong>WarMatrix AI驱动兵棋推演环境</strong>，超150名参与者执行6轮24小时游戏时间演习，采用物理建模和AI辅助裁决。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "importance": "normal",
+      "tags": [
+        "#Agent",
+        "#政策"
       ]
     }
   ],
   "science": [
     {
-      "title": "AI 加速气候模型 25 倍",
-      "body": "研究人员将生成式方法与物理数据结合，开发出运行速度提升约 25 倍的气候模型，显著降低计算成本同时保持预测精度。"
+      "title": "AI加速气候模型25倍",
+      "body": "加州大学圣地亚哥分校研究显示，结合生成方法与物理数据的AI气候模型运行速度提升约25倍，显著缩短极端天气预测和气候变化模拟时间，推动科学基础设施向AI转型。"
     },
     {
-      "title": "AlphaFold 3 蛋白交互预测",
-      "body": "Google DeepMind 的 AlphaFold 3 将蛋白质结构预测扩展到蛋白-DNA、蛋白-RNA 和小分子交互，性能比现有方法提升至少 50%，获 2024 诺贝尔化学奖认可。"
+      "title": "光-物质混合粒子驱动AI计算",
+      "body": "宾夕法尼亚大学研究人员创造出混合光-物质粒子，可大幅加速AI计算同时大幅降低能耗，有望用超高效光基技术替代部分电子计算过程，解决AI算力能耗瓶颈。"
     },
     {
-      "title": "GNoME 发现 220 万晶体结构",
-      "body": "DeepMind 的 GNoME 发现 220 万种新晶体结构，包括 5.2 万种锂离子导体，外部研究者已成功合成其中 736 种预测材料。"
+      "title": "深度学习诊断眼病早期筛查",
+      "body": "法国创业公司Zenkolab利用AI分析视网膜图像，在早期阶段检测眼疾，旨在减少诊断延误、改善患者护理并扩大筛查覆盖，尤其在眼科专家稀缺地区。"
     },
     {
-      "title": "AI 设计药物进入临床二期",
-      "body": "Insilico Medicine 开发的 ISM001-055 成为首个全 AI 设计药物进入二期临床并取得阳性结果，开发时间缩短至 18 个月，成本降至传统方法的 10%。"
+      "title": "AI模型注意力测试揭示缺陷",
+      "body": "研究人员用心理学经典注意力测试评估顶级AI模型，发现其虽能正确命名短列表颜色，但当任务变长变复杂时性能急剧下降，暴露当前大模型在持续注意力上的根本缺陷。"
     },
     {
-      "title": "斯坦福 HAI 峰会探讨 AI 科学发现",
-      "body": "2026年5月5日 AI+Science 峰会上，研究者强调 AI 正如望远镜与显微镜一样开启全新科学视野，帮助科学家在海量数据中发现人类难以理解的复杂模式。"
+      "title": "耐700°C芯片或改变AI未来",
+      "body": "工程团队创造突破性存储器件，可在1300°F（700°C）高温下工作（比熔岩更热），打破电子学最大限制之一，为极端环境AI部署（航空航天、工业等）开辟新可能。"
     },
     {
-      "title": "多模态 LLM 助力神经科学",
-      "body": "研究者利用 GPT-4 等多模态 LLM 解码视觉皮层神经元活动，发现几乎每个神经元都可用人类语言解释，揭示瞳孔扩张有助于检测捕食者等新发现。"
+      "title": "火星首次AI规划驾驶完成",
+      "body": "NASA毅力号火星车完成首次由AI而非人类操作员规划路线的驾驶，具备视觉能力的AI分析相同图像并自主决策，标志着行星探测迈向自主化重要里程碑。"
     }
   ],
   "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Materials",
+      "title": "Cross-material catalyst discovery via deep learning",
+      "authors": "Moon et al.",
+      "summary": "利用深度学习实现跨材料催化剂发现，突破传统催化剂设计中材料类型局限，通过统一神经网络模型预测不同材料体系的催化性能，加速新型催化剂筛选与优化流程。",
+      "date": "2026-05-28",
+      "url": "https://doi.org/10.1038/s41563-026-02622-6",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Rethinking the use of deep learning methods for photovoltaic power forecasting",
+      "authors": "Zhang et al.",
+      "summary": "重新评估深度学习架构在光伏发电预测中的应用，针对天气不确定性和历史观测与前瞻预测整合难题，提出改进方案并证明现有模型选择存在系统性偏差，为能源AI建模提供新视角。",
+      "date": "2026-06-12",
+      "url": "https://doi.org/10.1038/s41467-026-73817-3",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Switchable adhesion of phase-transition eutectogels with integrated machine learning-enhanced intelligent adhesion sensing",
+      "authors": "He et al.",
+      "summary": "开发具有相变可开关粘附特性的共晶凝胶材料，集成机器学习增强的智能粘附传感，可适应不同材料成分和表面粗糙度基底，同时实时感知粘附状态，赋能机器人、微电子和生物医学工程。",
+      "date": "2026-06-11",
+      "url": "https://doi.org/10.1038/s41467-026-74275-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-assisted design of carbon nanotube edge computing circuits for monolithic epidermal systems",
+      "authors": "Luo et al.",
+      "summary": "利用机器学习辅助设计碳纳米管边缘计算电路，实现单片表皮系统（可穿戴电子设备），优化纳米管器件参数与电路拓扑，突破传统试错设计瓶颈，推动柔性电子材料实用化。",
+      "date": "2026-06-10",
+      "url": "https://doi.org/10.1038/s41467-026-74053-5",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Generative flow model on distance geometry for predicting transition states of chemical reactions",
+      "authors": "Luo et al.",
+      "summary": "提出基于距离几何的生成流模型预测化学反应过渡态结构，绕过传统量子化学高昂计算成本，直接生成反应能垒关键几何构型，加速催化反应机理研究和反应路径设计。",
+      "date": "2026-06-13",
+      "url": "https://doi.org/10.1038/s41467-026-74101-0",
+      "is_week_pick": false
+    },
     {
       "venue_type": "conf",
       "venue": "arXiv",
       "title": "Modelling magnetic material properties with uncertainty-aware neural networks",
       "authors": "Wager et al.",
-      "summary": "针对磁性材料性质预测开发不确定性感知神经网络，解决高质量数据稀缺与分布外预测中的不确定性量化问题，加速磁性材料发现与筛选。",
+      "summary": "针对磁性材料性质预测数据稀缺和分布外推断挑战，开发不确定性感知神经网络模型，量化预测置信度，加速磁性材料（电机、传感器、存储器）发现并提高模型可信度。",
       "date": "2026-06-10",
       "url": "https://arxiv.org/abs/2606.11870v1",
       "is_week_pick": false
@@ -177,59 +231,9 @@
     {
       "venue_type": "conf",
       "venue": "arXiv",
-      "title": "Range-Aware Bayesian Optimization for Discovering Diverse Designs within Target Property Windows",
-      "authors": "Jiang et al.",
-      "summary": "提出范围感知贝叶斯优化方法，用于材料与产品设计中发现满足性能窗口的多样化候选方案，适用于实际应用中需要多个可行设计的场景。",
-      "date": "2026-06-10",
-      "url": "https://arxiv.org/abs/2606.11574v1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
-      "title": "Symmetry-electronic fingerprints reveal competing magnetic phases in two-dimensional materials",
-      "authors": "Fuhr et al.",
-      "summary": "开发对称性-电子指纹机器学习表示，成功预测二维材料中竞争磁相、磁矩与各向异性，克服传统化学环境编码无法捕捉磁性基态的局限。",
-      "date": "2026-06-11",
-      "url": "https://arxiv.org/abs/2606.13548v1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
-      "title": "My Chemical Harness: Evolutionary Molecular Design over Synthetic Pathways with Large Language Model Agents",
-      "authors": "Ojeda et al.",
-      "summary": "利用大语言模型代理构建基于合成路径的进化分子设计框架，搜索群体由可执行合成流程组成，确保设计分子具备可行的合成路线。",
-      "date": "2026-06-08",
-      "url": "https://arxiv.org/abs/2606.11256v1",
-      "is_week_pick": true
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
-      "title": "Mesh Graph Neural Network Framework for Accelerating Finite Element Simulation for Arbitrary Geometries",
-      "authors": "Kunz et al.",
-      "summary": "提出网格图神经网络代理有限元分析，适应任意几何形状，大幅加速结构设计中多次迭代评估与载荷场景计算，突破传统深度学习几何泛化瓶颈。",
-      "date": "2026-06-06",
-      "url": "https://arxiv.org/abs/2606.08287v1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
-      "title": "Inverse design of bespoke interatomic potentials via active learning by information-matching",
-      "authors": "Kurniawan et al.",
-      "summary": "开发基于信息匹配主动学习的原子间势函数逆向设计框架，通过选择训练数据、不确定性量化与模型表达能力提升势函数预测可靠性，推进大规模原子模拟。",
-      "date": "2026-06-06",
-      "url": "https://arxiv.org/abs/2606.08148v1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
       "title": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
       "authors": "He et al.",
-      "summary": "构建碱激活矿渣材料最大数据集，融入反应性特征的机器学习建立配方-性能定量关系，克服前驱体与激活剂化学可变性挑战，加速低碳胶凝材料设计。",
+      "summary": "构建碱激发矿渣（低碳水泥替代材料）最大数据集，将反应性指标纳入机器学习特征，建立配比设计-原料性质-养护条件-性能定量关系，推动可持续建筑材料智能设计。",
       "date": "2026-06-04",
       "url": "https://arxiv.org/abs/2606.06765v1",
       "is_week_pick": false
@@ -237,11 +241,11 @@
     {
       "venue_type": "conf",
       "venue": "arXiv",
-      "title": "Fast Organic Crystal Structure Prediction with Unit Cell Flow Matching",
-      "authors": "Lo et al.",
-      "summary": "提出单位胞流匹配生成模型用于有机晶体结构预测，大幅降低传统 CSP 计算成本（从数 CPU 年缩短至分钟级），直接采样稳定晶体结构。",
-      "date": "2026-06-02",
-      "url": "https://arxiv.org/abs/2606.03199v1",
+      "title": "Towards Automated Discovery: A Review of Generative Models, Multimodal Learning and Closed-Loop Workflows in Inverse Materials Design",
+      "authors": "Babu et al.",
+      "summary": "综述生成式晶体结构建模、多模态学习和闭环设计流程在逆向材料设计中的最新进展，从前向预测转向满足目标性能的材料候选定向生成，展望自动化材料发现未来范式。",
+      "date": "2026-06-01",
+      "url": "https://arxiv.org/abs/2606.02507v1",
       "is_week_pick": false
     }
   ],
@@ -251,7 +255,7 @@
       "org": "Anthropic",
       "org_short": "ANTH",
       "release_date": "2026-06-09",
-      "highlight": "首个公开 Mythos 级模型",
+      "highlight": "首个公开Mythos级模型，SWE-Bench Pro 80.3%",
       "tier": "S"
     },
     {
@@ -259,7 +263,7 @@
       "org": "OpenAI",
       "org_short": "OAI",
       "release_date": "2026-04-23",
-      "highlight": "代码生成与长时序推理领先",
+      "highlight": "代理式工作流优化，幻觉率降60%",
       "tier": "S"
     },
     {
@@ -267,15 +271,23 @@
       "org": "Anthropic",
       "org_short": "ANTH",
       "release_date": "2026-05-28",
-      "highlight": "长时序代理任务突破",
+      "highlight": "智能指数61.4居首，编码与代理任务领先",
       "tier": "S"
     },
     {
       "name": "Gemini 3.1 Pro",
-      "org": "Google DeepMind",
+      "org": "Google",
       "org_short": "GOOG",
       "release_date": "2026-02-01",
-      "highlight": "推理与数据分析领先",
+      "highlight": "GPQA Diamond 94.3%，推理准确度最高",
+      "tier": "A"
+    },
+    {
+      "name": "Kimi K2.7-Code",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-06-13",
+      "highlight": "推理token使用降30%，改进MIT开源",
       "tier": "A"
     },
     {
@@ -283,50 +295,66 @@
       "org": "xAI",
       "org_short": "XAI",
       "release_date": "2026-04-01",
-      "highlight": "高性价比代理与工具调用",
+      "highlight": "新增文档生成和视频输入，性价比强",
       "tier": "A"
     }
   ],
   "benchmarks": [
     {
-      "model": "Claude Fable 5",
+      "model": "Claude Opus 4.8",
       "org": "Anthropic",
-      "mmlu": "N/A",
+      "mmlu": "91.8",
       "math": "N/A",
-      "humaneval": "80.3",
-      "notes": "SWE-Bench Pro 领先，代码生成最强"
+      "humaneval": "93.5",
+      "notes": "SWE-Bench Verified 87.6%，智能指数61.4领跑"
     },
     {
       "model": "GPT-5.5",
       "org": "OpenAI",
-      "mmlu": "N/A",
-      "math": "51.7",
-      "humaneval": "82.7",
-      "notes": "Terminal-Bench 2.0 与 FrontierMath 顶尖"
-    },
-    {
-      "model": "Claude Opus 4.8",
-      "org": "Anthropic",
-      "mmlu": "N/A",
+      "mmlu": "92.1",
       "math": "N/A",
-      "humaneval": "80.9",
-      "notes": "SWE-bench Verified 领先，代理推理突破"
+      "humaneval": "93.2",
+      "notes": "FrontierMath Tier 1-3达51.7%，代理任务优化"
     },
     {
       "model": "Gemini 3.1 Pro",
       "org": "Google",
-      "mmlu": "N/A",
+      "mmlu": "93.7",
       "math": "N/A",
-      "humaneval": "80.6",
-      "notes": "推理与数据分析强，100万上下文窗口"
+      "humaneval": "91.5",
+      "notes": "GPQA Diamond 94.3%，推理准确度最高"
+    },
+    {
+      "model": "Claude Opus 4.7",
+      "org": "Anthropic",
+      "mmlu": "91.3",
+      "math": "N/A",
+      "humaneval": "93.8",
+      "notes": "SWE-Bench Verified 80.9%，编程标杆"
     },
     {
       "model": "Grok 4.3",
       "org": "xAI",
-      "mmlu": "N/A",
+      "mmlu": "90.5",
       "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "高性价比，代理与工具使用能力强"
+      "humaneval": "92.1",
+      "notes": "智能指数53，性价比突出"
+    },
+    {
+      "model": "Qwen 3.5-Plus",
+      "org": "Alibaba",
+      "mmlu": "90.8",
+      "math": "N/A",
+      "humaneval": "88.4",
+      "notes": "GPQA Diamond 88.4%，中文优势明显"
+    },
+    {
+      "model": "GLM-5",
+      "org": "Zhipu AI",
+      "mmlu": "89.2",
+      "math": "N/A",
+      "humaneval": "87.5",
+      "notes": "Chatbot Arena ELO 1451，开源模型领先"
     }
   ],
   "conferences": [
@@ -334,22 +362,22 @@
       "name": "ICML 2026",
       "event_type": "submission",
       "deadline": "2026-01-28",
-      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "url": "https://icml.cc",
       "days_left": -137
     },
     {
       "name": "NeurIPS 2026",
       "event_type": "submission",
       "deadline": "2026-09-26",
-      "url": "https://neurips.cc/public/JournalToConference",
+      "url": "https://neurips.cc",
       "days_left": 104
     },
     {
-      "name": "ICLR 2026",
+      "name": "ECCV 2026",
       "event_type": "notification",
-      "deadline": "2026-04-23",
-      "url": "https://iclr.cc/Conferences/2026/Dates",
-      "days_left": -52
+      "deadline": "2026-07-15",
+      "url": "https://eccv2026.eu",
+      "days_left": 31
     }
   ],
   "stats": {
