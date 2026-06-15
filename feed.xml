@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-14T16:26:38Z</updated>
+  <updated>2026-06-15T17:12:21Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月14日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-14.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-14.html</id>
-    <updated>2026-06-14T16:26:38Z</updated>
+    <title>每日汇总 2026年6月15日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-15.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-15.html</id>
+    <updated>2026-06-15T17:12:21Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Fable 5在6月9日发布，成为首个公开的Mythos级模型，SWE-Bench Pro得分80.3%，领跑GPT-5.5（…</title>
+    <title>OpenAI、Anthropic、DeepMind三巨头CEO齐聚法国G7峰会，6月15-17日在埃维昂莱班与各国首脑讨论AI基础设施监管与青少年网络保护,这是…</title>
+    <link href="https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/"/>
+    <id>https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>OpenAI、Anthropic、DeepMind三巨头CEO齐聚法国G7峰会，6月15-17日在埃维昂莱班与各国首脑讨论AI基础设施监管与青少年网络保护,这是三家公司首次同时参与G7峰会</summary>
+  </entry>
+  <entry>
+    <title>Anthropic发布Claude Fable 5，6月9日推出首款公开Mythos级模型，在SWE-Bench Pro编程基准达80.3%创纪录表现，大幅领先…</title>
     <link href="https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb"/>
     <id>https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>Anthropic Claude Fable 5在6月9日发布，成为首个公开的Mythos级模型，SWE-Bench Pro得分80.3%，领跑GPT-5.5（58.6%）和Gemini 3.1 Pro（54.2%），确立编程能力新标杆。</summary>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>Anthropic发布Claude Fable 5，6月9日推出首款公开Mythos级模型，在SWE-Bench Pro编程基准达80.3%创纪录表现，大幅领先GPT-5.5的58.6%</summary>
   </entry>
   <entry>
-    <title>美国政府命令Anthropic关闭全球访问Fable 5和Mythos 5，理由是所谓&quot;越狱风险&quot;，Anthropic虽然遵守但公开反驳称漏洞被夸大，引发AI监…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>美国政府命令Anthropic关闭全球访问Fable 5和Mythos 5，理由是所谓&quot;越狱风险&quot;，Anthropic虽然遵守但公开反驳称漏洞被夸大，引发AI监管争议。</summary>
+    <title>OpenAI关闭Sora视频生成服务，3月24日宣布停运后每日消耗1500万美元却仅产生210万美元总收入，成为AI历史上最昂贵的产品失败案例之一…</title>
+    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
+    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>OpenAI关闭Sora视频生成服务，3月24日宣布停运后每日消耗1500万美元却仅产生210万美元总收入，成为AI历史上最昂贵的产品失败案例之一</summary>
   </entry>
   <entry>
-    <title>ChatGPT月活用户突破10亿，确认AI助手在全球范围内的大规模普及，凸显人工智能在个人和职场日常生活中日益重要的角色。…</title>
-    <link href="https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a"/>
-    <id>https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>ChatGPT月活用户突破10亿，确认AI助手在全球范围内的大规模普及，凸显人工智能在个人和职场日常生活中日益重要的角色。</summary>
+    <title>Meta与Nebius签订270亿美元AI基础设施协议，包括部署NVIDIA Vera Rubin GPU平台,性能较Blackwell提升3.3倍,用于满足欧…</title>
+    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
+    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>Meta与Nebius签订270亿美元AI基础设施协议，包括部署NVIDIA Vera Rubin GPU平台,性能较Blackwell提升3.3倍,用于满足欧盟GDPR数据主权合规要求</summary>
   </entry>
   <entry>
-    <title>SpaceX（含xAI）IPO定价6月11日，目标估值1.75万亿美元或以上，成为AI行业史上最大规模IPO压力测试，但xAI年耗资140亿美元需靠IPO资金支…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>SpaceX（含xAI）IPO定价6月11日，目标估值1.75万亿美元或以上，成为AI行业史上最大规模IPO压力测试，但xAI年耗资140亿美元需靠IPO资金支撑。</summary>
+    <title>美国政府用ChatGPT审查医疗补助欺诈，HHS部署大模型扫描50个州五年审计报告,寻找1000-2000亿美元年度浪费和欺诈行为…</title>
+    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
+    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>美国政府用ChatGPT审查医疗补助欺诈，HHS部署大模型扫描50个州五年审计报告,寻找1000-2000亿美元年度浪费和欺诈行为</summary>
   </entry>
   <entry>
-    <title>OpenAI、Anthropic、Google DeepMind、微软AI负责人联名致信国会，呼吁强制合成DNA筛查以防AI降低生物武器技术门槛，称AI已能媲美…</title>
-    <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
-    <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>OpenAI、Anthropic、Google DeepMind、微软AI负责人联名致信国会，呼吁强制合成DNA筛查以防AI降低生物武器技术门槛，称AI已能媲美博士级病毒学家。</summary>
+    <title>波士顿动力与DeepMind合作工业AI，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit视觉检测平台,实现复杂工业环境的空间推理…</title>
+    <link href="https://dentro.de/ai/news/"/>
+    <id>https://dentro.de/ai/news/</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>波士顿动力与DeepMind合作工业AI，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit视觉检测平台,实现复杂工业环境的空间推理与自主决策</summary>
   </entry>
   <entry>
-    <title>Meta发布Llama 4小型专有模型，偏离开源策略，在多模态感知、推理、健康和代理任务上以极低成本实现竞争力表现，同时宣布2026年AI资本支出将达1150-…</title>
+    <title>全球1000余位CIO调查显示94%组织增加AI投资，但51%认为采用速度已过快,89%描述方法为边做边学,62%因知识有限在治理上妥协…</title>
+    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
+    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>全球1000余位CIO调查显示94%组织增加AI投资，但51%认为采用速度已过快,89%描述方法为边做边学,62%因知识有限在治理上妥协</summary>
+  </entry>
+  <entry>
+    <title>Google TurboQuant算法显著降低KV缓存内存开销，在ICLR 2026发布的压缩方法使大上下文窗口模型运行效率大幅提升,可能加速从参数扩展到效率优…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>Meta发布Llama 4小型专有模型，偏离开源策略，在多模态感知、推理、健康和代理任务上以极低成本实现竞争力表现，同时宣布2026年AI资本支出将达1150-1350亿美元。</summary>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>Google TurboQuant算法显著降低KV缓存内存开销，在ICLR 2026发布的压缩方法使大上下文窗口模型运行效率大幅提升,可能加速从参数扩展到效率优先的转变</summary>
   </entry>
   <entry>
-    <title>Google在ICLR 2026发布TurboQuant算法，显著减少KV缓存内存开销（大模型运行最大瓶颈之一），结合PolarQuant向量旋转和压缩方法让超…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>Google在ICLR 2026发布TurboQuant算法，显著减少KV缓存内存开销（大模型运行最大瓶颈之一），结合PolarQuant向量旋转和压缩方法让超长上下文模型更高效运行。</summary>
+    <title>宾夕法尼亚大学研发光-物质混合粒子加速AI计算，新型混合粒子可大幅提升AI算力并降低能耗,有望替代部分电子计算过程…</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>宾夕法尼亚大学研发光-物质混合粒子加速AI计算，新型混合粒子可大幅提升AI算力并降低能耗,有望替代部分电子计算过程</summary>
   </entry>
   <entry>
-    <title>Snap宣布裁员约1000人并关闭300多个职位空缺，占计划员工总数约四分之一，CEO称&quot;AI快速进步&quot;让更小团队实现同等产出，AI已生成Snap超65%新代码…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>Snap宣布裁员约1000人并关闭300多个职位空缺，占计划员工总数约四分之一，CEO称&quot;AI快速进步&quot;让更小团队实现同等产出，AI已生成Snap超65%新代码。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI收购硅谷科技谈话节目TBPN（年收入3000万美元），交易金额&quot;数亿美元&quot;，被视为IPO前塑造AI公共叙事的尝试，引发与马斯克收购X、贝佐斯拥有华邮…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>OpenAI收购硅谷科技谈话节目TBPN（年收入3000万美元），交易金额&quot;数亿美元&quot;，被视为IPO前塑造AI公共叙事的尝试，引发与马斯克收购X、贝佐斯拥有华邮的类比。</summary>
-  </entry>
-  <entry>
-    <title>美国空军3月成功首次实战使用WarMatrix AI驱动兵棋推演环境，超150名参与者执行6轮24小时游戏时间演习，采用物理建模和AI辅助裁决。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-14T16:26:38Z</updated>
-    <summary>美国空军3月成功首次实战使用WarMatrix AI驱动兵棋推演环境，超150名参与者执行6轮24小时游戏时间演习，采用物理建模和AI辅助裁决。</summary>
+    <title>研究发现顶级AI模型存在注意力缺陷，6月10日测试显示模型能正确命名短列表颜色,但在任务变长变复杂时表现急剧下降…</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-06-15T17:12:21Z</updated>
+    <summary>研究发现顶级AI模型存在注意力缺陷，6月10日测试显示模型能正确命名短列表颜色,但在任务变长变复杂时表现急剧下降</summary>
   </entry>
 </feed>
