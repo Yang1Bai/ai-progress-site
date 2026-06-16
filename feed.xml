@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-15T17:12:21Z</updated>
+  <updated>2026-06-16T16:46:36Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月15日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-15.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-15.html</id>
-    <updated>2026-06-15T17:12:21Z</updated>
+    <title>每日汇总 2026年6月16日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-16.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-16.html</id>
+    <updated>2026-06-16T16:46:36Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI、Anthropic、DeepMind三巨头CEO齐聚法国G7峰会，6月15-17日在埃维昂莱班与各国首脑讨论AI基础设施监管与青少年网络保护,这是…</title>
+    <title>美国政府紧急下线 Anthropic Fable 5，因发现越狱漏洞可执行复杂网络攻击任务，120,000 字符系统提示已在 GitHub 公开，企业界重新审视…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-15-2026</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>美国政府紧急下线 Anthropic Fable 5，因发现越狱漏洞可执行复杂网络攻击任务，120,000 字符系统提示已在 GitHub 公开，企业界重新审视云端 AI 基础设施依赖风险。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI、Anthropic、Google DeepMind 三巨头 CEO 确认出席 6月15-17日法国 G7 峰会，这是首次三家顶级 AI 公司同时派…</title>
     <link href="https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/"/>
     <id>https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>OpenAI、Anthropic、DeepMind三巨头CEO齐聚法国G7峰会，6月15-17日在埃维昂莱班与各国首脑讨论AI基础设施监管与青少年网络保护,这是三家公司首次同时参与G7峰会</summary>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind 三巨头 CEO 确认出席 6月15-17日法国 G7 峰会，这是首次三家顶级 AI 公司同时派代表参加 G7 会议，AI 治理成主要议题。</summary>
   </entry>
   <entry>
-    <title>Anthropic发布Claude Fable 5，6月9日推出首款公开Mythos级模型，在SWE-Bench Pro编程基准达80.3%创纪录表现，大幅领先…</title>
-    <link href="https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb"/>
-    <id>https://dev.to/raxxostudios/claude-fable-5-vs-gpt-55-vs-gemini-31-pro-who-leads-now-4fcb</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>Anthropic发布Claude Fable 5，6月9日推出首款公开Mythos级模型，在SWE-Bench Pro编程基准达80.3%创纪录表现，大幅领先GPT-5.5的58.6%</summary>
+    <title>Anthropic 人才战争领先，SignalFire 报告显示从 OpenAI 跳槽到 Anthropic 的工程师比例达 8:1，从 DeepMind 流失…</title>
+    <link href="https://www.yahoo.com/news/openai-deepmind-losing-engineers-anthropic-110721776.html"/>
+    <id>https://www.yahoo.com/news/openai-deepmind-losing-engineers-anthropic-110721776.html</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>Anthropic 人才战争领先，SignalFire 报告显示从 OpenAI 跳槽到 Anthropic 的工程师比例达 8:1，从 DeepMind 流失比例近 11:1，Anthropic 两年留存率达 80%。</summary>
   </entry>
   <entry>
-    <title>OpenAI关闭Sora视频生成服务，3月24日宣布停运后每日消耗1500万美元却仅产生210万美元总收入，成为AI历史上最昂贵的产品失败案例之一…</title>
-    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
-    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>OpenAI关闭Sora视频生成服务，3月24日宣布停运后每日消耗1500万美元却仅产生210万美元总收入，成为AI历史上最昂贵的产品失败案例之一</summary>
+    <title>Claude Opus 4.8 登顶 AI 排行榜，Intelligence Index 得分 61.4 超越 GPT-5.5，在代码生成、长时程代理任务上表现…</title>
+    <link href="https://overchat.ai/ai-hub/the-best-ai-model"/>
+    <id>https://overchat.ai/ai-hub/the-best-ai-model</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>Claude Opus 4.8 登顶 AI 排行榜，Intelligence Index 得分 61.4 超越 GPT-5.5，在代码生成、长时程代理任务上表现最佳，成本比 4.7 版本降低 61%。</summary>
   </entry>
   <entry>
-    <title>Meta与Nebius签订270亿美元AI基础设施协议，包括部署NVIDIA Vera Rubin GPU平台,性能较Blackwell提升3.3倍,用于满足欧…</title>
-    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
-    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>Meta与Nebius签订270亿美元AI基础设施协议，包括部署NVIDIA Vera Rubin GPU平台,性能较Blackwell提升3.3倍,用于满足欧盟GDPR数据主权合规要求</summary>
+    <title>香港大学研制出可在接近绝对零度环境运行的脑启发芯片，为量子计算与 AI 融合开辟新路径，在极低温下实现神经形态计算功能。…</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>香港大学研制出可在接近绝对零度环境运行的脑启发芯片，为量子计算与 AI 融合开辟新路径，在极低温下实现神经形态计算功能。</summary>
   </entry>
   <entry>
-    <title>美国政府用ChatGPT审查医疗补助欺诈，HHS部署大模型扫描50个州五年审计报告,寻找1000-2000亿美元年度浪费和欺诈行为…</title>
-    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
-    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>美国政府用ChatGPT审查医疗补助欺诈，HHS部署大模型扫描50个州五年审计报告,寻找1000-2000亿美元年度浪费和欺诈行为</summary>
-  </entry>
-  <entry>
-    <title>波士顿动力与DeepMind合作工业AI，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit视觉检测平台,实现复杂工业环境的空间推理…</title>
+    <title>Google DeepMind 与 Boston Dynamics 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗和 Orbi…</title>
     <link href="https://dentro.de/ai/news/"/>
     <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>波士顿动力与DeepMind合作工业AI，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit视觉检测平台,实现复杂工业环境的空间推理与自主决策</summary>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>Google DeepMind 与 Boston Dynamics 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗和 Orbit 视觉检测平台，实现增强空间推理和自主决策。</summary>
   </entry>
   <entry>
-    <title>全球1000余位CIO调查显示94%组织增加AI投资，但51%认为采用速度已过快,89%描述方法为边做边学,62%因知识有限在治理上妥协…</title>
-    <link href="https://unrot.co/blogs/ai-news-today-june-15-2026"/>
-    <id>https://unrot.co/blogs/ai-news-today-june-15-2026</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>全球1000余位CIO调查显示94%组织增加AI投资，但51%认为采用速度已过快,89%描述方法为边做边学,62%因知识有限在治理上妥协</summary>
-  </entry>
-  <entry>
-    <title>Google TurboQuant算法显著降低KV缓存内存开销，在ICLR 2026发布的压缩方法使大上下文窗口模型运行效率大幅提升,可能加速从参数扩展到效率优…</title>
+    <title>宾夕法尼亚大学提出 Mollifier Layers 技术，将经典数学平滑函数集成到神经网络中，大幅提升求解偏微分方程逆问题的稳定性，应用于基因组学、材料科学和…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>Google TurboQuant算法显著降低KV缓存内存开销，在ICLR 2026发布的压缩方法使大上下文窗口模型运行效率大幅提升,可能加速从参数扩展到效率优先的转变</summary>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>宾夕法尼亚大学提出 Mollifier Layers 技术，将经典数学平滑函数集成到神经网络中，大幅提升求解偏微分方程逆问题的稳定性，应用于基因组学、材料科学和气候建模。</summary>
   </entry>
   <entry>
-    <title>宾夕法尼亚大学研发光-物质混合粒子加速AI计算，新型混合粒子可大幅提升AI算力并降低能耗,有望替代部分电子计算过程…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>宾夕法尼亚大学研发光-物质混合粒子加速AI计算，新型混合粒子可大幅提升AI算力并降低能耗,有望替代部分电子计算过程</summary>
+    <title>Adobe 数据显示 AI 驱动流量转化率高出其他渠道 42%，2026 年 Q1 美国零售网站 AI 流量同比暴增 393%，消费者开始从 AI 工具启动购物…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>Adobe 数据显示 AI 驱动流量转化率高出其他渠道 42%，2026 年 Q1 美国零售网站 AI 流量同比暴增 393%，消费者开始从 AI 工具启动购物旅程。</summary>
   </entry>
   <entry>
-    <title>研究发现顶级AI模型存在注意力缺陷，6月10日测试显示模型能正确命名短列表颜色,但在任务变长变复杂时表现急剧下降…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-06-15T17:12:21Z</updated>
-    <summary>研究发现顶级AI模型存在注意力缺陷，6月10日测试显示模型能正确命名短列表颜色,但在任务变长变复杂时表现急剧下降</summary>
+    <title>摩根大通将 AI 投资从实验转为核心基础设施，2026 年技术预算 198 亿美元，2000 名员工专注 AI 开发，预计每年产生 25 亿美元价值，日扫描交易…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>摩根大通将 AI 投资从实验转为核心基础设施，2026 年技术预算 198 亿美元，2000 名员工专注 AI 开发，预计每年产生 25 亿美元价值，日扫描交易量超 10 万亿美元。</summary>
+  </entry>
+  <entry>
+    <title>Nature 发表 AI 共同科学家系统 Robin 和 Co-Scientist，可贯穿假设生成、实验设计到数据分析全流程，加速科学发现进程。…</title>
+    <link href="https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/"/>
+    <id>https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/</id>
+    <updated>2026-06-16T16:46:36Z</updated>
+    <summary>Nature 发表 AI 共同科学家系统 Robin 和 Co-Scientist，可贯穿假设生成、实验设计到数据分析全流程，加速科学发现进程。</summary>
   </entry>
 </feed>
