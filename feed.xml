@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-17T15:20:21Z</updated>
+  <updated>2026-06-18T15:18:11Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月17日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-17.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-17.html</id>
-    <updated>2026-06-17T15:20:21Z</updated>
+    <title>每日汇总 2026年6月18日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-18.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-18.html</id>
+    <updated>2026-06-18T15:18:11Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>G7 峰会今日召开 AI 工作午餐，奥特曼、阿莫代、哈萨比斯等全球顶级 AI 公司 CEO 与七国领导人共同讨论前沿 AI 风险、基础设施主权与儿童在线保护议题…</title>
-    <link href="https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"/>
-    <id>https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>G7 峰会今日召开 AI 工作午餐，奥特曼、阿莫代、哈萨比斯等全球顶级 AI 公司 CEO 与七国领导人共同讨论前沿 AI 风险、基础设施主权与儿童在线保护议题。</summary>
+    <title>Anthropic 和 OpenAI CEO 在 G7 峰会呼吁建立美国主导的 AI 联盟，以制定国际 AI 规则与标准，加拿大总理表示支持美国领导。…</title>
+    <link href="https://www.cnbc.com/amp/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html"/>
+    <id>https://www.cnbc.com/amp/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Anthropic 和 OpenAI CEO 在 G7 峰会呼吁建立美国主导的 AI 联盟，以制定国际 AI 规则与标准，加拿大总理表示支持美国领导。</summary>
   </entry>
   <entry>
-    <title>OpenAI、Anthropic、Google DeepMind、微软 AI 联署国会公开信，要求强制筛查合成 DNA 供应商，警告 AI 降低生物武器门槛。…</title>
+    <title>SpaceX 以 600 亿美元收购 AI 编程工具 Cursor，这是从 OpenAI 加速器毕业到 600 亿美元收购仅用 2 年时间，SpaceX IPO…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>SpaceX 以 600 亿美元收购 AI 编程工具 Cursor，这是从 OpenAI 加速器毕业到 600 亿美元收购仅用 2 年时间，SpaceX IPO 后立即激活收购。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 暂停 Claude Fable 5 和 Mythos 5 访问，美国政府因国家安全考虑对这两个模型实施出口管制，要求暂停所有外国公民的访问权…</title>
+    <link href="https://www.mobihealthnews.com/news/openai-google-deepmind-anthropic-request-synthetic-dna-screening-legislation"/>
+    <id>https://www.mobihealthnews.com/news/openai-google-deepmind-anthropic-request-synthetic-dna-screening-legislation</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Anthropic 暂停 Claude Fable 5 和 Mythos 5 访问，美国政府因国家安全考虑对这两个模型实施出口管制，要求暂停所有外国公民的访问权限。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI、Anthropic 等 CEO 联名致信国会，要求对合成 DNA 供应商实施强制筛查，警告 AI 进步正在降低生物材料武器化的技术门槛。…</title>
     <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
     <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>OpenAI、Anthropic、Google DeepMind、微软 AI 联署国会公开信，要求强制筛查合成 DNA 供应商，警告 AI 降低生物武器门槛。</summary>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>OpenAI、Anthropic 等 CEO 联名致信国会，要求对合成 DNA 供应商实施强制筛查，警告 AI 进步正在降低生物材料武器化的技术门槛。</summary>
   </entry>
   <entry>
-    <title>OpenAI 一季度亏损 37 亿美元，营收 57 亿美元，已秘密提交 IPO 文件，估值目标高达 1 万亿美元。…</title>
-    <link href="https://ts2.tech/en/g7-looks-at-ai-model-access-as-openai-costs-china-rivalry-grow/"/>
-    <id>https://ts2.tech/en/g7-looks-at-ai-model-access-as-openai-costs-china-rivalry-grow/</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>OpenAI 一季度亏损 37 亿美元，营收 57 亿美元，已秘密提交 IPO 文件，估值目标高达 1 万亿美元。</summary>
+    <title>Google 宣布 Antigravity CLI 将于 6 月 18 日替代 Gemini CLI，开发者需迁移工作流以适配 Gemini 3.5 代理模型系…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-17-2026</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Google 宣布 Antigravity CLI 将于 6 月 18 日替代 Gemini CLI，开发者需迁移工作流以适配 Gemini 3.5 代理模型系列的新命令行界面。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 Deployment Simulation 方法，在模型发布前通过历史对话回放评估候选模型，减少部署风险。…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>OpenAI 发布 Deployment Simulation 方法，在模型发布前通过历史对话回放评估候选模型，减少部署风险。</summary>
-  </entry>
-  <entry>
-    <title>ChatGPT 月活用户突破 10 亿，标志着 AI 助手在全球个人与职业生活中的大规模普及。…</title>
-    <link href="https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a"/>
-    <id>https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>ChatGPT 月活用户突破 10 亿，标志着 AI 助手在全球个人与职业生活中的大规模普及。</summary>
-  </entry>
-  <entry>
-    <title>微软宣布 2026 年资本支出将达 1900 亿美元，其中 250 亿美元增量归因于 AI 基础设施组件价格飙升，但 AI 服务年收入已达 370 亿美元。…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>微软宣布 2026 年资本支出将达 1900 亿美元，其中 250 亿美元增量归因于 AI 基础设施组件价格飙升，但 AI 服务年收入已达 370 亿美元。</summary>
-  </entry>
-  <entry>
-    <title>亚马逊定制芯片业务（Graviton、Trainium、Nitro）年营收突破 200 亿美元，同比增长超 100%，成为全球前三大数据中心芯片业务。…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>亚马逊定制芯片业务（Graviton、Trainium、Nitro）年营收突破 200 亿美元，同比增长超 100%，成为全球前三大数据中心芯片业务。</summary>
-  </entry>
-  <entry>
-    <title>波士顿动力与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，实现增强空间推理与自主决策。…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>波士顿动力与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗，实现增强空间推理与自主决策。</summary>
-  </entry>
-  <entry>
-    <title>宾夕法尼亚大学创造混合光-物质粒子用于 AI 计算，速度大幅提升且能耗远低于电子计算，有望替代部分电子计算流程。…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>宾夕法尼亚大学创造混合光-物质粒子用于 AI 计算，速度大幅提升且能耗远低于电子计算，有望替代部分电子计算流程。</summary>
-  </entry>
-  <entry>
-    <title>Google 推出 TurboQuant 算法，通过 PolarQuant 向量旋转与 Quantized Johnson-Lindenstrauss 压缩，大…</title>
+    <title>Snap CEO 宣布裁员约 1000 人，占计划员工总数四分之一，AI 现已生成 Snap 超过 65% 的新代码，预计 2026 年下半年节省超过 5 亿美…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-17T15:20:21Z</updated>
-    <summary>Google 推出 TurboQuant 算法，通过 PolarQuant 向量旋转与 Quantized Johnson-Lindenstrauss 压缩，大幅降低 KV 缓存内存开销，提升大模型效率。</summary>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Snap CEO 宣布裁员约 1000 人，占计划员工总数四分之一，AI 现已生成 Snap 超过 65% 的新代码，预计 2026 年下半年节省超过 5 亿美元成本。</summary>
+  </entry>
+  <entry>
+    <title>美国空军成功首次运用 AI 驱动的兵棋推演环境 WarMatrix，在 GE 26 基准兵棋推演中，150 多名参与者使用物理建模和 AI 辅助裁决执行了六个 …</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>美国空军成功首次运用 AI 驱动的兵棋推演环境 WarMatrix，在 GE 26 基准兵棋推演中，150 多名参与者使用物理建模和 AI 辅助裁决执行了六个 24 小时游戏时间移动。</summary>
+  </entry>
+  <entry>
+    <title>Adobe 报告 AI 驱动的美国零售网站流量同比增长 393%，AI 流量转化率比其他渠道（包括付费搜索和电子邮件）高 42%，创历史新高。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Adobe 报告 AI 驱动的美国零售网站流量同比增长 393%，AI 流量转化率比其他渠道（包括付费搜索和电子邮件）高 42%，创历史新高。</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind 的 AlphaEvolve 扩展到多个领域，在基因组学、量子物理、数学和 AI 基础设施中实现突破，DNA 测序错误检测减少 3…</title>
+    <link href="https://dentro.de/ai/news/"/>
+    <id>https://dentro.de/ai/news/</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Google DeepMind 的 AlphaEvolve 扩展到多个领域，在基因组学、量子物理、数学和 AI 基础设施中实现突破，DNA 测序错误检测减少 30%，量子电路错误降低 10 倍。</summary>
+  </entry>
+  <entry>
+    <title>Northwestern 大学工程师打印出能与真实神经元通信的人工神经元，这些灵活、低成本的设备可生成逼真的电信号，标志着机器与人脑融合的重大飞跃。…</title>
+    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
+    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
+    <updated>2026-06-18T15:18:11Z</updated>
+    <summary>Northwestern 大学工程师打印出能与真实神经元通信的人工神经元，这些灵活、低成本的设备可生成逼真的电信号，标志着机器与人脑融合的重大飞跃。</summary>
   </entry>
 </feed>
