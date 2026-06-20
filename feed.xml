@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-19T14:58:40Z</updated>
+  <updated>2026-06-20T13:55:20Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月19日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-19.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-19.html</id>
-    <updated>2026-06-19T14:58:40Z</updated>
+    <title>每日汇总 2026年6月20日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-20.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-20.html</id>
+    <updated>2026-06-20T13:55:20Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 收购 Astral，后者是 Python 工具 uv 和 ruff 的开发商，将整合进 Codex 平台以强化 AI 辅助开发能力。…</title>
+    <title>G7峰会AI工作午餐：OpenAI、Anthropic、Google DeepMind CEO与特朗普等G7领导人讨论前沿AI风险、基础设施与主权，Anthro…</title>
+    <link href="https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"/>
+    <id>https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>G7峰会AI工作午餐：OpenAI、Anthropic、Google DeepMind CEO与特朗普等G7领导人讨论前沿AI风险、基础设施与主权，Anthropic Mythos与OpenAI GPT-5.5 Cyber网络能力引发安全担忧</summary>
+  </entry>
+  <entry>
+    <title>中国发布2950亿美元AI基础设施计划：5年投入2万亿元人民币建设互联国家AI数据中心，至少80%采用华为等国产芯片，含电网总投资或达7400亿美元…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>OpenAI 收购 Astral，后者是 Python 工具 uv 和 ruff 的开发商，将整合进 Codex 平台以强化 AI 辅助开发能力。</summary>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>中国发布2950亿美元AI基础设施计划：5年投入2万亿元人民币建设互联国家AI数据中心，至少80%采用华为等国产芯片，含电网总投资或达7400亿美元</summary>
   </entry>
   <entry>
-    <title>Anthropic Fable 5 模型已恢复访问，此前因安全漏洞遭美国政府强制下线6天，Anthropic称模型将在数日内完全回归。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>Anthropic Fable 5 模型已恢复访问，此前因安全漏洞遭美国政府强制下线6天，Anthropic称模型将在数日内完全回归。</summary>
+    <title>四大AI巨头联名致信美国国会：OpenAI、Anthropic、Google DeepMind、微软AI负责人6月5日呼吁强制生物安全筛查，警告AI降低合成DN…</title>
+    <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
+    <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>四大AI巨头联名致信美国国会：OpenAI、Anthropic、Google DeepMind、微软AI负责人6月5日呼吁强制生物安全筛查，警告AI降低合成DNA武器化门槛</summary>
   </entry>
   <entry>
-    <title>Google Gemini 3.5 Pro 仍未公开发布，仅在 Vertex AI 企业预览版中可用，Sundar Pichai 承诺的6月交付窗口仅剩11天。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-19-2026</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>Google Gemini 3.5 Pro 仍未公开发布，仅在 Vertex AI 企业预览版中可用，Sundar Pichai 承诺的6月交付窗口仅剩11天。</summary>
+    <title>诺奖得主John Jumper离开DeepMind加盟Anthropic：AlphaFold联合开发者转投Anthropic，继Andrej Karpathy、…</title>
+    <link href="https://explainx.ai/blog/john-jumper-leaves-google-deepmind-anthropic-alphafold-2026"/>
+    <id>https://explainx.ai/blog/john-jumper-leaves-google-deepmind-anthropic-alphafold-2026</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>诺奖得主John Jumper离开DeepMind加盟Anthropic：AlphaFold联合开发者转投Anthropic，继Andrej Karpathy、Eric Boyd等之后成为2026最重磅招聘，6月30日科学活动将首次亮相</summary>
   </entry>
   <entry>
-    <title>中国发布2950亿美元AI基础设施计划，未来5年投入2万亿元建设全国AI数据中心，至少80%使用国产技术含华为芯片。…</title>
-    <link href="https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"/>
-    <id>https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>中国发布2950亿美元AI基础设施计划，未来5年投入2万亿元建设全国AI数据中心，至少80%使用国产技术含华为芯片。</summary>
+    <title>波士顿动力与Google DeepMind合作：Gemini Robotics-ER 1.6集成至Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>波士顿动力与Google DeepMind合作：Gemini Robotics-ER 1.6集成至Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理、自主决策与工业环境持续学习</summary>
   </entry>
   <entry>
-    <title>新加坡启动两大AI4Science项目，Imperial College与A*STAR合作开发催化剂发现云平台，投资近2000万新元。…</title>
+    <title>西北大学实现脑机接口突破：工程师打印出能与生物神经元通信的人工神经元，柔性低成本设备可生成逼真电信号，为脑机接口迈出重要一步…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>西北大学实现脑机接口突破：工程师打印出能与生物神经元通信的人工神经元，柔性低成本设备可生成逼真电信号，为脑机接口迈出重要一步</summary>
+  </entry>
+  <entry>
+    <title>Anthropic Claude Fable 5恢复服务：美国政府强制关闭6天后于6月18日恢复访问，起因于SK电讯访问权限撤销及亚马逊研究人员报告安全漏洞…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>Anthropic Claude Fable 5恢复服务：美国政府强制关闭6天后于6月18日恢复访问，起因于SK电讯访问权限撤销及亚马逊研究人员报告安全漏洞</summary>
+  </entry>
+  <entry>
+    <title>聊天机器人市场份额更新：ChatGPT占全球网页访问54.7%，Gemini 27.4%，Claude全球8.2%（美国12.5%），DeepSeek 4.1%…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>聊天机器人市场份额更新：ChatGPT占全球网页访问54.7%，Gemini 27.4%，Claude全球8.2%（美国12.5%），DeepSeek 4.1%，Grok 2.8%</summary>
+  </entry>
+  <entry>
+    <title>GitHub Copilot改为按量计费引发反弹：6月1日起从固定订阅改为token计费，开发者报告月费从29美元飙升至750美元，微软Build承诺推出自研编…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>GitHub Copilot改为按量计费引发反弹：6月1日起从固定订阅改为token计费，开发者报告月费从29美元飙升至750美元，微软Build承诺推出自研编程模型应对</summary>
+  </entry>
+  <entry>
+    <title>新加坡AI4Science加速催化剂发现：帝国理工与A*STAR合作1000万新元项目，利用AI平台实现催化剂组合筛选速度提升500倍，用于清洁燃料与CO₂可持…</title>
     <link href="https://www.imperial.ac.uk/news/articles/2026/-singapore-ai4science/"/>
     <id>https://www.imperial.ac.uk/news/articles/2026/-singapore-ai4science/</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>新加坡启动两大AI4Science项目，Imperial College与A*STAR合作开发催化剂发现云平台，投资近2000万新元。</summary>
-  </entry>
-  <entry>
-    <title>西北大学实现脑机接口突破，工程师3D打印出能与生物神经元通信的人工神经元，向脑机接口迈出重要一步。…</title>
-    <link href="https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92"/>
-    <id>https://medium.com/adi-insights-innovations-collective/ai-update-thursday-june-18-2026-f74c93022f92</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>西北大学实现脑机接口突破，工程师3D打印出能与生物神经元通信的人工神经元，向脑机接口迈出重要一步。</summary>
-  </entry>
-  <entry>
-    <title>ChatGPT 全球月活用户突破10亿，确认AI助手在个人和职业生活中的大规模普及趋势。…</title>
-    <link href="https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a"/>
-    <id>https://medium.com/@davidakpovi/ai-news-week-of-june-1-to-june-7-2026-7957940c805a</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>ChatGPT 全球月活用户突破10亿，确认AI助手在个人和职业生活中的大规模普及趋势。</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA 发布 Nemotron 3 Ultra，6月4日推出的5500亿参数开放模型，采用完全许可协议，为最强开源AI模型。…</title>
-    <link href="https://felloai.com/best-ai-models/"/>
-    <id>https://felloai.com/best-ai-models/</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>NVIDIA 发布 Nemotron 3 Ultra，6月4日推出的5500亿参数开放模型，采用完全许可协议，为最强开源AI模型。</summary>
-  </entry>
-  <entry>
-    <title>Claude Opus 4.8 登顶 Intelligence Index，5月28日发布后以61.4分居首，在编程和计算机使用Agent任务表现突出。…</title>
-    <link href="https://buildez.ai/blog/ai-new-model-breakthroughs-june-2026-action-plan"/>
-    <id>https://buildez.ai/blog/ai-new-model-breakthroughs-june-2026-action-plan</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>Claude Opus 4.8 登顶 Intelligence Index，5月28日发布后以61.4分居首，在编程和计算机使用Agent任务表现突出。</summary>
-  </entry>
-  <entry>
-    <title>MiniMax M3 模型上线，6月1日发布，具备前沿编程能力与100万token上下文窗口，支持多模态计算机控制。…</title>
-    <link href="https://felloai.com/best-ai-models/"/>
-    <id>https://felloai.com/best-ai-models/</id>
-    <updated>2026-06-19T14:58:40Z</updated>
-    <summary>MiniMax M3 模型上线，6月1日发布，具备前沿编程能力与100万token上下文窗口，支持多模态计算机控制。</summary>
+    <updated>2026-06-20T13:55:20Z</updated>
+    <summary>新加坡AI4Science加速催化剂发现：帝国理工与A*STAR合作1000万新元项目，利用AI平台实现催化剂组合筛选速度提升500倍，用于清洁燃料与CO₂可持续转化</summary>
   </entry>
 </feed>
