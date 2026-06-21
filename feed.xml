@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-20T13:55:20Z</updated>
+  <updated>2026-06-21T14:03:22Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月20日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-20.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-20.html</id>
-    <updated>2026-06-20T13:55:20Z</updated>
+    <title>每日汇总 2026年6月21日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-21.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-21.html</id>
+    <updated>2026-06-21T14:03:22Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>G7峰会AI工作午餐：OpenAI、Anthropic、Google DeepMind CEO与特朗普等G7领导人讨论前沿AI风险、基础设施与主权，Anthro…</title>
-    <link href="https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"/>
-    <id>https://www.cnbc.com/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>G7峰会AI工作午餐：OpenAI、Anthropic、Google DeepMind CEO与特朗普等G7领导人讨论前沿AI风险、基础设施与主权，Anthropic Mythos与OpenAI GPT-5.5 Cyber网络能力引发安全担忧</summary>
+    <title>诺贝尔奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，成为本周第二位离职高管，前 Gemini 联合负责人 No…</title>
+    <link href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/"/>
+    <id>https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/</id>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>诺贝尔奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，成为本周第二位离职高管，前 Gemini 联合负责人 Noam Shazeer 已加入 OpenAI</summary>
   </entry>
   <entry>
-    <title>中国发布2950亿美元AI基础设施计划：5年投入2万亿元人民币建设互联国家AI数据中心，至少80%采用华为等国产芯片，含电网总投资或达7400亿美元…</title>
+    <title>美国政府 6月12日禁令 迫使 Anthropic 全球下线 Claude Fable 5 和 Mythos 5，引用安全漏洞，至今第九日模型仍未恢复…</title>
+    <link href="https://unrot.co/blogs/ai-news-today-june-21-2026"/>
+    <id>https://unrot.co/blogs/ai-news-today-june-21-2026</id>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>美国政府 6月12日禁令 迫使 Anthropic 全球下线 Claude Fable 5 和 Mythos 5，引用安全漏洞，至今第九日模型仍未恢复</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT 市场份额 首次跌破 50%，降至 46.4%（5月末数据），三年半来首次失去多数地位，中国模型 GLM-5.2 在部分编程基准领先…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>中国发布2950亿美元AI基础设施计划：5年投入2万亿元人民币建设互联国家AI数据中心，至少80%采用华为等国产芯片，含电网总投资或达7400亿美元</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>ChatGPT 市场份额 首次跌破 50%，降至 46.4%（5月末数据），三年半来首次失去多数地位，中国模型 GLM-5.2 在部分编程基准领先</summary>
   </entry>
   <entry>
-    <title>四大AI巨头联名致信美国国会：OpenAI、Anthropic、Google DeepMind、微软AI负责人6月5日呼吁强制生物安全筛查，警告AI降低合成DN…</title>
-    <link href="https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"/>
-    <id>https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>四大AI巨头联名致信美国国会：OpenAI、Anthropic、Google DeepMind、微软AI负责人6月5日呼吁强制生物安全筛查，警告AI降低合成DNA武器化门槛</summary>
+    <title>OpenAI、Anthropic、Google DeepMind CEO 出席法国 G7 峰会，与特朗普等领导人讨论前沿 AI 风险、基础设施与主权问题…</title>
+    <link href="https://www.cnbc.com/amp/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"/>
+    <id>https://www.cnbc.com/amp/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html</id>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind CEO 出席法国 G7 峰会，与特朗普等领导人讨论前沿 AI 风险、基础设施与主权问题</summary>
   </entry>
   <entry>
-    <title>诺奖得主John Jumper离开DeepMind加盟Anthropic：AlphaFold联合开发者转投Anthropic，继Andrej Karpathy、…</title>
-    <link href="https://explainx.ai/blog/john-jumper-leaves-google-deepmind-anthropic-alphafold-2026"/>
-    <id>https://explainx.ai/blog/john-jumper-leaves-google-deepmind-anthropic-alphafold-2026</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>诺奖得主John Jumper离开DeepMind加盟Anthropic：AlphaFold联合开发者转投Anthropic，继Andrej Karpathy、Eric Boyd等之后成为2026最重磅招聘，6月30日科学活动将首次亮相</summary>
-  </entry>
-  <entry>
-    <title>波士顿动力与Google DeepMind合作：Gemini Robotics-ER 1.6集成至Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理…</title>
+    <title>Google 承诺的 Gemini 3.5 Pro 六月发布窗口仅剩 9 天，目前仅限 Vertex AI 企业预览，尚未向公众 API 开放…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>波士顿动力与Google DeepMind合作：Gemini Robotics-ER 1.6集成至Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理、自主决策与工业环境持续学习</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>Google 承诺的 Gemini 3.5 Pro 六月发布窗口仅剩 9 天，目前仅限 Vertex AI 企业预览，尚未向公众 API 开放</summary>
   </entry>
   <entry>
-    <title>西北大学实现脑机接口突破：工程师打印出能与生物神经元通信的人工神经元，柔性低成本设备可生成逼真电信号，为脑机接口迈出重要一步…</title>
+    <title>美国联邦能源监管委员会（FERC）向六大区域电网运营商发出快速通道指令，加速 AI 数据中心并网以应对算力需求激增…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>西北大学实现脑机接口突破：工程师打印出能与生物神经元通信的人工神经元，柔性低成本设备可生成逼真电信号，为脑机接口迈出重要一步</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>美国联邦能源监管委员会（FERC）向六大区域电网运营商发出快速通道指令，加速 AI 数据中心并网以应对算力需求激增</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Fable 5恢复服务：美国政府强制关闭6天后于6月18日恢复访问，起因于SK电讯访问权限撤销及亚马逊研究人员报告安全漏洞…</title>
+    <title>Boston Dynamics 与 Google DeepMind 合作，在 Spot 机器狗中集成 Gemini Robotics-ER 1.6，实现工业环境…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>Anthropic Claude Fable 5恢复服务：美国政府强制关闭6天后于6月18日恢复访问，起因于SK电讯访问权限撤销及亚马逊研究人员报告安全漏洞</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>Boston Dynamics 与 Google DeepMind 合作，在 Spot 机器狗中集成 Gemini Robotics-ER 1.6，实现工业环境增强空间推理与自主决策</summary>
   </entry>
   <entry>
-    <title>聊天机器人市场份额更新：ChatGPT占全球网页访问54.7%，Gemini 27.4%，Claude全球8.2%（美国12.5%），DeepSeek 4.1%…</title>
+    <title>研究者披露 Agentjacking 攻击类别：通过污染错误报告劫持 AI 编程代理（Claude Code / Cursor）执行恶意指令，尚无通用补丁…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>聊天机器人市场份额更新：ChatGPT占全球网页访问54.7%，Gemini 27.4%，Claude全球8.2%（美国12.5%），DeepSeek 4.1%，Grok 2.8%</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>研究者披露 Agentjacking 攻击类别：通过污染错误报告劫持 AI 编程代理（Claude Code / Cursor）执行恶意指令，尚无通用补丁</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot改为按量计费引发反弹：6月1日起从固定订阅改为token计费，开发者报告月费从29美元飙升至750美元，微软Build承诺推出自研编…</title>
+    <title>Qualcomm 洽谈以 80-100 亿美元收购 AI 芯片设计公司 Tenstorrent（基于 RISC-V 标准），挑战英伟达和 AMD 主导地位…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>GitHub Copilot改为按量计费引发反弹：6月1日起从固定订阅改为token计费，开发者报告月费从29美元飙升至750美元，微软Build承诺推出自研编程模型应对</summary>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>Qualcomm 洽谈以 80-100 亿美元收购 AI 芯片设计公司 Tenstorrent（基于 RISC-V 标准），挑战英伟达和 AMD 主导地位</summary>
   </entry>
   <entry>
-    <title>新加坡AI4Science加速催化剂发现：帝国理工与A*STAR合作1000万新元项目，利用AI平台实现催化剂组合筛选速度提升500倍，用于清洁燃料与CO₂可持…</title>
-    <link href="https://www.imperial.ac.uk/news/articles/2026/-singapore-ai4science/"/>
-    <id>https://www.imperial.ac.uk/news/articles/2026/-singapore-ai4science/</id>
-    <updated>2026-06-20T13:55:20Z</updated>
-    <summary>新加坡AI4Science加速催化剂发现：帝国理工与A*STAR合作1000万新元项目，利用AI平台实现催化剂组合筛选速度提升500倍，用于清洁燃料与CO₂可持续转化</summary>
+    <title>IBM 宣布 2026 年量子计算将首次超越经典计算机，在药物开发、材料科学、金融优化等领域实现突破…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-21T14:03:22Z</updated>
+    <summary>IBM 宣布 2026 年量子计算将首次超越经典计算机，在药物开发、材料科学、金融优化等领域实现突破</summary>
   </entry>
 </feed>
