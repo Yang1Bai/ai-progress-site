@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-21T14:03:22Z</updated>
+  <updated>2026-06-22T16:51:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月21日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-21.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-21.html</id>
-    <updated>2026-06-21T14:03:22Z</updated>
+    <title>每日汇总 2026年6月22日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-22.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-22.html</id>
+    <updated>2026-06-22T16:51:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>诺贝尔奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，成为本周第二位离职高管，前 Gemini 联合负责人 No…</title>
-    <link href="https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/"/>
-    <id>https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>诺贝尔奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，成为本周第二位离职高管，前 Gemini 联合负责人 Noam Shazeer 已加入 OpenAI</summary>
+    <title>Noam Shazeer 离开 Google DeepMind 加入 OpenAI，担任架构研究主管。这位 Transformer 论文共同作者的转会震动业界，…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>Noam Shazeer 离开 Google DeepMind 加入 OpenAI，担任架构研究主管。这位 Transformer 论文共同作者的转会震动业界，Google 曾在 2024 年花费 27 亿美元将其从 Character.AI 召回，仅工作 22 个月。</summary>
   </entry>
   <entry>
-    <title>美国政府 6月12日禁令 迫使 Anthropic 全球下线 Claude Fable 5 和 Mythos 5，引用安全漏洞，至今第九日模型仍未恢复…</title>
-    <link href="https://unrot.co/blogs/ai-news-today-june-21-2026"/>
-    <id>https://unrot.co/blogs/ai-news-today-june-21-2026</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>美国政府 6月12日禁令 迫使 Anthropic 全球下线 Claude Fable 5 和 Mythos 5，引用安全漏洞，至今第九日模型仍未恢复</summary>
+    <title>智谱 AI 发布 GLM-5.2，MIT 开源许可，SWE-bench Pro 得分 62.1% 超越 GPT-5.5 的 58.6%，API 价格仅为后者 1…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-22-2026</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>智谱 AI 发布 GLM-5.2，MIT 开源许可，SWE-bench Pro 得分 62.1% 超越 GPT-5.5 的 58.6%，API 价格仅为后者 1/7。该模型支持 100 万 token 上下文窗口，成为 Fable 5 禁令后非美开发者的关键替代方案。</summary>
   </entry>
   <entry>
-    <title>ChatGPT 市场份额 首次跌破 50%，降至 46.4%（5月末数据），三年半来首次失去多数地位，中国模型 GLM-5.2 在部分编程基准领先…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>ChatGPT 市场份额 首次跌破 50%，降至 46.4%（5月末数据），三年半来首次失去多数地位，中国模型 GLM-5.2 在部分编程基准领先</summary>
-  </entry>
-  <entry>
-    <title>OpenAI、Anthropic、Google DeepMind CEO 出席法国 G7 峰会，与特朗普等领导人讨论前沿 AI 风险、基础设施与主权问题…</title>
+    <title>OpenAI、Anthropic、Google DeepMind CEO 出席 G7 峰会，讨论前沿 AI 风险、基础设施主权与网络安全。Anthropic 和…</title>
     <link href="https://www.cnbc.com/amp/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html"/>
     <id>https://www.cnbc.com/amp/2026/06/17/g7-trump-ai-tech-leaders-openai-anthropic-google.html</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>OpenAI、Anthropic、Google DeepMind CEO 出席法国 G7 峰会，与特朗普等领导人讨论前沿 AI 风险、基础设施与主权问题</summary>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind CEO 出席 G7 峰会，讨论前沿 AI 风险、基础设施主权与网络安全。Anthropic 和 Google 提议建立美国主导的 AI 联盟，共同制定全球测试标准。</summary>
   </entry>
   <entry>
-    <title>Google 承诺的 Gemini 3.5 Pro 六月发布窗口仅剩 9 天，目前仅限 Vertex AI 企业预览，尚未向公众 API 开放…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>Google 承诺的 Gemini 3.5 Pro 六月发布窗口仅剩 9 天，目前仅限 Vertex AI 企业预览，尚未向公众 API 开放</summary>
+    <title>Anthropic Fable 5 与 Mythos 5 模型因高级网络能力被美国出口管制持续禁用 10 天，企业客户转向 Claude Opus 4.8 或竞…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-20-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-20-2026</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>Anthropic Fable 5 与 Mythos 5 模型因高级网络能力被美国出口管制持续禁用 10 天，企业客户转向 Claude Opus 4.8 或竞品。该事件标志着 AI 能力首次触发国家安全级管控。</summary>
   </entry>
   <entry>
-    <title>美国联邦能源监管委员会（FERC）向六大区域电网运营商发出快速通道指令，加速 AI 数据中心并网以应对算力需求激增…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>美国联邦能源监管委员会（FERC）向六大区域电网运营商发出快速通道指令，加速 AI 数据中心并网以应对算力需求激增</summary>
+    <title>美团开源 LongCat-Next，原生多模态模型，将视觉与语音作为核心输入而非次要特征，推动 Physical AI 探索。同时发布 6 篇论文被 ACL 2…</title>
+    <link href="https://aitoolly.com/ai-news/2026-06-22"/>
+    <id>https://aitoolly.com/ai-news/2026-06-22</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>美团开源 LongCat-Next，原生多模态模型，将视觉与语音作为核心输入而非次要特征，推动 Physical AI 探索。同时发布 6 篇论文被 ACL 2026 接收，涵盖大模型评估、复杂推理与强化学习。</summary>
   </entry>
   <entry>
-    <title>Boston Dynamics 与 Google DeepMind 合作，在 Spot 机器狗中集成 Gemini Robotics-ER 1.6，实现工业环境…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>Boston Dynamics 与 Google DeepMind 合作，在 Spot 机器狗中集成 Gemini Robotics-ER 1.6，实现工业环境增强空间推理与自主决策</summary>
+    <title>微软在 Build 2026 发布 MAI-Code-1-Flash 和 MAI-Thinking-1，首次推出自研编码与推理模型，为 McKinsey 定制后…</title>
+    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
+    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>微软在 Build 2026 发布 MAI-Code-1-Flash 和 MAI-Thinking-1，首次推出自研编码与推理模型，为 McKinsey 定制后性能超越 GPT-5.5 且成本效率提升 10 倍。</summary>
   </entry>
   <entry>
-    <title>研究者披露 Agentjacking 攻击类别：通过污染错误报告劫持 AI 编程代理（Claude Code / Cursor）执行恶意指令，尚无通用补丁…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>研究者披露 Agentjacking 攻击类别：通过污染错误报告劫持 AI 编程代理（Claude Code / Cursor）执行恶意指令，尚无通用补丁</summary>
+    <title>英伟达在 Computex 2026 发布面向 PC 的 RTX Spark 超级芯片，可本地运行 AI 智能体，与微软合作&quot;重塑个人电脑&quot;，挑战英特尔与 AM…</title>
+    <link href="https://fortune.com/2026/06/01/jensen-huang-nvidia-pc-reinvention-ai-chips/"/>
+    <id>https://fortune.com/2026/06/01/jensen-huang-nvidia-pc-reinvention-ai-chips/</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>英伟达在 Computex 2026 发布面向 PC 的 RTX Spark 超级芯片，可本地运行 AI 智能体，与微软合作&quot;重塑个人电脑&quot;，挑战英特尔与 AMD 在 CPU 市场的地位。</summary>
   </entry>
   <entry>
-    <title>Qualcomm 洽谈以 80-100 亿美元收购 AI 芯片设计公司 Tenstorrent（基于 RISC-V 标准），挑战英伟达和 AMD 主导地位…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>Qualcomm 洽谈以 80-100 亿美元收购 AI 芯片设计公司 Tenstorrent（基于 RISC-V 标准），挑战英伟达和 AMD 主导地位</summary>
+    <title>Anthropic 以 9650 亿美元估值完成新一轮融资并秘密提交 IPO 申请，超越 OpenAI 成为首家估值近万亿美元的 AI 创业公司。Claude …</title>
+    <link href="https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html"/>
+    <id>https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>Anthropic 以 9650 亿美元估值完成新一轮融资并秘密提交 IPO 申请，超越 OpenAI 成为首家估值近万亿美元的 AI 创业公司。Claude Code 编码助手成为其增长核心驱动力。</summary>
   </entry>
   <entry>
-    <title>IBM 宣布 2026 年量子计算将首次超越经典计算机，在药物开发、材料科学、金融优化等领域实现突破…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-21T14:03:22Z</updated>
-    <summary>IBM 宣布 2026 年量子计算将首次超越经典计算机，在药物开发、材料科学、金融优化等领域实现突破</summary>
+    <title>OpenAI 披露企业客户 AI 成本超支现象：Uber 四个月用完全年预算，成本问题已成第二大投诉。Sam Altman 承认&quot;模型仍相当笨&quot;，但预测 203…</title>
+    <link href="https://www.thestreet.com/technology/sam-altman-makes-stunning-admission-about-ai"/>
+    <id>https://www.thestreet.com/technology/sam-altman-makes-stunning-admission-about-ai</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>OpenAI 披露企业客户 AI 成本超支现象：Uber 四个月用完全年预算，成本问题已成第二大投诉。Sam Altman 承认&quot;模型仍相当笨&quot;，但预测 2030 年前将出现超越人类能力的模型。</summary>
+  </entry>
+  <entry>
+    <title>Qualcomm 洽购 Tenstorrent，报价 80-100 亿美元，目标获得基于开源 RISC-V 架构的 AI 芯片设计能力，挑战英伟达与 AMD 在…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-22T16:51:49Z</updated>
+    <summary>Qualcomm 洽购 Tenstorrent，报价 80-100 亿美元，目标获得基于开源 RISC-V 架构的 AI 芯片设计能力，挑战英伟达与 AMD 在 AI 硬件市场的主导地位。</summary>
   </entry>
 </feed>
