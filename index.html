@@ -840,6 +840,186 @@ section {
 .paper-link:hover { opacity: .75; }
 .paper-link svg { width: 13px; height: 13px; }
 
+/* ===== Trend Radar ===== */
+.trend-dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.trend-panel {
+  min-width: 0;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+}
+.trend-panel-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+.trend-panel-title {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+.trend-panel-desc {
+  margin: 3px 0 0;
+  color: var(--text-muted);
+  font-size: .78rem;
+  line-height: 1.45;
+}
+.trend-cadence {
+  flex-shrink: 0;
+  color: var(--text-faint);
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  border-radius: 999px;
+  padding: 3px 9px;
+  font-size: .68rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.trend-term-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.trend-term {
+  display: grid;
+  grid-template-columns: minmax(110px, 1fr) 150px 72px;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+}
+.trend-term:first-child { border-top: 0; padding-top: 0; }
+.trend-term-main { min-width: 0; }
+.trend-term-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  color: var(--brand);
+  font-weight: 700;
+  font-size: .86rem;
+  line-height: 1.25;
+}
+.trend-term-name span:first-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trend-new-badge {
+  flex-shrink: 0;
+  color: #fff;
+  background: var(--green);
+  border-radius: 999px;
+  padding: 1px 6px;
+  font-size: .58rem;
+  line-height: 1.5;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.trend-term-meta {
+  margin-top: 4px;
+  color: var(--text-faint);
+  font-size: .68rem;
+}
+.trend-spark-wrap {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.trend-sparkline {
+  width: 100%;
+  height: 34px;
+  overflow: visible;
+}
+.trend-sparkline path {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.trend-sparkline circle { fill: var(--accent); }
+.trend-period-labels {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-faint);
+  font-size: .6rem;
+  line-height: 1;
+}
+.trend-score {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.trend-score strong {
+  display: block;
+  color: var(--brand);
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+.trend-delta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 44px;
+  margin-top: 4px;
+  font-size: .7rem;
+  font-weight: 700;
+}
+.trend-delta.up { color: var(--green); }
+.trend-delta.down { color: var(--red); }
+.trend-delta.flat { color: var(--text-faint); }
+.trend-new-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+}
+.trend-new-label {
+  color: var(--text-faint);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.trend-new-pill {
+  color: var(--green);
+  background: var(--green-bg);
+  border: 1px solid var(--green-border);
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: .72rem;
+  font-weight: 700;
+}
+.trend-empty {
+  color: var(--text-faint);
+  font-size: .78rem;
+}
+.trend-loading {
+  grid-column: 1 / -1;
+  color: var(--text-faint);
+  background: var(--white);
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  text-align: center;
+}
+
 /* ===== Models ===== */
 .models-strip-wrap {
   overflow-x: auto;
@@ -1149,6 +1329,10 @@ body::before {
   .subscribe-form { flex-direction: column; }
   .subscribe-form input[type=email] { min-width: unset; }
   .papers-grid { grid-template-columns: 1fr; }
+  .trend-dashboard { grid-template-columns: 1fr; }
+  .trend-term { grid-template-columns: minmax(0, 1fr); gap: 8px; align-items: stretch; }
+  .trend-score { text-align: left; display: flex; align-items: center; gap: 10px; }
+  .trend-score strong { display: inline; }
   .news-grid { grid-template-columns: repeat(2, 1fr); }
   .news-card-headline { grid-template-columns: 1fr; }
   .news-card-headline .card-image { min-height: 180px; }
@@ -1432,10 +1616,10 @@ body::before {
 .r-lbl-bl  { bottom: 64px; left: -64px; text-align: right; }
 .r-lbl-tl  { top:   64px; left: -64px; text-align: right; }
 
-/* ===== 6-up Section Cards ===== */
+/* ===== Section Quick-access Cards ===== */
 .hero-section-cards {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
   gap: 8px;
   margin-top: 28px;
   padding-top: 20px;
@@ -1653,7 +1837,8 @@ body::before {
   .news-card-headline,
   .paper-card,
   .leader-card,
-  .sci-card {
+  .sci-card,
+  .trend-panel {
     opacity: 0;
     transform: translateY(24px);
     transition: opacity 0.55s ease,
@@ -1669,7 +1854,8 @@ body::before {
   .news-card-headline.is-visible,
   .paper-card.is-visible,
   .leader-card.is-visible,
-  .sci-card.is-visible {
+  .sci-card.is-visible,
+  .trend-panel.is-visible {
     opacity: 1;
     transform: translateY(0);
   }
@@ -1678,6 +1864,7 @@ body::before {
   .sci-card.is-visible:hover    { transform: translateY(-2px); border-color: var(--green-border); }
   .paper-card.is-visible:hover  { transform: translateY(-2px); }
   .leader-card.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
+  .trend-panel.is-visible:hover { transform: translateY(-2px); border-color: var(--border-dark); }
   .news-item.is-visible:hover   { transform: translateX(2px);  border-color: var(--border-dark); }
   .news-card.is-visible:hover   { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,0.08); }
   .news-card-headline.is-visible:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,0,0,0.10); }
@@ -1858,6 +2045,7 @@ section#top3    { border-top: 3px solid var(--red);    padding-top: 36px; margin
 section#daily   { border-top: 3px solid var(--accent); padding-top: 36px; }
 section#ai4science { border-top: 3px solid var(--green); padding-top: 36px; }
 section#papers  { border-top: 3px solid #0d9488;       padding-top: 36px; }
+section#trends  { border-top: 3px solid #14b8a6;       padding-top: 36px; }
 section#models  { border-top: 3px solid var(--accent);  padding-top: 36px; }
 section#benchmarks { border-top: 3px solid var(--purple); padding-top: 36px; }
 section#leaders    { border-top: 3px solid var(--amber);  padding-top: 36px; }
@@ -1915,6 +2103,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <a href="#daily" data-cn="今日" data-en="Daily">今日</a>
       <a href="#ai4science" data-cn="For Scientists" data-en="For Scientists">For Scientists</a>
       <a href="#papers" data-cn="材料" data-en="Materials">材料</a>
+      <a href="#trends" data-cn="趋势" data-en="Trends">趋势</a>
       <a href="#models" data-cn="模型" data-en="Models">模型</a>
       <a href="#benchmarks" data-cn="基准" data-en="Bench">基准</a>
       <a href="#leaders" data-cn="领袖" data-en="Leaders">领袖</a>
@@ -1940,6 +2129,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
   <a href="#daily" onclick="toggleMenu()" data-cn="今日" data-en="Daily">今日</a>
   <a href="#ai4science" onclick="toggleMenu()" data-cn="For Scientists" data-en="For Scientists">For Scientists</a>
   <a href="#papers" onclick="toggleMenu()" data-cn="材料" data-en="Materials">材料</a>
+  <a href="#trends" onclick="toggleMenu()" data-cn="趋势" data-en="Trends">趋势</a>
   <a href="#models" onclick="toggleMenu()" data-cn="模型" data-en="Models">模型</a>
   <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Bench">基准</a>
   <a href="#leaders" onclick="toggleMenu()" data-cn="领袖" data-en="Leaders">领袖</a>
@@ -2088,7 +2278,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     <div class="r-label r-lbl-tl"  style="color:#d97706"  data-cn="领袖"       data-en="Leaders">领袖</div>
   </div>
 
-  <!-- ===== 6-up section quick-access cards ===== -->
+  <!-- ===== Section quick-access cards ===== -->
   <div class="hero-section-cards">
     <a class="hsc" href="#top3"
        style="--hsc-accent:#ef4444"
@@ -2107,6 +2297,11 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <span class="hsc-dot" style="--c:#0d9488"></span>
       <div class="hsc-name" data-cn="材料发现" data-en="Materials">材料发现</div>
       <div class="hsc-sub" data-cn="AI4Materials 论文" data-en="AI4Materials papers">AI4Materials 论文</div>
+    </a>
+    <a class="hsc" href="#trends" style="--hsc-accent:#14b8a6">
+      <span class="hsc-dot" style="--c:#14b8a6"></span>
+      <div class="hsc-name" data-cn="流行词趋势" data-en="Trend Radar">流行词趋势</div>
+      <div class="hsc-sub" data-cn="半月热度变化" data-en="Semi-monthly heat">半月热度变化</div>
     </a>
     <a class="hsc" href="#models" style="--hsc-accent:#2563eb">
       <span class="hsc-dot" style="--c:#2563eb"></span>
@@ -2495,6 +2690,19 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
         </div>
       </article>
       <!-- MATERIAL:END -->
+    </div>
+  </section>
+
+  <!-- ===== TREND RADAR ===== -->
+  <section id="trends">
+    <div class="sec-header">
+      <span class="sec-badge badge-green" data-cn="流行词雷达" data-en="Trend Radar">流行词雷达</span>
+      <h2 class="sec-title" data-cn="AI 流行词热度" data-en="AI Keyword Heat">AI 流行词热度</h2>
+      <span class="sec-meta" id="trends-updated" data-cn="每月 1 日 / 15 日刷新" data-en="Updated on the 1st and 15th">每月 1 日 / 15 日刷新</span>
+    </div>
+    <p class="sec-desc" data-cn="追踪流行词随半月周期的热度变化，并标出本期首次出现或显著冒头的新词。" data-en="Track semi-monthly keyword heat and surface terms that newly appeared in the latest period.">追踪流行词随半月周期的热度变化，并标出本期首次出现或显著冒头的新词。</p>
+    <div class="trend-dashboard" id="trend-dashboard" aria-live="polite">
+      <div class="trend-loading" data-cn="正在加载流行词趋势…" data-en="Loading keyword trends…">正在加载流行词趋势…</div>
     </div>
   </section>
 
@@ -2973,7 +3181,7 @@ if (searchInput && searchResults) {
     const q = this.value.trim().toLowerCase();
     if (!q || q.length < 2) { searchResults.classList.remove('visible'); return; }
     const hits = [];
-    document.querySelectorAll('.news-body, .leader-body, .sci-card p, .paper-summary').forEach(el => {
+    document.querySelectorAll('.news-body, .leader-body, .sci-card p, .paper-summary, .trend-term-name, .trend-panel-desc').forEach(el => {
       const txt = el.textContent;
       if (txt.toLowerCase().includes(q)) hits.push(txt.slice(0, 100) + '…');
     });
@@ -2992,6 +3200,145 @@ if (searchInput && searchResults) {
       searchResults.classList.remove('visible');
   });
 }
+
+// ===== Trend Radar =====
+function escapeTrendHtml(value) {
+  return String(value == null ? '' : value).replace(/[&<>"']/g, function(ch) {
+    return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' })[ch];
+  });
+}
+
+function trendText(item, key) {
+  var lang = (typeof currentLang !== 'undefined' && currentLang === 'en') ? 'en' : 'cn';
+  if (lang === 'en') return item[key] || item[key + '_en'] || item.label || '';
+  return item[key + '_cn'] || item[key] || item.label_cn || item.label || '';
+}
+
+function trendSparkline(series) {
+  var safeSeries = Array.isArray(series) && series.length ? series : [{ score: 0, label: '', label_en: '' }];
+  var points = safeSeries.map(function(point, index) {
+    var x = safeSeries.length === 1 ? 70 : index * (140 / (safeSeries.length - 1));
+    var score = Math.max(0, Math.min(100, Number(point.score) || 0));
+    var y = 30 - (score / 100) * 26;
+    return { x: x, y: y };
+  });
+  var path = points.map(function(point, index) {
+    return (index === 0 ? 'M' : 'L') + point.x.toFixed(1) + ',' + point.y.toFixed(1);
+  }).join(' ');
+  var last = points[points.length - 1];
+  var firstLabel = safeSeries[0] || {};
+  var lastLabel = safeSeries[safeSeries.length - 1] || {};
+  var firstCn = firstLabel.label || '';
+  var firstEn = firstLabel.label_en || firstCn;
+  var lastCn = lastLabel.label || '';
+  var lastEn = lastLabel.label_en || lastCn;
+  return [
+    '<svg class="trend-sparkline" viewBox="0 0 140 34" aria-hidden="true">',
+    '<path d="' + path + '"></path>',
+    '<circle cx="' + last.x.toFixed(1) + '" cy="' + last.y.toFixed(1) + '" r="3.2"></circle>',
+    '</svg>',
+    '<div class="trend-period-labels">',
+    '<span data-cn="' + escapeTrendHtml(firstCn) + '" data-en="' + escapeTrendHtml(firstEn) + '">' + escapeTrendHtml(firstCn) + '</span>',
+    '<span data-cn="' + escapeTrendHtml(lastCn) + '" data-en="' + escapeTrendHtml(lastEn) + '">' + escapeTrendHtml(lastCn) + '</span>',
+    '</div>'
+  ].join('');
+}
+
+function trendDelta(delta) {
+  var value = Number(delta) || 0;
+  if (value > 0) return { cls: 'up', text: '+' + value };
+  if (value < 0) return { cls: 'down', text: String(value) };
+  return { cls: 'flat', text: '0' };
+}
+
+function renderTrendPanel(category, cadenceCn, cadenceEn) {
+  var titleCn = category.label_cn || category.label;
+  var titleEn = category.label || titleCn;
+  var descCn = category.description_cn || category.description || '';
+  var descEn = category.description || descCn;
+  var terms = Array.isArray(category.terms) ? category.terms : [];
+  var newTerms = Array.isArray(category.new_terms) ? category.new_terms : [];
+  var termHtml = terms.map(function(term) {
+    var labelCn = term.label_cn || term.label;
+    var labelEn = term.label || labelCn;
+    var latest = term.series && term.series.length ? term.series[term.series.length - 1] : { score: 0 };
+    var score = Math.max(0, Math.min(100, Number(latest.score) || 0));
+    var delta = trendDelta(term.delta);
+    var mentionCn = '本期 ' + (term.latest_count || 0) + ' 次';
+    var mentionEn = (term.latest_count || 0) + ' mentions this period';
+    return [
+      '<div class="trend-term">',
+      '<div class="trend-term-main">',
+      '<div class="trend-term-name"><span data-cn="' + escapeTrendHtml(labelCn) + '" data-en="' + escapeTrendHtml(labelEn) + '">' + escapeTrendHtml(labelCn) + '</span>',
+      term.is_new ? '<span class="trend-new-badge" data-cn="新" data-en="NEW">新</span>' : '',
+      '</div>',
+      '<div class="trend-term-meta" data-cn="' + escapeTrendHtml(mentionCn) + '" data-en="' + escapeTrendHtml(mentionEn) + '">' + escapeTrendHtml(mentionCn) + '</div>',
+      '</div>',
+      '<div class="trend-spark-wrap">' + trendSparkline(term.series) + '</div>',
+      '<div class="trend-score"><strong>' + score + '</strong><span class="trend-delta ' + delta.cls + '">' + delta.text + '</span></div>',
+      '</div>'
+    ].join('');
+  }).join('');
+
+  if (!termHtml) {
+    termHtml = '<div class="trend-empty" data-cn="暂无可统计关键词" data-en="No keyword signal yet">暂无可统计关键词</div>';
+  }
+
+  var newHtml = newTerms.length
+    ? newTerms.map(function(term) {
+        var labelCn = term.label_cn || term.label;
+        var labelEn = term.label || labelCn;
+        return '<span class="trend-new-pill" data-cn="' + escapeTrendHtml(labelCn) + '" data-en="' + escapeTrendHtml(labelEn) + '">' + escapeTrendHtml(labelCn) + '</span>';
+      }).join('')
+    : '<span class="trend-empty" data-cn="本期暂无新增" data-en="No newly detected terms">本期暂无新增</span>';
+
+  return [
+    '<article class="trend-panel is-visible">',
+    '<div class="trend-panel-head">',
+    '<div>',
+    '<h3 class="trend-panel-title" data-cn="' + escapeTrendHtml(titleCn) + '" data-en="' + escapeTrendHtml(titleEn) + '">' + escapeTrendHtml(titleCn) + '</h3>',
+    '<p class="trend-panel-desc" data-cn="' + escapeTrendHtml(descCn) + '" data-en="' + escapeTrendHtml(descEn) + '">' + escapeTrendHtml(descCn) + '</p>',
+    '</div>',
+    '<span class="trend-cadence" data-cn="' + escapeTrendHtml(cadenceCn) + '" data-en="' + escapeTrendHtml(cadenceEn) + '">' + escapeTrendHtml(cadenceCn) + '</span>',
+    '</div>',
+    '<div class="trend-term-list">' + termHtml + '</div>',
+    '<div class="trend-new-row"><span class="trend-new-label" data-cn="新增流行词" data-en="New terms">新增流行词</span>' + newHtml + '</div>',
+    '</article>'
+  ].join('');
+}
+
+function initTrendRadar() {
+  var host = document.getElementById('trend-dashboard');
+  if (!host) return;
+  var url = 'data/trending_terms.json?v=' + encodeURIComponent(new Date().toISOString().slice(0, 10));
+  fetch(url)
+    .then(function(resp) {
+      if (!resp.ok) throw new Error('trend data unavailable');
+      return resp.json();
+    })
+    .then(function(data) {
+      var cadenceCn = data.update_cadence_cn || '每月 1 日 / 15 日刷新';
+      var cadenceEn = '1st / 15th';
+      var panels = (data.categories || []).map(function(category) {
+        return renderTrendPanel(category, cadenceCn, cadenceEn);
+      }).join('');
+      host.innerHTML = panels || '<div class="trend-loading" data-cn="暂无趋势数据" data-en="No trend data yet">暂无趋势数据</div>';
+      var meta = document.getElementById('trends-updated');
+      if (meta) {
+        var cn = '数据至 ' + (data.data_through || '') + ' · 下次 ' + (data.next_update || '');
+        var en = 'Through ' + (data.data_through || '') + ' · next ' + (data.next_update || '');
+        meta.dataset.cn = cn;
+        meta.dataset.en = en;
+        meta.textContent = cn;
+      }
+      if (typeof applyLang === 'function') applyLang(currentLang);
+    })
+    .catch(function() {
+      host.innerHTML = '<div class="trend-loading" data-cn="趋势数据暂不可用" data-en="Trend data is temporarily unavailable">趋势数据暂不可用</div>';
+      if (typeof applyLang === 'function') applyLang(currentLang);
+    });
+}
+document.addEventListener('DOMContentLoaded', initTrendRadar);
 
 // ===== Sync hero date display from hidden stats block =====
 (function() {
@@ -3193,7 +3540,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   /* ─── Phase 3: Scroll Reveals ─── */
   function initScrollReveal() {
-    var selector = '.card, .news-item, .news-headline, .news-card, .news-card-headline, .paper-card, .leader-card, .sci-card';
+    var selector = '.card, .news-item, .news-headline, .news-card, .news-card-headline, .paper-card, .leader-card, .sci-card, .trend-panel';
 
     if (reduced) {
       document.querySelectorAll(selector).forEach(function (el) {

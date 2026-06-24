@@ -1,0 +1,40 @@
+name: Semi-monthly AI keyword trends
+
+on:
+  schedule:
+    # UTC 13:30 = Toronto 09:30 during daylight saving time
+    - cron: '30 13 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-trends:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Rebuild keyword trend data
+        run: python scripts/update_trending_terms.py
+
+      - name: Commit and push changes
+        run: |
+          DATE=$(TZ="America/Toronto" date +"%Y-%m-%d")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/trending_terms.json
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git commit -m "chore: update keyword trends ${DATE}"
+            git push
+          else
+            echo "No keyword trend changes"
+          fi
