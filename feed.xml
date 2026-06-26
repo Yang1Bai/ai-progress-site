@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-25T14:26:53Z</updated>
+  <updated>2026-06-26T14:19:22Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月25日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-25.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-25.html</id>
-    <updated>2026-06-25T14:26:53Z</updated>
+    <title>每日汇总 2026年6月26日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-26.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-26.html</id>
+    <updated>2026-06-26T14:19:22Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 两位顶尖研究员相继离职：Transformer 联合作者 Noam Shazeer 加入 OpenAI，AlphaFold 负责…</title>
-    <link href="https://www.searchenginejournal.com/google-loses-two-top-ai-researchers-to-openai-anthropic/580201/"/>
-    <id>https://www.searchenginejournal.com/google-loses-two-top-ai-researchers-to-openai-anthropic/580201/</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>Google DeepMind 两位顶尖研究员相继离职：Transformer 联合作者 Noam Shazeer 加入 OpenAI，AlphaFold 负责人 John Jumper 将加入 Anthropic，Alphabet 股价单日跌 7.2%。</summary>
+    <title>OpenAI 联合 Broadcom 发布首款定制 AI 芯片 Jalapeño，瞄准 50% 成本削减的 LLM 推理服务。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>OpenAI 联合 Broadcom 发布首款定制 AI 芯片 Jalapeño，瞄准 50% 成本削减的 LLM 推理服务。</summary>
   </entry>
   <entry>
-    <title>OpenAI 正式发布 GPT-5.5-Cyber 网络安全模型，在 CyberGym 基准测试中达 85.6%，创单一模型最高分记录，仅向通过审核的安全机构开…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>OpenAI 正式发布 GPT-5.5-Cyber 网络安全模型，在 CyberGym 基准测试中达 85.6%，创单一模型最高分记录，仅向通过审核的安全机构开放。</summary>
+    <title>Google DeepMind 诺贝尔奖得主 John Jumper 离职加入 Anthropic，加剧谷歌顶级 AI 人才流失危机。…</title>
+    <link href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"/>
+    <id>https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>Google DeepMind 诺贝尔奖得主 John Jumper 离职加入 Anthropic，加剧谷歌顶级 AI 人才流失危机。</summary>
   </entry>
   <entry>
-    <title>美国政府 命令 Anthropic 暂停向所有外国用户提供最新的 Claude Fable 5 和 Mythos 5 模型访问，这是首次联邦政府强制 AI 公司…</title>
-    <link href="https://www.nbcnews.com/artificial-intelligence"/>
-    <id>https://www.nbcnews.com/artificial-intelligence</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>美国政府 命令 Anthropic 暂停向所有外国用户提供最新的 Claude Fable 5 和 Mythos 5 模型访问，这是首次联邦政府强制 AI 公司撤回公开系统。</summary>
+    <title>Anthropic 正式指控阿里巴巴对 Claude 进行 2880 万次欺诈性蒸馏调用，推动出口管制立法。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>Anthropic 正式指控阿里巴巴对 Claude 进行 2880 万次欺诈性蒸馏调用，推动出口管制立法。</summary>
   </entry>
   <entry>
-    <title>高通 正洽谈以 80-100 亿美元收购 AI 芯片公司 Tenstorrent，该公司采用开放 RISC-V 标准设计芯片，由芯片老将 Jim Keller …</title>
+    <title>Google Gemini 2.5 Pro Deep Think 模式发布，GPQA Diamond 达 82.4%、MMLU-Pro 89.8%，领跑科学推理…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>Google Gemini 2.5 Pro Deep Think 模式发布，GPQA Diamond 达 82.4%、MMLU-Pro 89.8%，领跑科学推理基准。</summary>
+  </entry>
+  <entry>
+    <title>SpaceX 以 600 亿美元全股票收购 AI 编码助手 Cursor，创风投史最大收购记录。…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-23-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-june-23-2026</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>SpaceX 以 600 亿美元全股票收购 AI 编码助手 Cursor，创风投史最大收购记录。</summary>
+  </entry>
+  <entry>
+    <title>Microsoft 在 Build 2026 发布 7 款 MAI 模型，包括 MAI-Thinking-1 推理模型与 MAI-Code-1-Flash 编码…</title>
+    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
+    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>Microsoft 在 Build 2026 发布 7 款 MAI 模型，包括 MAI-Thinking-1 推理模型与 MAI-Code-1-Flash 编码模型。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 提交 S-1 IPO 文件，估值 9650 亿美元，年收入运行率达 470 亿美元，超越 OpenAI 估值。…</title>
+    <link href="https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/"/>
+    <id>https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>Anthropic 提交 S-1 IPO 文件，估值 9650 亿美元，年收入运行率达 470 亿美元，超越 OpenAI 估值。</summary>
+  </entry>
+  <entry>
+    <title>美国五眼联盟发布《谨慎采纳 Agent AI 服务》指南，针对关键基础设施中的 AI Agent 安全风险。…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>高通 正洽谈以 80-100 亿美元收购 AI 芯片公司 Tenstorrent，该公司采用开放 RISC-V 标准设计芯片，由芯片老将 Jim Keller 领导。</summary>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>美国五眼联盟发布《谨慎采纳 Agent AI 服务》指南，针对关键基础设施中的 AI Agent 安全风险。</summary>
   </entry>
   <entry>
-    <title>Meta 启动约 8000 名员工的裁员（约占总数 10%），另有 7000 人转岗至 AI 团队，归因于 AI 效率提升使更精简团队即可达成以往产出。…</title>
+    <title>阿姆斯实验室发布 DuctGPT，基于物理模型的 AI 工作流，发现无稀土永磁材料突破供应链瓶颈。…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>Meta 启动约 8000 名员工的裁员（约占总数 10%），另有 7000 人转岗至 AI 团队，归因于 AI 效率提升使更精简团队即可达成以往产出。</summary>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>阿姆斯实验室发布 DuctGPT，基于物理模型的 AI 工作流，发现无稀土永磁材料突破供应链瓶颈。</summary>
   </entry>
   <entry>
-    <title>纽约市教育局 要求所有 AI 工具在部署前必须通过偏见与公平性审查，覆盖 110 万学生系统，6 月发布全面合规手册，成为强制性治理转折点。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>纽约市教育局 要求所有 AI 工具在部署前必须通过偏见与公平性审查，覆盖 110 万学生系统，6 月发布全面合规手册，成为强制性治理转折点。</summary>
-  </entry>
-  <entry>
-    <title>SpaceX 与 AI 公司 Reflection AI 签署 63 亿美元 协议，租用第四座 Colossus 计算集群，Reflection 定位为美国、开…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>SpaceX 与 AI 公司 Reflection AI 签署 63 亿美元 协议，租用第四座 Colossus 计算集群，Reflection 定位为美国、开放权重、前沿级别的第三选项。</summary>
-  </entry>
-  <entry>
-    <title>中国 在美国对 Anthropic 实施出口管制后十天，将 56 家美国公司列入黑名单，AI 出口战正式从单向转为双向对抗。…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>中国 在美国对 Anthropic 实施出口管制后十天，将 56 家美国公司列入黑名单，AI 出口战正式从单向转为双向对抗。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 推出 Claude Tag，为 Slack 提供的代理式 AI 协作工具，能构建上下文、委派多步骤任务并异步工作，面向团队与企业用户 Bet…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>Anthropic 推出 Claude Tag，为 Slack 提供的代理式 AI 协作工具，能构建上下文、委派多步骤任务并异步工作，面向团队与企业用户 Beta 测试。</summary>
-  </entry>
-  <entry>
-    <title>深圳大学 研究团队开发基于黑磷的全光纤光子 AI 平台，用光而非电子处理医疗影像，在视网膜脱离与肝癌诊断中达专家级准确率。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-25T14:26:53Z</updated>
-    <summary>深圳大学 研究团队开发基于黑磷的全光纤光子 AI 平台，用光而非电子处理医疗影像，在视网膜脱离与肝癌诊断中达专家级准确率。</summary>
+    <title>ChatGPT 市场份额首次跌破 50% 至 46.4%，Claude 增至 10.3%、Gemini 升至 27.7%，竞争白热化。…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-23-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-june-23-2026</id>
+    <updated>2026-06-26T14:19:22Z</updated>
+    <summary>ChatGPT 市场份额首次跌破 50% 至 46.4%，Claude 增至 10.3%、Gemini 升至 27.7%，竞争白热化。</summary>
   </entry>
 </feed>
