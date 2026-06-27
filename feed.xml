@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-26T14:19:22Z</updated>
+  <updated>2026-06-27T13:27:07Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月26日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-26.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-26.html</id>
-    <updated>2026-06-26T14:19:22Z</updated>
+    <title>每日汇总 2026年6月27日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-27.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-27.html</id>
+    <updated>2026-06-27T13:27:07Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 联合 Broadcom 发布首款定制 AI 芯片 Jalapeño，瞄准 50% 成本削减的 LLM 推理服务。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>OpenAI 联合 Broadcom 发布首款定制 AI 芯片 Jalapeño，瞄准 50% 成本削减的 LLM 推理服务。</summary>
+    <title>OpenAI 与博通发布 LLM 优化推理芯片，6 月 25 日宣布合作开发专为大语言模型推理优化的定制芯片，旨在降低推理成本并提升性能，挑战英伟达在 AI 芯…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>OpenAI 与博通发布 LLM 优化推理芯片，6 月 25 日宣布合作开发专为大语言模型推理优化的定制芯片，旨在降低推理成本并提升性能，挑战英伟达在 AI 芯片市场的主导地位。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 诺贝尔奖得主 John Jumper 离职加入 Anthropic，加剧谷歌顶级 AI 人才流失危机。…</title>
-    <link href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/"/>
-    <id>https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>Google DeepMind 诺贝尔奖得主 John Jumper 离职加入 Anthropic，加剧谷歌顶级 AI 人才流失危机。</summary>
+    <title>诺贝尔化学奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，6 月 22 日宣布这一决定。Jumper 因 Alp…</title>
+    <link href="https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496"/>
+    <id>https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>诺贝尔化学奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，6 月 22 日宣布这一决定。Jumper 因 AlphaFold 获 2024 年诺贝尔化学奖，此前是 DeepMind AI 编码开发团队核心成员，此举加剧 AI 人才争夺战。</summary>
   </entry>
   <entry>
-    <title>Anthropic 正式指控阿里巴巴对 Claude 进行 2880 万次欺诈性蒸馏调用，推动出口管制立法。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>Anthropic 正式指控阿里巴巴对 Claude 进行 2880 万次欺诈性蒸馏调用，推动出口管制立法。</summary>
+    <title>Anthropic 的 Fable 5 与 Mythos 5 模型遭美国出口管制，6 月 12 日美商务部以国家安全为由禁止访问，Anthropic 称漏洞范围…</title>
+    <link href="https://www.cybernewscentre.com/anthropic-and-google-deepmind-propose-u-s-led-ai-coalition-at-g7-summit/"/>
+    <id>https://www.cybernewscentre.com/anthropic-and-google-deepmind-propose-u-s-led-ai-coalition-at-g7-summit/</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>Anthropic 的 Fable 5 与 Mythos 5 模型遭美国出口管制，6 月 12 日美商务部以国家安全为由禁止访问，Anthropic 称漏洞范围有限且可比其他公开模型，目前正与政府谈判恢复。</summary>
   </entry>
   <entry>
-    <title>Google Gemini 2.5 Pro Deep Think 模式发布，GPQA Diamond 达 82.4%、MMLU-Pro 89.8%，领跑科学推理…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-25-2026</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>Google Gemini 2.5 Pro Deep Think 模式发布，GPQA Diamond 达 82.4%、MMLU-Pro 89.8%，领跑科学推理基准。</summary>
+    <title>苹果在 iOS 27 中嵌入实用 AI 功能，引入账单自动分账、安全漏洞后密码替换、智能消息建议、自然语言日历创建等功能，强调设备端智能与隐私，而非对话助手。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>苹果在 iOS 27 中嵌入实用 AI 功能，引入账单自动分账、安全漏洞后密码替换、智能消息建议、自然语言日历创建等功能，强调设备端智能与隐私，而非对话助手。</summary>
   </entry>
   <entry>
-    <title>SpaceX 以 600 亿美元全股票收购 AI 编码助手 Cursor，创风投史最大收购记录。…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-23-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-june-23-2026</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>SpaceX 以 600 亿美元全股票收购 AI 编码助手 Cursor，创风投史最大收购记录。</summary>
+    <title>波士顿动力与 Google DeepMind 合作工业 AI，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗和 Orbit AI 视…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>波士顿动力与 Google DeepMind 合作工业 AI，将 Gemini Robotics-ER 1.6 集成到 Spot 机器狗和 Orbit AI 视觉检测平台，实现增强空间推理、自主决策与持续学习。</summary>
   </entry>
   <entry>
-    <title>Microsoft 在 Build 2026 发布 7 款 MAI 模型，包括 MAI-Thinking-1 推理模型与 MAI-Code-1-Flash 编码…</title>
-    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
-    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>Microsoft 在 Build 2026 发布 7 款 MAI 模型，包括 MAI-Thinking-1 推理模型与 MAI-Code-1-Flash 编码模型。</summary>
+    <title>Anthropic 发布企业安全工具 Claude Security，基于 Claude Opus 4.7 的公测工具可扫描代码库漏洞、分析跨模块组件交互并生成…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>Anthropic 发布企业安全工具 Claude Security，基于 Claude Opus 4.7 的公测工具可扫描代码库漏洞、分析跨模块组件交互并生成针对性补丁，微软安全、CrowdStrike 等集成。</summary>
   </entry>
   <entry>
-    <title>Anthropic 提交 S-1 IPO 文件，估值 9650 亿美元，年收入运行率达 470 亿美元，超越 OpenAI 估值。…</title>
-    <link href="https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/"/>
-    <id>https://radicaldatascience.wordpress.com/2026/06/04/ai-news-briefs-bulletin-board-for-june-2026/</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>Anthropic 提交 S-1 IPO 文件，估值 9650 亿美元，年收入运行率达 470 亿美元，超越 OpenAI 估值。</summary>
+    <title>Google DeepMind 发布 Gemma 4 开源模型家族，包含 E2B、E4B、26B MoE、31B Dense 四个模型，采用 Apache 2.…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>Google DeepMind 发布 Gemma 4 开源模型家族，包含 E2B、E4B、26B MoE、31B Dense 四个模型，采用 Apache 2.0 许可，31B 模型在 Arena AI 排行榜位列全球第三大开源模型。</summary>
   </entry>
   <entry>
-    <title>美国五眼联盟发布《谨慎采纳 Agent AI 服务》指南，针对关键基础设施中的 AI Agent 安全风险。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>美国五眼联盟发布《谨慎采纳 Agent AI 服务》指南，针对关键基础设施中的 AI Agent 安全风险。</summary>
+    <title>高通考虑 80-100 亿美元收购 Tenstorrent，后者设计基于开源 RISC-V 的 AI 芯片，由芯片老将 Jim Keller 领导，此举标志高通…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>高通考虑 80-100 亿美元收购 Tenstorrent，后者设计基于开源 RISC-V 的 AI 芯片，由芯片老将 Jim Keller 领导，此举标志高通在英伟达与 AMD 主导的 AI 硬件市场中的重大承诺。</summary>
   </entry>
   <entry>
-    <title>阿姆斯实验室发布 DuctGPT，基于物理模型的 AI 工作流，发现无稀土永磁材料突破供应链瓶颈。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>阿姆斯实验室发布 DuctGPT，基于物理模型的 AI 工作流，发现无稀土永磁材料突破供应链瓶颈。</summary>
+    <title>纽约市教育局要求所有 AI 工具通过偏见审查，发布初步指南要求针对 110 万学生系统部署的工具通过偏见与公平审查，6 月发布综合合规手册，向自愿框架转为强制治…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>纽约市教育局要求所有 AI 工具通过偏见审查，发布初步指南要求针对 110 万学生系统部署的工具通过偏见与公平审查，6 月发布综合合规手册，向自愿框架转为强制治理。</summary>
   </entry>
   <entry>
-    <title>ChatGPT 市场份额首次跌破 50% 至 46.4%，Claude 增至 10.3%、Gemini 升至 27.7%，竞争白热化。…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-23-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-june-23-2026</id>
-    <updated>2026-06-26T14:19:22Z</updated>
-    <summary>ChatGPT 市场份额首次跌破 50% 至 46.4%，Claude 增至 10.3%、Gemini 升至 27.7%，竞争白热化。</summary>
+    <title>NAVER 与英伟达合作扩展主权 AI 基础设施，使用英伟达 DSX 平台在韩国 GAK Sejong 数据中心起步 55 兆瓦并计划扩展至千兆瓦级，支持 Hy…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-06-27T13:27:07Z</updated>
+    <summary>NAVER 与英伟达合作扩展主权 AI 基础设施，使用英伟达 DSX 平台在韩国 GAK Sejong 数据中心起步 55 兆瓦并计划扩展至千兆瓦级，支持 HyperCLOVA X 下一代模型。</summary>
   </entry>
 </feed>
