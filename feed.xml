@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-28T13:30:38Z</updated>
+  <updated>2026-06-29T15:45:01Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月28日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-28.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-28.html</id>
-    <updated>2026-06-28T13:30:38Z</updated>
+    <title>每日汇总 2026年6月29日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-29.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-29.html</id>
+    <updated>2026-06-29T15:45:01Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI与博通联合发布Jalapeño推理芯片，采用AI辅助设计流程，9个月完成开发，预计2026年底部署、2028年全面量产，每瓦性能大幅超越英伟达方案…</title>
+    <title>OpenAI 预览 GPT-5.6 三层架构：Sol（旗舰）、Terra（平衡）、Luna（快速），6月26日发布，政府审查访问中，尚未公开，代表自 GPT-5…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>OpenAI 预览 GPT-5.6 三层架构：Sol（旗舰）、Terra（平衡）、Luna（快速），6月26日发布，政府审查访问中，尚未公开，代表自 GPT-5 以来最大架构变革</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind 六位核心研究员三周内流失：诺贝尔化学奖得主 John Jumper 加入 Anthropic，Noam Shazeer 转投 O…</title>
+    <link href="https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm"/>
+    <id>https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>Google DeepMind 六位核心研究员三周内流失：诺贝尔化学奖得主 John Jumper 加入 Anthropic，Noam Shazeer 转投 OpenAI，Jonas Adler、Alexander Pritzel 亦离职</summary>
+  </entry>
+  <entry>
+    <title>美国政府6月27日部分解除 Anthropic Claude Mythos 5 出口管制，允许关键基础设施防御者使用，Fable 5 仍禁止，8月1日前 NSA…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>美国政府6月27日部分解除 Anthropic Claude Mythos 5 出口管制，允许关键基础设施防御者使用，Fable 5 仍禁止，8月1日前 NSA 完成前沿模型框架</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 发布 Jalapeño 定制推理芯片，6月25日与 Broadcom 合作交付，首次摆脱英伟达 GPU 依赖，专为推理优化，非训练芯片…</title>
     <link href="https://unrot.co/blogs/today-top-10-ai-news-june-26-2026"/>
     <id>https://unrot.co/blogs/today-top-10-ai-news-june-26-2026</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>OpenAI与博通联合发布Jalapeño推理芯片，采用AI辅助设计流程，9个月完成开发，预计2026年底部署、2028年全面量产，每瓦性能大幅超越英伟达方案</summary>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>OpenAI 发布 Jalapeño 定制推理芯片，6月25日与 Broadcom 合作交付，首次摆脱英伟达 GPU 依赖，专为推理优化，非训练芯片</summary>
   </entry>
   <entry>
-    <title>Anthropic指控阿里巴巴通过2.5万个虚假账号、2880万次Claude交互进行史上最大规模模型蒸馏攻击，提取代理推理与软件工程能力，向美国参议院提交信函…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>Anthropic指控阿里巴巴通过2.5万个虚假账号、2880万次Claude交互进行史上最大规模模型蒸馏攻击，提取代理推理与软件工程能力，向美国参议院提交信函要求政府介入</summary>
-  </entry>
-  <entry>
-    <title>G7峰会技术领袖闭门会议，OpenAI、Anthropic、谷歌DeepMind CEO与特朗普等国家元首讨论AI治理，呼吁美国主导建立国际AI标准联盟，应对网…</title>
-    <link href="https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html"/>
-    <id>https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>G7峰会技术领袖闭门会议，OpenAI、Anthropic、谷歌DeepMind CEO与特朗普等国家元首讨论AI治理，呼吁美国主导建立国际AI标准联盟，应对网络安全威胁</summary>
-  </entry>
-  <entry>
-    <title>诺贝尔化学奖得主John Jumper离开谷歌DeepMind加入Anthropic，AlphaFold联合创造者的离职凸显AI编程工具竞争白热化，谷歌在企业A…</title>
-    <link href="https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496"/>
-    <id>https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>诺贝尔化学奖得主John Jumper离开谷歌DeepMind加入Anthropic，AlphaFold联合创造者的离职凸显AI编程工具竞争白热化，谷歌在企业AI编程市场面临压力</summary>
-  </entry>
-  <entry>
-    <title>微软Build 2026发布MAI系列模型（MAI-Code-1-Flash、MAI-Thinking-1等7款），降低对OpenAI依赖，为麦肯锡定制模型性能…</title>
-    <link href="https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html"/>
-    <id>https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>微软Build 2026发布MAI系列模型（MAI-Code-1-Flash、MAI-Thinking-1等7款），降低对OpenAI依赖，为麦肯锡定制模型性能超GPT-5.5且成本效率提升10倍</summary>
-  </entry>
-  <entry>
-    <title>谷歌DeepMind发布Gemma 4开源模型家族（E2B/E4B/26B MoE/31B Dense），Apache 2.0许可，31B模型在Arena AI…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>谷歌DeepMind发布Gemma 4开源模型家族（E2B/E4B/26B MoE/31B Dense），Apache 2.0许可，31B模型在Arena AI文本排行榜全球开源模型中排名第3</summary>
-  </entry>
-  <entry>
-    <title>波士顿动力与谷歌DeepMind合作，将Gemini Robotics-ER 1.6整合进Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理、自主决…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>波士顿动力与谷歌DeepMind合作，将Gemini Robotics-ER 1.6整合进Spot机器狗和Orbit AI视觉检测平台，实现增强空间推理、自主决策和持续学习</summary>
-  </entry>
-  <entry>
-    <title>五眼联盟（美英加澳新）情报机构联合发布《代理AI服务谨慎采用》指南，针对关键基础设施和国防环境中代理AI系统的安全风险提出规范…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>五眼联盟（美英加澳新）情报机构联合发布《代理AI服务谨慎采用》指南，针对关键基础设施和国防环境中代理AI系统的安全风险提出规范</summary>
-  </entry>
-  <entry>
-    <title>美国Ames实验室开发DuctGPT物理训练AI模型发现无稀土永磁体，可理解底层物理并发明新材料，减少对中国稀土元素依赖…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>美国Ames实验室开发DuctGPT物理训练AI模型发现无稀土永磁体，可理解底层物理并发明新材料，减少对中国稀土元素依赖</summary>
-  </entry>
-  <entry>
-    <title>科罗拉多州AI法案延期至2027年1月1日生效（原定2026年6月30日），要求在就业、教育、住房、医疗等高风险AI系统中进行偏见与公平性审查…</title>
+    <title>科罗拉多州 AI 法案6月30日生效，成为美国首个执行的州级 AI 综合法，规管高风险系统用于就业、教育、医疗、金融等，5月修订削弱问责条款引争议…</title>
     <link href="https://unrot.co/blogs/today-top-10-ai-news-june-26-2026"/>
     <id>https://unrot.co/blogs/today-top-10-ai-news-june-26-2026</id>
-    <updated>2026-06-28T13:30:38Z</updated>
-    <summary>科罗拉多州AI法案延期至2027年1月1日生效（原定2026年6月30日），要求在就业、教育、住房、医疗等高风险AI系统中进行偏见与公平性审查</summary>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>科罗拉多州 AI 法案6月30日生效，成为美国首个执行的州级 AI 综合法，规管高风险系统用于就业、教育、医疗、金融等，5月修订削弱问责条款引争议</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 指控阿里巴巴窃取 2,880 万次 Claude 对话用于蒸馏训练，OpenAI 与 Broadcom 合作 Jalapeño 芯片标志推理…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>Anthropic 指控阿里巴巴窃取 2,880 万次 Claude 对话用于蒸馏训练，OpenAI 与 Broadcom 合作 Jalapeño 芯片标志推理自主化里程碑</summary>
+  </entry>
+  <entry>
+    <title>AI 股票本周持续下跌，纳斯达克连跌一周累计跌超 6%，韩国 Kospi 单日跌 5.8%，投资者对高估值无利润回报感到不满，科技板块承压…</title>
+    <link href="https://www.cnn.com/2026/06/26/investing/tech-stocks-nasdaq-kospi"/>
+    <id>https://www.cnn.com/2026/06/26/investing/tech-stocks-nasdaq-kospi</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>AI 股票本周持续下跌，纳斯达克连跌一周累计跌超 6%，韩国 Kospi 单日跌 5.8%，投资者对高估值无利润回报感到不满，科技板块承压</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 广告业务成核心战略，ChatGPT 周活用户超 9 亿，约五分之一查询具商业意图，按有用性而非注意力定价，隐私保护不向广告主开放对话…</title>
+    <link href="https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week"/>
+    <id>https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>OpenAI 广告业务成核心战略，ChatGPT 周活用户超 9 亿，约五分之一查询具商业意图，按有用性而非注意力定价，隐私保护不向广告主开放对话</summary>
+  </entry>
+  <entry>
+    <title>Google、Microsoft、GitHub、Hugging Face、NVIDIA 等发布 ARD 代理资源发现标准，AI 智能体可运行时定位工具、API …</title>
+    <link href="https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week"/>
+    <id>https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>Google、Microsoft、GitHub、Hugging Face、NVIDIA 等发布 ARD 代理资源发现标准，AI 智能体可运行时定位工具、API 与其他智能体，增强互操作性</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 计划10月 IPO，年化收入达 470 亿美元（2025年底为 90 亿），Q2 首次运营盈利约 5.59 亿美元，但 Fable 5 禁令…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026</id>
+    <updated>2026-06-29T15:45:01Z</updated>
+    <summary>Anthropic 计划10月 IPO，年化收入达 470 亿美元（2025年底为 90 亿），Q2 首次运营盈利约 5.59 亿美元，但 Fable 5 禁令为招股披露风险事件</summary>
   </entry>
 </feed>
