@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-29T15:45:01Z</updated>
+  <updated>2026-06-30T14:15:34Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月29日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-29.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-29.html</id>
-    <updated>2026-06-29T15:45:01Z</updated>
+    <title>每日汇总 2026年6月30日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-30.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-30.html</id>
+    <updated>2026-06-30T14:15:34Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 预览 GPT-5.6 三层架构：Sol（旗舰）、Terra（平衡）、Luna（快速），6月26日发布，政府审查访问中，尚未公开，代表自 GPT-5…</title>
+    <title>Anthropic 于6月9日发布 Claude Fable 5 后仅72小时，美国政府以国家安全为由下令暂停访问，这是首个被国家强制下架的前沿 AI 模型。…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>OpenAI 预览 GPT-5.6 三层架构：Sol（旗舰）、Terra（平衡）、Luna（快速），6月26日发布，政府审查访问中，尚未公开，代表自 GPT-5 以来最大架构变革</summary>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Anthropic 于6月9日发布 Claude Fable 5 后仅72小时，美国政府以国家安全为由下令暂停访问，这是首个被国家强制下架的前沿 AI 模型。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 六位核心研究员三周内流失：诺贝尔化学奖得主 John Jumper 加入 Anthropic，Noam Shazeer 转投 O…</title>
-    <link href="https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm"/>
-    <id>https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>Google DeepMind 六位核心研究员三周内流失：诺贝尔化学奖得主 John Jumper 加入 Anthropic，Noam Shazeer 转投 OpenAI，Jonas Adler、Alexander Pritzel 亦离职</summary>
+    <title>Google 于6月22日发布 Gemini 2.5 Pro with Deep Think，在科学推理基准测试中创下记录（82.4% GPQA Diamond…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Google 于6月22日发布 Gemini 2.5 Pro with Deep Think，在科学推理基准测试中创下记录（82.4% GPQA Diamond、94.1% HumanEval+），成为6月最强公开模型。</summary>
   </entry>
   <entry>
-    <title>美国政府6月27日部分解除 Anthropic Claude Mythos 5 出口管制，允许关键基础设施防御者使用，Fable 5 仍禁止，8月1日前 NSA…</title>
+    <title>智谱 AI 于6月13日发布开源编程模型 GLM-5.2（MIT 许可证），成本仅为 GPT-5.5 的 1/7，在 SWE-bench Pro 上超越闭源竞品…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>智谱 AI 于6月13日发布开源编程模型 GLM-5.2（MIT 许可证），成本仅为 GPT-5.5 的 1/7，在 SWE-bench Pro 上超越闭源竞品，推动中国开源模型市场占有率达60%。</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind 诺贝尔化学奖得主 John Jumper 于6月21日宣布离职加入 Anthropic，引发业界对 Google AI 人才流失…</title>
+    <link href="https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496"/>
+    <id>https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Google DeepMind 诺贝尔化学奖得主 John Jumper 于6月21日宣布离职加入 Anthropic，引发业界对 Google AI 人才流失与编程工具竞争力的担忧。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 于6月26日预览 GPT-5.6 三层架构（Sol/Terra/Luna），采用政府审查机制，Terminal-Bench 达 91.9%，但尚未…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>美国政府6月27日部分解除 Anthropic Claude Mythos 5 出口管制，允许关键基础设施防御者使用，Fable 5 仍禁止，8月1日前 NSA 完成前沿模型框架</summary>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>OpenAI 于6月26日预览 GPT-5.6 三层架构（Sol/Terra/Luna），采用政府审查机制，Terminal-Bench 达 91.9%，但尚未公开发布。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 Jalapeño 定制推理芯片，6月25日与 Broadcom 合作交付，首次摆脱英伟达 GPU 依赖，专为推理优化，非训练芯片…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-26-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-june-26-2026</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>OpenAI 发布 Jalapeño 定制推理芯片，6月25日与 Broadcom 合作交付，首次摆脱英伟达 GPU 依赖，专为推理优化，非训练芯片</summary>
+    <title>GitHub Copilot 于6月终止按席位计费模式，改为基于使用量的 metered billing，标志着开发者 AI 工具扁平费率时代结束。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>GitHub Copilot 于6月终止按席位计费模式，改为基于使用量的 metered billing，标志着开发者 AI 工具扁平费率时代结束。</summary>
   </entry>
   <entry>
-    <title>科罗拉多州 AI 法案6月30日生效，成为美国首个执行的州级 AI 综合法，规管高风险系统用于就业、教育、医疗、金融等，5月修订削弱问责条款引争议…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-26-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-june-26-2026</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>科罗拉多州 AI 法案6月30日生效，成为美国首个执行的州级 AI 综合法，规管高风险系统用于就业、教育、医疗、金融等，5月修订削弱问责条款引争议</summary>
+    <title>Alphabet 于6月1日宣布通过公开发行、ATM 计划及伯克希尔私募完成 847.5 亿美元融资，用于 AI 基础设施建设。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Alphabet 于6月1日宣布通过公开发行、ATM 计划及伯克希尔私募完成 847.5 亿美元融资，用于 AI 基础设施建设。</summary>
   </entry>
   <entry>
-    <title>Anthropic 指控阿里巴巴窃取 2,880 万次 Claude 对话用于蒸馏训练，OpenAI 与 Broadcom 合作 Jalapeño 芯片标志推理…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>Anthropic 指控阿里巴巴窃取 2,880 万次 Claude 对话用于蒸馏训练，OpenAI 与 Broadcom 合作 Jalapeño 芯片标志推理自主化里程碑</summary>
+    <title>Amazon Trainium 芯片获得 200 亿美元企业订单，成为继 Nvidia、Google TPU 之后第三大 AI 训练芯片平台。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Amazon Trainium 芯片获得 200 亿美元企业订单，成为继 Nvidia、Google TPU 之后第三大 AI 训练芯片平台。</summary>
   </entry>
   <entry>
-    <title>AI 股票本周持续下跌，纳斯达克连跌一周累计跌超 6%，韩国 Kospi 单日跌 5.8%，投资者对高估值无利润回报感到不满，科技板块承压…</title>
-    <link href="https://www.cnn.com/2026/06/26/investing/tech-stocks-nasdaq-kospi"/>
-    <id>https://www.cnn.com/2026/06/26/investing/tech-stocks-nasdaq-kospi</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>AI 股票本周持续下跌，纳斯达克连跌一周累计跌超 6%，韩国 Kospi 单日跌 5.8%，投资者对高估值无利润回报感到不满，科技板块承压</summary>
+    <title>Meta 于6月实施约 8000 人裁员（占员工总数10%），另有7000人转岗至 AI 团队，CEO 称 AI 效率提升使小团队可匹配原有产出。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Meta 于6月实施约 8000 人裁员（占员工总数10%），另有7000人转岗至 AI 团队，CEO 称 AI 效率提升使小团队可匹配原有产出。</summary>
   </entry>
   <entry>
-    <title>OpenAI 广告业务成核心战略，ChatGPT 周活用户超 9 亿，约五分之一查询具商业意图，按有用性而非注意力定价，隐私保护不向广告主开放对话…</title>
-    <link href="https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week"/>
-    <id>https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>OpenAI 广告业务成核心战略，ChatGPT 周活用户超 9 亿，约五分之一查询具商业意图，按有用性而非注意力定价，隐私保护不向广告主开放对话</summary>
-  </entry>
-  <entry>
-    <title>Google、Microsoft、GitHub、Hugging Face、NVIDIA 等发布 ARD 代理资源发现标准，AI 智能体可运行时定位工具、API …</title>
-    <link href="https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week"/>
-    <id>https://www.marketingprofs.com/opinions/2026/55130/ai-update-june-26-2026-ai-news-and-views-from-the-past-week</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>Google、Microsoft、GitHub、Hugging Face、NVIDIA 等发布 ARD 代理资源发现标准，AI 智能体可运行时定位工具、API 与其他智能体，增强互操作性</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 计划10月 IPO，年化收入达 470 亿美元（2025年底为 90 亿），Q2 首次运营盈利约 5.59 亿美元，但 Fable 5 禁令…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026</id>
-    <updated>2026-06-29T15:45:01Z</updated>
-    <summary>Anthropic 计划10月 IPO，年化收入达 470 亿美元（2025年底为 90 亿），Q2 首次运营盈利约 5.59 亿美元，但 Fable 5 禁令为招股披露风险事件</summary>
+    <title>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成至 Spot 机器狗与 Orbi…</title>
+    <link href="https://dentro.de/ai/news/"/>
+    <id>https://dentro.de/ai/news/</id>
+    <updated>2026-06-30T14:15:34Z</updated>
+    <summary>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成至 Spot 机器狗与 Orbit 视觉检测平台，用于工业自主决策。</summary>
   </entry>
 </feed>
