@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-06-30T14:15:34Z</updated>
+  <updated>2026-07-01T14:34:09Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年6月30日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-06-30.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-06-30.html</id>
-    <updated>2026-06-30T14:15:34Z</updated>
+    <title>每日汇总 2026年7月1日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-01.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-01.html</id>
+    <updated>2026-07-01T14:34:09Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 于6月9日发布 Claude Fable 5 后仅72小时，美国政府以国家安全为由下令暂停访问，这是首个被国家强制下架的前沿 AI 模型。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Anthropic 于6月9日发布 Claude Fable 5 后仅72小时，美国政府以国家安全为由下令暂停访问，这是首个被国家强制下架的前沿 AI 模型。</summary>
+    <title>Claude Fable 5 与 Mythos 5 于6月12日遭美国出口管制封禁，6月29日部分恢复仅限美国关键基础设施使用，普通用户仍无法访问。…</title>
+    <link href="https://www.tech-reader.blog/2026/06/ai-news-tue-jun-30-2026.html"/>
+    <id>https://www.tech-reader.blog/2026/06/ai-news-tue-jun-30-2026.html</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>Claude Fable 5 与 Mythos 5 于6月12日遭美国出口管制封禁，6月29日部分恢复仅限美国关键基础设施使用，普通用户仍无法访问。</summary>
   </entry>
   <entry>
-    <title>Google 于6月22日发布 Gemini 2.5 Pro with Deep Think，在科学推理基准测试中创下记录（82.4% GPQA Diamond…</title>
+    <title>OpenAI 与 Broadcom 联合发布 Jalapeño 芯片用于LLM推理优化，GPT-5.6 Sol/Terra/Luna 已于6月26日预览但仅限约…</title>
+    <link href="https://openai.com/news/"/>
+    <id>https://openai.com/news/</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>OpenAI 与 Broadcom 联合发布 Jalapeño 芯片用于LLM推理优化，GPT-5.6 Sol/Terra/Luna 已于6月26日预览但仅限约20家政府授权合作伙伴访问。</summary>
+  </entry>
+  <entry>
+    <title>Google Gemini 3.5 Pro 推迟至7月发布，原定6月上线因早期测试者反馈token效率与长时任务性能问题而延期。…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-june-26-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-june-26-2026</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>Google Gemini 3.5 Pro 推迟至7月发布，原定6月上线因早期测试者反馈token效率与长时任务性能问题而延期。</summary>
+  </entry>
+  <entry>
+    <title>GitHub Copilot 按用量计费首月周期6月30日结束，开发者报告agentic工作流下月度成本从29美元暴涨至750美元甚至3000美元。…</title>
+    <link href="https://www.tech-reader.blog/2026/06/ai-news-tue-jun-30-2026.html"/>
+    <id>https://www.tech-reader.blog/2026/06/ai-news-tue-jun-30-2026.html</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>GitHub Copilot 按用量计费首月周期6月30日结束，开发者报告agentic工作流下月度成本从29美元暴涨至750美元甚至3000美元。</summary>
+  </entry>
+  <entry>
+    <title>Alphabet 完成847.5亿美元融资用于AI基建，包括300亿公开发行、400亿ATM计划及100亿伯克希尔·哈撒韦私募配售。…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Google 于6月22日发布 Gemini 2.5 Pro with Deep Think，在科学推理基准测试中创下记录（82.4% GPQA Diamond、94.1% HumanEval+），成为6月最强公开模型。</summary>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>Alphabet 完成847.5亿美元融资用于AI基建，包括300亿公开发行、400亿ATM计划及100亿伯克希尔·哈撒韦私募配售。</summary>
   </entry>
   <entry>
-    <title>智谱 AI 于6月13日发布开源编程模型 GLM-5.2（MIT 许可证），成本仅为 GPT-5.5 的 1/7，在 SWE-bench Pro 上超越闭源竞品…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>智谱 AI 于6月13日发布开源编程模型 GLM-5.2（MIT 许可证），成本仅为 GPT-5.5 的 1/7，在 SWE-bench Pro 上超越闭源竞品，推动中国开源模型市场占有率达60%。</summary>
+    <title>微软发布7款MAI系列模型，包括旗舰推理模型MAI-Thinking-1、代码生成MAI-Code-1-Flash及图像生成MAI-Image-2.5，已整合入…</title>
+    <link href="https://www.devflokers.com/blog/ai-news-june-2026-models-research-developments"/>
+    <id>https://www.devflokers.com/blog/ai-news-june-2026-models-research-developments</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>微软发布7款MAI系列模型，包括旗舰推理模型MAI-Thinking-1、代码生成MAI-Code-1-Flash及图像生成MAI-Image-2.5，已整合入GitHub Copilot。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 诺贝尔化学奖得主 John Jumper 于6月21日宣布离职加入 Anthropic，引发业界对 Google AI 人才流失…</title>
-    <link href="https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496"/>
-    <id>https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Google DeepMind 诺贝尔化学奖得主 John Jumper 于6月21日宣布离职加入 Anthropic，引发业界对 Google AI 人才流失与编程工具竞争力的担忧。</summary>
+    <title>Claude Opus 4.8 于6月28日在HumanEval基准测试中以97.6%领跑排行榜，并在SWE-bench Pro达到69.2%，确立代码与age…</title>
+    <link href="https://pricepertoken.com/leaderboards/benchmark/humaneval"/>
+    <id>https://pricepertoken.com/leaderboards/benchmark/humaneval</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>Claude Opus 4.8 于6月28日在HumanEval基准测试中以97.6%领跑排行榜，并在SWE-bench Pro达到69.2%，确立代码与agent任务优势。</summary>
   </entry>
   <entry>
-    <title>OpenAI 于6月26日预览 GPT-5.6 三层架构（Sol/Terra/Luna），采用政府审查机制，Terminal-Bench 达 91.9%，但尚未…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>OpenAI 于6月26日预览 GPT-5.6 三层架构（Sol/Terra/Luna），采用政府审查机制，Terminal-Bench 达 91.9%，但尚未公开发布。</summary>
+    <title>中国发布2万亿元五年AI数据中心计划（约2950亿美元），至少80%芯片依赖华为等国内供应商，6月9日公布。…</title>
+    <link href="https://kersai.com/ai-breakthroughs-june-2026-mid-year-update/"/>
+    <id>https://kersai.com/ai-breakthroughs-june-2026-mid-year-update/</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>中国发布2万亿元五年AI数据中心计划（约2950亿美元），至少80%芯片依赖华为等国内供应商，6月9日公布。</summary>
   </entry>
   <entry>
-    <title>GitHub Copilot 于6月终止按席位计费模式，改为基于使用量的 metered billing，标志着开发者 AI 工具扁平费率时代结束。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>GitHub Copilot 于6月终止按席位计费模式，改为基于使用量的 metered billing，标志着开发者 AI 工具扁平费率时代结束。</summary>
+    <title>ChatGPT 全球市场份额首次跌破50%至46.4%，Gemini占27.7%、Claude占10.3%，用户开始主动对比助手而非默认单一工具。…</title>
+    <link href="https://kersai.com/ai-breakthroughs-june-2026-mid-year-update/"/>
+    <id>https://kersai.com/ai-breakthroughs-june-2026-mid-year-update/</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>ChatGPT 全球市场份额首次跌破50%至46.4%，Gemini占27.7%、Claude占10.3%，用户开始主动对比助手而非默认单一工具。</summary>
   </entry>
   <entry>
-    <title>Alphabet 于6月1日宣布通过公开发行、ATM 计划及伯克希尔私募完成 847.5 亿美元融资，用于 AI 基础设施建设。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Alphabet 于6月1日宣布通过公开发行、ATM 计划及伯克希尔私募完成 847.5 亿美元融资，用于 AI 基础设施建设。</summary>
-  </entry>
-  <entry>
-    <title>Amazon Trainium 芯片获得 200 亿美元企业订单，成为继 Nvidia、Google TPU 之后第三大 AI 训练芯片平台。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-june-30-2026</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Amazon Trainium 芯片获得 200 亿美元企业订单，成为继 Nvidia、Google TPU 之后第三大 AI 训练芯片平台。</summary>
-  </entry>
-  <entry>
-    <title>Meta 于6月实施约 8000 人裁员（占员工总数10%），另有7000人转岗至 AI 团队，CEO 称 AI 效率提升使小团队可匹配原有产出。…</title>
-    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
-    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Meta 于6月实施约 8000 人裁员（占员工总数10%），另有7000人转岗至 AI 团队，CEO 称 AI 效率提升使小团队可匹配原有产出。</summary>
-  </entry>
-  <entry>
-    <title>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成至 Spot 机器狗与 Orbi…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-06-30T14:15:34Z</updated>
-    <summary>Boston Dynamics 与 Google DeepMind 合作，将 Gemini Robotics-ER 1.6 集成至 Spot 机器狗与 Orbit 视觉检测平台，用于工业自主决策。</summary>
+    <title>AI药物发现获临床验证：Insilico Medicine的Rentosertib完成IIa期试验，成为首个AI设计靶点与化合物全流程的临床成功案例。…</title>
+    <link href="https://www.techtimes.com/articles/319136/20260626/ai-drug-discovery-reaches-clinical-proof-bio-2026-china-beat-biosecure-act-science.htm"/>
+    <id>https://www.techtimes.com/articles/319136/20260626/ai-drug-discovery-reaches-clinical-proof-bio-2026-china-beat-biosecure-act-science.htm</id>
+    <updated>2026-07-01T14:34:09Z</updated>
+    <summary>AI药物发现获临床验证：Insilico Medicine的Rentosertib完成IIa期试验，成为首个AI设计靶点与化合物全流程的临床成功案例。</summary>
   </entry>
 </feed>
