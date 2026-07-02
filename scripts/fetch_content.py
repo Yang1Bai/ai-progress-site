@@ -369,9 +369,10 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - importance ("breaking" | "major" | "normal"): breaking=突破性头条(每次最多1条), major=重磅消息, normal=普通资讯
    - tags (1-2 个话题标签列表，从以下选择: ["#LLM", "#多模态", "#机器人", "#安全", "#芯片", "#材料", "#生物", "#政策", "#开源", "#Agent"])
 
-3. **science**：5-6 条最近 AI4Science 进展。每条提供：
+3. **science**：5-6 条最近 AI4Science 进展（过去 7 天）。每条提供：
    - title (短标题, 中文 <15 字)
    - body (1-2 句中文说明, 40-80 字)
+   - url (原始论文/新闻链接，必须是真实 https:// URL；无法确认则留空字符串 "")
 
 5. **benchmarks**：当前 5-7 个最顶级 AI 大模型的主要基准分数（基于 web_search 最新数据）。每个：
    - model (模型名), org (机构简称), mmlu (MMLU 百分比, 如 "91.2"), math (MATH 百分比), humaneval (HumanEval 百分比), notes (1句亮点说明)
@@ -422,7 +423,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
   "date": "YYYY年M月D日",
   "leaders": [{{ "name": "...", "name_en": "...", "role": "...", "quote": "...", "body": "...", "tags": ["..."], "initials": "AB", "quote_date": "M月D日" }}],
   "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"] }}],
-  "science": [{{ "title": "...", "body": "..." }}],
+  "science": [{{ "title": "...", "body": "...", "url": "https://..." }}],
   "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
   "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}],
   "benchmarks": [{{ "model": "...", "org": "...", "mmlu": "91.2", "math": "88.3", "humaneval": "91.2", "notes": "..." }}],
@@ -957,12 +958,17 @@ def render_science(items):
     out = []
     for i, it in enumerate(items[:6]):
         icon = SCIENCE_ICONS[i % len(SCIENCE_ICONS)]
+        url = (it.get("url") or "").strip()
+        link_html = ""
+        if url.startswith(("http://", "https://")):
+            link_html = f'<div class="sci-footer"><a class="sci-source-link" href="{escape_text(url)}" target="_blank" rel="noopener">原文 ↗</a></div>'
         out.append(f'''      <article class="sci-card reveal">
         <div class="sci-icon">
           {icon}
         </div>
         <h4>{escape_text(it.get("title", ""))}</h4>
         <p>{escape_text(it.get("body", ""))}</p>
+        {link_html}
       </article>''')
     return "\n".join(out)
 
@@ -1351,6 +1357,104 @@ def load_mock():
     }
 
 
+# ---------------------------------------------------------------------------
+# 新闻新鲜度验证
+# ---------------------------------------------------------------------------
+
+_DATE_PATTERNS = [
+    # ISO date in URL path e.g. /2026/07/01/ or -2026-07-01
+    re.compile(r'[/\-](20\d\d)[/\-](0[1-9]|1[0-2])[/\-](0[1-9]|[12]\d|3[01])'),
+    # og:article:published_time meta tag
+    re.compile(r'published_time[^>]*(20\d\d-\d\d-\d\d)', re.I),
+    # datePublished JSON-LD
+    re.compile(r'"datePublished"\s*:\s*"(20\d\d-\d\d-\d\d)'),
+]
+
+
+def _extract_article_date(url: str, html: str) -> str | None:
+    """Try to extract publication date (YYYY-MM-DD) from URL or HTML."""
+    # Try URL first (fast, no HTML parse needed)
+    m = _DATE_PATTERNS[0].search(url)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+    for pat in _DATE_PATTERNS[1:]:
+        m = pat.search(html)
+        if m:
+            raw = m.group(1)
+            d = raw[:10]
+            if re.match(r'20\d\d-\d\d-\d\d', d):
+                return d
+    return None
+
+
+def validate_news_freshness(news_items: list[dict], today_dt: datetime, max_age_days: int = 3) -> list[dict]:
+    """
+    Validate each news item's URL:
+    - Check HTTP status (remove broken 4xx URLs, keep as empty)
+    - Try to extract article date; flag items older than max_age_days
+    Returns cleaned items with a '_freshness' annotation.
+    """
+    import http.client as _http
+    cutoff = today_dt - timedelta(days=max_age_days)
+
+    def _check_url(url: str) -> tuple[int, str]:
+        """Returns (http_status, detected_date_or_empty)."""
+        if not url or not url.startswith("https://"):
+            return 0, ""
+        try:
+            parsed = urllib.parse.urlparse(url)
+            conn = _http.HTTPSConnection(parsed.netloc, timeout=6)
+            conn.request("GET", parsed.path or "/", headers={
+                "User-Agent": "Mozilla/5.0 (compatible; ai-progress-site/1.0)",
+                "Accept": "text/html",
+            })
+            resp = conn.getresponse()
+            status = resp.status
+            html_bytes = resp.read(16384)
+            conn.close()
+            html = html_bytes.decode("utf-8", errors="ignore")
+            detected = _extract_article_date(url, html)
+            return status, (detected or "")
+        except Exception:
+            return 0, ""
+
+    validated = []
+    for item in news_items:
+        url = (item.get("url") or "").strip()
+        if not url:
+            item["_freshness"] = "no_url"
+            validated.append(item)
+            continue
+        status, detected_date = _check_url(url)
+        if status in (301, 302, 307, 308):
+            # redirect — keep URL, mark as redirect
+            item["_freshness"] = "redirect"
+        elif 400 <= status < 500:
+            print(f"[freshness] {status} broken URL → clearing: {url[:80]}", flush=True)
+            item["url"] = ""
+            item["_freshness"] = f"broken_{status}"
+        elif detected_date:
+            try:
+                art_dt = datetime.strptime(detected_date, "%Y-%m-%d").replace(tzinfo=today_dt.tzinfo)
+                if art_dt < cutoff:
+                    print(f"[freshness] stale article ({detected_date}): {url[:80]}", flush=True)
+                    item["_freshness"] = f"stale_{detected_date}"
+                else:
+                    item["_freshness"] = f"ok_{detected_date}"
+            except ValueError:
+                item["_freshness"] = "ok"
+        else:
+            item["_freshness"] = "ok" if status in (200, 0) else f"status_{status}"
+        validated.append(item)
+
+    ok = sum(1 for x in validated if x.get("_freshness", "").startswith("ok"))
+    stale = sum(1 for x in validated if x.get("_freshness", "").startswith("stale"))
+    broken = sum(1 for x in validated if x.get("_freshness", "").startswith("broken"))
+    print(f"[freshness] news check: {ok} ok / {stale} stale / {broken} broken links", flush=True)
+    return validated
+
+
+
 def main():
     now = datetime.now(TZ)
     today = now.strftime("%Y年%-m月%-d日")
@@ -1389,6 +1493,10 @@ def main():
         if data is None:
             print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
             return 3
+
+    # Validate news freshness (check URLs, detect stale articles)
+    if data.get("news"):
+        data["news"] = validate_news_freshness(data["news"], now, max_age_days=4)
 
     # Filter papers: keep papers from the last 60 days
     # (arXiv papers are date-verified; 60 days is generous fallback for web_search results)

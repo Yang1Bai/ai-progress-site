@@ -755,6 +755,19 @@ section {
   line-height: 1.3;
 }
 .sci-card p { margin: 0; color: var(--text-muted); font-size: .88rem; line-height: 1.65; }
+.sci-footer { margin-top: 10px; }
+.sci-source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: .78rem;
+  font-weight: 500;
+  color: var(--green);
+  text-decoration: none;
+  opacity: .85;
+  transition: opacity .15s;
+}
+.sci-source-link:hover { opacity: 1; text-decoration: underline; }
 
 /* ===== Papers ===== */
 .papers-grid {
