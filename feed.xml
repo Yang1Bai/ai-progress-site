@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-02T13:54:39Z</updated>
+  <updated>2026-07-03T13:58:23Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月2日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-02.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-02.html</id>
-    <updated>2026-07-02T13:54:39Z</updated>
+    <title>每日汇总 2026年7月3日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-03.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-03.html</id>
+    <updated>2026-07-03T13:58:23Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 于 6 月 30 日发布 Claude Sonnet 5，成为所有免费和 Pro 用户默认模型，接近旗舰 Opus 4.8 性能但成本更低，…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>Anthropic 于 6 月 30 日发布 Claude Sonnet 5，成为所有免费和 Pro 用户默认模型，接近旗舰 Opus 4.8 性能但成本更低，代理能力显著增强。</summary>
+    <title>Anthropic Fable 5 于 7 月 1 日恢复全球访问，美国商务部在 6 月 30 日解除了对该模型实施 19 天的出口管制，现已在所有国家的 Cl…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>Anthropic Fable 5 于 7 月 1 日恢复全球访问，美国商务部在 6 月 30 日解除了对该模型实施 19 天的出口管制，现已在所有国家的 Claude 平台、API 和云服务中重新上线。</summary>
   </entry>
   <entry>
-    <title>美国政府对 Anthropic Fable 5 和 Mythos 5 模型实施出口管制，6 月 12 日起暂停所有非美国用户访问，引发欧洲对 AI 主权的担忧。…</title>
-    <link href="https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html"/>
-    <id>https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>美国政府对 Anthropic Fable 5 和 Mythos 5 模型实施出口管制，6 月 12 日起暂停所有非美国用户访问，引发欧洲对 AI 主权的担忧。</summary>
+    <title>Claude Sonnet 5 于 6 月 30 日发布，成为所有免费和专业用户的默认模型，在代理编码基准上达到 63.2%，接近 Opus 4.8 性能，入门…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>Claude Sonnet 5 于 6 月 30 日发布，成为所有免费和专业用户的默认模型，在代理编码基准上达到 63.2%，接近 Opus 4.8 性能，入门价格为每百万 token 2 美元（8 月 31 日前）。</summary>
   </entry>
   <entry>
-    <title>Google 发布 Gemini 3.1 Flash Image 和 Gemini 3 Pro Image 两款图像生成模型，定价分别为 $0.50/$3.00…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>Google 发布 Gemini 3.1 Flash Image 和 Gemini 3 Pro Image 两款图像生成模型，定价分别为 $0.50/$3.00 和 $2.00/$12.00 每百万 token。</summary>
+    <title>加州州长纽森签署全美首个州级 AI 采购协议，为加州所有州机构、城市和县提供 Claude 半价访问权，与联邦政府将 Anthropic 列为&quot;供应链风险&quot;形成…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>加州州长纽森签署全美首个州级 AI 采购协议，为加州所有州机构、城市和县提供 Claude 半价访问权，与联邦政府将 Anthropic 列为&quot;供应链风险&quot;形成政治对比。</summary>
   </entry>
   <entry>
-    <title>加州与 Anthropic 达成合作协议，Poppy AI 助手已在 67 个州部门试点，服务超过 2800 名员工，7 月将全州推广。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>加州与 Anthropic 达成合作协议，Poppy AI 助手已在 67 个州部门试点，服务超过 2800 名员工，7 月将全州推广。</summary>
+    <title>Together AI 于 7 月 1 日完成 8 亿美元 C 轮融资，估值达 83 亿美元，由 Aramco Ventures 领投，Nvidia、Vista…</title>
+    <link href="https://asanify.com/blog/news/ai-infrastructure-bubble-july-3-2026/"/>
+    <id>https://asanify.com/blog/news/ai-infrastructure-bubble-july-3-2026/</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>Together AI 于 7 月 1 日完成 8 亿美元 C 轮融资，估值达 83 亿美元，由 Aramco Ventures 领投，Nvidia、Vista Equity Partners 参投，年度订单量超 11.5 亿美元。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 6 月损失 6 名顶级研究员，包括诺贝尔奖得主 John Jumper 加入 Anthropic，Noam Shazeer 加入…</title>
-    <link href="https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496"/>
-    <id>https://www.taipeitimes.com/News/biz/archives/2026/06/22/2003859496</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>Google DeepMind 6 月损失 6 名顶级研究员，包括诺贝尔奖得主 John Jumper 加入 Anthropic，Noam Shazeer 加入 OpenAI，人才战加剧。</summary>
+    <title>阿布扎比投资机构 MGX 完成约 490 亿美元 AI 专项基金募集，超过初始目标 450 亿美元，已领投 Anthropic 2 月 300 亿美元融资和 O…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>阿布扎比投资机构 MGX 完成约 490 亿美元 AI 专项基金募集，超过初始目标 450 亿美元，已领投 Anthropic 2 月 300 亿美元融资和 OpenAI 3 月 1220 亿美元融资。</summary>
   </entry>
   <entry>
-    <title>Reflection AI 以每月 1.5 亿美元租用 SpaceX Colossus 2 算力，7 月 1 日启动，由 DeepMind 前核心成员创立，估值…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-1-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-1-2026</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>Reflection AI 以每月 1.5 亿美元租用 SpaceX Colossus 2 算力，7 月 1 日启动，由 DeepMind 前核心成员创立，估值 250 亿美元。</summary>
+    <title>美国 6 月新增就业仅 5.7 万，远低于预期 18.5 万，为 2024 年以来最低，科技行业今年裁员 14.2 万，AI 工具加速淘汰入门级知识工作岗位。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>美国 6 月新增就业仅 5.7 万，远低于预期 18.5 万，为 2024 年以来最低，科技行业今年裁员 14.2 万，AI 工具加速淘汰入门级知识工作岗位。</summary>
   </entry>
   <entry>
-    <title>OpenAI GPT-5.6 Sol 进入有限预览，仅向约 20 家审核机构开放 API，上下文窗口扩展至 150 万 token，正式发布时间未定。…</title>
-    <link href="https://bravenewcoin.com/insights/what-ai-model-should-i-use-the-2026-guide-to-chatgpt-claude-gemini-and-grok"/>
-    <id>https://bravenewcoin.com/insights/what-ai-model-should-i-use-the-2026-guide-to-chatgpt-claude-gemini-and-grok</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>OpenAI GPT-5.6 Sol 进入有限预览，仅向约 20 家审核机构开放 API，上下文窗口扩展至 150 万 token，正式发布时间未定。</summary>
-  </entry>
-  <entry>
-    <title>阿里发布 Qwen 3.7 Max，在智能指数上达到 57 分，与 Claude Opus 4.7 并列全球前十，定价为 $2.50/$7.50 每百万 tok…</title>
-    <link href="https://felloai.com/best-ai-models/"/>
-    <id>https://felloai.com/best-ai-models/</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>阿里发布 Qwen 3.7 Max，在智能指数上达到 57 分，与 Claude Opus 4.7 并列全球前十，定价为 $2.50/$7.50 每百万 token。</summary>
-  </entry>
-  <entry>
-    <title>五眼联盟发布《Agent AI 服务谨慎采用》指南，针对关键基础设施和国防环境中的 Agent AI 系统提出五类风险管理框架。…</title>
+    <title>五眼联盟（美、英、澳、加、新西兰）发布&quot;谨慎采用代理 AI 服务&quot;指南，针对关键基础设施与国防环境中的代理 AI 系统，识别五大风险类别并强调增量部署和持续人类…</title>
     <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
     <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>五眼联盟发布《Agent AI 服务谨慎采用》指南，针对关键基础设施和国防环境中的 Agent AI 系统提出五类风险管理框架。</summary>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>五眼联盟（美、英、澳、加、新西兰）发布&quot;谨慎采用代理 AI 服务&quot;指南，针对关键基础设施与国防环境中的代理 AI 系统，识别五大风险类别并强调增量部署和持续人类监督。</summary>
   </entry>
   <entry>
-    <title>韩国宣布 8800 亿美元芯片和 AI 计划，Meta 被曝使用承包商冒充未成年人测试竞争对手聊天机器人的安全措施。…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-1-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-1-2026</id>
-    <updated>2026-07-02T13:54:39Z</updated>
-    <summary>韩国宣布 8800 亿美元芯片和 AI 计划，Meta 被曝使用承包商冒充未成年人测试竞争对手聊天机器人的安全措施。</summary>
+    <title>联合国独立 AI 科学小组警告，有效全球治理的窗口仍开放但可能不会持续太久，当前治理体系未针对如此快速演进的技术设计，将于 7 月 6 日在日内瓦召开全球对话。…</title>
+    <link href="https://news.un.org/en/story/2026/07/1167848"/>
+    <id>https://news.un.org/en/story/2026/07/1167848</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>联合国独立 AI 科学小组警告，有效全球治理的窗口仍开放但可能不会持续太久，当前治理体系未针对如此快速演进的技术设计，将于 7 月 6 日在日内瓦召开全球对话。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 在 6 月 30 日 AI for Science 活动中披露，确定性工具将 AI 生物准确率从 16.9% 提升至 92.8%，并推出 C…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>Anthropic 在 6 月 30 日 AI for Science 活动中披露，确定性工具将 AI 生物准确率从 16.9% 提升至 92.8%，并推出 Claude Science 应用专注药物发现与蛋白质结构分析。</summary>
+  </entry>
+  <entry>
+    <title>Google 于 6 月 30 日发布 Gemini 3.1 Flash Image（0.50/3.00 美元每百万 token）和 Gemini 3 Pro …</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
+    <updated>2026-07-03T13:58:23Z</updated>
+    <summary>Google 于 6 月 30 日发布 Gemini 3.1 Flash Image（0.50/3.00 美元每百万 token）和 Gemini 3 Pro Image（2.00/12.00 美元），填补 Gemini 3.5 Pro 延期发布空缺。</summary>
   </entry>
 </feed>
