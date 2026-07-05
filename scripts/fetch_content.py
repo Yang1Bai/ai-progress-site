@@ -362,12 +362,13 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - tags (1-3 个短标签), initials (英文姓名缩写 2 字母大写)
    - quote_date (言论发表日期，格式 "M月D日"，如 "4月26日"；如不确定则写 "近期")
 
-2. **news**：8-10 条今日（或过去 24-48 小时）AI 重要新闻。每条提供：
+2. **news**：今日（{today} 当天或前一天，即过去 48 小时内）AI 重要新闻，不限数量（有多少新鲜的就列多少，宁少勿旧）。**超过 48 小时的旧新闻不得收录**。每条提供：
    - title (可省略, 留空字符串)
    - body (一句完整中文新闻概述, 30-60 字, 可包含 <strong>...</strong> 标签突出关键词，但只能使用 <strong>)
    - url (该新闻的原文链接，必须是真实存在的 https:// URL；如实在无法确认链接则留空字符串 "")
    - importance ("breaking" | "major" | "normal"): breaking=突破性头条(每次最多1条), major=重磅消息, normal=普通资讯
    - tags (1-2 个话题标签列表，从以下选择: ["#LLM", "#多模态", "#机器人", "#安全", "#芯片", "#材料", "#生物", "#政策", "#开源", "#Agent"])
+   - _freshness: 新鲜度标记，格式为 "ok_YYYY-MM-DD"（新鲜）或 "stale_YYYY-MM-DD"（超过48小时的旧新闻），如不知道日期则 "ok" 或 "stale"
 
 3. **science**：5-6 条最近 AI4Science 进展（过去 7 天）。每条提供：
    - title (短标题, 中文 <15 字)
@@ -422,7 +423,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
 {{
   "date": "YYYY年M月D日",
   "leaders": [{{ "name": "...", "name_en": "...", "role": "...", "quote": "...", "body": "...", "tags": ["..."], "initials": "AB", "quote_date": "M月D日" }}],
-  "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"] }}],
+  "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"], "_freshness": "ok_YYYY-MM-DD" }}],
   "science": [{{ "title": "...", "body": "...", "url": "https://..." }}],
   "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
   "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}],
@@ -760,15 +761,24 @@ def get_badge_class(title: str, body: str) -> str:
 
 
 def render_news(items):
+    # Sort: fresh items first, stale items last
+    def _freshness_rank(it):
+        f = it.get("_freshness", "")
+        if f.startswith("stale_"): return 2
+        if f.startswith("broken_"): return 3
+        return 0
+    items = sorted(items or [], key=_freshness_rank)
+
     out = []
-    # Find first breaking item or use index 0 as headline
+    # Find first breaking non-stale item or use index 0 as headline
     headline_idx = 0
-    for i, it in enumerate(items[:10]):
-        if it.get("importance") == "breaking":
+    for i, it in enumerate(items[:12]):
+        f = it.get("_freshness", "")
+        if it.get("importance") == "breaking" and not f.startswith("stale_"):
             headline_idx = i
             break
 
-    for i, it in enumerate(items[:10]):
+    for i, it in enumerate(items[:12]):
         body = sanitize_strong(it.get("body", ""))
         url = (it.get("url") or "").strip()
         tags = it.get("tags") or []
@@ -876,30 +886,55 @@ def render_news(items):
     return "\n".join(out)
 
 
-def render_top3(news_items, papers_items):
-    """Select top 3 items from news + papers by importance heuristic."""
+def render_top3(news_items, papers_items, today_iso: str = ""):
+    """Select top items from news + papers by importance heuristic.
+    - Skips stale/broken news (_freshness starts with 'stale_' or 'broken_')
+    - Skips papers older than 14 days
+    - Returns 1-5 items dynamically (no fixed count)
+    """
+    # Parse today for paper age check
+    today_dt = None
+    if today_iso:
+        try:
+            today_dt = datetime.strptime(today_iso, "%Y-%m-%d")
+        except ValueError:
+            pass
+    paper_cutoff = today_dt - timedelta(days=14) if today_dt else None
+
     candidates = []
-    # Add breaking news first
+    # Add fresh news only (skip stale/broken)
     for it in (news_items or []):
+        freshness = it.get("_freshness", "")
+        if freshness.startswith("stale_") or freshness.startswith("broken_"):
+            continue
         score = 0
         if it.get("importance") == "breaking": score += 100
         elif it.get("importance") == "major": score += 50
+        else: score += 10
         tags = it.get("tags", [])
         if any(t in ["#\u6750\u6599", "#AI4Science", "#\u673a\u5668\u4eba"] for t in tags): score += 20
         candidates.append({"type": "news", "score": score, "data": it})
-    # Add week pick papers
+    # Add recent papers only (skip older than 14 days)
     for it in (papers_items or []):
+        if paper_cutoff:
+            try:
+                p_dt = datetime.strptime(it.get("date", ""), "%Y-%m-%d")
+                if p_dt < paper_cutoff:
+                    continue
+            except ValueError:
+                pass
         score = 0
         if it.get("is_week_pick"): score += 80
         if it.get("venue_type") == "nature": score += 30
+        elif it.get("venue_type") == "science": score += 25
         candidates.append({"type": "paper", "score": score, "data": it})
     candidates.sort(key=lambda x: -x["score"])
-    top3 = candidates[:3]
+    # Dynamic count: up to 5 items, at least 1
+    top_items = candidates[:min(max(len(candidates), 1), 5)]
 
-    rank_labels = ["01", "02", "03"]
     out = []
-    for idx, c in enumerate(top3):
-        rank = rank_labels[idx]
+    for idx, c in enumerate(top_items):
+        rank = f"{idx + 1:02d}"
         d = c["data"]
         if c["type"] == "news":
             body = sanitize_strong(d.get("body", ""))
@@ -1541,7 +1576,7 @@ def main():
     html = replace_block(html, "<!-- CONFERENCES:START -->", "<!-- CONFERENCES:END -->",
                          render_conferences(data.get("conferences", [])))
     html = replace_block(html, "<!-- TOP3:START -->", "<!-- TOP3:END -->",
-                         render_top3(data.get("news", []), data.get("papers", [])))
+                         render_top3(data.get("news", []), data.get("papers", []), today_iso))
     # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
     INDEX.write_text(html, encoding="utf-8")
