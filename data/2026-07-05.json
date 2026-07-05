@@ -2,63 +2,52 @@
   "date": "2026年7月5日",
   "leaders": [
     {
-      "name": "达里奥·阿莫代",
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "有用的 AI 已经到来，Agent AI 时代正式开启",
+      "body": "在 GTC Taipei 2026 主题演讲中宣布 Vera Rubin 平台进入量产，并发布首款数据中心 CPU Vera 及 RTX Spark AI PC 芯片。强调 AI 不会减少就业，反而会让开发者生产力提升至 9 万亿美元产出。",
+      "tags": [
+        "Agent AI",
+        "芯片",
+        "算力"
+      ],
+      "initials": "JH",
+      "quote_date": "6月1日"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
       "name_en": "Dario Amodei",
       "role": "Anthropic CEO",
-      "quote": "需要美国主导的AI联盟制定全球规则",
-      "body": "在6月17日G7峰会上，阿莫代与DeepMind CEO哈萨比斯共同呼吁建立美国领导的AI治理框架，强调需在网络安全、生物风险和芯片贸易等领域开展国际合作，同时对中国实施管控。",
+      "quote": "用 AI 将生命科学研发周期压缩 10 倍",
+      "body": "Anthropic 收购计算生物学初创公司 Coefficient Bio（约 4 亿美元全股票交易）并聘请 AlphaFold 负责人 John Jumper，推出 Claude Science 科研工作站测试版，获制药公司 BMS 等正面评价。",
       "tags": [
-        "治理",
-        "安全",
-        "G7"
+        "生物",
+        "并购",
+        "科研"
       ],
       "initials": "DA",
-      "quote_date": "6月17日"
+      "quote_date": "6月30日"
     },
     {
-      "name": "萨姆·奥特曼",
-      "name_en": "Sam Altman",
-      "role": "OpenAI CEO",
-      "quote": "我对AI就业影响的预测相当错误",
-      "body": "5月底接受采访时，奥特曼承认此前关于AI将大规模消灭初级白领岗位的预测过于悲观，实际影响远低于预期。同时OpenAI正准备IPO，并据报道考虑向美国政府提供5%股权。",
+      "name": "萨提亚·纳德拉",
+      "name_en": "Satya Nadella",
+      "role": "微软 CEO",
+      "quote": "我们不希望少数模型吃掉所有价值",
+      "body": "在 6 月专栏中警告 AI 行业权力集中风险，强调需避免少数大模型主导。微软推出低成本模型套件，GitHub Copilot 将根据任务路由至最合适模型，推动模型价值多元化分配。",
       "tags": [
-        "就业",
-        "IPO",
-        "预测"
+        "开源",
+        "政策",
+        "#成本"
       ],
-      "initials": "SA",
-      "quote_date": "5月26日"
-    },
-    {
-      "name": "德米斯·哈萨比斯",
-      "name_en": "Demis Hassabis",
-      "role": "Google DeepMind CEO",
-      "quote": "AI标准需要国际论坛和专家分析",
-      "body": "在G7峰会AI讨论中，哈萨比斯与阿莫代共同提出建立国际AI测试标准和能力风险评估机制，强调需要跨国合作应对前沿模型带来的网络和生物安全挑战。",
-      "tags": [
-        "标准",
-        "G7",
-        "安全"
-      ],
-      "initials": "DH",
-      "quote_date": "6月17日"
+      "initials": "SN",
+      "quote_date": "6月中旬"
     }
   ],
   "news": [
     {
       "title": "",
-      "body": "<strong>Anthropic Claude Sonnet 5</strong> 于6月30日发布，成为免费和专业版默认模型，代理编码基准达63.2%，定价2美元/百万token（8月31日前优惠价），拥有100万token上下文窗口。",
-      "url": "https://www.anthropic.com/news",
-      "importance": "major",
-      "tags": [
-        "#LLM",
-        "#开源"
-      ],
-      "_freshness": "ok"
-    },
-    {
-      "title": "",
-      "body": "7月1日 <strong>Anthropic Fable 5 全球恢复访问</strong>，美国商务部6月30日解除出口管制。政府测试证明Opus 4.8、GPT-5.5等模型也能复现同样漏洞，Fable 5并无独特威胁。",
+      "body": "<strong>Anthropic Claude Fable 5</strong> 在被美国政府停用 19 天后于 7 月 1 日全面恢复访问，此前因 6 月 12 日国家安全指令暂停使用，成为史上最严重的政府强制 AI 模型限制事件",
       "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026",
       "importance": "breaking",
       "tags": [
@@ -69,135 +58,158 @@
     },
     {
       "title": "",
-      "body": "<strong>五眼联盟</strong>6月23日联合警告：具备高级网络攻击能力的前沿AI模型将在<strong>数月内</strong>（而非数年）出现，敦促各国政府和企业加速安全准备。",
-      "url": "https://unrot.co/blogs/today-top-10-ai-news-july-4-2026",
+      "body": "<strong>OpenAI 提议向美国政府赠送 5% 股权</strong>（估值约 426 亿美元），作为 IPO 战略的一部分，要求其他前沿实验室也让渡同等股权，白宫正在讨论，国会授权尚不确定",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-04"
+    },
+    {
+      "title": "",
+      "body": "Anthropic 在 5 月达到年化 <strong>470 亿美元营收</strong>，超过 OpenAI 的 250-330 亿美元，并在商业订阅量上于 5 月首次超越 OpenAI，ChatGPT 月访问量占比首次跌破 50%",
+      "url": "https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-02"
+    },
+    {
+      "title": "",
+      "body": "<strong>中国开源 1.6 万亿参数代码模型</strong> LongCat-2.0（MIT 许可），完全由国产芯片训练，美团于 6 月 29 日发布，在编码和 Agent AI 能力上接近 Claude Opus 4.8",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
+      "importance": "major",
+      "tags": [
+        "#开源",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-04"
+    },
+    {
+      "title": "",
+      "body": "Google 于 6 月推出 <strong>Gemini 3.5 Live Translate</strong>、Android 17 新功能及内置 Gemini 的 Google Home Speaker，Gemini 3.5 Pro 定于 7 月正式发布",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>五眼联盟</strong>（美英加澳新）于 6 月 22 日发布联合声明警告：前沿 AI 模型将在数月内超越行业预期，从根本上改变攻防网络能力，明确提及 Claude Mythos 和 GPT-5.5-Cyber",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026",
       "importance": "major",
       "tags": [
         "#安全",
-        "#政策"
-      ],
-      "_freshness": "ok_2026-07-04"
-    },
-    {
-      "title": "",
-      "body": "美国6月新增就业仅 <strong>5.7万</strong>，远低于18.5万预期，为2024年以来最弱，科技行业裁员14.2万人，AI被认为是结构性原因之一，行政、客服和初级编程岗位降幅最大。",
-      "url": "https://unrot.co/blogs/today-top-10-ai-news-july-4-2026",
-      "importance": "major",
-      "tags": [
-        "#政策"
-      ],
-      "_freshness": "ok_2026-07-04"
-    },
-    {
-      "title": "",
-      "body": "<strong>OpenAI和Anthropic</strong> 在2026年上半年共融资2170亿美元，占全球VC总额5100亿美元的43%，Menlo Ventures因Anthropic投资获140亿美元回报，关闭30亿美元新基金。",
-      "url": "https://unrot.co/blogs/today-top-10-ai-news-july-4-2026",
-      "importance": "major",
-      "tags": [
-        "#政策"
-      ],
-      "_freshness": "ok_2026-07-04"
-    },
-    {
-      "title": "",
-      "body": "白宫正与OpenAI、Anthropic、Google就<strong>自愿前沿模型标准</strong>进行最后谈判，框架将设定基准、发布时间表和国内外访问规则，预计下周公布。",
-      "url": "https://aiweekly.co/ai-news-today/anthropic-news",
-      "importance": "normal",
-      "tags": [
-        "#政策"
-      ],
-      "_freshness": "ok"
-    },
-    {
-      "title": "",
-      "body": "<strong>加州与Anthropic签约</strong>，全州机构、城市、县获50%折扣使用Claude，Poppy AI助手已在67个部门2800名员工中试点，7月全州推广，涵盖DMV客服和医疗补助案件管理。",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026",
-      "importance": "normal",
-      "tags": [
         "#政策"
       ],
       "_freshness": "stale_2026-07-01"
     },
     {
       "title": "",
-      "body": "xAI <strong>Grok 4.5</strong> 在SpaceX和Tesla内部私测，基于1.5万亿参数V9架构，加入Cursor代码训练数据，性能接近或超过Opus 4.8，每月迭代新模型至年底。",
+      "body": "Anthropic 推出 <strong>Claude Sonnet 5</strong>（6 月 30 日）成为新默认模型，在写作和指令遵循方面领先，缩小与 Opus 4.8 的差距，定价降低 40-60%",
+      "url": "https://felloai.com/best-ai-models/",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>联合国 AI 治理全球对话</strong>将于 7 月 6 日在日内瓦召开，独立国际科学专家小组发布初步报告警告：建立有效全球治理的窗口仍在，但可能不会持续太久",
+      "url": "https://news.un.org/en/story/2026/07/1167848",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "2026 上半年全球 VC 融资达创纪录的 <strong>5100 亿美元</strong>，其中 OpenAI 和 Anthropic 独占 2170 亿美元（占 43%），Q2 单季 2050 亿美元创历史新高",
       "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026",
       "importance": "normal",
       "tags": [
         "#LLM"
       ],
       "_freshness": "ok_2026-07-04"
+    },
+    {
+      "title": "",
+      "body": "Google DeepMind 多位核心研究者离职，包括 Transformer 论文共同作者 <strong>Noam Shazeer</strong>（加入 OpenAI）和 AlphaFold 诺奖得主 <strong>John Jumper</strong>（加入 Anthropic），Alphabet 股价下跌",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "no_url"
     }
   ],
   "science": [
     {
-      "title": "AI加速催化剂发现500倍",
-      "body": "帝国理工与新加坡A*STAR合作获1000万新元资助，开发云端AI平台用于工业催化剂筛选，目标在计算筛选阶段实现500倍加速，针对CO₂和生物基化学品可持续原料。",
-      "url": "https://www.imperial.ac.uk/news/articles/2026/-singapore-ai4science/"
+      "title": "AI 预测 2 亿蛋白质结构",
+      "body": "联合国报告强调 AI 在医疗突破中的应用，已预测超过 2 亿种蛋白质结构，加速疫苗开发、抗生素耐药性研究，并在发展中国家使用本地语言 AI 工具改善患者护理。",
+      "url": "https://news.un.org/en/story/2026/07/1167848"
     },
     {
-      "title": "深度学习预测心脏猝死",
-      "body": "Nature发表研究，深度学习从心电图中发现新的心脏猝死生物标志物，该模型可识别此前医生未能预测风险的患者，理论上每年可防止数万例猝死。",
-      "url": "https://doi.org/10.1038/s41586-026-10674-6"
+      "title": "AI 设计疫苗进入人体试验",
+      "body": "剑桥大学突破性成果：AI 设计的疫苗成分完成首次人体试验，标志着药物发现和生物医学设计领域的重大里程碑，展示 AI 从模拟到实际应用的跨越。",
+      "url": ""
     },
     {
-      "title": "零样本设计药物结合蛋白",
-      "body": "Nature 6月24日发表，神经迭代选择-扩展方法实现零样本小分子结合蛋白设计，同时优化蛋白序列、结构和配体构象，解决了小分子药物靶标设计的多重优化难题。",
-      "url": "https://doi.org/10.1038/s41586-026-10670-w"
+      "title": "AI 发现心脏猝死生物标志物",
+      "body": "深度学习在心电图数据中发现隐藏的心脏猝死预测因子，理论上可通过除颤器预防，但每年仍有许多患者因医生无法预测风险而死亡，该技术有望改变临床实践。",
+      "url": "https://doi.org/10.1038/d41586-026-01806-z"
     },
     {
-      "title": "AI指导材料半导体设计",
-      "body": "Nature Communications 7月4日发表，可解释机器学习通过八面体基元指导光电半导体设计，结合领域知识和数据驱动方法，加速新型光电材料发现。",
-      "url": "https://doi.org/10.1038/s41467-026-75216-0"
+      "title": "多模态 AI 突破 3D 环境理解",
+      "body": "2026 年中期，多模态模型能够实时解释复杂 3D 环境、理解细微音频语调并生成混合媒体输出，客服机器人可以\"查看\"客户提交的产品照片、读取序列号、听取语音说明并生成文字和视频响应。",
+      "url": "https://intellectualclouds.com/blog/ai-predictions-july-2026"
     },
     {
-      "title": "TranscriptFormer跨物种细胞图谱",
-      "body": "Science 7月2日发表生成式基础模型TranscriptFormer，训练于1.12亿细胞，跨越15.3亿年进化历史，可比较不同物种转录程序，推动跨物种细胞多样性研究。",
-      "url": "https://doi.org/10.1126/science.aec8514"
+      "title": "AI 驱动材料科学与气候建模",
+      "body": "预计 7 月将宣布材料科学、气候建模和物理学重大突破，AI 能模拟和分析远超人类能力的复杂系统，将导致新电池材料、更高效碳捕获方法和量子力学深层理解的发现。",
+      "url": "https://intellectualclouds.com/blog/ai-predictions-july-2026"
     },
     {
-      "title": "深度学习嵌入改进犬类GWAS",
-      "body": "Science Advances 6月26日发表，深度学习图像特征嵌入用于犬内表型全基因组关联研究，克服传统人工测量局限，捕获复杂视觉性状用于遗传分析。",
-      "url": "https://doi.org/10.1126/sciadv.aee1088"
+      "title": "工业 4.0 预测性维护精准化",
+      "body": "AI 模型分析机械的声学、热学和振动数据，可在故障发生前数周预测，智能工厂根据全球天气事件或地缘政治干扰实时调整物流和生产计划，实现自主供应链调整。",
+      "url": "https://intellectualclouds.com/blog/ai-predictions-july-2026"
     }
   ],
   "papers": [
     {
       "venue_type": "nature",
-      "venue": "Nature Communications",
-      "title": "Octahedral-motif-guided design of optoelectronic semiconductors via interpretable machine learning",
-      "authors": "Yang J. et al.",
-      "summary": "利用可解释机器学习结合八面体基元知识，指导光电半导体材料的逆向设计。该方法将领域物理知识与数据驱动学习相结合，加速新型光电材料的发现和优化过程。",
-      "date": "2026-07-04",
-      "url": "https://doi.org/10.1038/s41467-026-75216-0",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "提出神经迭代选择-扩展方法实现小分子结合蛋白的零样本设计，同时优化蛋白质序列、结构和配体构象，突破现有深度学习方法在蛋白-小分子界面设计中的瓶颈，应用于药物分子设计。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
       "is_week_pick": true
     },
     {
       "venue_type": "nature",
       "venue": "Nature Communications",
-      "title": "Positional interpretation of cis-regulatory code and nucleosome organization with deep learning models",
-      "authors": "McAnany S. et al.",
-      "summary": "开发序列到功能神经网络解析顺式调控序列规则，并结合MNase等基因组数据解释核小体组织。该深度学习方法提升了对基因调控机制的位置依赖性理解。",
+      "title": "Octahedral-motif-guided design of optoelectronic semiconductors via interpretable machine learning",
+      "authors": "Yang et al.",
+      "summary": "通过可解释机器学习方法，以八面体基元为指导设计光电半导体材料，建立结构-性能关系并加速新型光电材料的发现，展示 AI 在材料基因组学中的应用潜力。",
       "date": "2026-07-04",
-      "url": "https://doi.org/10.1038/s41467-026-74807-1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "nature",
-      "venue": "Nature Machine Intelligence",
-      "title": "Principled approaches for extending neural architectures to function spaces for operator learning",
-      "authors": "Berner J. et al.",
-      "summary": "提出将神经网络架构扩展到函数空间的原则性方法，用于算子学习。该研究为解决偏微分方程控制的科学问题提供了理论基础，在材料模拟和科学计算中具有广泛应用潜力。",
-      "date": "2026-07-03",
-      "url": "https://doi.org/10.1038/s42256-026-01267-z",
+      "url": "https://doi.org/10.1038/s41467-026-75216-0",
       "is_week_pick": false
     },
     {
       "venue_type": "science",
       "venue": "Science Advances",
       "title": "Machine learning potentials for modeling alloys across compositions",
-      "authors": "Sheriff B. et al.",
-      "summary": "开发跨成分合金建模的机器学习势函数，处理从有序化合物到完全无序合金的复杂化学排列。该方法显著提升合金材料性质预测的准确性和泛化能力。",
+      "authors": "Sheriff et al.",
+      "summary": "开发跨成分建模合金的机器学习势函数，从完全有序的化学计量化合物到完全无序的固溶体，解决材料性质随化学成分强烈变化的难题，推动合金材料高通量筛选。",
       "date": "2026-06-19",
       "url": "https://doi.org/10.1126/sciadv.aea9951",
       "is_week_pick": false
@@ -205,9 +217,19 @@
     {
       "venue_type": "conf",
       "venue": "arXiv",
+      "title": "Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination",
+      "authors": "Pal et al.",
+      "summary": "提出图原生强化学习框架，通过概念重组实现可追溯的科学假设生成，加速材料发现需要的多步骤、领域基础推理，标准大语言模型难以提供弱可追溯性响应，该方法提供明确推理路径。",
+      "date": "2026-07-01",
+      "url": "https://arxiv.org/abs/2607.00924v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
       "title": "Beyond Drug Discovery: The Nanotechnology Molecular Optimization (NMO) Benchmark",
-      "authors": "Blaschke T. et al.",
-      "summary": "提出NMO基准数据集，专注于纳米技术分子优化，超越传统药物发现范畴。该基准为评估生成式分子设计模型在纳米材料、催化剂等领域的迁移能力提供标准化测试。",
+      "authors": "Blaschke et al.",
+      "summary": "提出纳米技术分子优化基准 NMO，超越传统药物发现数据集，针对结构上与制药不同的纳米材料领域，解决生成式分子设计可迁移性受限于类药性代理基准和制药预训练模型的问题。",
       "date": "2026-06-29",
       "url": "https://arxiv.org/abs/2606.30170v1",
       "is_week_pick": false
@@ -215,19 +237,9 @@
     {
       "venue_type": "conf",
       "venue": "arXiv",
-      "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
-      "authors": "Zhang Y. et al.",
-      "summary": "利用自主LLM研究循环优化专家设计的晶体图网络，用于带隙预测。该方法结合大语言模型的自动化超参数搜索与领域专家知识，提升材料性质预测基准表现。",
-      "date": "2026-06-29",
-      "url": "https://arxiv.org/abs/2606.29717v1",
-      "is_week_pick": false
-    },
-    {
-      "venue_type": "conf",
-      "venue": "arXiv",
       "title": "Interpretable Inverse Design of Metal-Organic Frameworks with Large Language Model Agents",
-      "authors": "Nam J. et al.",
-      "summary": "引入LLM4MOF闭环框架，利用语言模型代理进行金属有机框架（MOFs）的可解释逆向设计。该系统在组合搜索空间中通过推理生成MOF结构，并解释设计成功原因。",
+      "authors": "Nam et al.",
+      "summary": "引入 LLM4MOF 闭环框架，语言模型智能体对金属有机框架（MOFs）逆向设计进行推理，搜索组合庞大的结构空间，ML 模型揭示结构成功原因有限，该方法提供可解释性并加速 MOF 发现。",
       "date": "2026-06-28",
       "url": "https://arxiv.org/abs/2606.29459v1",
       "is_week_pick": false
@@ -235,9 +247,19 @@
     {
       "venue_type": "conf",
       "venue": "arXiv",
+      "title": "Enerzyme: A Framework for Efficient Training of Reactive Neural Network Potentials for Enzyme Catalysis with Application to Methyltransferases",
+      "authors": "Luo et al.",
+      "summary": "提出 Enerzyme 框架，高效训练酶催化反应神经网络势，应用于甲基转移酶，解决量子力学簇模型计算成本高的问题，神经网络势超越小分子挑战，包括长程相互作用和多尺度采样需求。",
+      "date": "2026-07-01",
+      "url": "https://arxiv.org/abs/2607.01362v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
       "title": "ConSolv: Solvent-Conditional Machine Learning Implicit Solvent Potential",
-      "authors": "Zhang L. et al.",
-      "summary": "开发溶剂条件机器学习隐式溶剂势（ConSolv），超越传统水溶液环境，支持多种非水溶剂。该模型在有机合成、电池电解质和催化等需要特定溶剂环境的材料设计中具有重要应用价值。",
+      "authors": "Zhang et al.",
+      "summary": "开发溶剂条件机器学习隐式溶剂势 ConSolv，现有隐式溶剂 ML 势主要聚焦水环境，忽视非水溶剂在工业化学、电池和药物制剂中的重要作用，该方法实现跨溶剂体系准确建模。",
       "date": "2026-06-23",
       "url": "https://arxiv.org/abs/2606.24983v1",
       "is_week_pick": false
@@ -249,15 +271,23 @@
       "org": "Anthropic",
       "org_short": "ANTH",
       "release_date": "2026-06-30",
-      "highlight": "代理编码63.2%，100万上下文",
+      "highlight": "写作与指令遵循新标杆，成本降 40-60%",
       "tier": "A"
+    },
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-06-26",
+      "highlight": "受美政府要求限制访问，仅约 20 家机构",
+      "tier": "S"
     },
     {
       "name": "Claude Fable 5",
       "org": "Anthropic",
       "org_short": "ANTH",
       "release_date": "2026-07-01",
-      "highlight": "解禁恢复，编码80.3% SWE-Bench",
+      "highlight": "停用 19 天后恢复，代码能力 80.3% SWE-Bench",
       "tier": "S"
     },
     {
@@ -265,110 +295,78 @@
       "org": "xAI",
       "org_short": "XAI",
       "release_date": "2026-06-28",
-      "highlight": "1.5T参数，接近Opus性能",
+      "highlight": "SpaceX 和 Tesla 内部测试，未公开发布",
       "tier": "A"
-    },
-    {
-      "name": "GPT-5.6 Sol",
-      "org": "OpenAI",
-      "org_short": "OAI",
-      "release_date": "2026-06-26",
-      "highlight": "政府限定预览，750 token/s推理",
-      "tier": "S"
-    },
-    {
-      "name": "Gemini 3.1 Flash Image",
-      "org": "Google",
-      "org_short": "GOOG",
-      "release_date": "2026-06-30",
-      "highlight": "图像生成0.5美元/M，高性价比",
-      "tier": "B"
     },
     {
       "name": "LongCat-2.0",
-      "org": "Meituan (美团)",
+      "org": "美团",
       "org_short": "MT",
       "release_date": "2026-06-29",
-      "highlight": "1.6T MoE，100万上下文，MIT开源",
+      "highlight": "1.6 万亿参数国产芯片训练，MIT 开源",
       "tier": "A"
+    },
+    {
+      "name": "Gemini 3.1 Flash Lite Image",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-06-23",
+      "highlight": "1K 图像 4 秒生成，成本仅 0.034 美元",
+      "tier": "B"
     }
   ],
   "benchmarks": [
     {
-      "model": "Gemini 3.1 Pro",
-      "org": "Google",
-      "mmlu": "94.3",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "GPQA Diamond领先，多模态能力强"
-    },
-    {
       "model": "Claude Opus 4.8",
       "org": "Anthropic",
-      "mmlu": "91.3",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.0",
+      "notes": "Intelligence Index 61.4，SWE-bench Pro 69.2%，总体第一"
+    },
+    {
+      "model": "GPT-5.5",
+      "org": "OpenAI",
+      "mmlu": "92.5",
       "math": "N/A",
       "humaneval": "N/A",
-      "notes": "长上下文推理优秀，SWE-bench Verified领先"
-    },
-    {
-      "model": "GPT-5.5 Pro",
-      "org": "OpenAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "90+",
-      "notes": "OpenAI当前主力模型，幻觉率低"
-    },
-    {
-      "model": "Claude Sonnet 5",
-      "org": "Anthropic",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "63.2",
-      "notes": "代理编码基准领先Sonnet 4.6（58.1%）"
+      "notes": "Intelligence Index 59-60，幻觉率降 60%"
     },
     {
       "model": "Claude Fable 5",
       "org": "Anthropic",
       "mmlu": "N/A",
       "math": "N/A",
-      "humaneval": "80.3",
-      "notes": "SWE-Bench Pro最高分，长视野代理任务旗舰"
+      "humaneval": "N/A",
+      "notes": "SWE-bench Pro 80.3%，代码能力榜首"
     },
     {
-      "model": "Qwen 3.5-plus",
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA Diamond 94.3%，Humanity's Last Exam 44.4%"
+    },
+    {
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 榜首，Agent 编码专用优化"
+    },
+    {
+      "model": "Qwen 3.7 Max",
       "org": "Alibaba",
-      "mmlu": "88.4",
-      "math": "N/A",
+      "mmlu": "N/A",
+      "math": "97.1",
       "humaneval": "N/A",
-      "notes": "开源模型竞争力强"
-    },
-    {
-      "model": "GPT-5.3 Codex",
-      "org": "OpenAI",
-      "mmlu": "81.0",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "代码专用模型"
-    }
-  ],
-  "conferences": [
-    {
-      "name": "ICML 2026",
-      "event_type": "submission",
-      "deadline": "2026-01-28",
-      "url": "https://icml.cc/Conferences/2026/Dates",
-      "days_left": -158
-    },
-    {
-      "name": "ICLR 2026",
-      "event_type": "notification",
-      "deadline": "2026-01-25",
-      "url": "https://iclr.cc/Conferences/2026/Dates",
-      "days_left": -161
+      "notes": "HMMT 数学指数 97.1，高性价比"
     }
   ],
   "stats": {
-    "news_count": 8,
+    "news_count": 10,
     "paper_count": 8,
     "leader_count": 3,
     "science_count": 6

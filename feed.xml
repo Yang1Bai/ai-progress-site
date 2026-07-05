@@ -5,69 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-05T04:51:57Z</updated>
+  <updated>2026-07-05T13:24:32Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年7月5日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html</id>
-    <updated>2026-07-05T04:51:57Z</updated>
+    <updated>2026-07-05T13:24:32Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Sonnet 5 于6月30日发布，成为免费和专业版默认模型，代理编码基准达63.2%，定价2美元/百万token（8月31日…</title>
-    <link href="https://www.anthropic.com/news"/>
-    <id>https://www.anthropic.com/news</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>Anthropic Claude Sonnet 5 于6月30日发布，成为免费和专业版默认模型，代理编码基准达63.2%，定价2美元/百万token（8月31日前优惠价），拥有100万token上下文窗口。</summary>
-  </entry>
-  <entry>
-    <title>7月1日 Anthropic Fable 5 全球恢复访问，美国商务部6月30日解除出口管制。政府测试证明Opus 4.8、GPT-5.5等模型也能复现同样漏洞…</title>
+    <title>Anthropic Claude Fable 5 在被美国政府停用 19 天后于 7 月 1 日全面恢复访问，此前因 6 月 12 日国家安全指令暂停使用，成为…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>7月1日 Anthropic Fable 5 全球恢复访问，美国商务部6月30日解除出口管制。政府测试证明Opus 4.8、GPT-5.5等模型也能复现同样漏洞，Fable 5并无独特威胁。</summary>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>Anthropic Claude Fable 5 在被美国政府停用 19 天后于 7 月 1 日全面恢复访问，此前因 6 月 12 日国家安全指令暂停使用，成为史上最严重的政府强制 AI 模型限制事件</summary>
   </entry>
   <entry>
-    <title>五眼联盟6月23日联合警告：具备高级网络攻击能力的前沿AI模型将在数月内（而非数年）出现，敦促各国政府和企业加速安全准备。…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>五眼联盟6月23日联合警告：具备高级网络攻击能力的前沿AI模型将在数月内（而非数年）出现，敦促各国政府和企业加速安全准备。</summary>
-  </entry>
-  <entry>
-    <title>美国6月新增就业仅 5.7万，远低于18.5万预期，为2024年以来最弱，科技行业裁员14.2万人，AI被认为是结构性原因之一，行政、客服和初级编程岗位降幅最大…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>美国6月新增就业仅 5.7万，远低于18.5万预期，为2024年以来最弱，科技行业裁员14.2万人，AI被认为是结构性原因之一，行政、客服和初级编程岗位降幅最大。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI和Anthropic 在2026年上半年共融资2170亿美元，占全球VC总额5100亿美元的43%，Menlo Ventures因Anthropic…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>OpenAI和Anthropic 在2026年上半年共融资2170亿美元，占全球VC总额5100亿美元的43%，Menlo Ventures因Anthropic投资获140亿美元回报，关闭30亿美元新基金。</summary>
-  </entry>
-  <entry>
-    <title>白宫正与OpenAI、Anthropic、Google就自愿前沿模型标准进行最后谈判，框架将设定基准、发布时间表和国内外访问规则，预计下周公布。…</title>
-    <link href="https://aiweekly.co/ai-news-today/anthropic-news"/>
-    <id>https://aiweekly.co/ai-news-today/anthropic-news</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>白宫正与OpenAI、Anthropic、Google就自愿前沿模型标准进行最后谈判，框架将设定基准、发布时间表和国内外访问规则，预计下周公布。</summary>
-  </entry>
-  <entry>
-    <title>加州与Anthropic签约，全州机构、城市、县获50%折扣使用Claude，Poppy AI助手已在67个部门2800名员工中试点，7月全州推广，涵盖DMV客…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>加州与Anthropic签约，全州机构、城市、县获50%折扣使用Claude，Poppy AI助手已在67个部门2800名员工中试点，7月全州推广，涵盖DMV客服和医疗补助案件管理。</summary>
-  </entry>
-  <entry>
-    <title>xAI Grok 4.5 在SpaceX和Tesla内部私测，基于1.5万亿参数V9架构，加入Cursor代码训练数据，性能接近或超过Opus 4.8，每月迭代…</title>
+    <title>OpenAI 提议向美国政府赠送 5% 股权（估值约 426 亿美元），作为 IPO 战略的一部分，要求其他前沿实验室也让渡同等股权，白宫正在讨论，国会授权尚不…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-05T04:51:57Z</updated>
-    <summary>xAI Grok 4.5 在SpaceX和Tesla内部私测，基于1.5万亿参数V9架构，加入Cursor代码训练数据，性能接近或超过Opus 4.8，每月迭代新模型至年底。</summary>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>OpenAI 提议向美国政府赠送 5% 股权（估值约 426 亿美元），作为 IPO 战略的一部分，要求其他前沿实验室也让渡同等股权，白宫正在讨论，国会授权尚不确定</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 在 5 月达到年化 470 亿美元营收，超过 OpenAI 的 250-330 亿美元，并在商业订阅量上于 5 月首次超越 OpenAI，C…</title>
+    <link href="https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"/>
+    <id>https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>Anthropic 在 5 月达到年化 470 亿美元营收，超过 OpenAI 的 250-330 亿美元，并在商业订阅量上于 5 月首次超越 OpenAI，ChatGPT 月访问量占比首次跌破 50%</summary>
+  </entry>
+  <entry>
+    <title>中国开源 1.6 万亿参数代码模型 LongCat-2.0（MIT 许可），完全由国产芯片训练，美团于 6 月 29 日发布，在编码和 Agent AI 能力上…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>中国开源 1.6 万亿参数代码模型 LongCat-2.0（MIT 许可），完全由国产芯片训练，美团于 6 月 29 日发布，在编码和 Agent AI 能力上接近 Claude Opus 4.8</summary>
+  </entry>
+  <entry>
+    <title>Google 于 6 月推出 Gemini 3.5 Live Translate、Android 17 新功能及内置 Gemini 的 Google Home …</title>
+    <link href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"/>
+    <id>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>Google 于 6 月推出 Gemini 3.5 Live Translate、Android 17 新功能及内置 Gemini 的 Google Home Speaker，Gemini 3.5 Pro 定于 7 月正式发布</summary>
+  </entry>
+  <entry>
+    <title>五眼联盟（美英加澳新）于 6 月 22 日发布联合声明警告：前沿 AI 模型将在数月内超越行业预期，从根本上改变攻防网络能力，明确提及 Claude Mytho…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>五眼联盟（美英加澳新）于 6 月 22 日发布联合声明警告：前沿 AI 模型将在数月内超越行业预期，从根本上改变攻防网络能力，明确提及 Claude Mythos 和 GPT-5.5-Cyber</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 推出 Claude Sonnet 5（6 月 30 日）成为新默认模型，在写作和指令遵循方面领先，缩小与 Opus 4.8 的差距，定价降低…</title>
+    <link href="https://felloai.com/best-ai-models/"/>
+    <id>https://felloai.com/best-ai-models/</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>Anthropic 推出 Claude Sonnet 5（6 月 30 日）成为新默认模型，在写作和指令遵循方面领先，缩小与 Opus 4.8 的差距，定价降低 40-60%</summary>
+  </entry>
+  <entry>
+    <title>联合国 AI 治理全球对话将于 7 月 6 日在日内瓦召开，独立国际科学专家小组发布初步报告警告：建立有效全球治理的窗口仍在，但可能不会持续太久…</title>
+    <link href="https://news.un.org/en/story/2026/07/1167848"/>
+    <id>https://news.un.org/en/story/2026/07/1167848</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>联合国 AI 治理全球对话将于 7 月 6 日在日内瓦召开，独立国际科学专家小组发布初步报告警告：建立有效全球治理的窗口仍在，但可能不会持续太久</summary>
+  </entry>
+  <entry>
+    <title>2026 上半年全球 VC 融资达创纪录的 5100 亿美元，其中 OpenAI 和 Anthropic 独占 2170 亿美元（占 43%），Q2 单季 20…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>2026 上半年全球 VC 融资达创纪录的 5100 亿美元，其中 OpenAI 和 Anthropic 独占 2170 亿美元（占 43%），Q2 单季 2050 亿美元创历史新高</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind 多位核心研究者离职，包括 Transformer 论文共同作者 Noam Shazeer（加入 OpenAI）和 AlphaFo…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-05T13:24:32Z</updated>
+    <summary>Google DeepMind 多位核心研究者离职，包括 Transformer 论文共同作者 Noam Shazeer（加入 OpenAI）和 AlphaFold 诺奖得主 John Jumper（加入 Anthropic），Alphabet 股价下跌</summary>
   </entry>
 </feed>
