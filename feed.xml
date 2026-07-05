@@ -5,83 +5,69 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-04T13:18:50Z</updated>
+  <updated>2026-07-05T04:51:57Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月4日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-04.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-04.html</id>
-    <updated>2026-07-04T13:18:50Z</updated>
+    <title>每日汇总 2026年7月5日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html</id>
+    <updated>2026-07-05T04:51:57Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 发布 Claude Sonnet 5，6 月 30 日成为所有免费和付费用户默认模型，兼具 Opus 级性能与更低成本，引入定价 2 美元/…</title>
+    <title>Anthropic Claude Sonnet 5 于6月30日发布，成为免费和专业版默认模型，代理编码基准达63.2%，定价2美元/百万token（8月31日…</title>
+    <link href="https://www.anthropic.com/news"/>
+    <id>https://www.anthropic.com/news</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>Anthropic Claude Sonnet 5 于6月30日发布，成为免费和专业版默认模型，代理编码基准达63.2%，定价2美元/百万token（8月31日前优惠价），拥有100万token上下文窗口。</summary>
+  </entry>
+  <entry>
+    <title>7月1日 Anthropic Fable 5 全球恢复访问，美国商务部6月30日解除出口管制。政府测试证明Opus 4.8、GPT-5.5等模型也能复现同样漏洞…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>7月1日 Anthropic Fable 5 全球恢复访问，美国商务部6月30日解除出口管制。政府测试证明Opus 4.8、GPT-5.5等模型也能复现同样漏洞，Fable 5并无独特威胁。</summary>
+  </entry>
+  <entry>
+    <title>五眼联盟6月23日联合警告：具备高级网络攻击能力的前沿AI模型将在数月内（而非数年）出现，敦促各国政府和企业加速安全准备。…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>五眼联盟6月23日联合警告：具备高级网络攻击能力的前沿AI模型将在数月内（而非数年）出现，敦促各国政府和企业加速安全准备。</summary>
+  </entry>
+  <entry>
+    <title>美国6月新增就业仅 5.7万，远低于18.5万预期，为2024年以来最弱，科技行业裁员14.2万人，AI被认为是结构性原因之一，行政、客服和初级编程岗位降幅最大…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>美国6月新增就业仅 5.7万，远低于18.5万预期，为2024年以来最弱，科技行业裁员14.2万人，AI被认为是结构性原因之一，行政、客服和初级编程岗位降幅最大。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI和Anthropic 在2026年上半年共融资2170亿美元，占全球VC总额5100亿美元的43%，Menlo Ventures因Anthropic…</title>
+    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-4-2026"/>
+    <id>https://unrot.co/blogs/today-top-10-ai-news-july-4-2026</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>OpenAI和Anthropic 在2026年上半年共融资2170亿美元，占全球VC总额5100亿美元的43%，Menlo Ventures因Anthropic投资获140亿美元回报，关闭30亿美元新基金。</summary>
+  </entry>
+  <entry>
+    <title>白宫正与OpenAI、Anthropic、Google就自愿前沿模型标准进行最后谈判，框架将设定基准、发布时间表和国内外访问规则，预计下周公布。…</title>
+    <link href="https://aiweekly.co/ai-news-today/anthropic-news"/>
+    <id>https://aiweekly.co/ai-news-today/anthropic-news</id>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>白宫正与OpenAI、Anthropic、Google就自愿前沿模型标准进行最后谈判，框架将设定基准、发布时间表和国内外访问规则，预计下周公布。</summary>
+  </entry>
+  <entry>
+    <title>加州与Anthropic签约，全州机构、城市、县获50%折扣使用Claude，Poppy AI助手已在67个部门2800名员工中试点，7月全州推广，涵盖DMV客…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>Anthropic 发布 Claude Sonnet 5，6 月 30 日成为所有免费和付费用户默认模型，兼具 Opus 级性能与更低成本，引入定价 2 美元/百万输入 token（8 月 31 日前）。</summary>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>加州与Anthropic签约，全州机构、城市、县获50%折扣使用Claude，Poppy AI助手已在67个部门2800名员工中试点，7月全州推广，涵盖DMV客服和医疗补助案件管理。</summary>
   </entry>
   <entry>
-    <title>五眼联盟发布 AI 网络安全警告，称前沿 AI 模型数月内即可突破现有网络防御系统，呼吁企业和政府立即加强防护，风险时间表以&quot;月&quot;计而非&quot;年&quot;计。…</title>
-    <link href="https://www.cbsnews.com/news/ai-bypass-cybersecurity-systems-months-not-years-five-eyes/"/>
-    <id>https://www.cbsnews.com/news/ai-bypass-cybersecurity-systems-months-not-years-five-eyes/</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>五眼联盟发布 AI 网络安全警告，称前沿 AI 模型数月内即可突破现有网络防御系统，呼吁企业和政府立即加强防护，风险时间表以&quot;月&quot;计而非&quot;年&quot;计。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 提议向美国政府赠送 5% 股权，作为 IPO 战略的一部分，同时宣布与 Oracle、Vantage 在德克萨斯州合作建设 250 亿美元数据中心…</title>
+    <title>xAI Grok 4.5 在SpaceX和Tesla内部私测，基于1.5万亿参数V9架构，加入Cursor代码训练数据，性能接近或超过Opus 4.8，每月迭代…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>OpenAI 提议向美国政府赠送 5% 股权，作为 IPO 战略的一部分，同时宣布与 Oracle、Vantage 在德克萨斯州合作建设 250 亿美元数据中心项目。</summary>
-  </entry>
-  <entry>
-    <title>Boston Dynamics 与 Google DeepMind 深化合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器人和 Or…</title>
-    <link href="https://dentro.de/ai/news/"/>
-    <id>https://dentro.de/ai/news/</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>Boston Dynamics 与 Google DeepMind 深化合作，将 Gemini Robotics-ER 1.6 集成到 Spot 机器人和 Orbit AI 视觉检测平台，增强空间推理和自主决策能力。</summary>
-  </entry>
-  <entry>
-    <title>中国发布 1.6 万亿参数 MIT 开源模型 LongCat-2.0，完全在国产芯片上训练，6 月 29 日发布，SWE-Bench Pro 得分 59.5%，…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>中国发布 1.6 万亿参数 MIT 开源模型 LongCat-2.0，完全在国产芯片上训练，6 月 29 日发布，SWE-Bench Pro 得分 59.5%，展示技术自主能力。</summary>
-  </entry>
-  <entry>
-    <title>全球创业公司上半年融资达创纪录 5100 亿美元，OpenAI 和 Anthropic 占据巨额份额，AI 吸收了整个风投市场的大部分资金。…</title>
-    <link href="https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/"/>
-    <id>https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>全球创业公司上半年融资达创纪录 5100 亿美元，OpenAI 和 Anthropic 占据巨额份额，AI 吸收了整个风投市场的大部分资金。</summary>
-  </entry>
-  <entry>
-    <title>xAI Grok 4.5 在 SpaceX 和特斯拉内部测试，采用 V9 架构，约 1.5 万亿参数，6 月 28 日进入私有 beta，暂无公开发布日期。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>xAI Grok 4.5 在 SpaceX 和特斯拉内部测试，采用 V9 架构，约 1.5 万亿参数，6 月 28 日进入私有 beta，暂无公开发布日期。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 启动被忽略疾病药物开发计划，针对制药行业认为无利可图的疾病，Novartis CEO 认为 AI 可缩短开发时间。…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>Anthropic 启动被忽略疾病药物开发计划，针对制药行业认为无利可图的疾病，Novartis CEO 认为 AI 可缩短开发时间。</summary>
-  </entry>
-  <entry>
-    <title>Google 输掉 41 亿欧元 Android 反垄断上诉，欧洲最高法院维持原判，认定 Google 利用 Android 市场力量巩固搜索和 Chrome，…</title>
-    <link href="https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/"/>
-    <id>https://techstartups.com/2026/07/03/top-tech-news-today-july-3-2026/</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>Google 输掉 41 亿欧元 Android 反垄断上诉，欧洲最高法院维持原判，认定 Google 利用 Android 市场力量巩固搜索和 Chrome，限制移动设备竞争。</summary>
-  </entry>
-  <entry>
-    <title>联合国全球 AI 治理对话 7 月 6 日在日内瓦开幕，成员国将讨论 AI 管理国际方法，科学小组发布报告称 AI 影响取决于今天的选择。…</title>
-    <link href="https://news.un.org/en/story/2026/07/1167848"/>
-    <id>https://news.un.org/en/story/2026/07/1167848</id>
-    <updated>2026-07-04T13:18:50Z</updated>
-    <summary>联合国全球 AI 治理对话 7 月 6 日在日内瓦开幕，成员国将讨论 AI 管理国际方法，科学小组发布报告称 AI 影响取决于今天的选择。</summary>
+    <updated>2026-07-05T04:51:57Z</updated>
+    <summary>xAI Grok 4.5 在SpaceX和Tesla内部私测，基于1.5万亿参数V9架构，加入Cursor代码训练数据，性能接近或超过Opus 4.8，每月迭代新模型至年底。</summary>
   </entry>
 </feed>
