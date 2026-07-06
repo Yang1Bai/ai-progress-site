@@ -5,83 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-05T13:24:32Z</updated>
+  <updated>2026-07-06T15:29:38Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月5日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-05.html</id>
-    <updated>2026-07-05T13:24:32Z</updated>
+    <title>每日汇总 2026年7月6日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-06.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-06.html</id>
+    <updated>2026-07-06T15:29:38Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Fable 5 在被美国政府停用 19 天后于 7 月 1 日全面恢复访问，此前因 6 月 12 日国家安全指令暂停使用，成为…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-3-2026</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>Anthropic Claude Fable 5 在被美国政府停用 19 天后于 7 月 1 日全面恢复访问，此前因 6 月 12 日国家安全指令暂停使用，成为史上最严重的政府强制 AI 模型限制事件</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 提议向美国政府赠送 5% 股权（估值约 426 亿美元），作为 IPO 战略的一部分，要求其他前沿实验室也让渡同等股权，白宫正在讨论，国会授权尚不…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>OpenAI 提议向美国政府赠送 5% 股权（估值约 426 亿美元），作为 IPO 战略的一部分，要求其他前沿实验室也让渡同等股权，白宫正在讨论，国会授权尚不确定</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 在 5 月达到年化 470 亿美元营收，超过 OpenAI 的 250-330 亿美元，并在商业订阅量上于 5 月首次超越 OpenAI，C…</title>
-    <link href="https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/"/>
-    <id>https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>Anthropic 在 5 月达到年化 470 亿美元营收，超过 OpenAI 的 250-330 亿美元，并在商业订阅量上于 5 月首次超越 OpenAI，ChatGPT 月访问量占比首次跌破 50%</summary>
-  </entry>
-  <entry>
-    <title>中国开源 1.6 万亿参数代码模型 LongCat-2.0（MIT 许可），完全由国产芯片训练，美团于 6 月 29 日发布，在编码和 Agent AI 能力上…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>中国开源 1.6 万亿参数代码模型 LongCat-2.0（MIT 许可），完全由国产芯片训练，美团于 6 月 29 日发布，在编码和 Agent AI 能力上接近 Claude Opus 4.8</summary>
-  </entry>
-  <entry>
-    <title>Google 于 6 月推出 Gemini 3.5 Live Translate、Android 17 新功能及内置 Gemini 的 Google Home …</title>
-    <link href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"/>
-    <id>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>Google 于 6 月推出 Gemini 3.5 Live Translate、Android 17 新功能及内置 Gemini 的 Google Home Speaker，Gemini 3.5 Pro 定于 7 月正式发布</summary>
-  </entry>
-  <entry>
-    <title>五眼联盟（美英加澳新）于 6 月 22 日发布联合声明警告：前沿 AI 模型将在数月内超越行业预期，从根本上改变攻防网络能力，明确提及 Claude Mytho…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>五眼联盟（美英加澳新）于 6 月 22 日发布联合声明警告：前沿 AI 模型将在数月内超越行业预期，从根本上改变攻防网络能力，明确提及 Claude Mythos 和 GPT-5.5-Cyber</summary>
-  </entry>
-  <entry>
-    <title>Anthropic 推出 Claude Sonnet 5（6 月 30 日）成为新默认模型，在写作和指令遵循方面领先，缩小与 Opus 4.8 的差距，定价降低…</title>
-    <link href="https://felloai.com/best-ai-models/"/>
-    <id>https://felloai.com/best-ai-models/</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>Anthropic 推出 Claude Sonnet 5（6 月 30 日）成为新默认模型，在写作和指令遵循方面领先，缩小与 Opus 4.8 的差距，定价降低 40-60%</summary>
-  </entry>
-  <entry>
-    <title>联合国 AI 治理全球对话将于 7 月 6 日在日内瓦召开，独立国际科学专家小组发布初步报告警告：建立有效全球治理的窗口仍在，但可能不会持续太久…</title>
+    <title>联合国AI治理全球对话今日在日内瓦启动，科学专家小组警告AI治理窗口正在关闭，呼吁各国立即建立有效的全球治理框架以应对技术快速演进。…</title>
     <link href="https://news.un.org/en/story/2026/07/1167848"/>
     <id>https://news.un.org/en/story/2026/07/1167848</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>联合国 AI 治理全球对话将于 7 月 6 日在日内瓦召开，独立国际科学专家小组发布初步报告警告：建立有效全球治理的窗口仍在，但可能不会持续太久</summary>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>联合国AI治理全球对话今日在日内瓦启动，科学专家小组警告AI治理窗口正在关闭，呼吁各国立即建立有效的全球治理框架以应对技术快速演进。</summary>
   </entry>
   <entry>
-    <title>2026 上半年全球 VC 融资达创纪录的 5100 亿美元，其中 OpenAI 和 Anthropic 独占 2170 亿美元（占 43%），Q2 单季 20…</title>
+    <title>Anthropic推出Claude Science工作台，为研究人员提供60+预配置工具，并宣布启动内部药物研发项目，聚焦被忽视的疾病，标志着从AI工具提供商向…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>Anthropic推出Claude Science工作台，为研究人员提供60+预配置工具，并宣布启动内部药物研发项目，聚焦被忽视的疾病，标志着从AI工具提供商向科研应用的战略转型。</summary>
+  </entry>
+  <entry>
+    <title>Claude Fable 5解禁恢复全球访问（7月1日），美国商务部在19天出口管制后解除限制，Anthropic测试证明该模型无独特攻击能力，其他模型可复现相…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>Claude Fable 5解禁恢复全球访问（7月1日），美国商务部在19天出口管制后解除限制，Anthropic测试证明该模型无独特攻击能力，其他模型可复现相同漏洞。</summary>
+  </entry>
+  <entry>
+    <title>Claude Sonnet 5正式发布（6月30日）成为所有免费和Pro用户的默认模型，在SWE-Bench Pro上得分63.2%，8月31日前限时定价每百万…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026</id>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>Claude Sonnet 5正式发布（6月30日）成为所有免费和Pro用户的默认模型，在SWE-Bench Pro上得分63.2%，8月31日前限时定价每百万token输入$2/输出$10。</summary>
+  </entry>
+  <entry>
+    <title>Google四位顶级AI研究员在六天内离职，其中三人加入Anthropic、一人转投OpenAI，市场单日蒸发近2500亿美元市值，引发对Google AI竞争…</title>
+    <link href="https://viveknaskar.medium.com/google-lost-four-top-ai-researchers-in-six-days-and-anthropic-took-three-of-them-bf84044e9665"/>
+    <id>https://viveknaskar.medium.com/google-lost-four-top-ai-researchers-in-six-days-and-anthropic-took-three-of-them-bf84044e9665</id>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>Google四位顶级AI研究员在六天内离职，其中三人加入Anthropic、一人转投OpenAI，市场单日蒸发近2500亿美元市值，引发对Google AI竞争力的质疑。</summary>
+  </entry>
+  <entry>
+    <title>Meta宣布裁员约8000人（占比10%），另有7000人转岗至AI团队，扎克伯格承认AI agent项目停滞四个月，股价当日下跌4.9%。…</title>
+    <link href="https://www.crescendo.ai/news/latest-ai-news-and-updates"/>
+    <id>https://www.crescendo.ai/news/latest-ai-news-and-updates</id>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>Meta宣布裁员约8000人（占比10%），另有7000人转岗至AI团队，扎克伯格承认AI agent项目停滞四个月，股价当日下跌4.9%。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI提议向美国政府提供5%股权作为IPO战略一部分，这一前所未有的安排引发治理冲突担忧，监管方持有被监管公司股权的合规性受到质疑。…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-4-2026</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>2026 上半年全球 VC 融资达创纪录的 5100 亿美元，其中 OpenAI 和 Anthropic 独占 2170 亿美元（占 43%），Q2 单季 2050 亿美元创历史新高</summary>
-  </entry>
-  <entry>
-    <title>Google DeepMind 多位核心研究者离职，包括 Transformer 论文共同作者 Noam Shazeer（加入 OpenAI）和 AlphaFo…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-05T13:24:32Z</updated>
-    <summary>Google DeepMind 多位核心研究者离职，包括 Transformer 论文共同作者 Noam Shazeer（加入 OpenAI）和 AlphaFold 诺奖得主 John Jumper（加入 Anthropic），Alphabet 股价下跌</summary>
+    <updated>2026-07-06T15:29:38Z</updated>
+    <summary>OpenAI提议向美国政府提供5%股权作为IPO战略一部分，这一前所未有的安排引发治理冲突担忧，监管方持有被监管公司股权的合规性受到质疑。</summary>
   </entry>
 </feed>
