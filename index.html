@@ -1795,6 +1795,46 @@ body::before {
   border: 1px solid var(--accent-mid);
 }
 .btn-subscribe.secondary:hover { background: var(--accent-light); opacity: 1; }
+
+/* ===== GitHub Trending ===== */
+#github-trending { scroll-margin-top: calc(var(--status-height) + var(--nav-height) + 16px); }
+.gh-trend-grid { display: flex; flex-direction: column; gap: 10px; max-width: 900px; }
+.gh-trend-card {
+  display: flex; align-items: flex-start; gap: 16px;
+  padding: 16px 20px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 14px;
+  text-decoration: none; color: inherit; cursor: pointer;
+  transition: border-color .2s, box-shadow .2s, transform .15s;
+}
+.gh-trend-card:hover {
+  border-color: var(--accent); box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+.gh-trend-rank {
+  flex-shrink: 0; width: 32px; height: 32px;
+  border-radius: 8px; background: var(--accent-light);
+  color: var(--accent); font-weight: 700; font-size: .9rem;
+  display: flex; align-items: center; justify-content: center;
+  font-family: "Space Grotesk", monospace;
+}
+[data-theme="dark"] .gh-trend-rank { background: rgba(99,102,241,.15); color: #818cf8; }
+.gh-trend-body { flex: 1; min-width: 0; }
+.gh-trend-name { font-weight: 600; font-size: .95rem; margin-bottom: 4px; display: flex; align-items: center; gap: 2px; flex-wrap: wrap; }
+.gh-owner { color: var(--text-muted); }
+.gh-sep { color: var(--text-muted); margin: 0 2px; }
+.gh-repo { color: var(--accent); }
+.gh-trend-desc { margin: 0 0 8px; font-size: .87rem; color: var(--text-2); line-height: 1.5; }
+.gh-trend-meta { display: flex; align-items: center; gap: 12px; font-size: .8rem; color: var(--text-muted); flex-wrap: wrap; }
+.gh-lang-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; vertical-align: middle; margin-right: 4px; }
+.gh-stars-today { color: var(--green); font-weight: 600; }
+.gh-stars-total { color: var(--text-muted); }
+.gh-trend-arrow { flex-shrink: 0; font-size: 1.1rem; color: var(--text-faint); align-self: center; transition: transform .2s; }
+.gh-trend-card:hover .gh-trend-arrow { transform: translate(2px,-2px); color: var(--accent); }
+.gh-trend-empty { padding: 32px; text-align: center; color: var(--text-muted); }
+@media (max-width: 600px) {
+  .gh-trend-card { padding: 12px 14px; gap: 10px; }
+  .gh-trend-rank { width: 26px; height: 26px; font-size: .8rem; }
+}
 </style>
 
 <!-- ═══════════════════════════════════════════════
@@ -2119,6 +2159,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <a href="#trends" data-cn="趋势" data-en="Trends">趋势</a>
       <a href="#models" data-cn="模型" data-en="Models">模型</a>
       <a href="#benchmarks" data-cn="基准" data-en="Bench">基准</a>
+      <a href="#github-trending" data-cn="GitHub" data-en="GitHub">GitHub</a>
       <a href="#leaders" data-cn="领袖" data-en="Leaders">领袖</a>
       <a href="archive/" data-cn="归档" data-en="Archive">归档</a>
     </div>
@@ -2145,6 +2186,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
   <a href="#trends" onclick="toggleMenu()" data-cn="趋势" data-en="Trends">趋势</a>
   <a href="#models" onclick="toggleMenu()" data-cn="模型" data-en="Models">模型</a>
   <a href="#benchmarks" onclick="toggleMenu()" data-cn="基准" data-en="Bench">基准</a>
+  <a href="#github-trending" onclick="toggleMenu()" data-cn="GitHub" data-en="GitHub">GitHub</a>
   <a href="#leaders" onclick="toggleMenu()" data-cn="领袖" data-en="Leaders">领袖</a>
   <a href="archive/" onclick="toggleMenu()" data-cn="归档" data-en="Archive">归档</a>
   <div class="mobile-lang">
@@ -2192,12 +2234,12 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
   <!-- STATS:START -->
   <div class="stats-row">
     <div class="stat-block">
-      <span class="stat-num mono" data-target="8">8</span>
+      <span class="stat-num mono" data-target="3">3</span>
       <span class="stat-label">条资讯</span>
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="8">8</span>
+      <span class="stat-num mono" data-target="0">0</span>
       <span class="stat-label">篇论文</span>
     </div>
     <div class="stat-divider"></div>
@@ -2207,7 +2249,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="6">6</span>
+      <span class="stat-num mono" data-target="2">2</span>
       <span class="stat-label">项进展</span>
     </div>
     <div class="stat-divider"></div>
@@ -2362,59 +2404,36 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     <p class="sec-desc" data-cn="从今日资讯与论文中提炼出最値得关注的三项进展" data-en="The three most important updates from today's AI news and papers">从今日资讯与论文中提炼出最値得关注的三项进展</p>
     <div class="top3-grid">
       <!-- TOP3:START -->
-    <div class="top3-card reveal" data-tags="#材料,#AI4Science">
+    <div class="top3-card reveal" data-tags="#LLM">
       <div class="top3-rank">01</div>
-      <span class="src-badge src-paper">Paper</span>
-      <span class="paper-venue">Nature Machine Intelligence</span>
-      <h3 class="top3-title">Guiding generative models to uncover diverse and novel crystals via reinforcement learning</h3>
-      <p class="top3-summary">提出通过强化学习引导生成式 AI 模型探索晶体材料空间的新方法。研究解决了生成模型在材料发现中容易陷入已知结构的局限，利用 RL 奖励机制驱动模型生成化学合理且结构多样的新型晶体，为功能材料发现开辟新路径。</p>
-      <div class="top3-why"><strong>为何重要</strong>　发表于 Nature Machine Intelligence，是本期 AI4Materials 精选论文</div>
-      <div class="top3-footer">
-        <a class="card-source-link" href="https://doi.org/10.1038/s42256-026-01262-4" target="_blank" rel="noopener">阅读 ↗</a>
-        <div class="card-tags"><span class="card-tag">#AI4Science</span><span class="card-tag">#材料</span></div>
-      </div>
-    </div>
-    <div class="top3-card reveal" data-tags="#政策">
-      <div class="top3-rank">02</div>
       <span class="src-badge src-unknown">Unknown</span>
-      <h3 class="top3-title">联合国 AI 治理全球对话在日内瓦开幕，169 个国家代表参加史上最大规模多边…</h3>
-      <p class="top3-summary"><strong>联合国 AI 治理全球对话</strong>在日内瓦开幕，169 个国家代表参加史上最大规模多边 AI 治理会议，持续至 7 月 7 日，随后举行 ITU AI for Good 全球峰会（7-10日）</p>
+      <h3 class="top3-title">示例 A：占位新闻。</h3>
+      <p class="top3-summary"><strong>示例 A</strong>：占位新闻。</p>
       <div class="top3-why"><strong>为何重要</strong>　今日头条——突破性进展，値得第一时间关注</div>
       <div class="top3-footer">
-        <a class="card-source-link" href="https://news.un.org/en/story/2026/07/1167873" target="_blank" rel="noopener">原文 ↗</a>
-        <div class="card-tags"><span class="card-tag">#政策</span></div>
+        <a class="card-source-link" href="https://example.com/a" target="_blank" rel="noopener">原文 ↗</a>
+        <div class="card-tags"><span class="card-tag">#LLM</span></div>
       </div>
     </div>
-    <div class="top3-card reveal" data-tags="#安全">
-      <div class="top3-rank">03</div>
-      <span class="src-badge src-blog">Blog</span>
-      <h3 class="top3-title">首个全自主 AI 勒索软件攻击 JADEPUFFER 分析报告发布，Sysdig…</h3>
-      <p class="top3-summary"><strong>首个全自主 AI 勒索软件攻击</strong> JADEPUFFER 分析报告发布，Sysdig 于 7 月 4-6 日公布完整技术细节，TechCrunch 标题强调「仍需人类参与」但标志自主攻击新阶段</p>
+    <div class="top3-card reveal" data-tags="#Agent,#开源">
+      <div class="top3-rank">02</div>
+      <span class="src-badge src-unknown">Unknown</span>
+      <h3 class="top3-title">示例 B：占位新闻。</h3>
+      <p class="top3-summary"><strong>示例 B</strong>：占位新闻。</p>
       <div class="top3-why"><strong>为何重要</strong>　重磅消息——对 AI 格局有显著影响</div>
       <div class="top3-footer">
-        <a class="card-source-link" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026" target="_blank" rel="noopener">原文 ↗</a>
-        <div class="card-tags"><span class="card-tag">#安全</span></div>
-      </div>
-    </div>
-    <div class="top3-card reveal" data-tags="#政策">
-      <div class="top3-rank">04</div>
-      <span class="src-badge src-blog">Blog</span>
-      <h3 class="top3-title">白宫 AI 自愿标准框架预计本周公布，Financial Times 报道 Op…</h3>
-      <p class="top3-summary"><strong>白宫 AI 自愿标准框架</strong>预计本周公布，Financial Times 报道 OpenAI、Anthropic、Google 与政府协商基准、发布时间表和访问规则，可能 7 月 7 日宣布</p>
-      <div class="top3-why"><strong>为何重要</strong>　重磅消息——对 AI 格局有显著影响</div>
-      <div class="top3-footer">
-        <a class="card-source-link" href="https://unrot.co/blogs/today-top-10-ai-news-july-6-2026" target="_blank" rel="noopener">原文 ↗</a>
-        <div class="card-tags"><span class="card-tag">#政策</span></div>
+        
+        <div class="card-tags"><span class="card-tag">#Agent</span><span class="card-tag">#开源</span></div>
       </div>
     </div>
     <div class="top3-card reveal" data-tags="#芯片">
-      <div class="top3-rank">05</div>
-      <span class="src-badge src-blog">Blog</span>
-      <h3 class="top3-title">SK 海力士美国 IPO 计划融资 280 亿美元，全球第二大 DRAM 制造商…</h3>
-      <p class="top3-summary"><strong>SK 海力士美国 IPO</strong> 计划融资 280 亿美元，全球第二大 DRAM 制造商和英伟达 HBM3E 主供应商，将成 2026 年最重要 AI 基础设施上市事件</p>
-      <div class="top3-why"><strong>为何重要</strong>　重磅消息——对 AI 格局有显著影响</div>
+      <div class="top3-rank">03</div>
+      <span class="src-badge src-unknown">Unknown</span>
+      <h3 class="top3-title">示例 C：占位新闻。</h3>
+      <p class="top3-summary"><strong>示例 C</strong>：占位新闻。</p>
+      <div class="top3-why"><strong>为何重要</strong>　値得关注的行业动态</div>
       <div class="top3-footer">
-        <a class="card-source-link" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026" target="_blank" rel="noopener">原文 ↗</a>
+        <a class="card-source-link" href="https://example.com/c" target="_blank" rel="noopener">原文 ↗</a>
         <div class="card-tags"><span class="card-tag">#芯片</span></div>
       </div>
     </div>
@@ -2452,89 +2471,39 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     </div>
     <div class="news-grid" id="news-grid">
       <!-- NEWS:START -->
-      <div class="news-card-headline reveal" data-tags="#政策" data-bookmark-id="strong联合国AI治理全球对话strong在">
+      <div class="news-card-headline reveal" data-tags="#LLM" data-bookmark-id="strong示例Astrong占位新闻">
         <div class="card-image">
-          <img src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/2026/06/29-06-2026-AdobeStock_AI_06.jpg/image770x420cropped.jpg" alt="联合国 AI 治理全球对话在日内瓦开幕" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
+          <img src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="示例 A：占位新闻" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
         </div>
         <div class="card-body">
           <span class="card-badge breaking">BREAKING</span>
-          <h3 class="card-title">联合国 AI 治理全球对话在日内瓦开幕</h3>
-          <p class="card-summary"><strong>联合国 AI 治理全球对话</strong>在日内瓦开幕，169 个国家代表参加史上最大规模多边 AI 治理会议，持续至 7 月 7 日，随后举行 ITU AI for Good 全球峰会（7-10日）</p>
+          <h3 class="card-title">示例 A：占位新闻</h3>
+          <p class="card-summary"><strong>示例 A</strong>：占位新闻。</p>
           <div class="card-footer">
-            <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://news.un.org/en/story/2026/07/1167873" target="_blank" rel="noopener">原文 ↗</a>
-            <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
+            <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://example.com/a" target="_blank" rel="noopener">原文 ↗</a>
+            <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
             <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
           </div>
         </div>
       </div>
-      <div class="news-card medium reveal" data-tags="#安全" data-bookmark-id="strong首个全自主AI勒索软件攻击stron">
-        <img class="card-img-top" src="https://oukdqujzonxvqhiefdsv.supabase.co/storage/v1/object/public/blogs/b1be579e-01f1-44cc-910b-d400c0ce025d.png" alt="首个全自主 AI 勒索软件攻击 JADEPUFFER 分析报告发布" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
-        <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">首个全自主 AI 勒索软件攻击 JADEPUFFER 分析报告发布</h3>
-        <p class="card-summary"><strong>首个全自主 AI 勒索软件攻击</strong> JADEPUFFER 分析报告发布，Sysdig 于 7 月 4-6 日公布完整技术细节，TechCrunch 标题强调「仍需人类参与」但标志自主攻击新阶段</p>
+      <div class="news-card medium reveal" data-tags="#Agent,#开源" data-bookmark-id="strong示例Bstrong占位新闻">
+        <img class="card-img-top" src="https://source.unsplash.com/800x450/?artificial%20intelligence%20technology" alt="示例 B：占位新闻" loading="lazy" onerror="this.src='https://source.unsplash.com/800x450/?artificial%20intelligence%20technology'">
+        <span class="card-badge major">MAJOR</span>
+        <h3 class="card-title">示例 B：占位新闻</h3>
+        <p class="card-summary"><strong>示例 B</strong>：占位新闻。</p>
         <div class="card-footer">
-          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#安全')">#安全</span></div>
+          <span class="src-badge src-unknown">Unknown</span>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('#Agent')">#Agent</span><span class="card-tag" onclick="filterNews('#开源')">#开源</span></div>
           <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
         </div>
       </div>
-      <div class="news-card reveal" data-tags="#政策" data-bookmark-id="strong白宫AI自愿标准框架strong预计">
-        <span class="card-badge breaking">BREAKING</span>
-        <h3 class="card-title">白宫 AI 自愿标准框架预计本周公布</h3>
-        <p class="card-summary"><strong>白宫 AI 自愿标准框架</strong>预计本周公布，Financial Times 报道 OpenAI、Anthropic、Google 与政府协商基准、发布时间表和访问规则，可能 7 月 7 日宣布</p>
-        <div class="card-footer">
-          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://unrot.co/blogs/today-top-10-ai-news-july-6-2026" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#政策')">#政策</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#LLM" data-bookmark-id="AnthropicstrongClaudeFab">
+      <div class="news-card reveal" data-tags="#芯片" data-bookmark-id="strong示例Cstrong占位新闻">
         <span class="card-badge update">UPDATE</span>
-        <h3 class="card-title">Anthropic Claude Fable 5 计费模式今日（7月7日）起改为按使用量积分收费</h3>
-        <p class="card-summary">Anthropic <strong>Claude Fable 5 计费模式</strong>今日（7月7日）起改为按使用量积分收费，API 价格维持 $10/$50 每百万 token 不变，但订阅用户需预购积分访问</p>
+        <h3 class="card-title">示例 C：占位新闻</h3>
+        <p class="card-summary"><strong>示例 C</strong>：占位新闻。</p>
         <div class="card-footer">
-          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://unrot.co/blogs/today-top-10-ai-news-july-6-2026" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#芯片" data-bookmark-id="strongSK海力士美国IPOstrong计划">
-        <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">SK 海力士美国 IPO 计划融资 280 亿美元</h3>
-        <p class="card-summary"><strong>SK 海力士美国 IPO</strong> 计划融资 280 亿美元，全球第二大 DRAM 制造商和英伟达 HBM3E 主供应商，将成 2026 年最重要 AI 基础设施上市事件</p>
-        <div class="card-footer">
-          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://www.buildfastwithai.com/blogs/ai-news-today-july-7-2026" target="_blank" rel="noopener">原文 ↗</a>
+          <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://example.com/c" target="_blank" rel="noopener">原文 ↗</a>
           <div class="card-tags"><span class="card-tag" onclick="filterNews('#芯片')">#芯片</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#生物" data-bookmark-id="strongAlphaFold诺奖得主JohnJ">
-        <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">AlphaFold 诺奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic，在…</h3>
-        <p class="card-summary"><strong>AlphaFold 诺奖得主 John Jumper</strong> 离开 Google DeepMind 加入 Anthropic，在 DeepMind 工作近 9 年后转投 Anthropic 科学研究团队</p>
-        <div class="card-footer">
-          <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://aiweekly.co/issues/alphafolds-nobel-winner-just-joined-anthropic-and-6-more-ai" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#生物')">#生物</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#LLM,#多模态" data-bookmark-id="GooglestrongGemini25Pro与">
-        <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">Google Gemini 2.5 Pro 与 Deep Think 在 GPQA Diamond 达 82.4%、MM…</h3>
-        <p class="card-summary">Google <strong>Gemini 2.5 Pro 与 Deep Think</strong> 在 GPQA Diamond 达 82.4%、MMLU-Pro 89.8%，超越 GPT-5.5 和 Fable 5；采用并行推理技术和 200 万 token 上下文窗口</p>
-        <div class="card-footer">
-          <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span><span class="card-tag" onclick="filterNews('#多模态')">#多模态</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="#LLM" data-bookmark-id="strongAnthropic营收超越OpenA">
-        <span class="card-badge major">MAJOR</span>
-        <h3 class="card-title">Anthropic 营收超越 OpenAI</h3>
-        <p class="card-summary"><strong>Anthropic 营收超越 OpenAI</strong>，Fortune 报道显示 Anthropic 年化营收达 470 亿美元并将于 2029 年盈利，领先 OpenAI 一年；Anthropic 5 月企业订阅量超过 OpenAI</p>
-        <div class="card-footer">
-          <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://fortune.com/2026/07/02/sam-altman-new-world-order-ai-openai-google-anthropic/" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('#LLM')">#LLM</span></div>
           <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
         </div>
       </div>
@@ -2555,49 +2524,17 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
         </div>
-        <h4>AI 助力心脏猝死预测</h4>
-        <p>Nature 发表深度学习研究发现心电图生物标志物可预测心脏性猝死，Obermeyer 团队开发的模型能提前识别高风险患者，为植入式除颤器决策提供新依据。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://doi.org/10.1038/s41586-026-10674-6" target="_blank" rel="noopener">原文 ↗</a></div>
+        <h4>示例进展 alpha</h4>
+        <p>AI 在某科学问题上突破（占位）。</p>
+        
       </article>
       <article class="sci-card reveal">
         <div class="sci-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
         </div>
-        <h4>强化学习引导晶体生成</h4>
-        <p>Nature Machine Intelligence 论文展示通过强化学习引导生成式 AI 模型发现多样化新型晶体材料，Park 等人提出的方法克服了生成模型在材料探索中的局限性。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://doi.org/10.1038/s42256-026-01262-4" target="_blank" rel="noopener">原文 ↗</a></div>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
-        </div>
-        <h4>扩散模型设计抗菌肽</h4>
-        <p>Nature Communications 报道 ARCADIAMP 平台结合扩散模型和虚拟筛选，快速发现低毒性高效抗菌肽，Markakis 团队通过迭代学习生成新型抗菌候选分子应对耐药菌危机。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://doi.org/10.1038/s41467-026-75030-8" target="_blank" rel="noopener">原文 ↗</a></div>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
-        </div>
-        <h4>AI 加速科学发现流程</h4>
-        <p>Google Co-Scientist 和 Robin 两个 AI 系统可辅助假设生成、实验设计和数据分析全流程，Nature 发表研究显示这些系统能显著加速科学研究周期并提出可测试的新假设。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://www.nature.com/articles/s41586-026-10644-y" target="_blank" rel="noopener">原文 ↗</a></div>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
-        </div>
-        <h4>AI 发现 29 年 Squid 漏洞</h4>
-        <p>Anthropic 的 Claude Mythos 在 Project Glasswing 安全审计中发现 CVE-2026-47729（Squidbleed），这是广泛使用的 Squid 代理服务器中存在 29 年的内存泄漏漏洞，CVSS 评分 7.5。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://unrot.co/blogs/today-top-10-ai-news-july-6-2026" target="_blank" rel="noopener">原文 ↗</a></div>
-      </article>
-      <article class="sci-card reveal">
-        <div class="sci-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        </div>
-        <h4>Mollifier 层解决 PDE 逆问题</h4>
-        <p>宾夕法尼亚大学研究人员开发 Mollifier Layers 技术，将经典数学平滑函数集成到神经网络中，大幅提升求解偏微分方程逆问题的稳定性和效率，论文将发表于 TMLR 并在 NeurIPS 2026 展示。</p>
-        <div class="sci-footer"><a class="sci-source-link" href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank" rel="noopener">原文 ↗</a></div>
+        <h4>示例进展 beta</h4>
+        <p>AI 在另一问题上突破（占位）。</p>
+        
       </article>
       <!-- SCIENCE:END -->
     </div>
@@ -2612,104 +2549,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     <p class="sec-desc" data-cn="材料科学 × 机器学习：从催化剂发现到晶体结构预测" data-en="Materials science meets ML: catalyst discovery, crystal structure prediction, and beyond">材料科学 × 机器学习：从催化剂发现到晶体结构预测</p>
     <div class="papers-grid">
       <!-- MATERIAL:START -->
-      <article class="paper-card nature paper-card-pick reveal">
-        <div class="pick-banner">🔬 Yang's Pick</div>
-        <span class="paper-venue">Nature Machine Intelligence</span>
-        <h4 class="paper-title">Guiding generative models to uncover diverse and novel crystals via reinforcement learning</h4>
-        <p class="paper-authors">Park et al.</p>
-        <p class="paper-summary">提出通过强化学习引导生成式 AI 模型探索晶体材料空间的新方法。研究解决了生成模型在材料发现中容易陷入已知结构的局限，利用 RL 奖励机制驱动模型生成化学合理且结构多样的新型晶体，为功能材料发现开辟新路径。</p>
-        <div class="yangs-pick-why">
-          <span class="yangs-pick-label">🔬 Yang's Pick</span>精选理由：该论文对 AI 驱动材料发现具有重要方法论意义，值得优先阅读。
-        </div>
-        <div class="paper-meta">
-          <span class="paper-date">2026-07-06</span>
-          <a class="paper-link" href="https://doi.org/10.1038/s42256-026-01262-4" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">Nature</span>
-        <h4 class="paper-title">Zero-shot design of drug-binding proteins via neural iterative selection−expansion</h4>
-        <p class="paper-authors">Fry et al.</p>
-        <p class="paper-summary">开发了无需先验训练即可设计小分子结合蛋白的深度学习方法。通过神经迭代选择-扩展策略同时优化蛋白序列、结构和配体构象，突破了传统蛋白设计需要大量已知结合对数据的限制，为药物靶点和生物传感器设计提供新工具。</p>
 
-        <div class="paper-meta">
-          <span class="paper-date">2026-06-24</span>
-          <a class="paper-link" href="https://doi.org/10.1038/s41586-026-10670-w" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card nature reveal">
-        
-        <span class="paper-venue">Nature Communications</span>
-        <h4 class="paper-title">Discovery of potent low-toxicity antimicrobial peptides through diffusion modeling</h4>
-        <p class="paper-authors">Markakis et al.</p>
-        <p class="paper-summary">提出 ARCADIAMP 生成平台，结合扩散模型和迭代学习筛选策略设计新型抗菌肽。该平台能够生成低毒性、高活性的抗菌候选分子，并通过虚拟筛选快速验证，为应对多重耐药菌危机提供高效的药物发现流程。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-07-07</span>
-          <a class="paper-link" href="https://doi.org/10.1038/s41467-026-75030-8" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination</h4>
-        <p class="paper-authors">Pal et al.</p>
-        <p class="paper-summary">提出图原生强化学习方法加速材料发现，通过多步骤、领域基础推理生成可追溯的科学假设。该方法利用概念重组生成材料设计假设，比标准大语言模型提供更强可解释性和领域根植性，解决开放式材料设计问题的透明度挑战。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-07-01</span>
-          <a class="paper-link" href="https://arxiv.org/abs/2607.00924v1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Beyond Drug Discovery: The Nanotechnology Molecular Optimization (NMO) Benchmark</h4>
-        <p class="paper-authors">Blaschke et al.</p>
-        <p class="paper-summary">推出纳米技术分子优化基准 NMO，填补 AI 分子设计超越药物发现领域的评估空白。该基准针对纳米材料等结构与药物显著不同的分子体系，解决现有模型在药物数据集预训练后向其他材料领域迁移能力不足的问题。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-06-29</span>
-          <a class="paper-link" href="https://arxiv.org/abs/2606.30170v1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop</h4>
-        <p class="paper-authors">Zhang et al.</p>
-        <p class="paper-summary">利用自主大语言模型研究循环优化专家设计的晶体图网络预测材料带隙。研究在公开材料基准上运行，展示 LLM 如何通过迭代优化神经网络架构和超参数，自动改进材料性质预测模型，推动 AI 辅助材料科学研究自动化。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-06-29</span>
-          <a class="paper-link" href="https://arxiv.org/abs/2606.29717v1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">Interpretable Inverse Design of Metal-Organic Frameworks with Large Language Model Agents</h4>
-        <p class="paper-authors">Nam et al.</p>
-        <p class="paper-summary">提出 LLM4MOF 框架，利用大语言模型代理进行金属有机框架（MOF）可解释逆向设计。该闭环系统让语言模型代理推理 MOF 结构成功原因，搜索组合空间并生成候选材料，相比黑盒 ML 模型提供透明设计逻辑，有助理解 MOF 性质-结构关系。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-06-28</span>
-          <a class="paper-link" href="https://arxiv.org/abs/2606.29459v1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
-      <article class="paper-card conf reveal">
-        
-        <span class="paper-venue">arXiv</span>
-        <h4 class="paper-title">AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms</h4>
-        <p class="paper-authors">Bengio et al.</p>
-        <p class="paper-summary">推出 AquaGen，首个全原子、显式溶剂、周期边界条件感知的生成模型，以远低于分子动力学成本生成玻尔兹曼分布分子构象。该模型突破现有生成模型简化体系限制，实现数千原子尺度精确采样，加速凝聚态材料和生物分子体系模拟。</p>
-
-        <div class="paper-meta">
-          <span class="paper-date">2026-07-03</span>
-          <a class="paper-link" href="https://arxiv.org/abs/2607.03513v1" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
-        </div>
-      </article>
       <!-- MATERIAL:END -->
     </div>
   </section>
@@ -2737,29 +2577,19 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     <div class="models-strip-wrap">
       <div class="models-strip">
         <!-- MODELS:START -->
-      <div class="model-chip tier-A">
-        <span class="model-org">ANTH</span>
-        <span class="model-name">Claude Sonnet 5</span>
-        <span class="model-tier">A</span>
-      </div>
       <div class="model-chip tier-S">
-        <span class="model-org">GOOG</span>
-        <span class="model-name">Gemini 2.5 Pro with Deep Think</span>
+        <span class="model-org">ANT</span>
+        <span class="model-name">Claude Sonnet 4</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-S">
         <span class="model-org">OAI</span>
-        <span class="model-name">GPT-5.6 (Sol/Terra/Luna)</span>
+        <span class="model-name">GPT-5.5</span>
         <span class="model-tier">S</span>
       </div>
       <div class="model-chip tier-A">
-        <span class="model-org">Z.AI</span>
-        <span class="model-name">GLM-5.2</span>
-        <span class="model-tier">A</span>
-      </div>
-      <div class="model-chip tier-A">
-        <span class="model-org">TXNT</span>
-        <span class="model-name">Hunyuan Hy3</span>
+        <span class="model-org">DS</span>
+        <span class="model-name">DeepSeek V4</span>
         <span class="model-tier">A</span>
       </div>
       <!-- MODELS:END -->
@@ -2790,60 +2620,36 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
         <tbody>
         <!-- BENCHMARKS:START -->
         <tr>
-          <td class="model-cell">Gemini 3.1 Pro</td>
-          <td class="org-cell">Google</td>
-          <td class="score" style="color:#00ff88">94.3</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">GPQA Diamond 领先，科学推理最强</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Claude Opus 4.8</td>
+          <td class="model-cell">Claude Sonnet 4</td>
           <td class="org-cell">Anthropic</td>
-          <td class="score" style="color:#00ff88">91.3</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">企业信任度最高，宪法 AI 安全</td>
+          <td class="score" style="color:#00ff88">91.5</td>
+          <td class="score" style="color:#00e5ff">87.2</td>
+          <td class="score" style="color:#00ff88">90.1</td>
+          <td class="note">最新旗舰，强推理</td>
         </tr>
         <tr>
           <td class="model-cell">GPT-5.5</td>
           <td class="org-cell">OpenAI</td>
-          <td class="score">90+</td>
-          <td class="score">85-90</td>
-          <td class="score">90+</td>
-          <td class="note">API 和 ChatGPT 全面可用</td>
+          <td class="score" style="color:#00ff88">92.1</td>
+          <td class="score" style="color:#00e5ff">88.3</td>
+          <td class="score" style="color:#00ff88">91.2</td>
+          <td class="note">统一超级应用</td>
         </tr>
         <tr>
-          <td class="model-cell">GPT-5.3 Codex</td>
-          <td class="org-cell">OpenAI</td>
-          <td class="score" style="color:#00e5ff">81.0</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">GPQA Diamond 专用代码版本</td>
+          <td class="model-cell">Gemini 2.5 Pro</td>
+          <td class="org-cell">Google</td>
+          <td class="score" style="color:#00ff88">90.8</td>
+          <td class="score" style="color:#00ff88">91.0</td>
+          <td class="score" style="color:#00e5ff">88.5</td>
+          <td class="note">数学最强</td>
         </tr>
         <tr>
-          <td class="model-cell">Claude Sonnet 5</td>
-          <td class="org-cell">Anthropic</td>
-          <td class="score">90+</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#ff2d78">63.2</td>
-          <td class="note">代理编码基准，接近 Opus 性能</td>
-        </tr>
-        <tr>
-          <td class="model-cell">Qwen 3.5-plus</td>
-          <td class="org-cell">阿里巴巴</td>
-          <td class="score" style="color:#00e5ff">88.4</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">GPQA Diamond 中国领先模型</td>
-        </tr>
-        <tr>
-          <td class="model-cell">GLM-5.2</td>
-          <td class="org-cell">智谱 AI</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">代码能力强，价格竞争力突出</td>
+          <td class="model-cell">DeepSeek V4</td>
+          <td class="org-cell">DeepSeek</td>
+          <td class="score" style="color:#00e5ff">88.5</td>
+          <td class="score" style="color:#00e5ff">85.1</td>
+          <td class="score" style="color:#00e5ff">87.3</td>
+          <td class="note">开源最强</td>
         </tr>
       <!-- BENCHMARKS:END -->
         </tbody>
@@ -2861,15 +2667,119 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
     <!-- CONFERENCES:START -->
       <a class="conf-card reveal" href="https://icml.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">ICML 2026</div>
-        <div class="conf-deadline">投稿截止 · 2026-01-28</div>
-        <div class="conf-days past">已结束</div>
+        <div class="conf-deadline">录取通知 · 2026-05-15</div>
+        <div class="conf-days soon">还有 18 天</div>
       </a>
       <a class="conf-card reveal" href="https://neurips.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
         <div class="conf-name">NeurIPS 2026</div>
-        <div class="conf-deadline">投稿截止 · 2026-05-06</div>
-        <div class="conf-days past">已结束</div>
+        <div class="conf-deadline">投稿截止 · 2026-05-30</div>
+        <div class="conf-days normal">还有 33 天</div>
+      </a>
+      <a class="conf-card reveal" href="https://iclr.cc" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;display:block;">
+        <div class="conf-name">ICLR 2027</div>
+        <div class="conf-deadline">投稿截止 · 2026-09-27</div>
+        <div class="conf-days normal">还有 153 天</div>
       </a>
       <!-- CONFERENCES:END -->
+    </div>
+  </section>
+
+  <!-- ===== GITHUB TRENDING ===== -->
+  <section id="github-trending">
+    <div class="sec-header">
+      <span class="sec-badge badge-green" data-cn="GitHub 热榜" data-en="GitHub Trending">GitHub 热榜</span>
+      <h2 class="sec-title" data-cn="今日 GitHub 热门项目" data-en="Today's GitHub Trending">今日 GitHub 热门项目</h2>
+      <span class="sec-meta" data-cn="每日更新" data-en="Updated daily">每日更新</span>
+    </div>
+    <p class="sec-desc" data-cn="过去 24 小时在 GitHub 上获得最多 Star 的五个开源项目" data-en="Top 5 open-source repos gaining the most stars in the past 24 hours">过去 24 小时在 GitHub 上获得最多 Star 的五个开源项目</p>
+    <div class="gh-trend-grid">
+    <!-- GITHUB_TRENDING:START -->
+      <a class="gh-trend-card reveal" href="https://github.com/openai/gpt-5" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">1</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">openai</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">gpt-5</span>
+          </div>
+          <p class="gh-trend-desc">Mock trending repo A (dry-run)</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#3572A5"></span><span class="gh-lang-name">Python</span>
+            <span class="gh-stars-today">▲ 1,234 今日</span>
+            <span class="gh-stars-total">⭐ 56,789</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <a class="gh-trend-card reveal" href="https://github.com/anthropics/claude" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">2</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">anthropics</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">claude</span>
+          </div>
+          <p class="gh-trend-desc">Mock trending repo B (dry-run)</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#2b7489"></span><span class="gh-lang-name">TypeScript</span>
+            <span class="gh-stars-today">▲ 987 今日</span>
+            <span class="gh-stars-total">⭐ 34,567</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <a class="gh-trend-card reveal" href="https://github.com/deepseek-ai/deepseek-v4" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">3</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">deepseek-ai</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">deepseek-v4</span>
+          </div>
+          <p class="gh-trend-desc">Mock trending repo C (dry-run)</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#3572A5"></span><span class="gh-lang-name">Python</span>
+            <span class="gh-stars-today">▲ 876 今日</span>
+            <span class="gh-stars-total">⭐ 23,456</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <a class="gh-trend-card reveal" href="https://github.com/google/gemini" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">4</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">google</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">gemini</span>
+          </div>
+          <p class="gh-trend-desc">Mock trending repo D (dry-run)</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#00ADD8"></span><span class="gh-lang-name">Go</span>
+            <span class="gh-stars-today">▲ 765 今日</span>
+            <span class="gh-stars-total">⭐ 12,345</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <a class="gh-trend-card reveal" href="https://github.com/microsoft/phi-4" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">5</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">microsoft</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">phi-4</span>
+          </div>
+          <p class="gh-trend-desc">Mock trending repo E (dry-run)</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#dea584"></span><span class="gh-lang-name">Rust</span>
+            <span class="gh-stars-today">▲ 654 今日</span>
+            <span class="gh-stars-total">⭐ 9,876</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <!-- GITHUB_TRENDING:END -->
     </div>
   </section>
 
@@ -2884,39 +2794,39 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <!-- LEADERS:START -->
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar em" aria-hidden="true">JH</div>
+          <div class="avatar em" aria-hidden="true">S1</div>
           <div>
-            <div class="leader-name">黄仁勋 (Jensen Huang)</div>
-            <div class="leader-role">英伟达 CEO</div>
+            <div class="leader-name">示例·一号 (Sample One)</div>
+            <div class="leader-role">示例公司 CEO</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"有用的 AI 已经到来，它已经盈利"</blockquote>
-        <p class="leader-body">在 2026 年 GTC 台北峰会上，黄仁勋强调 AI 投资回报率问题已经得到解答，数据中心成为「生产 token 的工厂」，每个 token 都是利润单元。他指出代理 AI 时代已经到来，软件开发者生产力在 2026 年前几个月提升近三倍。</p>
-        <div class="leader-meta"><span class="tag">算力经济</span><span class="tag">代理AI</span><span class="tag">英伟达</span><span class="tag tag-date">6月1日</span></div>
+        <blockquote class="leader-quote">"AI 将重塑下一个十年。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">2026-04</span><span class="tag tag-date">4月27日</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar sa" aria-hidden="true">DA</div>
+          <div class="avatar sa" aria-hidden="true">S2</div>
           <div>
-            <div class="leader-name">达里奥·阿莫代 (Dario Amodei)</div>
-            <div class="leader-role">Anthropic CEO</div>
+            <div class="leader-name">示例·二号 (Sample Two)</div>
+            <div class="leader-role">Anthropic 研究员</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"民主国家应避免在 AI 部署上分裂"</blockquote>
-        <p class="leader-body">在 6 月 17 日 G7 峰会上，阿莫代呼吁建立美国主导的 AI 联盟，制定国际标准和测试框架。他强调需要协调对华芯片出口限制和前沿模型访问控制，警告 AI 可能被用于网络攻击、生物恐怖主义等领域。</p>
-        <div class="leader-meta"><span class="tag">AI治理</span><span class="tag">国际合作</span><span class="tag">安全</span><span class="tag tag-date">6月17日</span></div>
+        <blockquote class="leader-quote">"可解释性是 AGI 安全的关键。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">Anthropic</span><span class="tag tag-date">近期</span></div>
       </article>
       <article class="leader-card reveal">
         <div class="leader-head">
-          <div class="avatar aj" aria-hidden="true">SA</div>
+          <div class="avatar aj" aria-hidden="true">S3</div>
           <div>
-            <div class="leader-name">萨姆·奥特曼 (Sam Altman)</div>
-            <div class="leader-role">OpenAI CEO</div>
+            <div class="leader-name">示例·三号 (Sample Three)</div>
+            <div class="leader-role">DeepMind VP</div>
           </div>
         </div>
-        <blockquote class="leader-quote">"需要建立国际讨论论坛制定全球标准"</blockquote>
-        <p class="leader-body">奥特曼在 G7 峰会提议建立国际论坛，制定全球接受的测试标准，提供能力和风险的专家分析。Fortune 报道显示 OpenAI 正推动与美国政府战略绑定，包括提供 5% 股权和国防深度合作，将商业成功与国家利益挂钩。</p>
-        <div class="leader-meta"><span class="tag">国际标准</span><span class="tag">政府合作</span><span class="tag">战略</span><span class="tag tag-date">6月17日</span></div>
+        <blockquote class="leader-quote">"AI4Science 进入加速期。"</blockquote>
+        <p class="leader-body">占位（dry-run）。</p>
+        <div class="leader-meta"><span class="tag">DeepMind</span><span class="tag tag-date">4月25日</span></div>
       </article>
       <!-- LEADERS:END -->
     </div>

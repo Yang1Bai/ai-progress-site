@@ -1325,6 +1325,155 @@ def generate_rss(data: dict, today_iso: str):
 
 
 # ---------------------------------------------------------------------------
+# 5b. GitHub Trending
+# ---------------------------------------------------------------------------
+
+def fetch_github_trending(n: int = 5) -> list[dict]:
+    """Fetch top n trending GitHub repos from github.com/trending."""
+    repos = []
+    url = "https://github.com/trending"
+    try:
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'en-US,en;q=0.9',
+        })
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            html = resp.read(512 * 1024).decode('utf-8', errors='ignore')
+
+        # Parse article boxes
+        articles = re.findall(r'<article[^>]*class="[^"]*Box-row[^"]*"[^>]*>(.*?)</article>', html, re.DOTALL)
+        if not articles:
+            # Try alternate selector
+            articles = re.findall(r'<article[^>]*>(.*?)</article>', html, re.DOTALL)
+
+        for art in articles[:n]:
+            # repo full_name from href="/owner/repo"
+            name_m = re.search(r'href="/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)"', art)
+            full_name = name_m.group(1) if name_m else ''
+            if not full_name or full_name.count('/') != 1:
+                continue
+
+            # description — look for <p class="..."> inside the article
+            desc_m = re.search(r'<p[^>]*class="[^"]*col-9[^"]*"[^>]*>(.*?)</p>', art, re.DOTALL)
+            if not desc_m:
+                desc_m = re.search(r'<p[^>]*>(.*?)</p>', art, re.DOTALL)
+            description = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', desc_m.group(1) if desc_m else '')).strip()
+
+            # language
+            lang_m = re.search(r'itemprop="programmingLanguage"[^>]*>(.*?)</span>', art, re.DOTALL)
+            if not lang_m:
+                lang_m = re.search(r'class="[^"]*d-inline-block[^"]*ml-0[^"]*"[^>]*>.*?<span[^>]*>(.*?)</span>', art, re.DOTALL)
+            language = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', lang_m.group(1) if lang_m else '')).strip()
+
+            # stars gained today
+            today_m = re.search(r'([\d,]+)\s+stars?\s+today', art, re.I)
+            stars_today = int(today_m.group(1).replace(',', '')) if today_m else 0
+
+            # total stars (from aria-label or svg link)
+            total_m = re.search(r'/[^"]+/stargazers[^"]*"[^>]*>[\s\S]*?([\d,]+)', art)
+            stars_total = int(total_m.group(1).replace(',', '')) if total_m else 0
+
+            if full_name:
+                repos.append({
+                    'name': full_name,
+                    'description': description[:200],
+                    'language': language,
+                    'stars_today': stars_today,
+                    'stars_total': stars_total,
+                    'url': f'https://github.com/{full_name}',
+                })
+
+        print(f"[github_trending] 抓到 {len(repos)} 个项目（主路径）", flush=True)
+        if repos:
+            return repos[:n]
+    except Exception as e:
+        print(f"[github_trending] 主路径失败: {e}", flush=True)
+
+    # Fallback: GitHub Search API (no auth needed for a few requests)
+    try:
+        from_date = (datetime.now(TZ) - timedelta(days=1)).strftime("%Y-%m-%d")
+        api_url = (
+            f"https://api.github.com/search/repositories"
+            f"?q=created:%3E{from_date}&sort=stars&order=desc&per_page={n}"
+        )
+        req2 = urllib.request.Request(api_url, headers={
+            'User-Agent': 'ai-progress-site/1.0',
+            'Accept': 'application/vnd.github+json',
+        })
+        with urllib.request.urlopen(req2, timeout=15) as resp2:
+            data = json.loads(resp2.read())
+        for item in data.get('items', [])[:n]:
+            repos.append({
+                'name': item.get('full_name', ''),
+                'description': (item.get('description') or '')[:200],
+                'language': item.get('language') or '',
+                'stars_today': 0,
+                'stars_total': item.get('stargazers_count', 0),
+                'url': item.get('html_url', ''),
+            })
+        print(f"[github_trending] API fallback: {len(repos)} 个", flush=True)
+    except Exception as e2:
+        print(f"[github_trending] API fallback 失败: {e2}", flush=True)
+
+    return repos[:n]
+
+
+def render_github_trending(repos: list[dict]) -> str:
+    """Render GitHub trending repos as HTML cards."""
+    if not repos:
+        return '      <div class="gh-trend-empty">暂无数据，明日再试</div>'
+
+    LANG_COLORS = {
+        'Python': '#3572A5', 'JavaScript': '#f1e05a', 'TypeScript': '#2b7489',
+        'Go': '#00ADD8', 'Rust': '#dea584', 'C++': '#f34b7d', 'C': '#555555',
+        'Java': '#b07219', 'Kotlin': '#F18E33', 'Swift': '#F05138',
+        'Ruby': '#701516', 'PHP': '#4F5D95', 'Shell': '#89e051',
+        'Jupyter Notebook': '#DA5B0B', 'HTML': '#e34c26', 'CSS': '#563d7c',
+        'C#': '#178600', 'Scala': '#c22d40', 'R': '#198CE7',
+        'CUDA': '#3A4E3A', 'Makefile': '#427819',
+    }
+
+    out = []
+    for i, repo in enumerate(repos, 1):
+        name = escape_text(repo.get('name', ''))
+        full_name_parts = repo.get('name', '').split('/')
+        owner = escape_text(full_name_parts[0]) if len(full_name_parts) == 2 else ''
+        repo_name = escape_text(full_name_parts[1]) if len(full_name_parts) == 2 else name
+        desc = escape_text(repo.get('description', '') or '暂无描述')
+        lang = repo.get('language', '')
+        lang_safe = escape_text(lang)
+        lang_color = LANG_COLORS.get(lang, '#8b949e')
+        stars_today = repo.get('stars_today', 0)
+        stars_total = repo.get('stars_total', 0)
+        url = escape_text(repo.get('url', ''))
+
+        stars_today_html = f'<span class="gh-stars-today">▲ {stars_today:,} 今日</span>' if stars_today else ''
+        stars_total_html = f'<span class="gh-stars-total">⭐ {stars_total:,}</span>' if stars_total else ''
+        lang_html = (f'<span class="gh-lang-dot" style="background:{lang_color}"></span>'
+                     f'<span class="gh-lang-name">{lang_safe}</span>') if lang else ''
+
+        out.append(f'''      <a class="gh-trend-card reveal" href="{url}" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">{i}</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">{owner}</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">{repo_name}</span>
+          </div>
+          <p class="gh-trend-desc">{desc}</p>
+          <div class="gh-trend-meta">
+            {lang_html}
+            {stars_today_html}
+            {stars_total_html}
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>''')
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------
 # 6. Mock & main
 # ---------------------------------------------------------------------------
 
@@ -1388,6 +1537,13 @@ def load_mock():
             {"name": "ICML 2026", "event_type": "notification", "deadline": "2026-05-15", "url": "https://icml.cc", "days_left": 18},
             {"name": "NeurIPS 2026", "event_type": "submission", "deadline": "2026-05-30", "url": "https://neurips.cc", "days_left": 33},
             {"name": "ICLR 2027", "event_type": "submission", "deadline": "2026-09-27", "url": "https://iclr.cc", "days_left": 153},
+        ],
+        "github_trending": [
+            {"name": "openai/gpt-5", "description": "Mock trending repo A (dry-run)", "language": "Python", "stars_today": 1234, "stars_total": 56789, "url": "https://github.com/openai/gpt-5"},
+            {"name": "anthropics/claude", "description": "Mock trending repo B (dry-run)", "language": "TypeScript", "stars_today": 987, "stars_total": 34567, "url": "https://github.com/anthropics/claude"},
+            {"name": "deepseek-ai/deepseek-v4", "description": "Mock trending repo C (dry-run)", "language": "Python", "stars_today": 876, "stars_total": 23456, "url": "https://github.com/deepseek-ai/deepseek-v4"},
+            {"name": "google/gemini", "description": "Mock trending repo D (dry-run)", "language": "Go", "stars_today": 765, "stars_total": 12345, "url": "https://github.com/google/gemini"},
+            {"name": "microsoft/phi-4", "description": "Mock trending repo E (dry-run)", "language": "Rust", "stars_today": 654, "stars_total": 9876, "url": "https://github.com/microsoft/phi-4"},
         ],
     }
 
@@ -1508,9 +1664,17 @@ def main():
         except Exception as e2:
             print(f"[arxiv] 也失败: {e2}", flush=True)
 
+    # Fetch GitHub trending repos
+    github_trending = []
+    try:
+        github_trending = fetch_github_trending(n=5)
+    except Exception as e:
+        print(f"[github_trending] 获取失败: {e}", flush=True)
+
     if os.environ.get("DRY_RUN") == "1":
         print("[dry-run] 跳过 Claude API，使用 mock JSON")
         data = load_mock()
+        github_trending = data.get("github_trending", github_trending)
         data["date"] = today
     else:
         if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -1577,6 +1741,9 @@ def main():
                          render_conferences(data.get("conferences", [])))
     html = replace_block(html, "<!-- TOP3:START -->", "<!-- TOP3:END -->",
                          render_top3(data.get("news", []), data.get("papers", []), today_iso))
+    # GitHub Trending
+    if github_trending:
+        html = replace_block(html, "<!-- GITHUB_TRENDING:START -->", "<!-- GITHUB_TRENDING:END -->", render_github_trending(github_trending))
     # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
     INDEX.write_text(html, encoding="utf-8")
