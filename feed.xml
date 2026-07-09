@@ -5,62 +5,41 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-08T13:55:22Z</updated>
+  <updated>2026-07-09T14:50:06Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月8日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-08.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-08.html</id>
-    <updated>2026-07-08T13:55:22Z</updated>
+    <title>每日汇总 2026年7月9日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-09.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-09.html</id>
+    <updated>2026-07-09T14:50:06Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic Fable 5 从今日起全面转为付费制，收费标准为输入 $10/百万 token、输出 $50/百万 token，是 Opus 4.8 的两…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>Anthropic Fable 5 从今日起全面转为付费制，收费标准为输入 $10/百万 token、输出 $50/百万 token，是 Opus 4.8 的两倍，企业需审查路由配置避免意外账单。</summary>
+    <title>OpenAI发布GPT-5.6 Sol、Terra、Luna三款模型，这是AI史上首次三家前沿实验室同日公开发布新旗舰模型（OpenAI、xAI、Anthrop…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026</id>
+    <updated>2026-07-09T14:50:06Z</updated>
+    <summary>OpenAI发布GPT-5.6 Sol、Terra、Luna三款模型，这是AI史上首次三家前沿实验室同日公开发布新旗舰模型（OpenAI、xAI、Anthropic）</summary>
   </entry>
   <entry>
-    <title>联合国 AI for Good 全球委员会今日在日内瓦召开首次正式会议，由 Salesforce CEO Marc Benioff 和卢旺达总统共同主持，成员包…</title>
-    <link href="https://www.tech-reader.blog/2026/07/ai-news-tue-july-7-2026.html"/>
-    <id>https://www.tech-reader.blog/2026/07/ai-news-tue-july-7-2026.html</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>联合国 AI for Good 全球委员会今日在日内瓦召开首次正式会议，由 Salesforce CEO Marc Benioff 和卢旺达总统共同主持，成员包括 Jensen Huang、Andy Jassy、Jack Clark 等，讨论全球 AI 治理标准。</summary>
+    <title>xAI公开发布Grok 4.5，马斯克称其达到Opus级性能但更快、更低成本；SuperGrok Heavy订阅用户与xAI API用户可访问…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-9-2026</id>
+    <updated>2026-07-09T14:50:06Z</updated>
+    <summary>xAI公开发布Grok 4.5，马斯克称其达到Opus级性能但更快、更低成本；SuperGrok Heavy订阅用户与xAI API用户可访问</summary>
   </entry>
   <entry>
-    <title>Google 将 Gemini 3.5 Pro 发布日期推迟至 7 月 17 日，放弃 2.5 Pro 架构进行全面重建，以改进数学推理、SVG 生成和图像质量…</title>
-    <link href="https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a"/>
-    <id>https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>Google 将 Gemini 3.5 Pro 发布日期推迟至 7 月 17 日，放弃 2.5 Pro 架构进行全面重建，以改进数学推理、SVG 生成和图像质量，与 GPT-5.6 和 Fable 5 竞争。</summary>
+    <title>中国计划允许阿里巴巴、字节跳动、DeepSeek等顶级AI公司限量采购英伟达H200芯片，总量或不足20万片；NVIDIA股价当日上涨3.7%…</title>
+    <link href="https://www.japantimes.co.jp/business/2026/07/09/tech/china-ai-firms-nvidia-h200s/"/>
+    <id>https://www.japantimes.co.jp/business/2026/07/09/tech/china-ai-firms-nvidia-h200s/</id>
+    <updated>2026-07-09T14:50:06Z</updated>
+    <summary>中国计划允许阿里巴巴、字节跳动、DeepSeek等顶级AI公司限量采购英伟达H200芯片，总量或不足20万片；NVIDIA股价当日上涨3.7%</summary>
   </entry>
   <entry>
-    <title>CNBC 调查显示美国企业 30%-46% AI token 使用量流向中国模型，Z.ai GLM-5.2 在 Vercel 平台创最快采用纪录，首周日 tok…</title>
-    <link href="https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html"/>
-    <id>https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>CNBC 调查显示美国企业 30%-46% AI token 使用量流向中国模型，Z.ai GLM-5.2 在 Vercel 平台创最快采用纪录，首周日 token 量增长 27 倍，成本比 Anthropic/OpenAI 低 60%-90%。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 获美商务部批准即将广泛发布 GPT-5.6，预计本周内推出，Terra 版本定价 $2.50/$15 直接挑战 Sonnet 5，Luna 版本 …</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>OpenAI 获美商务部批准即将广泛发布 GPT-5.6，预计本周内推出，Terra 版本定价 $2.50/$15 直接挑战 Sonnet 5，Luna 版本 $1/$6 重新定义大规模推理市场。</summary>
-  </entry>
-  <entry>
-    <title>欧洲系统性风险委员会和欧洲监管机构发布前沿 AI 模型的系统性网络风险警告，强调金融和关键基础设施领域的 AI 安全漏洞，呼吁更严格的监管框架。…</title>
-    <link href="https://www.eba.europa.eu/publications-and-media/press-releases/esas-support-esrb-warning-systemic-cyber-risks-frontier-ai-models"/>
-    <id>https://www.eba.europa.eu/publications-and-media/press-releases/esas-support-esrb-warning-systemic-cyber-risks-frontier-ai-models</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>欧洲系统性风险委员会和欧洲监管机构发布前沿 AI 模型的系统性网络风险警告，强调金融和关键基础设施领域的 AI 安全漏洞，呼吁更严格的监管框架。</summary>
-  </entry>
-  <entry>
-    <title>Future of Life Institute 发布 AI 安全指数：Anthropic 获 C+ 最高评级，OpenAI 和 Google DeepMind…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-08T13:55:22Z</updated>
-    <summary>Future of Life Institute 发布 AI 安全指数：Anthropic 获 C+ 最高评级，OpenAI 和 Google DeepMind 获 C，Meta 为 D+，SpaceXAI 和 DeepSeek 获 F，所有公司在存在性安全项目均为 D+ 或更低。</summary>
+    <title>Anthropic Claude Sonnet 5以$2/$10推出推广价（至8月31日），成为新的Pro默认模型，SWE-bench Pro得分63.2%逼近…</title>
+    <link href="https://thursdai.news/releases/2026-07"/>
+    <id>https://thursdai.news/releases/2026-07</id>
+    <updated>2026-07-09T14:50:06Z</updated>
+    <summary>Anthropic Claude Sonnet 5以$2/$10推出推广价（至8月31日），成为新的Pro默认模型，SWE-bench Pro得分63.2%逼近Opus 4.8</summary>
   </entry>
 </feed>
