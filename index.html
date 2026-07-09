@@ -1043,8 +1043,9 @@ section {
 .models-strip { display: flex; gap: 10px; min-width: max-content; }
 .model-chip {
   display: inline-flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   padding: 10px 16px;
   border-radius: 10px;
   border: 1px solid var(--border);
@@ -1070,6 +1071,18 @@ section {
 .tier-S .model-tier { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
 .tier-A .model-tier { background: var(--accent-light); color: var(--accent); border: 1px solid var(--accent-mid); }
 .tier-B .model-tier { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
+.model-chip-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.model-buzz {
+  font-size: .62rem;
+  color: var(--text-muted);
+  max-width: 160px;
+  line-height: 1.3;
+  margin-top: 2px;
+}
 .model-info { display: flex; flex-direction: column; gap: 1px; }
 
 /* ===== Benchmarks ===== */
@@ -2741,29 +2754,44 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <div class="models-strip">
         <!-- MODELS:START -->
       <div class="model-chip tier-S">
-        <span class="model-org">OAI</span>
-        <span class="model-name">GPT-5.6 Sol / Terra / Luna</span>
-        <span class="model-tier">S</span>
+        <div class="model-chip-header">
+          <span class="model-org">OAI</span>
+          <span class="model-name">GPT-5.6 Sol / Terra / Luna</span>
+          <span class="model-tier">S</span>
+        </div>
+        <span class="model-buzz">X 热议：三款同日发布引爆讨论，Sol 速度 750 tok/s 被称“速度怪兽”，但政府限制访问令社区不满</span>
       </div>
       <div class="model-chip tier-A">
-        <span class="model-org">XAI</span>
-        <span class="model-name">Grok 4.5</span>
-        <span class="model-tier">A</span>
+        <div class="model-chip-header">
+          <span class="model-org">XAI</span>
+          <span class="model-name">Grok 4.5</span>
+          <span class="model-tier">A</span>
+        </div>
+        <span class="model-buzz">X 热议：比 Sonnet 5 便宜 2.3×，tool calling 强，但无独立基准被质疑“马斯克自卖自夸”</span>
       </div>
       <div class="model-chip tier-A">
-        <span class="model-org">ANT</span>
-        <span class="model-name">Claude Sonnet 5</span>
-        <span class="model-tier">A</span>
+        <div class="model-chip-header">
+          <span class="model-org">ANT</span>
+          <span class="model-name">Claude Sonnet 5</span>
+          <span class="model-tier">A</span>
+        </div>
+        <span class="model-buzz">X 热议：开发者力推“性价比王者”，$2/$10 推广价被称“Opus 级别半价抄底”</span>
       </div>
       <div class="model-chip tier-S">
-        <span class="model-org">ANT</span>
-        <span class="model-name">Claude Fable 5</span>
-        <span class="model-tier">S</span>
+        <div class="model-chip-header">
+          <span class="model-org">ANT</span>
+          <span class="model-name">Claude Fable 5</span>
+          <span class="model-tier">S</span>
+        </div>
+        <span class="model-buzz">X 热议：SWE-bench Pro 80.3% 震惊社区，“不再是工具，像合作伙伴”，但安全过滤被吐槽</span>
       </div>
       <div class="model-chip tier-B">
-        <span class="model-org">ZAI</span>
-        <span class="model-name">GLM-5.2</span>
-        <span class="model-tier">B</span>
+        <div class="model-chip-header">
+          <span class="model-org">ZAI</span>
+          <span class="model-name">GLM-5.2</span>
+          <span class="model-tier">B</span>
+        </div>
+        <span class="model-buzz">X 热议：中文技术社区关注，被视为国内可用的 Claude 替代，但海外讨论度有限</span>
       </div>
       <!-- MODELS:END -->
       </div>

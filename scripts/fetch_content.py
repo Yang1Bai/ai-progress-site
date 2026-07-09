@@ -411,6 +411,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - name (模型名称), org (机构全名), org_short (机构缩写 2-4 字母大写)
    - release_date ("YYYY-MM-DD"), highlight (一句中文亮点 <20 字)
    - tier ("S" | "A" | "B"): S=顶级旗舰, A=强力, B=实用
+   - x_buzz (X/Twitter 社区对该模型的主流评价，一句话 <30 字，以"X 热议："开头)
 
 关键约束：
 - 必须基于 web_search 结果，不要编造不存在的论文或链接
@@ -426,7 +427,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
   "news": [{{ "title": "", "body": "...", "url": "https://...", "importance": "normal", "tags": ["#LLM"], "_freshness": "ok_YYYY-MM-DD" }}],
   "science": [{{ "title": "...", "body": "...", "url": "https://..." }}],
   "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
-  "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A" }}],
+  "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A", "x_buzz": "X 热议：..." }}],
   "benchmarks": [{{ "model": "...", "org": "...", "mmlu": "91.2", "math": "88.3", "humaneval": "91.2", "notes": "..." }}],
   "conferences": [{{ "name": "...", "event_type": "submission", "deadline": "YYYY-MM-DD", "url": "https://...", "days_left": 18 }}]
 }}
@@ -1050,10 +1051,14 @@ def render_models(items):
         tier = (it.get("tier") or "B").upper()
         if tier not in ("S", "A", "B"):
             tier = "B"
+        buzz = it.get("x_buzz", "")
+        buzz_html = f'\n        <span class="model-buzz">{escape_text(buzz)}</span>' if buzz else ""
         out.append(f'''      <div class="model-chip tier-{tier}">
-        <span class="model-org">{escape_text(it.get("org_short", ""))}</span>
-        <span class="model-name">{escape_text(it.get("name", ""))}</span>
-        <span class="model-tier">{tier}</span>
+        <div class="model-chip-header">
+          <span class="model-org">{escape_text(it.get("org_short", ""))}</span>
+          <span class="model-name">{escape_text(it.get("name", ""))}</span>
+          <span class="model-tier">{tier}</span>
+        </div>{buzz_html}
       </div>''')
     return "\n".join(out)
 
