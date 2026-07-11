@@ -5,48 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-10T14:14:58Z</updated>
+  <updated>2026-07-11T13:10:51Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月10日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-10.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-10.html</id>
-    <updated>2026-07-10T14:14:58Z</updated>
+    <title>每日汇总 2026年7月11日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-11.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-11.html</id>
+    <updated>2026-07-11T13:10:51Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 于7月9日正式发布 GPT-5.6 Sol、Terra、Luna 三款模型，Sol在代理编码任务上比竞品节省54%token成本，经过与美国政府数…</title>
-    <link href="https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html"/>
-    <id>https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html</id>
-    <updated>2026-07-10T14:14:58Z</updated>
-    <summary>OpenAI 于7月9日正式发布 GPT-5.6 Sol、Terra、Luna 三款模型，Sol在代理编码任务上比竞品节省54%token成本，经过与美国政府数周协商后全面上线</summary>
+    <title>OpenAI 正式发布 GPT-5.6 系列（Sol/Terra/Luna），经美国政府安全审查后于 7 月 9 日全球上线，Sol 擅长生物、化学与网络安全任…</title>
+    <link href="https://www.nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651/"/>
+    <id>https://www.nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651/</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>OpenAI 正式发布 GPT-5.6 系列（Sol/Terra/Luna），经美国政府安全审查后于 7 月 9 日全球上线，Sol 擅长生物、化学与网络安全任务。</summary>
   </entry>
   <entry>
-    <title>xAI 的 Grok 4.5 同日发布，与GPT-5.6形成AI史上首次多家前沿模型同日公开发布的局面，独立评测显示Grok 4.5排名第四…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026</id>
-    <updated>2026-07-10T14:14:58Z</updated>
-    <summary>xAI 的 Grok 4.5 同日发布，与GPT-5.6形成AI史上首次多家前沿模型同日公开发布的局面，独立评测显示Grok 4.5排名第四</summary>
+    <title>xAI 于 7 月 8 日发布 Grok 4.5，面向编码与智能体工作流优化，定价为 2 美元/6 美元每百万 token，SpaceX 与特斯拉内测。…</title>
+    <link href="https://felloai.com/best-ai-models/"/>
+    <id>https://felloai.com/best-ai-models/</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>xAI 于 7 月 8 日发布 Grok 4.5，面向编码与智能体工作流优化，定价为 2 美元/6 美元每百万 token，SpaceX 与特斯拉内测。</summary>
   </entry>
   <entry>
-    <title>Meta 宣布将从9月开始生产定制AI芯片，计划2027年将算力提升至14千兆瓦，并推出 Muse Spark 1.1 平台，定位为代理和编码任务的最强模型…</title>
-    <link href="https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html"/>
-    <id>https://finance.yahoo.com/markets/stocks/articles/stock-market-news-july-10-075400187.html</id>
-    <updated>2026-07-10T14:14:58Z</updated>
-    <summary>Meta 宣布将从9月开始生产定制AI芯片，计划2027年将算力提升至14千兆瓦，并推出 Muse Spark 1.1 平台，定位为代理和编码任务的最强模型</summary>
+    <title>OpenAI 于 7 月 9 日推出 ChatGPT Work，一个多步骤自主智能体工作空间，可跨应用收集信息、自动完成表格与文档生成。…</title>
+    <link href="https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/"/>
+    <id>https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>OpenAI 于 7 月 9 日推出 ChatGPT Work，一个多步骤自主智能体工作空间，可跨应用收集信息、自动完成表格与文档生成。</summary>
   </entry>
   <entry>
-    <title>Google Gemini 3.5 Pro 延期发布已超6周，原定6月30日GA目标未达成，目前仅在Vertex AI企业预览版中有限可用，面临与GPT-5.6…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-10-2026</id>
-    <updated>2026-07-10T14:14:58Z</updated>
-    <summary>Google Gemini 3.5 Pro 延期发布已超6周，原定6月30日GA目标未达成，目前仅在Vertex AI企业预览版中有限可用，面临与GPT-5.6和Grok 4.5的激烈竞争</summary>
+    <title>日本 宣布成立 Noetra 联盟（SoftBank/Sony/NEC/Honda），获政府 387 亿日元（24 亿美元）资助，聚焦物理 AI 与机器人。…</title>
+    <link href="https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/"/>
+    <id>https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>日本 宣布成立 Noetra 联盟（SoftBank/Sony/NEC/Honda），获政府 387 亿日元（24 亿美元）资助，聚焦物理 AI 与机器人。</summary>
   </entry>
   <entry>
-    <title>伊利诺伊州州长于本周签署 AI安全措施法案，纽约州通过儿童聊天机器人安全法案、AI训练数据透明法案及数据中心暂停令，加州立法者进入夏季休会…</title>
-    <link href="https://www.transparencycoalition.ai/news/ai-legislative-update-july10-2026"/>
-    <id>https://www.transparencycoalition.ai/news/ai-legislative-update-july10-2026</id>
-    <updated>2026-07-10T14:14:58Z</updated>
-    <summary>伊利诺伊州州长于本周签署 AI安全措施法案，纽约州通过儿童聊天机器人安全法案、AI训练数据透明法案及数据中心暂停令，加州立法者进入夏季休会</summary>
+    <title>Meta 于 7 月 9 日发布 Muse Spark 1.1，首款商业 API 模型，支持编码、推理、工具使用与多模态理解，定价低于 Anthropic 高端…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>Meta 于 7 月 9 日发布 Muse Spark 1.1，首款商业 API 模型，支持编码、推理、工具使用与多模态理解，定价低于 Anthropic 高端模型。</summary>
+  </entry>
+  <entry>
+    <title>ByteDance 发布 Seedream 5.0 Pro，支持多语言文本渲染、精确图像编辑与信息图生成，中国公司调整以符合 7 月 15 日生效的拟人化 AI…</title>
+    <link href="https://techstartups.com/2026/07/10/top-tech-news-today-july-8-2026-todays-biggest-ai-tech-stories-from-meta-openai-microsoft-bytedance-more/"/>
+    <id>https://techstartups.com/2026/07/10/top-tech-news-today-july-8-2026-todays-biggest-ai-tech-stories-from-meta-openai-microsoft-bytedance-more/</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>ByteDance 发布 Seedream 5.0 Pro，支持多语言文本渲染、精确图像编辑与信息图生成，中国公司调整以符合 7 月 15 日生效的拟人化 AI 法规。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 发布全局工作空间研究（7 月 6 日），在 Claude 内发现类似人类意识的&quot;思维舞台&quot;，可读取模型未说出的想法。…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-july-10-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-july-10-2026</id>
+    <updated>2026-07-11T13:10:51Z</updated>
+    <summary>Anthropic 发布全局工作空间研究（7 月 6 日），在 Claude 内发现类似人类意识的&quot;思维舞台&quot;，可读取模型未说出的想法。</summary>
   </entry>
 </feed>
