@@ -5,83 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-12T13:12:27Z</updated>
+  <updated>2026-07-13T14:26:34Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月12日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-12.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-12.html</id>
-    <updated>2026-07-12T13:12:27Z</updated>
+    <title>每日汇总 2026年7月13日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-13.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-13.html</id>
+    <updated>2026-07-13T14:26:34Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>苹果起诉 OpenAI 窃取商业机密，诉状称超过 400 名前苹果员工 现在 OpenAI 任职，指控 OpenAI 招募硅谷工程和硬件设计团队为协同提取机密技…</title>
+    <title>苹果于7月11日起诉 OpenAI，指控其挖走超过400名苹果员工（多来自芯片与设备端 AI 团队）涉嫌商业机密盗窃，标志硅谷 AI 合作框架瓦解…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>苹果起诉 OpenAI 窃取商业机密，诉状称超过 400 名前苹果员工 现在 OpenAI 任职，指控 OpenAI 招募硅谷工程和硬件设计团队为协同提取机密技术行为，案件在 OpenAI 计划 IPO 前数周提起。</summary>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>苹果于7月11日起诉 OpenAI，指控其挖走超过400名苹果员工（多来自芯片与设备端 AI 团队）涉嫌商业机密盗窃，标志硅谷 AI 合作框架瓦解</summary>
   </entry>
   <entry>
-    <title>OpenAI GPT-5.6 三层模型家族于 7 月 9 日全面开放，Terra 在 Terminal-Bench 2.1 达 84.3% 匹配 Claude …</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>OpenAI GPT-5.6 三层模型家族于 7 月 9 日全面开放，Terra 在 Terminal-Bench 2.1 达 84.3% 匹配 Claude Fable 5 性能但成本减半，Sol Ultra 一小时内证明了 50 年未解的循环双覆盖猜想。</summary>
-  </entry>
-  <entry>
-    <title>SK Hynix 7 月 10 日纳斯达克 ADR 上市首日涨 13% 报 168.01 美元，市值突破 1 万亿美元，筹资 265 亿美元成史上最大外国公司美…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>SK Hynix 7 月 10 日纳斯达克 ADR 上市首日涨 13% 报 168.01 美元，市值突破 1 万亿美元，筹资 265 亿美元成史上最大外国公司美国 IPO，公司控制全球约 60% 高带宽内存市场份额。</summary>
-  </entry>
-  <entry>
-    <title>美联储任命 a16z 联合创始人 Marc Andreessen 共同领导新成立的 AI 影响工作组，研究 AI 对就业、生产率与货币政策的影响，这是美联储首个…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>美联储任命 a16z 联合创始人 Marc Andreessen 共同领导新成立的 AI 影响工作组，研究 AI 对就业、生产率与货币政策的影响，这是美联储首个专门针对 AI 经济效应的正式机构。</summary>
-  </entry>
-  <entry>
-    <title>中国 AI 模型 占美国企业 API 代币使用量的 30-46%，OpenRouter 数据显示自 2 月起中国模型份额每周超 30%，Z.ai 的 GLM-5…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>中国 AI 模型 占美国企业 API 代币使用量的 30-46%，OpenRouter 数据显示自 2 月起中国模型份额每周超 30%，Z.ai 的 GLM-5.2 在 Vercel 首周客户增长 80 倍，价格比西方前沿模型低 60-90%。</summary>
-  </entry>
-  <entry>
-    <title>xAI Grok 4.5 于 7 月 8 日发布，在 Terminal-Bench 2.1 编码基准上显示增强的编码、Agent 与知识工作能力，成为价格性能比…</title>
-    <link href="https://futuretools.io/news"/>
-    <id>https://futuretools.io/news</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>xAI Grok 4.5 于 7 月 8 日发布，在 Terminal-Bench 2.1 编码基准上显示增强的编码、Agent 与知识工作能力，成为价格性能比最优模型之一。</summary>
-  </entry>
-  <entry>
-    <title>Google 发布 Nano Banana 2 Lite 图像生成模型，4 秒内生成图像，起价每千张 0.034 美元，同周推出 OmniFlash 视频生成模…</title>
-    <link href="https://thursdai.news/releases/2026-07"/>
-    <id>https://thursdai.news/releases/2026-07</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>Google 发布 Nano Banana 2 Lite 图像生成模型，4 秒内生成图像，起价每千张 0.034 美元，同周推出 OmniFlash 视频生成模型支持多轮对话编辑，Interactions API 同步上线。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic Claude Sonnet 5 于 6 月 30 日发布，接近 Opus 4.8 性能但限时定价仅 2/10 美元 每百万代币（8 月 31…</title>
-    <link href="https://thursdai.news/releases/2026-07"/>
-    <id>https://thursdai.news/releases/2026-07</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>Anthropic Claude Sonnet 5 于 6 月 30 日发布，接近 Opus 4.8 性能但限时定价仅 2/10 美元 每百万代币（8 月 31 日前），新分词器可能消耗多 35% 代币。</summary>
-  </entry>
-  <entry>
-    <title>Google 非洲应用 AI 实验室 于 7 月启动，总部位于阿克拉，为非洲研究者和创业者提供 AI 技术早期访问和直接技术指导，旨在加速针对非洲独特挑战的 A…</title>
+    <title>Gemini 3.5 Pro 据泄露计划将于7月17日正式发布，配备200万 token 上下文窗口（市场最大）与 Deep Think 推理模式，API 定价…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>Google 非洲应用 AI 实验室 于 7 月启动，总部位于阿克拉，为非洲研究者和创业者提供 AI 技术早期访问和直接技术指导，旨在加速针对非洲独特挑战的 AI 解决方案开发。</summary>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>Gemini 3.5 Pro 据泄露计划将于7月17日正式发布，配备200万 token 上下文窗口（市场最大）与 Deep Think 推理模式，API 定价约$1.25/百万输入 token</summary>
   </entry>
   <entry>
-    <title>Mistral 发布 Leanstral 1.5，使用 Lean 4 提供软件数学证明，证明代码按预期行为，强基准结果显示关键系统形式化软件验证取得重大进展。…</title>
+    <title>Meta 宣布到2027年将计算能力翻倍，并在加拿大阿尔伯塔建设1GW（10亿瓦）AI 数据中心，其定制芯片 Iris 将于9月投产…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-12T13:12:27Z</updated>
-    <summary>Mistral 发布 Leanstral 1.5，使用 Lean 4 提供软件数学证明，证明代码按预期行为，强基准结果显示关键系统形式化软件验证取得重大进展。</summary>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>Meta 宣布到2027年将计算能力翻倍，并在加拿大阿尔伯塔建设1GW（10亿瓦）AI 数据中心，其定制芯片 Iris 将于9月投产</summary>
+  </entry>
+  <entry>
+    <title>OpenAI GPT-5.6 系列（Sol/Terra/Luna）于7月9日正式向全球开放，Sol 为旗舰版专攻生物、化学与网络安全，Terra 成本减半…</title>
+    <link href="https://buildez.ai/blog/ai-new-model-july-2026-developments"/>
+    <id>https://buildez.ai/blog/ai-new-model-july-2026-developments</id>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>OpenAI GPT-5.6 系列（Sol/Terra/Luna）于7月9日正式向全球开放，Sol 为旗舰版专攻生物、化学与网络安全，Terra 成本减半</summary>
+  </entry>
+  <entry>
+    <title>Anthropic Claude Sonnet 5 于6月30日发布，在代码任务上达到 SWE-Bench Pro 63.2%，接近 Opus 4.8 的69.…</title>
+    <link href="https://felloai.com/best-ai-models/"/>
+    <id>https://felloai.com/best-ai-models/</id>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>Anthropic Claude Sonnet 5 于6月30日发布，在代码任务上达到 SWE-Bench Pro 63.2%，接近 Opus 4.8 的69.2%，推广期定价$2/$10每百万 token（8月31日前）</summary>
+  </entry>
+  <entry>
+    <title>中国考虑限制DeepSeek 等顶级 AI 模型的海外访问，反映出 AI 出口管制双向化趋势…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-13T14:26:34Z</updated>
+    <summary>中国考虑限制DeepSeek 等顶级 AI 模型的海外访问，反映出 AI 出口管制双向化趋势</summary>
   </entry>
 </feed>
