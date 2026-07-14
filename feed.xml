@@ -5,55 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-13T14:26:34Z</updated>
+  <updated>2026-07-14T13:31:29Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月13日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-13.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-13.html</id>
-    <updated>2026-07-13T14:26:34Z</updated>
+    <title>每日汇总 2026年7月14日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-14.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-14.html</id>
+    <updated>2026-07-14T13:31:29Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>苹果于7月11日起诉 OpenAI，指控其挖走超过400名苹果员工（多来自芯片与设备端 AI 团队）涉嫌商业机密盗窃，标志硅谷 AI 合作框架瓦解…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>苹果于7月11日起诉 OpenAI，指控其挖走超过400名苹果员工（多来自芯片与设备端 AI 团队）涉嫌商业机密盗窃，标志硅谷 AI 合作框架瓦解</summary>
+    <title>OpenAI 向美国政府提议以852亿美元估值持有公司5%股份（价值426亿美元），并建议所有美国AI公司建立类似阿拉斯加永久基金的主权基金。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>OpenAI 向美国政府提议以852亿美元估值持有公司5%股份（价值426亿美元），并建议所有美国AI公司建立类似阿拉斯加永久基金的主权基金。</summary>
   </entry>
   <entry>
-    <title>Gemini 3.5 Pro 据泄露计划将于7月17日正式发布，配备200万 token 上下文窗口（市场最大）与 Deep Think 推理模式，API 定价…</title>
+    <title>Google Gemini 3.5 Pro 预计7月17日发布，同日上海2026世界人工智能大会开幕，习近平主席将首次亲临，东西方AI里程碑事件同日登场。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>Google Gemini 3.5 Pro 预计7月17日发布，同日上海2026世界人工智能大会开幕，习近平主席将首次亲临，东西方AI里程碑事件同日登场。</summary>
+  </entry>
+  <entry>
+    <title>SK Hynix 于7月9日在纳斯达克完成史上最大外国公司美股发行，融资265亿美元，加速AI芯片产能扩张。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>Gemini 3.5 Pro 据泄露计划将于7月17日正式发布，配备200万 token 上下文窗口（市场最大）与 Deep Think 推理模式，API 定价约$1.25/百万输入 token</summary>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>SK Hynix 于7月9日在纳斯达克完成史上最大外国公司美股发行，融资265亿美元，加速AI芯片产能扩张。</summary>
   </entry>
   <entry>
-    <title>Meta 宣布到2027年将计算能力翻倍，并在加拿大阿尔伯塔建设1GW（10亿瓦）AI 数据中心，其定制芯片 Iris 将于9月投产…</title>
+    <title>Anthropic Claude Fable 5 访问延长至7月19日（第三次延期），应对GPT-5.6 Sol竞争压力，Code weekly限额保持50%上…</title>
+    <link href="https://llm-stats.com/ai-news"/>
+    <id>https://llm-stats.com/ai-news</id>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>Anthropic Claude Fable 5 访问延长至7月19日（第三次延期），应对GPT-5.6 Sol竞争压力，Code weekly限额保持50%上调。</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind CEO 哈萨比斯呼吁美国建立AI监管机构，警告18个月内网络、生物、核威胁能力可能进入开源模型，需系统性干预。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>Meta 宣布到2027年将计算能力翻倍，并在加拿大阿尔伯塔建设1GW（10亿瓦）AI 数据中心，其定制芯片 Iris 将于9月投产</summary>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>Google DeepMind CEO 哈萨比斯呼吁美国建立AI监管机构，警告18个月内网络、生物、核威胁能力可能进入开源模型，需系统性干预。</summary>
   </entry>
   <entry>
-    <title>OpenAI GPT-5.6 系列（Sol/Terra/Luna）于7月9日正式向全球开放，Sol 为旗舰版专攻生物、化学与网络安全，Terra 成本减半…</title>
-    <link href="https://buildez.ai/blog/ai-new-model-july-2026-developments"/>
-    <id>https://buildez.ai/blog/ai-new-model-july-2026-developments</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>OpenAI GPT-5.6 系列（Sol/Terra/Luna）于7月9日正式向全球开放，Sol 为旗舰版专攻生物、化学与网络安全，Terra 成本减半</summary>
+    <title>Anthropic Claude Code 新增内置浏览器，AI可直接打开、阅读并与网页交互，外部站点写操作经分类器筛查。…</title>
+    <link href="https://llm-stats.com/ai-news"/>
+    <id>https://llm-stats.com/ai-news</id>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>Anthropic Claude Code 新增内置浏览器，AI可直接打开、阅读并与网页交互，外部站点写操作经分类器筛查。</summary>
   </entry>
   <entry>
-    <title>Anthropic Claude Sonnet 5 于6月30日发布，在代码任务上达到 SWE-Bench Pro 63.2%，接近 Opus 4.8 的69.…</title>
-    <link href="https://felloai.com/best-ai-models/"/>
-    <id>https://felloai.com/best-ai-models/</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>Anthropic Claude Sonnet 5 于6月30日发布，在代码任务上达到 SWE-Bench Pro 63.2%，接近 Opus 4.8 的69.2%，推广期定价$2/$10每百万 token（8月31日前）</summary>
-  </entry>
-  <entry>
-    <title>中国考虑限制DeepSeek 等顶级 AI 模型的海外访问，反映出 AI 出口管制双向化趋势…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-13T14:26:34Z</updated>
-    <summary>中国考虑限制DeepSeek 等顶级 AI 模型的海外访问，反映出 AI 出口管制双向化趋势</summary>
+    <title>中国字节Seedream、阿里等图像视频生成模型在前沿竞争，高盛开始向华尔街客户正式推荐中国AI模型。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
+    <updated>2026-07-14T13:31:29Z</updated>
+    <summary>中国字节Seedream、阿里等图像视频生成模型在前沿竞争，高盛开始向华尔街客户正式推荐中国AI模型。</summary>
   </entry>
 </feed>
