@@ -5,62 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-15T13:29:16Z</updated>
+  <updated>2026-07-16T13:43:07Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月15日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-15.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-15.html</id>
-    <updated>2026-07-15T13:29:16Z</updated>
+    <title>每日汇总 2026年7月16日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-16.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-16.html</id>
+    <updated>2026-07-16T13:43:07Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>台积电（TSMC）公布历史纪录营收：Q2 达 396 亿美元，6 月同比增长 68%，N3 制程产能已售罄至年底，证实 AI 芯片需求持续爆发式增长。…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>台积电（TSMC）公布历史纪录营收：Q2 达 396 亿美元，6 月同比增长 68%，N3 制程产能已售罄至年底，证实 AI 芯片需求持续爆发式增长。</summary>
+    <title>NVIDIA 与日本政府、Noetra 公司宣布建设全球首个国家级 AI 基础设施，部署 13,750 个 Vera CPU 和 27,500 个 Rubin …</title>
+    <link href="https://www.globenewswire.com/news-release/2026/07/16/3328258/0/en/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.html"/>
+    <id>https://www.globenewswire.com/news-release/2026/07/16/3328258/0/en/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.html</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>NVIDIA 与日本政府、Noetra 公司宣布建设全球首个国家级 AI 基础设施，部署 13,750 个 Vera CPU 和 27,500 个 Rubin GPU，支持日本 FRONTia 多模态基础模型项目</summary>
   </entry>
   <entry>
-    <title>Anthropic 与三星展开早期谈判，拟定制 Claude 推理芯片，直接对抗其每月 12.5 亿美元的算力成本，有望大幅降低运营开支为 IPO 铺路。…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>Anthropic 与三星展开早期谈判，拟定制 Claude 推理芯片，直接对抗其每月 12.5 亿美元的算力成本，有望大幅降低运营开支为 IPO 铺路。</summary>
+    <title>Anthropic、Blackstone 和 Hellman &amp; Friedman 正式推出 Ode with Anthropic，这是一家价值 15 亿美元的…</title>
+    <link href="https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"/>
+    <id>https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>Anthropic、Blackstone 和 Hellman &amp; Friedman 正式推出 Ode with Anthropic，这是一家价值 15 亿美元的 AI 实施服务公司，帮助企业部署 AI 代理和集成系统</summary>
   </entry>
   <entry>
-    <title>Google在 Cloud Next '26 发布 Gemini Enterprise 平台，提供企业级 AI agent 编排与治理工具，正面对标 OpenA…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>Google在 Cloud Next '26 发布 Gemini Enterprise 平台，提供企业级 AI agent 编排与治理工具，正面对标 OpenAI ChatGPT Work 和 Anthropic 企业栈。</summary>
+    <title>Future of Life Institute 发布 2026 AI 安全指数，Anthropic 获最高等级 C+，OpenAI 和 DeepMind 获 …</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>Future of Life Institute 发布 2026 AI 安全指数，Anthropic 获最高等级 C+，OpenAI 和 DeepMind 获 C，Meta 获 D+，xAI、DeepSeek 和 Mistral 不及格</summary>
   </entry>
   <entry>
-    <title>OpenAI 提议向美国政府出让 5% 股权（价值约 426 亿美元），Sam Altman 直接向特朗普、商务部长和财政部长推介，以换取战略支持并为 IPO …</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>OpenAI 提议向美国政府出让 5% 股权（价值约 426 亿美元），Sam Altman 直接向特朗普、商务部长和财政部长推介，以换取战略支持并为 IPO 布局。</summary>
+    <title>Sam Altman 警告 GPT-5.6 Sol 因需求激增可能面临扩展性问题，表示&quot;可能很快会有一些小故障&quot;，但 OpenAI 将全力确保扩展能力…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>Sam Altman 警告 GPT-5.6 Sol 因需求激增可能面临扩展性问题，表示&quot;可能很快会有一些小故障&quot;，但 OpenAI 将全力确保扩展能力</summary>
   </entry>
   <entry>
-    <title>梵蒂冈 AI 峰会（7 月 14-16 日）汇聚 30 位诺贝尔奖得主、OpenAI/DeepMind/Anthropic 代表和 30 国领袖，讨论 AI 与…</title>
-    <link href="https://zenit.org/2026/07/13/here-is-what-the-vatican-summit-of-nobel-laureates-world-leaders-and-ai-experts-will-look-like/"/>
-    <id>https://zenit.org/2026/07/13/here-is-what-the-vatican-summit-of-nobel-laureates-world-leaders-and-ai-experts-will-look-like/</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>梵蒂冈 AI 峰会（7 月 14-16 日）汇聚 30 位诺贝尔奖得主、OpenAI/DeepMind/Anthropic 代表和 30 国领袖，讨论 AI 与核战争风险，将发布《罗马和平宣言》。</summary>
+    <title>IBM 警告称 AI 基础设施支出正在改变企业技术预算分配，导致第二季度收入和利润低于预期，传统软件厂商面临预算竞争压力…</title>
+    <link href="https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/"/>
+    <id>https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>IBM 警告称 AI 基础设施支出正在改变企业技术预算分配，导致第二季度收入和利润低于预期，传统软件厂商面临预算竞争压力</summary>
   </entry>
   <entry>
-    <title>习近平将首次亲临上海 2026 世界人工智能大会（7 月 17-20 日），这是自 2018 年大会创办以来首次出席，显示中国将 AI 领导权提升至最高国家战略…</title>
-    <link href="https://unrot.co/blogs/today-top-10-ai-news-july-14-2026"/>
-    <id>https://unrot.co/blogs/today-top-10-ai-news-july-14-2026</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>习近平将首次亲临上海 2026 世界人工智能大会（7 月 17-20 日），这是自 2018 年大会创办以来首次出席，显示中国将 AI 领导权提升至最高国家战略层级。</summary>
-  </entry>
-  <entry>
-    <title>2026 上半年全球创业融资达 5100 亿美元创纪录，AI 主导增长且高度集中：OpenAI 和 Anthropic 占比巨大，资本正在向少数 AI 巨头集中…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026</id>
-    <updated>2026-07-15T13:29:16Z</updated>
-    <summary>2026 上半年全球创业融资达 5100 亿美元创纪录，AI 主导增长且高度集中：OpenAI 和 Anthropic 占比巨大，资本正在向少数 AI 巨头集中而非分散。</summary>
+    <title>200+ 经济学家和 AI 研究者（含16位诺奖得主）7月13日发表斯坦福公开信&quot;We Must Act Now&quot;，警告 AI 可能在10年内以比工业革命更快的…</title>
+    <link href="https://digitaleconomy.stanford.edu/news/wemustactnow/"/>
+    <id>https://digitaleconomy.stanford.edu/news/wemustactnow/</id>
+    <updated>2026-07-16T13:43:07Z</updated>
+    <summary>200+ 经济学家和 AI 研究者（含16位诺奖得主）7月13日发表斯坦福公开信&quot;We Must Act Now&quot;，警告 AI 可能在10年内以比工业革命更快的速度重塑经济，呼吁立即建立治理框架</summary>
   </entry>
 </feed>
