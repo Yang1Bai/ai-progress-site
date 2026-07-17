@@ -5,55 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-16T13:43:07Z</updated>
+  <updated>2026-07-17T13:20:38Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月16日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-16.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-16.html</id>
-    <updated>2026-07-16T13:43:07Z</updated>
+    <title>每日汇总 2026年7月17日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-17.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-17.html</id>
+    <updated>2026-07-17T13:20:38Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>NVIDIA 与日本政府、Noetra 公司宣布建设全球首个国家级 AI 基础设施，部署 13,750 个 Vera CPU 和 27,500 个 Rubin …</title>
-    <link href="https://www.globenewswire.com/news-release/2026/07/16/3328258/0/en/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.html"/>
-    <id>https://www.globenewswire.com/news-release/2026/07/16/3328258/0/en/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.html</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>NVIDIA 与日本政府、Noetra 公司宣布建设全球首个国家级 AI 基础设施，部署 13,750 个 Vera CPU 和 27,500 个 Rubin GPU，支持日本 FRONTia 多模态基础模型项目</summary>
+    <title>月之暗面正式发布 Kimi K3，首个 3 万亿参数级开源模型（2.8T 有效参数，1M token 原生视觉上下文），完整权重将于 7 月 27 日发布。已在…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>月之暗面正式发布 Kimi K3，首个 3 万亿参数级开源模型（2.8T 有效参数，1M token 原生视觉上下文），完整权重将于 7 月 27 日发布。已在 Kimi 全系产品上线。</summary>
   </entry>
   <entry>
-    <title>Anthropic、Blackstone 和 Hellman &amp; Friedman 正式推出 Ode with Anthropic，这是一家价值 15 亿美元的…</title>
-    <link href="https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"/>
-    <id>https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>Anthropic、Blackstone 和 Hellman &amp; Friedman 正式推出 Ode with Anthropic，这是一家价值 15 亿美元的 AI 实施服务公司，帮助企业部署 AI 代理和集成系统</summary>
+    <title>29 国在上海签署协议成立世界人工智能合作组织（WAICO），独立政府间机构总部设在上海，联合国秘书长古特雷斯出席。俄罗斯、巴西、印尼、古巴等参与。…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>29 国在上海签署协议成立世界人工智能合作组织（WAICO），独立政府间机构总部设在上海，联合国秘书长古特雷斯出席。俄罗斯、巴西、印尼、古巴等参与。</summary>
   </entry>
   <entry>
-    <title>Future of Life Institute 发布 2026 AI 安全指数，Anthropic 获最高等级 C+，OpenAI 和 DeepMind 获 …</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>Future of Life Institute 发布 2026 AI 安全指数，Anthropic 获最高等级 C+，OpenAI 和 DeepMind 获 C，Meta 获 D+，xAI、DeepSeek 和 Mistral 不及格</summary>
+    <title>TSMC Q2 财报：营收暴涨 77.4% YoY 至 7066 亿新台币（约 220 亿美元），资本支出上调至 600-640 亿美元，宣布亚利桑那州再投 1…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>TSMC Q2 财报：营收暴涨 77.4% YoY 至 7066 亿新台币（约 220 亿美元），资本支出上调至 600-640 亿美元，宣布亚利桑那州再投 1000 亿美元（美国总承诺达 2650 亿）。</summary>
   </entry>
   <entry>
-    <title>Sam Altman 警告 GPT-5.6 Sol 因需求激增可能面临扩展性问题，表示&quot;可能很快会有一些小故障&quot;，但 OpenAI 将全力确保扩展能力…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>Sam Altman 警告 GPT-5.6 Sol 因需求激增可能面临扩展性问题，表示&quot;可能很快会有一些小故障&quot;，但 OpenAI 将全力确保扩展能力</summary>
+    <title>Google 将 NotebookLM 更名为 Gemini Notebook，为每个笔记本添加安全云计算环境，支持原生代码执行和数据分析，与 Gemini A…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>Google 将 NotebookLM 更名为 Gemini Notebook，为每个笔记本添加安全云计算环境，支持原生代码执行和数据分析，与 Gemini App 跨应用同步。</summary>
   </entry>
   <entry>
-    <title>IBM 警告称 AI 基础设施支出正在改变企业技术预算分配，导致第二季度收入和利润低于预期，传统软件厂商面临预算竞争压力…</title>
-    <link href="https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/"/>
-    <id>https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>IBM 警告称 AI 基础设施支出正在改变企业技术预算分配，导致第二季度收入和利润低于预期，传统软件厂商面临预算竞争压力</summary>
+    <title>苹果智能（Apple Intelligence）获中国网信办批准，使用阿里通义千问模型（百度亦参与），清除主要监管障碍。具体上线日期未公布。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>苹果智能（Apple Intelligence）获中国网信办批准，使用阿里通义千问模型（百度亦参与），清除主要监管障碍。具体上线日期未公布。</summary>
   </entry>
   <entry>
-    <title>200+ 经济学家和 AI 研究者（含16位诺奖得主）7月13日发表斯坦福公开信&quot;We Must Act Now&quot;，警告 AI 可能在10年内以比工业革命更快的…</title>
-    <link href="https://digitaleconomy.stanford.edu/news/wemustactnow/"/>
-    <id>https://digitaleconomy.stanford.edu/news/wemustactnow/</id>
-    <updated>2026-07-16T13:43:07Z</updated>
-    <summary>200+ 经济学家和 AI 研究者（含16位诺奖得主）7月13日发表斯坦福公开信&quot;We Must Act Now&quot;，警告 AI 可能在10年内以比工业革命更快的速度重塑经济，呼吁立即建立治理框架</summary>
+    <title>PrismML 发布 Bonsai 27B，将 270 亿参数模型压缩至 3.9GB，可在 iPhone 17 Pro 上以约 11 token/s 运行，1-…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>PrismML 发布 Bonsai 27B，将 270 亿参数模型压缩至 3.9GB，可在 iPhone 17 Pro 上以约 11 token/s 运行，1-bit 版本保留 90% 以上性能（Apache 2.0 许可）。</summary>
+  </entry>
+  <entry>
+    <title>超 200 名经济学家和 AI 研究者（含 16 位诺奖得主）发布公开信，呼吁各国政府立即为 AI 经济冲击做准备，警告变革规模超工业革命但展开速度更快。…</title>
+    <link href="https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact"/>
+    <id>https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact</id>
+    <updated>2026-07-17T13:20:38Z</updated>
+    <summary>超 200 名经济学家和 AI 研究者（含 16 位诺奖得主）发布公开信，呼吁各国政府立即为 AI 经济冲击做准备，警告变革规模超工业革命但展开速度更快。</summary>
   </entry>
 </feed>
