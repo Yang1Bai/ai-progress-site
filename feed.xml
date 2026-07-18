@@ -5,62 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-17T13:20:38Z</updated>
+  <updated>2026-07-18T13:06:39Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月17日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-17.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-17.html</id>
-    <updated>2026-07-17T13:20:38Z</updated>
+    <title>每日汇总 2026年7月18日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-18.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-18.html</id>
+    <updated>2026-07-18T13:06:39Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>月之暗面正式发布 Kimi K3，首个 3 万亿参数级开源模型（2.8T 有效参数，1M token 原生视觉上下文），完整权重将于 7 月 27 日发布。已在…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>月之暗面正式发布 Kimi K3，首个 3 万亿参数级开源模型（2.8T 有效参数，1M token 原生视觉上下文），完整权重将于 7 月 27 日发布。已在 Kimi 全系产品上线。</summary>
+    <title>中国月之暗面发布Kimi K3，首个3万亿参数开源模型，性能接近Claude Fable 5，引发美股科技板块暴跌，纳指跌1.4%，台股跌超6%…</title>
+    <link href="https://www.cnn.com/2026/07/17/investing/us-stocks-asia"/>
+    <id>https://www.cnn.com/2026/07/17/investing/us-stocks-asia</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>中国月之暗面发布Kimi K3，首个3万亿参数开源模型，性能接近Claude Fable 5，引发美股科技板块暴跌，纳指跌1.4%，台股跌超6%</summary>
   </entry>
   <entry>
-    <title>29 国在上海签署协议成立世界人工智能合作组织（WAICO），独立政府间机构总部设在上海，联合国秘书长古特雷斯出席。俄罗斯、巴西、印尼、古巴等参与。…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>29 国在上海签署协议成立世界人工智能合作组织（WAICO），独立政府间机构总部设在上海，联合国秘书长古特雷斯出席。俄罗斯、巴西、印尼、古巴等参与。</summary>
+    <title>习近平宣布29国在上海签署协议成立世界人工智能合作组织（WAICO），包括俄罗斯、巴西、巴基斯坦等，联合国秘书长古特雷斯出席…</title>
+    <link href="https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it"/>
+    <id>https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>习近平宣布29国在上海签署协议成立世界人工智能合作组织（WAICO），包括俄罗斯、巴西、巴基斯坦等，联合国秘书长古特雷斯出席</summary>
   </entry>
   <entry>
-    <title>TSMC Q2 财报：营收暴涨 77.4% YoY 至 7066 亿新台币（约 220 亿美元），资本支出上调至 600-640 亿美元，宣布亚利桑那州再投 1…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>TSMC Q2 财报：营收暴涨 77.4% YoY 至 7066 亿新台币（约 220 亿美元），资本支出上调至 600-640 亿美元，宣布亚利桑那州再投 1000 亿美元（美国总承诺达 2650 亿）。</summary>
+    <title>TSMC发布Q2财报利润同比激增77.4%至220亿美元，宣布亚利桑那州再投1000亿美元，AI芯片营收占比达66%，全年收入指引上调至40%+增长…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>TSMC发布Q2财报利润同比激增77.4%至220亿美元，宣布亚利桑那州再投1000亿美元，AI芯片营收占比达66%，全年收入指引上调至40%+增长</summary>
   </entry>
   <entry>
-    <title>Google 将 NotebookLM 更名为 Gemini Notebook，为每个笔记本添加安全云计算环境，支持原生代码执行和数据分析，与 Gemini A…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>Google 将 NotebookLM 更名为 Gemini Notebook，为每个笔记本添加安全云计算环境，支持原生代码执行和数据分析，与 Gemini App 跨应用同步。</summary>
+    <title>OpenAI、Anthropic、Google DeepMind三家CEO首次在书面文件上就AI监管框架达成共识，均支持独立第三方测试、统一监管体系及美国主导国…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>OpenAI、Anthropic、Google DeepMind三家CEO首次在书面文件上就AI监管框架达成共识，均支持独立第三方测试、统一监管体系及美国主导国际标准</summary>
   </entry>
   <entry>
-    <title>苹果智能（Apple Intelligence）获中国网信办批准，使用阿里通义千问模型（百度亦参与），清除主要监管障碍。具体上线日期未公布。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>苹果智能（Apple Intelligence）获中国网信办批准，使用阿里通义千问模型（百度亦参与），清除主要监管障碍。具体上线日期未公布。</summary>
+    <title>美国旧金山爆发最大规模反AI开发抗议，100-350人游行至OpenAI、Anthropic和Google办公室，要求暂停前沿AI开发…</title>
+    <link href="https://www.yahoo.com/news/politics/articles/protesters-march-openai-anthropic-google-221105906.html"/>
+    <id>https://www.yahoo.com/news/politics/articles/protesters-march-openai-anthropic-google-221105906.html</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>美国旧金山爆发最大规模反AI开发抗议，100-350人游行至OpenAI、Anthropic和Google办公室，要求暂停前沿AI开发</summary>
   </entry>
   <entry>
-    <title>PrismML 发布 Bonsai 27B，将 270 亿参数模型压缩至 3.9GB，可在 iPhone 17 Pro 上以约 11 token/s 运行，1-…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>PrismML 发布 Bonsai 27B，将 270 亿参数模型压缩至 3.9GB，可在 iPhone 17 Pro 上以约 11 token/s 运行，1-bit 版本保留 90% 以上性能（Apache 2.0 许可）。</summary>
-  </entry>
-  <entry>
-    <title>超 200 名经济学家和 AI 研究者（含 16 位诺奖得主）发布公开信，呼吁各国政府立即为 AI 经济冲击做准备，警告变革规模超工业革命但展开速度更快。…</title>
-    <link href="https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact"/>
-    <id>https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact</id>
-    <updated>2026-07-17T13:20:38Z</updated>
-    <summary>超 200 名经济学家和 AI 研究者（含 16 位诺奖得主）发布公开信，呼吁各国政府立即为 AI 经济冲击做准备，警告变革规模超工业革命但展开速度更快。</summary>
+    <title>Google第三次推迟Gemini 3.5 Pro发布，内部因性能缺陷探索推出Gemini 3.6 Flash过渡版本…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx</id>
+    <updated>2026-07-18T13:06:39Z</updated>
+    <summary>Google第三次推迟Gemini 3.5 Pro发布，内部因性能缺陷探索推出Gemini 3.6 Flash过渡版本</summary>
   </entry>
 </feed>
