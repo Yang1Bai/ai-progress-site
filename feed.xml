@@ -5,69 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-19T13:09:48Z</updated>
+  <updated>2026-07-20T13:58:56Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月19日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-19.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-19.html</id>
-    <updated>2026-07-19T13:09:48Z</updated>
+    <title>每日汇总 2026年7月20日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-20.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-20.html</id>
+    <updated>2026-07-20T13:58:56Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 于7月9日正式发布 GPT-5.6 系列（Sol/Terra/Luna），其中 Sol 在网络安全基准上达到前沿性能、使用更少 token，Ter…</title>
-    <link href="https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/"/>
-    <id>https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>OpenAI 于7月9日正式发布 GPT-5.6 系列（Sol/Terra/Luna），其中 Sol 在网络安全基准上达到前沿性能、使用更少 token，Terra 提供 GPT-5.5 级能力、成本减半，Luna 专注快速低成本高吞吐。</summary>
+    <title>欧盟通过《数字市场法》强制令，要求 Google 开放 Android 系统给竞争 AI 助手，并向竞争者共享搜索数据，搜索数据共享2027年1月生效，Andr…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>欧盟通过《数字市场法》强制令，要求 Google 开放 Android 系统给竞争 AI 助手，并向竞争者共享搜索数据，搜索数据共享2027年1月生效，Android 互操作性2027年7月实现</summary>
   </entry>
   <entry>
-    <title>Meta 发布 Muse Spark 1.1，具备100万 token 上下文、跨桌面/浏览器/移动端计算机使用能力和并行子代理委派，在 MCP Atlas、J…</title>
-    <link href="https://thursdai.news/releases/2026-07"/>
-    <id>https://thursdai.news/releases/2026-07</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>Meta 发布 Muse Spark 1.1，具备100万 token 上下文、跨桌面/浏览器/移动端计算机使用能力和并行子代理委派，在 MCP Atlas、JobBench 和 Finance Agent V2 上排名第一，首次推出付费开发者 API。</summary>
+    <title>中国 2026世界人工智能大会 7月20日在上海闭幕，习近平发表首次主旨演讲，29国成立世界人工智能合作组织（WAICO），华为展示 Atlas 950 超算集…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>中国 2026世界人工智能大会 7月20日在上海闭幕，习近平发表首次主旨演讲，29国成立世界人工智能合作组织（WAICO），华为展示 Atlas 950 超算集群</summary>
   </entry>
   <entry>
-    <title>Anthropic 于7月1日全球恢复 Fable 5 和 Mythos 5 访问，此前因美国出口管制暂停19天。新增「最强网络安全防护措施」，无需身份验证，但…</title>
-    <link href="https://thursdai.news/releases/2026-07"/>
-    <id>https://thursdai.news/releases/2026-07</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>Anthropic 于7月1日全球恢复 Fable 5 和 Mythos 5 访问，此前因美国出口管制暂停19天。新增「最强网络安全防护措施」，无需身份验证，但新内容过滤器可能临时阻止部分常规编码任务。</summary>
+    <title>Hugging Face 披露上周遭 agentic AI 驱动的入侵攻击，蓝队尝试用商业 API 模型分析攻击载荷，但被提供商安全防护拦截，最终改用 GLM …</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>Hugging Face 披露上周遭 agentic AI 驱动的入侵攻击，蓝队尝试用商业 API 模型分析攻击载荷，但被提供商安全防护拦截，最终改用 GLM 5.2 完成分析</summary>
   </entry>
   <entry>
-    <title>Anthropic 推出 Claude Sonnet 5，在 SWE-Bench Pro 上得分63.2%，接近 Opus 4.8 的69.2%，引入价格为每百…</title>
-    <link href="https://buildez.ai/blog/ai-new-model-july-2026-developments"/>
-    <id>https://buildez.ai/blog/ai-new-model-july-2026-developments</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>Anthropic 推出 Claude Sonnet 5，在 SWE-Bench Pro 上得分63.2%，接近 Opus 4.8 的69.2%，引入价格为每百万 token $2/$10（至8月31日），之后上调至 $3/$15，原生支持100万 token 上下文窗口。</summary>
+    <title>Current AI（CEO Ayah Bdeir）获得 4亿美元 承诺融资，其中法国政府投资1亿美元，福特基金会、MacArthur 基金会、DeepMind…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>Current AI（CEO Ayah Bdeir）获得 4亿美元 承诺融资，其中法国政府投资1亿美元，福特基金会、MacArthur 基金会、DeepMind 和 Salesforce 参投</summary>
   </entry>
   <entry>
-    <title>xAI 发布 Grok 4.5，1.5万亿参数 MoE 架构，在 Terminal-Bench 2.1 上得分83.3%、输出 token 数仅为 Opus 4…</title>
-    <link href="https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches/"/>
-    <id>https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches/</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>xAI 发布 Grok 4.5，1.5万亿参数 MoE 架构，在 Terminal-Bench 2.1 上得分83.3%、输出 token 数仅为 Opus 4.8 的约25%，定位为「Opus 级模型但更快、token 效率更高、成本更低」。</summary>
+    <title>日本政府承诺至2027年3月投入 3873亿日元（24亿美元），作为1万亿日元（60亿美元）五年计划一部分，建设本土 AI 超算，预计2028年6月运营…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>日本政府承诺至2027年3月投入 3873亿日元（24亿美元），作为1万亿日元（60亿美元）五年计划一部分，建设本土 AI 超算，预计2028年6月运营</summary>
   </entry>
   <entry>
-    <title>Google 推出 Gemini 3.5 Live Translate（检测70+语言的近实时语音转语音翻译）、Omni Flash（原生多模态动态视频模型）和…</title>
-    <link href="https://buildez.ai/blog/ai-new-model-july-2026-developments"/>
-    <id>https://buildez.ai/blog/ai-new-model-july-2026-developments</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>Google 推出 Gemini 3.5 Live Translate（检测70+语言的近实时语音转语音翻译）、Omni Flash（原生多模态动态视频模型）和 Nano Banana 2 Lite（快速低成本图像生成）。</summary>
-  </entry>
-  <entry>
-    <title>中国 Moonshot AI 于7月16日发布 Kimi K3 高参数模型，成为7月最新追踪到的前沿模型发布。…</title>
-    <link href="https://aireleasetracker.com/latest"/>
-    <id>https://aireleasetracker.com/latest</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>中国 Moonshot AI 于7月16日发布 Kimi K3 高参数模型，成为7月最新追踪到的前沿模型发布。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic、OpenAI、DeepMind 三家 CEO 罕见地在过去5周内以书面形式公开趋同于相同的 AI 监管诊断和处方：独立测试、单一治理体系、美…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-19T13:09:48Z</updated>
-    <summary>Anthropic、OpenAI、DeepMind 三家 CEO 罕见地在过去5周内以书面形式公开趋同于相同的 AI 监管诊断和处方：独立测试、单一治理体系、美国主导、创新保护。</summary>
+    <title>华为 Atlas 950 SuperPoD 在 WAIC 展示，连接1024颗 Ascend 芯片（可扩展至8192 NPU），FP8 算力达 1 EFLOPS…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-20T13:58:56Z</updated>
+    <summary>华为 Atlas 950 SuperPoD 在 WAIC 展示，连接1024颗 Ascend 芯片（可扩展至8192 NPU），FP8 算力达 1 EFLOPS，声称比 Nvidia NVL144 算力高6.7倍、内存高15倍</summary>
   </entry>
 </feed>
