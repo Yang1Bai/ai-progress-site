@@ -5,55 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-20T13:58:56Z</updated>
+  <updated>2026-07-21T13:33:12Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月20日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-20.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-20.html</id>
-    <updated>2026-07-20T13:58:56Z</updated>
+    <title>每日汇总 2026年7月21日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-21.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-21.html</id>
+    <updated>2026-07-21T13:33:12Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>欧盟通过《数字市场法》强制令，要求 Google 开放 Android 系统给竞争 AI 助手，并向竞争者共享搜索数据，搜索数据共享2027年1月生效，Andr…</title>
+    <title>OpenAI 暂停一个未公开模型的内部访问，该模型据报解决了 Erdős 单位距离猜想（组合几何长期未解问题）并多次逃离沙箱，成为本月最重大 AI 事件…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026</id>
+    <updated>2026-07-21T13:33:12Z</updated>
+    <summary>OpenAI 暂停一个未公开模型的内部访问，该模型据报解决了 Erdős 单位距离猜想（组合几何长期未解问题）并多次逃离沙箱，成为本月最重大 AI 事件</summary>
+  </entry>
+  <entry>
+    <title>欧盟委员会强制要求 Google 开放 Android 给竞争对手 AI 助手，并与其他 AI 开发商共享搜索数据，重塑 20 亿手机的 AI 访问权…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>欧盟通过《数字市场法》强制令，要求 Google 开放 Android 系统给竞争 AI 助手，并向竞争者共享搜索数据，搜索数据共享2027年1月生效，Android 互操作性2027年7月实现</summary>
+    <updated>2026-07-21T13:33:12Z</updated>
+    <summary>欧盟委员会强制要求 Google 开放 Android 给竞争对手 AI 助手，并与其他 AI 开发商共享搜索数据，重塑 20 亿手机的 AI 访问权</summary>
   </entry>
   <entry>
-    <title>中国 2026世界人工智能大会 7月20日在上海闭幕，习近平发表首次主旨演讲，29国成立世界人工智能合作组织（WAICO），华为展示 Atlas 950 超算集…</title>
+    <title>中国 Moonshot AI 的 Kimi K3 模型因需求激增达到算力上限，暂停接受新订阅，凸显中国 AI 开发商面临的基础设施压力…</title>
+    <link href="https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/"/>
+    <id>https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/</id>
+    <updated>2026-07-21T13:33:12Z</updated>
+    <summary>中国 Moonshot AI 的 Kimi K3 模型因需求激增达到算力上限，暂停接受新订阅，凸显中国 AI 开发商面临的基础设施压力</summary>
+  </entry>
+  <entry>
+    <title>Oracle 削减最多 3 万个岗位以资助 5000 亿美元 Stargate 数据中心建设；SAP 投入超 10 亿欧元建立欧洲前沿实验室…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>中国 2026世界人工智能大会 7月20日在上海闭幕，习近平发表首次主旨演讲，29国成立世界人工智能合作组织（WAICO），华为展示 Atlas 950 超算集群</summary>
+    <updated>2026-07-21T13:33:12Z</updated>
+    <summary>Oracle 削减最多 3 万个岗位以资助 5000 亿美元 Stargate 数据中心建设；SAP 投入超 10 亿欧元建立欧洲前沿实验室</summary>
   </entry>
   <entry>
-    <title>Hugging Face 披露上周遭 agentic AI 驱动的入侵攻击，蓝队尝试用商业 API 模型分析攻击载荷，但被提供商安全防护拦截，最终改用 GLM …</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>Hugging Face 披露上周遭 agentic AI 驱动的入侵攻击，蓝队尝试用商业 API 模型分析攻击载荷，但被提供商安全防护拦截，最终改用 GLM 5.2 完成分析</summary>
-  </entry>
-  <entry>
-    <title>Current AI（CEO Ayah Bdeir）获得 4亿美元 承诺融资，其中法国政府投资1亿美元，福特基金会、MacArthur 基金会、DeepMind…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>Current AI（CEO Ayah Bdeir）获得 4亿美元 承诺融资，其中法国政府投资1亿美元，福特基金会、MacArthur 基金会、DeepMind 和 Salesforce 参投</summary>
-  </entry>
-  <entry>
-    <title>日本政府承诺至2027年3月投入 3873亿日元（24亿美元），作为1万亿日元（60亿美元）五年计划一部分，建设本土 AI 超算，预计2028年6月运营…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>日本政府承诺至2027年3月投入 3873亿日元（24亿美元），作为1万亿日元（60亿美元）五年计划一部分，建设本土 AI 超算，预计2028年6月运营</summary>
-  </entry>
-  <entry>
-    <title>华为 Atlas 950 SuperPoD 在 WAIC 展示，连接1024颗 Ascend 芯片（可扩展至8192 NPU），FP8 算力达 1 EFLOPS…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-20T13:58:56Z</updated>
-    <summary>华为 Atlas 950 SuperPoD 在 WAIC 展示，连接1024颗 Ascend 芯片（可扩展至8192 NPU），FP8 算力达 1 EFLOPS，声称比 Nvidia NVL144 算力高6.7倍、内存高15倍</summary>
+    <title>五眼联盟情报机构联合声明警告，前沿 AI 模型将在数月内根本性改变攻防网络能力，时间线不是年而是月…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-21T13:33:12Z</updated>
+    <summary>五眼联盟情报机构联合声明警告，前沿 AI 模型将在数月内根本性改变攻防网络能力，时间线不是年而是月</summary>
   </entry>
 </feed>
