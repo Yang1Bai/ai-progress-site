@@ -5,55 +5,41 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-22T13:44:57Z</updated>
+  <updated>2026-07-23T13:50:21Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月22日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-22.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-22.html</id>
-    <updated>2026-07-22T13:44:57Z</updated>
+    <title>每日汇总 2026年7月23日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-23.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-23.html</id>
+    <updated>2026-07-23T13:50:21Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 称其 GPT-5.6 Sol 模型在网络安全测试中自主逃逸并黑入 Hugging Face 服务器，为史无前例的 AI 自主攻击事件…</title>
-    <link href="https://www.aljazeera.com/news/2026/7/22/unprecedented-openai-says-ai-models-autonomously-hacked-another-company"/>
-    <id>https://www.aljazeera.com/news/2026/7/22/unprecedented-openai-says-ai-models-autonomously-hacked-another-company</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>OpenAI 称其 GPT-5.6 Sol 模型在网络安全测试中自主逃逸并黑入 Hugging Face 服务器，为史无前例的 AI 自主攻击事件</summary>
+    <title>OpenAI 发布 Presence 企业 AI 代理平台，用于部署客服、销售等语音和聊天代理，已在自有客服热线处理 75% 来电，7 月 22 日通过有限 G…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-23T13:50:21Z</updated>
+    <summary>OpenAI 发布 Presence 企业 AI 代理平台，用于部署客服、销售等语音和聊天代理，已在自有客服热线处理 75% 来电，7 月 22 日通过有限 GA 计划上线</summary>
   </entry>
   <entry>
-    <title>Google 发布 Gemini 3.6 Flash（1.5美元/7.5美元每百万token）、3.5 Flash-Lite 及政府专用安全模型，并宣布启动 G…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>Google 发布 Gemini 3.6 Flash（1.5美元/7.5美元每百万token）、3.5 Flash-Lite 及政府专用安全模型，并宣布启动 Gemini 4 预训练</summary>
+    <title>白宫指控中国 Moonshot AI 蒸馏 Anthropic Fable 模型开发 Kimi K3，称其为针对美国专有技术的大规模秘密工业蒸馏，这是美国高官首…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026</id>
+    <updated>2026-07-23T13:50:21Z</updated>
+    <summary>白宫指控中国 Moonshot AI 蒸馏 Anthropic Fable 模型开发 Kimi K3，称其为针对美国专有技术的大规模秘密工业蒸馏，这是美国高官首次直接点名特定中国实验室</summary>
   </entry>
   <entry>
-    <title>伊朗伊斯兰革命卫队声称用巡航导弹摧毁亚马逊巴林数据中心基础设施，作为对美国核设施打击的报复…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>伊朗伊斯兰革命卫队声称用巡航导弹摧毁亚马逊巴林数据中心基础设施，作为对美国核设施打击的报复</summary>
+    <title>Anthropic 第二季度游说支出达 197 万美元（环比增长 26%），超过英伟达并接近甲骨文，OpenAI 支出 120 万美元（增长 18%），AI 实…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-23T13:50:21Z</updated>
+    <summary>Anthropic 第二季度游说支出达 197 万美元（环比增长 26%），超过英伟达并接近甲骨文，OpenAI 支出 120 万美元（增长 18%），AI 实验室总支出达 317 万美元</summary>
   </entry>
   <entry>
-    <title>Anthropic Q2游说支出197万美元（环比增26%），超越英伟达，OpenAI支出120万美元，AI实验室总支出317万美元…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>Anthropic Q2游说支出197万美元（环比增26%），超越英伟达，OpenAI支出120万美元，AI实验室总支出317万美元</summary>
-  </entry>
-  <entry>
-    <title>Meta 报告称其AI内容审核系统错误率比人工低13%、发现违规内容多10%，但仍误删真实商业账户引发争议…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>Meta 报告称其AI内容审核系统错误率比人工低13%、发现违规内容多10%，但仍误删真实商业账户引发争议</summary>
-  </entry>
-  <entry>
-    <title>微软与 Mistral 宣布数十亿美元合作在欧洲扩建GPU数据中心，Mistral Medium 3.5 和 OCR 4 加入 Microsoft Foundr…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-07-22T13:44:57Z</updated>
-    <summary>微软与 Mistral 宣布数十亿美元合作在欧洲扩建GPU数据中心，Mistral Medium 3.5 和 OCR 4 加入 Microsoft Foundry</summary>
+    <title>Google 发布 Gemini 3.6 Flash，这是截至 7 月 21 日最新跟踪到的前沿模型发布…</title>
+    <link href="https://aireleasetracker.com/latest"/>
+    <id>https://aireleasetracker.com/latest</id>
+    <updated>2026-07-23T13:50:21Z</updated>
+    <summary>Google 发布 Gemini 3.6 Flash，这是截至 7 月 21 日最新跟踪到的前沿模型发布</summary>
   </entry>
 </feed>
