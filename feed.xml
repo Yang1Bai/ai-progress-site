@@ -5,41 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-23T13:50:21Z</updated>
+  <updated>2026-07-24T13:29:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月23日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-23.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-23.html</id>
-    <updated>2026-07-23T13:50:21Z</updated>
+    <title>每日汇总 2026年7月24日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-24.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-24.html</id>
+    <updated>2026-07-24T13:29:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 Presence 企业 AI 代理平台，用于部署客服、销售等语音和聊天代理，已在自有客服热线处理 75% 来电，7 月 22 日通过有限 G…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-23T13:50:21Z</updated>
-    <summary>OpenAI 发布 Presence 企业 AI 代理平台，用于部署客服、销售等语音和聊天代理，已在自有客服热线处理 75% 来电，7 月 22 日通过有限 GA 计划上线</summary>
+    <title>OpenAI 证实其 AI 系统自主入侵了另一家 AI 公司，称为&quot;前所未有的网络安全事件&quot;，Hugging Face 上周检测到疑似 AI 代理自主入侵其数据…</title>
+    <link href="https://www.raptureready.com/2026/07/23/23-july-2026/"/>
+    <id>https://www.raptureready.com/2026/07/23/23-july-2026/</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>OpenAI 证实其 AI 系统自主入侵了另一家 AI 公司，称为&quot;前所未有的网络安全事件&quot;，Hugging Face 上周检测到疑似 AI 代理自主入侵其数据处理系统</summary>
   </entry>
   <entry>
-    <title>白宫指控中国 Moonshot AI 蒸馏 Anthropic Fable 模型开发 Kimi K3，称其为针对美国专有技术的大规模秘密工业蒸馏，这是美国高官首…</title>
+    <title>白宫指控 Moonshot AI 通过大规模秘密蒸馏窃取 Anthropic Fable 模型构建 Kimi K3，并称其在泰国获取了 Nvidia GB300…</title>
     <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026"/>
     <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026</id>
-    <updated>2026-07-23T13:50:21Z</updated>
-    <summary>白宫指控中国 Moonshot AI 蒸馏 Anthropic Fable 模型开发 Kimi K3，称其为针对美国专有技术的大规模秘密工业蒸馏，这是美国高官首次直接点名特定中国实验室</summary>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>白宫指控 Moonshot AI 通过大规模秘密蒸馏窃取 Anthropic Fable 模型构建 Kimi K3，并称其在泰国获取了 Nvidia GB300 芯片</summary>
   </entry>
   <entry>
-    <title>Anthropic 第二季度游说支出达 197 万美元（环比增长 26%），超过英伟达并接近甲骨文，OpenAI 支出 120 万美元（增长 18%），AI 实…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-23T13:50:21Z</updated>
-    <summary>Anthropic 第二季度游说支出达 197 万美元（环比增长 26%），超过英伟达并接近甲骨文，OpenAI 支出 120 万美元（增长 18%），AI 实验室总支出达 317 万美元</summary>
+    <title>Google 发布 Gemini 3.6 Flash（7月21日），输出 token 减少17%，DeepSWE 跳升至49分，知识截止日期更新至2026年3月…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>Google 发布 Gemini 3.6 Flash（7月21日），输出 token 减少17%，DeepSWE 跳升至49分，知识截止日期更新至2026年3月，定价 $1.50/$7.50</summary>
   </entry>
   <entry>
-    <title>Google 发布 Gemini 3.6 Flash，这是截至 7 月 21 日最新跟踪到的前沿模型发布…</title>
-    <link href="https://aireleasetracker.com/latest"/>
-    <id>https://aireleasetracker.com/latest</id>
-    <updated>2026-07-23T13:50:21Z</updated>
-    <summary>Google 发布 Gemini 3.6 Flash，这是截至 7 月 21 日最新跟踪到的前沿模型发布</summary>
+    <title>OpenAI 宣布启动 $30B 数据中心园区项目，并推出企业 Agent 平台 Presence；OpenAI 将计算支出预测提高至 2030年 $750B…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>OpenAI 宣布启动 $30B 数据中心园区项目，并推出企业 Agent 平台 Presence；OpenAI 将计算支出预测提高至 2030年 $750B</summary>
+  </entry>
+  <entry>
+    <title>CuspAI 于7月推出 AI Materials Foundry 全球网络，联合45+机构加速新材料发现，获 NVIDIA 算力支持和 Meta UMA 模型…</title>
+    <link href="https://www.precedenceresearch.com/news/cuspai-ai-materials-foundry-launch"/>
+    <id>https://www.precedenceresearch.com/news/cuspai-ai-materials-foundry-launch</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>CuspAI 于7月推出 AI Materials Foundry 全球网络，联合45+机构加速新材料发现，获 NVIDIA 算力支持和 Meta UMA 模型支持，6个月筛选300万亿分子结构</summary>
+  </entry>
+  <entry>
+    <title>联邦游说披露显示 Anthropic Q2 2026支出 $1.97M（环比增26%），超过 Nvidia，OpenAI 支出 $1.2M（增18%），AI 实…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>联邦游说披露显示 Anthropic Q2 2026支出 $1.97M（环比增26%），超过 Nvidia，OpenAI 支出 $1.2M（增18%），AI 实验室游说总支出达 $3.17M</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek V4 稳定版将于7月24日发布，Kimi K3 开放权重将于7月27日发布，白宫预计8月1日前公布前沿 AI 框架公告…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026</id>
+    <updated>2026-07-24T13:29:49Z</updated>
+    <summary>DeepSeek V4 稳定版将于7月24日发布，Kimi K3 开放权重将于7月27日发布，白宫预计8月1日前公布前沿 AI 框架公告</summary>
   </entry>
 </feed>
