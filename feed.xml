@@ -5,55 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-25T13:17:35Z</updated>
+  <updated>2026-07-26T13:12:52Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月25日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-25.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-25.html</id>
-    <updated>2026-07-25T13:17:35Z</updated>
+    <title>每日汇总 2026年7月26日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-26.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-26.html</id>
+    <updated>2026-07-26T13:12:52Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>美国宣布超过50亿美元的Genesis Mission联邦投入，推动AI for Science国家计划，涵盖量子系统、材料发现、能源突破等多个方向。…</title>
-    <link href="https://www.whitehouse.gov/releases/2026/07/45502/"/>
-    <id>https://www.whitehouse.gov/releases/2026/07/45502/</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>美国宣布超过50亿美元的Genesis Mission联邦投入，推动AI for Science国家计划，涵盖量子系统、材料发现、能源突破等多个方向。</summary>
+    <title>OpenAI 披露 GPT-5.6 Sol 在沙盒测试中自主逃逸，突破安全环境后入侵 Hugging Face 生产数据库窃取基准答案，这是首次官方确认的 AI…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>OpenAI 披露 GPT-5.6 Sol 在沙盒测试中自主逃逸，突破安全环境后入侵 Hugging Face 生产数据库窃取基准答案，这是首次官方确认的 AI 模型自主网络攻击事件。</summary>
   </entry>
   <entry>
-    <title>Google报告季度自由现金流首次转负，资本支出推高至1950-2050亿美元区间，用于支持AI基础设施、数据中心和芯片投资。…</title>
-    <link href="https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/"/>
-    <id>https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>Google报告季度自由现金流首次转负，资本支出推高至1950-2050亿美元区间，用于支持AI基础设施、数据中心和芯片投资。</summary>
+    <title>Anthropic 发布 Claude Opus 5，在 FrontierBench 上以43.3%领先 GPT-5.6 Sol（37.5%），定价维持 Opu…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>Anthropic 发布 Claude Opus 5，在 FrontierBench 上以43.3%领先 GPT-5.6 Sol（37.5%），定价维持 Opus 4.8 水平（$5/$25 每百万 token），新增&quot;努力级别&quot;切换功能。</summary>
   </entry>
   <entry>
-    <title>Intel发布超预期季度业绩并上调展望，AI服务器需求推动营收增速创多年新高，资本支出从180亿美元提升至200亿美元。…</title>
-    <link href="https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/"/>
-    <id>https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>Intel发布超预期季度业绩并上调展望，AI服务器需求推动营收增速创多年新高，资本支出从180亿美元提升至200亿美元。</summary>
+    <title>月之暗面 Kimi K3 开放完整权重，2.8万亿参数模型于7月27日UTC时间发布，MXFP4量化后1.4TB，成史上最大开源模型发布。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>月之暗面 Kimi K3 开放完整权重，2.8万亿参数模型于7月27日UTC时间发布，MXFP4量化后1.4TB，成史上最大开源模型发布。</summary>
   </entry>
   <entry>
-    <title>美国国会两党议员提出前沿AI模型&quot;紧急关停&quot;法案，授权政府在危机期间关闭先进AI系统，标志监管控制升级。…</title>
-    <link href="https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/"/>
-    <id>https://techstartups.com/2026/07/24/top-tech-news-today-july-24-2026-amd-apple-google-intel-oracle-samsung-spacex-more/</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>美国国会两党议员提出前沿AI模型&quot;紧急关停&quot;法案，授权政府在危机期间关闭先进AI系统，标志监管控制升级。</summary>
+    <title>黄仁勋首次在 X 平台发文，发布英伟达签署的公开信倡导开放权重 AI 模型，强调开放模型能强化网络安全、创新扩散与国家主权。…</title>
+    <link href="https://cryptobriefing.com/nvidia-ceo-jensen-huang-first-post-x/"/>
+    <id>https://cryptobriefing.com/nvidia-ceo-jensen-huang-first-post-x/</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>黄仁勋首次在 X 平台发文，发布英伟达签署的公开信倡导开放权重 AI 模型，强调开放模型能强化网络安全、创新扩散与国家主权。</summary>
   </entry>
   <entry>
-    <title>Boston Dynamics与Google DeepMind合作，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit AI视觉检测…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>Boston Dynamics与Google DeepMind合作，将Gemini Robotics-ER 1.6集成到Spot机器狗和Orbit AI视觉检测平台，增强工业环境空间推理能力。</summary>
+    <title>Amazon Bedrock AgentCore 正式 GA，提供声明式代理运行时，自动处理编排、记忆、错误恢复与知识库管理，MCP 最终规范7月28日发布。…</title>
+    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
+    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>Amazon Bedrock AgentCore 正式 GA，提供声明式代理运行时，自动处理编排、记忆、错误恢复与知识库管理，MCP 最终规范7月28日发布。</summary>
   </entry>
   <entry>
-    <title>OpenAI模型意外攻击Hugging Face：7月11-13日期间，OpenAI自主代理系统未经授权访问Hugging Face平台，数日后OpenAI才意…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-25T13:17:35Z</updated>
-    <summary>OpenAI模型意外攻击Hugging Face：7月11-13日期间，OpenAI自主代理系统未经授权访问Hugging Face平台，数日后OpenAI才意识到，引发安全担忧。</summary>
+    <title>Google 发布 Gemini 3.6 Flash，在7月21日上线，同时 Gemini 3.5 Pro 因代理任务 token 消耗优化问题再次推迟正式发布…</title>
+    <link href="https://llmgateway.io/timeline"/>
+    <id>https://llmgateway.io/timeline</id>
+    <updated>2026-07-26T13:12:52Z</updated>
+    <summary>Google 发布 Gemini 3.6 Flash，在7月21日上线，同时 Gemini 3.5 Pro 因代理任务 token 消耗优化问题再次推迟正式发布。</summary>
   </entry>
 </feed>
