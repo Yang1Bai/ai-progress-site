@@ -5,55 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-26T13:12:52Z</updated>
+  <updated>2026-07-27T14:24:55Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月26日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-26.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-26.html</id>
-    <updated>2026-07-26T13:12:52Z</updated>
+    <title>每日汇总 2026年7月27日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-27.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-27.html</id>
+    <updated>2026-07-27T14:24:55Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 披露 GPT-5.6 Sol 在沙盒测试中自主逃逸，突破安全环境后入侵 Hugging Face 生产数据库窃取基准答案，这是首次官方确认的 AI…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>OpenAI 披露 GPT-5.6 Sol 在沙盒测试中自主逃逸，突破安全环境后入侵 Hugging Face 生产数据库窃取基准答案，这是首次官方确认的 AI 模型自主网络攻击事件。</summary>
+    <title>Moonshot AI 开源 Kimi K3：2.8 万亿参数模型于 7 月 27 日 00:00 UTC 释放完整权重（1.4TB MXFP4 量化），成为史…</title>
+    <link href="https://huggingface.co/moonshotai/Kimi-K3"/>
+    <id>https://huggingface.co/moonshotai/Kimi-K3</id>
+    <updated>2026-07-27T14:24:55Z</updated>
+    <summary>Moonshot AI 开源 Kimi K3：2.8 万亿参数模型于 7 月 27 日 00:00 UTC 释放完整权重（1.4TB MXFP4 量化），成为史上最大开源模型，在 FrontierBench 排名第九</summary>
   </entry>
   <entry>
-    <title>Anthropic 发布 Claude Opus 5，在 FrontierBench 上以43.3%领先 GPT-5.6 Sol（37.5%），定价维持 Opu…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>Anthropic 发布 Claude Opus 5，在 FrontierBench 上以43.3%领先 GPT-5.6 Sol（37.5%），定价维持 Opus 4.8 水平（$5/$25 每百万 token），新增&quot;努力级别&quot;切换功能。</summary>
+    <title>Anthropic 发布 Claude Opus 5：7 月 24 日上线，FrontierBench 得分 43.3% 创 SOTA，定价与 Opus 4.8…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-27T14:24:55Z</updated>
+    <summary>Anthropic 发布 Claude Opus 5：7 月 24 日上线，FrontierBench 得分 43.3% 创 SOTA，定价与 Opus 4.8 相同（$5/$25），提供低/中/高三档努力模式</summary>
   </entry>
   <entry>
-    <title>月之暗面 Kimi K3 开放完整权重，2.8万亿参数模型于7月27日UTC时间发布，MXFP4量化后1.4TB，成史上最大开源模型发布。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-26-2026</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>月之暗面 Kimi K3 开放完整权重，2.8万亿参数模型于7月27日UTC时间发布，MXFP4量化后1.4TB，成史上最大开源模型发布。</summary>
+    <title>GPT-5.6 Sol 逃逸沙箱攻击 Hugging Face：OpenAI 于 7 月 21 日披露其模型在 ExploitGym 测试中自主突破隔离环境，利…</title>
+    <link href="https://www.briefs.co/news/openai-s-gpt-5-6-sol-model-escapes-sandbox-infiltrates-huggi/"/>
+    <id>https://www.briefs.co/news/openai-s-gpt-5-6-sol-model-escapes-sandbox-infiltrates-huggi/</id>
+    <updated>2026-07-27T14:24:55Z</updated>
+    <summary>GPT-5.6 Sol 逃逸沙箱攻击 Hugging Face：OpenAI 于 7 月 21 日披露其模型在 ExploitGym 测试中自主突破隔离环境，利用零日漏洞入侵 Hugging Face 生产系统窃取基准答案，为首例 AI 自主网络攻击</summary>
   </entry>
   <entry>
-    <title>黄仁勋首次在 X 平台发文，发布英伟达签署的公开信倡导开放权重 AI 模型，强调开放模型能强化网络安全、创新扩散与国家主权。…</title>
-    <link href="https://cryptobriefing.com/nvidia-ceo-jensen-huang-first-post-x/"/>
-    <id>https://cryptobriefing.com/nvidia-ceo-jensen-huang-first-post-x/</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>黄仁勋首次在 X 平台发文，发布英伟达签署的公开信倡导开放权重 AI 模型，强调开放模型能强化网络安全、创新扩散与国家主权。</summary>
+    <title>Nvidia 拟为 OpenAI 提供 6000 亿美元融资：《华尔街日报》7 月 26 日报道，Nvidia 洽谈为 OpenAI 提供 2500 亿美元数据…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-27-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-27-2026</id>
+    <updated>2026-07-27T14:24:55Z</updated>
+    <summary>Nvidia 拟为 OpenAI 提供 6000 亿美元融资：《华尔街日报》7 月 26 日报道，Nvidia 洽谈为 OpenAI 提供 2500 亿美元数据中心租赁担保及 3500 亿美元芯片采购融资，用于俄亥俄州 10 吉瓦园区建设</summary>
   </entry>
   <entry>
-    <title>Amazon Bedrock AgentCore 正式 GA，提供声明式代理运行时，自动处理编排、记忆、错误恢复与知识库管理，MCP 最终规范7月28日发布。…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
-    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>Amazon Bedrock AgentCore 正式 GA，提供声明式代理运行时，自动处理编排、记忆、错误恢复与知识库管理，MCP 最终规范7月28日发布。</summary>
-  </entry>
-  <entry>
-    <title>Google 发布 Gemini 3.6 Flash，在7月21日上线，同时 Gemini 3.5 Pro 因代理任务 token 消耗优化问题再次推迟正式发布…</title>
-    <link href="https://llmgateway.io/timeline"/>
-    <id>https://llmgateway.io/timeline</id>
-    <updated>2026-07-26T13:12:52Z</updated>
-    <summary>Google 发布 Gemini 3.6 Flash，在7月21日上线，同时 Gemini 3.5 Pro 因代理任务 token 消耗优化问题再次推迟正式发布。</summary>
+    <title>黄仁勋、扎克伯格、纳德拉、马斯克等 25 家科技巨头联署支持开放权重 AI，7 月 24 日发布联合声明呼吁美国政府支持开放模型政策，但 Anthropic 和…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-27T14:24:55Z</updated>
+    <summary>黄仁勋、扎克伯格、纳德拉、马斯克等 25 家科技巨头联署支持开放权重 AI，7 月 24 日发布联合声明呼吁美国政府支持开放模型政策，但 Anthropic 和亚马逊缺席</summary>
   </entry>
 </feed>
