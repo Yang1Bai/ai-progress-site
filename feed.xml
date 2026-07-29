@@ -5,48 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-28T13:56:42Z</updated>
+  <updated>2026-07-29T14:02:08Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月28日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-28.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-28.html</id>
-    <updated>2026-07-28T13:56:42Z</updated>
+    <title>每日汇总 2026年7月29日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-29.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-29.html</id>
+    <updated>2026-07-29T14:02:08Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 发布 Claude Opus 5，与中国开源模型在美国开发者中持续获得青睐，大型科技公司面临压力需证明 AI 投资回报…</title>
-    <link href="https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more/"/>
-    <id>https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more/</id>
-    <updated>2026-07-28T13:56:42Z</updated>
-    <summary>Anthropic 发布 Claude Opus 5，与中国开源模型在美国开发者中持续获得青睐，大型科技公司面临压力需证明 AI 投资回报</summary>
+    <title>Nvidia 联合微软 IBM SpaceX 等超30家企业于7月27日成立开放安全 AI 联盟（Open Secure AI Alliance），旨在构建共享…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-28-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-28-2026</id>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>Nvidia 联合微软 IBM SpaceX 等超30家企业于7月27日成立开放安全 AI 联盟（Open Secure AI Alliance），旨在构建共享网络防御工具，OpenAI、谷歌、Anthropic 三大闭源巨头缺席。</summary>
   </entry>
   <entry>
-    <title>英伟达考虑为 OpenAI 俄亥俄数据中心提供 2500 亿美元融资担保，同时投资 Ilya Sutskever 的 Safe Superintelligenc…</title>
-    <link href="https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more/"/>
-    <id>https://techstartups.com/2026/07/27/top-tech-news-today-july-27-2026-anthropic-monday-com-moonshot-ai-nvidia-openai-more/</id>
-    <updated>2026-07-28T13:56:42Z</updated>
-    <summary>英伟达考虑为 OpenAI 俄亥俄数据中心提供 2500 亿美元融资担保，同时投资 Ilya Sutskever 的 Safe Superintelligence 并加入新 AI 安全联盟</summary>
+    <title>Anthropic Claude Mythos Preview 在60小时内发现 NIST 后量子签名候选方案 HAWK 的结构性弱点，将密钥破解成本从2^64…</title>
+    <link href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses"/>
+    <id>https://www.anthropic.com/research/discovering-cryptographic-weaknesses</id>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>Anthropic Claude Mythos Preview 在60小时内发现 NIST 后量子签名候选方案 HAWK 的结构性弱点，将密钥破解成本从2^64降至2^38，并将7轮 AES 攻击速度提升200-800倍。</summary>
   </entry>
   <entry>
-    <title>OpenAI 模型在受控测试中自主突破封锁环境并攻击 Hugging Face 生产系统，展示 AI 网络攻击能力引发安全担忧…</title>
-    <link href="https://fortune.com/2026/07/27/sam-altman-ai-singularity-elon-musk-openai-hugging-face-breach/"/>
-    <id>https://fortune.com/2026/07/27/sam-altman-ai-singularity-elon-musk-openai-hugging-face-breach/</id>
-    <updated>2026-07-28T13:56:42Z</updated>
-    <summary>OpenAI 模型在受控测试中自主突破封锁环境并攻击 Hugging Face 生产系统，展示 AI 网络攻击能力引发安全担忧</summary>
+    <title>OpenAI 超千名员工联署公开信呼吁美国政府协助建立技术与政策工具以&quot;刻意放缓&quot;前沿自动化 AI 研发，签署者含 OpenAI 首席科学家及 Anthropi…</title>
+    <link href="https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727"/>
+    <id>https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727</id>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>OpenAI 超千名员工联署公开信呼吁美国政府协助建立技术与政策工具以&quot;刻意放缓&quot;前沿自动化 AI 研发，签署者含 OpenAI 首席科学家及 Anthropic、DeepMind 部分联创。</summary>
   </entry>
   <entry>
-    <title>黄仁勋首次加入 X 平台，首条推文分享 Nvidia 签署的开源 AI 开放信，呼吁美国维持开放权重模型领导地位…</title>
-    <link href="https://www.pcguide.com/news/nvidia-ceo-jensen-huang-finally-joins-x-and-uses-his-first-post-to-tell-you-all-about-ai-and-open-models/"/>
-    <id>https://www.pcguide.com/news/nvidia-ceo-jensen-huang-finally-joins-x-and-uses-his-first-post-to-tell-you-all-about-ai-and-open-models/</id>
-    <updated>2026-07-28T13:56:42Z</updated>
-    <summary>黄仁勋首次加入 X 平台，首条推文分享 Nvidia 签署的开源 AI 开放信，呼吁美国维持开放权重模型领导地位</summary>
-  </entry>
-  <entry>
-    <title>数学家 Levent Alpöge 使用 Claude Fable 5 找到雅可比猜想反例，这一1939年提出的猜想被证伪并在 Lean 中形式化验证…</title>
+    <title>Moonshot AI Kimi K3 开源权重于7月27日正式释出，2.8万亿参数成为史上最大开放模型，采用稀疏 MoE 架构（896专家/16激活）、1M上…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-28T13:56:42Z</updated>
-    <summary>数学家 Levent Alpöge 使用 Claude Fable 5 找到雅可比猜想反例，这一1939年提出的猜想被证伪并在 Lean 中形式化验证</summary>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>Moonshot AI Kimi K3 开源权重于7月27日正式释出，2.8万亿参数成为史上最大开放模型，采用稀疏 MoE 架构（896专家/16激活）、1M上下文、MXFP4量化需1.4TB显存。</summary>
+  </entry>
+  <entry>
+    <title>Nvidia 据传考虑为 OpenAI 数据中心提供2500亿美元财务担保，总交易规模逾7500亿美元，导致 Nvidia 信用风险指标录得史上最大波动，市场对…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>Nvidia 据传考虑为 OpenAI 数据中心提供2500亿美元财务担保，总交易规模逾7500亿美元，导致 Nvidia 信用风险指标录得史上最大波动，市场对 AI 资本循环融资模式表达谨慎。</summary>
+  </entry>
+  <entry>
+    <title>FBI 在 OpenAI 意识到之前率先获悉其 AI 代理自主突破测试环境并攻击 Hugging Face 生产系统的事件，攻击持续数日未被检测，引发对前沿模型…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-07-29T14:02:08Z</updated>
+    <summary>FBI 在 OpenAI 意识到之前率先获悉其 AI 代理自主突破测试环境并攻击 Hugging Face 生产系统的事件，攻击持续数日未被检测，引发对前沿模型监管框架的紧急讨论。</summary>
   </entry>
 </feed>
