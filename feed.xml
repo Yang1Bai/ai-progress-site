@@ -5,55 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-30T13:50:30Z</updated>
+  <updated>2026-07-31T13:55:59Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月30日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-30.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-30.html</id>
-    <updated>2026-07-30T13:50:30Z</updated>
+    <title>每日汇总 2026年7月31日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-31.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-31.html</id>
+    <updated>2026-07-31T13:55:59Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 GPT-5 早期测试版，在复杂推理任务上表现超越 GPT-4o 达 40%，支持 百万 token 上下文窗口…</title>
+    <title>谷歌DeepMind发布Gemini Robotics 2三模型套件，包括全身人形机器人控制模型、多步规划协作模型和几小时内适应新机器人的设备端变体…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>OpenAI 发布 GPT-5 早期测试版，在复杂推理任务上表现超越 GPT-4o 达 40%，支持 百万 token 上下文窗口</summary>
+    <updated>2026-07-31T13:55:59Z</updated>
+    <summary>谷歌DeepMind发布Gemini Robotics 2三模型套件，包括全身人形机器人控制模型、多步规划协作模型和几小时内适应新机器人的设备端变体</summary>
   </entry>
   <entry>
-    <title>Anthropic 推出 Claude 3.7 Opus，首次在 MMLU-Pro 上突破 95% 准确率，引入 Constitutional AI 2.0 安…</title>
+    <title>欧盟正式启动AI超级工厂招标，投入100亿欧元公共资金，目标300亿欧元总投资，建设7座各容纳10万AI芯片的设施，11月12日截标…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>Anthropic 推出 Claude 3.7 Opus，首次在 MMLU-Pro 上突破 95% 准确率，引入 Constitutional AI 2.0 安全框架</summary>
+    <updated>2026-07-31T13:55:59Z</updated>
+    <summary>欧盟正式启动AI超级工厂招标，投入100亿欧元公共资金，目标300亿欧元总投资，建设7座各容纳10万AI芯片的设施，11月12日截标</summary>
   </entry>
   <entry>
-    <title>Meta 开源 Llama 4 系列模型，包含 70B 和 405B 参数版本，首次原生支持 多模态输入（图像+文本+音频）…</title>
+    <title>Nscale以16.5亿美元收购Anyscale（Ray框架商业化公司），承诺加入PyTorch基金会支持开源治理，预计2026年下半年完成交易…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>Meta 开源 Llama 4 系列模型，包含 70B 和 405B 参数版本，首次原生支持 多模态输入（图像+文本+音频）</summary>
+    <updated>2026-07-31T13:55:59Z</updated>
+    <summary>Nscale以16.5亿美元收购Anyscale（Ray框架商业化公司），承诺加入PyTorch基金会支持开源治理，预计2026年下半年完成交易</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 发布 AlphaMaterial，通过强化学习设计出 17 种新型固态电解质材料，离子电导率提升 3 倍…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>Google DeepMind 发布 AlphaMaterial，通过强化学习设计出 17 种新型固态电解质材料，离子电导率提升 3 倍</summary>
+    <title>OpenAI、Anthropic、DeepMind超1000名员工联名声明，要求美国政府建立工具以&quot;有意放缓&quot;前沿AI自动化开发，这是行业首次大规模呼吁主动减速…</title>
+    <link href="https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727"/>
+    <id>https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727</id>
+    <updated>2026-07-31T13:55:59Z</updated>
+    <summary>OpenAI、Anthropic、DeepMind超1000名员工联名声明，要求美国政府建立工具以&quot;有意放缓&quot;前沿AI自动化开发，这是行业首次大规模呼吁主动减速</summary>
   </entry>
   <entry>
-    <title>英伟达 发布 Blackwell Ultra B300 GPU，AI 训练性能较 H100 提升 5 倍，单卡功耗降至 650W…</title>
+    <title>中国实施全球首个专门针对AI智能体的约束性监管框架《智能体规范应用与创新发展实施意见》，建立分级决策授权体系，禁止未成年人使用虚拟伴侣服务…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>英伟达 发布 Blackwell Ultra B300 GPU，AI 训练性能较 H100 提升 5 倍，单卡功耗降至 650W</summary>
-  </entry>
-  <entry>
-    <title>美国商务部宣布对 AI 芯片出口实施新管制措施，限制 H100/B100 等高端 GPU 流向中国及中东部分国家…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-30T13:50:30Z</updated>
-    <summary>美国商务部宣布对 AI 芯片出口实施新管制措施，限制 H100/B100 等高端 GPU 流向中国及中东部分国家</summary>
+    <updated>2026-07-31T13:55:59Z</updated>
+    <summary>中国实施全球首个专门针对AI智能体的约束性监管框架《智能体规范应用与创新发展实施意见》，建立分级决策授权体系，禁止未成年人使用虚拟伴侣服务</summary>
   </entry>
 </feed>
