@@ -5,48 +5,41 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-07-31T13:55:59Z</updated>
+  <updated>2026-08-01T13:11:04Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年7月31日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-07-31.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-07-31.html</id>
-    <updated>2026-07-31T13:55:59Z</updated>
+    <title>每日汇总 2026年8月1日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-01.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-01.html</id>
+    <updated>2026-08-01T13:11:04Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>谷歌DeepMind发布Gemini Robotics 2三模型套件，包括全身人形机器人控制模型、多步规划协作模型和几小时内适应新机器人的设备端变体…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-31T13:55:59Z</updated>
-    <summary>谷歌DeepMind发布Gemini Robotics 2三模型套件，包括全身人形机器人控制模型、多步规划协作模型和几小时内适应新机器人的设备端变体</summary>
+    <title>OpenAI将GPT-5.6价格最高下调80%，并向10万名研究者提供免费访问，同时Anthropic披露其AI突破了三家公司网络，安全问题浮出水面。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026</id>
+    <updated>2026-08-01T13:11:04Z</updated>
+    <summary>OpenAI将GPT-5.6价格最高下调80%，并向10万名研究者提供免费访问，同时Anthropic披露其AI突破了三家公司网络，安全问题浮出水面。</summary>
   </entry>
   <entry>
-    <title>欧盟正式启动AI超级工厂招标，投入100亿欧元公共资金，目标300亿欧元总投资，建设7座各容纳10万AI芯片的设施，11月12日截标…</title>
+    <title>Anthropic于7月24日发布Claude Opus 5，配备100万token上下文窗口，定价5美元/25美元，在ARC-AGI-3和代理推理基准上领先G…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-31T13:55:59Z</updated>
-    <summary>欧盟正式启动AI超级工厂招标，投入100亿欧元公共资金，目标300亿欧元总投资，建设7座各容纳10万AI芯片的设施，11月12日截标</summary>
+    <updated>2026-08-01T13:11:04Z</updated>
+    <summary>Anthropic于7月24日发布Claude Opus 5，配备100万token上下文窗口，定价5美元/25美元，在ARC-AGI-3和代理推理基准上领先GPT-5.6 Sol。</summary>
   </entry>
   <entry>
-    <title>Nscale以16.5亿美元收购Anyscale（Ray框架商业化公司），承诺加入PyTorch基金会支持开源治理，预计2026年下半年完成交易…</title>
+    <title>美国FCC于7月27日将境外先进机器人设备列入国家安全禁令，涵盖人形和四足机器人，新进口被阻但存量设备不受影响。…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-july-31-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-july-31-2026</id>
+    <updated>2026-08-01T13:11:04Z</updated>
+    <summary>美国FCC于7月27日将境外先进机器人设备列入国家安全禁令，涵盖人形和四足机器人，新进口被阻但存量设备不受影响。</summary>
+  </entry>
+  <entry>
+    <title>Google Gemini 3.5 Pro发布持续延迟，内部士气低落导致模型交付推迟数月，企业测试者标记代币效率和编码性能缺陷。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-31T13:55:59Z</updated>
-    <summary>Nscale以16.5亿美元收购Anyscale（Ray框架商业化公司），承诺加入PyTorch基金会支持开源治理，预计2026年下半年完成交易</summary>
-  </entry>
-  <entry>
-    <title>OpenAI、Anthropic、DeepMind超1000名员工联名声明，要求美国政府建立工具以&quot;有意放缓&quot;前沿AI自动化开发，这是行业首次大规模呼吁主动减速…</title>
-    <link href="https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727"/>
-    <id>https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727</id>
-    <updated>2026-07-31T13:55:59Z</updated>
-    <summary>OpenAI、Anthropic、DeepMind超1000名员工联名声明，要求美国政府建立工具以&quot;有意放缓&quot;前沿AI自动化开发，这是行业首次大规模呼吁主动减速</summary>
-  </entry>
-  <entry>
-    <title>中国实施全球首个专门针对AI智能体的约束性监管框架《智能体规范应用与创新发展实施意见》，建立分级决策授权体系，禁止未成年人使用虚拟伴侣服务…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-07-31T13:55:59Z</updated>
-    <summary>中国实施全球首个专门针对AI智能体的约束性监管框架《智能体规范应用与创新发展实施意见》，建立分级决策授权体系，禁止未成年人使用虚拟伴侣服务</summary>
+    <updated>2026-08-01T13:11:04Z</updated>
+    <summary>Google Gemini 3.5 Pro发布持续延迟，内部士气低落导致模型交付推迟数月，企业测试者标记代币效率和编码性能缺陷。</summary>
   </entry>
 </feed>
