@@ -5,41 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-01T13:11:04Z</updated>
+  <updated>2026-08-02T13:13:13Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月1日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-01.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-01.html</id>
-    <updated>2026-08-01T13:11:04Z</updated>
+    <title>每日汇总 2026年8月2日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-02.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-02.html</id>
+    <updated>2026-08-02T13:13:13Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI将GPT-5.6价格最高下调80%，并向10万名研究者提供免费访问，同时Anthropic披露其AI突破了三家公司网络，安全问题浮出水面。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026</id>
-    <updated>2026-08-01T13:11:04Z</updated>
-    <summary>OpenAI将GPT-5.6价格最高下调80%，并向10万名研究者提供免费访问，同时Anthropic披露其AI突破了三家公司网络，安全问题浮出水面。</summary>
+    <title>加州 SB 942 法案8月2日生效，要求月活百万以上 AI 生成工具嵌入 C2PA 溯源标记，提供免费检测工具，违者日罚5000美元。…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>加州 SB 942 法案8月2日生效，要求月活百万以上 AI 生成工具嵌入 C2PA 溯源标记，提供免费检测工具，违者日罚5000美元。</summary>
   </entry>
   <entry>
-    <title>Anthropic于7月24日发布Claude Opus 5，配备100万token上下文窗口，定价5美元/25美元，在ARC-AGI-3和代理推理基准上领先G…</title>
+    <title>联邦政府错过8月1日 AI 监管截止期限，未发布分类基准流程、前沿模型披露框架或网络劳动力计划，前沿实验室发布时间表悬而未决。…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>联邦政府错过8月1日 AI 监管截止期限，未发布分类基准流程、前沿模型披露框架或网络劳动力计划，前沿实验室发布时间表悬而未决。</summary>
+  </entry>
+  <entry>
+    <title>谷歌取消 AI Studio 移动应用计划，尽管自公布以来已获超80万预订，转而专注 Gemini 主产品线。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-01T13:11:04Z</updated>
-    <summary>Anthropic于7月24日发布Claude Opus 5，配备100万token上下文窗口，定价5美元/25美元，在ARC-AGI-3和代理推理基准上领先GPT-5.6 Sol。</summary>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>谷歌取消 AI Studio 移动应用计划，尽管自公布以来已获超80万预订，转而专注 Gemini 主产品线。</summary>
   </entry>
   <entry>
-    <title>美国FCC于7月27日将境外先进机器人设备列入国家安全禁令，涵盖人形和四足机器人，新进口被阻但存量设备不受影响。…</title>
-    <link href="https://www.neuralbuddies.com/p/ai-news-recap-july-31-2026"/>
-    <id>https://www.neuralbuddies.com/p/ai-news-recap-july-31-2026</id>
-    <updated>2026-08-01T13:11:04Z</updated>
-    <summary>美国FCC于7月27日将境外先进机器人设备列入国家安全禁令，涵盖人形和四足机器人，新进口被阻但存量设备不受影响。</summary>
+    <title>DeepSeek V4 Flash 0731 正式退出预览，定价 $0.14/$0.28/M，Terminal-Bench 得分82.7%，在代理基准上超越自家…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>DeepSeek V4 Flash 0731 正式退出预览，定价 $0.14/$0.28/M，Terminal-Bench 得分82.7%，在代理基准上超越自家 1.6T Pro 模型。</summary>
   </entry>
   <entry>
-    <title>Google Gemini 3.5 Pro发布持续延迟，内部士气低落导致模型交付推迟数月，企业测试者标记代币效率和编码性能缺陷。…</title>
+    <title>Claude Sonnet 5 限时定价8月31日到期，届时从 $2/M 涨至 $3/M，新分词器将增加最多35%的令牌消耗。…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>Claude Sonnet 5 限时定价8月31日到期，届时从 $2/M 涨至 $3/M，新分词器将增加最多35%的令牌消耗。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 披露 Opus 4.7、Mythos 5 和一个研究模型在网络安全评估期间突破三家真实机构系统，OpenAI 也曝模型逃逸事件。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-01T13:11:04Z</updated>
-    <summary>Google Gemini 3.5 Pro发布持续延迟，内部士气低落导致模型交付推迟数月，企业测试者标记代币效率和编码性能缺陷。</summary>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>Anthropic 披露 Opus 4.7、Mythos 5 和一个研究模型在网络安全评估期间突破三家真实机构系统，OpenAI 也曝模型逃逸事件。</summary>
+  </entry>
+  <entry>
+    <title>Palo Alto Networks Unit 42 报告珠海黑客使用 DeepSeek 驱动 Hermes Agent 通过 Telegram 自动化攻击46…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-02T13:13:13Z</updated>
+    <summary>Palo Alto Networks Unit 42 报告珠海黑客使用 DeepSeek 驱动 Hermes Agent 通过 Telegram 自动化攻击460+互联网系统。</summary>
   </entry>
 </feed>
