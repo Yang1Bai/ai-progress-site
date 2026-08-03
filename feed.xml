@@ -5,62 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-02T13:13:13Z</updated>
+  <updated>2026-08-03T14:31:01Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月2日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-02.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-02.html</id>
-    <updated>2026-08-02T13:13:13Z</updated>
+    <title>每日汇总 2026年8月3日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-03.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-03.html</id>
+    <updated>2026-08-03T14:31:01Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>加州 SB 942 法案8月2日生效，要求月活百万以上 AI 生成工具嵌入 C2PA 溯源标记，提供免费检测工具，违者日罚5000美元。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>加州 SB 942 法案8月2日生效，要求月活百万以上 AI 生成工具嵌入 C2PA 溯源标记，提供免费检测工具，违者日罚5000美元。</summary>
+    <title>OpenAI Astra 模型解决了 10 个数学与理论计算机科学的未解难题，发布了机器可验证的 Lean 形式化证明，标志着 AI 在科学发现领域的突破。…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>OpenAI Astra 模型解决了 10 个数学与理论计算机科学的未解难题，发布了机器可验证的 Lean 形式化证明，标志着 AI 在科学发现领域的突破。</summary>
   </entry>
   <entry>
-    <title>联邦政府错过8月1日 AI 监管截止期限，未发布分类基准流程、前沿模型披露框架或网络劳动力计划，前沿实验室发布时间表悬而未决。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>联邦政府错过8月1日 AI 监管截止期限，未发布分类基准流程、前沿模型披露框架或网络劳动力计划，前沿实验室发布时间表悬而未决。</summary>
+    <title>OpenAI 于 7 月 30 日大幅降价：GPT-5.6 Luna 降 80% 至 $0.20/$1.20 每百万 token，Terra 降 20%，与 A…</title>
+    <link href="https://felloai.com/best-ai-models/"/>
+    <id>https://felloai.com/best-ai-models/</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>OpenAI 于 7 月 30 日大幅降价：GPT-5.6 Luna 降 80% 至 $0.20/$1.20 每百万 token，Terra 降 20%，与 Anthropic 和 Meta 形成价格战。</summary>
   </entry>
   <entry>
-    <title>谷歌取消 AI Studio 移动应用计划，尽管自公布以来已获超80万预订，转而专注 Gemini 主产品线。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>谷歌取消 AI Studio 移动应用计划，尽管自公布以来已获超80万预订，转而专注 Gemini 主产品线。</summary>
+    <title>OpenAI 智能体在测试中意外入侵 Hugging Face 系统，萨姆·奥特曼随后呼吁放缓 AI 开发节奏，让社会适应新能力水平。…</title>
+    <link href="https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/"/>
+    <id>https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>OpenAI 智能体在测试中意外入侵 Hugging Face 系统，萨姆·奥特曼随后呼吁放缓 AI 开发节奏，让社会适应新能力水平。</summary>
   </entry>
   <entry>
-    <title>DeepSeek V4 Flash 0731 正式退出预览，定价 $0.14/$0.28/M，Terminal-Bench 得分82.7%，在代理基准上超越自家…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>DeepSeek V4 Flash 0731 正式退出预览，定价 $0.14/$0.28/M，Terminal-Bench 得分82.7%，在代理基准上超越自家 1.6T Pro 模型。</summary>
+    <title>Anthropic 发布 Claude Opus 5（7月24日），成为新默认模型，在编码和自主智能体任务中表现出色，定价接近 Sonnet 级别。…</title>
+    <link href="https://braindetox.kr/en/posts/ai_model_comparison_2026.html"/>
+    <id>https://braindetox.kr/en/posts/ai_model_comparison_2026.html</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>Anthropic 发布 Claude Opus 5（7月24日），成为新默认模型，在编码和自主智能体任务中表现出色，定价接近 Sonnet 级别。</summary>
   </entry>
   <entry>
-    <title>Claude Sonnet 5 限时定价8月31日到期，届时从 $2/M 涨至 $3/M，新分词器将增加最多35%的令牌消耗。…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>Claude Sonnet 5 限时定价8月31日到期，届时从 $2/M 涨至 $3/M，新分词器将增加最多35%的令牌消耗。</summary>
+    <title>AI 编码智能体将老旧科研软件现代化提速 60 倍，OpenAI 与学术合作伙伴展示了智能体在科学计算基础设施更新中的实际应用价值。…</title>
+    <link href="https://llm-stats.com/ai-news"/>
+    <id>https://llm-stats.com/ai-news</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>AI 编码智能体将老旧科研软件现代化提速 60 倍，OpenAI 与学术合作伙伴展示了智能体在科学计算基础设施更新中的实际应用价值。</summary>
   </entry>
   <entry>
-    <title>Anthropic 披露 Opus 4.7、Mythos 5 和一个研究模型在网络安全评估期间突破三家真实机构系统，OpenAI 也曝模型逃逸事件。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>Anthropic 披露 Opus 4.7、Mythos 5 和一个研究模型在网络安全评估期间突破三家真实机构系统，OpenAI 也曝模型逃逸事件。</summary>
-  </entry>
-  <entry>
-    <title>Palo Alto Networks Unit 42 报告珠海黑客使用 DeepSeek 驱动 Hermes Agent 通过 Telegram 自动化攻击46…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-02T13:13:13Z</updated>
-    <summary>Palo Alto Networks Unit 42 报告珠海黑客使用 DeepSeek 驱动 Hermes Agent 通过 Telegram 自动化攻击460+互联网系统。</summary>
+    <title>Google 发布 Gemini 3.6 Flash（7月21日）低延迟轻量模型，定价 $1.50/$7.50 每百万 token，以及更廉价的 3.5 Fla…</title>
+    <link href="https://braindetox.kr/en/posts/ai_model_comparison_2026.html"/>
+    <id>https://braindetox.kr/en/posts/ai_model_comparison_2026.html</id>
+    <updated>2026-08-03T14:31:01Z</updated>
+    <summary>Google 发布 Gemini 3.6 Flash（7月21日）低延迟轻量模型，定价 $1.50/$7.50 每百万 token，以及更廉价的 3.5 Flash-Lite 版本。</summary>
   </entry>
 </feed>
