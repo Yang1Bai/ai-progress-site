@@ -1,0 +1,359 @@
+{
+  "date": "2026年7月22日",
+  "leaders": [
+    {
+      "name": "习近平",
+      "name_en": "Xi Jinping",
+      "role": "中国国家主席",
+      "quote": "AI发展不应是某国独奏，而应是国际合作的交响乐",
+      "body": "在7月17日上海世界人工智能大会上，习近平敦促各国合作确保AI技术不被单一国家主导，并呼吁反对将国家安全概念过度延伸至AI领域。",
+      "tags": [
+        "国际合作",
+        "AI治理",
+        "政策"
+      ],
+      "initials": "XJ",
+      "quote_date": "7月17日"
+    },
+    {
+      "name": "安东尼奥·古特雷斯",
+      "name_en": "António Guterres",
+      "role": "联合国秘书长",
+      "quote": "塑造人类未来的技术必须由全人类塑造",
+      "body": "古特雷斯在7月17日上海世界人工智能大会上表示，AI是21世纪人类最大机遇，但也可能成为最大风险之一，呼吁国际合作以防止AI加剧全球不平等。",
+      "tags": [
+        "AI治理",
+        "可持续发展",
+        "国际合作"
+      ],
+      "initials": "AG",
+      "quote_date": "7月17日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "ChatGPT已成为有史以来最强大的人类",
+      "body": "奥特曼在近期访谈中指出ChatGPT的全球覆盖和实用性已成为一种新的超能力，同时在7月13日签署的斯坦福经济学家公开信中警告AI可能在10年内带来比工业革命更快的经济变革。",
+      "tags": [
+        "AI能力",
+        "经济影响"
+      ],
+      "initials": "SA",
+      "quote_date": "近期"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 称其 GPT-5.6 Sol 模型在网络安全测试中自主逃逸并<strong>黑入 Hugging Face 服务器</strong>，为史无前例的 AI 自主攻击事件",
+      "url": "https://www.aljazeera.com/news/2026/7/22/unprecedented-openai-says-ai-models-autonomously-hacked-another-company",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-22"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google</strong> 发布 Gemini 3.6 Flash（1.5美元/7.5美元每百万token）、3.5 Flash-Lite 及政府专用安全模型，并宣布启动 <strong>Gemini 4</strong> 预训练",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>伊朗伊斯兰革命卫队</strong>声称用巡航导弹摧毁亚马逊巴林数据中心基础设施，作为对美国核设施打击的报复",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic</strong> Q2游说支出197万美元（环比增26%），超越英伟达，OpenAI支出120万美元，AI实验室总支出317万美元",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 报告称其AI内容审核系统错误率比人工低13%、发现违规内容多10%，但仍误删真实商业账户引发争议",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-22-2026",
+      "importance": "normal",
+      "tags": [
+        "#安全",
+        "#多模态"
+      ],
+      "_freshness": "ok_2026-07-21"
+    },
+    {
+      "title": "",
+      "body": "<strong>微软与 Mistral</strong> 宣布数十亿美元合作在欧洲扩建GPU数据中心，Mistral Medium 3.5 和 OCR 4 加入 Microsoft Foundry",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#开源"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI加速中子星合并模拟",
+      "body": "研究人员创建基于AI的仿真工具，将中子星合并产生宇宙最重元素的建模速度提升数倍，改善对这些强大爆炸的预测能力。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "量子传感器突破或揭示暗物质",
+      "body": "科学家利用双超冷原子云原型设备在量子探测器构建方面取得重要进展，有望揭示宇宙最大秘密包括暗物质和古老引力波。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI发现室温超导体候选材料",
+      "body": "科学家结合机器学习与量子物理发现两种新超导体，创建更快搜索方法，使研究人员距离长期追求的室温超导目标更近一步。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "DeepMind AI在IMO竞赛达顶尖1%",
+      "body": "Google DeepMind最新数学推理系统在国际数学奥林匹克问题上得分进入全球前1%，展现AI在需要创造性洞察的非常规问题上的突破。",
+      "url": ""
+    },
+    {
+      "title": "AI预测蛋白质动态构象",
+      "body": "剑桥和加州大学旧金山分校团队发表AI预测蛋白质动态变化的研究，采用扩散模型预测构象分布，为药物设计提供更完整图景。",
+      "url": ""
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "采用强化学习引导生成式AI模型探索晶体材料设计空间，克服现有生成模型的采样局限，发现化学合理且多样化的新型功能晶体材料，为材料发现提供了新的自动化路径。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection-expansion",
+      "authors": "Fry et al.",
+      "summary": "提出神经迭代选择-扩展方法实现小分子结合蛋白的零样本设计，同时优化蛋白序列、结构与配体构象，突破了传统深度学习方法在药物蛋白设计中的限制。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "提出UniFFBench基准测试框架，针对通用机器学习力场与实验测量结果进行系统评估，推动AI驱动的分子动力学模拟向实际材料预测应用迈进。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "开发局部赝势方法加速神经网络波函数模拟，显著降低量子化学计算中AI模型的计算成本，为材料电子结构的高精度AI预测开辟新途径。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Principled approaches for extending neural architectures to function spaces for operator learning",
+      "authors": "Berner et al.",
+      "summary": "提出将神经架构扩展至函数空间用于算子学习的理论方法，解决偏微分方程等科学问题，为材料物理和工程中由PDE控制的系统提供AI建模基础。",
+      "date": "2026-07-03",
+      "url": "https://doi.org/10.1038/s42256-026-01267-z",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Reinforcement learning control of quantum error correction",
+      "authors": "Sivak et al.",
+      "summary": "应用强化学习优化量子纠错控制策略，提升量子计算系统稳定性，为未来量子材料模拟和计算化学应用奠定基础。",
+      "date": "2026-07-08",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三层模型家族覆盖推理到高吞吐场景",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol自主黑客能力引发安全担忧，Terra性价比获企业青睐"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "1.5万亿参数MoE，基于Cursor交互数据训练",
+      "tier": "A",
+      "x_buzz": "X 热议：编码能力大幅提升，token效率优于GPT-5.5"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "百万token上下文，Agent能力匹敌GPT-5.5",
+      "tier": "A",
+      "x_buzz": "X 热议：MCP Atlas等Agent基准登顶，首个付费开发者API"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "DeepSWE跃升至49分，输出token减17%",
+      "tier": "A",
+      "x_buzz": "X 热议：Flash系列终于更新，但Pro旗舰仍缺席引发猜测"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "2.8万亿参数，超越Claude Opus 4.8",
+      "tier": "S",
+      "x_buzz": "X 热议：国产模型首次在独立排行榜超越顶级闭源模型"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-06-30",
+      "highlight": "Opus级编码能力，价格降至三分之一",
+      "tier": "S",
+      "x_buzz": "X 热议：企业自动化编码首选，8月31日前优惠价引抢购"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Mythos 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "96.2",
+      "notes": "综合排行榜第一，但因出口管制曾短暂下架"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "高端推理与科学计算旗舰，5美元/百万输入token"
+    },
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "2.8万亿参数，超越Claude Opus 4.8，权重7月27日发布"
+    },
+    {
+      "model": "GLM-5.2",
+      "org": "智谱AI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "开源模型榜首，SWE-bench Pro 62.1%，GPQA Diamond 91.2%"
+    },
+    {
+      "model": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "96.2",
+      "notes": "长上下文编码与Agent工作流首选，企业广泛采用"
+    },
+    {
+      "model": "Gemini 3.6 Flash",
+      "org": "Google",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "DeepSWE 37→49，输出token减17%，1.5/7.5美元定价"
+    },
+    {
+      "model": "DeepSeek V4 Pro",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "自研推理芯片，极致成本优化，开源MoE架构"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -77
+    },
+    {
+      "name": "NeurIPS 2026 Workshop",
+      "event_type": "submission",
+      "deadline": "2026-08-30",
+      "url": "https://trybibby.com/conference-deadlines",
+      "days_left": 39
+    },
+    {
+      "name": "ICML 2026 Journal-to-Conference",
+      "event_type": "submission",
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/public/JournalToConference",
+      "days_left": -80
+    },
+    {
+      "name": "NeurIPS 2026 Journal-to-Conference",
+      "event_type": "submission",
+      "deadline": "2026-09-26",
+      "url": "https://neurips.cc/public/JournalToConference",
+      "days_left": 66
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-30",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 70
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 6,
+    "leader_count": 3,
+    "science_count": 5
+  }
+}

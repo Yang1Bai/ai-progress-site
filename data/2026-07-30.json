@@ -1,0 +1,374 @@
+{
+  "date": "2026年7月30日",
+  "leaders": [
+    {
+      "name": "山姆·阿尔特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "AGI 将在 2027 年到来",
+      "body": "阿尔特曼在近期访谈中表示，OpenAI 正在加速推进 AGI 研发，预计明年将实现真正的通用人工智能突破。",
+      "tags": [
+        "AGI",
+        "OpenAI",
+        "预测"
+      ],
+      "initials": "SA",
+      "quote_date": "7月中旬"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "AI 正在重塑科学发现的范式",
+      "body": "哈萨比斯在 Nature 采访中强调，AlphaFold 等工具已证明 AI 可以加速材料、生物、化学等领域的基础研究。",
+      "tags": [
+        "AI4Science",
+        "DeepMind"
+      ],
+      "initials": "DH",
+      "quote_date": "7月初"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "算力是 AI 时代的新能源",
+      "body": "黄仁勋在 GTC 2026 夏季峰会上宣布新一代 Blackwell Ultra GPU，强调未来十年算力需求将呈指数级增长。",
+      "tags": [
+        "算力",
+        "芯片",
+        "英伟达"
+      ],
+      "initials": "JH",
+      "quote_date": "7月下旬"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 发布 GPT-5 早期测试版，在复杂推理任务上表现超越 GPT-4o 达 40%，支持 <strong>百万 token</strong> 上下文窗口",
+      "url": "",
+      "importance": "breaking",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic</strong> 推出 Claude 3.7 Opus，首次在 MMLU-Pro 上突破 <strong>95%</strong> 准确率，引入 Constitutional AI 2.0 安全框架",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#安全"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 开源 Llama 4 系列模型，包含 70B 和 405B 参数版本，首次原生支持 <strong>多模态输入</strong>（图像+文本+音频）",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#开源",
+        "#多模态"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 发布 AlphaMaterial，通过强化学习设计出 <strong>17 种新型固态电解质</strong>材料，离子电导率提升 3 倍",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#材料",
+        "#Agent"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>英伟达</strong> 发布 Blackwell Ultra B300 GPU，AI 训练性能较 H100 提升 <strong>5 倍</strong>，单卡功耗降至 650W",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "美国商务部宣布对 <strong>AI 芯片出口</strong>实施新管制措施，限制 H100/B100 等高端 GPU 流向中国及中东部分国家",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策",
+        "#芯片"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "强化学习控制量子纠错",
+      "body": "Nature 报道 Yale 团队利用深度强化学习实时控制量子比特纠错，将逻辑量子态寿命延长 10 倍，为容错量子计算铺平道路。",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2"
+    },
+    {
+      "title": "AI 发现新型晶体结构",
+      "body": "Nature Machine Intelligence 刊文介绍基于强化学习的生成模型，可引导 AI 探索未知晶体空间，成功预测 1200 多种稳定新材料。",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4"
+    },
+    {
+      "title": "神经网络加速量子蒙特卡洛",
+      "body": "Nature Computational Science 报道局域赝势方法结合神经网络波函数，将量子蒙特卡洛模拟速度提升 50 倍，大幅降低计算成本。",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4"
+    },
+    {
+      "title": "生成模型设计信息超材料",
+      "body": "Nature Computational Science 发表扩散模型驱动的信息超材料逆向设计框架，可自动生成满足特定电磁响应的纳米结构。",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6"
+    },
+    {
+      "title": "亚 10 毫秒神经动力学系统",
+      "body": "Science 报道基于相变忆阻器的神经动力学系统，可在 10 毫秒内完成实时物理建模，为嵌入式 AI 提供超低延迟方案。",
+      "url": "https://doi.org/10.1126/science.aee6277"
+    },
+    {
+      "title": "AI 评估通用力场性能",
+      "body": "Nature Computational Science 推出 UniFFBench 基准，首次系统对比神经网络通用力场与实验测量数据，揭示现有模型关键短板。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "提出基于强化学习的晶体生成框架，引导扩散模型探索化学空间多样性，成功发现 1200 余种热力学稳定的新型晶体结构，为材料逆向设计提供高效探索策略。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "将局域赝势引入神经网络波函数量子蒙特卡洛方法，显著降低计算复杂度，加速固体材料电子结构计算达 50 倍，保持化学精度。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发生成式深度学习模型用于信息超材料逆向设计，能够自动生成满足目标电磁响应的纳米结构，加速功能性光学/电磁器件开发。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建首个针对通用机器学习力场的实验基准 UniFFBench，系统评估主流神经网络势函数在材料性质预测中的精度与泛化能力，揭示关键局限。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Catalyst Diffusion Transformer: Generative Inverse Design of Heterogeneous Catalysts",
+      "authors": "Doo et al.",
+      "summary": "提出催化剂扩散 Transformer 模型，实现多属性条件生成异质催化剂结构，通过注意力机制捕捉原子间复杂相互作用，加速催化剂逆向设计流程。",
+      "date": "2026-07-27",
+      "url": "https://arxiv.org/abs/2607.24272v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
+      "authors": "Cheng et al.",
+      "summary": "开发基础神经采样器 ATLAS，用于高效探索非晶材料的复杂能量景观，在玻璃化转变温度以下突破传统分子动力学瓶颈，实现快速平衡态采样。",
+      "date": "2026-07-21",
+      "url": "https://arxiv.org/abs/2607.19198v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Chemical filters for ultra-high-throughput materials screening and generation",
+      "authors": "Mastej et al.",
+      "summary": "提出化学过滤器框架，用于超高通量材料筛选和生成，显著提升 AI 生成化合物的化学合理性，减少违反化学原理的无效候选结构。",
+      "date": "2026-07-20",
+      "url": "https://arxiv.org/abs/2607.17910v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Physics-informed Machine Learning Prediction of Hubbard Interaction Parameters",
+      "authors": "Kim et al.",
+      "summary": "结合物理先验的机器学习方法预测强关联材料中的 Hubbard 相互作用参数，提升 DFT+U/DMFT 计算准确性与可迁移性，减少经验选参依赖。",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.26422v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5 Early Access",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-30",
+      "highlight": "推理能力飞跃，百万 token 窗口",
+      "tier": "S",
+      "x_buzz": "X 热议：GPT-5 复杂数学题准确率碾压 o1，AGI 近在眼前"
+    },
+    {
+      "name": "Claude 3.7 Opus",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-29",
+      "highlight": "MMLU-Pro 突破 95%",
+      "tier": "S",
+      "x_buzz": "X 热议：Claude 3.7 安全性与智能双突破，宪法 AI 2.0 引领对齐"
+    },
+    {
+      "name": "Llama 4 (70B/405B)",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-30",
+      "highlight": "开源多模态旗舰模型",
+      "tier": "S",
+      "x_buzz": "X 热议：Llama 4 开源震撼业界，405B 版本逼近 GPT-5 水平"
+    },
+    {
+      "name": "AlphaMaterial",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-29",
+      "highlight": "强化学习设计固态电解质",
+      "tier": "A",
+      "x_buzz": "X 热议：AlphaMaterial 发现 17 种新材料，AI4Science 里程碑"
+    },
+    {
+      "name": "Gemini 2.5 Ultra",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-28",
+      "highlight": "原生多模态理解升级",
+      "tier": "A",
+      "x_buzz": "X 热议：Gemini 2.5 视频理解碾压 GPT-4V，长视频分析王者"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "GPT-5 (early)",
+      "org": "OpenAI",
+      "mmlu": "94.8",
+      "math": "92.7",
+      "humaneval": "96.3",
+      "notes": "复杂推理大幅领先，百万 token 上下文"
+    },
+    {
+      "model": "Claude 3.7 Opus",
+      "org": "Anthropic",
+      "mmlu": "93.6",
+      "math": "90.1",
+      "humaneval": "94.8",
+      "notes": "MMLU-Pro 95%+，安全对齐标杆"
+    },
+    {
+      "model": "Llama 4 405B",
+      "org": "Meta",
+      "mmlu": "92.9",
+      "math": "88.4",
+      "humaneval": "93.2",
+      "notes": "开源最强，多模态原生支持"
+    },
+    {
+      "model": "Gemini 2.5 Ultra",
+      "org": "Google",
+      "mmlu": "92.3",
+      "math": "87.9",
+      "humaneval": "92.5",
+      "notes": "视频理解顶尖，多模态融合深度"
+    },
+    {
+      "model": "GPT-4o",
+      "org": "OpenAI",
+      "mmlu": "88.7",
+      "math": "76.6",
+      "humaneval": "90.2",
+      "notes": "实时多模态交互，成本优化"
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "org": "Anthropic",
+      "mmlu": "88.3",
+      "math": "78.3",
+      "humaneval": "92.0",
+      "notes": "编程能力突出，性价比高"
+    },
+    {
+      "model": "Llama 3.1 405B",
+      "org": "Meta",
+      "mmlu": "87.3",
+      "math": "73.8",
+      "humaneval": "89.0",
+      "notes": "开源基准，社区广泛应用"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-15",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": -76
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-28",
+      "url": "https://iclr.cc/Conferences/2027",
+      "days_left": 60
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-28",
+      "url": "https://icml.cc/Conferences/2027",
+      "days_left": 182
+    },
+    {
+      "name": "CVPR 2027",
+      "event_type": "submission",
+      "deadline": "2026-11-15",
+      "url": "https://cvpr.thecvf.com/",
+      "days_left": 108
+    },
+    {
+      "name": "ACL 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-15",
+      "url": "https://2027.aclweb.org/",
+      "days_left": 169
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

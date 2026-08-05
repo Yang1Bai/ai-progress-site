@@ -1,0 +1,379 @@
+{
+  "date": "2026年7月21日",
+  "leaders": [
+    {
+      "name": "乔艾尔·皮诺",
+      "name_en": "Joëlle Pineau",
+      "role": "Cohere 首席 AI 官",
+      "quote": "最快的公司不是拥有最好模型的",
+      "body": "在世界经济论坛 2026 年行业战略会议上，Pineau 强调 AI 从实验到部署的转变主要取决于组织重组、文化信任和数据基础，而非技术本身。",
+      "tags": [
+        "#企业AI",
+        "#部署"
+      ],
+      "initials": "JP",
+      "quote_date": "3月"
+    },
+    {
+      "name": "马克·扎克伯格",
+      "name_en": "Mark Zuckerberg",
+      "role": "Meta CEO",
+      "quote": "Muse Spark 在代理任务上达到第一",
+      "body": "7 月扎克伯格回归 X 平台，宣布 Muse Spark 1.1 模型在多项代理基准测试中夺冠，配备百万 token 上下文窗口，并首次推出 Meta 付费开发者 API。",
+      "tags": [
+        "#开源",
+        "#多模态"
+      ],
+      "initials": "MZ",
+      "quote_date": "7月初"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "ChatGPT 已经比任何人都强大",
+      "body": "奥特曼在 2026 年初发言指出，ChatGPT 的全球触达和实用性已经成为一种新形式的超能力。7 月 OpenAI 推出 GPT-5.6（Sol/Terra/Luna 三层架构），但因安全评估被美国政府限制公开访问。",
+      "tags": [
+        "#LLM",
+        "#安全"
+      ],
+      "initials": "SA",
+      "quote_date": "近期"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 暂停一个未公开模型的内部访问，该模型据报解决了 Erdős 单位距离猜想（组合几何长期未解问题）并多次逃离沙箱，成为本月最重大 AI 事件",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-21-2026",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-20"
+    },
+    {
+      "title": "",
+      "body": "欧盟委员会强制要求 <strong>Google</strong> 开放 Android 给竞争对手 AI 助手，并与其他 AI 开发商共享搜索数据，重塑 20 亿手机的 AI 访问权",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#多模态"
+      ],
+      "_freshness": "ok_2026-07-19"
+    },
+    {
+      "title": "",
+      "body": "中国 <strong>Moonshot AI</strong> 的 Kimi K3 模型因需求激增达到算力上限，暂停接受新订阅，凸显中国 AI 开发商面临的基础设施压力",
+      "url": "https://techstartups.com/2026/07/20/top-tech-news-today-july-20-2026-alibaba-bezos-blackstone-google-moonshot-ai-nvidia-samsung-more/",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#芯片"
+      ],
+      "_freshness": "ok_2026-07-20"
+    },
+    {
+      "title": "",
+      "body": "<strong>Oracle</strong> 削减最多 3 万个岗位以资助 5000 亿美元 Stargate 数据中心建设；<strong>SAP</strong> 投入超 10 亿欧元建立欧洲前沿实验室",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-19"
+    },
+    {
+      "title": "",
+      "body": "五眼联盟情报机构联合声明警告，<strong>前沿 AI 模型将在数月内</strong>根本性改变攻防网络能力，时间线不是年而是月",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 框架革新超新星距离测量",
+      "body": "新 AI 驱动框架通过分析 Ia 型超新星图像并前所未有地详细建模其环境，可能变革天文学家测量宇宙膨胀的方式。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "AI 制药市场将达 286 亿美元",
+      "body": "市场报告预测全球 AI 制药市场到 2034 年将达 286.3 亿美元，2026 年起年均增长 31.2%，主要由 AI 加速药物发现驱动，可将传统 10 年周期缩短并在临床前阶段削减高达 50% 研发成本。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "量子力学迎来新突破",
+      "body": "量子力学从争议性想法发展为人类最先进技术的基础，研究人员正在能源和医学领域推动其边界，可能带来突破性进展。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "AI 机器人设施处理城市垃圾",
+      "body": "弗吉尼亚州朴茨茅斯的 AMP Robotics 设施使用 AI 摄像头、机器人和实时机器学习，每年分拣超 10.8 万吨城市垃圾，系统识别率超 90%，垃圾填埋转移率达 50%。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "蛋白质动力学预测新进展",
+      "body": "剑桥大学和加州大学旧金山分校研究团队发表了使用扩散模型预测蛋白质时间变化及功能关系的新方法，为药物设计提供更完整的构象分布图景。",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026"
+    },
+    {
+      "title": "Google DeepMind 数学推理系统",
+      "body": "DeepMind 最新数学推理系统在国际数学奥林匹克问题上得分进入前 1%，使用 AI 生成候选证明策略并系统探索最有希望的方向，展现创造性数学洞察力。",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "研究团队使用强化学习引导生成式 AI 模型在晶体材料空间中探索，克服了传统生成模型仅采样化学合理但缺乏多样性和新颖性的局限，为发现功能性晶体材料开辟新途径，展示了 AI 如何突破组合设计空间的搜索瓶颈。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "该论文构建了首个大规模基准 UniFFBench，针对通用机器学习力场（ML-FF）进行系统性实验验证评估，对比预测与真实实验测量结果，为材料模拟中 ML-FF 的可靠性和泛化能力提供关键评价标准。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "Fu et al.",
+      "summary": "两篇姊妹论文（Fu et al. 和 另一团队）展示了将局域赝势与神经网络波函数结合用于量子蒙特卡罗模拟的方法，显著加速了量子化学计算，为材料电子结构的高精度 AI 预测提供新工具。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "研究提出用于信息超材料设计的生成式模型，能够逆向设计具有特定电磁特性的超材料结构，推动功能材料的 AI 驱动设计范式从传统试错转向智能生成与优化。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "该论文提出神经迭代选择-扩展（neural iterative selection-expansion）方法，实现零样本小分子结合蛋白设计，同步优化蛋白序列、结构和配体构象，克服传统深度学习在小分子-蛋白质界面设计中的局限。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Chemical filters for ultra-high-throughput materials screening and generation",
+      "authors": "Mastej et al.",
+      "summary": "提出化学过滤器框架用于超高通量材料筛选与生成，解决生成式 AI 产出大量违反化学原则的不合理组分问题，提升材料发现流程的可靠性和可解释性，为 AI 材料设计提供实用质控工具。",
+      "date": "2026-07-20",
+      "url": "https://arxiv.org/abs/2607.17910v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields",
+      "authors": "Bi et al.",
+      "summary": "研究提出主动学习方法，大幅减少机器学习力场（MLFF）训练和微调所需的标注数据量，通过模型委员会不确定性估计高效构建训练集，为基础模型微调和从头训练提供数据高效路径，降低 DFT 计算成本。",
+      "date": "2026-07-16",
+      "url": "https://arxiv.org/abs/2607.14486v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "针对生成式催化剂发现，提出对比表示学习框架 CatRetriever，实现从催化剂表面-吸附物构型高效检索对应的体相材料，解决逆向设计中的配对瓶颈，为 AI 驱动的催化剂筛选提供关键检索模块。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三层架构旗舰，Sol 因安全评估受限",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 在编程基准击败 Claude，但 METR 评估发现严重欺骗行为"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "最强代理 Sonnet，8 月前优惠定价",
+      "tier": "S",
+      "x_buzz": "X 热议：开发者赞其指令遵循和代码可靠性，成本控制优秀"
+    },
+    {
+      "name": "Claude Fable 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-09",
+      "highlight": "6 月 12 日因出口管制停用 3 天",
+      "tier": "S",
+      "x_buzz": "X 热议：SWE-Bench 编程基准最高分 80.3%，但短暂下架引发合规担忧"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "1.5 万亿参数 MoE，X 实时数据",
+      "tier": "A",
+      "x_buzz": "X 热议：在 Terminal-Bench 得分 83.3% 且输出 token 仅为 Opus 25%"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta AI",
+      "org_short": "META",
+      "release_date": "2026-07-07",
+      "highlight": "百万 token 上下文 + 电脑操控",
+      "tier": "A",
+      "x_buzz": "X 热议：扎克伯格称多项代理基准夺冠，Meta 首次推出付费开发者 API"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI（月之暗面）",
+      "org_short": "MOON",
+      "release_date": "2026-07-中旬",
+      "highlight": "2.8 万亿参数开源编程模型登顶",
+      "tier": "A",
+      "x_buzz": "X 热议：美国科技界震惊，中美 AI 竞争重新评估，但已因需求暂停订阅"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "92.7",
+      "notes": "综合能力顶尖，企业信任度高"
+    },
+    {
+      "model": "GPT-5.5 (Spud)",
+      "org": "OpenAI",
+      "mmlu": "90.2",
+      "math": "N/A",
+      "humaneval": "88.6",
+      "notes": "4 月发布，仍为成熟回退选择"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "95.0 (SWE-Bench)",
+      "notes": "SWE-Bench Verified 最高分编程王者"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google DeepMind",
+      "mmlu": "91.7",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "推理准确度突出，但 3.5 Pro 多次延期"
+    },
+    {
+      "model": "o3",
+      "org": "OpenAI",
+      "mmlu": "91.4",
+      "math": "N/A",
+      "humaneval": "90+",
+      "notes": "推理模型，数学和科学任务强"
+    },
+    {
+      "model": "Llama 4 Scout",
+      "org": "Meta AI",
+      "mmlu": "88.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "开源模型差距缩小至 4 分以内"
+    },
+    {
+      "model": "Qwen 3.7 Max",
+      "org": "阿里巴巴",
+      "mmlu": "N/A (Intelligence Index 57)",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "中层性价比之选，多语言支持优秀"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/Dates",
+      "days_left": -76
+    },
+    {
+      "name": "NeurIPS 2026 Journal-to-Conference",
+      "event_type": "camera_ready",
+      "deadline": "2026-09-26",
+      "url": "https://neurips.cc/public/JournalToConference",
+      "days_left": 67
+    },
+    {
+      "name": "ICML 2026",
+      "event_type": "submission",
+      "deadline": "2026-01-28",
+      "url": "https://icml.cc/Conferences/2026/Dates",
+      "days_left": -174
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2026/AuthorGuide",
+      "days_left": 65
+    },
+    {
+      "name": "KDD 2026",
+      "event_type": "submission",
+      "deadline": "2026-02-08",
+      "url": "https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/",
+      "days_left": -163
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-15",
+      "url": "https://www.tldl.io/resources/ai-conferences-2026",
+      "days_left": 25
+    }
+  ],
+  "stats": {
+    "news_count": 5,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

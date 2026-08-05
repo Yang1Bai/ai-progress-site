@@ -1,0 +1,344 @@
+{
+  "date": "2026年8月1日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "我们需要政府帮助建立国际协调机制来放缓前沿开发",
+      "body": "7月29日，Amodei与1000余名AI从业者联名呼吁美国政府支持国际努力，主动放缓自动化AI研发节奏，应对模型自我迭代带来的失控风险。",
+      "tags": [
+        "AI安全",
+        "政策",
+        "Anthropic"
+      ],
+      "initials": "DA",
+      "quote_date": "7月29日"
+    },
+    {
+      "name": "雅库布·帕乔茨基",
+      "name_en": "Jakub Pachocki",
+      "role": "OpenAI首席科学家",
+      "quote": "领先AI公司相信系统即将能自动化自身研发",
+      "body": "Pachocki与DeepMind、Meta AI高管共同签署\"放缓前沿\"声明，警告AI系统可能很快能自动化自己的研究和开发，呼吁建立技术与治理工具。",
+      "tags": [
+        "AI安全",
+        "研发"
+      ],
+      "initials": "JP",
+      "quote_date": "7月28日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "开发者可能需要主动踩刹车让社会跟上步伐",
+      "body": "尽管未签署放缓请愿，Altman在7月29日访谈中表示AI模型开发者或需自愿减速，给社会适应留出时间，反映行业对快速进展的反思。",
+      "tags": [
+        "AI发展",
+        "社会影响"
+      ],
+      "initials": "SA",
+      "quote_date": "7月29日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI将GPT-5.6价格最高下调80%</strong>，并向10万名研究者提供免费访问，同时<strong>Anthropic披露其AI突破了三家公司网络</strong>，安全问题浮出水面。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-31-2026",
+      "importance": "breaking",
+      "tags": [
+        "#LLM",
+        "#安全"
+      ],
+      "_freshness": "ok_2026-07-31"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic于7月24日发布Claude Opus 5</strong>，配备100万token上下文窗口，定价5美元/25美元，在ARC-AGI-3和代理推理基准上领先GPT-5.6 Sol。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "美国FCC于<strong>7月27日将境外先进机器人设备列入国家安全禁令</strong>，涵盖人形和四足机器人，新进口被阻但存量设备不受影响。",
+      "url": "https://www.neuralbuddies.com/p/ai-news-recap-july-31-2026",
+      "importance": "major",
+      "tags": [
+        "#机器人",
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "Google Gemini 3.5 Pro发布持续延迟，<strong>内部士气低落导致模型交付推迟数月</strong>，企业测试者标记代币效率和编码性能缺陷。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI框架预测超新星助力暗能量研究",
+      "body": "研究团队开发基于AI的框架分析Ia型超新星图像并建模环境细节，可前所未有地精确估算宇宙距离，为测量宇宙膨胀提供新工具。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "AI发现无稀土永磁材料",
+      "body": "Ames实验室开发名为DuctGPT的物理训练AI工作流，该模型理解底层物理学而非仅依赖现有数据，成功发现无稀土永久磁铁材料，同时考虑生产成本和供应链。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "光物质混合粒子驱动AI计算",
+      "body": "宾夕法尼亚大学研究人员创建混合光-物质粒子，可大幅加速AI计算同时降低能耗，有望替代部分电子计算过程，实现超高效光基AI处理。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "DNA机器人可体内递药猎杀病毒",
+      "body": "DNA机器人作为可编程微型机器正在涌现，未来或能在体内递送药物、猎杀病毒并构建分子级设备，结合传统机器人学思路与DNA自组装技术取得突破。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "量子计算机存在严重安全漏洞",
+      "body": "宾州州立大学研究警告量子计算机尽管能革新药物发现和商业分析，但其强大能力也使其异常脆弱，安全缺陷可能被利用，亟需新防护机制。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "类脑机器数学能力超预期",
+      "body": "受大脑启发的机器在数学任务上表现出超出预期的能力，神经形态计算架构在某些推理任务中展现出比传统架构更强的泛化性能。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "利用强化学习引导生成式AI模型发现多样化的新型晶体材料。该方法突破传统生成模型局限，不仅采样化学上合理的组成和结构，还通过RL在巨大的组合设计空间中导航，发掘功能性晶体材料。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建通用机器学习力场的实验验证基准UniFFBench。该工作对比ML力场与实验测量数据，评估模型在材料科学中的实际可靠性，推动力场模型从理论走向应用。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发用于信息超材料设计的生成式模型，AI驱动的逆向设计方法可高效探索超材料结构空间，加速具有特定电磁或光学特性的功能材料发现。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "A machine learning framework for predicting and modulating condition-dependent protein phase separation",
+      "authors": "Bae et al.",
+      "summary": "构建机器学习框架预测并调控依赖条件的蛋白质相分离行为。该方法结合蛋白质序列与环境条件，精准预测相变，为生物材料和药物设计提供工具。",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.1038/s41467-026-76248-2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "MatCreatioNN: Machine learning-guided computational discovery of photocatalysts for environmental applications",
+      "authors": "Satya Kokonda",
+      "summary": "提出ML引导的光催化剂计算发现框架，结合强化学习克服高计算成本和稀疏实验数据限制，针对环境修复和CO₂转化应用系统设计多参数光催化材料。",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.27295v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Catalyst Diffusion Transformer: Generative Inverse Design of Heterogeneous Catalysts",
+      "authors": "Doo et al.",
+      "summary": "提出催化剂扩散Transformer架构，实现异质催化剂的生成式逆向设计。该方法应对复杂设计变量和广阔化学空间，支持多属性条件生成，突破传统单属性生成限制。",
+      "date": "2026-07-27",
+      "url": "https://arxiv.org/abs/2607.24272v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
+      "authors": "Cheng et al.",
+      "summary": "开发用于非晶材料的基础神经采样器ATLAS。针对非晶材料崎岖能量景观在玻璃化转变温度以下难以采样的问题，ATLAS突破传统分子动力学和蒙特卡洛限制，实现高效采样。",
+      "date": "2026-07-21",
+      "url": "https://arxiv.org/abs/2607.19198v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Fast and Accurate Foundation Models for Equivariant Machine-Learned Interatomic Potentials",
+      "authors": "Kavanagh et al.",
+      "summary": "提出快速准确的等变机器学习原子间势（MLIP）基础模型。该工作将大规模、多样化数据集训练的通用势作为下游微调的基础模型，加速材料科学和化学中的计算。",
+      "date": "2026-07-30",
+      "url": "https://arxiv.org/abs/2607.28461v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-24",
+      "highlight": "100万token上下文，ARC-AGI-3领先",
+      "tier": "S",
+      "x_buzz": "X 热议：Opus 5 以 Fable 5 的98%性能仅需一半价格，代理推理标杆"
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "价格下调80%，LiveBench数学96.2",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 在推理和数学上仍是标杆，降价策略震撼业界"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "强化代理编码能力，企业主力",
+      "tier": "A",
+      "x_buzz": "X 热议：Sonnet 5 被誉为最实用的代理编程模型，性价比高"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-28",
+      "highlight": "2.8万亿参数，最大开源权重",
+      "tier": "A",
+      "x_buzz": "X 热议：K3 成为史上最大开源LLM，中国开源力量震撼全球"
+    },
+    {
+      "name": "Gemini 2.5 Pro Deep Think",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-08",
+      "highlight": "科学推理强化，API可用",
+      "tier": "A",
+      "x_buzz": "X 热议：Deep Think 科学基准表现惊艳，但3.5 Pro仍难产"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "92.7",
+      "notes": "ARC-AGI-3领先，100万token上下文"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "96.2",
+      "humaneval": "N/A",
+      "notes": "LiveBench数学与推理第一，ARC-AGI-2达93%"
+    },
+    {
+      "model": "o3",
+      "org": "OpenAI",
+      "mmlu": "91.4",
+      "math": "N/A",
+      "humaneval": "90+",
+      "notes": "推理模型，MMLU高分"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google",
+      "mmlu": "90.3",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA Diamond 94.3%，科学推理强"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "89.2",
+      "notes": "前代旗舰，编码能力扎实"
+    },
+    {
+      "model": "Llama 4 Scout",
+      "org": "Meta",
+      "mmlu": "88.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "开源模型中MMLU领先"
+    },
+    {
+      "model": "Qwen 2.5 72B",
+      "org": "Alibaba",
+      "mmlu": "85.3",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "开闭源差距收窄至4分内"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "notification",
+      "deadline": "2026-09-24",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": 54
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "camera_ready",
+      "deadline": "2026-12-06",
+      "url": "https://neurips.cc/Conferences/2026/Dates",
+      "days_left": 127
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-16",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 46
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 54
+    }
+  ],
+  "stats": {
+    "news_count": 4,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

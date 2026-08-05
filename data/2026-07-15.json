@@ -1,0 +1,380 @@
+{
+  "date": "2026年7月15日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家必须合作，抵制技术分裂",
+      "body": "在 6 月 17 日 G7 峰会上与 Sam Altman、Demis Hassabis 会见特朗普总统等国家元首，呼吁美国主导建立 AI 联盟，强调生物恐怖与网络安全风险需要跨国协作应对。",
+      "tags": [
+        "AI 治理",
+        "政策",
+        "国际合作"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我对 AI 经济影响的预测相当错误",
+      "body": "在 5 月与澳大利亚联邦银行 CEO 访谈中承认，此前对入门级白领岗位被 AI 取代的预测过于悲观，实际冲击远小于预期。同时 OpenAI 向美国政府提议以 5% 股权换取战略支持。",
+      "tags": [
+        "就业影响",
+        "IPO",
+        "政策"
+      ],
+      "initials": "SA",
+      "quote_date": "5月26日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "NVIDIA CEO",
+      "quote": "AI 不会减少工作岗位，而是创造效率机会",
+      "body": "与微软 AI CEO Mustafa Suleyman 的观点形成对照，认为 AI 不会直接影响就业数量，而是为员工创造利用技术提升生产力的机会，推动行业效率提升而非替代人力。",
+      "tags": [
+        "AI 就业",
+        "芯片",
+        "产业"
+      ],
+      "initials": "JH",
+      "quote_date": "近期"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>台积电（TSMC）</strong>公布历史纪录营收：Q2 达 396 亿美元，6 月同比增长 68%，N3 制程产能已售罄至年底，证实 AI 芯片需求持续爆发式增长。",
+      "url": "https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "stale_2026-07-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic 与三星</strong>展开早期谈判，拟定制 Claude 推理芯片，直接对抗其每月 12.5 亿美元的算力成本，有望大幅降低运营开支为 IPO 铺路。",
+      "url": "https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google</strong>在 Cloud Next '26 发布 Gemini Enterprise 平台，提供企业级 AI agent 编排与治理工具，正面对标 OpenAI ChatGPT Work 和 Anthropic 企业栈。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#Agent"
+      ],
+      "_freshness": "ok_2026-07-14"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI 提议向美国政府</strong>出让 5% 股权（价值约 426 亿美元），Sam Altman 直接向特朗普、商务部长和财政部长推介，以换取战略支持并为 IPO 布局。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "breaking",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-14"
+    },
+    {
+      "title": "",
+      "body": "<strong>梵蒂冈 AI 峰会</strong>（7 月 14-16 日）汇聚 30 位诺贝尔奖得主、OpenAI/DeepMind/Anthropic 代表和 30 国领袖，讨论 AI 与核战争风险，将发布《罗马和平宣言》。",
+      "url": "https://zenit.org/2026/07/13/here-is-what-the-vatican-summit-of-nobel-laureates-world-leaders-and-ai-experts-will-look-like/",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#安全"
+      ],
+      "_freshness": "ok_2026-07-13"
+    },
+    {
+      "title": "",
+      "body": "<strong>习近平将首次亲临</strong>上海 2026 世界人工智能大会（7 月 17-20 日），这是自 2018 年大会创办以来首次出席，显示中国将 AI 领导权提升至最高国家战略层级。",
+      "url": "https://unrot.co/blogs/today-top-10-ai-news-july-14-2026",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-13"
+    },
+    {
+      "title": "",
+      "body": "<strong>2026 上半年全球创业融资</strong>达 5100 亿美元创纪录，AI 主导增长且高度集中：OpenAI 和 Anthropic 占比巨大，资本正在向少数 AI 巨头集中而非分散。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-14"
+    }
+  ],
+  "science": [
+    {
+      "title": "强化学习引导晶体生成模型",
+      "body": "Nature Machine Intelligence 发表论文，展示如何通过强化学习引导生成式 AI 发现多样化、新颖的晶体材料，解决组合空间过大的设计挑战，为功能材料发现开辟新路径。",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4"
+    },
+    {
+      "title": "局域赝势加速神经网络波函数",
+      "body": "Nature Computational Science 报道，局域赝势可显著加速基于神经网络的量子蒙特卡洛模拟，使深度学习波函数方法在材料科学中的计算效率大幅提升，推动量子化学计算突破。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "AI 发现罕见无稀土永磁体",
+      "body": "美国 Ames 实验室开发物理驱动 AI 模型 DuctGPT，能够发明全新材料并考虑生产成本与供应链，成功发现无稀土永磁材料，降低对中国稀土进口依赖，加速国防与可再生能源应用。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "心脏猝死 AI 生物标志物",
+      "body": "Nature 发表研究，深度学习从心电图中发现心脏猝死的隐藏预测因子，可提前识别高危患者并及时植入除颤器，有望每年挽救数千生命。",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6"
+    },
+    {
+      "title": "零样本药物结合蛋白设计",
+      "body": "Nature 报道神经网络迭代选择-扩展方法，实现零样本药物结合蛋白设计，同步优化蛋白序列、结构与配体构象，为药物发现和材料界面设计提供全新工具。",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w"
+    },
+    {
+      "title": "通用机器学习力场基准测试",
+      "body": "Nature Computational Science 发布 UniFFBench，首次针对实验测量系统评估通用机器学习力场性能，为 AI 驱动材料模拟的实际应用提供可靠验证框架。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "利用强化学习引导生成式 AI 在海量组合设计空间中发现化学上合理且功能多样的新型晶体材料，克服传统生成模型的采样局限性，为材料发现提供可扩展方法。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "首次针对实验测量（而非理论参考）系统评估通用机器学习力场，验证 AI 驱动力场在真实材料体系中的预测准确性，为工业应用奠定信任基础。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "将局域赝势集成到神经网络波函数量子蒙特卡洛中，大幅加速深度学习驱动的电子结构计算，使高精度量子化学模拟在复杂材料中可行。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "提出零样本蛋白质设计方法，通过神经迭代选择与扩展同步优化蛋白序列、结构和小分子配体构象，攻克药物结合蛋白设计的多目标优化挑战，加速药物发现与生物材料工程。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "针对生成式催化剂发现中的表面-体相检索问题，提出对比表示学习框架 CatRetriever，加速异构催化剂逆向设计，将生成的表面结构高效匹配到物理可合成的体相材料。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出 EquiFiLM 模型，通过特征线性调制实现电荷条件下的等变机器学习力场，原生支持外部诱导电子态变化（如充放电），扩展通用力场对非平衡态化学的适用性。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms",
+      "authors": "Bengio et al.",
+      "summary": "首次实现全原子显式溶剂、周期边界条件感知的生成模型 AquaGen，以远低于分子动力学成本生成玻尔兹曼分布的分子构型，将生成式方法扩展到数千原子尺度。",
+      "date": "2026-07-03",
+      "url": "https://arxiv.org/abs/2607.03513v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
+      "authors": "Harari et al.",
+      "summary": "首次系统探索机器学习原子间势（MLIP）训练优化器选择，证明 SOAP 和 Muon 优化器可显著超越默认 Adam，实现更快收敛和更高标签效率，为 MLIP 训练提供新基准。",
+      "date": "2026-07-02",
+      "url": "https://arxiv.org/abs/2607.02499v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "近 Opus 性能、强工具调用、低价",
+      "tier": "A",
+      "x_buzz": "X 热议：最具性价比 agentic 模型，8 月 31 日前 $2/$10 introductory pricing 促销"
+    },
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三模型梯队、Sol 旗舰级推理",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 达 91.9% Terminal-Bench 刷新 SOTA，Terra/Luna 定价极具侵略性"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "SpaceXAI (xAI)",
+      "org_short": "XAI",
+      "release_date": "2026-07-04",
+      "highlight": "1.5T 参数、近 Opus 性能声称",
+      "tier": "A",
+      "x_buzz": "X 热议：SpaceX/Tesla 内部测试，定价未公布但 Musk 承诺性价比超旗舰"
+    },
+    {
+      "name": "Gemini 3.5 Pro",
+      "org": "Google DeepMind",
+      "org_short": "GDM",
+      "release_date": "2026-07-17",
+      "highlight": "2M context、Deep Think 模式",
+      "tier": "S",
+      "x_buzz": "X 热议：延期 6 周后将于 7 月 17 日发布，与习近平出席上海 AI 大会同日"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "1M token agentic 多模态模型",
+      "tier": "A",
+      "x_buzz": "X 热议：宣称 MCP Atlas/JobBench 第一，可调用 computer use 并行子代理委派"
+    },
+    {
+      "name": "Nano Banana 2 Lite",
+      "org": "Google DeepMind",
+      "org_short": "GDM",
+      "release_date": "2026-06-30",
+      "highlight": "最快、最经济图像生成",
+      "tier": "B",
+      "x_buzz": "X 热议：Google 面向速度与成本优化的实用图像模型，已集成 Meta AI 应用"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "GPT-5",
+      "org": "OpenAI",
+      "mmlu": "92.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 领先，但 GPT-5.6 系列未公布经典学术基准"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "95.0 (SWE-bench Verified)",
+      "notes": "复杂代码任务顶级，综合质量指数 100/100"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "88.6 (SWE-bench Verified)",
+      "notes": "旗舰推理模型，多模态与长上下文能力强"
+    },
+    {
+      "model": "Qwen3.7 Max",
+      "org": "Alibaba",
+      "mmlu": "93.7",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 得分最高（7 月 14 日数据）"
+    },
+    {
+      "model": "o3",
+      "org": "OpenAI",
+      "mmlu": "93.1",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "推理优化模型，数学竞赛表现突出"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "~80 (SWE-bench Verified)",
+      "notes": "强多模态支持，3.5 Pro 即将发布可能提升排名"
+    },
+    {
+      "model": "GLM-5.2",
+      "org": "Zhipu AI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "54.7 (HLE with tools)",
+      "notes": "中国开源模型领军，工具调用能力强"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICML 2026",
+      "event_type": "submission",
+      "deadline": "2026-01-28",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "days_left": -168
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2026/AuthorGuide",
+      "days_left": 71
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/",
+      "days_left": -70
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

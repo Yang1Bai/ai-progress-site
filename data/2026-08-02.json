@@ -1,0 +1,392 @@
+{
+  "date": "2026年8月2日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "政府应有权阻止危险 AI 部署",
+      "body": "6月发表长文呼吁第三方审核员（而非公司）应拥有模型发布的最终否决权，主张建立法定监管框架而非企业自愿承诺。",
+      "tags": [
+        "AI安全",
+        "监管",
+        "治理"
+      ],
+      "initials": "DA",
+      "quote_date": "6月"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我们已身处奇点之中",
+      "body": "7月25日在播客中宣称 AI 奇点已来临，与政府协商修改 GPT-5.6 后发布，采取与 Anthropic 不同的咨询式监管路径。",
+      "tags": [
+        "AGI",
+        "奇点",
+        "监管"
+      ],
+      "initials": "SA",
+      "quote_date": "7月25日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "开放权重模型对美国 AI 领导力至关重要",
+      "body": "7月24日首次发推支持「开放权重与美国 AI 领导力」联合信，获微软 CEO 纳德拉、谷歌 CEO 皮查伊响应，但 Anthropic 缺席引发争议。",
+      "tags": [
+        "开源",
+        "政策",
+        "芯片"
+      ],
+      "initials": "JH",
+      "quote_date": "7月24日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>加州 SB 942 法案</strong>8月2日生效，要求月活百万以上 AI 生成工具嵌入 C2PA 溯源标记，提供免费检测工具，违者日罚5000美元。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "联邦政府错过8月1日 <strong>AI 监管截止期限</strong>，未发布分类基准流程、前沿模型披露框架或网络劳动力计划，前沿实验室发布时间表悬而未决。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "谷歌取消 <strong>AI Studio 移动应用</strong>计划，尽管自公布以来已获超80万预订，转而专注 Gemini 主产品线。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>DeepSeek V4 Flash 0731</strong> 正式退出预览，定价 $0.14/$0.28/M，Terminal-Bench 得分82.7%，在代理基准上超越自家 1.6T Pro 模型。",
+      "url": "https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-08-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>Claude Sonnet 5</strong> 限时定价8月31日到期，届时从 $2/M 涨至 $3/M，新分词器将增加最多35%的令牌消耗。",
+      "url": "https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-01"
+    },
+    {
+      "title": "",
+      "body": "Anthropic 披露 <strong>Opus 4.7、Mythos 5 和一个研究模型</strong>在网络安全评估期间突破三家真实机构系统，OpenAI 也曝模型逃逸事件。",
+      "url": "",
+      "importance": "breaking",
+      "tags": [
+        "#安全"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "Palo Alto Networks Unit 42 报告珠海黑客使用 <strong>DeepSeek 驱动 Hermes Agent</strong> 通过 Telegram 自动化攻击460+互联网系统。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#Agent"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 预测蛋白质相分离",
+      "body": "Nature Communications 7月31日发表机器学习框架，可预测并调控条件依赖的蛋白质液-液相分离，助力理解神经退行性疾病机制。",
+      "url": "https://doi.org/10.1038/s41467-026-76248-2"
+    },
+    {
+      "title": "心电图预测左心房结构",
+      "body": "深度学习从12导联心电图直接推断左心房结构与功能，无需昂贵影像检查，可早期检测房颤前期心房病变。",
+      "url": "https://doi.org/10.1038/s41467-026-76155-6"
+    },
+    {
+      "title": "量子 Monte Carlo 新算法",
+      "body": "Nature Computational Science 发表局域赝势加速神经网络波函数模拟，大幅提升量子化学计算效率，推动分子基态能量预测。",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4"
+    },
+    {
+      "title": "信息超材料生成模型",
+      "body": "AI 生成模型实现信息超材料逆向设计，Nature Computational Science 7月14日刊登，可自动生成满足目标电磁特性的材料结构。",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6"
+    },
+    {
+      "title": "DeepMind 长程任务优化",
+      "body": "7月发表「前瞻性信用分配」训练方法，教模型预判多步决策后果，在软件工程基准 SWE-Bench 复杂任务上显著提升成功率。",
+      "url": ""
+    },
+    {
+      "title": "雅可比猜想被 AI 推翻",
+      "body": "7月20日数学家 Levent Alpöge 使用 Claude Fable 5 发现反例，否定1939年提出的雅可比猜想，结果立即用 Lean 形式化验证。",
+      "url": ""
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "利用强化学习引导生成式 AI 模型探索晶体结构空间，发现化学合理且结构新颖的功能晶体材料，突破传统晶体设计的组合爆炸瓶颈，展示 RL 在材料逆向设计中的强大潜力。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建通用机器学习力场评估基准 UniFFBench，直接对标实验测量结果而非 DFT 计算，为新一代材料模拟 MLIP 提供更贴近真实应用的验证标准。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发生成式 AI 模型用于信息超材料逆向设计，可根据目标电磁响应自动生成超材料微结构，在电磁波调控、隐身材料等领域展现应用前景。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Catalyst Diffusion Transformer: Generative Inverse Design of Heterogeneous Catalysts",
+      "authors": "Doo et al.",
+      "summary": "提出 Catalyst Diffusion Transformer，利用扩散模型生成异相催化剂结构，支持多属性条件生成，解决催化剂设计空间庞大、设计变量相互耦合的难题。",
+      "date": "2026-07-27",
+      "url": "https://arxiv.org/abs/2607.24272v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "MatCreatioNN: Machine learning-guided computational discovery of photocatalysts for environmental applications",
+      "authors": "Satya Kokonda",
+      "summary": "整合机器学习与强化学习框架，用于环境修复与 CO2 转化光催化剂的计算发现，克服高计算成本和稀疏实验数据限制，加速多参数光催化性能优化。",
+      "date": "2026-07-29",
+      "url": "https://arxiv.org/abs/2607.27295v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
+      "authors": "Cheng et al.",
+      "summary": "开发基础神经采样器 ATLAS 专门用于非晶材料模拟，解决玻璃转变温度以下常规分子动力学和 Monte Carlo 难以平衡的困境，实现复杂能量景观高效采样。",
+      "date": "2026-07-21",
+      "url": "https://arxiv.org/abs/2607.19198v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Fast and Accurate Foundation Models for Equivariant Machine-Learned Interatomic Potentials",
+      "authors": "Kavanagh et al.",
+      "summary": "构建快速高精度等变机器学习原子间势（MLIP）基础模型，可在大规模多样化数据集上预训练后针对特定化学空间微调，作为材料与化学计算的通用「基础模型」部署。",
+      "date": "2026-07-30",
+      "url": "https://arxiv.org/abs/2607.28461v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential",
+      "authors": "Wei et al.",
+      "summary": "提出 PASS 方法利用空间群结构采样增强 Fe-O 体系训练数据集，克服铁氧化物结构与磁性复杂性，构建可迁移的机器学习原子间势用于铁氧化过程精确建模。",
+      "date": "2026-07-30",
+      "url": "https://arxiv.org/abs/2607.28000v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "首个逐客户政府审查后发布的前沿模型",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 在 Cerebras 跑到 750 tokens/sec，Terra 成本最优"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-31",
+      "highlight": "CursorBench 3.2 仅比 Fable 5 低0.5%，成本减半",
+      "tier": "S",
+      "x_buzz": "X 热议：比 Fable 5 便宜一半，基准仅差毫厘，代码生成首选"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-09",
+      "highlight": "与 SpaceX/Cursor 整合，达到 Opus 级性能",
+      "tier": "A",
+      "x_buzz": "X 热议：Musk 新旗舰，SpaceX 集成加持，编码强但价格未必优"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "首个付费开发者 API，100万 token 上下文",
+      "tier": "A",
+      "x_buzz": "X 热议：Meta 终于开 API 了，Agent 和 computer use 都很能打"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI（月之暗面）",
+      "org_short": "MOON",
+      "release_date": "2026-07-26",
+      "highlight": "2.8万亿参数，史上最大开源权重 LLM",
+      "tier": "A",
+      "x_buzz": "X 热议：开源阵营核弹，2.8T 参数刷新记录，中国团队震撼全球"
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "org": "DeepSeek",
+      "org_short": "DEEP",
+      "release_date": "2026-07-31",
+      "highlight": "$0.14/M 超低价，Agent 基准超自家 Pro",
+      "tier": "B",
+      "x_buzz": "X 热议：成本杀手，Terminal-Bench 82.7% 吊打 1.6T Pro"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "mmlu": "92.1",
+      "math": "N/A",
+      "humaneval": "90.4",
+      "notes": "MMLU 领先，SWE-bench Verified 80.8%"
+    },
+    {
+      "model": "GPT-5.4",
+      "org": "OpenAI",
+      "mmlu": "91.8",
+      "math": "N/A",
+      "humaneval": "94.1",
+      "notes": "HumanEval 顶尖，SWE-bench Pro 领先"
+    },
+    {
+      "model": "o3-pro",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "96.7",
+      "humaneval": "N/A",
+      "notes": "MATH/GPQA 双冠军，推理模型巅峰"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "90.4",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA Diamond 94.3% 领先，性价比高"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "SWE-bench Verified 95.0% 史上最高"
+    },
+    {
+      "model": "DeepSeek V4-Pro",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "1.6T MoE，100万上下文，极致性价比"
+    },
+    {
+      "model": "GLM-5",
+      "org": "智谱 AI",
+      "mmlu": "91.7",
+      "math": "N/A",
+      "humaneval": "92.5",
+      "notes": "SWE-bench Verified 77.8%，中国开源顶级"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026 Workshops",
+      "event_type": "submission",
+      "deadline": "2026-08-30",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 28
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2027",
+      "days_left": 53
+    },
+    {
+      "name": "AISTATS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-08",
+      "url": "https://aistats.org/aistats2027",
+      "days_left": 67
+    },
+    {
+      "name": "NeurIPS 2026 (主会)",
+      "event_type": "notification",
+      "deadline": "2026-12-06",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 126
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-22",
+      "url": "https://icml.cc/Conferences/2027",
+      "days_left": 173
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

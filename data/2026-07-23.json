@@ -1,0 +1,365 @@
+{
+  "date": "2026年7月23日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "AGI 可能在五年内到来",
+      "body": "哈萨比斯呼吁建立国际监管机构和美国主导的联盟来审查前沿模型，警告通用人工智能可能在五年内到来。他的提议获得了包括 OpenAI 和微软竞争对手在内的多方支持，成为行业统一的声音。",
+      "tags": [
+        "政策",
+        "AGI",
+        "监管"
+      ],
+      "initials": "DH",
+      "quote_date": "7月15日"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "用 AI 将生命科学研发周期压缩 10 倍",
+      "body": "阿莫代伊宣布 Anthropic 通过收购计算生物学初创公司和聘请 AlphaFold 团队领导者 John Jumper，推进 AI 在生命科学领域的应用，目标是大幅压缩研发周期。Anthropic 在 2026 年上半年营收预计达到 470 亿美元。",
+      "tags": [
+        "生物",
+        "企业"
+      ],
+      "initials": "DA",
+      "quote_date": "7月初"
+    },
+    {
+      "name": "马克·扎克伯格",
+      "name_en": "Mark Zuckerberg",
+      "role": "Meta CEO",
+      "quote": "Muse Spark 在代理评估中领先",
+      "body": "扎克伯格宣布 Meta 推出 Muse Spark 1.1 代理模型，拥有 100 万 token 上下文，在 MCP Atlas、JobBench 等多项评估中声称排名第一，并推出 Meta 首个付费开发者 API。",
+      "tags": [
+        "多模态",
+        "Agent"
+      ],
+      "initials": "MZ",
+      "quote_date": "7月中旬"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI 发布 Presence</strong> 企业 AI 代理平台，用于部署客服、销售等语音和聊天代理，已在自有客服热线处理 75% 来电，7 月 22 日通过有限 GA 计划上线",
+      "url": "",
+      "importance": "breaking",
+      "tags": [
+        "#Agent",
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "白宫指控<strong>中国 Moonshot AI 蒸馏 Anthropic Fable 模型</strong>开发 Kimi K3，称其为针对美国专有技术的大规模秘密工业蒸馏，这是美国高官首次直接点名特定中国实验室",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-23-2026",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-22"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic 第二季度游说支出</strong>达 197 万美元（环比增长 26%），超过英伟达并接近甲骨文，OpenAI 支出 120 万美元（增长 18%），AI 实验室总支出达 317 万美元",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 发布 Gemini 3.6 Flash</strong>，这是截至 7 月 21 日最新跟踪到的前沿模型发布",
+      "url": "https://aireleasetracker.com/latest",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "强化学习控制量子纠错",
+      "body": "Sivak 等人在 Nature 发表研究，利用强化学习优化量子纠错过程，这对构建稳定的量子计算机至关重要。该研究展示了 AI 在量子信息科学中的应用潜力。",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2"
+    },
+    {
+      "title": "深度学习预测心源性猝死",
+      "body": "Obermeyer 团队利用深度学习从心电图数据中发现心源性猝死的生物标志物，能够识别出医生未能预测的高风险患者，可能每年挽救大量生命。该模型在检测方面比传统方法更准确。",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6"
+    },
+    {
+      "title": "零样本设计药物结合蛋白",
+      "body": "Fry 等人开发神经迭代选择-扩展方法，实现零样本设计能够与小分子药物结合的蛋白质，同时优化蛋白质序列、结构和配体构象，为药物开发提供新工具。",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w"
+    },
+    {
+      "title": "AI 引导生成模型发现晶体",
+      "body": "Park 等人在 Nature Machine Intelligence 发表研究，通过强化学习引导生成模型在巨大的组合设计空间中发现多样化的新型功能晶体材料，拓展材料发现的边界。",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4"
+    },
+    {
+      "title": "机器学习力场评估基准",
+      "body": "Mannan 等人发布 UniFFBench 基准，对比通用机器学习力场与实验测量结果，为评估 AI 驱动的分子模拟提供标准化工具，推动 AI4Science 方法的验证与改进。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "局部赝势加速神经网络波函数",
+      "body": "研究团队在 Nature Computational Science 展示局部赝势如何显著加速基于神经网络的量子化学波函数模拟，为精确模拟复杂分子体系提供更高效的计算方法。",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Reinforcement learning control of quantum error correction",
+      "authors": "Sivak et al.",
+      "summary": "利用强化学习优化量子纠错控制策略，为构建容错量子计算机提供关键技术。该方法展示了 AI 在量子信息处理中的实际应用，有望加速量子计算的实用化进程。",
+      "date": "2026-07-08",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "An ECG biomarker for sudden cardiac death discovered with deep learning",
+      "authors": "Obermeyer et al.",
+      "summary": "通过深度学习从心电图中发现心源性猝死的预测性生物标志物，填补了医生无法预测的风险缺口。该模型能够识别出需要植入除颤器的高风险患者，可能每年挽救数千生命。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "开发神经迭代选择-扩展方法，实现蛋白质序列、结构和配体构象的同时优化，零样本设计能够结合小分子药物的蛋白质。该方法克服了传统蛋白质设计中需要大量已知结构的限制，为药物靶点开发开辟新路径。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "结合强化学习与生成式 AI 在巨大的晶体材料设计空间中发现多样化的新型功能材料。该方法通过引导采样策略，克服了生成模型倾向于采样已知结构的局限性，显著提升了材料发现的效率和多样性。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Principled approaches for extending neural architectures to function spaces for operator learning",
+      "authors": "Berner et al.",
+      "summary": "提出将神经网络架构扩展到函数空间的原则性方法，用于算子学习以解决偏微分方程。该研究为 AI 求解复杂科学计算问题（如材料模拟、流体动力学等）提供理论基础和实用架构。",
+      "date": "2026-07-03",
+      "url": "https://doi.org/10.1038/s42256-026-01267-z",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "发布首个系统性基准 UniFFBench，对比通用机器学习力场与实验测量结果，为评估 AI 驱动的分子动力学模拟提供标准化工具。该基准涵盖多种材料体系，推动 AI4Material 方法的验证与改进。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "展示局部赝势如何显著加速基于神经网络的量子化学波函数模拟，在保持精度的同时大幅降低计算成本。该方法为精确模拟复杂分子和材料的电子结构提供更高效的途径。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "OpenAI Presence",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-22",
+      "highlight": "企业 AI 代理平台",
+      "tier": "A",
+      "x_buzz": "X 热议：OpenAI 正式进军企业级代理市场，与 Salesforce 和 ServiceNow 直接竞争"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "增强编码和工具使用",
+      "tier": "A",
+      "x_buzz": "X 热议：Sonnet 5 成为 Free 和 Pro 用户新默认模型，价格更低性能更强"
+    },
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-06-26",
+      "highlight": "三层架构模型家族",
+      "tier": "S",
+      "x_buzz": "X 热议：首个政府管理访问清单的前沿模型发布，Sol 在 OSWorld 基准创纪录"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "100 万 token 代理模型",
+      "tier": "S",
+      "x_buzz": "X 热议：Meta 首个付费开发者 API，声称在多项代理评估中排名第一"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "SpaceXAI",
+      "org_short": "SXAI",
+      "release_date": "2026-07-08",
+      "highlight": "1.5T 参数 MoE 模型",
+      "tier": "A",
+      "x_buzz": "X 热议：用真实 Cursor 代理交互数据训练，效率优先架构但爆出训练污染问题"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "快速多模态模型",
+      "tier": "B",
+      "x_buzz": "X 热议：Google 最新追踪模型，强调速度和成本优势"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 排行榜第一（截至 7 月 21 日）"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "7 月 1 日恢复全球访问，新增安全分类器"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "OSWorld 基准创纪录，高端推理和编码"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "94.3",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA Diamond 94.3%，SWE-Bench 80.6%"
+    },
+    {
+      "model": "DeepSeek V4",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "SWE-bench Verified 81%，自研推理芯片"
+    },
+    {
+      "model": "Claude Opus 4.7",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA Diamond 94.2%，100 万上下文"
+    },
+    {
+      "model": "Muse Spark 1.1",
+      "org": "Meta",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "声称 MCP Atlas、JobBench 等多项评估第一"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026 Workshop Contributions",
+      "event_type": "submission",
+      "deadline": "2026-08-29",
+      "url": "https://neurips.cc/Conferences/2026/",
+      "days_left": 37
+    },
+    {
+      "name": "ICLR 2027 Abstract",
+      "event_type": "submission",
+      "deadline": "2026-09-19",
+      "url": "https://iclr.cc/Conferences/2027/",
+      "days_left": 58
+    },
+    {
+      "name": "ICLR 2027 Full Paper",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2027/",
+      "days_left": 63
+    },
+    {
+      "name": "AISTATS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-08",
+      "url": "https://aistats.org/aistats2027/",
+      "days_left": 77
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "notification",
+      "deadline": "2026-12-06",
+      "url": "https://neurips.cc/Conferences/2026/",
+      "days_left": 136
+    },
+    {
+      "name": "ICML 2027 Abstract",
+      "event_type": "submission",
+      "deadline": "2027-01-16",
+      "url": "https://icml.cc/Conferences/2027/",
+      "days_left": 177
+    },
+    {
+      "name": "ICML 2027 Full Paper",
+      "event_type": "submission",
+      "deadline": "2027-01-22",
+      "url": "https://icml.cc/Conferences/2027/",
+      "days_left": 183
+    }
+  ],
+  "stats": {
+    "news_count": 4,
+    "paper_count": 7,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "date": "2026年7月14日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "AGI可能只需几年，我们站在奇点的山脚下",
+      "body": "哈萨比斯在7月14日发布个人声明，呼吁美国建立AI监管机构，认为18个月内生物与核威胁可能进入开源模型，需系统性监管。",
+      "tags": [
+        "AGI",
+        "监管",
+        "安全"
+      ],
+      "initials": "DH",
+      "quote_date": "7月14日"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家需抵制在先进工具上分裂的诱惑",
+      "body": "阿莫代伊在6月G7峰会上与特朗普及各国领导人会面，呼吁建立美国主导的AI联盟，设想FAA式监管机构有权阻止不安全模型。",
+      "tags": [
+        "监管",
+        "国际合作"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "AI将创造巨大财富，公众应直接拥有其份额",
+      "body": "奥特曼向特朗普政府提议美国政府持有OpenAI 5%股份（约426亿美元），并建议所有美国AI公司拿出5%股权建立主权基金，作为IPO战略一部分。",
+      "tags": [
+        "政策",
+        "融资"
+      ],
+      "initials": "SA",
+      "quote_date": "7月14日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 向美国政府提议以852亿美元估值持有公司5%股份（价值<strong>426亿美元</strong>），并建议所有美国AI公司建立类似阿拉斯加永久基金的主权基金。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "breaking",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-14"
+    },
+    {
+      "title": "",
+      "body": "Google <strong>Gemini 3.5 Pro</strong> 预计7月17日发布，同日上海2026世界人工智能大会开幕，习近平主席将首次亲临，东西方AI里程碑事件同日登场。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-14"
+    },
+    {
+      "title": "",
+      "body": "<strong>SK Hynix</strong> 于7月9日在纳斯达克完成史上最大外国公司美股发行，融资<strong>265亿美元</strong>，加速AI芯片产能扩张。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "Anthropic <strong>Claude Fable 5</strong> 访问延长至7月19日（第三次延期），应对GPT-5.6 Sol竞争压力，Code weekly限额保持50%上调。",
+      "url": "https://llm-stats.com/ai-news",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind CEO</strong> 哈萨比斯呼吁美国建立AI监管机构，警告18个月内网络、生物、核威胁能力可能进入开源模型，需系统性干预。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "Anthropic <strong>Claude Code</strong> 新增内置浏览器，AI可直接打开、阅读并与网页交互，外部站点写操作经分类器筛查。",
+      "url": "https://llm-stats.com/ai-news",
+      "importance": "normal",
+      "tags": [
+        "#Agent",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "中国字节<strong>Seedream</strong>、阿里等图像视频生成模型在前沿竞争，高盛开始向华尔街客户正式推荐中国AI模型。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-14"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI多智能体系统加速实验室研究周期",
+      "body": "Nature本周发表两篇独立研究：Google DeepMind的Co-Scientist（基于Gemini 2.0）和FutureHouse的Robin（结合GPT o4-mini与Claude 3.7）均能生成假设、设计实验、解读数据并迭代优化。Co-Scientist发现急性髓系白血病候选药物，Robin用于癌症研究及肝纤维化靶点发现。",
+      "url": "https://www.nature.com/nature/volumes/655/issues/8122"
+    },
+    {
+      "title": "AI助力疫苗试验与药物设计提速",
+      "body": "美国国立卫生研究院启动12亿美元AI药物发现计划，与主要制药公司合作。AI正从内容生成转向产品与科学设计，多模态系统处理文本、图像、音频、视频为临床试验、蛋白质设计提供全流程支持。",
+      "url": "https://blog.mean.ceo/ai-advancements-news-july-2026/"
+    },
+    {
+      "title": "2026世界人工智能大会展示AI4S全景",
+      "body": "上海WAIC 2026（7月17-20日）系统性展示中国AI for Science能力图谱，覆盖底层计算、跨学科模型、场景落地，AI4S从\"辅助计算\"进化为\"自主发现\"范式。",
+      "url": "https://eu.36kr.com/en/p/3884022753882115"
+    },
+    {
+      "title": "深度学习发现220万新晶体材料",
+      "body": "图神经网络辅助发现220万种新晶体结构，其中38万种稳定材料具备技术可行性，将人类已知可行材料数量倍增，展示AI在材料科学快速探索解空间的能力。",
+      "url": "https://arxiv.org/pdf/2504.01849"
+    },
+    {
+      "title": "AI检测心脏骤停与脑出血达秒级速度",
+      "body": "以色列医疗AI系统在CT影像上实时检测脑出血，速度超过医生肉眼识别，并应用于个性化癌症治疗与ALS患者沟通工具，急诊医学与AI交叉进展显著。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "通过强化学习引导生成式AI模型，在庞大组合设计空间中发现化学上可行且多样化的新晶体结构。解决生成模型易陷入局部最优的问题，系统探索材料设计空间，加速功能晶体材料发现。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "针对通用机器学习力场（如MACE-MP-0、UMA）建立基准测试框架，系统评估其在真实实验数据上的预测精度。解决现有力场覆盖广泛化学空间但缺乏实验验证的问题，为材料性质预测提供可靠评估标准。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "将局部赝势方法引入神经网络波函数模拟，显著加速量子化学计算。通过减少计算复杂度，使深度学习驱动的电子结构计算更实用，助力材料性质预测与分子设计。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-assisted development of a fast Mechanochemical Johnson–Corey–Chaykovsky reaction",
+      "authors": "Mele et al.",
+      "summary": "利用机器学习优化机械化学反应条件，显著提升Johnson–Corey–Chaykovsky反应速度。通过数据驱动策略快速筛选反应参数，展示AI在有机合成与化学工艺加速中的应用潜力。",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1038/s41467-026-75499-3",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "提出对比学习框架CatRetriever，用于催化剂发现中表面-体相匹配检索任务。通过高效表征学习在庞大化学空间中快速定位潜在催化剂，加速逆向设计催化剂表面结构生成过程。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "开发电荷条件化的等变机器学习力场EquiFiLM，能处理外部电荷诱导的电子态变化。通过特征线性调制机制实现非平衡态物理建模，扩展基础力场MACE-MP-0与UMA在电化学、光电材料等场景的适用性。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Transferable Implicit Solvent Machine Learning Potential for Drugs and Proteins Approaching Ab Initio Accuracy",
+      "authors": "Eckwert et al.",
+      "summary": "构建可迁移隐式溶剂机器学习势能，逼近从头算精度但推理速度远超DFT。适用药物分子与蛋白质系统，实现溶剂环境下高精度低成本动力学模拟，为药物设计与生物材料研究提供实用工具。",
+      "date": "2026-07-12",
+      "url": "https://arxiv.org/abs/2607.10887v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms",
+      "authors": "Bengio et al.",
+      "summary": "首个全原子、显式溶剂、周期性边界条件感知的生成模型AquaGen，直接从玻尔兹曼分布生成分子构型，成本仅为传统分子动力学模拟的一小部分。突破现有生成模型忽略溶剂与周期边界的限制，扩展至数千原子尺度高精度模拟。",
+      "date": "2026-07-03",
+      "url": "https://arxiv.org/abs/2607.03513v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 Sol / Terra / Luna",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-10",
+      "highlight": "三模型家族，生物与网络安全达High级",
+      "tier": "S",
+      "x_buzz": "X 热议：生成式AI首次因网络与生物能力触发政府限制，Sol旗舰版兼顾速度成本，Luna最快最省。"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-06-30",
+      "highlight": "接近Opus 4.8性能，价格仅$2/$10",
+      "tier": "A",
+      "x_buzz": "X 热议：写作风格与指令遵循最佳，高力度用户抱怨性价比不如Opus，轻度用户盛赞价值。"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta AI",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "1M上下文，Agent eval排名第一",
+      "tier": "S",
+      "x_buzz": "X 热议：扎克伯格回归X宣传，在MCP Atlas、JobBench、HLE排名领先GPT-5.5与Opus 4.8，首个付费开发者API。"
+    },
+    {
+      "name": "Gemini 3.5 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-06-23",
+      "highlight": "速度与低成本测试的首选",
+      "tier": "A",
+      "x_buzz": "X 热议：创业者测试快速实验利器，速度优势在需要快速团队反馈时超越略强模型。"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-06-28",
+      "highlight": "1.5T参数，SpaceX与特斯拉私测",
+      "tier": "A",
+      "x_buzz": "X 热议：马斯克宣布V9架构进入私测，Cursor训练数据引热议，SWE-bench Pro 64.7%未公布经典学术基准。"
+    },
+    {
+      "name": "Qwen 3.7 Max",
+      "org": "阿里巴巴",
+      "org_short": "BABA",
+      "release_date": "2026-07-01",
+      "highlight": "1M上下文推理模型，国产顶尖",
+      "tier": "A",
+      "x_buzz": "X 热议：中国1.6T参数MIT开源模型用国产芯片训练，阿里Qwen多模态竞争力显著。"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "91.5",
+      "math": "98.3",
+      "humaneval": "95.0",
+      "notes": "SWE-bench Verified最高95.0%，MMLU Pro领先，代码工程任务顶尖"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "94.1",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "GPQA 94.3%，ARC-AGI-2与HLE 46.4%领先，抽象推理强"
+    },
+    {
+      "model": "GPT-5.5",
+      "org": "OpenAI",
+      "mmlu": "88.7",
+      "math": "~100",
+      "humaneval": "88.7",
+      "notes": "AIME接近满分，幻觉率降60%，SWE-bench Verified 88.7%"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "~88.7",
+      "math": "98.3",
+      "humaneval": "88.6",
+      "notes": "SWE-bench Pro最高69.2%，复杂多文件工程领先"
+    },
+    {
+      "model": "GPT-5.4 Pro",
+      "org": "OpenAI",
+      "mmlu": "93.0",
+      "math": "~98",
+      "humaneval": "84.0",
+      "notes": "GPQA 92.8%，长上下文MRCRv2 97分，SimpleQA事实准确97"
+    },
+    {
+      "model": "Grok 4",
+      "org": "xAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "HLE最高50.7%，SWE-bench Pro 64.7%未公布经典基准"
+    },
+    {
+      "model": "Muse Spark 1.1",
+      "org": "Meta",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MCP Atlas、JobBench、HLE Agent eval第一，1M上下文"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "EMNLP 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-25",
+      "url": "https://aideadlines.org/",
+      "days_left": -50
+    },
+    {
+      "name": "ECCV 2026",
+      "event_type": "submission",
+      "deadline": "2026-03-05",
+      "url": "https://aideadlines.org/",
+      "days_left": -131
+    },
+    {
+      "name": "NeurIPS 2027",
+      "event_type": "submission",
+      "deadline": "2027-05-06",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 296
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 5
+  }
+}

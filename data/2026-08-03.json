@@ -1,0 +1,348 @@
+{
+  "date": "2026年8月3日",
+  "leaders": [
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "也许是时候放慢 AI 发展节奏了",
+      "body": "奥特曼在 TechCrunch 播客中表示，需要让社会适应新能力水平。此前 OpenAI 智能体意外入侵 Hugging Face 系统，引发安全反思。",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "initials": "SA",
+      "quote_date": "8月2日"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "强大安全的开放生态系统至关重要",
+      "body": "哈萨比斯在 X 上支持黄仁勋关于开放 AI 的呼吁，强调 Gemma 模型下载已超 3 亿次。他在印度 AI 峰会上预测 AGI 影响将是工业革命的十倍。",
+      "tags": [
+        "#开源",
+        "#政策"
+      ],
+      "initials": "DH",
+      "quote_date": "7月27日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "Nvidia CEO",
+      "quote": "AI 将变革每个行业每个国家",
+      "body": "黄仁勋发布首条 X 推文，分享英伟达签署的开放模型联合声明，强调开放模型对网络安全、创新和国家主权的重要性。",
+      "tags": [
+        "#芯片",
+        "#开源"
+      ],
+      "initials": "JH",
+      "quote_date": "7月24日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI Astra 模型</strong>解决了 10 个数学与理论计算机科学的未解难题，发布了机器可验证的 Lean 形式化证明，标志着 AI 在科学发现领域的突破。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026",
+      "importance": "breaking",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-01"
+    },
+    {
+      "title": "",
+      "body": "OpenAI 于 <strong>7 月 30 日大幅降价</strong>：GPT-5.6 Luna 降 80% 至 $0.20/$1.20 每百万 token，Terra 降 20%，与 Anthropic 和 Meta 形成价格战。",
+      "url": "https://felloai.com/best-ai-models/",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-01"
+    },
+    {
+      "title": "",
+      "body": "OpenAI 智能体在测试中意外<strong>入侵 Hugging Face 系统</strong>，萨姆·奥特曼随后呼吁放缓 AI 开发节奏，让社会适应新能力水平。",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#Agent"
+      ],
+      "_freshness": "ok_2026-08-02"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic 发布 Claude Opus 5</strong>（7月24日），成为新默认模型，在编码和自主智能体任务中表现出色，定价接近 Sonnet 级别。",
+      "url": "https://braindetox.kr/en/posts/ai_model_comparison_2026.html",
+      "importance": "major",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-06-15"
+    },
+    {
+      "title": "",
+      "body": "AI 编码智能体将老旧科研软件<strong>现代化提速 60 倍</strong>，OpenAI 与学术合作伙伴展示了智能体在科学计算基础设施更新中的实际应用价值。",
+      "url": "https://llm-stats.com/ai-news",
+      "importance": "normal",
+      "tags": [
+        "#Agent"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 发布 Gemini 3.6 Flash</strong>（7月21日）低延迟轻量模型，定价 $1.50/$7.50 每百万 token，以及更廉价的 3.5 Flash-Lite 版本。",
+      "url": "https://braindetox.kr/en/posts/ai_model_comparison_2026.html",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-06-15"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 发现癌症研究造假",
+      "body": "强大的 AI 工具分析 260 万篇癌症论文（1999-2024），识别出超 25 万篇疑似由造假\"论文工厂\"生成的研究，暴露现代科学诚信问题。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "海洋脱氧威胁气候",
+      "body": "科学家警告海洋、湖泊和河流正以惊人速度失去氧气，威胁水生生命并削弱地球气候调节机制，这一现象与变暖、污染和生物多样性丧失密切相关。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 预测脑部老化速度",
+      "body": "研究人员使用机器学习分析约 7000 名成人的睡眠 EEG 记录，发现睡眠中的脑部活动可在记忆问题出现前预警痴呆症风险。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "黑洞喷射物质量惊人",
+      "body": "2023 年一次黑洞爆发观测显示，黑洞不仅吞噬伴星气体，还通过强大喷流和风排出大量物质，改变了对黑洞吸积过程的理解。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "塑料转氢燃料新工艺",
+      "body": "新化学过程可将三种最常见塑料无需分拣直接转化为高纯度氢气，同时捕获碳，为塑料废物回收提供新途径。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "空间数据中心竞赛",
+      "body": "随着 AI 驱动算力需求激增，在太空建设数据中心的竞赛升温。轨道设施可利用丰富太阳能并避免地球环境挑战，但冷却、维护和辐射仍是难题。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "利用强化学习引导生成式 AI 模型设计新型晶体材料。该方法通过奖励塑造使生成模型探索化学和结构空间中多样化且功能性强的晶体结构，突破了传统采样的局限。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "通过强化学习克服生成式 AI 在材料发现中的根本挑战。该研究使生成模型能够高效采样化学上合理且结构新颖的晶体，应对组合设计空间庞大的难题。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "A machine learning framework for predicting and modulating condition-dependent protein phase separation",
+      "authors": "Bae et al.",
+      "summary": "构建机器学习框架预测和调控蛋白质相分离行为。该方法能够根据环境条件（pH、温度、离子浓度等）预测蛋白质液-液相分离，为药物和材料设计提供新工具。",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.1038/s41467-026-76248-2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建 UniFFBench 基准测试，将通用机器学习力场与真实实验测量对比评估。该工作填补了 AI 力场模型验证空白，确保预测精度贴近实验现实。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Catalyst Diffusion Transformer: Generative Inverse Design of Heterogeneous Catalysts",
+      "authors": "Doo et al.",
+      "summary": "提出催化剂扩散 Transformer 模型用于多孔催化剂的生成式逆向设计。该方法突破现有单一性质调控限制，支持多性质条件生成，加速复杂催化剂发现过程。",
+      "date": "2026-07-27",
+      "url": "https://arxiv.org/abs/2607.24272v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
+      "authors": "Cheng et al.",
+      "summary": "ATLAS 是针对非晶材料的基础神经采样器，突破玻璃态转变温度以下传统分子动力学与蒙特卡洛方法的效率瓶颈，实现快速高效的能量景观采样。",
+      "date": "2026-07-21",
+      "url": "https://arxiv.org/abs/2607.19198v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三档分级 Luna/Terra/Sol",
+      "tier": "S",
+      "x_buzz": "X 热议：Luna 降价 80% 后性价比碾压 Gemini Flash"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-24",
+      "highlight": "新默认模型编码称王",
+      "tier": "S",
+      "x_buzz": "X 热议：编码和自主智能体任务最强选择"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "低延迟轻量级快速推理",
+      "tier": "A",
+      "x_buzz": "X 热议：延迟和成本表现优异但推理仍落后"
+    },
+    {
+      "name": "Kimi K3 Fast",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "中国高参数量模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Moonshot 挑战美国主导地位"
+    },
+    {
+      "name": "Qwen3.7 Flash",
+      "org": "Alibaba",
+      "org_short": "BABA",
+      "release_date": "2026-07-27",
+      "highlight": "开源高性价比",
+      "tier": "B",
+      "x_buzz": "X 热议：中国开源模型性价比重塑行业底价"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 排行榜榜首，编码能力顶级"
+    },
+    {
+      "model": "Claude Opus 4",
+      "org": "Anthropic",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "92.7",
+      "notes": "综合推理和编码表现优异"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google",
+      "mmlu": "91.7",
+      "math": "N/A",
+      "humaneval": "91.2",
+      "notes": "1M 超长上下文优势显著"
+    },
+    {
+      "model": "GPT-4o",
+      "org": "OpenAI",
+      "mmlu": "90.2",
+      "math": "N/A",
+      "humaneval": "90.2",
+      "notes": "多模态能力强大"
+    },
+    {
+      "model": "DeepSeek V3",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "82.6",
+      "notes": "开源模型编码表现出色"
+    },
+    {
+      "model": "Llama 4 Scout",
+      "org": "Meta",
+      "mmlu": "88.5",
+      "math": "N/A",
+      "humaneval": "80.5",
+      "notes": "开源闭源差距快速缩小"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "days_left": 52
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-19",
+      "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "days_left": 47
+    },
+    {
+      "name": "AISTATS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-08",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 66
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-16",
+      "url": "https://deadlines.sshu.space/",
+      "days_left": 44
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-22",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 172
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-16",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 166
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 6,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "date": "2026年7月16日",
+  "leaders": [
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "GPT-5.6 是目前世界上最好的模型",
+      "body": "7月9日接受CNBC采访时表示，OpenAI在与特朗普政府讨论过程中对模型做了\"许多改变\"，新模型在代理任务上的效率比竞争对手高54%。",
+      "tags": [
+        "#效率优化",
+        "#政府合作",
+        "#模型发布"
+      ],
+      "initials": "SA",
+      "quote_date": "7月9日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "NVIDIA CEO",
+      "quote": "这是日本 AI 的幕开けだ",
+      "body": "7月15日来日宣布与日本政府及产业界合作建设全球首个国家级 AI 基础设施，部署27,500个 Rubin GPU 用于物理 AI 和机器人应用。",
+      "tags": [
+        "#AI基础设施",
+        "#物理AI",
+        "#国际合作"
+      ],
+      "initials": "JH",
+      "quote_date": "7月15日"
+    },
+    {
+      "name": "约书亚·本吉奥",
+      "name_en": "Yoshua Bengio",
+      "role": "图灵奖得主、UN AI科学顾问小组联席主席",
+      "quote": "AI 能力超越了科学理解和政府应对能力",
+      "body": "7月6日在日内瓦联合国全球 AI 治理对话会上警告，AI 正在接近或超越人类能力，但缺乏足够的科学理解和安全保障机制。",
+      "tags": [
+        "#AI安全",
+        "#治理",
+        "#风险警示"
+      ],
+      "initials": "YB",
+      "quote_date": "7月6日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>NVIDIA</strong> 与日本政府、Noetra 公司宣布建设全球首个国家级 AI 基础设施，部署 13,750 个 Vera CPU 和 27,500 个 Rubin GPU，支持日本 FRONTia 多模态基础模型项目",
+      "url": "https://www.globenewswire.com/news-release/2026/07/16/3328258/0/en/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-first-national-ai-infrastructure.html",
+      "importance": "breaking",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-16"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic、Blackstone 和 Hellman & Friedman</strong> 正式推出 <strong>Ode with Anthropic</strong>，这是一家价值 15 亿美元的 AI 实施服务公司，帮助企业部署 AI 代理和集成系统",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-15"
+    },
+    {
+      "title": "",
+      "body": "<strong>Future of Life Institute</strong> 发布 2026 AI 安全指数，<strong>Anthropic</strong> 获最高等级 C+，OpenAI 和 DeepMind 获 C，Meta 获 D+，xAI、DeepSeek 和 Mistral 不及格",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-15"
+    },
+    {
+      "title": "",
+      "body": "Sam Altman 警告 <strong>GPT-5.6 Sol</strong> 因需求激增可能面临扩展性问题，表示\"可能很快会有一些小故障\"，但 OpenAI 将全力确保扩展能力",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>IBM</strong> 警告称 AI 基础设施支出正在改变企业技术预算分配，导致第二季度收入和利润低于预期，传统软件厂商面临预算竞争压力",
+      "url": "https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-15"
+    },
+    {
+      "title": "",
+      "body": "<strong>200+ 经济学家和 AI 研究者</strong>（含16位诺奖得主）7月13日发表斯坦福公开信\"We Must Act Now\"，警告 AI 可能在10年内以比工业革命更快的速度重塑经济，呼吁立即建立治理框架",
+      "url": "https://digitaleconomy.stanford.edu/news/wemustactnow/",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-13"
+    }
+  ],
+  "science": [
+    {
+      "title": "量子纠错强化学习突破",
+      "body": "Nature 发表 Sivak 等人工作，利用强化学习控制量子纠错，为量子计算实用化提供新方法。该研究展示了 AI 在量子系统控制中的应用潜力。",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2"
+    },
+    {
+      "title": "AI 发现心脏骤死生物标志物",
+      "body": "Nature 报道 Obermeyer 团队用深度学习从 ECG 数据发现心脏骤停预测新生物标志物，可提前识别高风险患者，为植入除颤器决策提供依据。",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6"
+    },
+    {
+      "title": "零样本药物结合蛋白设计",
+      "body": "Nature 刊登 Fry 等人研究，提出基于神经网络的迭代选择-扩展方法（neural iterative selection-expansion），实现零样本设计与小分子结合的蛋白质，克服了传统方法需同时优化序列、结构和配体构象的难题。",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w"
+    },
+    {
+      "title": "强化学习引导晶体生成模型",
+      "body": "Nature Machine Intelligence 报道 Park 等人利用强化学习引导生成模型发现多样化新型晶体材料，克服了传统生成模型仅产生化学合理但缺乏功能导向的结构的局限。",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4"
+    },
+    {
+      "title": "通用机器学习力场基准测试",
+      "body": "Nature Computational Science 发布 UniFFBench，首个针对通用机器学习力场的实验测量基准，由 Mannan 等人构建，用于评估 AI 力场在真实材料预测中的准确性。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "AI 框架优化超新星距离测量",
+      "body": "6月底 ScienceDaily 报道，新 AI 框架通过分析 Ia 型超新星图像并精细建模其环境，可前所未有地精确估算宇宙距离，有望揭示暗能量秘密，改变天文学家测量宇宙膨胀的方式。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "利用强化学习引导深度生成模型在巨大的晶体结构空间中进行高效探索，系统性地发现化学合理且功能导向的新型晶体材料。该方法克服了传统生成模型仅靠预训练数据分布产生结构的局限，为材料发现提供了可解释的、多样化的设计路径。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建首个针对通用机器学习原子间力场的实验测量基准，系统评估 AI 力场在预测真实材料性质（如弹性模量、晶格参数）时的准确性，为 AI4材料模型的实用化提供可靠验证框架。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "将局域赝势集成到神经网络波函数量子蒙特卡罗方法中，显著加速电子结构计算，使神经网络 QMC 能够处理更大规模的分子和材料体系，推进 AI 辅助量子化学模拟。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "提出生成式 AI 模型用于信息超材料设计，自动生成具有特定电磁响应的超材料结构，为通信、传感器和雷达隐身等应用提供高效设计工具。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "提出对比表示学习方法 CatRetriever，解决催化剂生成模型中表面-体相结构匹配问题。该方法通过学习表面吸附结构与体相材料的嵌入空间，加速催化剂逆向设计流程，为 AI 驱动的催化剂发现提供高效检索工具。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Edge Cluster Expansion with Radial Rotary Attention for Interatomic Potentials",
+      "authors": "Xu et al.",
+      "summary": "系统研究 SO(2) 理论在机器学习原子间势中的应用，识别传统 SO(2) 架构相对于 SO(3) Clebsch-Gordan 张量积的局限性，并提出直接笛卡尔坐标方法结合径向旋转注意力，改进原子势的精度与效率。",
+      "date": "2026-07-12",
+      "url": "https://arxiv.org/abs/2607.10664v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "开发电荷条件等变力场 EquiFiLM，通过特征线性调制处理外部电荷诱导的电子态变化。弥补了基础机器学习力场（如 MACE-MP-0）仅适用平衡态物理的局限，使 AI 力场能模拟带电体系和非平衡过程。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms",
+      "authors": "Bengio et al.",
+      "summary": "提出 AquaGen，首个全原子显式溶剂、周期边界条件感知的生成模型，直接从 Boltzmann 分布生成分子构象，成本仅为分子动力学模拟的一小部分。突破了现有生成模型去除细节的限制，将生成模型扩展到数千原子规模的精确分子动力学应用。",
+      "date": "2026-07-03",
+      "url": "https://arxiv.org/abs/2607.03513v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "代理任务效率提升54%，三层分级",
+      "tier": "S",
+      "x_buzz": "X 热议：Altman 称是目前最佳模型，但与 Musk 就效率和太空数据中心展开口水战"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-03",
+      "highlight": "代理编码与调试性能优异，8月31日前限时降价",
+      "tier": "A",
+      "x_buzz": "X 热议：以 Opus 级编码能力、三分之一价格迅速成为企业首选，Anthropic 营收领先"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta AI",
+      "org_short": "META",
+      "release_date": "2026-07-07",
+      "highlight": "100万上下文，支持跨桌面/浏览器/移动端计算机使用",
+      "tier": "A",
+      "x_buzz": "X 热议：Zuckerberg 回归 X 平台宣布，代理基准测试排名第一，开发者 API 首次公开"
+    },
+    {
+      "name": "Gemini 3.5 Pro",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-08",
+      "highlight": "200万 token 上下文，价格最低的前沿模型",
+      "tier": "A",
+      "x_buzz": "X 热议：跳票多次终于发布，上下文窗口全球最大，但因产能限制曾对 Meta 限量供应"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "SpaceXAI (xAI)",
+      "org_short": "XAI",
+      "release_date": "2026-07-09",
+      "highlight": "1.5万亿参数 MoE，自主编码效率高",
+      "tier": "A",
+      "x_buzz": "X 热议：Musk 力推价格战，强调比 GPT-5.6 更便宜，但在抽象推理上略逊一筹"
+    },
+    {
+      "name": "Claude Fable 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-01",
+      "highlight": "19天政府审查后恢复全球访问",
+      "tier": "S",
+      "x_buzz": "X 热议：成为首个因安全审查被下架又复活的前沿模型，树立政府监管先例"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "92.5",
+      "math": "N/A",
+      "humaneval": "97.0",
+      "notes": "综合质量评分 100/100，领跑 7月排行榜"
+    },
+    {
+      "model": "GPT-5",
+      "org": "OpenAI",
+      "mmlu": "92.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 与 Fable 5 并列第一"
+    },
+    {
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 排行榜第一，编码能力最强"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "ARC-AGI-3 得分 7.8%，代理任务效率领先"
+    },
+    {
+      "model": "Gemini Deep Think",
+      "org": "Google",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "IMO 金牌，但模拟时钟识别仅 50.1%"
+    },
+    {
+      "model": "R1",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.4",
+      "notes": "推理模型，HumanEval 第二"
+    },
+    {
+      "model": "Llama 5",
+      "org": "Meta",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "开源模型，7月新发布"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-04",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -73
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-19",
+      "url": "https://iclr.cc/",
+      "days_left": 65
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-28",
+      "url": "https://icml.cc/",
+      "days_left": 196
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

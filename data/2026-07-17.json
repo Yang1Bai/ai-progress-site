@@ -1,0 +1,391 @@
+{
+  "date": "2026年7月17日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "前沿 AI 需要独立第三方测试",
+      "body": "7月15日发布 AI 监管框架提案，呼吁建立类似 FINRA 的行业资助、联邦监督的标准机构，对前沿模型实施发布前审查。获得 Altman、Nadella 和 Musk 罕见公开支持。",
+      "tags": [
+        "监管",
+        "AI安全"
+      ],
+      "initials": "DH",
+      "quote_date": "7月15日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "建立类似 IAEA 的全球 AI 论坛",
+      "body": "在 G7 峰会（6月17日）和 FT 撰文中提出，美国应主导国际 AI 标准制定，通过市场准入作为杠杆推动各国合规。同时 OpenAI 提议向美政府出让 5% 股权（价值 426 亿美元）。",
+      "tags": [
+        "监管",
+        "地缘政治"
+      ],
+      "initials": "SA",
+      "quote_date": "7月初"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家应避免因 AI 工具分裂",
+      "body": "6月17日 G7 峰会呼吁美国领导的联盟协调 AI 部署，强调网络和生物安全风险。5月修正此前「AI 将淘汰 50% 白领工作」预测，称自动化将扩展而非消灭工作。",
+      "tags": [
+        "国际合作",
+        "就业"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>月之暗面</strong>正式发布 <strong>Kimi K3</strong>，首个 3 万亿参数级开源模型（2.8T 有效参数，1M token 原生视觉上下文），完整权重将于 7 月 27 日发布。已在 Kimi 全系产品上线。",
+      "url": "https://aiweekly.co/",
+      "importance": "breaking",
+      "tags": [
+        "#开源",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "29 国在上海签署协议成立<strong>世界人工智能合作组织（WAICO）</strong>，独立政府间机构总部设在上海，联合国秘书长古特雷斯出席。俄罗斯、巴西、印尼、古巴等参与。",
+      "url": "https://aiweekly.co/",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>TSMC</strong> Q2 财报：营收暴涨 77.4% YoY 至 7066 亿新台币（约 220 亿美元），资本支出上调至 600-640 亿美元，宣布亚利桑那州再投 1000 亿美元（美国总承诺达 2650 亿）。",
+      "url": "https://aiweekly.co/",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "Google 将 NotebookLM 更名为 <strong>Gemini Notebook</strong>，为每个笔记本添加安全云计算环境，支持原生代码执行和数据分析，与 Gemini App 跨应用同步。",
+      "url": "https://aiweekly.co/",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#Agent"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>苹果智能（Apple Intelligence）</strong>获中国网信办批准，使用阿里<strong>通义千问</strong>模型（百度亦参与），清除主要监管障碍。具体上线日期未公布。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-16"
+    },
+    {
+      "title": "",
+      "body": "PrismML 发布 <strong>Bonsai 27B</strong>，将 270 亿参数模型压缩至 3.9GB，可在 iPhone 17 Pro 上以约 11 token/s 运行，1-bit 版本保留 90% 以上性能（Apache 2.0 许可）。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-16-2026",
+      "importance": "normal",
+      "tags": [
+        "#开源",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-16"
+    },
+    {
+      "title": "",
+      "body": "超 200 名经济学家和 AI 研究者（含 16 位诺奖得主）发布公开信，呼吁各国政府<strong>立即为 AI 经济冲击做准备</strong>，警告变革规模超工业革命但展开速度更快。",
+      "url": "https://www.aljazeera.com/economy/2026/7/13/hundreds-of-experts-warn-the-world-must-prepare-now-for-ais-impact",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "stale_2026-07-13"
+    }
+  ],
+  "science": [
+    {
+      "title": "强化学习控制量子纠错",
+      "body": "Sivak 等在 Nature（7月8日）报道用强化学习实时优化量子纠错流程，显著降低逻辑错误率，为容错量子计算提供实用途径。",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2"
+    },
+    {
+      "title": "零样本药物结合蛋白设计",
+      "body": "Fry 等（Nature, 6月24日）提出神经迭代选择-扩展框架，实现零样本条件下设计与小分子药物结合的蛋白质，同步优化序列、结构和配体构象。",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w"
+    },
+    {
+      "title": "强化学习引导晶体发现",
+      "body": "Park 等（Nature Machine Intelligence, 7月6日）通过强化学习引导生成式 AI 模型探索多样化新型晶体结构，突破传统组合设计空间限制。",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4"
+    },
+    {
+      "title": "深度学习预测心源性猝死",
+      "body": "Obermeyer 等（Nature, 6月24日）用深度学习从心电图中发现心源性猝死新生物标志物，突破传统预测模型局限。",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6"
+    },
+    {
+      "title": "信息超材料生成式设计",
+      "body": "Hou 等（Nature Computational Science, 7月14日）构建信息超材料生成式模型，实现电磁功能材料快速逆向设计。",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6"
+    },
+    {
+      "title": "局部赝势加速神经网络波函数",
+      "body": "Fu 等（Nature Computational Science, 7月10日）提出局部赝势方案，将神经网络量子蒙特卡洛模拟速度提升数倍，保持 ab initio 精度。",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "结合强化学习与生成式 AI，系统地引导模型探索化学可行且多样化的新型晶体结构，突破传统组合设计空间的局限，为功能晶体材料发现提供高效途径。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "提出面向信息超材料的生成式模型，实现电磁功能材料的快速逆向设计和优化，大幅缩短从性能需求到结构设计的周期。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "通过引入局部赝势方法，显著加速神经网络波函数的量子蒙特卡洛模拟，保持接近 ab initio 的精度，为大规模量子化学计算开辟实用路径。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建首个系统评估通用机器学习力场的基准（UniFFBench），将模型预测与实验测量直接对比，揭示当前 MLFF 在真实材料体系中的精度边界。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "提出神经迭代选择-扩展深度学习框架，实现零样本条件下同步优化蛋白质序列、结构和小分子配体构象，显著提升药物靶标蛋白的从头设计能力。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "针对催化剂逆向设计，提出对比学习框架 CatRetriever，实现从表面吸附构型到体相材料的高效检索，加速生成式催化剂发现流程。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出 EquiFiLM，通过特征线性调制将电荷状态纳入等变力场，使通用 MLFF（如 MACE-MP-0）能够处理电子态变化，扩展适用范围至电化学和激发态。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Edge Cluster Expansion with Radial Rotary Attention for Interatomic Potentials",
+      "authors": "Xu et al.",
+      "summary": "系统分析 SO(2) 理论在机器学习原子间势中的局限，提出直角坐标边簇展开结合径向旋转注意力，在保持效率的同时逼近 SO(3) Clebsch-Gordan 张量积表达能力。",
+      "date": "2026-07-12",
+      "url": "https://arxiv.org/abs/2607.10664v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Kimi K3",
+      "org": "月之暗面（Moonshot AI）",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "首个 3T 参数开源多模态模型",
+      "tier": "S",
+      "x_buzz": "X 热议：中国首个 3 万亿参数开源大模型，7月27日完整权重发布"
+    },
+    {
+      "name": "GPT-5.6（Sol/Terra/Luna）",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三档旗舰模型全球发布",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 专攻网络安全和生物学，Terra 性价比秒 GPT-5.5"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-06-30",
+      "highlight": "逼近 Opus 4.8 性能，入门价",
+      "tier": "A",
+      "x_buzz": "X 热议：$2/M 入门价延至 8月31日，代码能力提升明显"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-03",
+      "highlight": "Opus 级性能，更快更便宜",
+      "tier": "A",
+      "x_buzz": "X 热议：$2.49 单任务成本击穿行业底线，开发者狂欢"
+    },
+    {
+      "name": "Gemini 3.5 Pro（预告）",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-17",
+      "highlight": "2M token 上下文窗口",
+      "tier": "S",
+      "x_buzz": "X 热议：今日上线，Deep Think 推理模式锁定 Ultra 订阅"
+    },
+    {
+      "name": "Bonsai 27B",
+      "org": "PrismML",
+      "org_short": "PRSM",
+      "release_date": "2026-07-14",
+      "highlight": "270 亿参数压缩至 3.9GB",
+      "tier": "B",
+      "x_buzz": "X 热议：iPhone 上跑 27B 模型，1-bit 版性能仅损失 10%"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "综合质量指数 100/100（Swfte 排行榜），SWE-bench Verified 95.0%"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "网络安全和生物学专项优化，长周期 Agent 基准领先"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "SWE-bench Verified 88.6%，SWE-bench Pro 69.2%"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "SWE-bench Verified 约 80%，多模态推理强"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "价格性能比突出，Terminal-Bench 编码基准优异"
+    },
+    {
+      "model": "GPT-5",
+      "org": "OpenAI",
+      "mmlu": "92.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 排行榜（100 模型）当前冠军"
+    },
+    {
+      "model": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "Agent 编码基准 63.2%（vs Sonnet 4.6 的 58.1%）"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -72
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2026/AuthorGuide",
+      "days_left": 69
+    },
+    {
+      "name": "ICML 2027",
+      "event_type": "submission",
+      "deadline": "2027-01-28",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 195
+    },
+    {
+      "name": "KDD 2026 AI4Sciences",
+      "event_type": "submission",
+      "deadline": "2026-02-13",
+      "url": "https://kdd2026.kdd.org/ai4sciences-track-call-for-papers/",
+      "days_left": -154
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-16",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 61
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

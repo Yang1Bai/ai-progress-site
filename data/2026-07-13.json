@@ -1,0 +1,382 @@
+{
+  "date": "2026年7月13日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家应抵制分裂的诱惑",
+      "body": "6月17日 G7 峰会上呼吁美国主导的 AI 联盟，强调民主国家应在先进 AI 工具发布上合作而非分裂，获得 OpenAI 和 Google DeepMind 支持。",
+      "tags": [
+        "AI治理",
+        "国际合作",
+        "安全"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "需要建立国际讨论论坛",
+      "body": "G7 峰会提出建立国际标准测试与风险分析的合作论坛。OpenAI 准备 IPO，并在7月推出 GPT-5.6 系列模型（Sol/Terra/Luna），但正遭遇苹果诉讼。",
+      "tags": [
+        "开放生态",
+        "国际标准"
+      ],
+      "initials": "SA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "生物恐怖和网络安全风险需合作",
+      "body": "G7 峰会上与 Amodei、Altman 共同呼吁美国主导的 AI 技术标准机构。Google DeepMind 正准备7月17日发布 Gemini 3.5 Pro，配备200万 token 上下文窗口。",
+      "tags": [
+        "技术标准",
+        "AI安全"
+      ],
+      "initials": "DH",
+      "quote_date": "6月17日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "苹果于<strong>7月11日</strong>起诉 OpenAI，指控其挖走超过<strong>400名</strong>苹果员工（多来自芯片与设备端 AI 团队）涉嫌商业机密盗窃，标志硅谷 AI 合作框架瓦解",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "<strong>Gemini 3.5 Pro</strong> 据泄露计划将于<strong>7月17日</strong>正式发布，配备200万 token 上下文窗口（市场最大）与 Deep Think 推理模式，API 定价约$1.25/百万输入 token",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#多模态"
+      ],
+      "_freshness": "broken_404"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 宣布到2027年将计算能力翻倍，并在加拿大阿尔伯塔建设<strong>1GW</strong>（10亿瓦）AI 数据中心，其定制芯片 Iris 将于9月投产",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#基础设施"
+      ],
+      "_freshness": "broken_404"
+    },
+    {
+      "title": "",
+      "body": "OpenAI <strong>GPT-5.6</strong> 系列（Sol/Terra/Luna）于<strong>7月9日</strong>正式向全球开放，Sol 为旗舰版专攻生物、化学与网络安全，Terra 成本减半",
+      "url": "https://buildez.ai/blog/ai-new-model-july-2026-developments",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-08"
+    },
+    {
+      "title": "",
+      "body": "Anthropic <strong>Claude Sonnet 5</strong> 于6月30日发布，在代码任务上达到 SWE-Bench Pro 63.2%，接近 Opus 4.8 的69.2%，推广期定价$2/$10每百万 token（8月31日前）",
+      "url": "https://felloai.com/best-ai-models/",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#Agent"
+      ],
+      "_freshness": "ok_2026-07-10"
+    },
+    {
+      "title": "",
+      "body": "中国考虑限制<strong>DeepSeek</strong> 等顶级 AI 模型的海外访问，反映出 AI 出口管制双向化趋势",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "DNA 芯片用电合成序列",
+      "body": "科学家创建可同时用电和水基酶写入数十条 DNA 序列的硅芯片，为传统 DNA 制造提供更清洁替代方案，未来可支持便携式 DNA 写入设备与大规模 DNA 数据存储。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 模拟中子星合并",
+      "body": "研究人员开发基于 AI 的模拟系统，大幅加速中子星合并如何产生宇宙中许多最重元素的建模过程。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "黑色素瘤永生化机制",
+      "body": "科学家发现黑色素瘤细胞实现永生化的缺失遗传成分，该突破可能开启针对癌症最大能力之一的新疗法。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "物理训练模型发现稀土替代磁体",
+      "body": "Ames 实验室开发 AI 工作流使用名为 DuctGPT 的物理训练模型，发现无需稀土的永磁体。与基于现有数据训练的传统 AI 不同，DuctGPT 理解底层物理原理。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "AI 识别超冷水微观结构",
+      "body": "大阪大学使用在计算机模拟上训练的 AI 模型评估16种不同的结构描述符，系统识别出区分水两种状态的最有效方法。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "维生素C与大脑老化",
+      "body": "日本超过2000名老年人研究发现，血液中维生素 C 水平较低的人往往灰质更少，提示维生素 C 可能支持更健康的大脑衰老。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "通过强化学习引导生成模型探索化学合理的晶体组分与结构，克服了传统生成 AI 仅能采样化学合理但缺乏多样性和功能导向的局限，为发现新型功能晶体材料提供系统方法。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "开发深度学习方法实现小分子结合蛋白的零样本设计，同时优化蛋白序列、结构和配体构象。该方法突破了现有模型无需训练即可设计新型药物结合蛋白的难题。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-assisted development of a fast Mechanochemical Johnson–Corey–Chaykovsky reaction",
+      "authors": "Mele et al.",
+      "summary": "利用机器学习辅助开发快速机械化学 Johnson–Corey–Chaykovsky 反应，展示 AI 如何加速化学合成方法学优化与反应条件探索，缩短实验周期。",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1038/s41467-026-75499-3",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "将局域赝势整合到神经网络量子蒙特卡洛方法中，显著提升量子化学计算精度与效率。该工作为材料与分子体系的高精度电子结构计算提供新工具。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出电荷条件等变力场模型，通过特征线性调制处理外加电荷对电子态的影响。该方法扩展了基础机器学习力场（如 MACE-MP-0）到非平衡态物理场景。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
+      "authors": "Harari et al.",
+      "summary": "提出 SOAP 和 Muon 优化器用于机器学习原子间势（MLIP）训练，相比默认的 Adam 优化器实现更快收敛与更高标签效率，为原子尺度模拟提供新训练范式。",
+      "date": "2026-07-02",
+      "url": "https://arxiv.org/abs/2607.02499v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "ReactionAtlas: Ab origine exploration of chemical reaction networks with machine learning",
+      "authors": "Gugler et al.",
+      "summary": "从头构建化学反应网络图（最小值、过渡态与基元反应的连接），该机器学习方法将反应网络映射从不可行变为系统化，适用于催化、燃烧与生命起源化学。",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.30778v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Active rejection enables reliable generalization of universal machine-learning interatomic potentials",
+      "authors": "Luo et al.",
+      "summary": "提出主动拒绝策略提升通用机器学习原子间势（uMLIP）的泛化可靠性。解决高精度计算（如 r²SCAN）成本限制导致训练集相对开放材料空间仍小的问题。",
+      "date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2607.09456v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "Sol 专攻生物/化学/安全",
+      "tier": "S",
+      "x_buzz": "X 热议：经政府安全评估后全球开放，Sol 为旗舰、Terra 平衡成本、Luna 主打速度"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "最强代理能力近 Opus 成本低",
+      "tier": "A",
+      "x_buzz": "X 热议：SWE-Bench Pro 63.2%，推广价每百万输入 token 仅$2，8月底涨至$3"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI (SpaceX)",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "Opus 级但更快更便宜",
+      "tier": "A",
+      "x_buzz": "X 热议：Cursor 训练的代码模型，定价$2/$6每百万 token，性价比之选"
+    },
+    {
+      "name": "Gemini 3.5 Pro",
+      "org": "Google DeepMind",
+      "org_short": "GDM",
+      "release_date": "2026-07-17",
+      "highlight": "200万 token 上下文窗口",
+      "tier": "S",
+      "x_buzz": "X 热议：泄露显示7月17日发布，Deep Think 推理锁定$250/月 Ultra 订阅"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "首个付费 API 代理模型",
+      "tier": "A",
+      "x_buzz": "X 热议：100万 token 上下文，MCP Atlas 等代理评测第一，定价$1.25/$4.25"
+    },
+    {
+      "name": "Claude Fable 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-01",
+      "highlight": "Mythos 级旗舰恢复访问",
+      "tier": "S",
+      "x_buzz": "X 热议：6月12日因安全被禁，7月1日解禁并添加网络安全分类器保障"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "90.5",
+      "math": "86.2",
+      "humaneval": "91.5",
+      "notes": "当前公开最强全能模型，SWE-Bench Pro 69.2%"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "91.8",
+      "math": "89.1",
+      "humaneval": "90.3",
+      "notes": "生物/化学/网络安全专项优化旗舰"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "93.7",
+      "notes": "Mythos 级旗舰，最难编码基准第一"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google",
+      "mmlu": "90.3",
+      "math": "87.5",
+      "humaneval": "89.6",
+      "notes": "多模态能力强，上一代旗舰"
+    },
+    {
+      "model": "o3 (reasoning)",
+      "org": "OpenAI",
+      "mmlu": "91.4",
+      "math": "92.3",
+      "humaneval": "90.8",
+      "notes": "推理专用模型，数学基准最高"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "mmlu": "89.2",
+      "math": "84.7",
+      "humaneval": "88.9",
+      "notes": "Cursor 训练，Terminal-Bench 83.3%"
+    },
+    {
+      "model": "Llama 3.1 405B",
+      "org": "Meta",
+      "mmlu": "87.3",
+      "math": "73.8",
+      "humaneval": "80.5",
+      "notes": "最强开源模型"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICML 2026",
+      "event_type": "submission",
+      "deadline": "2026-01-28",
+      "url": "https://icml.cc/Conferences/2026/Dates",
+      "days_left": -166
+    },
+    {
+      "name": "ICLR 2026",
+      "event_type": "camera_ready",
+      "deadline": "2026-02-15",
+      "url": "https://iclr.cc/Conferences/2026/Dates",
+      "days_left": -148
+    },
+    {
+      "name": "CVPR 2027",
+      "event_type": "submission",
+      "deadline": "2026-11-15",
+      "url": "https://mlciv.com/ai-deadlines/",
+      "days_left": 125
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/Dates",
+      "days_left": -67
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-18",
+      "url": "https://www.tldl.io/resources/ai-conferences-2026",
+      "days_left": 36
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

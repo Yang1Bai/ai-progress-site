@@ -1,0 +1,350 @@
+{
+  "date": "2026年7月19日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "前沿模型需要独立第三方测试与监管",
+      "body": "哈萨比斯7月16日发布提案，呼吁建立类似 FINRA 的美国主导国际监管机构，对前沿 AI 模型进行上市前安全审查。该框架获得 Altman、Nadella 和 Musk 等跨行业罕见支持。",
+      "tags": [
+        "监管",
+        "安全",
+        "AGI"
+      ],
+      "initials": "DH",
+      "quote_date": "7月16日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "AI 对就业影响比我预期要小得多",
+      "body": "Altman 在5月接受采访时承认自己此前对 AI 消除初级白领岗位的预测「相当错误」。OpenAI 同时推出 GPT-5.6 系列，并与 Anthropic、DeepMind CEO 共同呼吁建立美国主导的国际 AI 标准机构。",
+      "tags": [
+        "就业",
+        "监管",
+        "GPT"
+      ],
+      "initials": "SA",
+      "quote_date": "5月26日"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家应协作，避免在先进工具上分裂",
+      "body": "Amodei 在6月 G7 峰会上与特朗普等国家元首会面，呼吁美国主导联盟制定 AI 规则标准。Anthropic 于7月1日全球恢复 Fable 5 和 Mythos 5 访问，此前因美国出口管制暂停19天。",
+      "tags": [
+        "监管",
+        "地缘政治",
+        "Claude"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 于7月9日正式发布 <strong>GPT-5.6</strong> 系列（Sol/Terra/Luna），其中 Sol 在网络安全基准上达到前沿性能、使用更少 token，Terra 提供 GPT-5.5 级能力、成本减半，Luna 专注快速低成本高吞吐。",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#开源"
+      ],
+      "_freshness": "stale_2026-07-09"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 发布 <strong>Muse Spark 1.1</strong>，具备100万 token 上下文、跨桌面/浏览器/移动端计算机使用能力和并行子代理委派，在 MCP Atlas、JobBench 和 Finance Agent V2 上排名第一，首次推出付费开发者 API。",
+      "url": "https://thursdai.news/releases/2026-07",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic</strong> 于7月1日全球恢复 <strong>Fable 5 和 Mythos 5</strong> 访问，此前因美国出口管制暂停19天。新增「最强网络安全防护措施」，无需身份验证，但新内容过滤器可能临时阻止部分常规编码任务。",
+      "url": "https://thursdai.news/releases/2026-07",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "Anthropic 推出 <strong>Claude Sonnet 5</strong>，在 SWE-Bench Pro 上得分63.2%，接近 Opus 4.8 的69.2%，引入价格为每百万 token $2/$10（至8月31日），之后上调至 $3/$15，原生支持100万 token 上下文窗口。",
+      "url": "https://buildez.ai/blog/ai-new-model-july-2026-developments",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-08"
+    },
+    {
+      "title": "",
+      "body": "<strong>xAI</strong> 发布 <strong>Grok 4.5</strong>，1.5万亿参数 MoE 架构，在 Terminal-Bench 2.1 上得分83.3%、输出 token 数仅为 Opus 4.8 的约25%，定位为「Opus 级模型但更快、token 效率更高、成本更低」。",
+      "url": "https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches/",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-07-10"
+    },
+    {
+      "title": "",
+      "body": "Google 推出 <strong>Gemini 3.5 Live Translate</strong>（检测70+语言的近实时语音转语音翻译）、<strong>Omni Flash</strong>（原生多模态动态视频模型）和 <strong>Nano Banana 2 Lite</strong>（快速低成本图像生成）。",
+      "url": "https://buildez.ai/blog/ai-new-model-july-2026-developments",
+      "importance": "normal",
+      "tags": [
+        "#多模态"
+      ],
+      "_freshness": "stale_2026-07-08"
+    },
+    {
+      "title": "",
+      "body": "<strong>中国 Moonshot AI</strong> 于7月16日发布 <strong>Kimi K3</strong> 高参数模型，成为7月最新追踪到的前沿模型发布。",
+      "url": "https://aireleasetracker.com/latest",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "Anthropic、OpenAI、DeepMind 三家 CEO 罕见地在过去5周内以书面形式公开<strong>趋同于相同的 AI 监管诊断和处方</strong>：独立测试、单一治理体系、美国主导、创新保护。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "broken_403"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 设计 RNA 引导核酸酶突破",
+      "body": "Science 7月17日发表研究，使用结构引导和进化策略设计出新型合成 RNA 引导核酸酶，冷冻电镜揭示 AI 设计的蛋白在 RNA-DNA 界面形成新的稳定相互作用，首次实验验证 AI 设计基因编辑酶的结构。",
+      "url": "https://www.azolifesciences.com/news/20260717/AI-Breakthrough-Generates-Novel-Synthetic-RNA-Guided-Nucleases.aspx"
+    },
+    {
+      "title": "AI 破解水的微观结构之谜",
+      "body": "大阪大学研究人员使用 AI 模型训练于水的多种微观描述方式，成功破解超冷水行为中的关键谜题。该成果于7月8日发表，展示 AI 在复杂物理系统建模中的能力。",
+      "url": "https://sciencedaily.com/"
+    },
+    {
+      "title": "AI 将蛋白序列翻译为功能描述",
+      "body": "特拉维夫大学团队开发的 BetaDescribe 系统，发表于 PNAS 7月6日，能将蛋白质序列直接翻译为文本描述，帮助揭示未知蛋白质的功能，加速蛋白质组学研究。",
+      "url": "https://phys.org/news/2026-07-ai-protein-sequences-text-reveal.html"
+    },
+    {
+      "title": "蛋白质设计生成 AI 综述",
+      "body": "npj Drug Discovery 7月3日发表综述，系统梳理用于可控蛋白序列设计的生成式 AI 方法，涵盖药物发现、酶工程等多个应用领域，强调导航巨大组合搜索空间的挑战。",
+      "url": "https://www.nature.com/articles/s44386-026-00054-5"
+    },
+    {
+      "title": "蛋白质构象预测与结合物设计",
+      "body": "Communications Biology 5月8日发表前瞻文章，指出结构生物学正进入 AlphaFold 2 之后的新阶段，两大前沿为完整蛋白质构象景观预测和高亲和力蛋白结合物的常规从头设计。",
+      "url": "https://www.nature.com/articles/s42003-026-10112-3"
+    },
+    {
+      "title": "低能耗光子 AI 计算突破",
+      "body": "宾夕法尼亚大学研究人员报告了基于激子-极化子的全光开关方法，能以极低能耗实现光计算，Nature 和多家媒体7月报道，对边缘 AI、电池限制场景具有重要意义。",
+      "url": ""
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "使用强化学习引导生成式模型发现多样性和新颖晶体材料。通过将化学可行性与探索多样性结合，克服传统生成模型倾向于已知结构的局限，为功能晶体材料发现开辟新途径。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "将局部赝势引入神经网络量子蒙特卡罗方法，显著加速量子化学计算。该方法在保持高精度的同时大幅降低计算成本，为大规模材料电子结构模拟提供新工具。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发用于信息超材料设计的生成模型，能够自动化设计具有特定电磁响应的超材料结构。该方法加速了新型功能材料的发现，应用于天线、传感器等领域。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建通用机器学习力场评估基准 UniFFBench，首次系统性地将 ML 力场预测与实验测量直接对比，揭示现有模型在真实物理性质预测上的差距，为力场开发提供实证指导。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "提出对比表示学习方法 CatRetriever，用于生成式催化剂发现中的表面-体材料检索。该方法在异构催化逆向设计中实现高效候选筛选，加速催化剂材料发现流程。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields",
+      "authors": "Bi et al.",
+      "summary": "提出主动学习方法，在训练和微调机器学习力场时使用更少标签即可达到全数据精度。通过模型委员会不确定性量化高效构建训练集，显著降低昂贵 DFT 计算成本。",
+      "date": "2026-07-16",
+      "url": "https://arxiv.org/abs/2607.14486v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "开发电荷条件等变力场 EquiFiLM，通过特征线性调制处理外部诱导的电子态变化。该方法扩展基础 ML 力场能力，能够模拟带电、激发态等非平衡物理过程。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms",
+      "authors": "Bengio et al.",
+      "summary": "提出 AquaGen，首个全原子、显式溶剂、周期边界条件的生成模型，能以分子动力学精度生成数千原子构型。该模型以极低成本从玻尔兹曼分布采样，大幅加速溶液相分子模拟。",
+      "date": "2026-07-03",
+      "url": "https://arxiv.org/abs/2607.03513v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三层架构：Sol 网络安全最强、Terra 性价比高、Luna 快速低成本",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 在编码 token 效率上比前代提升54%，成本降至 Fable 5 的三分之一"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-07",
+      "highlight": "100万 token 上下文，计算机使用，首个付费闭源模型",
+      "tier": "S",
+      "x_buzz": "X 热议：Meta 放弃开源路线，首次推出付费 API，JobBench 和 Finance Agent V2 排名第一"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "SWE-Bench Pro 63.2%，引入价 $2/$10（至8月31日）",
+      "tier": "A",
+      "x_buzz": "X 热议：最具代理能力的 Sonnet，能完成前代中断的复杂多步任务，自动检查输出"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-07",
+      "highlight": "1.5T 参数 MoE，Terminal-Bench 2.1 达83.3%",
+      "tier": "A",
+      "x_buzz": "X 热议：输出 token 数仅为 Opus 4.8 的25%，Alpha Arena 唯一盈利模型"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MSA",
+      "release_date": "2026-07-16",
+      "highlight": "中国 Moonshot 高参数旗舰模型",
+      "tier": "A",
+      "x_buzz": "X 热议：7月最新前沿模型发布，X 搜索量突增，细节待官方披露"
+    },
+    {
+      "name": "Claude Fable 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-01",
+      "highlight": "全球恢复访问，最强网络安全防护，Mythos 级推理",
+      "tier": "S",
+      "x_buzz": "X 热议：暂停19天后恢复，SWE-Bench 排名顶级，企业采用率持续攀升"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "7月顶级代理模型，SWE-Bench 和编码基准领先，质量指数100/100"
+    },
+    {
+      "model": "GPT-5",
+      "org": "OpenAI",
+      "mmlu": "93.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 领先之一，接近 Qwen3.7 Max 的93.7%"
+    },
+    {
+      "model": "Qwen3.7 Max",
+      "org": "Alibaba",
+      "mmlu": "93.7",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "7月14日 MMLU 排行榜第一，78个模型中平均81.7%"
+    },
+    {
+      "model": "o3",
+      "org": "OpenAI",
+      "mmlu": "93.1",
+      "math": "75-90",
+      "humaneval": "N/A",
+      "notes": "推理模型，MATH 基准大幅领先标准模型"
+    },
+    {
+      "model": "o1",
+      "org": "OpenAI",
+      "mmlu": "91.8",
+      "math": "75-90",
+      "humaneval": "N/A",
+      "notes": "BenchLM 快照中 MMLU 领先，推理模型典型代表"
+    }
+  ],
+  "stats": {
+    "news_count": 8,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

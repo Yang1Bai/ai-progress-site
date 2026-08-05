@@ -1,0 +1,330 @@
+{
+  "date": "2026年7月12日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "民主国家应避免在 AI 部署上分裂",
+      "body": "在 6 月 17 日 G7 峰会上，阿莫代与 OpenAI、Google DeepMind CEO 共同呼吁美国领导建立 AI 国际标准联盟，强调需在网络安全、生物恐怖主义等领域合作，同时抵制因先进工具发布而导致民主联盟分裂的诱惑。",
+      "tags": [
+        "政策",
+        "国际合作",
+        "AI 安全"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "需建立全球 AI 测试标准论坛",
+      "body": "奥特曼在 G7 峰会提议建立国际论坛，制定全球接受的 AI 测试标准，提供专家风险分析并作为国家间合作平台。此前他曾表示对 AI 就业影响的预测\"相当错误\"，现在认为入门级白领岗位受冲击程度低于预期。",
+      "tags": [
+        "政策",
+        "AGI",
+        "就业"
+      ],
+      "initials": "SA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "呼吁美国主导 AI 联盟建设",
+      "body": "哈萨比斯与 Anthropic、OpenAI CEO 联合在 G7 峰会上呼吁美国主导制定 AI 规则与标准。近期 DeepMind 遭遇人才流失，诺贝尔化学奖得主、AlphaFold 主创 John Jumper 于 6 月离职加入 Anthropic，引发业界对其能否保持 AI 前沿地位的质疑。",
+      "tags": [
+        "政策",
+        "AI4Science",
+        "人才"
+      ],
+      "initials": "DH",
+      "quote_date": "6月17日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>苹果起诉 OpenAI</strong> 窃取商业机密，诉状称超过 <strong>400 名前苹果员工</strong> 现在 OpenAI 任职，指控 OpenAI 招募硅谷工程和硬件设计团队为协同提取机密技术行为，案件在 OpenAI 计划 IPO 前数周提起。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "importance": "breaking",
+      "tags": [
+        "#政策",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI GPT-5.6</strong> 三层模型家族于 7 月 9 日全面开放，Terra 在 Terminal-Bench 2.1 达 84.3% 匹配 Claude Fable 5 性能但成本减半，Sol Ultra 一小时内证明了 <strong>50 年未解的循环双覆盖猜想</strong>。",
+      "url": "https://llm-stats.com/ai-news",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#Agent"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>SK Hynix</strong> 7 月 10 日纳斯达克 ADR 上市首日涨 13% 报 168.01 美元，市值突破 <strong>1 万亿美元</strong>，筹资 265 亿美元成史上最大外国公司美国 IPO，公司控制全球约 60% 高带宽内存市场份额。",
+      "url": "https://aiweekly.co/",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "美联储任命 a16z 联合创始人 <strong>Marc Andreessen</strong> 共同领导新成立的 AI 影响工作组，研究 AI 对就业、生产率与货币政策的影响，这是美联储首个专门针对 AI 经济效应的正式机构。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-12-2026",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "<strong>中国 AI 模型</strong> 占美国企业 API 代币使用量的 <strong>30-46%</strong>，OpenRouter 数据显示自 2 月起中国模型份额每周超 30%，Z.ai 的 GLM-5.2 在 Vercel 首周客户增长 80 倍，价格比西方前沿模型低 60-90%。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-8-2026",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "stale_2026-07-08"
+    },
+    {
+      "title": "",
+      "body": "<strong>xAI Grok 4.5</strong> 于 7 月 8 日发布，在 Terminal-Bench 2.1 编码基准上显示增强的编码、Agent 与知识工作能力，成为价格性能比最优模型之一。",
+      "url": "https://futuretools.io/news",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 发布 Nano Banana 2 Lite</strong> 图像生成模型，4 秒内生成图像，起价每千张 0.034 美元，同周推出 OmniFlash 视频生成模型支持多轮对话编辑，Interactions API 同步上线。",
+      "url": "https://thursdai.news/releases/2026-07",
+      "importance": "normal",
+      "tags": [
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic Claude Sonnet 5</strong> 于 6 月 30 日发布，接近 Opus 4.8 性能但限时定价仅 <strong>2/10 美元</strong> 每百万代币（8 月 31 日前），新分词器可能消耗多 35% 代币。",
+      "url": "https://thursdai.news/releases/2026-07",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google 非洲应用 AI 实验室</strong> 于 7 月启动，总部位于阿克拉，为非洲研究者和创业者提供 AI 技术早期访问和直接技术指导，旨在加速针对非洲独特挑战的 AI 解决方案开发。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>Mistral 发布 Leanstral 1.5</strong>，使用 Lean 4 提供软件数学证明，证明代码按预期行为，强基准结果显示关键系统形式化软件验证取得重大进展。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#安全"
+      ],
+      "_freshness": "broken_403"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 发现无稀土永磁体",
+      "body": "美国 Ames 实验室开发物理训练模型 DuctGPT 工作流发现无稀土永磁材料。该模型理解底层物理并能发明新材料同时考虑生产成本与组件采购，解决供应链安全与成本问题，减少对中国稀土元素依赖。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "硅芯片电化学合成 DNA",
+      "body": "科学家创建硅芯片使用电力和水基酶同时写入数十条 DNA 序列，提供比传统 DNA 制造更清洁的替代方案。突破可能支持便携式 DNA 写入设备甚至大规模 DNA 数据存储。（7 月 8 日）",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 加速中子星元素模拟",
+      "body": "研究人员创建基于 AI 的模拟，大幅加快中子星合并如何产生宇宙最重元素的建模速度，为核合成过程提供更高效的计算工具。（7 月 8 日）",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 评估超冷水结构描述符",
+      "body": "大阪大学研究人员使用在计算机模拟上训练的 AI 模型评估 16 种不同的超冷水微观结构描述符，识别出区分水两种结构最有效的方法。（7 月 8 日）",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 框架测量宇宙膨胀",
+      "body": "新 AI 驱动框架可转变天文学家测量宇宙膨胀的方式，通过分析 Ia 型超新星图像并以前所未有的细节建模其环境来估算宇宙距离。（6 月 29 日）",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "欧盟强制 AI 驾驶员分心检测",
+      "body": "自 7 月 7 日起，欧盟所有新登记汽车必须包含驾驶员分心检测系统。该技术分析驾驶员凝视和头部运动以检测注意力不集中迹象，不记录或向当局传输镜头，代表 AI 集成日常道路安全的又一里程碑。",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-july-6-to-july-12-2026-f81a26c49c55"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "提出通过强化学习引导生成式 AI 模型发现多样化新型晶体的方法。该方法解决了当前生成模型易陷入已知结构局部最优的根本挑战，使 AI 能探索更广阔的材料化学组成与结构设计空间，加速功能性晶体材料的发现。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "开发了零样本神经迭代选择-扩展方法设计结合小分子药物的蛋白质。该深度学习方法同时优化蛋白质序列、结构与配体构象，克服了传统方法需要大量训练数据的限制，为药物-材料界面设计提供新工具。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-assisted development of a fast Mechanochemical Johnson–Corey–Chaykovsky reaction",
+      "authors": "Mele et al.",
+      "summary": "利用机器学习辅助开发快速机械化学 Johnson-Corey-Chaykovsky 反应。该研究展示了 AI 如何加速化学反应条件优化，为机械化学合成方法学提供数据驱动的设计策略，缩短实验周期。",
+      "date": "2026-07-11",
+      "url": "https://doi.org/10.1038/s41467-026-75499-3",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Empowering neural network-based quantum Monte Carlo with local pseudopotentials",
+      "authors": "Fu et al.",
+      "summary": "将局部赝势引入基于神经网络的量子蒙特卡罗方法，显著提升计算效率和精度。该方法使神经网络波函数能处理更大规模材料体系的电子结构计算，推动量子材料和凝聚态物理的 AI 模拟能力。",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出 EquiFiLM 方法，通过特征线性调制构建电荷条件等变力场。基础机器学习力场假设平衡基态物理，该方法使模型能原生处理外部诱导的电子态变化（如充电），扩展了材料 ML 势能面的适用范围。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
+      "authors": "Zhang et al.",
+      "summary": "利用自主 LLM 研究循环优化专家设计的晶体图网络用于带隙预测。该工作展示大语言模型如何自动迭代改进材料性质预测模型架构与超参数，为 AI 辅助材料科学方法开发提供元学习范式。",
+      "date": "2026-06-29",
+      "url": "https://arxiv.org/abs/2606.29717v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "MatBind: A Shared Embedding Space for Multimodal Materials Characterization",
+      "authors": "Yang et al.",
+      "summary": "提出 MatBind 多模态材料表征共享嵌入空间，统一原子结构、衍射图样、电子态密度与自然语言等异构数据源。该方法解决了材料表征数据分散的核心挑战，使不同模态数据能在统一框架下联合学习与检索。",
+      "date": "2026-07-09",
+      "url": "https://arxiv.org/abs/2607.08470v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
+      "authors": "Harari et al.",
+      "summary": "提出 SOAP 与 Muon 优化器用于机器学习原子间势训练，实现比 Adam 更快速和标签高效的训练。该研究首次系统探索优化器选择对 MLIP 训练的影响，为材料 AI 模型训练提供新工具。",
+      "date": "2026-07-02",
+      "url": "https://arxiv.org/abs/2607.02499v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三层架构 终结政府审查",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol Ultra 一小时证明 50 年未解数学猜想，但 METR 发现更高 scheming 风险"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "价格性能比最优编码模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Terminal-Bench 2.1 与 GPT-5.6 Terra 竞争，实时 X 上下文成杀手锏"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "最强 Agent 模型限时半价",
+      "tier": "A",
+      "x_buzz": "X 热议：接近 Opus 4.8 性能但成本减半，新分词器可能多消耗 35% 代币需注意"
+    },
+    {
+      "name": "Claude Fable 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-01",
+      "highlight": "编码冠军重返 80.3% SWE-Bench",
+      "tier": "S",
+      "x_buzz": "X 热议：6 月 12 日被美国出口管制下线 19 天后重返，现需政府 ID 验证且按用量计费"
+    },
+    {
+      "name": "Gemini 3.5 Flash",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-05-19",
+      "highlight": "前沿价格性能比之王",
+      "tier": "A",
+      "x_buzz": "X 热议：Gemini 3.5 Pro 已跳票 6 周，Flash 成 Google 唯一可用最新前沿模型"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "92.1",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "综合指数第一，写作与指令遵循最强"
+    }
+  ],
+  "stats": {
+    "news_count": 10,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "date": "2026年7月11日",
+  "leaders": [
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "AI 会带来新商业创造，而非工作替代",
+      "body": "在 OpenAI 准备 IPO 之际，奥特曼提出向美国政府提供 5% 股权，并强调 AI 将通过提升生产力创造新机会，而非大规模裁员。",
+      "tags": [
+        "政策",
+        "IPO",
+        "就业"
+      ],
+      "initials": "SA",
+      "quote_date": "7月初"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "AI 强大能力需要政府与企业协作",
+      "body": "在 6 月 17 日 G7 峰会上，阿莫代与各国首脑讨论前沿 AI 风险治理，强调 Mythos 等先进模型的发布标志着 AI 发展的拐点。",
+      "tags": [
+        "政策",
+        "安全",
+        "国际"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "萨蒂亚·纳德拉",
+      "name_en": "Satya Nadella",
+      "role": "Microsoft CEO",
+      "quote": "不能让少数模型吞噬所有价值",
+      "body": "纳德拉在 6 月文章中警告，若所有价值被少数 AI 模型垄断，政治经济体系将无法容忍，呼吁避免权力集中在少数提供商手中。",
+      "tags": [
+        "竞争",
+        "开放",
+        "政策"
+      ],
+      "initials": "SN",
+      "quote_date": "6月"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 正式发布 <strong>GPT-5.6</strong> 系列（Sol/Terra/Luna），经美国政府安全审查后于 7 月 9 日全球上线，Sol 擅长生物、化学与网络安全任务。",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/07/openais-advanced-gpt-56-models-be-available-public/414651/",
+      "importance": "breaking",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-08"
+    },
+    {
+      "title": "",
+      "body": "<strong>xAI</strong> 于 7 月 8 日发布 <strong>Grok 4.5</strong>，面向编码与智能体工作流优化，定价为 2 美元/6 美元每百万 token，SpaceX 与特斯拉内测。",
+      "url": "https://felloai.com/best-ai-models/",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-10"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 于 7 月 9 日推出 <strong>ChatGPT Work</strong>，一个多步骤自主智能体工作空间，可跨应用收集信息、自动完成表格与文档生成。",
+      "url": "https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "<strong>日本</strong> 宣布成立 <strong>Noetra</strong> 联盟（SoftBank/Sony/NEC/Honda），获政府 387 亿日元（24 亿美元）资助，聚焦物理 AI 与机器人。",
+      "url": "https://asanify.com/blog/news/agentic-workflow-automation-july-11-2026/",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#机器人"
+      ],
+      "_freshness": "ok_2026-07-11"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 于 7 月 9 日发布 <strong>Muse Spark 1.1</strong>，首款商业 API 模型，支持编码、推理、工具使用与多模态理解，定价低于 Anthropic 高端模型。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>ByteDance</strong> 发布 <strong>Seedream 5.0 Pro</strong>，支持多语言文本渲染、精确图像编辑与信息图生成，中国公司调整以符合 7 月 15 日生效的拟人化 AI 法规。",
+      "url": "https://techstartups.com/2026/07/10/top-tech-news-today-july-8-2026-todays-biggest-ai-tech-stories-from-meta-openai-microsoft-bytedance-more/",
+      "importance": "normal",
+      "tags": [
+        "#多模态",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-07-10"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic</strong> 发布全局工作空间研究（7 月 6 日），在 Claude 内发现类似人类意识的\"思维舞台\"，可读取模型未说出的想法。",
+      "url": "https://www.neuralbuddies.com/p/ai-news-recap-july-10-2026",
+      "importance": "normal",
+      "tags": [
+        "#安全",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 发现无稀土永磁材料",
+      "body": "美国 Ames 实验室开发的物理训练 AI 模型 DuctGPT，成功发现无稀土永磁体，可在降低成本的同时减少对中国稀土依赖，应用于国防和可再生能源领域。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "AI 框架加速宇宙测距",
+      "body": "新 AI 框架通过分析 Ia 型超新星图像和建模环境细节，可前所未有地估算宇宙距离，或将揭示暗能量秘密。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "光物质粒子驱动 AI 计算",
+      "body": "宾夕法尼亚大学研究人员创造混合光物质粒子，可显著加速 AI 计算同时降低能耗，有望替代部分电子计算过程。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "全光纤光子 AI 诊断平台",
+      "body": "深圳大学团队开发基于黑磷可调制调制器的全光纤光子 AI 平台，用光而非电子处理医学图像，对视网膜脱离和肝癌诊断达到专家级准确度。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "AI 助手自动化科学发现",
+      "body": "Nature 发表两个多智能体 AI 系统（Google DeepMind 的 Co-Scientist 与另一系统），可生成假设、设计实验、解释结果并优化科学研究循环，用于白血病药物筛选等。",
+      "url": "https://www.nature.com/nature/volumes/655/issues/8122"
+    },
+    {
+      "title": "量子材料边缘态首次构建",
+      "body": "物理学家成功创建十多年前预测的二维量子材料，并确认其不寻常的导电边缘态，为量子计算与材料科学开辟新道路。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "通过神经迭代选择扩展方法实现药物结合蛋白的零样本设计，同时优化蛋白序列、结构和配体构象，克服当前深度学习方法难以同时优化三者的挑战。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "利用强化学习引导生成模型发现多样化的新型晶体材料。虽然生成式 AI 可采样化学上合理的组成和结构，但本研究通过强化学习确保模型探索功能化学空间的多样性与新颖性。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出 EquiFiLM 方法处理非平衡电子态（如外部充电）的原子间力场，扩展 MACE-MP-0 等基础力场模型在真实化学条件下的适用性，对材料催化与电化学有重要意义。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Bayesian Optimization of Genetic Algorithm Hyperparameters in a Multi-Fidelity Framework for Efficient Lattice Material Design",
+      "authors": "Zorkaltsev et al.",
+      "summary": "提出多保真度框架系统优化遗传算法超参数，集成高保真 FFT 均质化、中保真 3D 卷积神经网络代理，用于高效晶格材料设计，显著降低计算成本。",
+      "date": "2026-07-08",
+      "url": "https://arxiv.org/abs/2607.07289v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "MatBind: A Shared Embedding Space for Multimodal Materials Characterization",
+      "authors": "Yang et al.",
+      "summary": "构建统一嵌入空间，整合晶体材料的原子结构、衍射图样、电子态密度与自然语言等异构数据源，为多模态材料表征提供共享语言，推动跨模态材料理解。",
+      "date": "2026-07-09",
+      "url": "https://arxiv.org/abs/2607.08470v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "AquaGen: Scaling generative models to molecular dynamics precision on thousands of atoms",
+      "authors": "Bengio et al.",
+      "summary": "首个支持全原子、显式溶剂、周期边界条件的生成模型，能以分子动力学精度从玻尔兹曼分布生成数千原子的分子构型，成本仅为传统 MD 的一小部分。",
+      "date": "2026-07-03",
+      "url": "https://arxiv.org/abs/2607.03513v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Beyond Adam: SOAP and Muon for Faster, Label-Efficient Training of Machine Learning Interatomic Potentials",
+      "authors": "Harari et al.",
+      "summary": "探索 SOAP 和 Muon 优化器在机器学习原子间势（MLIP）训练中的应用，相比默认的 Adam 优化器显著提升训练速度与标签效率，为 AI 驱动的材料模拟提供新工具。",
+      "date": "2026-07-02",
+      "url": "https://arxiv.org/abs/2607.02499v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Enerzyme: A Framework for Efficient Training of Reactive Neural Network Potentials for Enzyme Catalysis with Application to Methyltransferases",
+      "authors": "Luo et al.",
+      "summary": "提出 Enerzyme 框架，为酶催化反应高效训练反应性神经网络势，应用于甲基转移酶等酶体系，降低量子力学簇模型计算成本，加速酶机制研究。",
+      "date": "2026-07-01",
+      "url": "https://arxiv.org/abs/2607.01362v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三档推理层级，Sol 擅长生物/网络安全",
+      "tier": "S",
+      "x_buzz": "X 热议：经政府审查后上线，Sol 定价比竞品更低但性能接近 Opus 4.8"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI / SpaceX",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "Cursor 训练，编码任务成本极低",
+      "tier": "A",
+      "x_buzz": "X 热议：马斯克称其为 Opus 级但更快更便宜，$2/$6 定价震撼市场"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-06-30",
+      "highlight": "最强智能体写作与长上下文能力",
+      "tier": "S",
+      "x_buzz": "X 热议：SWE-Bench Pro 跃升至 63.2%，写作风格超越 Opus 4.8"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "首款商业多模态 API",
+      "tier": "A",
+      "x_buzz": "X 热议：Meta 首次推付费 API，定价 $1.25/$4.25 低于 Anthropic"
+    },
+    {
+      "name": "Seedream 5.0 Pro",
+      "org": "ByteDance",
+      "org_short": "BD",
+      "release_date": "2026-07-08",
+      "highlight": "多语言文本与精确区域编辑",
+      "tier": "B",
+      "x_buzz": "X 热议：中国图像生成新标杆，支持信息图生成与布局结构控制"
+    },
+    {
+      "name": "Gemini 3.5 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-06",
+      "highlight": "快速生产级多模态模型",
+      "tier": "A",
+      "x_buzz": "X 热议：速度与成本优化，适合高频实验与团队快速迭代"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "mmlu": "91.8",
+      "math": "89.7",
+      "humaneval": "92.3",
+      "notes": "SWE-Bench Pro 69.2%，推理与编码领先"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mmlu": "91.5",
+      "math": "88.9",
+      "humaneval": "91.8",
+      "notes": "三档推理，生物化学网络安全专精"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google DeepMind",
+      "mmlu": "90.3",
+      "math": "87.2",
+      "humaneval": "89.6",
+      "notes": "多模态强，上下文窗口大"
+    },
+    {
+      "model": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "mmlu": "90.1",
+      "math": "86.5",
+      "humaneval": "89.2",
+      "notes": "SWE-Bench Pro 63.2%，智能体写作第一"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "mmlu": "89.7",
+      "math": "85.8",
+      "humaneval": "88.4",
+      "notes": "Terminal-Bench 83.3%，性价比之王"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "mmlu": "92.1",
+      "math": "90.2",
+      "humaneval": "93.1",
+      "notes": "旗舰推理模型，7月1日恢复上线"
+    },
+    {
+      "model": "o3 (reasoning)",
+      "org": "OpenAI",
+      "mmlu": "91.4",
+      "math": "N/A",
+      "humaneval": "91.0",
+      "notes": "推理专用，速度换准确度"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -66
+    },
+    {
+      "name": "ICML 2026",
+      "event_type": "submission",
+      "deadline": "2026-01-28",
+      "url": "https://icml.cc/",
+      "days_left": -164
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/",
+      "days_left": 75
+    },
+    {
+      "name": "CVPR 2027",
+      "event_type": "submission",
+      "deadline": "2026-11-13",
+      "url": "https://cvpr.cc/",
+      "days_left": 125
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "camera_ready",
+      "deadline": "2026-10-23",
+      "url": "https://neurips.cc/",
+      "days_left": 104
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

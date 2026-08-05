@@ -1,0 +1,362 @@
+{
+  "date": "2026年7月20日",
+  "leaders": [
+    {
+      "name": "埃里克·布林约尔夫松",
+      "name_en": "Erik Brynjolfsson",
+      "role": "斯坦福大学数字经济实验室主任",
+      "quote": "AI 能力发展远超我们对经济影响的理解",
+      "body": "7月13日，布林约尔夫松与16位诺奖得主联合发布公开信，警告 AI 可能在10年内带来比工业革命更大的经济变革，呼吁各国立即建立政策框架应对大规模就业转移风险。",
+      "tags": [
+        "政策",
+        "经济",
+        "治理"
+      ],
+      "initials": "EB",
+      "quote_date": "7月13日"
+    },
+    {
+      "name": "蔡泰源",
+      "name_en": "Chey Tae-won",
+      "role": "SK 集团会长",
+      "quote": "外国政府将 AI 内存视为经济安全问题",
+      "body": "7月19日，在韩国工商会济州论坛上，蔡泰源表示客户对2027年 AI 内存需求激增60-100%，但全球无企业有足够新增产能，各国政府已将内存供应上升为国家安全战略。",
+      "tags": [
+        "芯片",
+        "供应链"
+      ],
+      "initials": "CT",
+      "quote_date": "7月19日"
+    },
+    {
+      "name": "约书亚·本吉奥",
+      "name_en": "Yoshua Bengio",
+      "role": "联合国 AI 科学专家组联席主席",
+      "quote": "AI 能力正超越科学理解和政府适应速度",
+      "body": "7月1日，在联合国首份全球 AI 独立科学评估报告发布会上，本吉奥警告称当前防护措施无法跟上 AI 发展，欺骗性 AI 行为增多，科学界无法保证 AI 不会造成灾难性伤害。",
+      "tags": [
+        "安全",
+        "治理"
+      ],
+      "initials": "YB",
+      "quote_date": "7月1日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>欧盟</strong>通过《数字市场法》强制令，要求 Google 开放 <strong>Android</strong> 系统给竞争 AI 助手，并向竞争者共享搜索数据，搜索数据共享2027年1月生效，Android 互操作性2027年7月实现",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories",
+      "importance": "breaking",
+      "tags": [
+        "#政策",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-07-19"
+    },
+    {
+      "title": "",
+      "body": "中国 <strong>2026世界人工智能大会</strong> 7月20日在上海闭幕，<strong>习近平</strong>发表首次主旨演讲，29国成立世界人工智能合作组织（WAICO），华为展示 Atlas 950 超算集群",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-20-2026-16-biggest-stories",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#芯片"
+      ],
+      "_freshness": "ok_2026-07-19"
+    },
+    {
+      "title": "",
+      "body": "<strong>Hugging Face</strong> 披露上周遭 agentic AI 驱动的入侵攻击，蓝队尝试用商业 API 模型分析攻击载荷，但被提供商安全防护拦截，最终改用 <strong>GLM 5.2</strong> 完成分析",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#Agent"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Current AI</strong>（CEO Ayah Bdeir）获得 <strong>4亿美元</strong> 承诺融资，其中法国政府投资1亿美元，福特基金会、MacArthur 基金会、DeepMind 和 Salesforce 参投",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "日本政府承诺至2027年3月投入 <strong>3873亿日元</strong>（24亿美元），作为1万亿日元（60亿美元）五年计划一部分，建设本土 AI 超算，预计2028年6月运营",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>华为 Atlas 950 SuperPoD</strong> 在 WAIC 展示，连接1024颗 Ascend 芯片（可扩展至8192 NPU），FP8 算力达 1 EFLOPS，声称比 Nvidia NVL144 算力高6.7倍、内存高15倍",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 预测蛋白质动态构象",
+      "body": "剑桥大学和 UCSF 研究团队在7月发布论文，使用扩散模型预测蛋白质随时间变化的多种构象分布，超越 AlphaFold 的静态结构预测，为药物设计提供更完整视图，特别适用于具有多构象状态的药物靶点。",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026"
+    },
+    {
+      "title": "DeepMind AI 破解奥数顶尖难题",
+      "body": "Google DeepMind 的数学推理系统在国际数学奥林匹克（IMO）问题上达到前1%水平，通过生成候选证明策略、评估可信度并系统探索最有希望的方向，实现需要创造性数学洞察而非模式匹配的推理突破。",
+      "url": "https://skycrumbs.com/blog/ai-research-july-2026"
+    },
+    {
+      "title": "AI 揭示25万癌症论文造假",
+      "body": "7月16日，一项 AI 工具分析了1999-2024年间260万篇癌症研究论文，识别出超过25万篇具有疑似论文工厂生产特征的研究，揭露现代科学最大的诚信问题之一。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "Mollifier Layers 突破科学 AI",
+      "body": "宾夕法尼亚大学研究人员引入 Mollifier Layers 技术，将经典数学平滑函数集成到神经网络中，以更高稳定性和效率求解偏微分方程反问题，应用涵盖基因组学、材料科学、气候建模和染色质生物学，论文将发表于 TMLR 并在 NeurIPS 2026 展示。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "AI 框架测量宇宙膨胀",
+      "body": "6月29日发表的一项研究表明，新的 AI 驱动框架通过分析 Ia 型超新星图像并以前所未有的细节建模其环境，可以更精确地估算宇宙距离，有望揭示暗能量秘密。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "量子算法秒解材料难题",
+      "body": "5月13日发布的量子启发算法破解了传统超级计算机难以处理的巨大问题，用于模拟准晶体等极其复杂的量子材料，为能源、医学等领域带来潜在突破。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Reinforcement learning control of quantum error correction",
+      "authors": "Sivak et al.",
+      "summary": "利用强化学习技术实现量子纠错控制，展示了 AI 方法在量子计算硬件层面的实际应用，为量子材料计算模拟提供更可靠的底层基础设施，有望加速材料发现中的量子化学计算。",
+      "date": "2026-07-08",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature",
+      "title": "Zero-shot design of drug-binding proteins via neural iterative selection−expansion",
+      "authors": "Fry et al.",
+      "summary": "提出神经迭代选择-扩展方法，实现小分子结合蛋白的零样本设计，同时优化蛋白质序列、结构和配体构象。该方法突破了传统深度学习在药物-蛋白界面设计中的局限，对材料界面催化剂设计具有启发意义。",
+      "date": "2026-06-24",
+      "url": "https://doi.org/10.1038/s41586-026-10670-w",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Guiding generative models to uncover diverse and novel crystals via reinforcement learning",
+      "authors": "Park et al.",
+      "summary": "通过强化学习引导生成模型发现多样化的新型晶体材料。该方法解决了生成式 AI 在材料发现中的核心挑战——如何在保证化学合理性的同时探索广阔的设计空间，显著提升了功能性晶体材料的发现效率。",
+      "date": "2026-07-06",
+      "url": "https://doi.org/10.1038/s42256-026-01262-4",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "利用局部赝势加速神经网络波函数模拟，使基于神经网络的量子蒙特卡洛方法在材料电子结构计算中更加实用。该突破将 AI 驱动的第一性原理计算推向实际材料设计应用，特别是复杂固体和表面催化体系。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "提出信息超材料设计的生成模型，结合 AI 与电磁学理论，实现复杂功能超材料的自动化设计。该方法在光学材料、传感器材料和能量收集材料设计中具有广泛应用前景，展示了 AI 在功能材料逆向设计中的潜力。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Full-data accuracy with fewer labels for training and fine-tuning machine-learning force fields",
+      "authors": "Bi et al.",
+      "summary": "提出主动学习方法，仅需少量标注即可达到全数据集精度，用于机器学习力场（MLFF）的训练和微调。该方法显著降低了从头训练和基础模型微调的数据成本，为材料模拟中的 AI 力场构建提供高效路径。",
+      "date": "2026-07-16",
+      "url": "https://arxiv.org/abs/2607.14486v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CatRetriever: Contrastive Representation Learning for Slab-to-Bulk Retrieval in Generative Catalyst Discovery",
+      "authors": "Oh et al.",
+      "summary": "提出对比学习方法 CatRetriever，用于催化剂生成发现中的表面-体相检索任务。该方法解决了表面生成模型生成的催化剂表面如何高效匹配到稳定体相材料的关键问题，加速异质催化剂的逆向设计流程。",
+      "date": "2026-07-13",
+      "url": "https://arxiv.org/abs/2607.11712v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": "Sahel-Schackis et al.",
+      "summary": "提出 EquiFiLM 方法，通过特征线性调制实现电荷条件下的等变力场，使基础机器学习力场能够处理非平衡电荷状态。该方法填补了 MACE-MP-0 等基础模型在处理电化学、光激发和带电催化过程中的空白，拓展了 MLFF 应用范围。",
+      "date": "2026-07-06",
+      "url": "https://arxiv.org/abs/2607.05559v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI（月之暗面）",
+      "org_short": "MMAI",
+      "release_date": "2026-07-16",
+      "highlight": "2.8万亿参数，全球最大开源模型",
+      "tier": "A",
+      "x_buzz": "X 热议：中国首个逼近美国顶级系统的开源巨模型，7月底开放全部权重"
+    },
+    {
+      "name": "GPT-5.6 (Sol / Terra / Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "三档分层，Sol 旗舰级代理能力",
+      "tier": "S",
+      "x_buzz": "X 热议：经美国政府审查后公开，Sol 在网络安全和代码任务上表现顶级但存在越权风险"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-06-30",
+      "highlight": "代理编码强化，限时低价 $2/$10",
+      "tier": "A",
+      "x_buzz": "X 热议：SWE-Bench Pro 达63.2%，性价比之王，8月31日后涨价至 $3/$15"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-09",
+      "highlight": "Opus级性能，成本更低更快",
+      "tier": "A",
+      "x_buzz": "X 热议：Musk 承诺的高性价比旗舰，实时 X 数据集成，防护最宽松"
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-07",
+      "highlight": "100万上下文，首个付费 API",
+      "tier": "A",
+      "x_buzz": "X 热议：Zuckerberg 回归 X 宣布，MCP Atlas、JobBench 排名第一，支持跨设备计算使用"
+    },
+    {
+      "name": "Gemini 2.5 Pro (Deep Think)",
+      "org": "Google DeepMind",
+      "org_short": "GDM",
+      "release_date": "2026-07-15",
+      "highlight": "深度推理模式，GPQA 82.4%",
+      "tier": "S",
+      "x_buzz": "X 热议：200万上下文 + 平行思维推理，科学基准超越 GPT-5.5 和 Fable 5"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Sonnet 4.5",
+      "org": "Anthropic",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "97.6",
+      "notes": "HumanEval 榜首，代码生成顶级"
+    },
+    {
+      "model": "GPT-5",
+      "org": "OpenAI",
+      "mmlu": "92.5",
+      "math": "N/A",
+      "humaneval": "N/A",
+      "notes": "MMLU 榜首，知识广度领先"
+    },
+    {
+      "model": "Claude Opus 4",
+      "org": "Anthropic",
+      "mmlu": "92.0",
+      "math": "N/A",
+      "humaneval": "92.7",
+      "notes": "MMLU 和 HumanEval 双高，均衡顶级"
+    },
+    {
+      "model": "Gemini 2.5 Pro",
+      "org": "Google DeepMind",
+      "mmlu": "91.7",
+      "math": "N/A",
+      "humaneval": "91.2",
+      "notes": "Deep Think 推理模式，GPQA 82.4% 科学推理领先"
+    },
+    {
+      "model": "GPT-4o",
+      "org": "OpenAI",
+      "mmlu": "90.2",
+      "math": "N/A",
+      "humaneval": "90.2",
+      "notes": "成熟多模态，广泛部署"
+    },
+    {
+      "model": "DeepSeek V3",
+      "org": "DeepSeek",
+      "mmlu": "N/A",
+      "math": "N/A",
+      "humaneval": "82.6",
+      "notes": "开源顶级，代码表现强"
+    },
+    {
+      "model": "Llama 4 Scout",
+      "org": "Meta",
+      "mmlu": "88.5",
+      "math": "N/A",
+      "humaneval": "80.5",
+      "notes": "开源高性能，知识与代码均衡"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICLR 2026",
+      "event_type": "camera_ready",
+      "deadline": "2026-04-23",
+      "url": "https://iclr.cc/Conferences/2026/Dates",
+      "days_left": 277
+    },
+    {
+      "name": "ICML 2026",
+      "event_type": "notification",
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/public/JournalToConference",
+      "days_left": 287
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}
