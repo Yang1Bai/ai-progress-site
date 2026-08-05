@@ -2812,69 +2812,61 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
           <tr>
             <th data-cn="模型" data-en="Model">模型</th>
             <th data-cn="机构" data-en="Org">机构</th>
-            <th>MMLU</th>
-            <th>MATH</th>
-            <th>HumanEval</th>
+            <th>SWE-bench</th>
+            <th>GPQA-D</th>
             <th data-cn="亮点" data-en="Notes">亮点</th>
           </tr>
         </thead>
         <tbody>
         <!-- BENCHMARKS:START -->
         <tr>
-          <td class="model-cell">GPT-5.6 Sol</td>
-          <td class="org-cell">OpenAI</td>
+          <td class="model-cell">Claude Opus 5</td>
+          <td class="org-cell">Anthropic</td>
+          <td class="score" style="color:#00ff88">97.0</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">7月9日刚发布，独立基准测试尚未公布</td>
+          <td class="note">SWE-bench Verified榜首；代理知识工作新冠军；7月29日发布</td>
         </tr>
         <tr>
-          <td class="model-cell">Claude Opus 4.8</td>
-          <td class="org-cell">Anthropic</td>
-          <td class="score" style="color:#00ff88">91.3</td>
+          <td class="model-cell">GPT-5.6 Sol</td>
+          <td class="org-cell">OpenAI</td>
+          <td class="score" style="color:#00ff88">96.2</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00e5ff">89.2</td>
-          <td class="note">当前综合排名第一，Humanity's Last Exam 64.7%</td>
+          <td class="note">CursorBench与Fable 5仅差0.5%；Cerebras 750 tok/s；$0.25/M</td>
         </tr>
         <tr>
           <td class="model-cell">Claude Fable 5</td>
           <td class="org-cell">Anthropic</td>
+          <td class="score" style="color:#00ff88">95.0</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">SWE-bench Pro 80.3%，编码能力顶尖</td>
+          <td class="note">SWE-bench Pro 80.3%；编码专精旗舰；曾遭出口管制</td>
         </tr>
         <tr>
           <td class="model-cell">Gemini 3.1 Pro</td>
           <td class="org-cell">Google</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">GPQA Diamond 94.3%，ARC-AGI-2 77.1%，推理领先</td>
-        </tr>
-        <tr>
-          <td class="model-cell">GPT-5.5</td>
-          <td class="org-cell">OpenAI</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#00e5ff">88.6</td>
-          <td class="note">FrontierMath Tier 4 39.6%，日常默认模型</td>
+          <td class="score" style="color:#00e5ff">80.6</td>
+          <td class="score" style="color:#00ff88">94.3</td>
+          <td class="note">GPQA Diamond科学推理领先；ARC-AGI-2 77.1%；多模态突出</td>
         </tr>
         <tr>
           <td class="model-cell">Grok 4.5</td>
           <td class="org-cell">xAI</td>
+          <td class="score" style="color:#00e5ff">86.6</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">7月9日发布，自称Opus级但无独立验证</td>
+          <td class="note">Cerebras 750 tok/s推理；逐客户通过美国政府安全审查</td>
         </tr>
         <tr>
-          <td class="model-cell">Claude Sonnet 5</td>
-          <td class="org-cell">Anthropic</td>
+          <td class="model-cell">DeepSeek V4 Flash 0731</td>
+          <td class="org-cell">DeepSeek</td>
+          <td class="score" style="color:#3d4d6a">N/A</td>
+          <td class="score" style="color:#ffaa00">71.2</td>
+          <td class="note">Terminal-Bench 82.7%；$0.14/M封神性价比；7月31日发布</td>
+        </tr>
+        <tr>
+          <td class="model-cell">Qwen3.8-Max</td>
+          <td class="org-cell">Alibaba</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
           <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="score" style="color:#3d4d6a">N/A</td>
-          <td class="note">性价比首选，近Opus表现，推广价$2/$10</td>
+          <td class="note">2.4万亿参数；多基准对标Fable 5；中国AI自主能力新高度</td>
         </tr>
       <!-- BENCHMARKS:END -->
         </tbody>

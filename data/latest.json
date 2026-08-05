@@ -242,60 +242,53 @@
   ],
   "benchmarks": [
     {
-      "model": "GPT-5.6 Sol",
-      "org": "OpenAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "7月9日刚发布，独立基准测试尚未公布"
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "97.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified榜首；代理知识工作新冠军；7月29日发布"
     },
     {
-      "model": "Claude Opus 4.8",
-      "org": "Anthropic",
-      "mmlu": "91.3",
-      "math": "N/A",
-      "humaneval": "89.2",
-      "notes": "当前综合排名第一，Humanity's Last Exam 64.7%"
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "96.2",
+      "gpqa": "N/A",
+      "notes": "CursorBench与Fable 5仅差0.5%；Cerebras 750 tok/s；$0.25/M"
     },
     {
       "model": "Claude Fable 5",
       "org": "Anthropic",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "SWE-bench Pro 80.3%，编码能力顶尖"
+      "sweb": "95.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 80.3%；编码专精旗舰；曾遭出口管制"
     },
     {
       "model": "Gemini 3.1 Pro",
       "org": "Google",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "GPQA Diamond 94.3%，ARC-AGI-2 77.1%，推理领先"
-    },
-    {
-      "model": "GPT-5.5",
-      "org": "OpenAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "88.6",
-      "notes": "FrontierMath Tier 4 39.6%，日常默认模型"
+      "sweb": "80.6",
+      "gpqa": "94.3",
+      "notes": "GPQA Diamond科学推理领先；ARC-AGI-2 77.1%；多模态突出"
     },
     {
       "model": "Grok 4.5",
       "org": "xAI",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "7月9日发布，自称Opus级但无独立验证"
+      "sweb": "86.6",
+      "gpqa": "N/A",
+      "notes": "Cerebras 750 tok/s推理；逐客户通过美国政府安全审查"
     },
     {
-      "model": "Claude Sonnet 5",
-      "org": "Anthropic",
-      "mmlu": "N/A",
-      "math": "N/A",
-      "humaneval": "N/A",
-      "notes": "性价比首选，近Opus表现，推广价$2/$10"
+      "model": "DeepSeek V4 Flash 0731",
+      "org": "DeepSeek",
+      "sweb": "N/A",
+      "gpqa": "71.2",
+      "notes": "Terminal-Bench 82.7%；$0.14/M封神性价比；7月31日发布"
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "org": "Alibaba",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "2.4万亿参数；多基准对标Fable 5；中国AI自主能力新高度"
     }
   ],
   "conferences": [

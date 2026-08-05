@@ -376,8 +376,8 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - url (原始论文/新闻链接，必须是真实 https:// URL；无法确认则留空字符串 "")
 
 5. **benchmarks**：当前 5-7 个最顶级 AI 大模型的主要基准分数（基于 web_search 最新数据）。每个：
-   - model (模型名), org (机构简称), mmlu (MMLU 百分比, 如 "91.2"), math (MATH 百分比), humaneval (HumanEval 百分比), notes (1句亮点说明)
-   - 如某项无公开数据，填 "N/A"
+   - model (模型名), org (机构简称), sweb (SWE-bench Verified 百分比, 如 "96.2"), gpqa (GPQA Diamond 百分比, 如 "94.3"), notes (1句亮点说明，包含其他关键基准如HLE/Terminal-Bench等)
+   - 只列当前各家最新旗舰模型，不列旧版本；如某项无公开数据，填 "N/A"
 
 6. **conferences**：未来 3 个月内 AI/ML 顶级会议的重要截止日期（论文提交或通知截止）。每个：
    - name (会议名, 如 "NeurIPS 2026"), event_type ("submission"|"notification"|"camera_ready"), deadline ("YYYY-MM-DD"), url (官网), days_left (距今天 {today} 的天数, 整数)
@@ -428,7 +428,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
   "science": [{{ "title": "...", "body": "...", "url": "https://..." }}],
   "papers": [{{ "venue_type": "nature", "venue": "...", "title": "...", "authors": "...", "summary": "...", "date": "YYYY-MM-DD", "url": "https://...", "is_week_pick": false }}],
   "models": [{{ "name": "...", "org": "...", "org_short": "OAI", "release_date": "YYYY-MM-DD", "highlight": "...", "tier": "A", "x_buzz": "X 热议：..." }}],
-  "benchmarks": [{{ "model": "...", "org": "...", "mmlu": "91.2", "math": "88.3", "humaneval": "91.2", "notes": "..." }}],
+  "benchmarks": [{{ "model": "...", "org": "...", "sweb": "96.2", "gpqa": "94.3", "notes": "..." }}],
   "conferences": [{{ "name": "...", "event_type": "submission", "deadline": "YYYY-MM-DD", "url": "https://...", "days_left": 18 }}]
 }}
 
@@ -1065,7 +1065,7 @@ def render_models(items):
 
 def render_benchmarks(items):
     if not items:
-        return '      <tr><td colspan="6" style="text-align:center;color:#3d4d6a;padding:24px;">暂无数据</td></tr>'
+        return '      <tr><td colspan="5" style="text-align:center;color:#3d4d6a;padding:24px;">暂无数据</td></tr>'
     rows = []
     for it in items[:8]:
         def score_cell(v):
@@ -1073,7 +1073,7 @@ def render_benchmarks(items):
             if v == "N/A":
                 return f'<td class="score" style="color:#3d4d6a">{v}</td>'
             try:
-                f = float(v)
+                f = float(v.rstrip('%'))
                 color = "#00ff88" if f >= 90 else "#00e5ff" if f >= 80 else "#ffaa00" if f >= 70 else "#ff2d78"
                 return f'<td class="score" style="color:{color}">{v}</td>'
             except Exception:
@@ -1081,9 +1081,8 @@ def render_benchmarks(items):
         rows.append(f'''        <tr>
           <td class="model-cell">{escape_text(it.get("model",""))}</td>
           <td class="org-cell">{escape_text(it.get("org",""))}</td>
-          {score_cell(it.get("mmlu"))}
-          {score_cell(it.get("math"))}
-          {score_cell(it.get("humaneval"))}
+          {score_cell(it.get("sweb"))}
+          {score_cell(it.get("gpqa"))}
           <td class="note">{escape_text(it.get("notes",""))}</td>
         </tr>''')
     return "\n".join(rows)
