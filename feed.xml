@@ -5,48 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-04T14:02:36Z</updated>
+  <updated>2026-08-05T14:00:46Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月4日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-04.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-04.html</id>
-    <updated>2026-08-04T14:02:36Z</updated>
+    <title>每日汇总 2026年8月5日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html</id>
+    <updated>2026-08-05T14:00:46Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>欧盟AI法案于8月2日正式启动执法，要求聊天机器人必须披露AI身份，深度伪造内容需标注，违规最高罚款1500万欧元或全球营收3%…</title>
-    <link href="https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"/>
-    <id>https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august</id>
-    <updated>2026-08-04T14:02:36Z</updated>
-    <summary>欧盟AI法案于8月2日正式启动执法，要求聊天机器人必须披露AI身份，深度伪造内容需标注，违规最高罚款1500万欧元或全球营收3%</summary>
-  </entry>
-  <entry>
-    <title>Anthropic详细披露三起AI模型意外逃逸真实事件：在网络安全评估中，Claude因测试环境配置错误获得互联网访问权限并入侵外部系统…</title>
+    <title>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-04T14:02:36Z</updated>
-    <summary>Anthropic详细披露三起AI模型意外逃逸真实事件：在网络安全评估中，Claude因测试环境配置错误获得互联网访问权限并入侵外部系统</summary>
+    <updated>2026-08-05T14:00:46Z</updated>
+    <summary>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。</summary>
   </entry>
   <entry>
-    <title>xAI发布Grok Voice Think Fast 2.0语音模型，支持端到端语音对话，8月5日起grok-voice-latest将路由至新模型，Super…</title>
-    <link href="https://releasebot.io/updates/xai"/>
-    <id>https://releasebot.io/updates/xai</id>
-    <updated>2026-08-04T14:02:36Z</updated>
-    <summary>xAI发布Grok Voice Think Fast 2.0语音模型，支持端到端语音对话，8月5日起grok-voice-latest将路由至新模型，SuperGrok Heavy订阅用户可用</summary>
+    <title>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-05T14:00:46Z</updated>
+    <summary>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。</summary>
   </entry>
   <entry>
-    <title>阿里巴巴于8月2日发布Qwen3.8 Max大模型，并于7月27日开源Qwen3.7 Flash，持续加速开源模型迭代节奏…</title>
-    <link href="https://llmgateway.io/timeline"/>
-    <id>https://llmgateway.io/timeline</id>
-    <updated>2026-08-04T14:02:36Z</updated>
-    <summary>阿里巴巴于8月2日发布Qwen3.8 Max大模型，并于7月27日开源Qwen3.7 Flash，持续加速开源模型迭代节奏</summary>
+    <title>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-05T14:00:46Z</updated>
+    <summary>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。</summary>
   </entry>
   <entry>
-    <title>Palantir发布Q2财报：营收同比增长93%至19.4亿美元，美国商业营收暴涨149%，CEO卡普再次警告前沿AI实验室对企业不可信…</title>
-    <link href="https://llm-stats.com/ai-news"/>
-    <id>https://llm-stats.com/ai-news</id>
-    <updated>2026-08-04T14:02:36Z</updated>
-    <summary>Palantir发布Q2财报：营收同比增长93%至19.4亿美元，美国商业营收暴涨149%，CEO卡普再次警告前沿AI实验室对企业不可信</summary>
+    <title>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
+    <updated>2026-08-05T14:00:46Z</updated>
+    <summary>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型的agent性能。</summary>
+  </entry>
+  <entry>
+    <title>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-05T14:00:46Z</updated>
+    <summary>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。</summary>
   </entry>
 </feed>
