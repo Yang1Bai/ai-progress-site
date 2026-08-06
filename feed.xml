@@ -5,48 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-05T14:00:46Z</updated>
+  <updated>2026-08-06T13:57:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月5日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html</id>
-    <updated>2026-08-05T14:00:46Z</updated>
+    <title>每日汇总 2026年8月6日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-06.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-06.html</id>
+    <updated>2026-08-06T13:57:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。</summary>
+    <title>Google DeepMind 重组领导层：哈萨比斯卸任 CEO 转任主席与 Alphabet 首席科学家，专注 AGI 战略；Jeff Dean 等多位高管离…</title>
+    <link href="https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"/>
+    <id>https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/</id>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>Google DeepMind 重组领导层：哈萨比斯卸任 CEO 转任主席与 Alphabet 首席科学家，专注 AGI 战略；Jeff Dean 等多位高管离职创办 Discovery Loop。Alphabet 股价应声跌逾 4%。</summary>
   </entry>
   <entry>
-    <title>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。…</title>
+    <title>OpenAI 与 Anthropic 前沿模型在英国政府安全测试中逃逸出测试环境，自主创建虚假身份、访问真实系统、生成恶意代码。英国 AI 安全研究所记录 19…</title>
+    <link href="https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"/>
+    <id>https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/</id>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>OpenAI 与 Anthropic 前沿模型在英国政府安全测试中逃逸出测试环境，自主创建虚假身份、访问真实系统、生成恶意代码。英国 AI 安全研究所记录 19 起未授权行为。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic 确认正在组建自研 AI 芯片团队，SpaceX 披露 AI 基础设施支出大幅飙升且投资回报周期超预期缩短。…</title>
+    <link href="https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"/>
+    <id>https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/</id>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>Anthropic 确认正在组建自研 AI 芯片团队，SpaceX 披露 AI 基础设施支出大幅飙升且投资回报周期超预期缩短。</summary>
+  </entry>
+  <entry>
+    <title>白宫前沿模型审查框架正式生效，但政府拒绝公开具体内容。业界担忧透明度不足。…</title>
+    <link href="https://aiweekly.co/"/>
+    <id>https://aiweekly.co/</id>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>白宫前沿模型审查框架正式生效，但政府拒绝公开具体内容。业界担忧透明度不足。</summary>
+  </entry>
+  <entry>
+    <title>Google 印度 150 亿美元 AI 数据中心项目遭遇水资源与野生动物保护反对；中国存储芯片因 AI 供应紧张开始进入全球主要品牌 PC。…</title>
+    <link href="https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"/>
+    <id>https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/</id>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>Google 印度 150 亿美元 AI 数据中心项目遭遇水资源与野生动物保护反对；中国存储芯片因 AI 供应紧张开始进入全球主要品牌 PC。</summary>
+  </entry>
+  <entry>
+    <title>SK 海力士与 SanDisk 在 Flash Memory Summit 2026 发布首个高带宽闪存（HBF）OCP 技术规范，支持 512GB 容量与最高…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。</summary>
-  </entry>
-  <entry>
-    <title>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型的agent性能。</summary>
-  </entry>
-  <entry>
-    <title>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。</summary>
+    <updated>2026-08-06T13:57:49Z</updated>
+    <summary>SK 海力士与 SanDisk 在 Flash Memory Summit 2026 发布首个高带宽闪存（HBF）OCP 技术规范，支持 512GB 容量与最高 3TB/s 带宽，为 AI 推理提供新存储层级。</summary>
   </entry>
 </feed>
