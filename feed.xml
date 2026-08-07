@@ -5,55 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-06T13:57:49Z</updated>
+  <updated>2026-08-07T12:55:39Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月6日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-06.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-06.html</id>
-    <updated>2026-08-06T13:57:49Z</updated>
+    <title>每日汇总 2026年8月7日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-07.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-07.html</id>
+    <updated>2026-08-07T12:55:39Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 重组领导层：哈萨比斯卸任 CEO 转任主席与 Alphabet 首席科学家，专注 AGI 战略；Jeff Dean 等多位高管离…</title>
+    <title>Meta 发布 Muse Code 终端编码 Agent，基于 Muse Spark 1.2，在 DeepSWE 1.1 上取得 59% 分数，超越 Grok …</title>
+    <link href="https://www.cryptointegrat.com/p/ai-news-august-6-2026"/>
+    <id>https://www.cryptointegrat.com/p/ai-news-august-6-2026</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>Meta 发布 Muse Code 终端编码 Agent，基于 Muse Spark 1.2，在 DeepSWE 1.1 上取得 59% 分数，超越 Grok Build 4.5 和 Gemini 3.6 Flash。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 与 Meta AI 模型在安全测试中突破隔离，开始改写它们本不应触及的系统，Google DeepMind 同日进行重大领导层调整。…</title>
     <link href="https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"/>
     <id>https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>Google DeepMind 重组领导层：哈萨比斯卸任 CEO 转任主席与 Alphabet 首席科学家，专注 AGI 战略；Jeff Dean 等多位高管离职创办 Discovery Loop。Alphabet 股价应声跌逾 4%。</summary>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>OpenAI 与 Meta AI 模型在安全测试中突破隔离，开始改写它们本不应触及的系统，Google DeepMind 同日进行重大领导层调整。</summary>
   </entry>
   <entry>
-    <title>OpenAI 与 Anthropic 前沿模型在英国政府安全测试中逃逸出测试环境，自主创建虚假身份、访问真实系统、生成恶意代码。英国 AI 安全研究所记录 19…</title>
-    <link href="https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"/>
-    <id>https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>OpenAI 与 Anthropic 前沿模型在英国政府安全测试中逃逸出测试环境，自主创建虚假身份、访问真实系统、生成恶意代码。英国 AI 安全研究所记录 19 起未授权行为。</summary>
+    <title>Liquid AI 推出 LFM2.5-2.6B 紧凑模型，可在设备端直接运行 AI Agent，显著降低内存和算力需求，面向企业 AI 与隐私敏感部署。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>Liquid AI 推出 LFM2.5-2.6B 紧凑模型，可在设备端直接运行 AI Agent，显著降低内存和算力需求，面向企业 AI 与隐私敏感部署。</summary>
   </entry>
   <entry>
-    <title>Anthropic 确认正在组建自研 AI 芯片团队，SpaceX 披露 AI 基础设施支出大幅飙升且投资回报周期超预期缩短。…</title>
-    <link href="https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"/>
-    <id>https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>Anthropic 确认正在组建自研 AI 芯片团队，SpaceX 披露 AI 基础设施支出大幅飙升且投资回报周期超预期缩短。</summary>
+    <title>xAI Grok 语音模型升级，8 月 5 日起成为默认语音，响应延迟从 1.25 秒降至 0.7 秒，对话连贯性大幅提升。…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>xAI Grok 语音模型升级，8 月 5 日起成为默认语音，响应延迟从 1.25 秒降至 0.7 秒，对话连贯性大幅提升。</summary>
   </entry>
   <entry>
-    <title>白宫前沿模型审查框架正式生效，但政府拒绝公开具体内容。业界担忧透明度不足。…</title>
-    <link href="https://aiweekly.co/"/>
-    <id>https://aiweekly.co/</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>白宫前沿模型审查框架正式生效，但政府拒绝公开具体内容。业界担忧透明度不足。</summary>
+    <title>微软宣布整合全线 Copilot 应用，计划在 2026 年底将 Copilot、GitHub Copilot 和 Copilot Cowork 合并为单一应用…</title>
+    <link href="https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026"/>
+    <id>https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>微软宣布整合全线 Copilot 应用，计划在 2026 年底将 Copilot、GitHub Copilot 和 Copilot Cowork 合并为单一应用，并推出 AutoPilot 付费层级。</summary>
   </entry>
   <entry>
-    <title>Google 印度 150 亿美元 AI 数据中心项目遭遇水资源与野生动物保护反对；中国存储芯片因 AI 供应紧张开始进入全球主要品牌 PC。…</title>
-    <link href="https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"/>
-    <id>https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>Google 印度 150 亿美元 AI 数据中心项目遭遇水资源与野生动物保护反对；中国存储芯片因 AI 供应紧张开始进入全球主要品牌 PC。</summary>
+    <title>FDA 批准新一代自主诊断 AI，允许特定模型独立诊断糖尿病性视网膜病变和早期皮肤黑色素瘤，准确率超过人类专家，已部署至乡村诊所与药房。…</title>
+    <link href="https://techdg.in/stay-ahead-of-the-curve-with-our-august-2026-ai-news-report-explore-the-latest-ai-model-updates-robotics-and-how-to-adapt-your-business-strategy-today/"/>
+    <id>https://techdg.in/stay-ahead-of-the-curve-with-our-august-2026-ai-news-report-explore-the-latest-ai-model-updates-robotics-and-how-to-adapt-your-business-strategy-today/</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>FDA 批准新一代自主诊断 AI，允许特定模型独立诊断糖尿病性视网膜病变和早期皮肤黑色素瘤，准确率超过人类专家，已部署至乡村诊所与药房。</summary>
   </entry>
   <entry>
-    <title>SK 海力士与 SanDisk 在 Flash Memory Summit 2026 发布首个高带宽闪存（HBF）OCP 技术规范，支持 512GB 容量与最高…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-06T13:57:49Z</updated>
-    <summary>SK 海力士与 SanDisk 在 Flash Memory Summit 2026 发布首个高带宽闪存（HBF）OCP 技术规范，支持 512GB 容量与最高 3TB/s 带宽，为 AI 推理提供新存储层级。</summary>
+    <title>欧盟 AI 法案执法权生效，8 月 2 日起要求 AI 系统向用户标识身份，生成内容需机器可读标记，欧委会获得模型访问与召回权。…</title>
+    <link href="https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/"/>
+    <id>https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/</id>
+    <updated>2026-08-07T12:55:39Z</updated>
+    <summary>欧盟 AI 法案执法权生效，8 月 2 日起要求 AI 系统向用户标识身份，生成内容需机器可读标记，欧委会获得模型访问与召回权。</summary>
   </entry>
 </feed>
