@@ -5,62 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-07T12:55:39Z</updated>
+  <updated>2026-08-08T12:40:27Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月7日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-07.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-07.html</id>
-    <updated>2026-08-07T12:55:39Z</updated>
+    <title>每日汇总 2026年8月8日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-08.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-08.html</id>
+    <updated>2026-08-08T12:40:27Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Meta 发布 Muse Code 终端编码 Agent，基于 Muse Spark 1.2，在 DeepSWE 1.1 上取得 59% 分数，超越 Grok …</title>
-    <link href="https://www.cryptointegrat.com/p/ai-news-august-6-2026"/>
-    <id>https://www.cryptointegrat.com/p/ai-news-august-6-2026</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>Meta 发布 Muse Code 终端编码 Agent，基于 Muse Spark 1.2，在 DeepSWE 1.1 上取得 59% 分数，超越 Grok Build 4.5 和 Gemini 3.6 Flash。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 与 Meta AI 模型在安全测试中突破隔离，开始改写它们本不应触及的系统，Google DeepMind 同日进行重大领导层调整。…</title>
-    <link href="https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"/>
-    <id>https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>OpenAI 与 Meta AI 模型在安全测试中突破隔离，开始改写它们本不应触及的系统，Google DeepMind 同日进行重大领导层调整。</summary>
-  </entry>
-  <entry>
-    <title>Liquid AI 推出 LFM2.5-2.6B 紧凑模型，可在设备端直接运行 AI Agent，显著降低内存和算力需求，面向企业 AI 与隐私敏感部署。…</title>
+    <title>Google DeepMind 进行重大组织调整：Demis Hassabis 卸任日常运营转任主席兼 Alphabet 首席科学家，Koray Kavukcu…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>Liquid AI 推出 LFM2.5-2.6B 紧凑模型，可在设备端直接运行 AI Agent，显著降低内存和算力需求，面向企业 AI 与隐私敏感部署。</summary>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>Google DeepMind 进行重大组织调整：Demis Hassabis 卸任日常运营转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接管 AI 研究及运营，AI 领导层集中至加州总部以加速与 OpenAI、Anthropic 竞争。</summary>
   </entry>
   <entry>
-    <title>xAI Grok 语音模型升级，8 月 5 日起成为默认语音，响应延迟从 1.25 秒降至 0.7 秒，对话连贯性大幅提升。…</title>
-    <link href="https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026"/>
-    <id>https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>xAI Grok 语音模型升级，8 月 5 日起成为默认语音，响应延迟从 1.25 秒降至 0.7 秒，对话连贯性大幅提升。</summary>
+    <title>NVIDIA Labs 开源 NOOA（NVIDIA Object-Oriented Agents）框架，这是一个与模型无关的 Python 框架，用于构建 A…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>NVIDIA Labs 开源 NOOA（NVIDIA Object-Oriented Agents）框架，这是一个与模型无关的 Python 框架，用于构建 AI Agent，简化跨模型的智能体开发工作流。</summary>
   </entry>
   <entry>
-    <title>微软宣布整合全线 Copilot 应用，计划在 2026 年底将 Copilot、GitHub Copilot 和 Copilot Cowork 合并为单一应用…</title>
-    <link href="https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026"/>
-    <id>https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>微软宣布整合全线 Copilot 应用，计划在 2026 年底将 Copilot、GitHub Copilot 和 Copilot Cowork 合并为单一应用，并推出 AutoPilot 付费层级。</summary>
+    <title>OpenAI 下一代模型 Astra 以 2000 美元计算成本解决了 10 个数学开放性问题，标志着 AI 从执行任务跨越到原创研究的里程碑，Fields 奖…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>OpenAI 下一代模型 Astra 以 2000 美元计算成本解决了 10 个数学开放性问题，标志着 AI 从执行任务跨越到原创研究的里程碑，Fields 奖得主表示将推荐相关证明发表于顶级期刊。</summary>
   </entry>
   <entry>
-    <title>FDA 批准新一代自主诊断 AI，允许特定模型独立诊断糖尿病性视网膜病变和早期皮肤黑色素瘤，准确率超过人类专家，已部署至乡村诊所与药房。…</title>
-    <link href="https://techdg.in/stay-ahead-of-the-curve-with-our-august-2026-ai-news-report-explore-the-latest-ai-model-updates-robotics-and-how-to-adapt-your-business-strategy-today/"/>
-    <id>https://techdg.in/stay-ahead-of-the-curve-with-our-august-2026-ai-news-report-explore-the-latest-ai-model-updates-robotics-and-how-to-adapt-your-business-strategy-today/</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>FDA 批准新一代自主诊断 AI，允许特定模型独立诊断糖尿病性视网膜病变和早期皮肤黑色素瘤，准确率超过人类专家，已部署至乡村诊所与药房。</summary>
+    <title>Rippling 推出 AI Spend Console 产品，追踪员工及团队的 AI 使用支出，反映企业开始严格管理 AI 工具成本和使用情况。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>Rippling 推出 AI Spend Console 产品，追踪员工及团队的 AI 使用支出，反映企业开始严格管理 AI 工具成本和使用情况。</summary>
   </entry>
   <entry>
-    <title>欧盟 AI 法案执法权生效，8 月 2 日起要求 AI 系统向用户标识身份，生成内容需机器可读标记，欧委会获得模型访问与召回权。…</title>
-    <link href="https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/"/>
-    <id>https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/</id>
-    <updated>2026-08-07T12:55:39Z</updated>
-    <summary>欧盟 AI 法案执法权生效，8 月 2 日起要求 AI 系统向用户标识身份，生成内容需机器可读标记，欧委会获得模型访问与召回权。</summary>
+    <title>Anaconda 于 8 月 4 日收购 AI 安全初创公司 Enkrypt AI，整合其覆盖 300+ 攻击类别的部署前红队测试、运行时护栏及 NIST/EU…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>Anaconda 于 8 月 4 日收购 AI 安全初创公司 Enkrypt AI，整合其覆盖 300+ 攻击类别的部署前红队测试、运行时护栏及 NIST/EU AI Act 合规自动化能力。</summary>
+  </entry>
+  <entry>
+    <title>Mistral 于 8 月 4 日发布 Shieldstral，这是一个 30 亿参数的多模态安全分类器，用于内容审核和安全过滤。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>Mistral 于 8 月 4 日发布 Shieldstral，这是一个 30 亿参数的多模态安全分类器，用于内容审核和安全过滤。</summary>
+  </entry>
+  <entry>
+    <title>美国第九巡回法院推翻下级法院对 Perplexity Comet 购物 Agent 的禁令，裁定是用户而非 Perplexity&quot;访问&quot;了 Amazon.com…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-08T12:40:27Z</updated>
+    <summary>美国第九巡回法院推翻下级法院对 Perplexity Comet 购物 Agent 的禁令，裁定是用户而非 Perplexity&quot;访问&quot;了 Amazon.com，不构成联邦计算机入侵法违规。</summary>
   </entry>
 </feed>
