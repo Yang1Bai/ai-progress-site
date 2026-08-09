@@ -5,62 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-08T12:40:27Z</updated>
+  <updated>2026-08-09T12:42:25Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月8日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-08.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-08.html</id>
-    <updated>2026-08-08T12:40:27Z</updated>
+    <title>每日汇总 2026年8月9日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-09.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-09.html</id>
+    <updated>2026-08-09T12:42:25Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 进行重大组织调整：Demis Hassabis 卸任日常运营转任主席兼 Alphabet 首席科学家，Koray Kavukcu…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>Google DeepMind 进行重大组织调整：Demis Hassabis 卸任日常运营转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接管 AI 研究及运营，AI 领导层集中至加州总部以加速与 OpenAI、Anthropic 竞争。</summary>
+    <title>Google DeepMind 重大人事调整：哈萨比斯卸任 CEO 转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接任高级副总裁…</title>
+    <link href="https://note.com/hirokimiyano/n/ndfead5ff12e3"/>
+    <id>https://note.com/hirokimiyano/n/ndfead5ff12e3</id>
+    <updated>2026-08-09T12:42:25Z</updated>
+    <summary>Google DeepMind 重大人事调整：哈萨比斯卸任 CEO 转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接任高级副总裁，伦敦编码团队迁至山景城，两大洲双中心架构终结</summary>
   </entry>
   <entry>
-    <title>NVIDIA Labs 开源 NOOA（NVIDIA Object-Oriented Agents）框架，这是一个与模型无关的 Python 框架，用于构建 A…</title>
+    <title>OpenAI 改进 ChatGPT 中的 GPT-5.6 Sol 模型，提升响应质量与稳定性；同时美国商务部审查中国 AI 公司通过离岸路径获取英伟达芯片…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>NVIDIA Labs 开源 NOOA（NVIDIA Object-Oriented Agents）框架，这是一个与模型无关的 Python 框架，用于构建 AI Agent，简化跨模型的智能体开发工作流。</summary>
+    <updated>2026-08-09T12:42:25Z</updated>
+    <summary>OpenAI 改进 ChatGPT 中的 GPT-5.6 Sol 模型，提升响应质量与稳定性；同时美国商务部审查中国 AI 公司通过离岸路径获取英伟达芯片</summary>
   </entry>
   <entry>
-    <title>OpenAI 下一代模型 Astra 以 2000 美元计算成本解决了 10 个数学开放性问题，标志着 AI 从执行任务跨越到原创研究的里程碑，Fields 奖…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>OpenAI 下一代模型 Astra 以 2000 美元计算成本解决了 10 个数学开放性问题，标志着 AI 从执行任务跨越到原创研究的里程碑，Fields 奖得主表示将推荐相关证明发表于顶级期刊。</summary>
-  </entry>
-  <entry>
-    <title>Rippling 推出 AI Spend Console 产品，追踪员工及团队的 AI 使用支出，反映企业开始严格管理 AI 工具成本和使用情况。…</title>
+    <title>台积电将美国总投资计划提升至 2650 亿美元，并将 2026 年资本支出预算从 600 亿美元上调至 640 亿美元，强化 AI 芯片供应链…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>Rippling 推出 AI Spend Console 产品，追踪员工及团队的 AI 使用支出，反映企业开始严格管理 AI 工具成本和使用情况。</summary>
+    <updated>2026-08-09T12:42:25Z</updated>
+    <summary>台积电将美国总投资计划提升至 2650 亿美元，并将 2026 年资本支出预算从 600 亿美元上调至 640 亿美元，强化 AI 芯片供应链</summary>
   </entry>
   <entry>
-    <title>Anaconda 于 8 月 4 日收购 AI 安全初创公司 Enkrypt AI，整合其覆盖 300+ 攻击类别的部署前红队测试、运行时护栏及 NIST/EU…</title>
+    <title>英伟达实验室开源 NOOA（NVIDIA Object-Oriented Agents）框架，一个与模型无关的 Python AI 智能体开发框架…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>Anaconda 于 8 月 4 日收购 AI 安全初创公司 Enkrypt AI，整合其覆盖 300+ 攻击类别的部署前红队测试、运行时护栏及 NIST/EU AI Act 合规自动化能力。</summary>
+    <updated>2026-08-09T12:42:25Z</updated>
+    <summary>英伟达实验室开源 NOOA（NVIDIA Object-Oriented Agents）框架，一个与模型无关的 Python AI 智能体开发框架</summary>
   </entry>
   <entry>
-    <title>Mistral 于 8 月 4 日发布 Shieldstral，这是一个 30 亿参数的多模态安全分类器，用于内容审核和安全过滤。…</title>
+    <title>Rippling 推出 AI Spend Console 产品，可追踪员工和团队的 AI 支出，帮助企业管理 AI 成本…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>Mistral 于 8 月 4 日发布 Shieldstral，这是一个 30 亿参数的多模态安全分类器，用于内容审核和安全过滤。</summary>
-  </entry>
-  <entry>
-    <title>美国第九巡回法院推翻下级法院对 Perplexity Comet 购物 Agent 的禁令，裁定是用户而非 Perplexity&quot;访问&quot;了 Amazon.com…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-08T12:40:27Z</updated>
-    <summary>美国第九巡回法院推翻下级法院对 Perplexity Comet 购物 Agent 的禁令，裁定是用户而非 Perplexity&quot;访问&quot;了 Amazon.com，不构成联邦计算机入侵法违规。</summary>
+    <updated>2026-08-09T12:42:25Z</updated>
+    <summary>Rippling 推出 AI Spend Console 产品，可追踪员工和团队的 AI 支出，帮助企业管理 AI 成本</summary>
   </entry>
 </feed>
