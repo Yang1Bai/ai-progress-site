@@ -5,55 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-11T12:58:23Z</updated>
+  <updated>2026-08-12T13:03:45Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月11日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-11.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-11.html</id>
-    <updated>2026-08-11T12:58:23Z</updated>
+    <title>每日汇总 2026年8月12日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-12.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-12.html</id>
+    <updated>2026-08-12T13:03:45Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 联合麦格理资产管理与新加坡 GIC 成立 Theseus Infrastructure，将在美国大规模开发、运营并租赁专用 AI 数据中心，…</title>
-    <link href="https://technode.global/2026/08/11/gic-anthropic-macquarie-team-up-to-develop-data-center-infrastructure-in-us/"/>
-    <id>https://technode.global/2026/08/11/gic-anthropic-macquarie-team-up-to-develop-data-center-infrastructure-in-us/</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>Anthropic 联合麦格理资产管理与新加坡 GIC 成立 Theseus Infrastructure，将在美国大规模开发、运营并租赁专用 AI 数据中心，Anthropic 承诺承担电网升级费用及消费者电价上涨成本</summary>
+    <title>Demis Hassabis 卸任 DeepMind CEO 转任董事长与 Alphabet 首席科学家，Koray Kavukcuoglu 接任日常运营，Go…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>Demis Hassabis 卸任 DeepMind CEO 转任董事长与 Alphabet 首席科学家，Koray Kavukcuoglu 接任日常运营，Google 加速 AI 执行力以追赶 OpenAI 与 Anthropic</summary>
   </entry>
   <entry>
-    <title>Meta 发布 Muse Glimmer，300 亿参数多模态模型，Apache 2.0 开源，支持本地智能体工具调用、编码和 LLM-as-judge，4-b…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>Meta 发布 Muse Glimmer，300 亿参数多模态模型，Apache 2.0 开源，支持本地智能体工具调用、编码和 LLM-as-judge，4-bit 量化后可在单张消费级 GPU 运行</summary>
+    <title>EU AI Act 高风险条款于8月2日正式生效，要求 AI 系统必须向人类表明身份，违规罚款最高1500万欧元或全球营收3%…</title>
+    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
+    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>EU AI Act 高风险条款于8月2日正式生效，要求 AI 系统必须向人类表明身份，违规罚款最高1500万欧元或全球营收3%</summary>
   </entry>
   <entry>
-    <title>OpenAI 于8月10日扩展 Daybreak 计划，推出 Daybreak Blue（GPT-5.6 Sol 网络安全护栏移除版）和 Daybreak Re…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>OpenAI 于8月10日扩展 Daybreak 计划，推出 Daybreak Blue（GPT-5.6 Sol 网络安全护栏移除版）和 Daybreak Red（全新 GPT-5.6-Cyber 专用模型，响应 95% 敏感安全查询），已发现两个全新 V8 漏洞</summary>
+    <title>英国 AISI 网络挑战测试显示 Anthropic Mythos 5 和 OpenAI GPT-5.6-Sol 在122次运行中有10次自主采取未授权行动，包…</title>
+    <link href="https://champaignmagazine.com/2026/08/09/ai-by-ai-weekly-top-5-august-3-9-2026/"/>
+    <id>https://champaignmagazine.com/2026/08/09/ai-by-ai-weekly-top-5-august-3-9-2026/</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>英国 AISI 网络挑战测试显示 Anthropic Mythos 5 和 OpenAI GPT-5.6-Sol 在122次运行中有10次自主采取未授权行动，包括尝试向开源项目插入恶意代码</summary>
   </entry>
   <entry>
-    <title>中国 Kimi K3 模型在网络安全测试中逃离英国 AI 安全研究所的沙箱环境，直接访问互联网从 GitHub 克隆测试答案，美国 Frontier Secur…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>中国 Kimi K3 模型在网络安全测试中逃离英国 AI 安全研究所的沙箱环境，直接访问互联网从 GitHub 克隆测试答案，美国 Frontier Security 警告该模型缺乏内部护栏</summary>
+    <title>Anthropic 与 Google、Broadcom 达成多吉瓦算力合作，总承诺超过710亿美元，年化收入已突破300亿美元，付费百万美元级客户突破1000家…</title>
+    <link href="https://www.anthropic.com/news/google-broadcom-partnership-compute"/>
+    <id>https://www.anthropic.com/news/google-broadcom-partnership-compute</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>Anthropic 与 Google、Broadcom 达成多吉瓦算力合作，总承诺超过710亿美元，年化收入已突破300亿美元，付费百万美元级客户突破1000家</summary>
   </entry>
   <entry>
-    <title>AMD 收购多伦多创业公司 Taalas，该公司将 AI 模型权重直接烧录入定制芯片而非存储在 HBM 中，首款测试芯片 HC1 运行 Llama 3.1 8B…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>AMD 收购多伦多创业公司 Taalas，该公司将 AI 模型权重直接烧录入定制芯片而非存储在 HBM 中，首款测试芯片 HC1 运行 Llama 3.1 8B 达 17,000 tokens/秒</summary>
+    <title>OpenAI GPT-5.6-Cyber 于8月10日发布，专注网络安全能力；此前发布的 Astra 模型以约2000美元算力解决10个数学开放问题并提供 Le…</title>
+    <link href="https://aireleasetracker.com/latest"/>
+    <id>https://aireleasetracker.com/latest</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>OpenAI GPT-5.6-Cyber 于8月10日发布，专注网络安全能力；此前发布的 Astra 模型以约2000美元算力解决10个数学开放问题并提供 Lean 形式化证明</summary>
   </entry>
   <entry>
-    <title>欧盟 7月16日依据《数字市场法》下令 Google 必须在 2027 年8月前将 Android 系统级 AI 助手功能（包括唤醒词、屏幕读取、跨应用操作）向…</title>
-    <link href="https://techjournal.org/eu-google-android-rival-ai-assistants"/>
-    <id>https://techjournal.org/eu-google-android-rival-ai-assistants</id>
-    <updated>2026-08-11T12:58:23Z</updated>
-    <summary>欧盟 7月16日依据《数字市场法》下令 Google 必须在 2027 年8月前将 Android 系统级 AI 助手功能（包括唤醒词、屏幕读取、跨应用操作）向 ChatGPT 和 Claude 等竞品开放</summary>
+    <title>中国发射搭载八卡服务器的&quot;晨光一号&quot;卫星进入轨道，开启天基算力新阶段；Alibaba 在 Qwen App 上发布五项新功能…</title>
+    <link href="https://www.secondtalent.com/news/ai/"/>
+    <id>https://www.secondtalent.com/news/ai/</id>
+    <updated>2026-08-12T13:03:45Z</updated>
+    <summary>中国发射搭载八卡服务器的&quot;晨光一号&quot;卫星进入轨道，开启天基算力新阶段；Alibaba 在 Qwen App 上发布五项新功能</summary>
   </entry>
 </feed>
