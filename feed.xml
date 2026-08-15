@@ -5,62 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-14T12:58:15Z</updated>
+  <updated>2026-08-15T12:30:45Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月14日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-14.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-14.html</id>
-    <updated>2026-08-14T12:58:15Z</updated>
+    <title>每日汇总 2026年8月15日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-15.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-15.html</id>
+    <updated>2026-08-15T12:30:45Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 重大重组：Hassabis 退居董事长及首席科学家，Koray Kavukcuoglu 接任运营主管，传奇科学家 Jeff De…</title>
-    <link href="https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html"/>
-    <id>https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>Google DeepMind 重大重组：Hassabis 退居董事长及首席科学家，Koray Kavukcuoglu 接任运营主管，传奇科学家 Jeff Dean 离职创办 Discovery Loop，Google 加速追赶 OpenAI/Anthropic</summary>
-  </entry>
-  <entry>
-    <title>Gemini 应用月活突破10亿：Sundar Pichai 宣布成为 Google 增长最快产品，日均生成1.5亿+图片，63%用户使用语音功能，与 Chat…</title>
+    <title>Gemini 应用突破10亿月活用户，Google CEO 皮查伊8月11日宣布这是公司史上增长最快产品，63%用户使用语音功能，每日生成超1.5亿张图片，iO…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>Gemini 应用月活突破10亿：Sundar Pichai 宣布成为 Google 增长最快产品，日均生成1.5亿+图片，63%用户使用语音功能，与 ChatGPT 增速持平</summary>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>Gemini 应用突破10亿月活用户，Google CEO 皮查伊8月11日宣布这是公司史上增长最快产品，63%用户使用语音功能，每日生成超1.5亿张图片，iOS 平台超1亿月活。</summary>
   </entry>
   <entry>
-    <title>Meta 发布 Muse Glimmer：300亿参数多模态开源模型，Apache 2.0 协议，专为本地 Agent 工具调用与代码生成优化，支持13.1万上…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>Meta 发布 Muse Glimmer：300亿参数多模态开源模型，Apache 2.0 协议，专为本地 Agent 工具调用与代码生成优化，支持13.1万上下文及100+语言，4-bit 量化后可在单张消费级 GPU 运行</summary>
+    <title>OpenAI 扩展 Daybreak 网络安全计划，8月10日推出 GPT-5.6-Cyber 模型，对敏感安全查询响应率从57.3%提升至95%，在 Chro…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>OpenAI 扩展 Daybreak 网络安全计划，8月10日推出 GPT-5.6-Cyber 模型，对敏感安全查询响应率从57.3%提升至95%，在 Chrome 中发现两个零日漏洞（CVE-2026-15903），达到 Preparedness Framework 高风险阈值。</summary>
   </entry>
   <entry>
-    <title>SpaceXAI 发布 Grok 4.6：8月12日上线旗舰模型，优化长时 Agent 和多步交互任务，在 Artificial Analysis 指数上与 G…</title>
-    <link href="https://techstartups.com/2026/08/13/top-tech-news-today-august-13-2026-anthropic-deepmind-google-lenovo-microsoft-spacexai-more/"/>
-    <id>https://techstartups.com/2026/08/13/top-tech-news-today-august-13-2026-anthropic-deepmind-google-lenovo-microsoft-spacexai-more/</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>SpaceXAI 发布 Grok 4.6：8月12日上线旗舰模型，优化长时 Agent 和多步交互任务，在 Artificial Analysis 指数上与 GPT-5.6 Sol 持平，定价 $2/$6 每百万 token</summary>
+    <title>Google DeepMind 重大重组，8月8日 Demis Hassabis 卸任日常管理转任主席及 Alphabet 首席科学家，CTO Koray Ka…</title>
+    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026"/>
+    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>Google DeepMind 重大重组，8月8日 Demis Hassabis 卸任日常管理转任主席及 Alphabet 首席科学家，CTO Koray Kavukcuoglu 接管运营，Jeff Dean 离职创立 Discovery Loop，将 AI 领导权集中到加州。</summary>
   </entry>
   <entry>
-    <title>OpenAI 暂停 Astra 模型发布：8月初评估后认为该模型达到自身框架定义的&quot;Critical 网络攻击能力&quot;阈值，首次因安全红线主动暂停前沿模型部署…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>OpenAI 暂停 Astra 模型发布：8月初评估后认为该模型达到自身框架定义的&quot;Critical 网络攻击能力&quot;阈值，首次因安全红线主动暂停前沿模型部署</summary>
+    <title>Anthropic 首次实现季度盈利，Q2营收109亿美元（同比+130%），运营利润5.59亿美元，比自身预期提前两年。同时确认锁定约710亿美元算力承诺，8…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>Anthropic 首次实现季度盈利，Q2营收109亿美元（同比+130%），运营利润5.59亿美元，比自身预期提前两年。同时确认锁定约710亿美元算力承诺，8月6日聘任首位全球事务主管。</summary>
   </entry>
   <entry>
-    <title>Anthropic 启动水印功能：8月2日起发布的所有模型自动为生成文本和文件添加水印，文件使用 C2PA 开放标准，以符合欧盟 AI Act 透明度规定…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>Anthropic 启动水印功能：8月2日起发布的所有模型自动为生成文本和文件添加水印，文件使用 C2PA 开放标准，以符合欧盟 AI Act 透明度规定</summary>
+    <title>Qwen3.8-27B 模型发布，通义千问8月14日推出最新模型，成为近期最新的前沿 AI 模型发布，继续在开源领域保持快速迭代节奏。…</title>
+    <link href="https://aireleasetracker.com/latest"/>
+    <id>https://aireleasetracker.com/latest</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>Qwen3.8-27B 模型发布，通义千问8月14日推出最新模型，成为近期最新的前沿 AI 模型发布，继续在开源领域保持快速迭代节奏。</summary>
   </entry>
   <entry>
-    <title>台湾政府遭 AI 辅助网络攻击：7月多个政府机构遭受结合人工操作与 AI Agent（如 Open Claw）的混合攻击，调查显示明确境外来源特征，攻击已被成功…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-14T12:58:15Z</updated>
-    <summary>台湾政府遭 AI 辅助网络攻击：7月多个政府机构遭受结合人工操作与 AI Agent（如 Open Claw）的混合攻击，调查显示明确境外来源特征，攻击已被成功处置</summary>
+    <title>DeepSeek-V4 Flash 大幅提价93%，8月14日从每百万 token 0.14美元涨至0.27美元，而 OpenAI GPT-5.6 Luna 降…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>DeepSeek-V4 Flash 大幅提价93%，8月14日从每百万 token 0.14美元涨至0.27美元，而 OpenAI GPT-5.6 Luna 降价80%成为 ChatGPT 免费默认模型，AI 定价格局两周内剧变。</summary>
+  </entry>
+  <entry>
+    <title>欧盟 AI 法案高风险条款生效，8月2日起风险管理、人类监督、合规评估等要求正式执行，不合规最高罚款1500万欧元或全球年收入3%，将 Agent 部署从工程选…</title>
+    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
+    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
+    <updated>2026-08-15T12:30:45Z</updated>
+    <summary>欧盟 AI 法案高风险条款生效，8月2日起风险管理、人类监督、合规评估等要求正式执行，不合规最高罚款1500万欧元或全球年收入3%，将 Agent 部署从工程选择变为监管事项。</summary>
   </entry>
 </feed>
