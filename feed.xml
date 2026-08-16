@@ -5,62 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-15T12:30:45Z</updated>
+  <updated>2026-08-16T12:31:57Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月15日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-15.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-15.html</id>
-    <updated>2026-08-15T12:30:45Z</updated>
+    <title>每日汇总 2026年8月16日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-16.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-16.html</id>
+    <updated>2026-08-16T12:31:57Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Gemini 应用突破10亿月活用户，Google CEO 皮查伊8月11日宣布这是公司史上增长最快产品，63%用户使用语音功能，每日生成超1.5亿张图片，iO…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>Gemini 应用突破10亿月活用户，Google CEO 皮查伊8月11日宣布这是公司史上增长最快产品，63%用户使用语音功能，每日生成超1.5亿张图片，iOS 平台超1亿月活。</summary>
+    <title>Alibaba Qwen团队发布Qwen 3.8 27B开源模型，采用Apache 2.0协议，原生支持262K上下文（可扩展至1M），SWE-Bench Pr…</title>
+    <link href="https://huggingface.co"/>
+    <id>https://huggingface.co</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>Alibaba Qwen团队发布Qwen 3.8 27B开源模型，采用Apache 2.0协议，原生支持262K上下文（可扩展至1M），SWE-Bench Pro达61.7分。</summary>
   </entry>
   <entry>
-    <title>OpenAI 扩展 Daybreak 网络安全计划，8月10日推出 GPT-5.6-Cyber 模型，对敏感安全查询响应率从57.3%提升至95%，在 Chro…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>OpenAI 扩展 Daybreak 网络安全计划，8月10日推出 GPT-5.6-Cyber 模型，对敏感安全查询响应率从57.3%提升至95%，在 Chrome 中发现两个零日漏洞（CVE-2026-15903），达到 Preparedness Framework 高风险阈值。</summary>
+    <title>Google发布HEIR（同态加密中间表示）开源编译器工具链，可将预训练模型转换为在加密输入上运行推理，服务器端无法看到底层数据。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>Google发布HEIR（同态加密中间表示）开源编译器工具链，可将预训练模型转换为在加密输入上运行推理，服务器端无法看到底层数据。</summary>
   </entry>
   <entry>
-    <title>Google DeepMind 重大重组，8月8日 Demis Hassabis 卸任日常管理转任主席及 Alphabet 首席科学家，CTO Koray Ka…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>Google DeepMind 重大重组，8月8日 Demis Hassabis 卸任日常管理转任主席及 Alphabet 首席科学家，CTO Koray Kavukcuoglu 接管运营，Jeff Dean 离职创立 Discovery Loop，将 AI 领导权集中到加州。</summary>
+    <title>Meta发布Muse Glimmer 30B代理模型，采用Apache 2.0协议，可在笔记本电脑本地运行，支持131K上下文和100+语言。…</title>
+    <link href="https://research.meta.ai"/>
+    <id>https://research.meta.ai</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>Meta发布Muse Glimmer 30B代理模型，采用Apache 2.0协议，可在笔记本电脑本地运行，支持131K上下文和100+语言。</summary>
   </entry>
   <entry>
-    <title>Anthropic 首次实现季度盈利，Q2营收109亿美元（同比+130%），运营利润5.59亿美元，比自身预期提前两年。同时确认锁定约710亿美元算力承诺，8…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>Anthropic 首次实现季度盈利，Q2营收109亿美元（同比+130%），运营利润5.59亿美元，比自身预期提前两年。同时确认锁定约710亿美元算力承诺，8月6日聘任首位全球事务主管。</summary>
+    <title>Google DeepMind完成领导层重组：Koray Kavukcuoglu接任CEO，Demis Hassabis转任董事长，Jeff Dean离职创立A…</title>
+    <link href="https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html"/>
+    <id>https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>Google DeepMind完成领导层重组：Koray Kavukcuoglu接任CEO，Demis Hassabis转任董事长，Jeff Dean离职创立AI科学发现初创公司Discovery Loop。</summary>
   </entry>
   <entry>
-    <title>Qwen3.8-27B 模型发布，通义千问8月14日推出最新模型，成为近期最新的前沿 AI 模型发布，继续在开源领域保持快速迭代节奏。…</title>
-    <link href="https://aireleasetracker.com/latest"/>
-    <id>https://aireleasetracker.com/latest</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>Qwen3.8-27B 模型发布，通义千问8月14日推出最新模型，成为近期最新的前沿 AI 模型发布，继续在开源领域保持快速迭代节奏。</summary>
+    <title>AI笔记工具tl;dv因Firestore租户隔离规则缺失，导致181,874条会议记录（覆盖84,312用户）可被任意认证用户查询，研究员1月28日报告漏洞后…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>AI笔记工具tl;dv因Firestore租户隔离规则缺失，导致181,874条会议记录（覆盖84,312用户）可被任意认证用户查询，研究员1月28日报告漏洞后长期未修复。</summary>
   </entry>
   <entry>
-    <title>DeepSeek-V4 Flash 大幅提价93%，8月14日从每百万 token 0.14美元涨至0.27美元，而 OpenAI GPT-5.6 Luna 降…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>DeepSeek-V4 Flash 大幅提价93%，8月14日从每百万 token 0.14美元涨至0.27美元，而 OpenAI GPT-5.6 Luna 降价80%成为 ChatGPT 免费默认模型，AI 定价格局两周内剧变。</summary>
-  </entry>
-  <entry>
-    <title>欧盟 AI 法案高风险条款生效，8月2日起风险管理、人类监督、合规评估等要求正式执行，不合规最高罚款1500万欧元或全球年收入3%，将 Agent 部署从工程选…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
-    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
-    <updated>2026-08-15T12:30:45Z</updated>
-    <summary>欧盟 AI 法案高风险条款生效，8月2日起风险管理、人类监督、合规评估等要求正式执行，不合规最高罚款1500万欧元或全球年收入3%，将 Agent 部署从工程选择变为监管事项。</summary>
+    <title>OpenAI GPT-5.6 Luna价格下调80%至每百万输入token $0.20，ChatGPT周活跃用户突破10亿。…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-16T12:31:57Z</updated>
+    <summary>OpenAI GPT-5.6 Luna价格下调80%至每百万输入token $0.20，ChatGPT周活跃用户突破10亿。</summary>
   </entry>
 </feed>
