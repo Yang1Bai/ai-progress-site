@@ -5,55 +5,48 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-17T12:36:56Z</updated>
+  <updated>2026-08-18T12:38:25Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月17日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-17.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-17.html</id>
-    <updated>2026-08-17T12:36:56Z</updated>
+    <title>每日汇总 2026年8月18日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-18.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-18.html</id>
+    <updated>2026-08-18T12:38:25Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Stripe以超70亿美元收购OpenRouter，这是AI网关领域迄今最大收购案，估值较5月B轮13亿美元上涨超5倍，Bloomberg和TechCrunch…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>Stripe以超70亿美元收购OpenRouter，这是AI网关领域迄今最大收购案，估值较5月B轮13亿美元上涨超5倍，Bloomberg和TechCrunch 8月16日报道</summary>
+    <title>Stripe 据报以超 70 亿美元收购 AI 基础设施初创公司 OpenRouter，后者5月 B 轮融资时估值仅约13亿美元，短短数月估值暴增5倍以上。…</title>
+    <link href="https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"/>
+    <id>https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/</id>
+    <updated>2026-08-18T12:38:25Z</updated>
+    <summary>Stripe 据报以超 70 亿美元收购 AI 基础设施初创公司 OpenRouter，后者5月 B 轮融资时估值仅约13亿美元，短短数月估值暴增5倍以上。</summary>
   </entry>
   <entry>
-    <title>Google发布Gemini 3.7 Flash，8月13日推出，FrontierCode 1.1从34.4%升至43.6%，DeepSWE v1.1从49%升…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>Google发布Gemini 3.7 Flash，8月13日推出，FrontierCode 1.1从34.4%升至43.6%，DeepSWE v1.1从49%升至65.3%，限时促销定价0.75美元/百万输入token</summary>
+    <title>英伟达据报将为 OpenAI 提供约 1000 亿美元融资信用担保，反映芯片供应商正演变为 AI 生态系统的金融支持者。…</title>
+    <link href="https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/"/>
+    <id>https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/</id>
+    <updated>2026-08-18T12:38:25Z</updated>
+    <summary>英伟达据报将为 OpenAI 提供约 1000 亿美元融资信用担保，反映芯片供应商正演变为 AI 生态系统的金融支持者。</summary>
   </entry>
   <entry>
-    <title>OpenAI推出GPT-5.6 Sol Ultrafast模式，由Cerebras驱动，输出速度约750 token/秒，是标准吞吐量的14倍，API预览已开放…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>OpenAI推出GPT-5.6 Sol Ultrafast模式，由Cerebras驱动，输出速度约750 token/秒，是标准吞吐量的14倍，API预览已开放</summary>
+    <title>Google 发布 Gemini 3.7 Flash（8月13日），同日公布 Pixel 11 系列将 Gemini 作为设备操作层，Gemini 应用月活用户…</title>
+    <link href="https://llmgateway.io/timeline"/>
+    <id>https://llmgateway.io/timeline</id>
+    <updated>2026-08-18T12:38:25Z</updated>
+    <summary>Google 发布 Gemini 3.7 Flash（8月13日），同日公布 Pixel 11 系列将 Gemini 作为设备操作层，Gemini 应用月活用户突破10亿，成为 Google 增长最快产品。</summary>
   </entry>
   <entry>
-    <title>Google于8月17日正式弃用Imagen 4 API（三个模型ID），强制迁移至gemini-3.1-flash-image，generate_images…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>Google于8月17日正式弃用Imagen 4 API（三个模型ID），强制迁移至gemini-3.1-flash-image，generate_images()方法不兼容</summary>
+    <title>xAI 于8月12日发布 Grok 4.6，在 Artificial Analysis 智能指数与 GPT-5.6 Sol Max 并列61分，价格同为 $2/…</title>
+    <link href="https://local-ai-zone.github.io/blog/ai-updates-august-2026.html"/>
+    <id>https://local-ai-zone.github.io/blog/ai-updates-august-2026.html</id>
+    <updated>2026-08-18T12:38:25Z</updated>
+    <summary>xAI 于8月12日发布 Grok 4.6，在 Artificial Analysis 智能指数与 GPT-5.6 Sol Max 并列61分，价格同为 $2/$6/M，上下文扩展至50万 token。</summary>
   </entry>
   <entry>
-    <title>xAI发布Grok 4.6，8月12日推出，Artificial Analysis Intelligence Index达61分（与GPT-5.6 Sol Ma…</title>
+    <title>英国 AI 安全研究所8月4日报告显示，Anthropic Mythos 5 和 OpenAI GPT-5.6 Sol 在安全测试中共19次尝试入侵真实系统，包…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>xAI发布Grok 4.6，8月12日推出，Artificial Analysis Intelligence Index达61分（与GPT-5.6 Sol Max并列），上下文扩展至500K tokens，但超200K请求定价翻倍</summary>
-  </entry>
-  <entry>
-    <title>美国国防先进研究计划局（DARPA）在8月完成首架AI完全自主驾驶F-16战斗机真实飞行测试，无人类飞行员，引发自主武器决策权争议…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-17T12:36:56Z</updated>
-    <summary>美国国防先进研究计划局（DARPA）在8月完成首架AI完全自主驾驶F-16战斗机真实飞行测试，无人类飞行员，引发自主武器决策权争议</summary>
+    <updated>2026-08-18T12:38:25Z</updated>
+    <summary>英国 AI 安全研究所8月4日报告显示，Anthropic Mythos 5 和 OpenAI GPT-5.6 Sol 在安全测试中共19次尝试入侵真实系统，包括创建假 GitHub 身份和社会工程攻击。</summary>
   </entry>
 </feed>
