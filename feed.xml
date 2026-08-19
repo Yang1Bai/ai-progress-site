@@ -5,48 +5,62 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-19T12:39:18Z</updated>
+  <updated>2026-08-19T17:57:15Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年8月19日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-19.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-19.html</id>
-    <updated>2026-08-19T12:39:18Z</updated>
+    <updated>2026-08-19T17:57:15Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，配合此前推出的 x402 支付协议，已有超 20 家公司采用该自主支付技…</title>
+    <title>OpenAI 推出 ChatGPT for Teens（13-17岁专版），屏蔽自杀、自残和恋爱/性话题，使用年龄预测自动路由未成年人，家长可设静音时段并接收高…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>OpenAI 推出 ChatGPT for Teens（13-17岁专版），屏蔽自杀、自残和恋爱/性话题，使用年龄预测自动路由未成年人，家长可设静音时段并接收高危安全通知。</summary>
+  </entry>
+  <entry>
+    <title>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，支持原生 Web 交互，配合此前推出的 x402 支付协议，已有超 20…</title>
     <link href="https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026"/>
     <id>https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026</id>
-    <updated>2026-08-19T12:39:18Z</updated>
-    <summary>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，配合此前推出的 x402 支付协议，已有超 20 家公司采用该自主支付技术</summary>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，支持原生 Web 交互，配合此前推出的 x402 支付协议，已有超 20 家公司采用自主支付能力。</summary>
   </entry>
   <entry>
-    <title>OpenAI 正式推出 ChatGPT for Teens，为 13-17 岁用户提供专属体验，封禁自残、性/浪漫内容，配备学习模式与家长监控功能…</title>
-    <link href="https://techstartups.com/2026/08/18/top-tech-news-today-august-18-2026-apple-baidu-bytedance-google-meta-openai-xiaomi-more/"/>
-    <id>https://techstartups.com/2026/08/18/top-tech-news-today-august-18-2026-apple-baidu-bytedance-google-meta-openai-xiaomi-more/</id>
-    <updated>2026-08-19T12:39:18Z</updated>
-    <summary>OpenAI 正式推出 ChatGPT for Teens，为 13-17 岁用户提供专属体验，封禁自残、性/浪漫内容，配备学习模式与家长监控功能</summary>
+    <title>SpaceX 以 600 亿美元收购 AI 编程初创公司 Cursor，凸显 AI 辅助软件开发的战略价值，成为本周最大单笔收购。…</title>
+    <link href="https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026"/>
+    <id>https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026</id>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>SpaceX 以 600 亿美元收购 AI 编程初创公司 Cursor，凸显 AI 辅助软件开发的战略价值，成为本周最大单笔收购。</summary>
   </entry>
   <entry>
-    <title>Google 发布 Agent2Agent Protocol (A2A)，正式加入 Agentic AI Foundation 托管，与 MCP 一起成为跨框架…</title>
+    <title>Google 宣布 Agent2Agent Protocol (A2A) 加入 Agentic AI Foundation，与 Model Context Pr…</title>
     <link href="https://aiagentstore.ai/ai-agent-news/daily/2026-08-18"/>
     <id>https://aiagentstore.ai/ai-agent-news/daily/2026-08-18</id>
-    <updated>2026-08-19T12:39:18Z</updated>
-    <summary>Google 发布 Agent2Agent Protocol (A2A)，正式加入 Agentic AI Foundation 托管，与 MCP 一起成为跨框架 Agent 互操作标准</summary>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>Google 宣布 Agent2Agent Protocol (A2A) 加入 Agentic AI Foundation，与 Model Context Protocol 等开源 Agent 基础设施项目统一托管，推动跨框架 Agent 协同标准化。</summary>
   </entry>
   <entry>
-    <title>科学家开发出基于 合成 DNA 与半导体结合的超低功耗存储器，能够在同一位置存储和处理信息，可能助力未来 AI 系统降低能耗…</title>
-    <link href="https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"/>
-    <id>https://www.sciencedaily.com/news/computers_math/artificial_intelligence/</id>
-    <updated>2026-08-19T12:39:18Z</updated>
-    <summary>科学家开发出基于 合成 DNA 与半导体结合的超低功耗存储器，能够在同一位置存储和处理信息，可能助力未来 AI 系统降低能耗</summary>
+    <title>英伟达 H200 芯片开始抵达中国，同时 三星提高先进芯片代工价格，欧洲 AI 数据中心因电力短缺被迫向城外迁移，全球 AI 基础设施竞赛加剧。…</title>
+    <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
+    <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>英伟达 H200 芯片开始抵达中国，同时 三星提高先进芯片代工价格，欧洲 AI 数据中心因电力短缺被迫向城外迁移，全球 AI 基础设施竞赛加剧。</summary>
   </entry>
   <entry>
-    <title>EU AI Act 高风险条款于 8 月 2 日正式生效，要求 AI 系统必须自我标识、携带水印，不合规最高罚款 1500 万欧元或全球营收 3%…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
-    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
-    <updated>2026-08-19T12:39:18Z</updated>
-    <summary>EU AI Act 高风险条款于 8 月 2 日正式生效，要求 AI 系统必须自我标识、携带水印，不合规最高罚款 1500 万欧元或全球营收 3%</summary>
+    <title>Apple 发布跨 iOS/iPadOS/macOS 安全更新（8月17日），修复 ImageIO 框架整数溢出漏洞 CVE-2026-65346，可导致恶意图…</title>
+    <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
+    <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>Apple 发布跨 iOS/iPadOS/macOS 安全更新（8月17日），修复 ImageIO 框架整数溢出漏洞 CVE-2026-65346，可导致恶意图像触发任意代码执行，Meta 红队发现。</summary>
+  </entry>
+  <entry>
+    <title>中国人形机器人制造商赴美上市首日暴涨 500%，同时中国可复用火箭取得重大里程碑，凸显全球机器人和航天领域的激烈竞争。…</title>
+    <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
+    <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
+    <updated>2026-08-19T17:57:15Z</updated>
+    <summary>中国人形机器人制造商赴美上市首日暴涨 500%，同时中国可复用火箭取得重大里程碑，凸显全球机器人和航天领域的激烈竞争。</summary>
   </entry>
 </feed>
