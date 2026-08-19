@@ -37,22 +37,18 @@ TZ = ZoneInfo("America/Toronto")
 # RSS feed sources (free, no auth needed)
 # ---------------------------------------------------------------------------
 JOB_FEEDS: dict[str, list[str]] = {
-    "industry": [
-        "https://www.indeed.com/rss?q=AI+materials+scientist&sort=date",
-        "https://www.indeed.com/rss?q=machine+learning+materials+engineer&sort=date",
-    ],
     "faculty": [
-        "https://www.higheredjobs.com/rss/articleFeed.cfm?catID=4&subCat=24",
-        "https://academicjobsonline.org/ajo/rss",
+        "https://www.jobs.ac.uk/feeds/rss/?keywords=machine+learning+materials&type=academic",
+        "https://euraxess.ec.europa.eu/jobs/rss",
     ],
     "postdoc": [
-        "https://www.nature.com/naturecareers/rss/rss.rdf",
-        "https://www.findaphd.com/phds/rss/?Keywords=machine+learning+materials",
+        "https://www.jobs.ac.uk/feeds/rss/?keywords=postdoc+machine+learning+materials",
+        "https://euraxess.ec.europa.eu/jobs/rss",
     ],
     "phd": [
-        "https://www.findaphd.com/phds/rss/?Keywords=AI+materials+science",
-        "https://www.jobs.ac.uk/feeds/rss/?keywords=machine+learning+materials",
+        "https://www.jobs.ac.uk/feeds/rss/?keywords=phd+machine+learning+materials",
     ],
+    "industry": [],  # Claude search only for industry
 }
 
 # Keywords to filter RSS entries — must contain at least one
@@ -228,12 +224,20 @@ def _fetch_claude_category(category: str, query: str) -> list[dict]:
     client = anthropic.Anthropic(api_key=api_key)
 
     prompt = (
-        f"Search for current {category} job openings in AI for materials science. "
-        f"Use the query: {query}\n\n"
-        "Return a JSON array (no markdown, just raw JSON) with up to 8 items. "
-        "Each item should have these fields: "
-        '{"title": "...", "org": "...", "location": "...", "url": "...", "deadline": "YYYY-MM-DD or open", "tags": ["tag1", "tag2"]}\n'
-        "Only include real, current openings. If a field is unknown, use an empty string."
+        f"Search the web for current {category} job openings in AI for materials science "
+        f"(including machine learning for materials, computational materials science, AI-driven materials discovery).\n\n"
+        f"Search query: {query}\n\n"
+        "Output ONLY a raw JSON array. No markdown, no explanation, no code fences. "
+        "Start your response with [ and end with ]. "
+        "Each element must follow this exact schema:\n"
+        '{"title": "Job Title", "org": "University or Company", "location": "City, Country", '
+        '"url": "https://...", "deadline": "YYYY-MM-DD", "tags": ["ML", "materials"]}\n\n'
+        "Rules:\n"
+        "- Only include real, verifiable openings posted in 2025 or 2026\n"
+        "- If deadline is unknown, use \"open\"\n"
+        "- If a field is unknown, use empty string \"\"\n"
+        "- Return at most 6 items\n"
+        "- Escape all quotes inside string values properly"
     )
 
     try:
@@ -255,10 +259,27 @@ def _fetch_claude_category(category: str, query: str) -> list[dict]:
 
     # Try to parse JSON array from response
     try:
-        # Find JSON array in the response
-        match = re.search(r"\[.*?\]", full_text, re.DOTALL)
-        if match:
-            items = json.loads(match.group(0))
+        from json_repair import repair_json  # already installed in workflow
+        _json_repair_available = True
+    except ImportError:
+        _json_repair_available = False
+
+    # 1. Try ```json code block first
+    block_match = re.search(r"```(?:json)?\s*(\[.*?\])\s*```", full_text, re.DOTALL)
+    # 2. Fall back to bare array
+    array_match = re.search(r"\[[\s\S]*?\]", full_text)
+
+    raw_json = None
+    if block_match:
+        raw_json = block_match.group(1)
+    elif array_match:
+        raw_json = array_match.group(0)
+
+    if raw_json:
+        try:
+            if _json_repair_available:
+                raw_json = repair_json(raw_json)
+            items = json.loads(raw_json)
             results = []
             for item in items:
                 if not isinstance(item, dict):
@@ -268,8 +289,8 @@ def _fetch_claude_category(category: str, query: str) -> list[dict]:
                     item["tags"] = []
                 results.append(item)
             return results
-    except (json.JSONDecodeError, Exception) as e:
-        print(f"[fetch_jobs] Could not parse Claude response for {category}: {e}", flush=True)
+        except (json.JSONDecodeError, Exception) as e:
+            print(f"[fetch_jobs] Could not parse Claude response for {category}: {e}", flush=True)
 
     return []
 
