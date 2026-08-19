@@ -1,9 +1,28 @@
 {
   "date": "2026-08-19",
   "jobs": {
-    "industry": [],
-    "faculty": [],
-    "postdoc": [],
-    "phd": []
+    "industry": [
+      {"title": "Research Engineer, Materials Science", "org": "Google DeepMind", "location": "London, UK", "url": "https://job-boards.greenhouse.io/deepmind/jobs/7339890", "deadline": "open", "tags": ["AI", "materials", "ML", "LLM"], "source": "seed"},
+      {"title": "Research Scientist / Senior Researcher", "org": "Microsoft Research", "location": "Redmond WA / Singapore", "url": "https://www.microsoft.com/en-us/research/careers/open-positions/", "deadline": "open", "tags": ["AI", "research scientist", "materials", "simulation"], "source": "seed"},
+      {"title": "Research Scientist, AI for Science", "org": "Meta FAIR", "location": "New York / Menlo Park, USA", "url": "https://www.metacareers.com/", "deadline": "open", "tags": ["AI", "science", "materials", "foundation model"], "source": "seed"}
+    ],
+    "faculty": [
+      {"title": "Global Faculty Recruitment 2026 – Tenured/Tenure-Track", "org": "Tsinghua SIGS", "location": "Shenzhen, China", "url": "https://jobs.sciencecareers.org/", "deadline": "open", "tags": ["tenure-track", "AI", "materials", "faculty"], "source": "seed"},
+      {"title": "Faculty / Research Scientist (AI for Materials)", "org": "KAUST", "location": "Thuwal, Saudi Arabia", "url": "https://matsci.org/t/phd-postdoc-opportunities-in-ai-for-materials/67192", "deadline": "open", "tags": ["faculty", "AI", "materials", "computational"], "source": "seed"},
+      {"title": "Assistant/Associate Professor, AI & Materials Science", "org": "Multiple via jobs.ac.uk", "location": "UK / Europe", "url": "https://www.jobs.ac.uk/search/?keywords=machine+learning+materials", "deadline": "open", "tags": ["faculty", "AI", "materials", "Europe"], "source": "seed"}
+    ],
+    "postdoc": [
+      {"title": "Postdoctoral Researcher/Fellow (AI for Energy Materials)", "org": "Nanyang Technological University", "location": "Singapore", "url": "https://jobrxiv.org/job/postdoctoral-researcher-fellow-ai-for-energy-materials", "deadline": "open", "tags": ["postdoc", "AI", "energy materials", "catalyst"], "source": "seed"},
+      {"title": "Two Postdoc Positions in AI for Materials Discovery", "org": "New York University", "location": "New York, USA", "url": "https://matsci.org/t/phd-postdoc-opportunities-in-ai-for-materials/67192", "deadline": "open", "tags": ["postdoc", "generative models", "materials design", "ML"], "source": "seed"},
+      {"title": "Postdoctoral Researcher – Computational Electron Microscopy & ML", "org": "Forschungszentrum Jülich (IAS-9)", "location": "Jülich, Germany", "url": "https://jobrxiv.org/jobs/postdoc-jobs-machine-learning", "deadline": "open", "tags": ["postdoc", "ML", "electron microscopy", "materials data science"], "source": "seed"},
+      {"title": "SUSMAT – Postdoc in AI/ML for Sustainable Polymer Materials", "org": "EU SUSMAT Consortium", "location": "Europe", "url": "https://academicpositions.com/jobs/position/post-doc/field/machine-learning", "deadline": "open", "tags": ["postdoc", "AI", "polymer", "computational chemistry"], "source": "seed"},
+      {"title": "PhD & Postdoctoral Fellow in Computational ML for Materials Design", "org": "Harbin Institute of Technology", "location": "Harbin, China", "url": "https://jobrxiv.org/jobs/postdoc-jobs-machine-learning", "deadline": "open", "tags": ["postdoc", "ML", "materials design", "alloys"], "source": "seed"}
+    ],
+    "phd": [
+      {"title": "Multiple PhD Positions – AI for Materials (Fully Funded)", "org": "KAUST (Dr. Kangming Li's Group)", "location": "Thuwal, Saudi Arabia", "url": "https://matsci.org/t/phd-postdoc-opportunities-in-ai-for-materials/67192", "deadline": "open", "tags": ["PhD", "AI", "materials", "fully funded"], "source": "seed"},
+      {"title": "PhD Positions in ML/AI – Spring/Fall 2026", "org": "University of Texas at Arlington", "location": "Arlington, TX, USA", "url": "https://groups.google.com/g/women-in-machine-learning/c/PT6V4D9hpJo", "deadline": "open", "tags": ["PhD", "ML", "AI", "deep learning"], "source": "seed"},
+      {"title": "PhD in Computer-Aided Design of Sustainable Polymer Materials", "org": "SUSMAT (EU Project)", "location": "Europe", "url": "https://academicpositions.com/jobs/position/phd/field/machine-learning", "deadline": "open", "tags": ["PhD", "AI", "polymer", "computational chemistry"], "source": "seed"},
+      {"title": "PhD Fellowships – Quantum Science & Materials (IMPRS / MQV)", "org": "Max Planck Institute", "location": "Germany", "url": "https://academicpositions.com/jobs/position/phd/field/machine-learning", "deadline": "2026-10-01", "tags": ["PhD", "quantum", "materials", "ML"], "source": "seed"}
+    ]
   }
 }
