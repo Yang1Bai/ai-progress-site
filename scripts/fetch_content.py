@@ -1088,6 +1088,60 @@ def render_benchmarks(items):
     return "\n".join(rows)
 
 
+def render_jobs(jobs_data: dict) -> str:
+    """Render the AI for Materials job openings section."""
+    jobs = jobs_data.get("jobs", {}) if jobs_data else {}
+
+    def _render_card(job: dict) -> str:
+        title = escape_text(job.get("title", "Untitled"))
+        org = escape_text(job.get("org", ""))
+        loc = escape_text(job.get("location", ""))
+        url = escape_text(job.get("url", "#"))
+        deadline = escape_text(job.get("deadline", ""))
+        tags = job.get("tags", [])
+        tag_html = "".join(f'<span class="job-tag">{escape_text(t)}</span>' for t in tags[:4])
+        loc_html = f'<span class="job-loc">📍 {loc}</span>' if loc else ""
+        dl_html = f'<span class="job-deadline">⏰ {deadline}</span>' if deadline else ""
+        return f'''      <div class="job-card">
+        <div class="job-header">
+          <span class="job-title"><a href="{url}" target="_blank" rel="noopener">{title}</a></span>
+          <span class="job-org">{org}</span>
+        </div>
+        <div class="job-meta">{loc_html}{dl_html}</div>
+        <div class="job-tags">{tag_html}</div>
+      </div>'''
+
+    def _render_panel(cat: str, panel_id: str, hidden: bool = False) -> str:
+        items = jobs.get(cat, [])
+        hidden_cls = " hidden" if hidden else ""
+        if not items:
+            content = '        <p class="no-jobs">暂无最新职位，请稍后查看</p>'
+        else:
+            content = "\n".join(_render_card(j) for j in items)
+        return f'    <div class="jobs-panel{hidden_cls}" id="jobs-{panel_id}">\n{content}\n    </div>'
+
+    panels = [
+        _render_panel("industry", "industry", hidden=False),
+        _render_panel("faculty", "faculty", hidden=True),
+        _render_panel("postdoc", "postdoc", hidden=True),
+        _render_panel("phd", "phd", hidden=True),
+    ]
+
+    return '''  <div class="sec-header">
+    <span class="sec-badge badge-indigo" data-cn="职位" data-en="Jobs">💼 职位</span>
+    <h2 class="sec-title" data-cn="AI for Materials — Opening Positions" data-en="AI for Materials — Opening Positions">AI for Materials — Opening Positions</h2>
+    <span class="sec-meta" data-cn="每日自动更新" data-en="Updated daily">每日自动更新</span>
+  </div>
+  <p class="sec-desc" data-cn="业界 · 教职 · 博后 · 博士" data-en="Industry · Faculty · Postdoc · PhD">业界 · 教职 · 博后 · 博士 | 每日自动更新</p>
+  <div class="jobs-tabs">
+    <button class="jobs-tab active" onclick="switchJobTab(event, \'industry\')">🏭 业界</button>
+    <button class="jobs-tab" onclick="switchJobTab(event, \'faculty\')">👩‍🏫 教职</button>
+    <button class="jobs-tab" onclick="switchJobTab(event, \'postdoc\')">🔬 博后</button>
+    <button class="jobs-tab" onclick="switchJobTab(event, \'phd\')">🎓 博士</button>
+  </div>
+''' + "\n".join(panels)
+
+
 def render_conferences(items):
     if not items:
         return '      <div class="conf-card"><div class="conf-name" style="color:#3d4d6a;">暂无近期截止</div></div>'
@@ -1655,6 +1709,14 @@ def main():
     today = now.strftime("%Y年%-m月%-d日")
     today_iso = now.strftime("%Y-%m-%d")
 
+    # Fetch job listings (AI for Materials)
+    jobs_data: dict = {}
+    try:
+        from fetch_jobs import fetch_jobs  # noqa: E402 (local import)
+        jobs_data = fetch_jobs(now)
+    except Exception as e:
+        print(f"[fetch_jobs] 职位抓取失败: {e}", flush=True)
+
     # 先从 arXiv API + Semantic Scholar 拉最新论文
     arxiv_papers: list[dict] = []
     try:
@@ -1743,6 +1805,8 @@ def main():
                          render_benchmarks(data.get("benchmarks", [])))
     html = replace_block(html, "<!-- CONFERENCES:START -->", "<!-- CONFERENCES:END -->",
                          render_conferences(data.get("conferences", [])))
+    html = replace_block(html, "<!-- JOBS:START -->", "<!-- JOBS:END -->",
+                         render_jobs(jobs_data))
     html = replace_block(html, "<!-- TOP3:START -->", "<!-- TOP3:END -->",
                          render_top3(data.get("news", []), data.get("papers", []), today_iso))
     # GitHub Trending

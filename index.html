@@ -2136,6 +2136,24 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
   #back-to-top { bottom: 16px; right: 16px; width: 36px; height: 36px; }
   .conf-card { gap: 10px; padding: 12px 14px !important; }
 }
+
+/* ====== Jobs Section ====== */
+section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40px; }
+.jobs-tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+.jobs-tab { background: var(--card); border: 1px solid var(--border); border-radius: 20px; padding: 6px 16px; cursor: pointer; font-size: .85rem; transition: all .2s; }
+.jobs-tab.active { background: #6366f1; color: #fff; border-color: #6366f1; }
+.jobs-panel { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.jobs-panel.hidden { display: none; }
+.job-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px; transition: box-shadow .2s; }
+.job-card:hover { box-shadow: 0 4px 16px rgba(99,102,241,.15); }
+.job-title a { color: var(--fg); text-decoration: none; font-weight: 600; font-size: .95rem; }
+.job-title a:hover { color: #6366f1; }
+.job-org { font-size: .8rem; color: var(--muted); display: block; margin-top: 3px; }
+.job-meta { display: flex; gap: 12px; margin: 8px 0; font-size: .78rem; color: var(--muted); }
+.job-tags { display: flex; gap: 5px; flex-wrap: wrap; }
+.job-tag { background: rgba(99,102,241,.1); color: #6366f1; border-radius: 4px; padding: 2px 7px; font-size: .72rem; }
+.no-jobs { color: var(--muted); font-size: .9rem; text-align: center; padding: 32px; }
+.sec-badge.badge-indigo { background: rgba(99,102,241,.15); color: #6366f1; }
 </style>
 </head>
 <body>
@@ -2175,6 +2193,7 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <a href="#github-trending" data-cn="GitHub" data-en="GitHub">GitHub</a>
       <a href="#leaders" data-cn="领袖" data-en="Leaders">领袖</a>
       <a href="archive/" data-cn="归档" data-en="Archive">归档</a>
+      <a href="#jobs" data-cn="职位" data-en="Jobs">💼 职位</a>
     </div>
 
     <div class="nav-actions">
@@ -2385,6 +2404,11 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       <span class="hsc-dot" style="--c:#d97706"></span>
       <div class="hsc-name" data-cn="领袖观点" data-en="Leaders">领袖观点</div>
       <div class="hsc-sub" data-cn="行业重要声音" data-en="Key voices">行业重要声音</div>
+    </a>
+    <a class="hsc" href="#jobs" style="--hsc-accent:#6366f1">
+      <span class="hsc-dot" style="--c:#6366f1"></span>
+      <div class="hsc-name" data-cn="💼 职位" data-en="💼 Jobs">💼 职位</div>
+      <div class="hsc-sub" data-cn="AI材料 业界 教职 博后 博士" data-en="Industry · Faculty · Postdoc · PhD">AI材料 业界 教职 博后 博士</div>
     </a>
   </div>
 </header>
@@ -3113,6 +3137,12 @@ section#conferences { border-top: 3px solid var(--amber); padding-top: 36px; }
       </div>
       <a class="btn primary" href="https://www.xiaoyuzhoufm.com/podcast/68313c849229d4651f7e86ce" target="_blank" rel="noopener" data-cn="去听" data-en="Listen">去听</a>
     </div>
+  </section>
+
+  <!-- ===== AI FOR MATERIALS JOBS ===== -->
+  <section id="jobs">
+<!-- JOBS:START -->
+<!-- JOBS:END -->
   </section>
 
 </main>
@@ -3971,6 +4001,15 @@ document.addEventListener('DOMContentLoaded', function() {
     el.parentNode.insertBefore(btn, el.nextSibling);
   });
 });
+</script>
+<script>
+function switchJobTab(evt, cat) {
+  document.querySelectorAll('.jobs-tab').forEach(function(b) { b.classList.remove('active'); });
+  document.querySelectorAll('.jobs-panel').forEach(function(p) { p.classList.add('hidden'); });
+  evt.target.classList.add('active');
+  var panel = document.getElementById('jobs-' + cat);
+  if (panel) panel.classList.remove('hidden');
+}
 </script>
 </body>
 </html>
