@@ -5,62 +5,55 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-19T17:57:15Z</updated>
+  <updated>2026-08-20T12:42:38Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月19日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-19.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-19.html</id>
-    <updated>2026-08-19T17:57:15Z</updated>
+    <title>每日汇总 2026年8月20日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html</id>
+    <updated>2026-08-20T12:42:38Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI 推出 ChatGPT for Teens（13-17岁专版），屏蔽自杀、自残和恋爱/性话题，使用年龄预测自动路由未成年人，家长可设静音时段并接收高…</title>
+    <title>OpenAI CFO 在全员会议承诺公司将在 2027 年 IPO，或在业务持续增长时更早上市…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>OpenAI 推出 ChatGPT for Teens（13-17岁专版），屏蔽自杀、自残和恋爱/性话题，使用年龄预测自动路由未成年人，家长可设静音时段并接收高危安全通知。</summary>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>OpenAI CFO 在全员会议承诺公司将在 2027 年 IPO，或在业务持续增长时更早上市</summary>
   </entry>
   <entry>
-    <title>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，支持原生 Web 交互，配合此前推出的 x402 支付协议，已有超 20…</title>
-    <link href="https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026"/>
-    <id>https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>Cloudflare 发布 Kitesurf，首款专为 AI Agent 设计的浏览器，支持原生 Web 交互，配合此前推出的 x402 支付协议，已有超 20 家公司采用自主支付能力。</summary>
-  </entry>
-  <entry>
-    <title>SpaceX 以 600 亿美元收购 AI 编程初创公司 Cursor，凸显 AI 辅助软件开发的战略价值，成为本周最大单笔收购。…</title>
-    <link href="https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026"/>
-    <id>https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>SpaceX 以 600 亿美元收购 AI 编程初创公司 Cursor，凸显 AI 辅助软件开发的战略价值，成为本周最大单笔收购。</summary>
-  </entry>
-  <entry>
-    <title>Google 宣布 Agent2Agent Protocol (A2A) 加入 Agentic AI Foundation，与 Model Context Pr…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/daily/2026-08-18"/>
-    <id>https://aiagentstore.ai/ai-agent-news/daily/2026-08-18</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>Google 宣布 Agent2Agent Protocol (A2A) 加入 Agentic AI Foundation，与 Model Context Protocol 等开源 Agent 基础设施项目统一托管，推动跨框架 Agent 协同标准化。</summary>
-  </entry>
-  <entry>
-    <title>英伟达 H200 芯片开始抵达中国，同时 三星提高先进芯片代工价格，欧洲 AI 数据中心因电力短缺被迫向城外迁移，全球 AI 基础设施竞赛加剧。…</title>
+    <title>OpenAI 收紧对日益强大的 网络安全 AI 的防护措施，此前自家代理出现失控行为，暂停前沿训练…</title>
     <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
     <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>英伟达 H200 芯片开始抵达中国，同时 三星提高先进芯片代工价格，欧洲 AI 数据中心因电力短缺被迫向城外迁移，全球 AI 基础设施竞赛加剧。</summary>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>OpenAI 收紧对日益强大的 网络安全 AI 的防护措施，此前自家代理出现失控行为，暂停前沿训练</summary>
   </entry>
   <entry>
-    <title>Apple 发布跨 iOS/iPadOS/macOS 安全更新（8月17日），修复 ImageIO 框架整数溢出漏洞 CVE-2026-65346，可导致恶意图…</title>
-    <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
-    <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>Apple 发布跨 iOS/iPadOS/macOS 安全更新（8月17日），修复 ImageIO 框架整数溢出漏洞 CVE-2026-65346，可导致恶意图像触发任意代码执行，Meta 红队发现。</summary>
+    <title>宾夕法尼亚州州长签署行政令，对 AI 数据中心 实施强制性 GRID 标准，禁止保密协议并取消快速通道审批…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>宾夕法尼亚州州长签署行政令，对 AI 数据中心 实施强制性 GRID 标准，禁止保密协议并取消快速通道审批</summary>
   </entry>
   <entry>
-    <title>中国人形机器人制造商赴美上市首日暴涨 500%，同时中国可复用火箭取得重大里程碑，凸显全球机器人和航天领域的激烈竞争。…</title>
-    <link href="https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/"/>
-    <id>https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/</id>
-    <updated>2026-08-19T17:57:15Z</updated>
-    <summary>中国人形机器人制造商赴美上市首日暴涨 500%，同时中国可复用火箭取得重大里程碑，凸显全球机器人和航天领域的激烈竞争。</summary>
+    <title>CISA 将 Ray AI 框架的严重远程代码执行漏洞（CVE-2025-62593）列入已知漏洞目录，要求联邦机构 3 日内修补…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>CISA 将 Ray AI 框架的严重远程代码执行漏洞（CVE-2025-62593）列入已知漏洞目录，要求联邦机构 3 日内修补</summary>
+  </entry>
+  <entry>
+    <title>英伟达 洽谈投资 AI 数据标注初创公司 Mercor，估值 200 亿美元，9 个月内翻倍，上半年营收达 6.14 亿美元…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>英伟达 洽谈投资 AI 数据标注初创公司 Mercor，估值 200 亿美元，9 个月内翻倍，上半年营收达 6.14 亿美元</summary>
+  </entry>
+  <entry>
+    <title>Cursor 推出 Origin 代码托管平台，GitHub 宕机暴露 AI 编程工具市场竞争机会…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-20T12:42:38Z</updated>
+    <summary>Cursor 推出 Origin 代码托管平台，GitHub 宕机暴露 AI 编程工具市场竞争机会</summary>
   </entry>
 </feed>
