@@ -1,0 +1,51 @@
+{
+  "date": "2026-08-20",
+  "jobs": {
+    "industry": [],
+    "faculty": [
+      {
+        "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
+        "org": "University of Texas at Austin",
+        "location": "Austin, TX, USA",
+        "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials"
+        ],
+        "source": "claude"
+      }
+    ],
+    "postdoc": [
+      {
+        "title": "Postdoctoral Researcher/Fellow - AI, Computational Chemistry, and Energy Materials",
+        "org": "Nanyang Technological University",
+        "location": "Singapore",
+        "url": "https://jobrxiv.org/jobs/postdoc-jobs-materials-science/",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials",
+          "computational chemistry",
+          "energy materials"
+        ],
+        "source": "claude"
+      }
+    ],
+    "phd": [
+      {
+        "title": "PhD Position in AI for Materials Modeling",
+        "org": "ETH Zurich",
+        "location": "Zurich, Switzerland",
+        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_aht8giABx12UGrPMMZ",
+        "deadline": "2026-07-15",
+        "tags": [
+          "AI",
+          "materials",
+          "atomistic simulation"
+        ],
+        "source": "claude"
+      }
+    ]
+  }
+}

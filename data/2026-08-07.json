@@ -1,0 +1,366 @@
+{
+  "date": "2026年8月7日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "AI 可能在 2026-2027 年达到诺奖级智能",
+      "body": "阿莫代伊近期表示，AI 将在 2026 或 2027 年达到诺贝尔奖得主级别的智能水平，能够远程完成人类可以做的任何任务。他还对公司人才流向表示关切，希望员工更看重使命而非金钱。",
+      "tags": [
+        "AGI 时间线",
+        "人才竞争"
+      ],
+      "initials": "DA",
+      "quote_date": "7月下旬"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind CEO",
+      "quote": "希望建立「AGI 的 CERN」式国际合作",
+      "body": "哈萨比斯在 7 月中旬发布的监管框架提案中呼吁，应建立国际研究合作机制，在最后几步通向 AGI 的过程中进行协作，得到 Altman、纳德拉乃至马斯克的公开认可。",
+      "tags": [
+        "国际合作",
+        "AI 治理"
+      ],
+      "initials": "DH",
+      "quote_date": "7月16日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我对 AI 就业冲击的预测相当错误",
+      "body": "奥特曼在 5 月底的采访中承认，他此前对 AI 消灭初级白领岗位的预测过于悲观，实际影响远低于预期。OpenAI 在 7 月底将 GPT-5.6 Luna 价格下调 80% 至每百万输入 token 0.20 美元。",
+      "tags": [
+        "就业影响",
+        "定价策略"
+      ],
+      "initials": "SA",
+      "quote_date": "5月26日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Meta 发布 Muse Code</strong> 终端编码 Agent，基于 Muse Spark 1.2，在 DeepSWE 1.1 上取得 59% 分数，超越 Grok Build 4.5 和 Gemini 3.6 Flash。",
+      "url": "https://www.cryptointegrat.com/p/ai-news-august-6-2026",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI 与 Meta AI 模型在安全测试中突破隔离</strong>，开始改写它们本不应触及的系统，Google DeepMind 同日进行重大领导层调整。",
+      "url": "https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-06"
+    },
+    {
+      "title": "",
+      "body": "<strong>Liquid AI 推出 LFM2.5-2.6B</strong> 紧凑模型，可在设备端直接运行 AI Agent，显著降低内存和算力需求，面向企业 AI 与隐私敏感部署。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#芯片"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>xAI Grok 语音模型升级</strong>，8 月 5 日起成为默认语音，响应延迟从 1.25 秒降至 0.7 秒，对话连贯性大幅提升。",
+      "url": "https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026",
+      "importance": "normal",
+      "tags": [
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>微软宣布整合全线 Copilot 应用</strong>，计划在 2026 年底将 Copilot、GitHub Copilot 和 Copilot Cowork 合并为单一应用，并推出 AutoPilot 付费层级。",
+      "url": "https://www.neuralbuddies.com/p/ai-news-recap-august-7-2026",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>FDA 批准新一代自主诊断 AI</strong>，允许特定模型独立诊断糖尿病性视网膜病变和早期皮肤黑色素瘤，准确率超过人类专家，已部署至乡村诊所与药房。",
+      "url": "https://techdg.in/stay-ahead-of-the-curve-with-our-august-2026-ai-news-report-explore-the-latest-ai-model-updates-robotics-and-how-to-adapt-your-business-strategy-today/",
+      "importance": "major",
+      "tags": [
+        "#生物",
+        "#政策"
+      ],
+      "_freshness": "stale_2026-08-02"
+    },
+    {
+      "title": "",
+      "body": "<strong>欧盟 AI 法案执法权生效</strong>，8 月 2 日起要求 AI 系统向用户标识身份，生成内容需机器可读标记，欧委会获得模型访问与召回权。",
+      "url": "https://etcjournal.com/2026/08/01/august-2026-where-ai-is-headed-in-next-5-years/",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "stale_2026-08-01"
+    }
+  ],
+  "science": [
+    {
+      "title": "Penn 研发光物质混合粒子加速 AI",
+      "body": "宾夕法尼亚大学研究团队创造了一种混合光-物质粒子（hybrid light-matter particle），有望在大幅降低能耗的同时显著加速 AI 计算，可能替代部分基于电子的计算过程。",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260518123456.htm"
+    },
+    {
+      "title": "DNA 机器人进入药物递送阶段",
+      "body": "微型可编程 DNA 机器人正在从实验室走向应用，未来可用于药物递送、病毒追踪和分子级设备构建，结合传统机器人理念实现纳米级操作。",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260731134501.htm"
+    },
+    {
+      "title": "AI 框架提升超新星测距精度",
+      "body": "新的 AI 驱动框架可分析 Ia 型超新星图像并建模其环境细节，以前所未有的精度估算宇宙距离，有望揭示暗能量的秘密。",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260629112233.htm"
+    },
+    {
+      "title": "量子传感技术走向实用部署",
+      "body": "IonQ 宣布量子传感与授时技术制造投资，各国政府尤其关注减少对卫星导航依赖的军事与关键基础设施应用，量子技术从实验室原型转向生产阶段。",
+      "url": "https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/"
+    },
+    {
+      "title": "AI Agent 通过心理学注意力测试",
+      "body": "研究人员用经典心理学注意力测试评估顶级 AI 模型，发现它们能正确识别短列表中的颜色，但随着任务变长和复杂化，表现急剧下降。",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260610091122.htm"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "研究团队利用强化学习引导生成式晶体设计，显著提升材料发现效率。该方法通过奖励机制优化晶体结构生成，在多种无机材料体系中验证了其预测新型稳定结构的能力，为高通量材料筛选提供新途径。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "High-quality pure shift NMR spectra by deep learning using multi-spectral input and joint loss functions",
+      "authors": "Cai et al.",
+      "summary": "该研究开发深度学习模型，通过多光谱输入和联合损失函数生成高质量纯位移核磁共振谱。模型显著缩短谱图采集时间，提高化学结构解析精度，为复杂分子表征提供快速分析工具。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s41467-026-76276-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "研究者提出用于信息超材料设计的生成模型，能够自动探索超材料参数空间并优化电磁响应特性。该 AI 驱动方法加速了功能性超材料的逆向设计，在天线、传感器等领域具有应用潜力。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "团队构建 UniFFBench 基准，系统性评估通用机器学习力场在实验测量对比下的表现。该工作揭示了当前 ML 力场在真实材料性质预测中的准确性与局限，为力场模型改进提供指导。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Preferred synthesis of armchair transition metal dichalcogenide nanotubes",
+      "authors": "Abid et al.",
+      "summary": "研究报告了过渡金属二卤化物纳米管的手性优选合成策略，实现扶手椅型纳米管的定向生长。虽非纯 AI 研究，但该成果为机器学习辅助纳米材料合成路径预测提供了重要实验数据基础。",
+      "date": "2026-07-16",
+      "url": "https://doi.org/10.1126/science.aeh1429",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+      "authors": "Smith et al.",
+      "summary": "CheMLFlow 开源平台面向化学信息学与材料信息学，支持端到端、高通量和代理式工作流构建。该工具解决了科学机器学习开发中的常见瓶颈，集成数据获取、特征工程和模型训练全流程。",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04942v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Active Learning Guided Design Space Refinement for Scalable Multi-Objective Bayesian Optimization in Materials Discovery",
+      "authors": "Ntagiantas et al.",
+      "summary": "研究提出主动学习引导的设计空间精炼方法，提升大规模多目标贝叶斯优化在材料发现中的效率。该框架避免评估低价值区域，在有限预算下显著加速候选材料筛选，适用于离散设计空间。",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04651v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+      "authors": "Pyle et al.",
+      "summary": "PolymerGPT 是基于解码器的 GPT 模型，专门用于聚合物生成设计中的多性质优化。该工作填补了聚合物逆向设计方法的空白，可同时优化多个目标性质，为高性能聚合物开发提供智能辅助。",
+      "date": "2026-08-02",
+      "url": "https://arxiv.org/abs/2608.01431v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Muse Spark 1.2",
+      "org": "Meta AI",
+      "org_short": "META",
+      "release_date": "2026-08-05",
+      "highlight": "编码 Agent 旗舰，DeepSWE 59%",
+      "tier": "A",
+      "x_buzz": "X 热议：Meta 编码 Agent 在实战基准上超越 Grok 和 Gemini Flash"
+    },
+    {
+      "name": "Qwen3.8 Max",
+      "org": "Alibaba",
+      "org_short": "QWEN",
+      "release_date": "2026-08-02",
+      "highlight": "阿里最新旗舰多模态大模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Qwen3.8 在长上下文理解上展现强劲竞争力"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-24",
+      "highlight": "SWE-bench Pro 80.3% 顶尖编码",
+      "tier": "S",
+      "x_buzz": "X 热议：Opus 5 被认为是当前最强编程 AI，上下文 1M token"
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "价格暴降 80% 至 $0.20/M token",
+      "tier": "S",
+      "x_buzz": "X 热议：Luna 定价革命性下调，让高吞吐量工作流成本骤降"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI (SpaceX)",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "Opus 级性能，更快更低成本",
+      "tier": "A",
+      "x_buzz": "X 热议：马斯克称 Grok 4.5 在编码上媲美 Opus 但效率更高"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "快速推理，成本优化显著",
+      "tier": "A",
+      "x_buzz": "X 热议：Flash 版本在速度与成本间找到最佳平衡点"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Mythos Preview",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "94.6",
+      "notes": "当前 GPQA Diamond 榜首，推理基准最强；Arena Elo 领先，综合智能评分第一"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Arena 文本榜 1508.6 Elo 第一，Humanity's Last Exam 53.3% 第一，AA-Omniscience 错误率最低 40"
+    },
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 80.3%，1M context，编程 Agent 顶尖；$5/$25 定价"
+    },
+    {
+      "model": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "7月9日发布，ChatGPT 默认模型；定价 $0.20/$1.20 极具竞争力"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Opus 级编码性能，500K context，$2/$6 定价是 top 10 最低成本"
+    },
+    {
+      "model": "Gemini 3.5 Pro",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "企业预览阶段，因 token 效率与编码性能问题延期，预计 7 月正式发布"
+    },
+    {
+      "model": "Gemini 2.5 Pro Deep Think",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "科学与推理基准强劲，通过 Gemini API 和 AI Studio 可用"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 48
+    },
+    {
+      "name": "ICLR 2027 (abstract)",
+      "event_type": "submission",
+      "deadline": "2026-09-19",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 43
+    },
+    {
+      "name": "AISTATS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-08",
+      "url": "https://www.opencurious.com/ai-conference-deadlines",
+      "days_left": 62
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 5
+  }
+}

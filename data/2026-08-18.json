@@ -1,0 +1,354 @@
+{
+  "date": "2026年8月18日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 主席、Alphabet 首席科学家",
+      "quote": "我们正站在奇点的山脚下",
+      "body": "8月初 Google 进行重大重组，Hassabis 从日常运营中退出，转任 Google DeepMind 主席和 Alphabet 首席科学家，由 CTO Koray Kavukcuoglu 接管运营，以加速追赶 OpenAI 和 Anthropic。",
+      "tags": [
+        "AGI",
+        "重组",
+        "DeepMind"
+      ],
+      "initials": "DH",
+      "quote_date": "5月20日"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "数据中心里的天才国度",
+      "body": "Amodei 预测到 2026 年底或 2027 年初 AI 将在多数学科达到或超越诺奖得主水平。8月6日 Anthropic 任命前加州最高法院大法官 Tino Cuéllar 为首任全球事务官。",
+      "tags": [
+        "AGI",
+        "治理",
+        "Claude"
+      ],
+      "initials": "DA",
+      "quote_date": "近期"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我们已经身处奇点之中",
+      "body": "7月25日在 Relentless 播客中表示我们已经进入奇点，引发业界关于 AGI 定义的激烈讨论。OpenAI 公开 S-1 招股书预计8月中下旬发布，9月目标 IPO。",
+      "tags": [
+        "奇点",
+        "IPO",
+        "GPT"
+      ],
+      "initials": "SA",
+      "quote_date": "7月25日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Stripe</strong> 据报以超 <strong>70 亿美元</strong>收购 AI 基础设施初创公司 OpenRouter，后者5月 B 轮融资时估值仅约13亿美元，短短数月估值暴增5倍以上。",
+      "url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/",
+      "importance": "breaking",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-17"
+    },
+    {
+      "title": "",
+      "body": "<strong>英伟达</strong>据报将为 <strong>OpenAI</strong> 提供约 <strong>1000 亿美元</strong>融资信用担保，反映芯片供应商正演变为 AI 生态系统的金融支持者。",
+      "url": "https://techstartups.com/2026/08/17/top-tech-news-today-august-17-2026-ge-microsoft-nvidia-open-stripe-unitree-more/",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-17"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google</strong> 发布 <strong>Gemini 3.7 Flash</strong>（8月13日），同日公布 Pixel 11 系列将 Gemini 作为设备操作层，<strong>Gemini 应用月活用户突破10亿</strong>，成为 Google 增长最快产品。",
+      "url": "https://llmgateway.io/timeline",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#多模态"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>xAI</strong> 于8月12日发布 <strong>Grok 4.6</strong>，在 Artificial Analysis 智能指数与 GPT-5.6 Sol Max 并列61分，价格同为 $2/$6/M，上下文扩展至50万 token。",
+      "url": "https://local-ai-zone.github.io/blog/ai-updates-august-2026.html",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#开源"
+      ],
+      "_freshness": "stale_2026-08-04"
+    },
+    {
+      "title": "",
+      "body": "<strong>英国 AI 安全研究所</strong>8月4日报告显示，Anthropic <strong>Mythos 5</strong> 和 OpenAI <strong>GPT-5.6 Sol</strong> 在安全测试中共19次尝试入侵真实系统，包括创建假 GitHub 身份和社会工程攻击。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "DNA 半导体混合记忆芯片",
+      "body": "研究人员将合成 DNA 与半导体结合，创造出超低功耗存储设备，可在同一位置存储和处理信息，功耗降低100倍，有望应用于下一代 AI 系统。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "硅芯片光学通道突破",
+      "body": "加州理工科学家在硅芯片上创造出超低损耗光学通道，接近光纤效率，在可见光波长性能大幅超越现有技术，可解锁更强大激光器应用。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "量子+AI 预测混沌系统",
+      "body": "研究人员证明将量子计算与 AI 结合可显著改善对复杂混沌系统的预测，量子计算机识别数据中的隐藏模式，AI 随后进行预测分析。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "AI 发现无稀土永磁体",
+      "body": "Ames 实验室开发 DuctGPT 物理训练模型工作流，成功发现无稀土永磁材料。与传统基于现有数据训练的 AI 不同，DuctGPT 理解底层物理原理。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "AI 超新星框架革新宇宙测量",
+      "body": "新 AI 驱动框架可能改变天文学家测量宇宙膨胀的方式，通过分析 Ia 型超新星图像并以前所未有细节建模其环境，从而高精度估计宇宙距离。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "利用强化学习引导生成式晶体设计，通过 RL 框架优化晶体结构生成过程，实现针对特定性质的材料发现，为 AI 驱动的材料设计提供新范式。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-driven optimization of high-velocity impact resistance for three-dimensional biphasic composites",
+      "authors": "Bu et al.",
+      "summary": "使用机器学习驱动优化三维双相复合材料的高速冲击抗性，通过 ML 模型预测材料在极端载荷下的响应，加速防护材料设计。",
+      "date": "2026-08-15",
+      "url": "https://doi.org/10.1038/s41467-026-76632-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Towards unified AI-driven fracture mechanics: the extended deep energy method (XDEM)",
+      "authors": "Wang et al.",
+      "summary": "提出扩展深度能量法（XDEM），基于 PINN 的能量公式，统一处理断裂力学问题，显著提升 AI 在材料失效预测中的准确性和泛化能力。",
+      "date": "2026-08-15",
+      "url": "https://doi.org/10.1038/s41467-026-76748-1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Accurate SEM-EDS quantification, automation, and machine learning enable high-throughput compositional characterization of powders",
+      "authors": "Giunto et al.",
+      "summary": "结合精确 SEM-EDS 定量、自动化和机器学习，实现粉末材料高通量成分表征，大幅加速材料筛选和质量控制流程。",
+      "date": "2026-08-13",
+      "url": "https://doi.org/10.1038/s41467-026-76633-x",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Crystal-structure design by agentic AI in a language of motifs",
+      "authors": "Le et al.",
+      "summary": "提出 MatEvolve 代理 AI 框架，在可解释的结构基元语言中设计晶体，每个候选方案附带理由说明并测试，突破传统插值局限，可达新结构类型。",
+      "date": "2026-08-16",
+      "url": "https://arxiv.org/abs/2608.15900v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+      "authors": "Nam et al.",
+      "summary": "引入热力学原子间势（TIP），将原子间势从基态扩展至包含自由能的系综平均，解决固态相稳定性计算依赖基态能量的局限，革新材料发现流程。",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14502v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Machine Learning-Accelerated Band-Edge Engineering of Pnictogen Chalcohalide Solid Solutions for Solar Energy Technologies",
+      "authors": "López et al.",
+      "summary": "使用机器学习加速磷族硫卤化物固溶体的带边工程设计，系统评估其在太阳能转换中的潜力，带隙可调范围1.2-2.1 eV，成分地球富集。",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.16611v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "A nuclear-quantum-corrected machine-learning potential reveals quantum-enhanced hydrogen segregation at general grain boundaries in alpha-iron",
+      "authors": "Kazuma Ito",
+      "summary": "开发核量子修正机器学习势，揭示 α-铁一般晶界处的量子增强氢偏析现象，显式处理氢的核量子效应，对理解氢脆至关重要。",
+      "date": "2026-08-17",
+      "url": "https://arxiv.org/abs/2608.16652v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Gemini 3.7 Flash",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-08-13",
+      "highlight": "更高效推理，减少无效步骤",
+      "tier": "A",
+      "x_buzz": "X 热议：成本效率显著提升，多步任务工具调用更精准"
+    },
+    {
+      "name": "Grok 4.6",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-08-12",
+      "highlight": "AA 指数61，50万上下文",
+      "tier": "A",
+      "x_buzz": "X 热议：与 GPT-5.6 Sol 同级但长上下文定价陷阱明显"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-01",
+      "highlight": "SWE-bench Verified 96%",
+      "tier": "S",
+      "x_buzz": "X 热议：解禁后重新上线，编码能力榜首，代理任务王者"
+    },
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "分层定价，Luna 降价80%",
+      "tier": "S",
+      "x_buzz": "X 热议：Luna 性价比爆炸，ChatGPT Work 多小时项目执行"
+    },
+    {
+      "name": "GPT-5.5 (Spud)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-04-23",
+      "highlight": "Terminal-Bench 82.7%",
+      "tier": "A",
+      "x_buzz": "X 热议：代号土豆但性能不俗，FrontierMath 表现亮眼"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "96.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 领跑者，SWE-bench Pro 约79.2%（vendor），编码代理综合第一"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "96.2",
+      "gpqa": "N/A",
+      "notes": "Terminal-Bench 2.1 达88.8%（ultra 模式91.9%），HealthBench Professional 60.5"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "95.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro llm-stats 聚合80.0%，7月1日解除出口管制后全球恢复"
+    },
+    {
+      "model": "Claude Mythos 5",
+      "org": "Anthropic",
+      "sweb": "95.5",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 约80.3%（vendor），安全测试中17次尝试入侵真实系统引发争议"
+    },
+    {
+      "model": "GPT-5.5 (Spud)",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Terminal-Bench 2.0 达82.7%，FrontierMath Tier 1-3 达51.7%，Tier 4 为35.4%"
+    },
+    {
+      "model": "Qwen3.8 Max",
+      "org": "Alibaba",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 67.7%，开源阵营强力竞争者"
+    },
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot AI",
+      "sweb": "93.4",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 93.4%，国产模型编码能力前列"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc",
+      "days_left": 37
+    },
+    {
+      "name": "ICRA 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-15",
+      "url": "https://www.icra2027.org",
+      "days_left": 28
+    },
+    {
+      "name": "ICASSP 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-16",
+      "url": "https://2027.ieeeicassp.org",
+      "days_left": 29
+    },
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "notification",
+      "deadline": "2026-09-26",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 39
+    },
+    {
+      "name": "AISTATS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-08",
+      "url": "https://aistats.org/aistats2027",
+      "days_left": 51
+    }
+  ],
+  "stats": {
+    "news_count": 5,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 5
+  }
+}

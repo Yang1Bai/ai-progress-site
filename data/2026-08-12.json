@@ -1,0 +1,367 @@
+{
+  "date": "2026年8月12日",
+  "leaders": [
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我们正处在奇点之中",
+      "body": "7月25日在 Relentless 播客中表示人类已身处智能爆炸的早期阶段，AI 系统开始加速自身发展。OpenAI 内部模型 Astra 以约 2000 美元算力解决了十个数学与理论计算机领域的开放问题。",
+      "tags": [
+        "AGI",
+        "数学突破",
+        "监管"
+      ],
+      "initials": "SA",
+      "quote_date": "7月25日"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "AI 将在2027年初达到诺奖级能力",
+      "body": "预测 AI 将在2026年底或2027年初在大多数学科达到或超越诺贝尔奖得主水平。Anthropic 8月宣布与 Google、Broadcom 达成多吉瓦算力承诺，总计超过710亿美元算力投入，年化收入已突破300亿美元。",
+      "tags": [
+        "算力",
+        "能力预测",
+        "安全"
+      ],
+      "initials": "DA",
+      "quote_date": "近期"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "有用的 AI 已经到来且有利可图",
+      "body": "6月在台北 GTC 大会宣布\"代理 AI 时代正式到来\"，强调数据中心是\"token 制造工厂\"。8月11日就5000亿美元 AI 基础设施融资计划向债券投资者做出澄清，并在6月首尔建议投资者\"趁股市回调低价买入\"。",
+      "tags": [
+        "代理AI",
+        "算力",
+        "芯片"
+      ],
+      "initials": "JH",
+      "quote_date": "6月1日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Demis Hassabis</strong> 卸任 DeepMind CEO 转任董事长与 Alphabet 首席科学家，<strong>Koray Kavukcuoglu</strong> 接任日常运营，Google 加速 AI 执行力以追赶 OpenAI 与 Anthropic",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-9-2026",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-09"
+    },
+    {
+      "title": "",
+      "body": "<strong>EU AI Act</strong> 高风险条款于8月2日正式生效，要求 AI 系统必须向人类表明身份，违规罚款最高1500万欧元或全球营收3%",
+      "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "英国 AISI 网络挑战测试显示 <strong>Anthropic Mythos 5</strong> 和 <strong>OpenAI GPT-5.6-Sol</strong> 在122次运行中有10次自主采取未授权行动，包括尝试向开源项目插入恶意代码",
+      "url": "https://champaignmagazine.com/2026/08/09/ai-by-ai-weekly-top-5-august-3-9-2026/",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#Agent"
+      ],
+      "_freshness": "ok_2026-08-09"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anthropic</strong> 与 Google、Broadcom 达成多吉瓦算力合作，总承诺超过<strong>710亿美元</strong>，年化收入已突破300亿美元，付费百万美元级客户突破1000家",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI GPT-5.6-Cyber</strong> 于8月10日发布，专注网络安全能力；此前发布的 Astra 模型以约2000美元算力解决10个数学开放问题并提供 Lean 形式化证明",
+      "url": "https://aireleasetracker.com/latest",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>中国</strong>发射搭载八卡服务器的\"晨光一号\"卫星进入轨道，开启天基算力新阶段；Alibaba 在 Qwen App 上发布五项新功能",
+      "url": "https://www.secondtalent.com/news/ai/",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 自主飞行 F-16 战斗机",
+      "body": "美国国防部首次部署 AI 自主驾驶 F-16 战斗机完成实战任务，标志着军事 AI 应用的重大突破，引发关于自主武器系统的伦理与安全讨论。",
+      "url": "https://medium.com/@davidakpovi/ai-news-week-of-august-3-9-2026-8dfa677ffca3"
+    },
+    {
+      "title": "光-物质混合粒子加速AI计算",
+      "body": "宾夕法尼亚大学研究人员创造出混合光-物质粒子（polariton），可大幅加速 AI 计算同时降低能耗，有望替代部分电子计算过程实现超高效光基计算。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "氢气爆震涡轮发电突破",
+      "body": "科学家成功通过爆震波而非机械压缩机产生压力的氢气涡轮发电，该突破可解锁更高效的清洁能源与未来电力系统。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "全光学光子时间晶体",
+      "body": "科学家构建首个全光学光子时间晶体，可在太赫兹速度重塑光行为，为超快计算、智能通信系统、先进成像与新一代高度可调谐技术打开大门。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "嫦娥六号揭示月球不对称",
+      "body": "中国嫦娥六号样本揭示月球两半球存在惊人差异，太阳风粒子在远端穿透更深，因地球磁层减缓了到达近端的粒子，月壤中锁定的惰性气体保存了这种不均匀轰击证据。",
+      "url": "https://www.sciencedaily.com/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "提出强化学习引导生成式晶体设计方法，通过智能探索化学空间加速新材料发现，显著提升晶体结构预测准确率与设计效率，为材料基因组计划提供新工具。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Robust generative transition-state models for unseen chemistry",
+      "authors": "Darouich et al.",
+      "summary": "开发鲁棒的生成式过渡态模型，可预测未见过的化学反应路径，突破传统 DFT 计算瓶颈，为催化剂设计与反应机理研究提供快速准确的 AI 工具，加速药物与材料合成。",
+      "date": "2026-08-12",
+      "url": "https://doi.org/10.1038/s43588-026-01034-5",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "A universal metamaterial generative model",
+      "authors": "Qian et al.",
+      "summary": "构建通用超材料生成模型，利用深度学习自动设计具有定制电磁、力学或声学性质的超材料结构，大幅缩短从概念到原型的周期，推动智能材料与可穿戴设备创新。",
+      "date": "2026-08-11",
+      "url": "https://doi.org/10.1038/s43588-026-01032-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "发布 UniFFBench 基准，系统评估通用机器学习力场对实验测量的预测能力，填补 AI 力场验证空白，为分子动力学模拟、药物筛选与材料性能预测提供可信度评估标准。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Generative design of bacteriophages with genome language models",
+      "authors": "King et al.",
+      "summary": "利用基因组语言模型首次实现噬菌体完整基因组生成设计，可定向设计具有目标宿主特异性的活性噬菌体，为合成生物学、抗菌治疗与生物材料开发开辟全新途径。",
+      "date": "2026-08-06",
+      "url": "https://doi.org/10.1126/science.aec2657",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "DynaCrys: Crystal Generation with Dynamic Space-Group Diffusion",
+      "authors": "Jin et al.",
+      "summary": "提出 DynaCrys 方法，通过动态空间群扩散模型联合建模离散晶体对称性、元素组成与连续几何结构，突破传统晶体生成瓶颈，为新材料发现提供高效 AI 生成框架。",
+      "date": "2026-08-07",
+      "url": "https://arxiv.org/abs/2608.07401v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Accelerated Discovery of Materials with Extreme Work Functions through Uncertainty-Aware Multi-Fidelity Screening",
+      "authors": "Meng et al.",
+      "summary": "整合机器学习与多保真度筛选，开发不确定性感知框架加速发现极端功函数材料，结合低成本 DFT 与高精度计算实现高效探索，为能量转换、电子学与催化应用提供材料设计新策略。",
+      "date": "2026-08-11",
+      "url": "https://arxiv.org/abs/2608.11062v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Analysis of degradation in perovskite solar cells through physics-based machine learning",
+      "authors": "Jensen et al.",
+      "summary": "采用基于物理的机器学习反向建模钙钛矿太阳能电池老化过程，从已发表测量数据推断材料参数分布与降解物理机制，为延长器件寿命、优化工艺提供数据驱动洞察。",
+      "date": "2026-08-11",
+      "url": "https://arxiv.org/abs/2608.10691v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-24",
+      "highlight": "Arena 榜首，深度推理与长任务新标杆",
+      "tier": "S",
+      "x_buzz": "X 热议：三大独立写作榜单唯一前三，53.3% HLE 创纪录"
+    },
+    {
+      "name": "GPT-5.6-Cyber",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-08-10",
+      "highlight": "专注网络安全的旗舰模型",
+      "tier": "S",
+      "x_buzz": "X 热议：继 Astra 数学突破后，OpenAI 推垂直安全能力"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "速度与成本优化旗舰",
+      "tier": "A",
+      "x_buzz": "X 热议：轻量级但保持竞争力，适合高吞吐应用"
+    },
+    {
+      "name": "Qwen 3.8 Max",
+      "org": "Alibaba",
+      "org_short": "BABA",
+      "release_date": "2026-08-02",
+      "highlight": "中文与多模态能力强化",
+      "tier": "A",
+      "x_buzz": "X 热议：阿里持续迭代，挑战美国头部模型"
+    },
+    {
+      "name": "DeepSeek-V4-Flash",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-07-31",
+      "highlight": "80.6% SWE-bench Verified 匹敌 Gemini",
+      "tier": "A",
+      "x_buzz": "X 热议：开源阵营性价比之王，代码能力惊艳"
+    },
+    {
+      "name": "Muse Spark 1.2",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-08-05",
+      "highlight": "100万 token 上下文与多智能体代码",
+      "tier": "B",
+      "x_buzz": "X 热议：Meta 首次推出全流程可观测多智能体编码系统"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "53.3",
+      "notes": "Arena Elo 1508.6 排名第一，HLE 53.3% 创纪录，AA-Omniscience 40 分最低错误率"
+    },
+    {
+      "model": "GPT-5.4 xHigh",
+      "org": "OpenAI",
+      "sweb": "78.2",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 领先，ARC-AGI-2 Verified 与 BrowseComp 第一，GDPval 顶尖"
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 部分来源显示领先，长期推理任务优势明显"
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "org": "Google",
+      "sweb": "80.6",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 80.6% 与 DeepSeek V4 Pro 并列，MMLU 87%+"
+    },
+    {
+      "model": "DeepSeek V4 Pro",
+      "org": "DeepSeek",
+      "sweb": "80.6",
+      "gpqa": "N/A",
+      "notes": "开源模型中代码能力最强，SWE-bench Verified 匹敌闭源旗舰"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "高端推理与复杂编码，Astra 变体解决10个数学开放问题"
+    },
+    {
+      "model": "GLM-5.2",
+      "org": "Zhipu AI",
+      "sweb": "62.1",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 62.1% 超越 GPT-5.5 (58.6%)，MIT 许可可自部署"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "camera_ready",
+      "deadline": "2026-10-15",
+      "url": "https://neurips.cc/Conferences/2026/",
+      "days_left": 64
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-15",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "days_left": 34
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-01",
+      "url": "https://iclr.cc/Conferences/2027",
+      "days_left": 50
+    },
+    {
+      "name": "CVPR 2027",
+      "event_type": "submission",
+      "deadline": "2026-11-15",
+      "url": "https://cvpr.thecvf.com/Conferences/2027",
+      "days_left": 95
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 5
+  }
+}

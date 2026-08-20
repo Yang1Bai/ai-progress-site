@@ -1,0 +1,384 @@
+{
+  "date": "2026年8月10日",
+  "leaders": [
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达创始人兼首席执行官",
+      "quote": "AI 数据中心是人类历史上最大的基础设施建设",
+      "body": "黄仁勋在 GTC 台北 2026 主题演讲中强调，AI 已从实验阶段进入经济实质影响阶段，单个 AI 工厂规模将达到 1 吉瓦，全球资本投入预计达 7 万亿美元。他驳斥了 AI 减少就业的观点，认为生产力提升将创造更多高薪职位。",
+      "tags": [
+        "基础设施",
+        "算力",
+        "就业"
+      ],
+      "initials": "JH",
+      "quote_date": "8月10日"
+    },
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 董事长兼 Alphabet 首席科学家",
+      "quote": "AGI 近在咫尺，我们正站在奇点的山麓",
+      "body": "哈萨比斯于 8 月 5 日宣布卸任 Google DeepMind CEO，转任董事长及 Alphabet 首席科学家，专注长期战略与科学突破。他预测 AGI 可能在未来 4-5 年内到达，将产生十倍于工业革命的影响，但速度是其十倍——在十年而非百年内实现。",
+      "tags": [
+        "AGI",
+        "组织调整",
+        "科学发现"
+      ],
+      "initials": "DH",
+      "quote_date": "8月5日"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic 首席执行官",
+      "quote": "人类即将获得难以想象的力量，但尚不清楚我们是否足够成熟来驾驭它",
+      "body": "阿莫代在 7 月底发布声明澄清 Anthropic 从未主张禁止开放权重模型，而是呼吁聚焦阻止强大芯片流入威权国家、防止工业级蒸馏攻击、并要求对所有足够强大的模型（开放与闭源）进行安全测试。",
+      "tags": [
+        "AI 安全",
+        "开放模型",
+        "政策"
+      ],
+      "initials": "DA",
+      "quote_date": "7月27日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 暂停前沿模型 Astra 内部开发，因其网络攻击能力可能触及最高安全标准；同日 <strong>Anthropic</strong> 宣布用 AI 分类器替代人工审批，<strong>ByteDance</strong> 传训练 10 万亿参数级模型",
+      "url": "",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#LLM"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Meta</strong> 于 8 月 10 日发布 <strong>Muse Glimmer</strong> 多模态模型，8 月 5 日发布 <strong>Muse Spark 1.2</strong> 及配套编程助手 Muse Code，后者可并行运行多个子代理并维护完整操作历史",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#多模态"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "美军 <strong>DARPA</strong> 首次完成由 AI 全程驾驶的 <strong>F-16 战斗机</strong>真实飞行测试，标志着自主作战航空的重大里程碑",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#机器人",
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 重组：首席科学家 Jeff Dean 等多名核心成员离职创立独立公司 Discovery Loop，Google 将作为投资方与云服务提供商",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>Alibaba</strong> 于 8 月 2 日发布 <strong>Qwen3.8 Max</strong>；<strong>ByteDance</strong> 于 8 月 8 日发布 <strong>Seedance 2.5</strong> 模型",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#开源"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "世界银行报告称 AI 可使低收入国家在 10 年内实现过去需一个世纪才能达成的发展目标，呼吁各国政府快速采纳现有 AI 工具",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 设计首个功能性病毒基因组",
+      "body": "Science 8 月 6 日刊发论文，首次使用基因组语言模型生成性设计出具有目标宿主倾向性的完整噬菌体基因组，并通过实验验证了生成病毒的活性。",
+      "url": "https://doi.org/10.1126/science.aec2657"
+    },
+    {
+      "title": "AI 揭示青少年抑郁风险的神经机制",
+      "body": "Science Advances 8 月 7 日发表深度学习研究，结合功能成像与计算建模，识别出可在症状出现前预测抑郁风险的神经计算机制，为早期干预提供工具。",
+      "url": "https://doi.org/10.1126/sciadv.aed0772"
+    },
+    {
+      "title": "AI 加速快离子导体化学空间探索",
+      "body": "Science Advances 8 月 7 日报道，基于描述符引导的迁移学习框架成功解码快离子导体化学空间，突破了实验数据集晶体结构不精确的难题，为下一代高性能电池材料预测提供新途径。",
+      "url": "https://doi.org/10.1126/sciadv.aee4959"
+    },
+    {
+      "title": "通用力场基准评估框架发布",
+      "body": "Nature Computational Science 7 月 14 日刊登 UniFFBench，首个针对通用机器学习力场的实验测量基准，系统评估了多种 MLFF 模型在真实材料体系中的表现。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "信息超材料生成模型实现逆向设计",
+      "body": "Nature Computational Science 7 月 14 日报道生成式模型可自动设计信息超材料，实现了从性能需求到结构参数的端到端逆向工程。",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6"
+    },
+    {
+      "title": "AI 驱动显微镜基准测试研究",
+      "body": "arXiv 8 月 5 日预印本指出，大语言模型代理正被开发用于控制显微镜与同步辐射光束线等科学仪器，但现有基准测试支持资格验证却不一定能泛化到未见任务。",
+      "url": "https://arxiv.org/abs/2608.05266v1"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Generative design of bacteriophages with genome language models",
+      "authors": "King et al.",
+      "summary": "利用基因组语言模型首次实现完整噬菌体基因组的生成性设计，可针对目标宿主倾向性生成功能性病毒，并通过实验验证了生成病毒的活性，标志着 AI 从预测蛋白质到设计完整生物系统的跨越。",
+      "date": "2026-08-06",
+      "url": "https://doi.org/10.1126/science.aec2657",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science Advances",
+      "title": "Decoding the chemical space of fast-ion conductors via a descriptor-guided transfer learning framework",
+      "authors": "Wang et al.",
+      "summary": "提出描述符引导的迁移学习框架，成功解码快离子导体化学空间。该方法突破了实验数据集晶体结构不精确的难题，通过预测离子迁移率并筛选候选材料，为下一代高性能电池材料发现提供了高效工具。",
+      "date": "2026-08-07",
+      "url": "https://doi.org/10.1126/sciadv.aee4959",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "结合强化学习与生成模型，实现了面向目标性质的晶体材料逆向设计。该方法可在大规模离散晶体空间中高效搜索，直接生成满足特定物理/化学性质需求的新型晶体结构，加速材料发现流程。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "发布首个基于实验测量的通用机器学习力场评估基准 UniFFBench，系统比较多种 MLFF 模型在真实材料体系中的表现，为选择和优化用于材料模拟的 AI 力场提供标准化工具。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发生成模型用于信息超材料的逆向设计，可从目标电磁/光学性能需求自动生成超材料几何结构，实现了端到端的设计-性能映射，加速了功能超材料的开发周期。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "DynaCrys: Crystal Generation with Dynamic Space-Group Diffusion",
+      "authors": "Jin et al.",
+      "summary": "提出 DynaCrys 晶体生成模型，采用动态空间群扩散机制，能联合建模离散晶体对称性、元素组成与连续几何结构，在庞大的晶体空间中高效生成候选材料，为材料发现提供强大的生成工具。",
+      "date": "2026-08-07",
+      "url": "https://arxiv.org/abs/2608.07401v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+      "authors": "Pyle et al.",
+      "summary": "基于解码器的 GPT 模型实现聚合物多属性优化逆向设计。该模型突破了现有方法仅聚焦单一性质的局限，可同时优化多个目标属性（如强度、导电性、热稳定性等），生成满足复杂需求的新型聚合物结构。",
+      "date": "2026-08-02",
+      "url": "https://arxiv.org/abs/2608.01431v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides",
+      "authors": "Untarabut et al.",
+      "summary": "针对高熵钙钛矿氧化物的化学与结构无序难题，提出从有序到无序的迁移学习策略，结合图神经网络预测形成能与 HOMO-LUMO 能隙，快速筛选高熵材料的功能性质，加速新型能源与催化材料发现。",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29510v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Muse Glimmer",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-08-10",
+      "highlight": "Meta 最新多模态模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Meta 持续发力，Muse 系列快速迭代"
+    },
+    {
+      "name": "Muse Spark 1.2",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-08-05",
+      "highlight": "驱动 Muse Code 编程助手的基础模型",
+      "tier": "A",
+      "x_buzz": "X 热议：可并行运行子代理，开发者工具新标杆"
+    },
+    {
+      "name": "Seedance 2.5",
+      "org": "ByteDance",
+      "org_short": "BD",
+      "release_date": "2026-08-08",
+      "highlight": "字节最新旗舰模型",
+      "tier": "A",
+      "x_buzz": "X 热议：传字节正训练万亿参数级巨模型"
+    },
+    {
+      "name": "Qwen3.8 Max",
+      "org": "Alibaba",
+      "org_short": "BABA",
+      "release_date": "2026-08-02",
+      "highlight": "阿里通义千问 3.8 系列旗舰版",
+      "tier": "A",
+      "x_buzz": "X 热议：Qwen 持续挑战美国 AI 领先地位"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-24",
+      "highlight": "接近 Fable 5 水平智能，价格降半",
+      "tier": "S",
+      "x_buzz": "X 热议：企业市场新宠，性价比碾压对手"
+    },
+    {
+      "name": "DeepSeek V4-Flash (0731)",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-07-31",
+      "highlight": "重训练版本聚焦编程与代理任务",
+      "tier": "A",
+      "x_buzz": "X 热议：代理与编程任务超越自家 V4-Pro"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "OpenAI 最新旗舰，具体基准数据未公开披露"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Anthropic 顶级模型，企业市场领先"
+    },
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "接近 Fable 5 智能，价格减半，Claude Max 默认模型"
+    },
+    {
+      "model": "Claude Opus 4.7",
+      "org": "Anthropic",
+      "sweb": "87.6",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 当前领先者"
+    },
+    {
+      "model": "GPT-5.4-Pro",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "94.4",
+      "notes": "GPQA Diamond 当前最高分（研究生级科学推理）"
+    },
+    {
+      "model": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "7 月 21 日发布，快速推理版本"
+    },
+    {
+      "model": "Llama 5",
+      "org": "Meta",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "4 月发布，6000 亿+ 参数，递归自改进能力，开源旗舰"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -96
+    },
+    {
+      "name": "NeurIPS 2026 Workshop",
+      "event_type": "submission",
+      "deadline": "2026-08-30",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 20
+    },
+    {
+      "name": "NeurIPS 2026 (会议)",
+      "event_type": "notification",
+      "deadline": "2026-12-06",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 118
+    },
+    {
+      "name": "ICML 2026 Journal Track",
+      "event_type": "submission",
+      "deadline": "2026-05-03",
+      "url": "https://icml.cc/public/JournalToConference",
+      "days_left": -99
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-29",
+      "url": "",
+      "days_left": 19
+    },
+    {
+      "name": "KDD 2026 (已结束)",
+      "event_type": "notification",
+      "deadline": "2026-08-09",
+      "url": "https://kdd2026.kdd.org",
+      "days_left": -1
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

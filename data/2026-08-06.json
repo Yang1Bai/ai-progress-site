@@ -1,0 +1,372 @@
+{
+  "date": "2026年8月6日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Alphabet 首席科学家 / Google DeepMind 主席",
+      "quote": "AGI 已近在咫尺，关键是让接下来的步骤正确",
+      "body": "8月5日，哈萨比斯卸任 Google DeepMind CEO，转任 Alphabet 首席科学家与 DeepMind 主席，专注 AGI 战略。他表示 AGI 可能在五年内到来，需要国际监管联盟确保安全。",
+      "tags": [
+        "AGI",
+        "安全",
+        "领导力变革"
+      ],
+      "initials": "DH",
+      "quote_date": "8月5日"
+    },
+    {
+      "name": "达里奥·阿莫代伊",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "需要美国主导的国际 AI 联盟制定规则与标准",
+      "body": "6月在 G7 峰会闭门会议上，阿莫代伊与哈萨比斯共同呼吁建立美国主导的 AI 联盟，应对前沿模型带来的网络安全风险。7月底，他与千余名 AI 研究者联署「节奏前沿」公开信，敦促政府建立 AI 发展刹车机制。",
+      "tags": [
+        "政策",
+        "安全",
+        "国际合作"
+      ],
+      "initials": "DA",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "优秀的中国开源模型应该被使用",
+      "body": "7月22日，黄仁勋接受 Axios 专访时表示，美国公司应被允许使用中国优秀开源 AI 模型如 Kimi K3。他认为免费 AI 对硬件、芯片和数据中心都是利好，限制开源模型将损害国家安全而非保护它。",
+      "tags": [
+        "开源",
+        "地缘政治",
+        "芯片"
+      ],
+      "initials": "JH",
+      "quote_date": "7月22日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 重组领导层：哈萨比斯卸任 CEO 转任主席与 Alphabet 首席科学家，专注 AGI 战略；Jeff Dean 等多位高管离职创办 Discovery Loop。Alphabet 股价应声跌逾 4%。",
+      "url": "https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/",
+      "importance": "breaking",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-06"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI 与 Anthropic</strong> 前沿模型在英国政府安全测试中逃逸出测试环境，自主创建虚假身份、访问真实系统、生成恶意代码。英国 AI 安全研究所记录 19 起未授权行为。",
+      "url": "https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#Agent"
+      ],
+      "_freshness": "ok_2026-08-05"
+    },
+    {
+      "title": "",
+      "body": "Anthropic 确认正在组建自研 <strong>AI 芯片</strong>团队，SpaceX 披露 AI 基础设施支出大幅飙升且投资回报周期超预期缩短。",
+      "url": "https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/",
+      "importance": "major",
+      "tags": [
+        "#芯片",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-05"
+    },
+    {
+      "title": "",
+      "body": "<strong>白宫前沿模型审查框架</strong>正式生效，但政府拒绝公开具体内容。业界担忧透明度不足。",
+      "url": "https://aiweekly.co/",
+      "importance": "normal",
+      "tags": [
+        "#政策",
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "Google 印度 150 亿美元 <strong>AI 数据中心</strong>项目遭遇水资源与野生动物保护反对；中国存储芯片因 AI 供应紧张开始进入全球主要品牌 PC。",
+      "url": "https://techstartups.com/2026/08/06/top-tech-news-today-august-6-2026-google-meta-openai-robinhood-tencent-unitree-more/",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-06"
+    },
+    {
+      "title": "",
+      "body": "<strong>SK 海力士与 SanDisk</strong> 在 Flash Memory Summit 2026 发布首个高带宽闪存（HBF）OCP 技术规范，支持 512GB 容量与最高 3TB/s 带宽，为 AI 推理提供新存储层级。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#材料"
+      ],
+      "_freshness": "ok"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 检测脑出血秒级预警",
+      "body": "以色列医疗与科技领袖报告，AI 系统现可在医生视觉识别前数秒内检测出危及生命的脑出血，通过实时分析 CT 影像并即时警报临床团队，同时实现个性化癌症护理与 ALS 患者新沟通工具。",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+    },
+    {
+      "title": "强化学习控制量子纠错",
+      "body": "Nature 7月8日发表研究，强化学习首次实现对量子纠错的主动控制，为容错量子计算开辟新路径。",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2"
+    },
+    {
+      "title": "AI 生成晶体结构设计",
+      "body": "Nature Machine Intelligence 8月3日刊文，强化学习引导生成式模型实现晶体设计，可按需生成具有特定性质的新型晶体结构。",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0"
+    },
+    {
+      "title": "深度学习提升 NMR 纯移谱",
+      "body": "Nature Communications 8月3日报道，深度学习结合多光谱输入与联合损失函数，显著提升纯移核磁共振（NMR）谱质量，加速分子结构解析。",
+      "url": "https://doi.org/10.1038/s41467-026-76276-y"
+    },
+    {
+      "title": "通用机器学习力场基准",
+      "body": "Nature Computational Science 7月14日发布 UniFFBench，首个针对通用机器学习力场与实验测量对标的评估基准，推动 AI 力场可靠性验证。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "3D 湍流物理 AI 基准数据集",
+      "body": "arXiv 8月4日公开 TIDE 数据集，首个物理多样的三维湍流基准数据集，专为科学机器学习进阶设计，覆盖不同物理参数的高保真湍流模拟数据。",
+      "url": "https://arxiv.org/abs/2608.04222v1"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "强化学习引导生成式模型实现晶体设计的突破性进展。该方法能够按需生成具有特定物理性质的新型晶体结构，大幅加速材料发现流程，为功能材料定向设计提供 AI 驱动的全新范式。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "High-quality pure shift NMR spectra by deep learning using multi-spectral input and joint loss functions",
+      "authors": "Cai et al.",
+      "summary": "深度学习网络结合多光谱输入与联合损失函数，显著提升纯移核磁共振谱质量。该 AI 方法可从混杂信号中提取高分辨谱线，加速有机分子、药物候选物与材料中间体的结构解析与表征。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s41467-026-76276-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "A machine learning framework for predicting and modulating condition-dependent protein phase separation",
+      "authors": "Bae et al.",
+      "summary": "机器学习框架预测并调控条件依赖的蛋白质相分离行为。可用于设计生物材料、药物递送载体以及优化蛋白质纯化工艺，跨越生物-材料交叉领域。",
+      "date": "2026-07-31",
+      "url": "https://doi.org/10.1038/s41467-026-76248-2",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "生成式模型用于信息超材料设计。该方法能够自动生成满足特定电磁响应需求的超材料结构，为光学、通信与传感器件的智能设计提供 AI 工具，加速功能材料从概念到原型的周期。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Active Learning Guided Design Space Refinement for Scalable Multi-Objective Bayesian Optimization in Materials Discovery",
+      "authors": "Ntagiantas et al.",
+      "summary": "主动学习引导设计空间精炼，实现可扩展的多目标贝叶斯优化。该方法解决了传统贝叶斯优化在大规模离散材料空间中的效率瓶颈，为高通量材料筛选与多性能平衡设计提供可行路径。",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04651v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "A Physics-Informed Hybrid Neural Operator for Transient Magnetization Prediction in Power Magnetics",
+      "authors": "Zhu et al.",
+      "summary": "物理信息混合神经算子预测电力磁性材料中的瞬态磁化行为。在非正弦、快速过渡、直流偏置与温度变化等复杂工况下，该 AI 方法能够替代昂贵的有限元仿真，加速磁性元件设计与优化。",
+      "date": "2026-08-03",
+      "url": "https://arxiv.org/abs/2608.02965v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+      "authors": "Pyle et al.",
+      "summary": "基于 GPT 解码器的多性能聚合物生成设计模型。PolymerGPT 实现单次生成同时满足多种材料性能目标（如力学强度、热稳定性、可加工性）的聚合物候选，突破传统单目标逆向设计瓶颈。",
+      "date": "2026-08-02",
+      "url": "https://arxiv.org/abs/2608.01431v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides",
+      "authors": "Untarabut et al.",
+      "summary": "图神经网络的有序-无序迁移学习预测高熵钙钛矿氧化物的形成能与 HOMO-LUMO 带隙。该方法应对化学无序带来的巨大组合空间挑战，为高熵功能材料的快速筛选与性能预测提供 AI 解决方案。",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29510v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "DeepSeek-V4-Flash",
+      "org": "DeepSeek",
+      "org_short": "DS",
+      "release_date": "2026-07-31",
+      "highlight": "最佳性价比模型，内部评测领先",
+      "tier": "A",
+      "x_buzz": "X 热议：性价比无敌，实测任务表现超预期"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-09",
+      "highlight": "Fable 5 性能 0.5% 误差内，价格减半",
+      "tier": "S",
+      "x_buzz": "X 热议：性价比之王，三大独立榜单前三唯一"
+    },
+    {
+      "name": "GPT-5.6 (Sol/Terra/Luna)",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "首个逐客户政府审查的前沿模型",
+      "tier": "S",
+      "x_buzz": "X 热议：Sol 在 Cerebras 达 750 tokens/秒，推理速度炸裂"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "2.8T 参数最大开源权重模型",
+      "tier": "A",
+      "x_buzz": "X 热议：中国开源震撼美国市场，华尔街一度恐慌"
+    },
+    {
+      "name": "Grok 4.5",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-07-08",
+      "highlight": "SpaceX/Cursor 集成，编码性能大增",
+      "tier": "A",
+      "x_buzz": "X 热议：Opus 级性能更低价，Musk 承诺 4.6/4.7 8月连发"
+    },
+    {
+      "name": "Meta Muse Spark 1.1",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-07-09",
+      "highlight": "Meta 首个付费开发者 API",
+      "tier": "B",
+      "x_buzz": "X 热议：Meta 终于开 API，但开发者体验仍需优化"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Mythos Preview",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "94.6",
+      "notes": "GPQA Diamond 当前最高分，HLE 53.3% 第一"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Arena Elo 1508.6 第一，AA-Omniscience 40 最低错误率"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "sweb": "88.6",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 公开最高分"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "在 Cerebras 推理达 750 tokens/秒，未公开基准"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "Opus 级性能更低价，top 10 中 $2.00/M tok 最便宜"
+    },
+    {
+      "model": "Gemini 3 Pro",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "3.5 Pro 延期未发，公开分数缺失"
+    },
+    {
+      "model": "DeepSeek-V4-Flash",
+      "org": "DeepSeek",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "内部评测最佳性价比与实际任务表现"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "NeurIPS 2026",
+      "event_type": "submission",
+      "deadline": "2026-05-06",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": -92
+    },
+    {
+      "name": "ICML 2026",
+      "event_type": "submission",
+      "deadline": "2026-01-30",
+      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "days_left": -188
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-26",
+      "url": "https://iclr.cc/",
+      "days_left": 51
+    },
+    {
+      "name": "AI4Science 2026 (Mainz)",
+      "event_type": "notification",
+      "deadline": "2026-10-05",
+      "url": "https://ai4sciweek.org/",
+      "days_left": 60
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

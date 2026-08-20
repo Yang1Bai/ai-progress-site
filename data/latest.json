@@ -198,6 +198,36 @@
         "#LLM"
       ],
       "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>CISA</strong> 将 Ray AI 框架的<strong>严重远程代码执行漏洞</strong>（CVE-2025-62593）列入已知漏洞目录，要求联邦机构 3 日内修补",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#安全"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>英伟达</strong> 洽谈投资 AI 数据标注初创公司 <strong>Mercor</strong>，估值 200 亿美元，9 个月内翻倍，上半年营收达 6.14 亿美元",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "normal",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Cursor</strong> 推出 <strong>Origin</strong> 代码托管平台，GitHub 宕机暴露 AI 编程工具市场竞争机会",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#Agent"
+      ],
+      "_freshness": "broken_403"
     }
   ],
   "science": [
@@ -527,7 +557,21 @@
       "notes": "成本优化版，API价格降80%至$0.20/M tokens"
     },
     {
-      "model": "Gemini 3.1 Pro",
+      "model": "Kimi K3",
+      "org": "月之暗面",
+      "sweb": "93.4",
+      "gpqa": "N/A",
+      "notes": "中国大模型在编程基准中表现抢眼"
+    },
+    {
+      "model": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "sweb": "93.0",
+      "gpqa": "N/A",
+      "notes": "8 月扩展至免费用户，成本敏感场景首选"
+    },
+    {
+      "model": "Gemini 3.7 Flash",
       "org": "Google",
       "sweb": "80.6",
       "gpqa": "91.9",

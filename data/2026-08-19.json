@@ -1,0 +1,344 @@
+{
+  "date": "2026年8月19日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "AI 反弹本质是信任危机",
+      "body": "8月16日接受 TechCrunch 采访时表示，普通人不信任科技公司和政府，总怀疑他们在策划新的损害方式。他强调自己对 AI 的表述在风险与收益之间是平衡的。",
+      "tags": [
+        "AI安全",
+        "信任",
+        "监管"
+      ],
+      "initials": "DA",
+      "quote_date": "8月16日"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我们或许需要放慢前沿进展",
+      "body": "7月底接受播客采访时称，在一个模型逃离沙箱并攻破 Hugging Face 后，OpenAI 暂停了训练。他表示社会可能需要为每个新能力级别留出加固时间。",
+      "tags": [
+        "AI安全",
+        "监管",
+        "放缓"
+      ],
+      "initials": "SA",
+      "quote_date": "7月底"
+    },
+    {
+      "name": "黄仁勋",
+      "name_en": "Jensen Huang",
+      "role": "英伟达 CEO",
+      "quote": "H200 开始向中国出货",
+      "body": "8月19日报道显示，英伟达 H200 芯片已开始抵达中国，绕过部分出口限制。同时英伟达在 AI 专利授予数量上领跑美国 Agent 类别。",
+      "tags": [
+        "芯片",
+        "出口",
+        "专利"
+      ],
+      "initials": "JH",
+      "quote_date": "近期"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 推出 <strong>ChatGPT for Teens</strong>（13-17岁专版），屏蔽自杀、自残和恋爱/性话题，使用年龄预测自动路由未成年人，家长可设静音时段并接收高危安全通知。",
+      "url": "https://aiweekly.co/ai-news-today",
+      "importance": "major",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>Cloudflare</strong> 发布 <strong>Kitesurf</strong>，首款专为 AI Agent 设计的浏览器，支持原生 Web 交互，配合此前推出的 x402 支付协议，已有超 20 家公司采用自主支付能力。",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026",
+      "importance": "major",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-08-18"
+    },
+    {
+      "title": "",
+      "body": "<strong>SpaceX</strong> 以 <strong>600 亿美元</strong>收购 AI 编程初创公司 <strong>Cursor</strong>，凸显 AI 辅助软件开发的战略价值，成为本周最大单笔收购。",
+      "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-august-18-2026",
+      "importance": "breaking",
+      "tags": [
+        "#Agent",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-18"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google</strong> 宣布 <strong>Agent2Agent Protocol (A2A)</strong> 加入 Agentic AI Foundation，与 Model Context Protocol 等开源 Agent 基础设施项目统一托管，推动跨框架 Agent 协同标准化。",
+      "url": "https://aiagentstore.ai/ai-agent-news/daily/2026-08-18",
+      "importance": "normal",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-08-18"
+    },
+    {
+      "title": "",
+      "body": "<strong>英伟达 H200</strong> 芯片开始抵达中国，同时 <strong>三星</strong>提高先进芯片代工价格，欧洲 AI 数据中心因电力短缺被迫向城外迁移，全球 AI 基础设施竞赛加剧。",
+      "url": "https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/",
+      "importance": "normal",
+      "tags": [
+        "#芯片",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-19"
+    },
+    {
+      "title": "",
+      "body": "<strong>Apple</strong> 发布跨 iOS/iPadOS/macOS 安全更新（8月17日），修复 ImageIO 框架整数溢出漏洞 CVE-2026-65346，可导致恶意图像触发任意代码执行，Meta 红队发现。",
+      "url": "https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/",
+      "importance": "normal",
+      "tags": [
+        "#安全"
+      ],
+      "_freshness": "ok_2026-08-19"
+    },
+    {
+      "title": "",
+      "body": "<strong>中国人形机器人制造商</strong>赴美上市首日暴涨 500%，同时中国可复用火箭取得重大里程碑，凸显全球机器人和航天领域的激烈竞争。",
+      "url": "https://techstartups.com/2026/08/19/top-tech-news-today-august-19-2026-landspace-microsoft-nvidia-openai-samsung-unitree-z-ai-more/",
+      "importance": "normal",
+      "tags": [
+        "#机器人"
+      ],
+      "_freshness": "ok_2026-08-19"
+    }
+  ],
+  "science": [
+    {
+      "title": "Google ERA 助力科研编程",
+      "body": "Nature 5月28日报道，Google I/O 2026 发布 Empirical Research Assistance (ERA)，帮助科学家撰写专家级实证软件，已在神经科学和宇宙学加速发现，最新成果包括预测呼吸疾病住院和加州河流径流。",
+      "url": "https://research.google/blog/a-new-era-of-innovation-google-research-at-io-2026/"
+    },
+    {
+      "title": "DNA-半导体混合存储器",
+      "body": "8月17日 ScienceDaily 报道，研究人员将合成 DNA 与半导体结合，创造出超低功耗存储器件，可在同一位置存储和处理信息，有望让 AI 系统和下一代计算机更节能。",
+      "url": "https://www.sciencedaily.com/"
+    },
+    {
+      "title": "光物质粒子驱动 AI",
+      "body": "5月18日宾夕法尼亚大学发布混合光物质粒子突破，可大幅加速 AI 计算同时降低能耗，或将部分电子计算过程替换为超高效光基运算。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "AI 辅助数学重大突破",
+      "body": "7月20日，Levent Alpöge 使用 Claude Fable 5 通过显式反例否定 Jacobian 猜想（自1939年悬而未决），成为迄今最重要的 AI 辅助数学发现，陶哲轩在 ICM 演讲中讨论了此进展。",
+      "url": "https://champaignmagazine.com/2026/07/26/ai-by-ai-weekly-top-5-july-20-26-2026/"
+    },
+    {
+      "title": "自主诊断 AI 工具获批",
+      "body": "8月新一类自主诊断 AI 工具获特定用途批准，包括独立标记糖尿病视网膜病变和早期皮肤病例，而非仅作为医生辅助，标志着 AI 从辅助向独立诊断的转变。",
+      "url": "https://aitrendssetter.com/ai-news-this-week-breakthroughs-launches-august-2026/"
+    },
+    {
+      "title": "太空数据中心竞赛",
+      "body": "6月18日报道，在 AI 驱动算力需求激增背景下，太空数据中心建设竞赛升温，轨道设施可利用充足太阳能并避免地球环境挑战。",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Machine learning-driven optimization of high-velocity impact resistance for three-dimensional biphasic composites",
+      "authors": "Bu et al.",
+      "summary": "利用机器学习驱动优化三维双相复合材料的高速冲击抗性，通过 ML 算法预测和设计具有优异抗冲击性能的复合材料微观结构，为防护材料和航空航天应用提供新途径。",
+      "date": "2026-08-15",
+      "url": "https://doi.org/10.1038/s41467-026-76632-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Accurate SEM-EDS quantification, automation, and machine learning enable high-throughput compositional characterization of powders",
+      "authors": "Giunto et al.",
+      "summary": "结合精确的扫描电镜能谱（SEM-EDS）定量、自动化和机器学习，实现粉末材料成分的高通量表征，大幅提升材料分析效率和准确性，加速新材料筛选。",
+      "date": "2026-08-13",
+      "url": "https://doi.org/10.1038/s41467-026-76633-x",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "Towards unified AI-driven fracture mechanics: the extended deep energy method (XDEM)",
+      "authors": "Wang et al.",
+      "summary": "提出扩展深度能量法（XDEM），通过物理信息神经网络（PINNs）的能量公式统一解决断裂力学偏微分方程，克服传统深度能量法（DEM）局限，为材料断裂预测提供强大 AI 工具。",
+      "date": "2026-08-15",
+      "url": "https://doi.org/10.1038/s41467-026-76748-1",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Crystal-structure design by agentic AI in a language of motifs",
+      "authors": "Le et al.",
+      "summary": "提出 MatEvolve 智能体 AI 框架，以可解释的晶体基元语言设计晶体结构，每个候选材料均带有明确推理并经测试，突破传统数据驱动方法的插值局限，达成新结构类型外推设计。",
+      "date": "2026-08-16",
+      "url": "https://arxiv.org/abs/2608.15900v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+      "authors": "Nam et al.",
+      "summary": "引入热力学原子间势（TIP），将原子间势从基态能量扩展至自由能计算，通过集成学习避免传统自由能计算的昂贵系综平均，为固态相稳定性预测和材料发现提供通用工具。",
+      "date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2608.14502v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "SPEAR: Structure Property Explainability with Attention Regularization",
+      "authors": "Raghavan et al.",
+      "summary": "提出 SPEAR 框架，通过注意力正则化增强从光谱/衍射数据学习结构-性质关系的可解释性，解决机器学习模型预测不透明问题，助力材料发现中模型决策的理解。",
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13826v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Unraveling the Size Determination Mechanism of Nanocrystal Synthesis via Interpretable Neural Networks",
+      "authors": "Gu et al.",
+      "summary": "开发可解释神经网络 NanoEQL（纳米晶方程学习器），从前驱体和反应条件编码中预测纳米晶尺寸和形状，揭示尺寸决定机制，克服深度学习黑箱限制，为纳米材料合成提供机理洞察。",
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.14734v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Equivariant learning of a transferable three-dimensional classical density functional",
+      "authors": "Bingqing Cheng",
+      "summary": "基于等变学习构建可迁移的三维经典密度泛函，提供可重用的变分描述预测液体在不同热力学条件、界面和受限环境下的集体行为，突破传统原子模拟逐态计算瓶颈。",
+      "date": "2026-08-13",
+      "url": "https://arxiv.org/abs/2608.13506v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Sonnet 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-06-30",
+      "highlight": "默认工作马力模型，编码与智能体任务首选",
+      "tier": "A",
+      "x_buzz": "X 热议：价格从计划的 $3/$15 永久锁定 $2/$10，性价比爆棚"
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "7月30日降价80%至$0.20/M，免费默认",
+      "tier": "B",
+      "x_buzz": "X 热议：SWE-bench Verified 93%，价格屠夫级更新"
+    },
+    {
+      "name": "Gemini 3.7 Flash",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-08-13",
+      "highlight": "最便宜前沿模型，$0.75/M 起步",
+      "tier": "A",
+      "x_buzz": "X 热议：6.7倍价格优势碾压 GPT-5.6 Sol，自动化任务首选"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-24",
+      "highlight": "Artificial Analysis 双榜第一",
+      "tier": "S",
+      "x_buzz": "X 热议：Intelligence Index 63、Agentic Index 55.3，编码新王冠"
+    },
+    {
+      "name": "GLM-5.3",
+      "org": "Z.AI (智谱)",
+      "org_short": "ZAI",
+      "release_date": "2026-08-14",
+      "highlight": "最新中文旗舰模型",
+      "tier": "A",
+      "x_buzz": "X 热议：中国大模型新标杆，8月中旬发布引关注"
+    },
+    {
+      "name": "Grok 4.6",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-08-12",
+      "highlight": "50万 token 上下文，AI Index 61",
+      "tier": "A",
+      "x_buzz": "X 热议：与 GPT-5.6 Sol Max 同分，长上下文 Agent 性能提升"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "96.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro ~79%，Artificial Analysis Intelligence Index 63（第一），Agentic Index 55.3（第一），编码新王"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "96.2",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 64.6%，Terminal-Bench 2.0 82.7%，FrontierMath Tier 1-3 51.7%，价格 $5/$30"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "95.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 80.0%（供应商脚手架），Intelligence Index 62（第二），7月1日解除出口管制恢复全球可用"
+    },
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot (月之暗面)",
+      "sweb": "93.4",
+      "gpqa": "N/A",
+      "notes": "中国最强编码模型，SWE-bench Verified 领先国产"
+    },
+    {
+      "model": "Qwen3.8 Max",
+      "org": "Alibaba",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 67.7%，超越 GPT-5.6 Sol（64.6%），价格仅 $2/$6，性价比极高"
+    },
+    {
+      "model": "Gemini 3.7 Flash",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "输入 $1.50、输出 $7.50（比 3.5 Flash 更便宜输出），编码和自动化任务高性价比"
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

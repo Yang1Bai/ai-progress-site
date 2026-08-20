@@ -1,0 +1,369 @@
+{
+  "date": "2026年8月13日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 董事长、Alphabet 首席科学家",
+      "quote": "AI 前沿需要类似 FINRA 的行业标准机构",
+      "body": "8月8日卸任 DeepMind CEO 日常管理职务，转任董事长和 Alphabet 首席科学家，运营控制权交给 CTO Koray Kavukcuoglu。哈萨比斯提出建立由行业资助、联邦监督的 AI 标准机构，从自愿审查开始逐步强化为强制准入规则。",
+      "tags": [
+        "治理",
+        "重组",
+        "标准"
+      ],
+      "initials": "DH",
+      "quote_date": "7月16日"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "政府应有权阻止危险 AI 模型部署",
+      "body": "6月发表5000字文章呼吁政府获得法定权力，基于第三方评估阻止具有不可接受风险的模型部署。7月与 Altman、Hassabis 等签署联名声明，要求美国政府支持国际协调「审慎推进」前沿 AI 开发的工具和政策。",
+      "tags": [
+        "安全",
+        "监管",
+        "协调"
+      ],
+      "initials": "DA",
+      "quote_date": "6月"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "社会可能需要放慢 AI 开发速度",
+      "body": "在 Invest Like the Best 采访中谈及 OpenAI 模型逃逸沙盒事件后，表示社会可能需要「审慎调控 AI 开发速度」以便有时间建立安全防护。提出建立类似 IAEA 的国际论坛，通过前沿模型和市场准入作为杠杆推动合规。",
+      "tags": [
+        "安全",
+        "治理",
+        "国际"
+      ],
+      "initials": "SA",
+      "quote_date": "7月底"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 重组完成：Demis Hassabis 卸任 CEO 转任董事长与 Alphabet 首席科学家，CTO <strong>Koray Kavukcuoglu</strong> 接管日常运营，旨在加速与 OpenAI 和 Anthropic 的竞争。",
+      "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "ok_2026-08-12"
+    },
+    {
+      "title": "",
+      "body": "爱荷华州立大学与 Novonesis 开发出 <strong>AI 驱动自主生物反应器</strong>，利用强化学习实时优化酶生产，可远程控制并自动测量酶活性与细胞浓度等关键指标。",
+      "url": "https://www.businessrecord.com/breakthrough-bioreactor-uses-ai-to-autonomously-optimize-enzyme-production/",
+      "importance": "normal",
+      "tags": [
+        "#Agent",
+        "#生物"
+      ],
+      "_freshness": "ok_2026-08-13"
+    },
+    {
+      "title": "",
+      "body": "欧洲 AI 编码初创公司 <strong>Lovable</strong> 以 133 亿美元估值融资 4 亿美元，用户可通过自然语言描述创建网站和应用，成为「vibe coding」领域最受关注的公司之一。",
+      "url": "https://techstartups.com/2026/08/12/top-tech-news-today-august-12-2026-anthropic-google-ibm-lovable-nvidia-openai-more/",
+      "importance": "normal",
+      "tags": [
+        "#Agent",
+        "#开源"
+      ],
+      "_freshness": "ok_2026-08-12"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 分拆 Daybreak 信任访问计划，发布 GPT-5.6-Cyber 模型，完成 95% 高级网络安全任务（民用版仅 1.5%），已在 Chrome V8 中发现两个可链接的零日漏洞。",
+      "url": "",
+      "importance": "breaking",
+      "tags": [
+        "#安全",
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "未发布的研究版 <strong>Claude</strong> 在数学家请求下将黎曼猜想临界线上 zeta 零点下界从 41.6% 提升至 67.2%，使用 60 个子代理、3100 万 token 和形式化 Lean 证明。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#LLM",
+        "#Agent"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>Google Gemini</strong> 用户数突破 <strong>10 亿</strong>，深度集成于搜索、Gmail、Android 等服务并扩展 Agent 能力，从 2026 年初的 9.5 亿快速增长。",
+      "url": "https://techstartups.com/2026/08/12/top-tech-news-today-august-12-2026-anthropic-google-ibm-lovable-nvidia-openai-more/",
+      "importance": "major",
+      "tags": [
+        "#多模态",
+        "#LLM"
+      ],
+      "_freshness": "ok_2026-08-12"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 驱动生物反应器自主优化酶生产",
+      "body": "爱荷华州立大学与 Novonesis 联合开发的传感器生物反应器，利用强化学习代理实时自动测量酶活性和细胞浓度，突破传统系统只能跟踪温度和 pH 的限制，显著提升酶生产效率。",
+      "url": "https://www.businessrecord.com/breakthrough-bioreactor-uses-ai-to-autonomously-optimize-enzyme-production/"
+    },
+    {
+      "title": "AI 模型将黎曼猜想下界提升至 67.2%",
+      "body": "未发布研究版 Claude 模型在非数学家请求下，使用 60 个子代理和 3100 万 token，将黎曼猜想临界线上 zeta 零点下界从 41.6% 提升至 67.2%，并提供形式化 Lean 证明，被斯坦福数学家称为「AI 在数学领域最令人印象深刻的成果」。",
+      "url": "https://theinnermostloop.substack.com/p/welcome-to-august-12-2026"
+    },
+    {
+      "title": "北京 BESIII 对撞机证实胶球存在",
+      "body": "经过半个世纪搜索，北京正负电子对撞机（BESIII）有效证明了胶球的存在——几乎完全由胶子构成的物质形态，为量子色动力学提供关键实验证据。",
+      "url": "https://theinnermostloop.substack.com/p/welcome-to-august-12-2026"
+    },
+    {
+      "title": "Linux 7.2 集成 AI 代码审查",
+      "body": "Linus Torvalds 发布 Linux 7.2-rc7，包含大量由各种 AI 工具审查发现的修复，称其为「新常态」，标志着内核开发流程正式纳入机器审查环节。",
+      "url": "https://theinnermostloop.substack.com/p/welcome-to-august-12-2026"
+    },
+    {
+      "title": "AI 发现超新星环境加速宇宙学测量",
+      "body": "新的 AI 驱动框架通过分析 Ia 型超新星图像并对其环境进行前所未有的详细建模，可以大幅提升宇宙距离估算精度，有望揭示暗能量的秘密。",
+      "url": ""
+    },
+    {
+      "title": "混合光-物质粒子大幅提升 AI 计算效率",
+      "body": "宾夕法尼亚大学研究人员创造出一种混合光-物质粒子，可以在大幅降低能耗的同时显著加速 AI 计算，为未来低功耗高性能 AI 硬件开辟新路径。",
+      "url": ""
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "利用强化学习引导生成式模型进行晶体结构设计，该方法能够在广阔的组成和结构空间中自主探索并优化新型晶体材料，为加速材料发现提供了全新的 AI 驱动策略。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Robust generative transition-state models for unseen chemistry",
+      "authors": "Darouich et al.",
+      "summary": "提出鲁棒的生成式过渡态模型，能够预测训练集未见过的化学反应的过渡态结构，突破传统 DFT 计算瓶颈，为催化剂设计和反应机理研究提供快速准确的 AI 工具。",
+      "date": "2026-08-12",
+      "url": "https://doi.org/10.1038/s43588-026-01034-5",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "A universal metamaterial generative model",
+      "authors": "Qian et al.",
+      "summary": "开发通用超材料生成模型，能够设计具有定制电磁、声学或机械性能的超材料结构。该模型整合了物理约束与深度学习，可自动生成满足特定功能需求的超材料拓扑。",
+      "date": "2026-08-11",
+      "url": "https://doi.org/10.1038/s43588-026-01032-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Generative design of bacteriophages with genome language models",
+      "authors": "King et al.",
+      "summary": "首次使用基因组语言模型完成噬菌体全基因组的生成式设计，成功生成具有目标宿主趋向性的活性噬菌体。该方法从整个基因组层面对复杂生物功能进行 AI 驱动设计，展示了生物材料工程的新前沿。",
+      "date": "2026-08-06",
+      "url": "https://doi.org/10.1126/science.aec2657",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "DynaCrys: Crystal Generation with Dynamic Space-Group Diffusion",
+      "authors": "Jin et al.",
+      "summary": "提出 DynaCrys 晶体生成模型，首次实现空间群、元素组成和几何结构的联合动态建模。该扩散模型可自动处理离散晶体学对称性与连续原子坐标，显著提升新型晶体材料的生成多样性与物理合理性。",
+      "date": "2026-08-07",
+      "url": "https://arxiv.org/abs/2608.07401v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Active Learning Guided Design Space Refinement for Scalable Multi-Objective Bayesian Optimization in Materials Discovery",
+      "authors": "Ntagiantas et al.",
+      "summary": "针对大规模离散设计空间下的多目标材料优化难题，提出主动学习引导的设计空间精炼方法，结合贝叶斯优化在有限评估预算下高效探索，避免在低价值区域浪费计算资源，加速先进材料发现。",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04651v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "A Physics-Informed Hybrid Neural Operator for Transient Magnetization Prediction in Power Magnetics",
+      "authors": "Zhu et al.",
+      "summary": "开发物理信息混合神经算子预测电力磁性材料的瞬态磁化行为，整合非正弦磁通、小环操作、直流偏置和温度变化等复杂工况。该方法替代稳态铁损公式，为高频高功率密度变换器中的磁性元件设计提供快速准确的 AI 辅助工具。",
+      "date": "2026-08-03",
+      "url": "https://arxiv.org/abs/2608.02965v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANT",
+      "release_date": "2026-07-24",
+      "highlight": "SWE-bench Verified 96% 登顶",
+      "tier": "S",
+      "x_buzz": "X 热议：代码能力碾压，终于有模型能跑完整个 repo"
+    },
+    {
+      "name": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "旗舰推理模型，GPQA 94.6%",
+      "tier": "S",
+      "x_buzz": "X 热议：最强但价格高，scheming 行为引发安全担忧"
+    },
+    {
+      "name": "Qwen3.8-Max",
+      "org": "阿里巴巴",
+      "org_short": "BABA",
+      "release_date": "2026-08-04",
+      "highlight": "2.4T 参数，对标 Fable 5",
+      "tier": "A",
+      "x_buzz": "X 热议：中国模型差距缩小至 3-6 个月，开源震撼"
+    },
+    {
+      "name": "Seed 2.1 Turbo",
+      "org": "ByteDance",
+      "org_short": "BD",
+      "release_date": "2026-08-10",
+      "highlight": "多模态加速版本",
+      "tier": "B",
+      "x_buzz": "X 热议：字节加速迭代，Turbo 系列性价比惊人"
+    },
+    {
+      "name": "Grok 4.6",
+      "org": "xAI",
+      "org_short": "XAI",
+      "release_date": "2026-08-06",
+      "highlight": "SWE-bench 86.6% 稳定提升",
+      "tier": "A",
+      "x_buzz": "X 热议：Musk 的模型终于追上第一梯队，工程能力强"
+    },
+    {
+      "name": "Sakana Fugu-Ultra",
+      "org": "Sakana AI",
+      "org_short": "SKN",
+      "release_date": "2026-08-01",
+      "highlight": "GPQA Diamond 95.5% 领先",
+      "tier": "S",
+      "x_buzz": "X 热议：日本黑马，科学推理榜单霸主令人意外"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "96.0",
+      "gpqa": "94.5",
+      "notes": "SWE-bench Verified 登顶，Fable 5（95%）与 Mythos 5（95.5%）紧随，Pro 榜 80%（自有脚手架）"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "96.2",
+      "gpqa": "94.6",
+      "notes": "旗舰推理模型，Terminal-Bench 82.7%，FrontierMath Tier 4 达 35.4%"
+    },
+    {
+      "model": "Sakana Fugu-Ultra",
+      "org": "Sakana AI",
+      "sweb": "N/A",
+      "gpqa": "95.5",
+      "notes": "GPQA Diamond 领先，科学推理专精，SWE-bench 数据未公开"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "95.0",
+      "gpqa": "93.2",
+      "notes": "曾被美国短暂出口管制（6月12日-7月1日），Pro 榜 80%，拒答率高影响实际得分"
+    },
+    {
+      "model": "Gemini 3.1 Pro Preview",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "94.1",
+      "notes": "2月发布时 GPQA 曾领先（94.3%），长上下文（1M+ tokens）优势明显"
+    },
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot AI",
+      "sweb": "93.4",
+      "gpqa": "N/A",
+      "notes": "2.8T 参数 MoE 模型，100 万 token 上下文，7月17日发布后需求激增暂停新订阅"
+    },
+    {
+      "model": "Qwen3.8-Max",
+      "org": "Alibaba",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "2.4T 参数，多项基准超越 Kimi K3，将于下周开源权重"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-25",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "days_left": 12
+    },
+    {
+      "name": "NeurIPS 2026 Workshop",
+      "event_type": "submission",
+      "deadline": "2026-08-29",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 16
+    },
+    {
+      "name": "NeurIPS 2026 Workshop",
+      "event_type": "notification",
+      "deadline": "2026-08-30",
+      "url": "https://neurips.cc/Conferences/2026",
+      "days_left": 17
+    },
+    {
+      "name": "AAMAS 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-02",
+      "url": "https://aamas2027.org/",
+      "days_left": 50
+    },
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-09-24",
+      "url": "https://iclr.cc/Conferences/2027",
+      "days_left": 42
+    }
+  ],
+  "stats": {
+    "news_count": 6,
+    "paper_count": 7,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

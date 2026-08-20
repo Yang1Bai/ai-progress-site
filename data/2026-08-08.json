@@ -1,0 +1,343 @@
+{
+  "date": "2026年8月8日",
+  "leaders": [
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic 首席执行官",
+      "quote": "AI 将在 2027 年在几乎所有领域超越人类",
+      "body": "Anthropic CEO 预测 AI 将在 2026 年底至 2027 年初达到诺贝尔奖级别能力，并在最近的采访中强调 AI 可能改变未来工作形态，但也可能创造更有意义的新工作岗位。",
+      "tags": [
+        "AGI",
+        "未来预测",
+        "就业"
+      ],
+      "initials": "DA",
+      "quote_date": "近期"
+    },
+    {
+      "name": "戴密斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 主席、Alphabet 首席科学家",
+      "quote": "我们站在奇点的山脚下",
+      "body": "Google DeepMind 联合创始人在卸任日常运营后担任 Alphabet 首席科学家，近期表示 AGI 的影响将是工业革命的 10 倍，并将在十年内发生而非一个世纪。同时 Google 将 AI 领导层集中到加州总部以加速与 OpenAI 和 Anthropic 的竞争。",
+      "tags": [
+        "AGI",
+        "组织变革"
+      ],
+      "initials": "DH",
+      "quote_date": "7月下旬"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI 首席执行官",
+      "quote": "我们已经进入奇点之中",
+      "body": "OpenAI CEO 在 7 月 25 日播客中表示人类已身处奇点，并在近期承认此前关于 AI 经济影响的预测\"相当错误\"。OpenAI、Anthropic 和 Google DeepMind 三家 CEO 首次在监管框架上达成共识，呼吁尽快建立第三方测试和监管体系。",
+      "tags": [
+        "奇点",
+        "监管",
+        "经济影响"
+      ],
+      "initials": "SA",
+      "quote_date": "7月25日"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 进行重大组织调整：Demis Hassabis 卸任日常运营转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接管 AI 研究及运营，AI 领导层集中至加州总部以加速与 OpenAI、Anthropic 竞争。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>NVIDIA Labs</strong> 开源 <strong>NOOA</strong>（NVIDIA Object-Oriented Agents）框架，这是一个与模型无关的 Python 框架，用于构建 AI Agent，简化跨模型的智能体开发工作流。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#开源",
+        "#Agent"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "OpenAI 下一代模型 <strong>Astra</strong> 以 2000 美元计算成本解决了 10 个数学开放性问题，标志着 AI 从执行任务跨越到原创研究的里程碑，Fields 奖得主表示将推荐相关证明发表于顶级期刊。",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026",
+      "importance": "breaking",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "stale_2026-08-01"
+    },
+    {
+      "title": "",
+      "body": "<strong>Rippling</strong> 推出 <strong>AI Spend Console</strong> 产品，追踪员工及团队的 AI 使用支出，反映企业开始严格管理 AI 工具成本和使用情况。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Anaconda</strong> 于 8 月 4 日收购 AI 安全初创公司 <strong>Enkrypt AI</strong>，整合其覆盖 300+ 攻击类别的部署前红队测试、运行时护栏及 NIST/EU AI Act 合规自动化能力。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#安全",
+        "#政策"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Mistral</strong> 于 8 月 4 日发布 <strong>Shieldstral</strong>，这是一个 30 亿参数的多模态安全分类器，用于内容审核和安全过滤。",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#安全",
+        "#多模态"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "美国第九巡回法院推翻下级法院对 <strong>Perplexity</strong> Comet 购物 Agent 的禁令，裁定是用户而非 Perplexity\"访问\"了 Amazon.com，不构成联邦计算机入侵法违规。",
+      "url": "",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#Agent"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "强化学习引导晶体生成设计",
+      "body": "Nature Machine Intelligence 发表研究展示如何利用强化学习引导生成模型进行晶体结构设计，突破传统材料发现方法的限制，为新材料快速筛选提供新范式。",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0"
+    },
+    {
+      "title": "噬菌体基因组生成式设计",
+      "body": "Science 报道首次使用基因组语言模型生成完整噬菌体基因组，成功设计出具有目标宿主趋向性的可存活噬菌体，这是生成式 AI 在整个基因组层面的重大应用突破。",
+      "url": "https://doi.org/10.1126/science.aec2657"
+    },
+    {
+      "title": "纯移位 NMR 谱深度学习重建",
+      "body": "Nature Communications 展示利用多光谱输入和联合损失函数的深度学习方法获得高质量纯移位 NMR 谱，大幅提升复杂分子结构表征效率。",
+      "url": "https://doi.org/10.1038/s41467-026-76276-y"
+    },
+    {
+      "title": "通用机器学习力场基准测试",
+      "body": "Nature Computational Science 发布 UniFFBench 基准，针对实验测量评估通用机器学习力场性能，为材料模拟 AI 模型提供标准化评估框架。",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4"
+    },
+    {
+      "title": "神经网络波函数局部赝势加速",
+      "body": "Nature Computational Science 两篇论文展示如何利用局部赝势加速基于神经网络的量子蒙特卡洛模拟，显著提升材料电子结构计算的效率和精度。",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4"
+    },
+    {
+      "title": "信息超材料生成模型设计",
+      "body": "Nature Computational Science 提出用于信息超材料设计的生成模型，能够自动优化电磁特性，为功能材料智能设计开辟新途径。",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "该研究提出强化学习框架引导生成式模型进行晶体结构设计，通过策略优化加速新材料发现过程。方法结合深度生成网络与强化学习奖励机制，实现对目标性质（如带隙、形成能）的定向优化，为材料逆向设计提供高效 AI 工具。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science",
+      "title": "Generative design of bacteriophages with genome language models",
+      "authors": "King et al.",
+      "summary": "首次报道利用基因组语言模型生成完整噬菌体基因组的研究。团队训练大规模 Transformer 模型学习噬菌体基因组语法，成功设计出具有特定宿主趋向性的可存活噬菌体，验证了 AI 在全基因组尺度上的生成设计能力，为合成生物学开辟新路径。",
+      "date": "2026-08-06",
+      "url": "https://doi.org/10.1126/science.aec2657",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Communications",
+      "title": "High-quality pure shift NMR spectra by deep learning using multi-spectral input and joint loss functions",
+      "authors": "Cai et al.",
+      "summary": "开发深度学习方法从多光谱输入（常规 NMR、COSY 等）重建高质量纯移位 NMR 谱。模型采用联合损失函数优化多任务学习，大幅缩短复杂分子结构表征时间，为有机化学、药物化学中的分子鉴定提供实用 AI 工具。",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s41467-026-76276-y",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "UniFFBench: evaluating universal machine learning force fields against experimental measurements",
+      "authors": "Mannan et al.",
+      "summary": "构建首个针对实验测量的通用机器学习力场（MLFF）基准测试集 UniFFBench，涵盖晶格常数、弹性模量、声子谱等多种实验可测性质。该基准为评估 MACE、M3GNet、CHGNet 等 MLFF 模型提供标准化框架，推动材料模拟 AI 走向实验验证闭环。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01019-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "et al.",
+      "summary": "引入局部赝势加速神经网络量子蒙特卡洛（NN-QMC）计算。传统全电子 NN-QMC 计算成本随原子序数快速增长，该工作通过高精度局部赝势替代核心电子，在保持化学精度前提下将重元素体系计算效率提升数倍，为材料电子结构 AI 模拟扫清工程障碍。",
+      "date": "2026-07-13",
+      "url": "https://doi.org/10.1038/s43588-026-01027-4",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "开发生成模型用于信息超材料（如电磁超表面、光子晶体）的逆向设计。模型学习材料几何结构与电磁响应映射，自动生成满足特定透射/反射谱的超材料构型。方法结合变分自编码器与物理约束，加速功能超材料从需求到设计的闭环，为新一代光学、射频器件开发提供 AI 引擎。",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+      "authors": "Smith et al.",
+      "summary": "发布开源平台 CheMLFlow，用于构建和执行端到端、高通量、智能体化的科学与技术工作流。平台针对科学机器学习开发中的常见瓶颈（数据获取、预处理、模型训练、部署）提供统一解决方案，特别适用于化学信息学与材料信息学应用场景，降低跨学科 AI 研究门槛。",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04942v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+      "authors": "Pyle et al.",
+      "summary": "提出 PolymerGPT，一个基于解码器的 GPT 模型用于聚合物多性质优化生成设计。模型以 SMILES 表示训练，实现同时优化力学强度、热稳定性、可加工性等多个目标性质的聚合物分子生成，填补单性质优化方法的空白，为高性能聚合物材料智能设计提供新工具。",
+      "date": "2026-08-02",
+      "url": "https://arxiv.org/abs/2608.01431v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-24",
+      "highlight": "新旗舰模型，接近 Fable 5 级智能但成本减半",
+      "tier": "S",
+      "x_buzz": "X 热议：Opus 5 代码和 Agent 能力显著提升，effort dial 让用户灵活权衡成本与性能"
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "价格暴降 80% 至 $0.20/M tokens",
+      "tier": "A",
+      "x_buzz": "X 热议：Luna 降价将高质量推理成本打到历史新低，API 开发者狂欢"
+    },
+    {
+      "name": "Muse Spark 1.2",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-08-05",
+      "highlight": "100 万上下文窗口，支持全仓库训练",
+      "tier": "A",
+      "x_buzz": "X 热议：Spark 1.2 的并行工具调用和上下文压缩让长代码库分析更流畅"
+    },
+    {
+      "name": "Qwen3.8 Max",
+      "org": "阿里巴巴",
+      "org_short": "QWEN",
+      "release_date": "2026-08-02",
+      "highlight": "Qwen 家族最新旗舰模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Qwen3.8 Max 在中文推理和代码生成上表现亮眼，开源社区高度关注"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "更高效，减少冗余推理步骤",
+      "tier": "B",
+      "x_buzz": "X 热议：Flash 3.6 在多步任务中工具调用更精准，成本控制更友好"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "SWE-bench Verified 93.4% 顶级表现",
+      "tier": "S",
+      "x_buzz": "X 热议：K3 在代码 Agent 基准上力压 GPT-5.6，中国 AI 实力再证明"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot",
+      "sweb": "93.4",
+      "gpqa": "93.5",
+      "notes": "开源权重模型中 SWE-bench Verified 和 GPQA Diamond 双料第一，代码 Agent 和科学推理均达顶尖水平"
+    },
+    {
+      "model": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "sweb": "93.0",
+      "gpqa": "N/A",
+      "notes": "Luna 为成本优化版本，Pro/Sol 版本 GPQA 预计更高；SWE-bench Verified 接近 K3"
+    },
+    {
+      "model": "Claude Mythos Preview",
+      "org": "Anthropic",
+      "sweb": "N/A",
+      "gpqa": "94.6",
+      "notes": "GPQA Diamond 当前最高分，推理模式下研究生级科学推理能力超越人类专家基线（65%）"
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "org": "Anthropic",
+      "sweb": "88.6",
+      "gpqa": "N/A",
+      "notes": "强力旗舰模型，SWE-bench Verified 排名前列，Opus 5（7月24日发布）分数预计更高"
+    },
+    {
+      "model": "Gemini 3.1 Pro Preview",
+      "org": "Google",
+      "sweb": "80.6",
+      "gpqa": "94.1",
+      "notes": "GPQA Diamond 94.1% 接近饱和，SWE-bench Verified 80%+ 表现稳定；Gemini 3.5 Pro 仍未发布"
+    },
+    {
+      "model": "Grok 4.5",
+      "org": "xAI",
+      "sweb": "86.6",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 86.6% 排名前五，前十中最便宜模型（$2.00/M tokens）"
+    }
+  ],
+  "stats": {
+    "news_count": 7,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}

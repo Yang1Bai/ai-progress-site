@@ -1,0 +1,366 @@
+{
+  "date": "2026年8月9日",
+  "leaders": [
+    {
+      "name": "德米斯·哈萨比斯",
+      "name_en": "Demis Hassabis",
+      "role": "Google DeepMind 联席 CEO",
+      "quote": "我们需要美国领导的 AI 联盟",
+      "body": "哈萨比斯在 G7 峰会闭门会议上与 Anthropic CEO 达里奥·阿莫代共同呼吁建立美国主导的国际 AI 标准与规则联盟，应对先进 AI 模型网络安全能力带来的挑战。8月7日宣布卸任 CEO 职务，转任 DeepMind 主席及 Alphabet 首席科学家。",
+      "tags": [
+        "AI治理",
+        "国际合作",
+        "安全"
+      ],
+      "initials": "DH",
+      "quote_date": "6月17日"
+    },
+    {
+      "name": "达里奥·阿莫代",
+      "name_en": "Dario Amodei",
+      "role": "Anthropic CEO",
+      "quote": "我们可能需要选择放慢步伐",
+      "body": "阿莫代支持超过1200名 AI 从业者联名信，呼吁美国政府建立可「审慎放缓」前沿 AI 开发的国际机制。Anthropic 内部递归自我改进（RSI）研究表明 AI 研发自动化可能超出单一实验室或国家的管理能力。",
+      "tags": [
+        "AI安全",
+        "递归改进",
+        "政策"
+      ],
+      "initials": "DA",
+      "quote_date": "7月下旬"
+    },
+    {
+      "name": "萨姆·奥特曼",
+      "name_en": "Sam Altman",
+      "role": "OpenAI CEO",
+      "quote": "我们正处于漫长 AI 革命的第一局",
+      "body": "奥特曼在 G7 峰会与各国元首及科技领袖共同讨论 AI 机遇与挑战。OpenAI 正式背书员工主导的「审慎节奏」倡议，首席科学家 Jakub Pachocki 与首席研究官 Mark Chen 均签署该声明。",
+      "tags": [
+        "AGI",
+        "前沿模型",
+        "治理"
+      ],
+      "initials": "SA",
+      "quote_date": "近期"
+    }
+  ],
+  "news": [
+    {
+      "title": "",
+      "body": "<strong>Google DeepMind</strong> 重大人事调整：哈萨比斯卸任 CEO 转任主席兼 Alphabet 首席科学家，Koray Kavukcuoglu 接任高级副总裁，伦敦编码团队迁至山景城，两大洲双中心架构终结",
+      "url": "https://note.com/hirokimiyano/n/ndfead5ff12e3",
+      "importance": "major",
+      "tags": [
+        "#政策",
+        "#LLM"
+      ],
+      "_freshness": "ok"
+    },
+    {
+      "title": "",
+      "body": "<strong>OpenAI</strong> 改进 ChatGPT 中的 GPT-5.6 Sol 模型，提升响应质量与稳定性；同时美国商务部审查中国 AI 公司通过离岸路径获取英伟达芯片",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM",
+        "#政策"
+      ],
+      "_freshness": "broken_403"
+    },
+    {
+      "title": "",
+      "body": "<strong>台积电</strong>将美国总投资计划提升至 2650 亿美元，并将 2026 年资本支出预算从 600 亿美元上调至 640 亿美元，强化 AI 芯片供应链",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#芯片"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>英伟达实验室</strong>开源 NOOA（NVIDIA Object-Oriented Agents）框架，一个与模型无关的 Python AI 智能体开发框架",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#开源",
+        "#Agent"
+      ],
+      "_freshness": "no_url"
+    },
+    {
+      "title": "",
+      "body": "<strong>Rippling</strong> 推出 AI Spend Console 产品，可追踪员工和团队的 AI 支出，帮助企业管理 AI 成本",
+      "url": "",
+      "importance": "normal",
+      "tags": [
+        "#LLM"
+      ],
+      "_freshness": "no_url"
+    }
+  ],
+  "science": [
+    {
+      "title": "AI 设计噬菌体基因组",
+      "body": "Science 报道首个用基因组语言模型生成设计完整噬菌体基因组的案例，实现目标宿主特异性，展示 AI 在合成生物学中的突破性应用",
+      "url": "https://doi.org/10.1126/science.aec2657"
+    },
+    {
+      "title": "快离子导体化学空间解码",
+      "body": "Science Advances 提出描述符引导的迁移学习框架，用于快速离子导体的离子迁移率预测，克服实验数据集晶体结构不精确的挑战，加速下一代高性能电池材料发现",
+      "url": "https://doi.org/10.1126/sciadv.aee4959"
+    },
+    {
+      "title": "DNA 纳米机器人新进展",
+      "body": "ScienceDaily 7月31日报道：DNA 机器人作为可编程微型机器，有望在药物递送、病毒追踪和分子级设备构建领域发挥作用，借鉴传统机器人学理念实现突破",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "AI 加速超新星宇宙距离测量",
+      "body": "6月29日报道新 AI 框架可分析 Ia 型超新星图像并建模环境，以前所未有的细节估算宇宙距离，有望揭示暗能量秘密",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "光-物质混合粒子驱动 AI 计算",
+      "body": "5月18日宾夕法尼亚大学研究人员创建混合光-物质粒子，可显著加速 AI 计算同时降低能耗，有望替代部分电子计算流程",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    },
+    {
+      "title": "NASA AI 太空芯片测试",
+      "body": "NASA 正在测试下一代抗辐射太空计算芯片，可赋予航天器在深空独立运行的能力，让航天器能够自主思考",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+    }
+  ],
+  "papers": [
+    {
+      "venue_type": "nature",
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning steers generative crystal design",
+      "authors": "Cao et al.",
+      "summary": "强化学习引导生成式晶体设计，通过 RL 算法优化晶体结构生成过程，为材料发现提供全新范式，可加速新型功能材料的设计与合成预测",
+      "date": "2026-08-03",
+      "url": "https://doi.org/10.1038/s42256-026-01282-0",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Generative model for information metamaterial design",
+      "authors": "Hou et al.",
+      "summary": "提出信息超材料设计的生成模型，利用深度学习自动探索超材料结构空间，实现特定电磁响应的材料设计，为功能性超材料的逆向设计开辟新路径",
+      "date": "2026-07-14",
+      "url": "https://doi.org/10.1038/s43588-026-01025-6",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "nature",
+      "venue": "Nature Computational Science",
+      "title": "Local pseudopotentials accelerate neural network wavefunction simulations",
+      "authors": "Fu et al.",
+      "summary": "局域赝势加速神经网络波函数模拟，结合量子蒙特卡洛与深度学习，大幅提升材料电子结构计算效率，为复杂材料体系的第一性原理计算提供新工具",
+      "date": "2026-07-10",
+      "url": "https://doi.org/10.1038/s43588-026-01008-7",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "science",
+      "venue": "Science Advances",
+      "title": "Decoding the chemical space of fast-ion conductors via a descriptor-guided transfer learning framework",
+      "authors": "Wang et al.",
+      "summary": "描述符引导的迁移学习框架解码快离子导体化学空间，预训练模型克服实验数据晶体结构不精确问题，准确预测离子迁移率，加速高性能固态电解质与电池材料发现",
+      "date": "2026-08-07",
+      "url": "https://doi.org/10.1126/sciadv.aee4959",
+      "is_week_pick": true
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+      "authors": "Smith et al.",
+      "summary": "开源化学信息学与材料信息学平台 CheMLFlow，支持端到端高通量智能体工作流构建，解决科学机器学习开发中数据获取、特征工程与模型部署的常见瓶颈",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04942v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Active Learning Guided Design Space Refinement for Scalable Multi-Objective Bayesian Optimization in Materials Discovery",
+      "authors": "Ntagiantas et al.",
+      "summary": "主动学习引导的设计空间优化框架，针对大规模离散材料空间的多目标贝叶斯优化，通过设计空间精炼避免低价值区域评估，在有限预算下显著提升材料发现效率",
+      "date": "2026-08-05",
+      "url": "https://arxiv.org/abs/2608.04651v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "PolymerGPT: Multi-property Optimization with a Decoder-Based GPT Model for Generative Polymer Design",
+      "authors": "Pyle et al.",
+      "summary": "基于解码器的 GPT 模型 PolymerGPT 用于多属性优化的生成式聚合物设计，突破现有方法单属性优化限制，可同时优化聚合物材料的多个目标性质",
+      "date": "2026-08-02",
+      "url": "https://arxiv.org/abs/2608.01431v1",
+      "is_week_pick": false
+    },
+    {
+      "venue_type": "conf",
+      "venue": "arXiv",
+      "title": "Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides",
+      "authors": "Untarabut et al.",
+      "summary": "图神经网络有序-无序迁移学习预测高熵钙钛矿氧化物的形成能与 HOMO-LUMO 能隙，克服高熵材料化学无序与组分空间巨大的挑战，快速评估功能性质",
+      "date": "2026-07-31",
+      "url": "https://arxiv.org/abs/2607.29510v1",
+      "is_week_pick": false
+    }
+  ],
+  "models": [
+    {
+      "name": "Qwen3.8 Max",
+      "org": "阿里巴巴",
+      "org_short": "BABA",
+      "release_date": "2026-08-02",
+      "highlight": "阿里最新旗舰模型",
+      "tier": "A",
+      "x_buzz": "X 热议：阿里在多模态与长上下文能力上持续发力"
+    },
+    {
+      "name": "Muse Spark 1.2",
+      "org": "Meta",
+      "org_short": "META",
+      "release_date": "2026-08-05",
+      "highlight": "Meta 最新开源力作",
+      "tier": "A",
+      "x_buzz": "X 热议：Meta 在开源社区持续投入，Spark 系列性价比突出"
+    },
+    {
+      "name": "Claude Opus 5",
+      "org": "Anthropic",
+      "org_short": "ANTH",
+      "release_date": "2026-07-24",
+      "highlight": "SWE-bench Verified 96%",
+      "tier": "S",
+      "x_buzz": "X 热议：Opus 5 在编程基准上登顶，代码能力无敌"
+    },
+    {
+      "name": "GPT-5.6 Luna",
+      "org": "OpenAI",
+      "org_short": "OAI",
+      "release_date": "2026-07-09",
+      "highlight": "GPT-5.6 系列中档版本",
+      "tier": "S",
+      "x_buzz": "X 热议：Luna 在速度与成本间取得平衡，企业首选"
+    },
+    {
+      "name": "Kimi K3",
+      "org": "Moonshot AI",
+      "org_short": "MOON",
+      "release_date": "2026-07-16",
+      "highlight": "2.8T 参数开源旗舰",
+      "tier": "A",
+      "x_buzz": "X 热议：K3 以 2.8 万亿参数成为史上最大开源 LLM"
+    },
+    {
+      "name": "Gemini 3.6 Flash",
+      "org": "Google DeepMind",
+      "org_short": "GOOG",
+      "release_date": "2026-07-21",
+      "highlight": "轻量级多模态快速模型",
+      "tier": "A",
+      "x_buzz": "X 热议：Flash 系列持续优化延迟，但与 Anthropic 差距拉大"
+    }
+  ],
+  "benchmarks": [
+    {
+      "model": "Claude Opus 5",
+      "org": "Anthropic",
+      "sweb": "96.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Verified 领跑者，SWE-bench Pro 达 79.2%，编程能力天花板"
+    },
+    {
+      "model": "Claude Mythos Preview",
+      "org": "Anthropic",
+      "sweb": "95.5",
+      "gpqa": "94.6",
+      "notes": "GPQA Diamond 最高分，当前最强推理模型（暂不可用）"
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "LLM Stats 综合评分 57.2 领先，Cerebras 推理达 750 tok/s，官方未公布基准"
+    },
+    {
+      "model": "Claude Fable 5",
+      "org": "Anthropic",
+      "sweb": "95.0",
+      "gpqa": "N/A",
+      "notes": "SWE-bench Pro 高达 80.3%（暂停服务），代码生成顶级"
+    },
+    {
+      "model": "Gemini 3.6 Flash",
+      "org": "Google",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "轻量快速，但 Gemini 3.5 Pro 被评为仅 Opus 4.5 级别，落后前沿"
+    },
+    {
+      "model": "Kimi K3",
+      "org": "Moonshot",
+      "sweb": "N/A",
+      "gpqa": "N/A",
+      "notes": "2.8T 参数最大开源模型，SWE Marathon 第一，100 万 token 上下文"
+    },
+    {
+      "model": "GLM-5.2",
+      "org": "智谱 AI",
+      "sweb": "62.1",
+      "gpqa": "88.5",
+      "notes": "开源权重最强之一，SWE-bench Pro 62.1%，168 tok/s 推理"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICLR 2027",
+      "event_type": "submission",
+      "deadline": "2026-10-01",
+      "url": "https://iclr.cc/",
+      "days_left": 53
+    },
+    {
+      "name": "AAAI 2027",
+      "event_type": "submission",
+      "deadline": "2026-08-15",
+      "url": "https://aaai.org/conference/aaai/aaai-27/",
+      "days_left": 6
+    },
+    {
+      "name": "CVPR 2027",
+      "event_type": "submission",
+      "deadline": "2026-11-15",
+      "url": "https://cvpr.thecvf.com/",
+      "days_left": 98
+    },
+    {
+      "name": "AI4Science 2026 (Mainz)",
+      "event_type": "submission",
+      "deadline": "2026-08-20",
+      "url": "https://ai4sciweek.org/",
+      "days_left": 11
+    },
+    {
+      "name": "NeurIPS 2026 Journal-to-Conference Track",
+      "event_type": "submission",
+      "deadline": "2026-09-26",
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "days_left": 48
+    }
+  ],
+  "stats": {
+    "news_count": 5,
+    "paper_count": 8,
+    "leader_count": 3,
+    "science_count": 6
+  }
+}
