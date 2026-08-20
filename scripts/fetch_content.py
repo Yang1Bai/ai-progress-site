@@ -107,7 +107,7 @@ def _parse_arxiv_entry(entry, papers: list, seen_ids: set, cutoff: datetime) -> 
     })
 
 
-def fetch_arxiv_papers(today_dt: datetime, days_back: int = 30, max_per_query: int = 8) -> list[dict]:
+def fetch_arxiv_papers(today_dt: datetime, days_back: int = 45, max_per_query: int = 12) -> list[dict]:
     """Query arXiv API for recent AI4Material papers via category and keyword searches."""
     cutoff = today_dt - timedelta(days=days_back)
     papers: list[dict] = []
@@ -138,7 +138,7 @@ def fetch_arxiv_papers(today_dt: datetime, days_back: int = 30, max_per_query: i
         "cat:cond-mat.supr-con+AND+cat:cs.LG",
     ]
     for cq in cat_queries:
-        if len(papers) >= 16:
+        if len(papers) >= 24:
             break
         for entry in _do_query(cq):
             _parse_arxiv_entry(entry, papers, seen_ids, cutoff)
@@ -149,15 +149,20 @@ def fetch_arxiv_papers(today_dt: datetime, days_back: int = 30, max_per_query: i
         "ti:neural+network+AND+(ti:battery+OR+ti:polymer+OR+ti:alloy)",
         "ti:generative+AND+(ti:molecule+OR+ti:material+OR+ti:crystal+OR+ti:catalyst)",
         "ti:graph+neural+AND+(ti:material+OR+ti:crystal+OR+ti:perovskite)",
+        "ti:large+language+model+AND+(ti:material+OR+ti:chemistry+OR+ti:drug)",
+        "ti:foundation+model+AND+(ti:material+OR+ti:crystal+OR+ti:synthesis)",
+        "ti:active+learning+AND+(ti:material+OR+ti:molecule+OR+ti:catalyst)",
+        "ti:transfer+learning+AND+(ti:material+OR+ti:chemistry)",
+        "ti:diffusion+AND+(ti:material+OR+ti:crystal+OR+ti:molecule+OR+ti:protein)",
     ]
     for kq in kw_queries:
-        if len(papers) >= 24:
+        if len(papers) >= 36:
             break
         for entry in _do_query(kq):
             _parse_arxiv_entry(entry, papers, seen_ids, cutoff)
 
     print(f"[arxiv] 找到 {len(papers)} 篇近 {days_back} 天内的 AI4Material 论文", flush=True)
-    return papers[:24]
+    return papers[:30]
 
 
 # ---------------------------------------------------------------------------
@@ -214,7 +219,7 @@ _JOURNAL_VENUE_MAP = {
 }
 
 
-def fetch_journal_papers(today_dt: datetime, days_back: int = 30, max_results: int = 12) -> list[dict]:
+def fetch_journal_papers(today_dt: datetime, days_back: int = 45, max_results: int = 20) -> list[dict]:
     """Fetch recent AI4Material papers from high-impact journals via CrossRef API."""
     from_date = (today_dt - timedelta(days=days_back)).strftime("%Y-%m-%d")
 
@@ -335,7 +340,7 @@ PAPERS_SUPPLEMENT = """
 ---
 
 **任务：**
-1. 从以上列表中挑选总共 6-8 篇最相关、最重要的论文填入 papers 字段。
+1. 从以上列表中挑选总共至少 10 篇最相关、最重要的论文填入 papers 字段。
 2. 优先级：高影响力期刊（Nature/Science 家族）> arXiv。
 3. 为每篇写 40-80 字中文摘要（summary 字段），重点说明 AI 方法 + 材料应用。
 4. 选出 1 篇 is_week_pick=true（优先选期刊论文）。
@@ -362,7 +367,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - tags (1-3 个短标签), initials (英文姓名缩写 2 字母大写)
    - quote_date (言论发表日期，格式 "M月D日"，如 "4月26日"；如不确定则写 "近期")
 
-2. **news**：今日（{today} 当天或前一天，即过去 48 小时内）AI 重要新闻，不限数量（有多少新鲜的就列多少，宁少勿旧）。**超过 48 小时的旧新闻不得收录**。每条提供：
+2. **news**：今日（{today} 当天或前一天，即过去 48 小时内）AI 重要新闻，**目标 10-15 条**（有多少新鲜的就列多少，宁少勿旧）。请多搜几次不同关键词（OpenAI, Anthropic, Google, Meta, AI chip, LLM, AI safety, AI policy, 开源模型, AI agent 等）以覆盖更多资讯。**超过 48 小时的旧新闻不得收录**。每条提供：
    - title (可省略, 留空字符串)
    - body (一句完整中文新闻概述, 30-60 字, 可包含 <strong>...</strong> 标签突出关键词，但只能使用 <strong>)
    - url (该新闻的原文链接，必须是真实存在的 https:// URL；如实在无法确认链接则留空字符串 "")
@@ -370,20 +375,20 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - tags (1-2 个话题标签列表，从以下选择: ["#LLM", "#多模态", "#机器人", "#安全", "#芯片", "#材料", "#生物", "#政策", "#开源", "#Agent"])
    - _freshness: 新鲜度标记，格式为 "ok_YYYY-MM-DD"（新鲜）或 "stale_YYYY-MM-DD"（超过48小时的旧新闻），如不知道日期则 "ok" 或 "stale"
 
-3. **science**：5-6 条最近 AI4Science 进展（过去 7 天）。每条提供：
+3. **science**：至少 10 条最近 AI4Science 进展（过去 7 天），覆盖不同科学领域（物理、化学、生物、医疗、天文、材料等）。每条提供：
    - title (短标题, 中文 <15 字)
    - body (1-2 句中文说明, 40-80 字)
    - url (原始论文/新闻链接，必须是真实 https:// URL；无法确认则留空字符串 "")
 
-5. **benchmarks**：当前 5-7 个最顶级 AI 大模型的主要基准分数（基于 web_search 最新数据）。每个：
+5. **benchmarks**：当前至少 10 个主流 AI 大模型的最新基准分数（基于 web_search 最新数据），覆盖不同机构（OpenAI, Anthropic, Google, Meta, Mistral, DeepSeek, xAI, 阿里, 字节等）。每个：
    - model (模型名), org (机构简称), sweb (SWE-bench Verified 百分比, 如 "96.2"), gpqa (GPQA Diamond 百分比, 如 "94.3"), notes (1句亮点说明，包含其他关键基准如HLE/Terminal-Bench等)
    - 只列当前各家最新旗舰模型，不列旧版本；如某项无公开数据，填 "N/A"
 
-6. **conferences**：未来 3 个月内 AI/ML 顶级会议的重要截止日期（论文提交或通知截止）。每个：
+6. **conferences**：未来 6 个月内 AI/ML 顶级会议的重要截止日期（论文提交或通知截止），至少 10 条。每个：
    - name (会议名, 如 "NeurIPS 2026"), event_type ("submission"|"notification"|"camera_ready"), deadline ("YYYY-MM-DD"), url (官网), days_left (距今天 {today} 的天数, 整数)
    - 只列真实的、已公布的截止日期，不要猜测
 
-4. **papers**：6-8 篇 AI4Material（AI 用于材料科学/化学/能源/催化）相关论文，必须真实存在。
+4. **papers**：至少 10 篇 AI4Material（AI 用于材料科学/化学/能源/催化）相关论文，必须真实存在。
    **严格要求：必须是过去 14 天（两周）内发表的**，每篇论文的 date 字段必须是 {today} 往前推14天内的日期，否则不得收录。
    如果找不到足够的最新论文，宁可只返回1-2篇，绝对不能收录14天以前的论文。
    严格定义：论文核心必须是 AI/ML 方法用于以下任一方向：
@@ -407,7 +412,7 @@ USER_PROMPT_TEMPLATE = """今天是 {today}（北美东部时区）。请用 web
    - date ("YYYY-MM-DD"), url (DOI / 会议 / arXiv 链接)
    - is_week_pick (true | false): 每次只能有 1 篇为 true，选出本周最重要的材料 AI 论文
 
-5. **models**：本周发布或更新的 top AI 模型，4-6 个条目。每个提供：
+5. **models**：最近 2 周内发布或更新的 AI 模型，至少 10 个条目（开源模型也算，覆盖不同机构）。每个提供：
    - name (模型名称), org (机构全名), org_short (机构缩写 2-4 字母大写)
    - release_date ("YYYY-MM-DD"), highlight (一句中文亮点 <20 字)
    - tier ("S" | "A" | "B"): S=顶级旗舰, A=强力, B=实用
@@ -484,13 +489,13 @@ def call_claude(today: str, arxiv_papers: list[dict] | None = None) -> dict:
 
     msg = client.messages.create(
         model=MODEL,
-        max_tokens=6000,
+        max_tokens=10000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_prompt}],
         tools=[{
             "type": "web_search_20250305",
             "name": "web_search",
-            "max_uses": 12,
+            "max_uses": 25,
         }],
     )
 
@@ -773,13 +778,13 @@ def render_news(items):
     out = []
     # Find first breaking non-stale item or use index 0 as headline
     headline_idx = 0
-    for i, it in enumerate(items[:12]):
+    for i, it in enumerate(items[:15]):
         f = it.get("_freshness", "")
         if it.get("importance") == "breaking" and not f.startswith("stale_"):
             headline_idx = i
             break
 
-    for i, it in enumerate(items[:12]):
+    for i, it in enumerate(items[:15]):
         body = sanitize_strong(it.get("body", ""))
         url = (it.get("url") or "").strip()
         tags = it.get("tags") or []
@@ -992,7 +997,7 @@ def render_top3(news_items, papers_items, today_iso: str = ""):
 
 def render_science(items):
     out = []
-    for i, it in enumerate(items[:6]):
+    for i, it in enumerate(items[:12]):
         icon = SCIENCE_ICONS[i % len(SCIENCE_ICONS)]
         url = (it.get("url") or "").strip()
         link_html = ""
@@ -1011,7 +1016,7 @@ def render_science(items):
 
 def render_papers(items):
     # 把 week pick 排最前
-    sorted_items = sorted(items[:8], key=lambda x: 0 if x.get("is_week_pick") else 1)
+    sorted_items = sorted(items[:12], key=lambda x: 0 if x.get("is_week_pick") else 1)
     out = []
     for it in sorted_items:
         vt = (it.get("venue_type") or "conf").lower()
@@ -1047,7 +1052,7 @@ def render_papers(items):
 
 def render_models(items):
     out = []
-    for it in (items or [])[:8]:
+    for it in (items or [])[:12]:
         tier = (it.get("tier") or "B").upper()
         if tier not in ("S", "A", "B"):
             tier = "B"
@@ -1067,7 +1072,7 @@ def render_benchmarks(items):
     if not items:
         return '      <tr><td colspan="5" style="text-align:center;color:#3d4d6a;padding:24px;">暂无数据</td></tr>'
     rows = []
-    for it in items[:8]:
+    for it in items[:12]:
         def score_cell(v):
             v = str(v or "N/A")
             if v == "N/A":
@@ -1098,7 +1103,7 @@ def render_conferences(items):
         key=lambda x: (0 if (x.get("days_left", 0) or 0) >= 0 else 1,
                        x.get("days_left", 999) if (x.get("days_left", 0) or 0) >= 0 else 0)
     )
-    for it in sorted_items[:8]:
+    for it in sorted_items[:12]:
         days = it.get("days_left", 0)
         if isinstance(days, (int, float)):
             if days < 0:
@@ -1658,13 +1663,13 @@ def main():
     # 先从 arXiv API + Semantic Scholar 拉最新论文
     arxiv_papers: list[dict] = []
     try:
-        journal_papers_fetched = fetch_journal_papers(now, days_back=30)
-        arxiv_fetched = fetch_arxiv_papers(now, days_back=30)
+        journal_papers_fetched = fetch_journal_papers(now, days_back=45)
+        arxiv_fetched = fetch_arxiv_papers(now, days_back=45)
         arxiv_papers = journal_papers_fetched + arxiv_fetched  # 期刊优先
     except Exception as e:
         print(f"[fetch] 论文获取失败（将依赖 web_search 备用）: {e}", flush=True)
         try:
-            arxiv_papers = fetch_arxiv_papers(now, days_back=30)
+            arxiv_papers = fetch_arxiv_papers(now, days_back=45)
         except Exception as e2:
             print(f"[arxiv] 也失败: {e2}", flush=True)
 
