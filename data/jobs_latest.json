@@ -1,16 +1,246 @@
 {
   "date": "2026-08-20",
   "jobs": {
-    "industry": [],
-    "faculty": [
+    "industry": [
       {
-        "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
-        "org": "University of Texas at Austin",
-        "location": "Austin, TX, USA",
-        "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
+        "title": "Research Engineer, Materials Science",
+        "org": "Google DeepMind",
+        "location": "Mountain View, CA, USA",
+        "url": "https://job-boards.greenhouse.io/deepmind/jobs/7339890",
         "deadline": "open",
         "tags": [
           "ML",
+          "materials",
+          "AI-driven discovery"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "2026 New College Grad - Computational Chemist / Materials Scientist (Machine Learning – Reactive MLIPs)",
+        "org": "Applied Materials",
+        "location": "Santa Clara, CA, USA",
+        "url": "https://www.indeed.com/q-Materials-Science-Machine-Learning-jobs.html",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "chemistry",
+          "computational"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Researcher in AI-Enabled Autonomous Materials Discovery",
+        "org": "Argonne National Laboratory",
+        "location": "Lemont, IL, USA",
+        "url": "https://academicwomen.com/job/employer/view?name=Argonne+National+Laboratory",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials",
+          "autonomous discovery"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Appointee - Materials Scientist",
+        "org": "Argonne National Laboratory",
+        "location": "Lemont, IL, USA",
+        "url": "https://www.postdocjobs.com/job/employer/view?name=Argonne+National+Laboratory",
+        "deadline": "open",
+        "tags": [
+          "materials",
+          "ML",
+          "computational"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "AI Residency Program, Material Science (2026 Cohort)",
+        "org": "Lila Sciences",
+        "location": "Cambridge, MA, USA",
+        "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4031379009",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials",
+          "ML"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Scholar - Decision, Optimization, and Learning (DOLCIT)",
+        "org": "Caltech",
+        "location": "Pasadena, CA, USA",
+        "url": "https://applications.caltech.edu/jobs",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "optimization",
+          "data-driven methods"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Research Scientist - Artificial Intelligence and Mathematics",
+        "org": "Caltech",
+        "location": "Pasadena, CA, USA",
+        "url": "https://bandana.com/jobs/15ef04a3-bc09-4403-bc8e-82034dd3925f",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "ML",
+          "mathematics"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Applied Scientist",
+        "org": "Microsoft",
+        "location": "",
+        "url": "https://www.analyticsfair.mit.edu/jobs",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "ML",
+          "applied science"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Researcher in Computer Science - Machine Learning for Materials Science and Chemistry",
+        "org": "Karlsruhe Institute of Technology (KIT)",
+        "location": "Eggenstein-Leopoldshafen, Germany",
+        "url": "https://jobs.pse.kit.edu/en/jobs/169525/researcher-fmd-in-computer-science-machine-learning-for-materials-science-and-chemistry-with-the-opportunity-of-pursuing-a-phd",
+        "deadline": "2025-12-31",
+        "tags": [
+          "ML",
+          "materials",
+          "chemistry"
+        ],
+        "source": "claude"
+      }
+    ],
+    "faculty": [
+      {
+        "title": "Assistant or Associate Professor of Advanced Computational Materials",
+        "org": "Rice University",
+        "location": "Houston, Texas",
+        "url": "https://jobs.chronicle.com/job/37922414/assistant-or-associate-professor-of-advanced-computational-materials/",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "ML",
+          "computational materials",
+          "materials science"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Associate or Full Professor in Computational Materials Science",
+        "org": "University (New York)",
+        "location": "New York, New York",
+        "url": "https://www.jobleads.com/us/job/full-professor-ai-driven-computational-materials--new-york--e3b2ad1ea71726faef45cf4ab130acf62",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "computational materials",
+          "materials discovery"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Assistant or Associate Professor - Computational Materials Science",
+        "org": "Lehigh University",
+        "location": "Bethlehem, Pennsylvania",
+        "url": "https://facultyjobs.lehigh.edu/node/1204",
+        "deadline": "open",
+        "tags": [
+          "computational materials",
+          "AI",
+          "materials modeling",
+          "ML"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Cluster Hire in AI for Modeling the Physical World and Living Systems",
+        "org": "Washington University in St. Louis",
+        "location": "St. Louis, Missouri",
+        "url": "https://jobs.sciencecareers.org/jobs/faculty/",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials",
+          "physical sciences"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Tenure Track Assistant or Associate Professor in Chemistry - Bioanalytical/Biochemistry",
+        "org": "Institution (TBD)",
+        "location": "",
+        "url": "https://jobs.sciencecareers.org/jobs/medicinal-pharmaceutical-chemistry/faculty/",
+        "deadline": "open",
+        "tags": [
+          "chemistry",
+          "biochemistry",
+          "ML"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Tenure-Track Faculty Position in Artificial Intelligence and Machine Learning for Drug Discovery",
+        "org": "University of Michigan",
+        "location": "Ann Arbor, Michigan",
+        "url": "https://careers.umich.edu/job_detail/268854/tenure-track-faculty-positions-artificial-intelligence-and-machine-learning-drug",
+        "deadline": "2026-07-01",
+        "tags": [
+          "AI",
+          "ML",
+          "drug discovery",
+          "chemistry"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Assistant, Associate, or Full Professor in AI & Machine Learning in Polymeric Materials",
+        "org": "University of Wisconsin-Madison",
+        "location": "Madison, Wisconsin",
+        "url": "https://www.indeed.com/q-machine-learning-materials-science-tenure-track-jobs.html",
+        "deadline": "2026-01-15",
+        "tags": [
+          "AI",
+          "ML",
+          "polymers",
+          "materials science"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Tenure-track faculty position in Data Science and Artificial Intelligence for Mechanical Engineering",
+        "org": "Johns Hopkins University",
+        "location": "Baltimore, Maryland",
+        "url": "https://careers.insightintoacademia.com/job/tenure-track-faculty-position-at-all-levels-in-data-science-and-artificial-intelligence-for-mechanical-engineering/84720803/",
+        "deadline": "2025-12-14",
+        "tags": [
+          "AI",
+          "data science",
+          "mechanical engineering",
+          "materials"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Tenured or Tenure-Track Faculty Position - Scientific Machine Learning and AI for Science",
+        "org": "University of Texas at Austin",
+        "location": "Austin, Texas",
+        "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
+        "deadline": "2025-11-15",
+        "tags": [
+          "AI",
+          "ML",
+          "scientific computing",
           "materials"
         ],
         "source": "claude"
@@ -18,21 +248,211 @@
     ],
     "postdoc": [
       {
-        "title": "Postdoctoral Researcher/Fellow - AI, Computational Chemistry, and Energy Materials",
-        "org": "Nanyang Technological University",
-        "location": "Singapore",
+        "title": "Postdoctoral Researcher – Computational Electron Microscopy and Machine Learning",
+        "org": "Helmholtz Association of German Research Centers",
+        "location": "Jülich, Germany",
         "url": "https://jobrxiv.org/jobs/postdoc-jobs-materials-science/",
         "deadline": "open",
         "tags": [
+          "ML",
+          "materials science",
+          "computational materials",
+          "data science"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoc in Computational Materials Science: Electronic-Structure Theory and AI-Guided Materials Design",
+        "org": "Aarhus University",
+        "location": "Aarhus, Denmark",
+        "url": "https://jobrxiv.org/job/postdoc-in-computational-materials-science-electronic-structure-theory-and-ai-guided-materials-design/",
+        "deadline": "open",
+        "tags": [
+          "computational materials",
+          "AI",
+          "ML",
+          "materials discovery"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoc in AI-Driven Materials Discovery",
+        "org": "Chalmers University of Technology",
+        "location": "Gothenburg, Sweden",
+        "url": "https://academicpositions.com/ad/chalmers-university-of-technology/2026/postdoc-in-ai-driven-materials-discovery/250112",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials discovery",
+          "ML",
+          "generative AI",
+          "DFT"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Appointee - AI for Materials Science Discovery",
+        "org": "Argonne National Laboratory",
+        "location": "Argonne, IL, USA",
+        "url": "https://www.postdocjobs.com/posting/7322713",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "materials science",
+          "computational chemistry",
+          "ML"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Research Associate - Scientific Machine Learning",
+        "org": "Oak Ridge National Laboratory",
+        "location": "Oak Ridge, TN, USA",
+        "url": "https://jobs.ornl.gov/job/Oak-Ridge-Postdoctoral-Research-Associate,-Scientific-Machine-Learning-TN-37830/1404240200/",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "AI",
+          "deep learning",
+          "scientific computing"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoctoral Position in Physics-Driven Machine Learning for Transient Electromagnetic Data for Subsurface Imaging",
+        "org": "Aarhus University",
+        "location": "Aarhus, Denmark",
+        "url": "https://jobrxiv.org/jobs/postdoc-jobs-machine-learning/",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "deep learning",
+          "applied mathematics"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Postdoc Opportunity: Computational Chemistry & AI",
+        "org": "TUD Dresden",
+        "location": "Dresden, Germany",
+        "url": "https://researchersjob.com/postdoc-opportunity-computational-chemistry-ai-y/",
+        "deadline": "2026-08-31",
+        "tags": [
+          "computational chemistry",
           "AI",
           "materials",
-          "computational chemistry",
-          "energy materials"
+          "adsorption"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Data Science & AI Innovation Postdoctoral Fellow in Machine Learning for Chemical Synthesis and Reactivity Prediction",
+        "org": "Novartis",
+        "location": "Basel, Switzerland",
+        "url": "https://www.novartis.com/careers/career-search/job/details/req-10082641-data-science-ai-innovation-postdoctoral-fellow-machine-learning-chemical-synthesis-and-reactivity-prediction",
+        "deadline": "2026-07-15",
+        "tags": [
+          "ML",
+          "chemistry",
+          "AI",
+          "drug discovery",
+          "computational chemistry"
         ],
         "source": "claude"
       }
     ],
     "phd": [
+      {
+        "title": "PhD Studentship - Machine Learning for Organic Materials: From Molecules to Mobility",
+        "org": "University of Warwick",
+        "location": "Warwick, United Kingdom",
+        "url": "https://www.jobs.ac.uk/job/DPP734/phd-studentship-machine-learning-for-organic-materials-from-molecules-to-mobility-hp-2026-015",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "computational"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Studentship - Machine Learning-Guided Synthesis of Graphene Aerogels for Supercapacitors",
+        "org": "The University of Manchester",
+        "location": "Manchester, United Kingdom",
+        "url": "https://www.jobs.ac.uk/job/DQX278/phd-studentship-machine-learning-guided-synthesis-of-graphene-aerogels-for-supercapacitors",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "energy"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Studentship: Accelerating Sustainable Alloy Development using Machine Learning",
+        "org": "Swansea University",
+        "location": "Swansea, United Kingdom",
+        "url": "https://www.jobs.ac.uk/job/DRN389/phd-studentship-materials-science-and-engineering-accelerating-sustainable-alloy-development-using-machine-learning",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "alloys"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Studentship - Machine Learning Accelerated Electronic Transport Calculations for Complex Materials",
+        "org": "University of Warwick",
+        "location": "Warwick, United Kingdom",
+        "url": "https://www.jobs.ac.uk/job/DPP715/phd-studentship-machine-learning-accelerated-electronic-transport-calculations-for-complex-materials-hp-2026-013",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "computational"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD - AI-Accelerated Discovery of New Mechanophores",
+        "org": "ICIQ",
+        "location": "Tarragona, Spain",
+        "url": "https://careers.iciq.org/departments/phd-calls",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "chemistry",
+          "materials"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Position Computational Chemistry and AI - Metal-Organic Frameworks",
+        "org": "University of Amsterdam",
+        "location": "Amsterdam, Netherlands",
+        "url": "https://www.acmm.nl/vacancies/phd-position-computational-chemistry-and-ai/",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "computational-chemistry",
+          "materials"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "2026 PhD Residency - AI for Chemistry",
+        "org": "Alphabet X",
+        "location": "United States",
+        "url": "https://x.company/careers/8534828002/",
+        "deadline": "open",
+        "tags": [
+          "AI",
+          "chemistry",
+          "ML"
+        ],
+        "source": "claude"
+      },
       {
         "title": "PhD Position in AI for Materials Modeling",
         "org": "ETH Zurich",
@@ -42,7 +462,33 @@
         "tags": [
           "AI",
           "materials",
-          "atomistic simulation"
+          "atomistic-simulation"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Scholarship in Machine Learning for Materials",
+        "org": "Paul Scherrer Institute",
+        "location": "Villigen, Switzerland",
+        "url": "https://researchersjob.com/phd-scholarship-in-machine-learning-for-materials/",
+        "deadline": "2026-06-21",
+        "tags": [
+          "ML",
+          "materials",
+          "electronic-structure"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Positions in AI Driven Drug Discovery",
+        "org": "University of Macau",
+        "location": "Macau, China",
+        "url": "https://cbbio.online/2025/10/22/phd-position-in-aidd/",
+        "deadline": "2026-05-15",
+        "tags": [
+          "AI",
+          "drug-discovery",
+          "ML"
         ],
         "source": "claude"
       }
