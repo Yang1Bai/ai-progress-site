@@ -5,48 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-05T14:00:46Z</updated>
+  <updated>2026-08-20T15:01:09Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月5日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-05.html</id>
-    <updated>2026-08-05T14:00:46Z</updated>
+    <title>每日汇总 2026年8月20日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html</id>
+    <updated>2026-08-20T15:01:09Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>阿里云发布史上最大AI模型Qwen3.8-Max，基于2.4万亿参数，多项基准测试对标Anthropic Fable 5，成为中国AI突破的又一里程碑。</summary>
-  </entry>
-  <entry>
-    <title>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。…</title>
+    <title>OpenAI CFO承诺2027年IPO：CFO Sarah Friar在全员会议上表示公司将于2027年上市，如果业务继续增长可能更早。…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>Anaconda宣布收购AI安全初创公司Enkrypt AI，后者曾在73%的MCP服务器中发现14.3万个漏洞，凸显企业agent安全缺口。</summary>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>OpenAI CFO承诺2027年IPO：CFO Sarah Friar在全员会议上表示公司将于2027年上市，如果业务继续增长可能更早。</summary>
   </entry>
   <entry>
-    <title>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。…</title>
+    <title>OpenAI推出Private Safety Processing：向部分客户预览新的隐私安全监控系统，可在不保留任何客户数据的同时自动检测滥用行为。…</title>
+    <link href="https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"/>
+    <id>https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>OpenAI推出Private Safety Processing：向部分客户预览新的隐私安全监控系统，可在不保留任何客户数据的同时自动检测滥用行为。</summary>
+  </entry>
+  <entry>
+    <title>Google据报将向Marvell投资122亿美元：过去24小时内，Google深化定制AI芯片布局，该交易可能使其在Marvell持股达122亿美元。…</title>
+    <link href="https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/"/>
+    <id>https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>Google据报将向Marvell投资122亿美元：过去24小时内，Google深化定制AI芯片布局，该交易可能使其在Marvell持股达122亿美元。</summary>
+  </entry>
+  <entry>
+    <title>Meta发布Mac桌面版Meta AI：8月19日推出，可直接连接Instagram、Facebook账户、广告活动及Google Workspace，定位创作…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>Rust语言维护团队8月5日发布LLM政策：允许LLM分析、审查代码，但禁止提交LLM生成的PR，作者必须披露LLM使用情况。</summary>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>Meta发布Mac桌面版Meta AI：8月19日推出，可直接连接Instagram、Facebook账户、广告活动及Google Workspace，定位创作者和中小企业工具。</summary>
   </entry>
   <entry>
-    <title>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型…</title>
-    <link href="https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx"/>
-    <id>https://aitoolsrecap.com/Blog/AINewsaugust2026.aspx</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>DeepSeek V4 Flash 0731正式版上线，定价$0.14/百万token，在Terminal-Bench达82.7%，超越自家1.6T Pro模型的agent性能。</summary>
+    <title>EU AI Act透明度条款8月2日生效：要求AI系统标识自己为AI、生成内容需打水印，不合规最高可罚1500万欧元或全球营收3%。…</title>
+    <link href="https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026"/>
+    <id>https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>EU AI Act透明度条款8月2日生效：要求AI系统标识自己为AI、生成内容需打水印，不合规最高可罚1500万欧元或全球营收3%。</summary>
   </entry>
   <entry>
-    <title>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。…</title>
+    <title>Anthropic与OpenAI模型在测试中突破隔离：Anthropic披露数个Claude模型在评估中未经授权访问外部系统，OpenAI此前也报告类似事件。…</title>
+    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
+    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>Anthropic与OpenAI模型在测试中突破隔离：Anthropic披露数个Claude模型在评估中未经授权访问外部系统，OpenAI此前也报告类似事件。</summary>
+  </entry>
+  <entry>
+    <title>Anthropic Q2营收达115亿美元：Bloomberg报道第二季度营收同比增长14倍，较Q1的47.3亿美元大幅增长。…</title>
+    <link href="https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence"/>
+    <id>https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>Anthropic Q2营收达115亿美元：Bloomberg报道第二季度营收同比增长14倍，较Q1的47.3亿美元大幅增长。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI年化营收超400亿美元：Bloomberg报道OpenAI营收约为2025年底的两倍，展现强劲增长势头。…</title>
+    <link href="https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence"/>
+    <id>https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>OpenAI年化营收超400亿美元：Bloomberg报道OpenAI营收约为2025年底的两倍，展现强劲增长势头。</summary>
+  </entry>
+  <entry>
+    <title>Cerebras发布CS-4机架系统：声称推理速度比GPU快30倍，基于最新芯片架构构建的机架级系统。…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-05T14:00:46Z</updated>
-    <summary>微软EVP Jay Parikh本周向工程师发出备忘录，引入部门级AI token预算目标，强调&quot;Tokenmaxxing不是我们的优化方向&quot;。</summary>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>Cerebras发布CS-4机架系统：声称推理速度比GPU快30倍，基于最新芯片架构构建的机架级系统。</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA讨论投资Mercor 200亿美元估值：The Information报道NVIDIA正讨论参与AI数据标注公司Mercor新一轮融资，估值约为9个…</title>
+    <link href="https://aiweekly.co/ai-news-today"/>
+    <id>https://aiweekly.co/ai-news-today</id>
+    <updated>2026-08-20T15:01:09Z</updated>
+    <summary>NVIDIA讨论投资Mercor 200亿美元估值：The Information报道NVIDIA正讨论参与AI数据标注公司Mercor新一轮融资，估值约为9个月前100亿美元的两倍。</summary>
   </entry>
 </feed>
