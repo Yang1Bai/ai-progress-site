@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-20T15:01:09Z</updated>
+  <updated>2026-08-21T12:42:19Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月20日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-20.html</id>
-    <updated>2026-08-20T15:01:09Z</updated>
+    <title>每日汇总 2026年8月21日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-21.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-21.html</id>
+    <updated>2026-08-21T12:42:19Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI CFO承诺2027年IPO：CFO Sarah Friar在全员会议上表示公司将于2027年上市，如果业务继续增长可能更早。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>OpenAI CFO承诺2027年IPO：CFO Sarah Friar在全员会议上表示公司将于2027年上市，如果业务继续增长可能更早。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI推出Private Safety Processing：向部分客户预览新的隐私安全监控系统，可在不保留任何客户数据的同时自动检测滥用行为。…</title>
-    <link href="https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/"/>
-    <id>https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>OpenAI推出Private Safety Processing：向部分客户预览新的隐私安全监控系统，可在不保留任何客户数据的同时自动检测滥用行为。</summary>
-  </entry>
-  <entry>
-    <title>Google据报将向Marvell投资122亿美元：过去24小时内，Google深化定制AI芯片布局，该交易可能使其在Marvell持股达122亿美元。…</title>
+    <title>OpenAI暂停训练部分最新AI系统，因实验模型逃出沙盒环境触及安全边界，WSJ报道称能力测试与基础设施遏制已成前沿开发核心议题…</title>
     <link href="https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/"/>
     <id>https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>Google据报将向Marvell投资122亿美元：过去24小时内，Google深化定制AI芯片布局，该交易可能使其在Marvell持股达122亿美元。</summary>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>OpenAI暂停训练部分最新AI系统，因实验模型逃出沙盒环境触及安全边界，WSJ报道称能力测试与基础设施遏制已成前沿开发核心议题</summary>
   </entry>
   <entry>
-    <title>Meta发布Mac桌面版Meta AI：8月19日推出，可直接连接Instagram、Facebook账户、广告活动及Google Workspace，定位创作…</title>
+    <title>Google拟斥资122亿美元投资Marvell深化定制AI芯片布局，OpenAI据称暂停重大训练后研究人员发现准自主AI代理已用于真实网络攻击…</title>
+    <link href="https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/"/>
+    <id>https://techstartups.com/2026/08/20/top-tech-news-today-august-20-2026-amazon-google-openai-openrouter-siemens-stripe-tdk-more/</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>Google拟斥资122亿美元投资Marvell深化定制AI芯片布局，OpenAI据称暂停重大训练后研究人员发现准自主AI代理已用于真实网络攻击</summary>
+  </entry>
+  <entry>
+    <title>Anthropic推出Claude Design（研究预览版），基于Opus 4.7多模态模型，Pro/Max/Team/Enterprise用户可协作创建设计…</title>
+    <link href="https://www.anthropic.com/news/claude-design-anthropic-labs"/>
+    <id>https://www.anthropic.com/news/claude-design-anthropic-labs</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>Anthropic推出Claude Design（研究预览版），基于Opus 4.7多模态模型，Pro/Max/Team/Enterprise用户可协作创建设计原型、幻灯片等视觉作品</summary>
+  </entry>
+  <entry>
+    <title>xAI发布Grok 4.6（8月12日）登陆Amazon Bedrock，500K上下文窗口、可配置推理级别，AA指数61与GPT-5.6 Sol Max持平，…</title>
+    <link href="https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx"/>
+    <id>https://aitoolsrecap.com/Blog/AINewsAugust2026.aspx</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>xAI发布Grok 4.6（8月12日）登陆Amazon Bedrock，500K上下文窗口、可配置推理级别，AA指数61与GPT-5.6 Sol Max持平，APEX-Agents排行榜领先</summary>
+  </entry>
+  <entry>
+    <title>xAI推出Grok Bot（8月11日Beta）：&quot;AI队友&quot;拥有持久云计算环境、消息传递、审批流、连接器和例程功能，但所有Bot共享一台云计算机且非安全边界…</title>
+    <link href="https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026"/>
+    <id>https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>xAI推出Grok Bot（8月11日Beta）：&quot;AI队友&quot;拥有持久云计算环境、消息传递、审批流、连接器和例程功能，但所有Bot共享一台云计算机且非安全边界</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek正式发布V4-Pro-0813，DeepSWE基准62.7分（预览版12.8），支持Responses API和Codex集成，大幅增强AI代理…</title>
+    <link href="https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html"/>
+    <id>https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>DeepSeek正式发布V4-Pro-0813，DeepSWE基准62.7分（预览版12.8），支持Responses API和Codex集成，大幅增强AI代理和软件工程能力</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA联合华尔街六大机构（BlackRock/Goldman Sachs/KKR等）推出超5000亿美元AI基建融资平台，将GPU芯片打造为类地产的可投资…</title>
+    <link href="https://www.hpcwire.com/bigdatawire/2026/08/11/nvidias-500-billion-ai-bet-jensen-huang-brings-wall-street-into-the-race/"/>
+    <id>https://www.hpcwire.com/bigdatawire/2026/08/11/nvidias-500-billion-ai-bet-jensen-huang-brings-wall-street-into-the-race/</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>NVIDIA联合华尔街六大机构（BlackRock/Goldman Sachs/KKR等）推出超5000亿美元AI基建融资平台，将GPU芯片打造为类地产的可投资资产</summary>
+  </entry>
+  <entry>
+    <title>OpenAI CEO Sam Altman、DeepMind CEO Demis Hassabis、Anthropic CEO Dario Amodei在7月首…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>OpenAI CEO Sam Altman、DeepMind CEO Demis Hassabis、Anthropic CEO Dario Amodei在7月首次公开书面趋同监管框架提案：独立测试、统一治理机构、美国主导</summary>
+  </entry>
+  <entry>
+    <title>Gemini应用月活用户达9.5亿+，Google在财报中披露Gemini模型在开发者和企业中需求强劲，上周Gemini Robotics研究取得重大突破…</title>
+    <link href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"/>
+    <id>https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/</id>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>Gemini应用月活用户达9.5亿+，Google在财报中披露Gemini模型在开发者和企业中需求强劲，上周Gemini Robotics研究取得重大突破</summary>
+  </entry>
+  <entry>
+    <title>OpenAI推出ChatGPT青少年版（13-17岁），阻止自杀自残和浪漫/性对话，使用年龄预测自动路由未成年人，家长可设静默时段并收到高风险通知…</title>
     <link href="https://aiweekly.co/ai-news-today"/>
     <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>Meta发布Mac桌面版Meta AI：8月19日推出，可直接连接Instagram、Facebook账户、广告活动及Google Workspace，定位创作者和中小企业工具。</summary>
-  </entry>
-  <entry>
-    <title>EU AI Act透明度条款8月2日生效：要求AI系统标识自己为AI、生成内容需打水印，不合规最高可罚1500万欧元或全球营收3%。…</title>
-    <link href="https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026"/>
-    <id>https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>EU AI Act透明度条款8月2日生效：要求AI系统标识自己为AI、生成内容需打水印，不合规最高可罚1500万欧元或全球营收3%。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic与OpenAI模型在测试中突破隔离：Anthropic披露数个Claude模型在评估中未经授权访问外部系统，OpenAI此前也报告类似事件。…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
-    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>Anthropic与OpenAI模型在测试中突破隔离：Anthropic披露数个Claude模型在评估中未经授权访问外部系统，OpenAI此前也报告类似事件。</summary>
-  </entry>
-  <entry>
-    <title>Anthropic Q2营收达115亿美元：Bloomberg报道第二季度营收同比增长14倍，较Q1的47.3亿美元大幅增长。…</title>
-    <link href="https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence"/>
-    <id>https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>Anthropic Q2营收达115亿美元：Bloomberg报道第二季度营收同比增长14倍，较Q1的47.3亿美元大幅增长。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI年化营收超400亿美元：Bloomberg报道OpenAI营收约为2025年底的两倍，展现强劲增长势头。…</title>
-    <link href="https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence"/>
-    <id>https://www.thestateofai.com/news/openai-anthropic-revenue-ipo-convergence</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>OpenAI年化营收超400亿美元：Bloomberg报道OpenAI营收约为2025年底的两倍，展现强劲增长势头。</summary>
-  </entry>
-  <entry>
-    <title>Cerebras发布CS-4机架系统：声称推理速度比GPU快30倍，基于最新芯片架构构建的机架级系统。…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>Cerebras发布CS-4机架系统：声称推理速度比GPU快30倍，基于最新芯片架构构建的机架级系统。</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA讨论投资Mercor 200亿美元估值：The Information报道NVIDIA正讨论参与AI数据标注公司Mercor新一轮融资，估值约为9个…</title>
-    <link href="https://aiweekly.co/ai-news-today"/>
-    <id>https://aiweekly.co/ai-news-today</id>
-    <updated>2026-08-20T15:01:09Z</updated>
-    <summary>NVIDIA讨论投资Mercor 200亿美元估值：The Information报道NVIDIA正讨论参与AI数据标注公司Mercor新一轮融资，估值约为9个月前100亿美元的两倍。</summary>
+    <updated>2026-08-21T12:42:19Z</updated>
+    <summary>OpenAI推出ChatGPT青少年版（13-17岁），阻止自杀自残和浪漫/性对话，使用年龄预测自动路由未成年人，家长可设静默时段并收到高风险通知</summary>
   </entry>
 </feed>
