@@ -1,78 +1,22 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-22",
   "jobs": {
     "industry": [],
     "faculty": [
       {
-        "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
-        "org": "University of Texas at Austin",
-        "location": "Austin, Texas, USA",
-        "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
-        "deadline": "open",
-        "tags": [
-          "ML",
-          "AI",
-          "scientific computing"
-        ],
-        "source": "claude"
-      },
-      {
-        "title": "Tenure-Track Faculty Position in Data Science and AI for Mechanical Engineering",
-        "org": "Johns Hopkins University",
-        "location": "Baltimore, Maryland, USA",
-        "url": "https://apply.interfolio.com/175773",
-        "deadline": "open",
-        "tags": [
-          "AI",
-          "ML",
-          "mechanical engineering"
-        ],
-        "source": "claude"
-      },
-      {
-        "title": "Tenure-Track or Tenured Faculty in Data Science, Machine Learning, and/or AI",
-        "org": "Texas State University",
-        "location": "San Marcos, Texas, USA",
-        "url": "https://careercenter.cra.org/job/tenure-track-or-tenured-faculty-in-data-science-machine-learning-and-or-artificial-intelligence-san-marcos-texas-2214",
-        "deadline": "2026-01-23",
-        "tags": [
-          "ML",
-          "AI",
-          "data science"
-        ],
-        "source": "claude"
-      },
-      {
-        "title": "Assistant/Associate/Full Professor in AI & Machine Learning for Polymeric Materials",
+        "title": "Assistant, Associate, or Full Professor in AI & Machine Learning in Polymeric Materials",
         "org": "University of Wisconsin-Madison",
-        "location": "Madison, Wisconsin, USA",
-        "url": "https://wisconsin.wd1.myworkdayjobs.com/UW_Madison/job/Madison-WI/Assistant--Associate--or-Full-Professor-in-AI---Machine-Learning-in-Polymeric-Materials--RISE-AI-_JR10004050",
+        "location": "Madison, Wisconsin",
+        "url": "https://jobs.wisc.edu/jobs/assistant-associate-or-full-professor-in-ai-machine-learning-in-polymeric-materials-rise-ai-madison-wisconsin-united-states",
         "deadline": "2026-01-15",
         "tags": [
           "ML",
-          "materials",
-          "polymers",
-          "AI"
+          "materials"
         ],
         "source": "claude"
       }
     ],
-    "postdoc": [
-      {
-        "title": "Postdoctoral Scholar - AI-Driven Materials Discovery",
-        "org": "Lawrence Berkeley National Laboratory",
-        "location": "Bay Area, California",
-        "url": "https://jobs.lbl.gov/jobs/postdoctoral-scholar-ai-driven-materials-discovery-7200",
-        "deadline": "open",
-        "tags": [
-          "ML",
-          "materials",
-          "DFT",
-          "MLIPs"
-        ],
-        "source": "claude"
-      }
-    ],
+    "postdoc": [],
     "phd": []
   }
 }
