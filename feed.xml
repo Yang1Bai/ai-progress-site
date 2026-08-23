@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-22T12:33:34Z</updated>
+  <updated>2026-08-23T12:34:58Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月22日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-22.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-22.html</id>
-    <updated>2026-08-22T12:33:34Z</updated>
+    <title>每日汇总 2026年8月23日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-23.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-23.html</id>
+    <updated>2026-08-23T12:34:58Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Anthropic 将于8月底前提交IPO文件，目标估值超2万亿美元，将打破SpaceX创下的最大IPO纪录，预计10月上市。…</title>
-    <link href="https://watcher.guru/news/claude-ai-developer-anthropic-to-file-for-ipo-this-month-bloomberg"/>
-    <id>https://watcher.guru/news/claude-ai-developer-anthropic-to-file-for-ipo-this-month-bloomberg</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>Anthropic 将于8月底前提交IPO文件，目标估值超2万亿美元，将打破SpaceX创下的最大IPO纪录，预计10月上市。</summary>
-  </entry>
-  <entry>
-    <title>内华达州批准Tesla、Uber、Waymo在拉斯维加斯部署最多8000辆robotaxi，Tesla获得5000辆配额，Waymo和Uber各获1000辆。…</title>
-    <link href="https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/"/>
-    <id>https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>内华达州批准Tesla、Uber、Waymo在拉斯维加斯部署最多8000辆robotaxi，Tesla获得5000辆配额，Waymo和Uber各获1000辆。</summary>
-  </entry>
-  <entry>
-    <title>Cloudflare 推出为AI Agent设计的浏览器运行时Kitesurf，CPU和内存占用比Chromium低3-7倍，通过x402协议实现Agent自主…</title>
+    <title>OpenAI于8月20日推出AI Futures博客及Strategic Futures团队,探讨AI时代的权力集中风险与自由社会重构。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>Cloudflare 推出为AI Agent设计的浏览器运行时Kitesurf，CPU和内存占用比Chromium低3-7倍，通过x402协议实现Agent自主付费。</summary>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>OpenAI于8月20日推出AI Futures博客及Strategic Futures团队,探讨AI时代的权力集中风险与自由社会重构。</summary>
   </entry>
   <entry>
-    <title>Google 发布Gemini 3.7 Flash（8月13日），距3.6 Flash仅3周，同时DeepMind完成领导层重组，Koray Kavukcuog…</title>
+    <title>OpenAI于8月18日发布ChatGPT for Teens功能,面向13-17岁用户,自动屏蔽自杀/自残/恋爱内容。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>Google 发布Gemini 3.7 Flash（8月13日），距3.6 Flash仅3周，同时DeepMind完成领导层重组，Koray Kavukcuoglu接任CEO。</summary>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>OpenAI于8月18日发布ChatGPT for Teens功能,面向13-17岁用户,自动屏蔽自杀/自残/恋爱内容。</summary>
   </entry>
   <entry>
-    <title>字节跳动发布Seed 2.1 Turbo视频生成模型（8月10日），并与MPA签署版权保护协议，应对2月Seedance 2.0争议。…</title>
+    <title>Anthropic于8月15日发布Claude水印FAQ,解释EU AI Act要求的文本水印机制,引发部分用户抵制订阅。…</title>
+    <link href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"/>
+    <id>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>Anthropic于8月15日发布Claude水印FAQ,解释EU AI Act要求的文本水印机制,引发部分用户抵制订阅。</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek于8月13日正式发布V4-Pro-0813模型,DeepSWE基准从12.8跃升至62.7,主打AI agent与软件工程能力。…</title>
+    <link href="https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html"/>
+    <id>https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>DeepSeek于8月13日正式发布V4-Pro-0813模型,DeepSWE基准从12.8跃升至62.7,主打AI agent与软件工程能力。</summary>
+  </entry>
+  <entry>
+    <title>xAI于8月12日发布Grok 4.6模型,支持50万token上下文,API正式上线,定价与OpenAI Luna相当。…</title>
+    <link href="https://evolink.ai/blog/grok-4-6-release-date"/>
+    <id>https://evolink.ai/blog/grok-4-6-release-date</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>xAI于8月12日发布Grok 4.6模型,支持50万token上下文,API正式上线,定价与OpenAI Luna相当。</summary>
+  </entry>
+  <entry>
+    <title>xAI于8月11日推出Grok Bot测试版,首次提供'AI teammates'可24/7执行实际工作,引发安全隐私争议。…</title>
+    <link href="https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026"/>
+    <id>https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>xAI于8月11日推出Grok Bot测试版,首次提供'AI teammates'可24/7执行实际工作,引发安全隐私争议。</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA于8月11日发布Nemotron 3.5 Lightning开源模型,单GPU可运行,黄仁勋首次公开支持开源AI。…</title>
+    <link href="https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html"/>
+    <id>https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>NVIDIA于8月11日发布Nemotron 3.5 Lightning开源模型,单GPU可运行,黄仁勋首次公开支持开源AI。</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind重大人事调整:Hassabis转任主席,Koray接任日常运营,Jeff Dean离职创立Discovery Loop。…</title>
+    <link href="https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html"/>
+    <id>https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>Google DeepMind重大人事调整:Hassabis转任主席,Koray接任日常运营,Jeff Dean离职创立Discovery Loop。</summary>
+  </entry>
+  <entry>
+    <title>EU AI Act透明度条款于8月2日生效,强制AI系统标注生成内容,打击虚假信息与深度伪造。…</title>
+    <link href="https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en"/>
+    <id>https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</id>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>EU AI Act透明度条款于8月2日生效,强制AI系统标注生成内容,打击虚假信息与深度伪造。</summary>
+  </entry>
+  <entry>
+    <title>DeepSeek于8月21日发布实验性多模态模型,声称接近Anthropic Opus 4.8性能,支持视觉理解。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>字节跳动发布Seed 2.1 Turbo视频生成模型（8月10日），并与MPA签署版权保护协议，应对2月Seedance 2.0争议。</summary>
-  </entry>
-  <entry>
-    <title>Meta 发布开源Muse Spark 1.2和Muse Code（8月6日），Muse Spark拥有1M token上下文窗口。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>Meta 发布开源Muse Spark 1.2和Muse Code（8月6日），Muse Spark拥有1M token上下文窗口。</summary>
-  </entry>
-  <entry>
-    <title>阿里发布Qwen3.8-Max（2.4T参数，8月2日）成为史上最大开源模型，以及Qwen3.8-27B首次在单GPU消费级硬件上实现前沿编码性能。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>阿里发布Qwen3.8-Max（2.4T参数，8月2日）成为史上最大开源模型，以及Qwen3.8-27B首次在单GPU消费级硬件上实现前沿编码性能。</summary>
-  </entry>
-  <entry>
-    <title>EU AI Act 高风险AI系统透明度要求于8月2日正式生效，涉及关键基础设施、就业、教育等领域，罚款最高可达全球营业额3%。…</title>
-    <link href="https://www.kiteworks.com/cybersecurity-risk-management/ai-regulation-2026-business-compliance-guide/"/>
-    <id>https://www.kiteworks.com/cybersecurity-risk-management/ai-regulation-2026-business-compliance-guide/</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>EU AI Act 高风险AI系统透明度要求于8月2日正式生效，涉及关键基础设施、就业、教育等领域，罚款最高可达全球营业额3%。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 8月1日宣布内部版本Astra解决10个数学和理论计算机科学未解难题，计算成本约2000美元，包括non-sofic群存在性构造。…</title>
-    <link href="https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026"/>
-    <id>https://www.buildfastwithai.com/blogs/ai-news-today-august-2-2026</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>OpenAI 8月1日宣布内部版本Astra解决10个数学和理论计算机科学未解难题，计算成本约2000美元，包括non-sofic群存在性构造。</summary>
-  </entry>
-  <entry>
-    <title>智谱AI 发布GLM-5.3（8月14日）和GLM-5.2 Turbo（8月17日），GLM-5.2在SWE-bench Pro上得分62.1%。…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-22T12:33:34Z</updated>
-    <summary>智谱AI 发布GLM-5.3（8月14日）和GLM-5.2 Turbo（8月17日），GLM-5.2在SWE-bench Pro上得分62.1%。</summary>
+    <updated>2026-08-23T12:34:58Z</updated>
+    <summary>DeepSeek于8月21日发布实验性多模态模型,声称接近Anthropic Opus 4.8性能,支持视觉理解。</summary>
   </entry>
 </feed>

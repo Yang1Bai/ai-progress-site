@@ -1,14 +1,13 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "jobs": {
-    "industry": [],
-    "faculty": [
+    "industry": [
       {
-        "title": "Assistant, Associate, or Full Professor in AI & Machine Learning in Polymeric Materials",
-        "org": "University of Wisconsin-Madison",
-        "location": "Madison, Wisconsin",
-        "url": "https://jobs.wisc.edu/jobs/assistant-associate-or-full-professor-in-ai-machine-learning-in-polymeric-materials-rise-ai-madison-wisconsin-united-states",
-        "deadline": "2026-01-15",
+        "title": "2026 New College Grad - Computational Chemist / Materials Scientist (Machine Learning – Reactive MLIPs) - Doctorate Degree",
+        "org": "Applied Materials",
+        "location": "Santa Clara, CA",
+        "url": "https://getmereferred.com/us/job-listing/2026-new-college-grad-computational-chemist-materials-scientist-machine-learning-reactive-mlips-doctorate-degree-applied-materials-uscasantaclara-2-to-5-years-experience-fabedcc4-cf7e-4580-bdc5-313ec5c23dc4",
+        "deadline": "open",
         "tags": [
           "ML",
           "materials"
@@ -16,7 +15,106 @@
         "source": "claude"
       }
     ],
-    "postdoc": [],
-    "phd": []
+    "faculty": [
+      {
+        "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
+        "org": "University of Texas at Austin",
+        "location": "Austin, TX, USA",
+        "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "AI",
+          "scientific computing"
+        ],
+        "source": "claude"
+      }
+    ],
+    "postdoc": [
+      {
+        "title": "Postdoctoral Researcher – Computational Electron Microscopy and Machine Learning",
+        "org": "Helmholtz Association of German Research Centers",
+        "location": "Jülich, Germany",
+        "url": "https://jobrxiv.org/jobs/postdoc-jobs-materials-science/",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "microscopy"
+        ],
+        "source": "claude"
+      }
+    ],
+    "phd": [
+      {
+        "title": "PhD Position in Computational Materials Discovery for Extreme Environments",
+        "org": "ETH Zurich",
+        "location": "Zurich, Switzerland",
+        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_S8FKLcSf8AlTOQINqe",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "computational",
+          "autonomous workflows"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD/Postdoc Opportunities in AI for Materials",
+        "org": "King Abdullah University of Science and Technology (KAUST)",
+        "location": "Thuwal, Saudi Arabia",
+        "url": "https://matsci.org/t/phd-postdoc-opportunities-in-ai-for-materials/67192",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "AI",
+          "computational modeling"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Research Fellow (Materials Discovery AI Techniques)",
+        "org": "National University of Singapore",
+        "location": "Singapore",
+        "url": "https://careers.nus.edu.sg/job/Research-Fellow-%28Materials-Discovery-AI-Techniques%29/31796-en_GB",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "AI",
+          "computational chemistry"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Position in Computational Biophysics",
+        "org": "Tampere University",
+        "location": "Tampere, Finland",
+        "url": "https://phdfinder.com/search/machine-learning/",
+        "deadline": "",
+        "tags": [
+          "materials",
+          "computational",
+          "physics"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "PhD Position in AI for Materials Modeling",
+        "org": "ETH Zurich",
+        "location": "Zurich, Switzerland",
+        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_aht8giABx12UGrPMMZ",
+        "deadline": "2026-07-15",
+        "tags": [
+          "ML",
+          "materials",
+          "AI",
+          "atomistic simulation"
+        ],
+        "source": "claude"
+      }
+    ]
   }
 }
