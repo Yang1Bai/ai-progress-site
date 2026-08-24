@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-23T12:34:58Z</updated>
+  <updated>2026-08-24T12:44:36Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月23日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-23.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-23.html</id>
-    <updated>2026-08-23T12:34:58Z</updated>
+    <title>每日汇总 2026年8月24日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-24.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-24.html</id>
+    <updated>2026-08-24T12:44:36Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI于8月20日推出AI Futures博客及Strategic Futures团队,探讨AI时代的权力集中风险与自由社会重构。…</title>
+    <title>Google A2A 协议加入 Linux 基金会 Agentic AI Foundation，与 Anthropic MCP 统一治理，250+ 成员含 AW…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>OpenAI于8月20日推出AI Futures博客及Strategic Futures团队,探讨AI时代的权力集中风险与自由社会重构。</summary>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>Google A2A 协议加入 Linux 基金会 Agentic AI Foundation，与 Anthropic MCP 统一治理，250+ 成员含 AWS、OpenAI、微软等主要云厂商和 AI 实验室。</summary>
   </entry>
   <entry>
-    <title>OpenAI于8月18日发布ChatGPT for Teens功能,面向13-17岁用户,自动屏蔽自杀/自残/恋爱内容。…</title>
+    <title>AWS 推出 Bedrock AgentCore Web Search 正式版（8月21日），提供托管服务器端工具让 Agent 获取实时网络知识且数据不离开客…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>OpenAI于8月18日发布ChatGPT for Teens功能,面向13-17岁用户,自动屏蔽自杀/自残/恋爱内容。</summary>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>AWS 推出 Bedrock AgentCore Web Search 正式版（8月21日），提供托管服务器端工具让 Agent 获取实时网络知识且数据不离开客户 AWS 账户。</summary>
   </entry>
   <entry>
-    <title>Anthropic于8月15日发布Claude水印FAQ,解释EU AI Act要求的文本水印机制,引发部分用户抵制订阅。…</title>
-    <link href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/"/>
-    <id>https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>Anthropic于8月15日发布Claude水印FAQ,解释EU AI Act要求的文本水印机制,引发部分用户抵制订阅。</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek于8月13日正式发布V4-Pro-0813模型,DeepSWE基准从12.8跃升至62.7,主打AI agent与软件工程能力。…</title>
-    <link href="https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html"/>
-    <id>https://news.cgtn.com/news/2026-08-14/DeepSeek-launches-V4-Pro-model-with-enhanced-AI-agent-capabilities-1PAXZBW64P6/p.html</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>DeepSeek于8月13日正式发布V4-Pro-0813模型,DeepSWE基准从12.8跃升至62.7,主打AI agent与软件工程能力。</summary>
-  </entry>
-  <entry>
-    <title>xAI于8月12日发布Grok 4.6模型,支持50万token上下文,API正式上线,定价与OpenAI Luna相当。…</title>
-    <link href="https://evolink.ai/blog/grok-4-6-release-date"/>
-    <id>https://evolink.ai/blog/grok-4-6-release-date</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>xAI于8月12日发布Grok 4.6模型,支持50万token上下文,API正式上线,定价与OpenAI Luna相当。</summary>
-  </entry>
-  <entry>
-    <title>xAI于8月11日推出Grok Bot测试版,首次提供'AI teammates'可24/7执行实际工作,引发安全隐私争议。…</title>
-    <link href="https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026"/>
-    <id>https://www.digitalapplied.com/blog/grok-bot-ai-teammates-launch-cloud-computer-2026</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>xAI于8月11日推出Grok Bot测试版,首次提供'AI teammates'可24/7执行实际工作,引发安全隐私争议。</summary>
-  </entry>
-  <entry>
-    <title>NVIDIA于8月11日发布Nemotron 3.5 Lightning开源模型,单GPU可运行,黄仁勋首次公开支持开源AI。…</title>
-    <link href="https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html"/>
-    <id>https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>NVIDIA于8月11日发布Nemotron 3.5 Lightning开源模型,单GPU可运行,黄仁勋首次公开支持开源AI。</summary>
-  </entry>
-  <entry>
-    <title>Google DeepMind重大人事调整:Hassabis转任主席,Koray接任日常运营,Jeff Dean离职创立Discovery Loop。…</title>
-    <link href="https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html"/>
-    <id>https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>Google DeepMind重大人事调整:Hassabis转任主席,Koray接任日常运营,Jeff Dean离职创立Discovery Loop。</summary>
-  </entry>
-  <entry>
-    <title>EU AI Act透明度条款于8月2日生效,强制AI系统标注生成内容,打击虚假信息与深度伪造。…</title>
-    <link href="https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en"/>
-    <id>https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_en</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>EU AI Act透明度条款于8月2日生效,强制AI系统标注生成内容,打击虚假信息与深度伪造。</summary>
-  </entry>
-  <entry>
-    <title>DeepSeek于8月21日发布实验性多模态模型,声称接近Anthropic Opus 4.8性能,支持视觉理解。…</title>
+    <title>OpenAI 推出青少年版 ChatGPT（8月18日）面向13-17岁用户，屏蔽自杀、自残和情感对话，家长可设置使用时段并接收高风险安全通知。…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-23T12:34:58Z</updated>
-    <summary>DeepSeek于8月21日发布实验性多模态模型,声称接近Anthropic Opus 4.8性能,支持视觉理解。</summary>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>OpenAI 推出青少年版 ChatGPT（8月18日）面向13-17岁用户，屏蔽自杀、自残和情感对话，家长可设置使用时段并接收高风险安全通知。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 降价 GPT-5.6 Sol API 与信用额度超过20%（为期3个月），现已在 API、ChatGPT Work 和 Codex 计划中提供，订…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>OpenAI 降价 GPT-5.6 Sol API 与信用额度超过20%（为期3个月），现已在 API、ChatGPT Work 和 Codex 计划中提供，订阅用户使用量不变。</summary>
+  </entry>
+  <entry>
+    <title>Nvidia 牵头 $5000亿融资计划（8月10日）联合黑石、KKR、高盛等华尔街巨头，将 GPU 打造为可投资资产类别，首次为 AI 基础设施提供第三方资本…</title>
+    <link href="https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html"/>
+    <id>https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>Nvidia 牵头 $5000亿融资计划（8月10日）联合黑石、KKR、高盛等华尔街巨头，将 GPU 打造为可投资资产类别，首次为 AI 基础设施提供第三方资本支持。</summary>
+  </entry>
+  <entry>
+    <title>Nvidia 为 OpenAI 俄亥俄数据中心提供高达 $1050亿融资（8月18日），在 ChatGPT 创造者遇财务困境时提供后盾，标志着 Nvidia 从…</title>
+    <link href="https://www.cnbc.com/2026/08/18/nvidias-ai-moat-is-shifting-from-chips-to-capital.html"/>
+    <id>https://www.cnbc.com/2026/08/18/nvidias-ai-moat-is-shifting-from-chips-to-capital.html</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>Nvidia 为 OpenAI 俄亥俄数据中心提供高达 $1050亿融资（8月18日），在 ChatGPT 创造者遇财务困境时提供后盾，标志着 Nvidia 从芯片到资本的护城河转移。</summary>
+  </entry>
+  <entry>
+    <title>Google DeepMind 开源 WeatherNext（8月6日）实现飓风预报突破，可额外提供一天预警时间，标志 AI 天气预报从实验走向实用。…</title>
+    <link href="https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"/>
+    <id>https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>Google DeepMind 开源 WeatherNext（8月6日）实现飓风预报突破，可额外提供一天预警时间，标志 AI 天气预报从实验走向实用。</summary>
+  </entry>
+  <entry>
+    <title>字节与阿里同步关闭 AI Agent 定制功能（7月15日生效），豆包和通义千问均停用拟人化交互服务，配合中国《拟人化 AI 交互服务临时管理办法》监管要求。…</title>
+    <link href="https://technode.com/2026/07/06/bytedances-doubao-and-alibabas-qwen-to-shut-down-ai-agent-features-on-july-15/"/>
+    <id>https://technode.com/2026/07/06/bytedances-doubao-and-alibabas-qwen-to-shut-down-ai-agent-features-on-july-15/</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>字节与阿里同步关闭 AI Agent 定制功能（7月15日生效），豆包和通义千问均停用拟人化交互服务，配合中国《拟人化 AI 交互服务临时管理办法》监管要求。</summary>
+  </entry>
+  <entry>
+    <title>欧盟 AI Act 透明度规则8月2日正式生效，要求生成式 AI 提供商在3个月内实施水印和内容溯源方案，高风险系统延期至2027年12月。…</title>
+    <link href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714"/>
+    <id>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>欧盟 AI Act 透明度规则8月2日正式生效，要求生成式 AI 提供商在3个月内实施水印和内容溯源方案，高风险系统延期至2027年12月。</summary>
+  </entry>
+  <entry>
+    <title>阿里巴巴推出 Qwen3.8-Max（8月2日）达2.4万亿参数，成为迄今最大开源权重模型，在 SWE-bench Pro 上得分67.7%超过 GPT-5.6…</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
+    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
+    <updated>2026-08-24T12:44:36Z</updated>
+    <summary>阿里巴巴推出 Qwen3.8-Max（8月2日）达2.4万亿参数，成为迄今最大开源权重模型，在 SWE-bench Pro 上得分67.7%超过 GPT-5.6 Sol。</summary>
   </entry>
 </feed>
