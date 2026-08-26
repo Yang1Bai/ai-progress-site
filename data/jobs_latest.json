@@ -1,38 +1,36 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "jobs": {
     "industry": [],
     "faculty": [
       {
-        "title": "Tenured or Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
+        "title": "Tenured or Tenure-Track Faculty Position - Scientific Machine Learning and AI for Science",
         "org": "University of Texas at Austin",
         "location": "Austin, USA",
         "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
         "deadline": "open",
         "tags": [
           "ML",
-          "AI",
-          "computational science"
+          "materials"
         ],
         "source": "claude"
       }
     ],
-    "postdoc": [
+    "postdoc": [],
+    "phd": [
       {
-        "title": "Postdoc in AI-Driven Materials Discovery",
-        "org": "Chalmers University of Technology",
-        "location": "Gothenburg, Sweden",
-        "url": "https://academicpositions.com/ad/chalmers-university-of-technology/2026/postdoc-in-ai-driven-materials-discovery/250112",
+        "title": "PhD Position in Computational Materials Discovery for Extreme Environments",
+        "org": "ETH Zurich",
+        "location": "Zurich, Switzerland",
+        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_S8FKLcSf8AlTOQINqe",
         "deadline": "open",
         "tags": [
-          "AI",
           "ML",
           "materials",
           "computational"
         ],
         "source": "claude"
       }
-    ],
-    "phd": []
+    ]
   }
 }
