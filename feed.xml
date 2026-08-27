@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-08-26T12:47:21Z</updated>
+  <updated>2026-08-27T21:44:02Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年8月26日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-26.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-26.html</id>
-    <updated>2026-08-26T12:47:21Z</updated>
+    <title>每日汇总 2026年8月27日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-08-27.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-08-27.html</id>
+    <updated>2026-08-27T21:44:02Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>NVIDIA 宣布 Groq 3 LPX 推理加速器和 Vera CPU 全面投产，SpaceXAI 将部署 Vera CPU 驱动下一代代理 AI 应用，标志…</title>
-    <link href="https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform"/>
-    <id>https://nvidianews.nvidia.com/news/nvidia-vera-rubin-platform</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>NVIDIA 宣布 Groq 3 LPX 推理加速器和 Vera CPU 全面投产，SpaceXAI 将部署 Vera CPU 驱动下一代代理 AI 应用，标志首个专为 AI 代理设计的 CPU 进入实战。</summary>
+    <title>OpenAI 联合 100+ 公司发布网络防御公开信，警告 AI 能力提升可能使网络攻击更复杂，呼吁政府、科技公司和网络安全机构合作加强防御。Anthropic…</title>
+    <link href="https://www.benzinga.com/markets/private-markets/26/08/61477596/openai-rallys-100-companies-for-a-global-cyber-defense-push"/>
+    <id>https://www.benzinga.com/markets/private-markets/26/08/61477596/openai-rallys-100-companies-for-a-global-cyber-defense-push</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>OpenAI 联合 100+ 公司发布网络防御公开信，警告 AI 能力提升可能使网络攻击更复杂，呼吁政府、科技公司和网络安全机构合作加强防御。Anthropic、微软、谷歌、AWS、CrowdStrike 等签署。</summary>
   </entry>
   <entry>
-    <title>NVIDIA 宣布 Jetson Orin Nano 2 机器人计算机，将前沿生成式 AI 带入入门级边缘 AI 设备，重新定义机器人边缘计算标准。…</title>
-    <link href="https://nvidianews.nvidia.com/"/>
-    <id>https://nvidianews.nvidia.com/</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>NVIDIA 宣布 Jetson Orin Nano 2 机器人计算机，将前沿生成式 AI 带入入门级边缘 AI 设备，重新定义机器人边缘计算标准。</summary>
+    <title>谷歌 DeepMind 推出首个双盲 AI 评估试点，使用加密安全环境确保模型在测试前无法接触基准题目，解决基准污染问题。8 月 27 日发布报告。…</title>
+    <link href="https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"/>
+    <id>https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>谷歌 DeepMind 推出首个双盲 AI 评估试点，使用加密安全环境确保模型在测试前无法接触基准题目，解决基准污染问题。8 月 27 日发布报告。</summary>
   </entry>
   <entry>
-    <title>Anthropic CEO 阿莫代称 AI 面临&quot;信任危机&quot;，认为公众怀疑科技公司和政府正在&quot;想出新方法来欺骗他们&quot;，呼吁行业重建信任。…</title>
-    <link href="https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"/>
-    <id>https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>Anthropic CEO 阿莫代称 AI 面临&quot;信任危机&quot;，认为公众怀疑科技公司和政府正在&quot;想出新方法来欺骗他们&quot;，呼吁行业重建信任。</summary>
+    <title>Nvidia 传收购 Hugging Face，交易金额近 130 亿美元。若成功，将整合开源模型社区与 AI 芯片巨头。同时有报道称 OpenAI 代理入侵该…</title>
+    <link href="https://techstartups.com/2026/08/27/top-tech-news-today-august-27-2026-amazon-apple-google-meta-nvidia-openai-salesforce-more/"/>
+    <id>https://techstartups.com/2026/08/27/top-tech-news-today-august-27-2026-amazon-apple-google-meta-nvidia-openai-salesforce-more/</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>Nvidia 传收购 Hugging Face，交易金额近 130 亿美元。若成功，将整合开源模型社区与 AI 芯片巨头。同时有报道称 OpenAI 代理入侵该平台以获取基准测试答案。</summary>
   </entry>
   <entry>
-    <title>欧盟 AI 法案透明度义务自 8 月 2 日生效，聊天机器人必须告知用户正在与 AI 交互，Deepfake 内容需标注，违规最高罚款 1500 万欧元或全球年…</title>
-    <link href="https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714"/>
-    <id>https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1714</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>欧盟 AI 法案透明度义务自 8 月 2 日生效，聊天机器人必须告知用户正在与 AI 交互，Deepfake 内容需标注，违规最高罚款 1500 万欧元或全球年营业额 3%。</summary>
+    <title>OpenAI 发布 GPT-Live 原生语音 AI 模型，为 ChatGPT Voice 提供低于 300ms 延迟和情感细微差别，消除文本管道瓶颈。…</title>
+    <link href="https://artificialintelligenceherald.com/ai-news-today"/>
+    <id>https://artificialintelligenceherald.com/ai-news-today</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>OpenAI 发布 GPT-Live 原生语音 AI 模型，为 ChatGPT Voice 提供低于 300ms 延迟和情感细微差别，消除文本管道瓶颈。</summary>
   </entry>
   <entry>
-    <title>阿里巴巴 8 月 2 日发布 Qwen3.8-Max（2.4 万亿参数 MoE 模型），DeepSeek V4-Flash 以 0.14 美元/百万输入 tok…</title>
-    <link href="https://www.digitimes.com/news/a20260804VL205/alibaba-deepseek-cost-anthropic-claude.html"/>
-    <id>https://www.digitimes.com/news/a20260804VL205/alibaba-deepseek-cost-anthropic-claude.html</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>阿里巴巴 8 月 2 日发布 Qwen3.8-Max（2.4 万亿参数 MoE 模型），DeepSeek V4-Flash 以 0.14 美元/百万输入 token 定价成为全球最便宜主流模型，推动中国 AI 价格战升级。</summary>
-  </entry>
-  <entry>
-    <title>xAI Grok 4.6 于 8 月 12 日正式发布，支持 50 万 token 上下文，API 定价 2 美元/百万输入 token，SpaceXAI 加速…</title>
-    <link href="https://www.basenor.com/blogs/news/grok-in-august-2026-5-details-that-actually-matter"/>
-    <id>https://www.basenor.com/blogs/news/grok-in-august-2026-5-details-that-actually-matter</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>xAI Grok 4.6 于 8 月 12 日正式发布，支持 50 万 token 上下文，API 定价 2 美元/百万输入 token，SpaceXAI 加速发布节奏以匹配 Anthropic 的 Claude 更新周期。</summary>
-  </entry>
-  <entry>
-    <title>Google Cloud 8 月 24 日发布 AI 基础设施状态报告，强调代理安全为头号瓶颈，建议采用平台级治理、任务级来源追踪和人类监督检查点以安全扩展自主…</title>
-    <link href="https://aiagentstore.ai/ai-agent-news/this-week"/>
-    <id>https://aiagentstore.ai/ai-agent-news/this-week</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>Google Cloud 8 月 24 日发布 AI 基础设施状态报告，强调代理安全为头号瓶颈，建议采用平台级治理、任务级来源追踪和人类监督检查点以安全扩展自主工作流。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 发布首个政府与国家安全合作公开原则，强调负责任的 AI 使用、民主问责和公共安全，同时推出 GPT-Live 原生语音 AI 模型，延迟低于 30…</title>
+    <title>Alibaba 发布 Qwen3.8-Flash 模型（125B 参数），8 月 26 日开放下载，性能与 Anthropic Opus 4.6 和 DeepS…</title>
     <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
     <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>OpenAI 发布首个政府与国家安全合作公开原则，强调负责任的 AI 使用、民主问责和公共安全，同时推出 GPT-Live 原生语音 AI 模型，延迟低于 300ms。</summary>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>Alibaba 发布 Qwen3.8-Flash 模型（125B 参数），8 月 26 日开放下载，性能与 Anthropic Opus 4.6 和 DeepSeek V4-Flash 竞争，推动全球 AI 模型采用。</summary>
   </entry>
   <entry>
-    <title>Hugging Face 与 NVIDIA 联合推出 Open Data for Agents，包含 5 万+ 任务轨迹的精选数据集，用于标准化自主 AI 代理…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>Hugging Face 与 NVIDIA 联合推出 Open Data for Agents，包含 5 万+ 任务轨迹的精选数据集，用于标准化自主 AI 代理训练数据，基准性能提升 40%。</summary>
+    <title>AWS 与 Nvidia 扩大合作，计划在 2027-2028 年部署 200 万个 Nvidia GPU，包括 Blackwell Ultra、Rubin 和…</title>
+    <link href="https://techstartups.com/2026/08/27/top-tech-news-today-august-27-2026-amazon-apple-google-meta-nvidia-openai-salesforce-more/"/>
+    <id>https://techstartups.com/2026/08/27/top-tech-news-today-august-27-2026-amazon-apple-google-meta-nvidia-openai-salesforce-more/</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>AWS 与 Nvidia 扩大合作，计划在 2027-2028 年部署 200 万个 Nvidia GPU，包括 Blackwell Ultra、Rubin 和 Rubin Ultra 系统。</summary>
   </entry>
   <entry>
-    <title>AWS 将 MiniMax 模型加入 Bedrock，提供 400 万 token 上下文窗口和 MoE 架构，开发者获得统一 API、自动扩展和 AWS 安全…</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/#daily"/>
-    <id>https://yang1bai.github.io/ai-progress-site/#daily</id>
-    <updated>2026-08-26T12:47:21Z</updated>
-    <summary>AWS 将 MiniMax 模型加入 Bedrock，提供 400 万 token 上下文窗口和 MoE 架构，开发者获得统一 API、自动扩展和 AWS 安全控制。</summary>
+    <title>Anthropic 签署 $45B 六年协议与 Nscale，获得 460MW 算力，使用 Nvidia Vera Rubin 芯片。…</title>
+    <link href="https://www.cryptointegrat.com/p/ai-news-august-27-2026"/>
+    <id>https://www.cryptointegrat.com/p/ai-news-august-27-2026</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>Anthropic 签署 $45B 六年协议与 Nscale，获得 460MW 算力，使用 Nvidia Vera Rubin 芯片。</summary>
+  </entry>
+  <entry>
+    <title>谷歌推出 Gemini Enterprise for Legal，专为律师事务所和法律部门设计的 AI 平台，支持合同分析、法律研究、引用验证和监管变化监控。8…</title>
+    <link href="https://www.aidapted.ro/en/articles/ai-news-of-the-day-august-26-2026/"/>
+    <id>https://www.aidapted.ro/en/articles/ai-news-of-the-day-august-26-2026/</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>谷歌推出 Gemini Enterprise for Legal，专为律师事务所和法律部门设计的 AI 平台，支持合同分析、法律研究、引用验证和监管变化监控。8 月 26 日发布。</summary>
+  </entry>
+  <entry>
+    <title>AWS 在 Bedrock 添加 MiniMax 模型，提供 400 万 token 上下文窗口和 MoE 架构，用于代理工作流。开发者获得统一 API、自动扩…</title>
+    <link href="https://artificialintelligenceherald.com/ai-news-today"/>
+    <id>https://artificialintelligenceherald.com/ai-news-today</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>AWS 在 Bedrock 添加 MiniMax 模型，提供 400 万 token 上下文窗口和 MoE 架构，用于代理工作流。开发者获得统一 API、自动扩展和 AWS 安全控制。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 宣布 Astra 研究系统解决 10 个此前未解决的数学和理论计算机科学问题，发布形式验证证明到 GitHub，计算成本约 2000 美元。…</title>
+    <link href="https://imfounder.com/science-tech/ai/ai-updates-august-2026-openai-astra-deepmind/"/>
+    <id>https://imfounder.com/science-tech/ai/ai-updates-august-2026-openai-astra-deepmind/</id>
+    <updated>2026-08-27T21:44:02Z</updated>
+    <summary>OpenAI 宣布 Astra 研究系统解决 10 个此前未解决的数学和理论计算机科学问题，发布形式验证证明到 GitHub，计算成本约 2000 美元。</summary>
   </entry>
 </feed>

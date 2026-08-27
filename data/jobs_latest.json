@@ -1,17 +1,70 @@
 {
-  "date": "2026-08-26",
+  "date": "2026-08-27",
   "jobs": {
     "industry": [],
     "faculty": [
       {
-        "title": "Tenured or Tenure-Track Faculty Position - Scientific Machine Learning and AI for Science",
+        "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
         "org": "University of Texas at Austin",
         "location": "Austin, USA",
         "url": "https://micde.umich.edu/tenured-or-tenure-track-faculty-position-fall-2026-scientific-machine-learning-and-ai-for-science-ut-austin/",
         "deadline": "open",
         "tags": [
           "ML",
-          "materials"
+          "materials",
+          "scientific computing"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Associate or Full Professor Computational Materials Science",
+        "org": "CUNY City College of New York",
+        "location": "New York, USA",
+        "url": "https://main.hercjobs.org/jobs/22177824/associate-or-full-professor-computational-materials-science",
+        "deadline": "open",
+        "tags": [
+          "ML",
+          "materials",
+          "computational chemistry"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Assistant Professor AI for Materials and Soft Matter",
+        "org": "ESPCI PSL University",
+        "location": "Paris, France",
+        "url": "https://mephysociety.wordpress.com/2026/08/21/assistant-prof-ai-for-materials-and-soft-matter-espci-psl-paris/",
+        "deadline": "2026-09-21",
+        "tags": [
+          "ML",
+          "materials",
+          "soft matter"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Assistant, Associate, or Full Professor in AI & Machine Learning in Polymeric Materials",
+        "org": "University of Wisconsin-Madison",
+        "location": "Madison, USA",
+        "url": "https://jobs.chronicle.com/job/37891691/assistant-associate-or-full-professor-in-ai-and-machine-learning-in-polymeric-materials-rise-ai-/",
+        "deadline": "2026-01-15",
+        "tags": [
+          "ML",
+          "materials",
+          "polymers"
+        ],
+        "source": "claude"
+      },
+      {
+        "title": "Tenure-Track Faculty Position in Data Science and AI for Mechanical Engineering",
+        "org": "Johns Hopkins University",
+        "location": "Baltimore, USA",
+        "url": "https://careers.insightintoacademia.com/job/tenure-track-faculty-position-at-all-levels-in-data-science-and-artificial-intelligence-for-mechanical-engineering/84720803/",
+        "deadline": "2025-12-14",
+        "tags": [
+          "ML",
+          "materials",
+          "mechanical engineering"
         ],
         "source": "claude"
       }
@@ -19,15 +72,15 @@
     "postdoc": [],
     "phd": [
       {
-        "title": "PhD Position in Computational Materials Discovery for Extreme Environments",
+        "title": "PhD Position in AI for Materials Modeling",
         "org": "ETH Zurich",
         "location": "Zurich, Switzerland",
-        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_S8FKLcSf8AlTOQINqe",
-        "deadline": "open",
+        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_aht8giABx12UGrPMMZ",
+        "deadline": "2026-07-15",
         "tags": [
-          "ML",
+          "AI",
           "materials",
-          "computational"
+          "machine learning"
         ],
         "source": "claude"
       }
