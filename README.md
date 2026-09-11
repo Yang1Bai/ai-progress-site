@@ -89,6 +89,7 @@ GitHub Actions 每日定时触发 → Claude API 调用 Web Search → 生成 HT
 ├── data/
 │   ├── index.json                # 归档日期列表（自动生成）
 │   ├── latest.json               # 最新一期原始 JSON
+│   ├── jobs_curated.json          # 人工核实并持续保留的职位清单
 │   └── YYYY-MM-DD.json           # 每日原始数据归档
 ├── archive/
 │   ├── index.html                # 归档目录页（自动生成）
@@ -107,6 +108,8 @@ GitHub Actions 每日定时触发 → Claude API 调用 Web Search → 生成 HT
 <!-- SCIENCE:START --> ... <!-- SCIENCE:END -->
 <!-- MATERIAL:START --> ... <!-- MATERIAL:END -->
 ```
+
+`data/jobs_curated.json` 中的职位会优先显示，并在每日更新时继续保留。带有 `YYYY-MM-DD` 截止日期的职位过期后会自动移除；`open`、`rolling` 或 `open until filled` 类型的职位需要在确认关闭后手动移除。
 
 ### 部署清单（按顺序做完一次即可）
 

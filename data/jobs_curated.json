@@ -1,5 +1,4 @@
 {
-  "date": "2026-09-11",
   "jobs": {
     "industry": [],
     "faculty": [
@@ -72,20 +71,6 @@
       }
     ],
     "postdoc": [],
-    "phd": [
-      {
-        "title": "PhD Position in AI for Materials Modeling",
-        "org": "ETH Zurich",
-        "location": "Zurich, Switzerland",
-        "url": "https://jobs.ethz.ch/job/view/JOPG_ethz_aht8giABx12UGrPMMZ",
-        "deadline": "2026-07-15",
-        "tags": [
-          "AI",
-          "materials",
-          "machine learning"
-        ],
-        "source": "claude"
-      }
-    ]
+    "phd": []
   }
 }

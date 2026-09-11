@@ -30,6 +30,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
+CURATED_JOBS_PATH = DATA_DIR / "jobs_curated.json"
 MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-5")
 TZ = ZoneInfo("America/Toronto")
 
@@ -91,6 +92,34 @@ _USER_AGENT = "Mozilla/5.0 (compatible; AI-Progress-Bot/1.0; +https://github.com
 def _contains_keyword(text: str) -> bool:
     lower = text.lower()
     return any(kw.lower() in lower for kw in _KEYWORDS)
+
+
+def _is_expired(job: dict, today_iso: str) -> bool:
+    """Return True only for explicit ISO deadlines that have passed."""
+    deadline = str(job.get("deadline", "")).strip()
+    return bool(re.fullmatch(r"\d{4}-\d{2}-\d{2}", deadline) and deadline < today_iso)
+
+
+def _load_curated_jobs(today_iso: str) -> dict[str, list[dict]]:
+    """Load manually verified openings and retain them until their deadline passes."""
+    empty = {"industry": [], "faculty": [], "postdoc": [], "phd": []}
+    try:
+        payload = json.loads(CURATED_JOBS_PATH.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return empty
+    except (OSError, json.JSONDecodeError) as e:
+        print(f"[fetch_jobs] WARNING: could not load curated jobs: {e}", flush=True)
+        return empty
+
+    curated = payload.get("jobs", {})
+    for category in empty:
+        items = curated.get(category, [])
+        if isinstance(items, list):
+            empty[category] = [
+                item for item in items
+                if isinstance(item, dict) and not _is_expired(item, today_iso)
+            ]
+    return empty
 
 
 def _safe_get(url: str, timeout: int = 10) -> bytes | None:
@@ -347,15 +376,26 @@ def fetch_jobs(today_dt: datetime | None) -> dict:
         except Exception as e:
             print(f"[fetch_jobs] WARNING: Claude search failed for {cat}: {e}", flush=True)
 
-    # 3. Sort by deadline (most recent first), cap at MAX_PER_CATEGORY
+    # 3. Keep manually verified openings first, then add fresh discoveries.
+    # Curated roles survive daily refreshes until an explicit ISO deadline passes.
+    curated_jobs = _load_curated_jobs(today_iso)
     for cat in jobs:
+        curated_items = curated_jobs.get(cat, [])
+        curated_urls = {item.get("url", "") for item in curated_items}
+        discovered_items = [
+            item for item in jobs[cat]
+            if not _is_expired(item, today_iso) and item.get("url", "") not in curated_urls
+        ]
+
         def sort_key(j: dict) -> str:
             d = j.get("deadline", "")
             # Put entries with valid ISO dates first (descending), others last
             if d and re.match(r"\d{4}-\d{2}-\d{2}", d):
                 return "0_" + d
             return "1_" + d
-        jobs[cat] = sorted(jobs[cat], key=sort_key, reverse=True)[:MAX_PER_CATEGORY]
+        discovered_items = sorted(discovered_items, key=sort_key, reverse=True)
+        limit = max(MAX_PER_CATEGORY, len(curated_items))
+        jobs[cat] = (curated_items + discovered_items)[:limit]
 
     result = {
         "date": today_iso,
