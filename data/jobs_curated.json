@@ -17,6 +17,34 @@
         "source": "curated"
       },
       {
+        "title": "Assistant Professor (Tenure-Track) in Materials Science and Engineering",
+        "org": "Nanyang Technological University, School of Materials Science and Engineering",
+        "location": "Singapore",
+        "url": "https://apply.ap1.interfolio.com/118967",
+        "deadline": "evergreen / open",
+        "tags": [
+          "materials automation",
+          "AI for materials",
+          "energy materials",
+          "catalysis"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Tenure-Track/Tenured Assistant or Associate Professor",
+        "org": "Texas A&M University, Materials Science & Engineering",
+        "location": "College Station, Texas, USA",
+        "url": "https://faculty.tamu.edu/Positions",
+        "deadline": "open",
+        "tags": [
+          "autonomous robotics",
+          "powder synthesis",
+          "metals & ceramics",
+          "ARM-MIP"
+        ],
+        "source": "curated"
+      },
+      {
         "title": "Assistant Professor in Artificial Intelligence/Machine Learning for Materials Design",
         "org": "Tufts University, Department of Chemistry",
         "location": "Medford, Massachusetts, USA",
@@ -27,6 +55,62 @@
           "materials design",
           "materials synthesis",
           "energy materials"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Tenure-track positions in Chemistry",
+        "org": "Carnegie Mellon University, Department of Chemistry",
+        "location": "Pittsburgh, Pennsylvania, USA",
+        "url": "https://apply.interfolio.com/191917",
+        "deadline": "Review begins 2026-09-30; open until filled",
+        "tags": [
+          "chemistry",
+          "materials discovery",
+          "AI for Science",
+          "automation"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Tenure-Track Faculty Positions in Chemical and Biomolecular Engineering",
+        "org": "National University of Singapore, Department of Chemical & Biomolecular Engineering",
+        "location": "Singapore",
+        "url": "https://cde.nus.edu.sg/chbe/about-us/careers-chbe/tenuretrack/",
+        "deadline": "ongoing / open",
+        "tags": [
+          "AI in chemical engineering",
+          "materials manufacturing",
+          "energy",
+          "decarbonisation"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Assistant Professor in Chemistry, Biochemistry, or Chemical Engineering",
+        "org": "California Institute of Technology, Division of Chemistry and Chemical Engineering",
+        "location": "Pasadena, California, USA",
+        "url": "https://www.applications.caltech.edu/jobs/chemistry",
+        "deadline": "2026-10-15",
+        "tags": [
+          "chemistry",
+          "chemical engineering",
+          "energy materials",
+          "catalysis"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Open-Rank Faculty Positions (Assistant/Associate/Full Professor)",
+        "org": "Hong Kong University of Science and Technology, Department of Materials",
+        "location": "Clear Water Bay, Hong Kong",
+        "url": "https://apply.interfolio.com/191744",
+        "deadline": "open",
+        "tags": [
+          "materials",
+          "energy materials",
+          "AI for materials",
+          "advanced synthesis"
         ],
         "source": "curated"
       },
