@@ -63,9 +63,12 @@ _KEYWORDS = [
 # Claude web-search queries per category
 _CLAUDE_QUERIES: dict[str, str] = {
     "industry": (
-        "AI materials scientist OR machine learning materials engineer 2025 2026 "
-        "hiring job opening site:careers.microsoft.com OR site:deepmind.com OR "
-        "site:research.google OR site:jobs.lever.co OR site:greenhouse.io"
+        "materials scientist OR AI for materials OR self-driving materials discovery OR "
+        "autonomous laboratory OR robotic experimentation OR materials informatics OR "
+        "electrochemistry hiring job opening 2026 site:job-boards.greenhouse.io OR "
+        "site:jobs.ashbyhq.com OR site:google.com/about/careers OR "
+        "site:jobs.bytedance.com OR site:amazon.jobs OR site:metacareers.com OR "
+        "site:jobs.smartrecruiters.com"
     ),
     "faculty": (
         "assistant professor AI machine learning materials science 2025 2026 "

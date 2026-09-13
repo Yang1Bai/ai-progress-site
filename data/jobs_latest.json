@@ -1,7 +1,128 @@
 {
   "date": "2026-09-13",
   "jobs": {
-    "industry": [],
+    "industry": [
+      {
+        "title": "Director, Materials AISF Program Lead",
+        "org": "Lila Sciences",
+        "location": "Cambridge, Massachusetts, USA",
+        "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4287216009",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "autonomous labs",
+          "electrochemistry",
+          "closed-loop AI",
+          "program leadership"
+        ],
+        "fit": "Exceptional fit for Yang's seniority and SDL leadership: the role owns Lila's materials AI Science Factory roadmap across electrochemistry, synthesis, characterization and closed-loop AI guidance.",
+        "source": "curated"
+      },
+      {
+        "title": "Research Engineer, Materials Science",
+        "org": "Google DeepMind",
+        "location": "Mountain View, California, USA",
+        "url": "https://www.linkedin.com/jobs/view/research-engineer-materials-science-at-google-deepmind-4419988251",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "AI for materials",
+          "automated experiments",
+          "inorganic chemistry",
+          "LLM agents"
+        ],
+        "fit": "Directly targets functional-material discovery by combining AI and simulation with automated experimentation; the posting specifically values inorganic chemistry, materials synthesis and tool-using LLM agents.",
+        "source": "curated"
+      },
+      {
+        "title": "Principal Scientist / Associate Director, Agentic AI Research for Materials Science",
+        "org": "Lila Sciences",
+        "location": "Cambridge, MA / San Francisco, CA, USA",
+        "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4273850009",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "agentic AI",
+          "autonomous workflows",
+          "materials experiments",
+          "team leadership"
+        ],
+        "fit": "Strong match to leading autonomous materials workflows and translating AI agents into real experiments, though the role expects particularly deep ML/NLP systems expertise.",
+        "source": "curated"
+      },
+      {
+        "title": "Research Scientist / Research Engineer, Materials",
+        "org": "Periodic Labs",
+        "location": "Menlo Park, California, USA",
+        "url": "https://jobs.ashbyhq.com/periodic-labs/c4e0774f-0f3e-4ea7-be27-fb89130c0d01",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "AI scientist",
+          "autonomous labs",
+          "materials at scale",
+          "experimentation"
+        ],
+        "fit": "Periodic is explicitly building AI scientists and autonomous physical-science laboratories; this broad materials role matches Yang's combination of experimental platforms, materials data and closed-loop discovery.",
+        "source": "curated"
+      },
+      {
+        "title": "Applied Scientist III — Robotics & Physical AI, Autonomous Lab",
+        "org": "Amazon, Worldwide Sustainability",
+        "location": "Seattle, Washington, USA",
+        "url": "https://www.amazon.jobs/en/jobs/10465009/applied-scientist-iii-robotics-physical-ai-autonomous-lab-ww-sustainability",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "autonomous lab",
+          "robotics",
+          "active learning",
+          "materials discovery"
+        ],
+        "fit": "Builds Amazon's first autonomous materials-discovery lab and integrates robots, instruments and closed-loop optimization. The scientific platform overlap is excellent, but the role emphasizes robotics and Physical AI.",
+        "source": "curated"
+      },
+      {
+        "title": "Research Engineer — Computational Materials Science & Self-Driving Materials Discovery",
+        "org": "Bosch Research",
+        "location": "Watertown, Massachusetts, USA (hybrid)",
+        "url": "https://www.indeed.com/viewjob?jk=a481f78a29237304",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "self-driving discovery",
+          "active learning",
+          "electrochemistry",
+          "atomistic simulation"
+        ],
+        "fit": "The scope explicitly combines self-driving materials discovery, active learning and electrochemistry. It is highly relevant conceptually, although the core requirement is deeper atomistic simulation than Yang's experimental profile.",
+        "source": "curated"
+      },
+      {
+        "title": "AI Research Scientist — Generative AI for Materials Discovery",
+        "org": "Meta, Reality Labs Research",
+        "location": "Pasadena, CA / Redmond, WA, USA",
+        "url": "https://www.metacareers.com/profile/job_details/968722059080516/",
+        "deadline": "Open; no deadline listed",
+        "tags": [
+          "generative materials",
+          "crystal design",
+          "AI research",
+          "functional materials"
+        ],
+        "fit": "Strong AI-for-materials opportunity focused on generative design of compounds and molecular crystals, but it is more computational and has less direct autonomous-experimentation overlap.",
+        "source": "curated"
+      },
+      {
+        "title": "Research Scientist — Quantum Chemistry, Seed AI for Science (2027 Start, PhD)",
+        "org": "ByteDance Seed",
+        "location": "San Jose, California, USA",
+        "url": "https://jobs.bytedance.com/en/position/detail/7632426574734035253",
+        "deadline": "Open; 2027 campus recruitment",
+        "tags": [
+          "AI for Science",
+          "quantum chemistry",
+          "surface chemistry",
+          "graduate role"
+        ],
+        "fit": "Relevant to AI-enabled quantum and surface chemistry with clear links to catalysis and electrochemistry, but this is a 2027 PhD campus-recruiting position and is below Yang's current career stage.",
+        "source": "curated"
+      }
+    ],
     "faculty": [
       {
         "title": "Assistant Professor - Inorganic Chemistry, Inorganic Materials Chemistry & Artificial Intelligence (AI)",
