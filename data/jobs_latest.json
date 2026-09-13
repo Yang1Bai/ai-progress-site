@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-13",
   "jobs": {
     "industry": [],
     "faculty": [
@@ -14,6 +14,20 @@
           "AI for Science",
           "inorganic materials",
           "energy & catalysis"
+        ],
+        "source": "curated"
+      },
+      {
+        "title": "Assistant Professor (Open Rank) in Materials Science and Engineering",
+        "org": "Georgia Institute of Technology, School of Materials Science and Engineering",
+        "location": "Atlanta, Georgia, USA",
+        "url": "https://careers.hprod.onehcm.usg.edu/psp/careers/CAREERS/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Action=U&FOCUS=Applicant&JobOpeningId=303133&Page=HRS_APP_JBPST_FL&PostingSeq=1&SiteId=03000",
+        "deadline": "Review begins 2026-11-06; open until filled",
+        "tags": [
+          "machine learning",
+          "experimentation",
+          "materials discovery",
+          "open rank"
         ],
         "source": "curated"
       },
