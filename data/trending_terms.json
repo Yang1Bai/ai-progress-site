@@ -1,18 +1,13 @@
 {
-  "updated_at": "2026-09-15T17:43:23+00:00",
-  "data_through": "2026-08-27",
-  "next_update": "2026-09-01",
+  "updated_at": "2026-09-28T19:58:53+00:00",
+  "data_through": "2026-09-28",
+  "next_update": "2026-10-01",
   "update_cadence": "semi-monthly",
   "update_cadence_cn": "每月 1 日 / 15 日自动刷新",
   "source": "AI Progress Hub archive JSON",
   "method": "Keyword and tag counts across dated site snapshots; scores are relative within each category.",
   "method_cn": "基于本站 data/YYYY-MM-DD.json 历史快照做关键词与标签词频统计；热度分数只代表本站记录中的相对热度。",
   "periods": [
-    {
-      "id": "2026-06-H1",
-      "label": "6/1-6/15",
-      "label_en": "Jun 1-15"
-    },
     {
       "id": "2026-06-H2",
       "label": "6/16-6/30",
@@ -37,6 +32,11 @@
       "id": "2026-08-H2",
       "label": "8/16-8/31",
       "label_en": "Aug 16-31"
+    },
+    {
+      "id": "2026-09-H2",
+      "label": "9/16-9/30",
+      "label_en": "Sep 16-30"
     }
   ],
   "categories": [
@@ -48,184 +48,15 @@
       "description_cn": "从今日资讯、领袖观点、模型动态和基准说明中统计。",
       "terms": [
         {
-          "id": "open_source",
-          "label": "Open source",
-          "label_cn": "开源模型",
-          "latest_count": 182,
-          "delta": 70,
-          "total_count": 591,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 47,
-              "score": 26
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 90,
-              "score": 49
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 61,
-              "score": 34
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 99,
-              "score": 54
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 112,
-              "score": 62
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 182,
-              "score": 100
-            }
-          ]
-        },
-        {
-          "id": "agent",
-          "label": "Agent",
-          "label_cn": "Agent / 智能体",
-          "latest_count": 121,
-          "delta": 42,
-          "total_count": 447,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 50,
-              "score": 27
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 62,
-              "score": 34
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 65,
-              "score": 36
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 70,
-              "score": 38
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 79,
-              "score": 43
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 121,
-              "score": 66
-            }
-          ]
-        },
-        {
-          "id": "ai_coding",
-          "label": "AI coding",
-          "label_cn": "AI 编程",
-          "latest_count": 100,
-          "delta": 19,
-          "total_count": 465,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 63,
-              "score": 35
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 91,
-              "score": 50
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 68,
-              "score": 37
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 62,
-              "score": 34
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 81,
-              "score": 45
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 100,
-              "score": 55
-            }
-          ]
-        },
-        {
           "id": "ai_safety",
           "label": "AI safety",
           "label_cn": "AI 安全",
-          "latest_count": 89,
-          "delta": -4,
-          "total_count": 591,
-          "first_seen_period": "2026-06-H1",
+          "latest_count": 4,
+          "delta": -85,
+          "total_count": 533,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 62,
-              "score": 34
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -260,168 +91,121 @@
               "label_en": "Aug 16-31",
               "count": 89,
               "score": 49
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 4,
+              "score": 2
             }
           ]
         },
         {
-          "id": "ai_infrastructure",
-          "label": "AI infrastructure",
-          "label_cn": "AI 基础设施",
-          "latest_count": 76,
-          "delta": 29,
-          "total_count": 354,
-          "first_seen_period": "2026-06-H1",
+          "id": "agent",
+          "label": "Agent",
+          "label_cn": "Agent / 智能体",
+          "latest_count": 4,
+          "delta": -117,
+          "total_count": 401,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 34,
-              "score": 19
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
               "label_en": "Jun 16-30",
-              "count": 88,
-              "score": 48
+              "count": 62,
+              "score": 34
             },
             {
               "period": "2026-07-H1",
               "label": "7/1-7/15",
               "label_en": "Jul 1-15",
-              "count": 50,
-              "score": 27
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 59,
-              "score": 32
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 47,
-              "score": 26
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 76,
-              "score": 42
-            }
-          ]
-        },
-        {
-          "id": "reasoning",
-          "label": "Reasoning model",
-          "label_cn": "推理模型",
-          "latest_count": 64,
-          "delta": 14,
-          "total_count": 316,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 48,
-              "score": 26
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
               "count": 65,
               "score": 36
             },
             {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 41,
-              "score": 23
-            },
-            {
               "period": "2026-07-H2",
               "label": "7/16-7/31",
               "label_en": "Jul 16-31",
-              "count": 48,
-              "score": 26
+              "count": 70,
+              "score": 38
             },
             {
               "period": "2026-08-H1",
               "label": "8/1-8/15",
               "label_en": "Aug 1-15",
-              "count": 50,
-              "score": 27
+              "count": 79,
+              "score": 43
             },
             {
               "period": "2026-08-H2",
               "label": "8/16-8/31",
               "label_en": "Aug 16-31",
-              "count": 64,
-              "score": 35
+              "count": 121,
+              "score": 66
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 4,
+              "score": 2
             }
           ]
         },
         {
-          "id": "inference_efficiency",
-          "label": "Inference efficiency",
-          "label_cn": "推理效率",
-          "latest_count": 62,
-          "delta": 13,
-          "total_count": 294,
-          "first_seen_period": "2026-06-H1",
+          "id": "ai_coding",
+          "label": "AI coding",
+          "label_cn": "AI 编程",
+          "latest_count": 2,
+          "delta": -98,
+          "total_count": 404,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 46,
-              "score": 25
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
               "label_en": "Jun 16-30",
-              "count": 60,
-              "score": 33
+              "count": 91,
+              "score": 50
             },
             {
               "period": "2026-07-H1",
               "label": "7/1-7/15",
               "label_en": "Jul 1-15",
-              "count": 34,
-              "score": 19
+              "count": 68,
+              "score": 37
             },
             {
               "period": "2026-07-H2",
               "label": "7/16-7/31",
               "label_en": "Jul 16-31",
-              "count": 43,
-              "score": 24
+              "count": 62,
+              "score": 34
             },
             {
               "period": "2026-08-H1",
               "label": "8/1-8/15",
               "label_en": "Aug 1-15",
-              "count": 49,
-              "score": 27
+              "count": 81,
+              "score": 45
             },
             {
               "period": "2026-08-H2",
               "label": "8/16-8/31",
               "label_en": "Aug 16-31",
-              "count": 62,
-              "score": 34
+              "count": 100,
+              "score": 55
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 2,
+              "score": 1
             }
           ]
         },
@@ -429,19 +213,12 @@
           "id": "multimodal",
           "label": "Multimodal",
           "label_cn": "多模态",
-          "latest_count": 50,
-          "delta": 20,
-          "total_count": 219,
-          "first_seen_period": "2026-06-H1",
+          "latest_count": 1,
+          "delta": -49,
+          "total_count": 185,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 35,
-              "score": 19
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -476,6 +253,229 @@
               "label_en": "Aug 16-31",
               "count": 50,
               "score": 27
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 1,
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "ai_infrastructure",
+          "label": "AI infrastructure",
+          "label_cn": "AI 基础设施",
+          "latest_count": 1,
+          "delta": -75,
+          "total_count": 321,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 88,
+              "score": 48
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 50,
+              "score": 27
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 59,
+              "score": 32
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 47,
+              "score": 26
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 76,
+              "score": 42
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 1,
+              "score": 1
+            }
+          ]
+        },
+        {
+          "id": "synthetic_data",
+          "label": "Synthetic data",
+          "label_cn": "合成数据",
+          "latest_count": 0,
+          "delta": 0,
+          "total_count": 11,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 6,
+              "score": 3
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 4,
+              "score": 2
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 1,
+              "score": 1
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "long_context",
+          "label": "Long context",
+          "label_cn": "长上下文",
+          "latest_count": 0,
+          "delta": -19,
+          "total_count": 103,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 17,
+              "score": 9
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 24,
+              "score": 13
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 28,
+              "score": 15
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 15,
+              "score": 8
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 19,
+              "score": 10
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "inference_efficiency",
+          "label": "Inference efficiency",
+          "label_cn": "推理效率",
+          "latest_count": 0,
+          "delta": -62,
+          "total_count": 248,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 60,
+              "score": 33
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 34,
+              "score": 19
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 43,
+              "score": 24
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 49,
+              "score": 27
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 62,
+              "score": 34
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
             }
           ]
         }
@@ -490,130 +490,15 @@
       "description_cn": "从 AI4Science 进展与 AI4Material 论文中统计。",
       "terms": [
         {
-          "id": "generative_materials",
-          "label": "Generative materials",
-          "label_cn": "生成式材料设计",
-          "latest_count": 106,
-          "delta": -28,
-          "total_count": 511,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 24,
-              "score": 12
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 36,
-              "score": 18
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 81,
-              "score": 42
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 130,
-              "score": 67
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 134,
-              "score": 69
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 106,
-              "score": 54
-            }
-          ]
-        },
-        {
-          "id": "crystal_structure",
-          "label": "Crystal structure",
-          "label_cn": "晶体结构生成",
-          "latest_count": 98,
-          "delta": -11,
-          "total_count": 389,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 23,
-              "score": 12
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 57,
-              "score": 29
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 51,
-              "score": 26
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 51,
-              "score": 26
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 109,
-              "score": 56
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 98,
-              "score": 50
-            }
-          ]
-        },
-        {
           "id": "catalyst_inverse_design",
           "label": "Catalyst inverse design",
           "label_cn": "催化剂逆向设计",
-          "latest_count": 71,
-          "delta": -5,
-          "total_count": 542,
-          "first_seen_period": "2026-06-H1",
+          "latest_count": 5,
+          "delta": -66,
+          "total_count": 497,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 50,
-              "score": 26
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -648,114 +533,13 @@
               "label_en": "Aug 16-31",
               "count": 71,
               "score": 36
-            }
-          ]
-        },
-        {
-          "id": "materials_discovery",
-          "label": "Materials discovery",
-          "label_cn": "材料发现",
-          "latest_count": 38,
-          "delta": -3,
-          "total_count": 144,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 15,
-              "score": 8
             },
             {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 13,
-              "score": 7
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 17,
-              "score": 9
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 20,
-              "score": 10
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 41,
-              "score": 21
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 38,
-              "score": 19
-            }
-          ]
-        },
-        {
-          "id": "battery_materials",
-          "label": "Battery materials",
-          "label_cn": "电池材料",
-          "latest_count": 15,
-          "delta": 3,
-          "total_count": 57,
-          "first_seen_period": "2026-06-H1",
-          "is_new": false,
-          "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 10,
-              "score": 5
-            },
-            {
-              "period": "2026-06-H2",
-              "label": "6/16-6/30",
-              "label_en": "Jun 16-30",
-              "count": 15,
-              "score": 8
-            },
-            {
-              "period": "2026-07-H1",
-              "label": "7/1-7/15",
-              "label_en": "Jul 1-15",
-              "count": 4,
-              "score": 2
-            },
-            {
-              "period": "2026-07-H2",
-              "label": "7/16-7/31",
-              "label_en": "Jul 16-31",
-              "count": 1,
-              "score": 1
-            },
-            {
-              "period": "2026-08-H1",
-              "label": "8/1-8/15",
-              "label_en": "Aug 1-15",
-              "count": 12,
-              "score": 6
-            },
-            {
-              "period": "2026-08-H2",
-              "label": "8/16-8/31",
-              "label_en": "Aug 16-31",
-              "count": 15,
-              "score": 8
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 5,
+              "score": 3
             }
           ]
         },
@@ -763,19 +547,12 @@
           "id": "atomistic_language_model",
           "label": "Atomistic language model",
           "label_cn": "原子语言模型",
-          "latest_count": 7,
-          "delta": 7,
-          "total_count": 33,
+          "latest_count": 3,
+          "delta": -4,
+          "total_count": 36,
           "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 0,
-              "score": 0
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -810,6 +587,175 @@
               "label_en": "Aug 16-31",
               "count": 7,
               "score": 4
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 3,
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "battery_materials",
+          "label": "Battery materials",
+          "label_cn": "电池材料",
+          "latest_count": 3,
+          "delta": -12,
+          "total_count": 50,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 15,
+              "score": 8
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 4,
+              "score": 2
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 1,
+              "score": 1
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 12,
+              "score": 6
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 15,
+              "score": 8
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 3,
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "active_learning",
+          "label": "Active learning",
+          "label_cn": "主动学习",
+          "latest_count": 0,
+          "delta": 0,
+          "total_count": 29,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 4,
+              "score": 2
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 2,
+              "score": 1
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 6,
+              "score": 3
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 17,
+              "score": 9
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "self_driving_lab",
+          "label": "Self-driving lab",
+          "label_cn": "自驱动实验室",
+          "latest_count": 0,
+          "delta": 0,
+          "total_count": 1,
+          "first_seen_period": "2026-07-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 1,
+              "score": 1
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 0,
+              "score": 0
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
             }
           ]
         },
@@ -817,19 +763,12 @@
           "id": "ml_potential",
           "label": "ML potential",
           "label_cn": "机器学习势",
-          "latest_count": 2,
-          "delta": 2,
-          "total_count": 54,
-          "first_seen_period": "2026-06-H1",
+          "latest_count": 0,
+          "delta": -2,
+          "total_count": 53,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 1,
-              "score": 1
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -864,6 +803,13 @@
               "label_en": "Aug 16-31",
               "count": 2,
               "score": 1
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
             }
           ]
         },
@@ -871,19 +817,12 @@
           "id": "graph_neural_network",
           "label": "Graph neural network",
           "label_cn": "图神经网络",
-          "latest_count": 2,
+          "latest_count": 0,
           "delta": -2,
-          "total_count": 15,
-          "first_seen_period": "2026-06-H1",
+          "total_count": 13,
+          "first_seen_period": "2026-06-H2",
           "is_new": false,
           "series": [
-            {
-              "period": "2026-06-H1",
-              "label": "6/1-6/15",
-              "label_en": "Jun 1-15",
-              "count": 2,
-              "score": 1
-            },
             {
               "period": "2026-06-H2",
               "label": "6/16-6/30",
@@ -918,6 +857,67 @@
               "label_en": "Aug 16-31",
               "count": 2,
               "score": 1
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "materials_discovery",
+          "label": "Materials discovery",
+          "label_cn": "材料发现",
+          "latest_count": 0,
+          "delta": -38,
+          "total_count": 129,
+          "first_seen_period": "2026-06-H2",
+          "is_new": false,
+          "series": [
+            {
+              "period": "2026-06-H2",
+              "label": "6/16-6/30",
+              "label_en": "Jun 16-30",
+              "count": 13,
+              "score": 7
+            },
+            {
+              "period": "2026-07-H1",
+              "label": "7/1-7/15",
+              "label_en": "Jul 1-15",
+              "count": 17,
+              "score": 9
+            },
+            {
+              "period": "2026-07-H2",
+              "label": "7/16-7/31",
+              "label_en": "Jul 16-31",
+              "count": 20,
+              "score": 10
+            },
+            {
+              "period": "2026-08-H1",
+              "label": "8/1-8/15",
+              "label_en": "Aug 1-15",
+              "count": 41,
+              "score": 21
+            },
+            {
+              "period": "2026-08-H2",
+              "label": "8/16-8/31",
+              "label_en": "Aug 16-31",
+              "count": 38,
+              "score": 19
+            },
+            {
+              "period": "2026-09-H2",
+              "label": "9/16-9/30",
+              "label_en": "Sep 16-30",
+              "count": 0,
+              "score": 0
             }
           ]
         }
