@@ -48,8 +48,12 @@ jobs:
           git add index.html feed.xml data/ archive/
           if ! git diff --cached --quiet; then
             git commit -m "chore: daily auto-update ${DATE}"
-            git pull --rebase origin main
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || exit 1
+              if git push; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
           else
             echo "No changes to commit"
           fi

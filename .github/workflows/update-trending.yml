@@ -8,10 +8,16 @@ on:
 
 permissions:
   contents: write
+  pages: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-trends:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,7 +40,17 @@ jobs:
           git add data/trending_terms.json
           if [[ -n "$(git status --porcelain)" ]]; then
             git commit -m "chore: update keyword trends ${DATE}"
-            git push
+            for attempt in 1 2 3; do
+              git pull --rebase origin main || exit 1
+              if git push; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
           else
             echo "No keyword trend changes"
           fi
+
+      - name: Request site rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"

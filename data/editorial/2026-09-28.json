@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-28",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "title": "Holo4：面向通用计算机操作智能体",
+      "body": "H Company 发布 Holo4 介绍；功能与评测以原文为准。"
+    },
+    {
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "title": "OpenAI 扩大对 Lenfest 新闻业 AI 项目的支持",
+      "body": "OpenAI 宣布提供 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩展 Lenfest AI 协作与研修项目。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+      "title": "新配方帮助 RNA 疫苗提高耐热性",
+      "body": "MIT 工程师提出稳定 RNA 疫苗递送脂质纳米颗粒的方法，可能有助于扩大疫苗配送范围。"
+    },
+    {
+      "url": "https://openai.com/index/proaction",
+      "title": "Proaction 分享使用 Codex 提升运营效率的案例",
+      "body": "OpenAI 发布 Proaction 车队管理业务案例；标题披露销售增长 60%、节省超过 75 小时，属于厂商发布的客户案例。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+      "title": "MIT 学生从人文视角审视技术创新",
+      "body": "MIT 的 PKG 社会影响中心扩展 Code.Tulsa 实践学习项目。"
+    }
+  ]
+}

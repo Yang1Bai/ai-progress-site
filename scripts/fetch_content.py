@@ -1719,9 +1719,14 @@ def main():
     if public_mode and os.environ.get("DRY_RUN") != "1":
         from fetch_public import fetch_public_data
         from fetch_jobs import _load_curated_jobs
-        data = fetch_public_data(now)
+        if os.environ.get("CONTENT_INPUT"):
+            data = json.loads(Path(os.environ["CONTENT_INPUT"]).read_text(encoding="utf-8"))
+        else:
+            data = fetch_public_data(now)
+        from editorial import apply_editorial
+        data = apply_editorial(data, ROOT)
         jobs_data = {"date": today_iso, "jobs": _load_curated_jobs(today_iso)}
-        github_trending = fetch_github_trending(n=5)
+        github_trending = [] if os.environ.get("CONTENT_INPUT") else fetch_github_trending(n=5)
     else:
         # Fetch job listings (AI for Materials)
         jobs_data: dict = {}
@@ -1832,7 +1837,7 @@ def main():
         for section in ("LEADERS", "MODELS", "BENCHMARKS", "CONFERENCES"):
             html = replace_block(html, f"<!-- {section}:START -->", f"<!-- {section}:END -->",
                                  '<p class="source-status">本次暂无经核验更新；历史内容见归档。</p>')
-        banner = '<aside id="source-mode" style="padding:12px;text-align:center">公开来源摘要 · 保留原文语言与发布日期 · 未经人工编辑审核</aside>'
+        banner = '<aside id="source-mode" style="padding:12px;text-align:center">公开来源摘要 · 保留发布日期与原文链接 · 部分条目由 Codex 中文编辑</aside>'
         html = re.sub(r'<aside id="source-mode".*?</aside>', '', html, flags=re.S)
         html = re.sub(r'(<body[^>]*>)', lambda m: m[1] + banner, html, count=1)
     INDEX.write_text(html, encoding="utf-8")
