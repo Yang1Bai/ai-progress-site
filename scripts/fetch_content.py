@@ -18,7 +18,8 @@ fetch_content.py
   - 重建 archive/index.html（归档目录页）
 
 环境变量:
-  ANTHROPIC_API_KEY  必需
+  CONTENT_MODE       默认 public；显式设为 claude 才使用付费 API
+  ANTHROPIC_API_KEY  仅 claude 模式需要
   ANTHROPIC_MODEL    可选, 默认 claude-sonnet-4-5
   DRY_RUN            可选, 设为 1 跳过 API 调用，用本地 mock 验证替换逻辑
 """
@@ -1711,61 +1712,69 @@ def validate_news_freshness(news_items: list[dict], today_dt: datetime, max_age_
 
 def main():
     now = datetime.now(TZ)
-    today = now.strftime("%Y年%-m月%-d日")
+    today = f"{now.year}年{now.month}月{now.day}日"
     today_iso = now.strftime("%Y-%m-%d")
 
-    # Fetch job listings (AI for Materials)
-    jobs_data: dict = {}
-    try:
-        from fetch_jobs import fetch_jobs  # noqa: E402 (local import)
-        jobs_data = fetch_jobs(now)
-    except Exception as e:
-        print(f"[fetch_jobs] 职位抓取失败: {e}", flush=True)
-
-    # 先从 arXiv API + Semantic Scholar 拉最新论文
-    arxiv_papers: list[dict] = []
-    try:
-        journal_papers_fetched = fetch_journal_papers(now, days_back=45)
-        arxiv_fetched = fetch_arxiv_papers(now, days_back=45)
-        arxiv_papers = journal_papers_fetched + arxiv_fetched  # 期刊优先
-    except Exception as e:
-        print(f"[fetch] 论文获取失败（将依赖 web_search 备用）: {e}", flush=True)
-        try:
-            arxiv_papers = fetch_arxiv_papers(now, days_back=45)
-        except Exception as e2:
-            print(f"[arxiv] 也失败: {e2}", flush=True)
-
-    # Fetch GitHub trending repos
-    github_trending = []
-    try:
+    public_mode = os.environ.get("CONTENT_MODE", "public") == "public"
+    if public_mode and os.environ.get("DRY_RUN") != "1":
+        from fetch_public import fetch_public_data
+        from fetch_jobs import _load_curated_jobs
+        data = fetch_public_data(now)
+        jobs_data = {"date": today_iso, "jobs": _load_curated_jobs(today_iso)}
         github_trending = fetch_github_trending(n=5)
-    except Exception as e:
-        print(f"[github_trending] 获取失败: {e}", flush=True)
-
-    if os.environ.get("DRY_RUN") == "1":
-        print("[dry-run] 跳过 Claude API，使用 mock JSON")
-        data = load_mock()
-        github_trending = data.get("github_trending", github_trending)
-        data["date"] = today
     else:
-        if not os.environ.get("ANTHROPIC_API_KEY"):
-            print("ERROR: 未设置 ANTHROPIC_API_KEY", file=sys.stderr)
-            return 2
-        last_err = None
-        data = None
-        for attempt in range(3):
+        # Fetch job listings (AI for Materials)
+        jobs_data: dict = {}
+        try:
+            from fetch_jobs import fetch_jobs  # noqa: E402 (local import)
+            jobs_data = fetch_jobs(now)
+        except Exception as e:
+            print(f"[fetch_jobs] 职位抓取失败: {e}", flush=True)
+
+        # 先从 arXiv API + Semantic Scholar 拉最新论文
+        arxiv_papers: list[dict] = []
+        try:
+            journal_papers_fetched = fetch_journal_papers(now, days_back=45)
+            arxiv_fetched = fetch_arxiv_papers(now, days_back=45)
+            arxiv_papers = journal_papers_fetched + arxiv_fetched  # 期刊优先
+        except Exception as e:
+            print(f"[fetch] 论文获取失败（将依赖 web_search 备用）: {e}", flush=True)
             try:
-                data = call_claude(today, arxiv_papers=arxiv_papers)
-                break
-            except Exception as e:
-                last_err = e
-                print(f"WARN: 第 {attempt+1} 次尝试失败: {e}", file=sys.stderr)
-        if data is None:
-            print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
-            return 3
+                arxiv_papers = fetch_arxiv_papers(now, days_back=45)
+            except Exception as e2:
+                print(f"[arxiv] 也失败: {e2}", flush=True)
+
+        # Fetch GitHub trending repos
+        github_trending = []
+        try:
+            github_trending = fetch_github_trending(n=5)
+        except Exception as e:
+            print(f"[github_trending] 获取失败: {e}", flush=True)
+
+        if os.environ.get("DRY_RUN") == "1":
+            print("[dry-run] 跳过 Claude API，使用 mock JSON")
+            data = load_mock()
+            github_trending = data.get("github_trending", github_trending)
+            data["date"] = today
+        else:
+            if not os.environ.get("ANTHROPIC_API_KEY"):
+                print("ERROR: 未设置 ANTHROPIC_API_KEY", file=sys.stderr)
+                return 2
+            last_err = None
+            data = None
+            for attempt in range(3):
+                try:
+                    data = call_claude(today, arxiv_papers=arxiv_papers)
+                    break
+                except Exception as e:
+                    last_err = e
+                    print(f"WARN: 第 {attempt+1} 次尝试失败: {e}", file=sys.stderr)
+            if data is None:
+                print(f"ERROR: Claude 调用失败（3次尝试）: {last_err}", file=sys.stderr)
+                return 3
 
     # Validate news freshness (check URLs, detect stale articles)
-    if data.get("news"):
+    if not public_mode and data.get("news"):
         data["news"] = validate_news_freshness(data["news"], now, max_age_days=4)
 
     # Filter papers: keep papers from the last 60 days
@@ -1819,6 +1828,13 @@ def main():
         html = replace_block(html, "<!-- GITHUB_TRENDING:START -->", "<!-- GITHUB_TRENDING:END -->", render_github_trending(github_trending))
     # update_date as fallback (id="last-updated" is now inside STATS block)
     html = update_date(html, data.get("date", today))
+    if public_mode:
+        for section in ("LEADERS", "MODELS", "BENCHMARKS", "CONFERENCES"):
+            html = replace_block(html, f"<!-- {section}:START -->", f"<!-- {section}:END -->",
+                                 '<p class="source-status">本次暂无经核验更新；历史内容见归档。</p>')
+        banner = '<aside id="source-mode" style="padding:12px;text-align:center">公开来源摘要 · 保留原文语言与发布日期 · 未经人工编辑审核</aside>'
+        html = re.sub(r'<aside id="source-mode".*?</aside>', '', html, flags=re.S)
+        html = re.sub(r'(<body[^>]*>)', lambda m: m[1] + banner, html, count=1)
     INDEX.write_text(html, encoding="utf-8")
     print(f"[ok] 已更新 index.html（日期 {data.get('date', today)}）")
 

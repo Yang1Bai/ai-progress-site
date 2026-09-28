@@ -8,10 +8,16 @@ on:
 
 permissions:
   contents: write
+  pages: write
+
+concurrency:
+  group: daily-content-update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -23,27 +29,32 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install --quiet "anthropic>=0.40.0" "json-repair>=0.30.0"
+      - name: Test public source handling
+        run: python -m unittest discover -s tests
 
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Fetch latest content via Claude API
+      - name: Fetch public sources (no API key)
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: claude-sonnet-4-5
+          CONTENT_MODE: public
         run: python scripts/fetch_content.py
 
       - name: Commit and push changes
         run: |
           DATE=$(TZ="America/Toronto" date +"%Y-%m-%d")
-          git add index.html feed.xml data/ archive/ 2>/dev/null || true
-          if [[ -n "$(git status --porcelain)" ]]; then
+          git add index.html feed.xml data/ archive/
+          if ! git diff --cached --quiet; then
             git commit -m "chore: daily auto-update ${DATE}"
+            git pull --rebase origin main
             git push
           else
             echo "No changes to commit"
           fi
+
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
