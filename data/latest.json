@@ -336,7 +336,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-09-28T19:45:38.077614+00:00",
+  "fetched_at": "2026-09-28T19:58:55.204506+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -371,8 +371,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "arXiv materials",
@@ -381,16 +381,16 @@
       "items": 69
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 5,
-    "leader_count": 0,
-    "science_count": 5
-  },
   "editorial": {
     "date": "2026-09-28",
     "items_applied": 5,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 5,
+    "leader_count": 0,
+    "science_count": 5
   }
 }
