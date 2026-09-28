@@ -9,7 +9,8 @@
       "published_at": "2026-09-28T09:44:05+00:00",
       "source": "Hugging Face",
       "tags": [
-        "Hugging Face"
+        "Hugging Face",
+        "2026-09-28"
       ],
       "importance": "normal"
     },
@@ -21,7 +22,8 @@
       "published_at": "2026-09-28T07:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-28"
       ],
       "importance": "normal"
     },
@@ -33,7 +35,8 @@
       "published_at": "2026-09-28T05:00:00-04:00",
       "source": "MIT AI",
       "tags": [
-        "MIT AI"
+        "MIT AI",
+        "2026-09-28"
       ],
       "importance": "normal"
     },
@@ -45,7 +48,8 @@
       "published_at": "2026-09-25T19:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-25"
       ],
       "importance": "normal"
     },
@@ -57,7 +61,8 @@
       "published_at": "2026-09-25T16:15:00-04:00",
       "source": "MIT AI",
       "tags": [
-        "MIT AI"
+        "MIT AI",
+        "2026-09-25"
       ],
       "importance": "normal"
     },
@@ -69,7 +74,8 @@
       "published_at": "2026-09-24T19:40:00+00:00",
       "source": "Google Research",
       "tags": [
-        "Google Research"
+        "Google Research",
+        "2026-09-24"
       ],
       "importance": "normal"
     },
@@ -81,7 +87,8 @@
       "published_at": "2026-09-24T17:00:00-04:00",
       "source": "MIT AI",
       "tags": [
-        "MIT AI"
+        "MIT AI",
+        "2026-09-24"
       ],
       "importance": "normal"
     },
@@ -93,7 +100,8 @@
       "published_at": "2026-09-24T14:08:57+00:00",
       "source": "Hugging Face",
       "tags": [
-        "Hugging Face"
+        "Hugging Face",
+        "2026-09-24"
       ],
       "importance": "normal"
     },
@@ -105,7 +113,8 @@
       "published_at": "2026-09-24T00:00:00-04:00",
       "source": "MIT AI",
       "tags": [
-        "MIT AI"
+        "MIT AI",
+        "2026-09-24"
       ],
       "importance": "normal"
     },
@@ -117,7 +126,8 @@
       "published_at": "2026-09-23T18:41:40+00:00",
       "source": "Hugging Face",
       "tags": [
-        "Hugging Face"
+        "Hugging Face",
+        "2026-09-23"
       ],
       "importance": "normal"
     },
@@ -129,7 +139,8 @@
       "published_at": "2026-09-23T16:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-23"
       ],
       "importance": "normal"
     },
@@ -141,7 +152,8 @@
       "published_at": "2026-09-23T13:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-23"
       ],
       "importance": "normal"
     },
@@ -153,7 +165,8 @@
       "published_at": "2026-09-23T12:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-23"
       ],
       "importance": "normal"
     },
@@ -165,7 +178,8 @@
       "published_at": "2026-09-23T12:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-23"
       ],
       "importance": "normal"
     },
@@ -177,7 +191,8 @@
       "published_at": "2026-09-23T12:00:00+00:00",
       "source": "OpenAI",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "2026-09-23"
       ],
       "importance": "normal"
     }
@@ -191,7 +206,8 @@
       "published_at": "2026-09-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
-        "arXiv materials"
+        "arXiv materials",
+        "2026-09-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
@@ -208,7 +224,8 @@
       "published_at": "2026-09-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
-        "arXiv materials"
+        "arXiv materials",
+        "2026-09-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
@@ -225,7 +242,8 @@
       "published_at": "2026-09-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
-        "arXiv materials"
+        "arXiv materials",
+        "2026-09-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
@@ -242,7 +260,8 @@
       "published_at": "2026-09-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
-        "arXiv materials"
+        "arXiv materials",
+        "2026-09-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
@@ -259,7 +278,8 @@
       "published_at": "2026-09-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
-        "arXiv materials"
+        "arXiv materials",
+        "2026-09-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
@@ -301,7 +321,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-09-28T19:42:04.495764+00:00",
+  "fetched_at": "2026-09-28T19:45:38.077614+00:00",
   "sources": [
     {
       "source": "OpenAI",
