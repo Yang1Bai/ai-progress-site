@@ -2,6 +2,19 @@
   "date": "2026年9月29日",
   "news": [
     {
+      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "body": "",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T15:30:38+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-09-29"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MCP 智能体核验：事实正确，也要引用对来源",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
       "body": "ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。",
@@ -224,22 +237,6 @@
       "title_original": "Estimating suicide risk from text",
       "body_original": "A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.",
       "editorial_date": "2026-09-29"
-    },
-    {
-      "title": "Liquid AI 发布实验性视觉语言模型推测解码方案",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "body": "LFM2.5-VL-DSpark 使用较小的草稿模型，借助目标模型隐藏状态提出候选输出，以探索推理加速。开发方说明了内存开销与部署方式，实际收益取决于硬件、任务和推理后端。",
-      "date": "2026-09-24",
-      "published_at": "2026-09-24T14:08:57+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-09-24"
-      ],
-      "importance": "normal",
-      "title_original": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "body_original": "",
-      "editorial_date": "2026-09-29"
     }
   ],
   "papers": [
@@ -428,7 +425,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-09-29T14:09:17.962155+00:00",
+  "fetched_at": "2026-09-29T17:31:06.408977+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -463,8 +460,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "unavailable",
-      "error": "ParseError"
+      "status": "ok",
+      "items": 8
     },
     {
       "source": "arXiv materials",
@@ -475,7 +472,7 @@
   ],
   "editorial": {
     "date": "2026-09-29",
-    "items_applied": 22,
+    "items_applied": 21,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
   },
