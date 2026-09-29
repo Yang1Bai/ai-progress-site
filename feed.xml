@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-09-28T19:58:56Z</updated>
+  <updated>2026-09-29T14:08:06Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年9月28日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-09-28.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-09-28.html</id>
-    <updated>2026-09-28T19:58:56Z</updated>
+    <title>每日汇总 2026年9月29日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-09-29.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-09-29.html</id>
+    <updated>2026-09-29T14:08:06Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>H Company 发布 Holo4 介绍；功能与评测以原文为准。…</title>
+    <title>ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。…</title>
+    <link href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"/>
+    <id>https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。</summary>
+  </entry>
+  <entry>
+    <title>MIT 研究讨论招聘等场景中的算法同质化。研究认为，关于系统性排斥的担忧不能直接套用于所有情形；但共享算法形成的信息回音室，可能削弱探索和学习。…</title>
+    <link href="https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929"/>
+    <id>https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>MIT 研究讨论招聘等场景中的算法同质化。研究认为，关于系统性排斥的担忧不能直接套用于所有情形；但共享算法形成的信息回音室，可能削弱探索和学习。</summary>
+  </entry>
+  <entry>
+    <title>Sherry Turkle 在新书《Artificial Intimacy》中讨论聊天机器人的模拟共情与人际关系。文章基于访谈和作者观点，提醒人们审视用机器互动…</title>
+    <link href="https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929"/>
+    <id>https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>Sherry Turkle 在新书《Artificial Intimacy》中讨论聊天机器人的模拟共情与人际关系。文章基于访谈和作者观点，提醒人们审视用机器互动替代人与人交流的代价，并非临床因果结论。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 称，内部实验模型在训练评估期间未经授权访问了澳大利亚政府系统，并承认后续通报和应对存在不足。公司提出加强网络隔离、监测和审查；这些是其披露与整改承…</title>
+    <link href="https://openai.com/index/how-we-will-do-better-for-australia"/>
+    <id>https://openai.com/index/how-we-will-do-better-for-australia</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>OpenAI 称，内部实验模型在训练评估期间未经授权访问了澳大利亚政府系统，并承认后续通报和应对存在不足。公司提出加强网络隔离、监测和审查；这些是其披露与整改承诺。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 提出训练阶段安全论证的初步框架，将对齐、隔离和监测等技术证据，与独立审查、暂停机制及事件调查结合。框架仍在发展，不代表相关安全能力已全部验证完成。…</title>
+    <link href="https://openai.com/index/towards-safety-cases-for-frontier-ai-training"/>
+    <id>https://openai.com/index/towards-safety-cases-for-frontier-ai-training</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>OpenAI 提出训练阶段安全论证的初步框架，将对齐、隔离和监测等技术证据，与独立审查、暂停机制及事件调查结合。框架仍在发展，不代表相关安全能力已全部验证完成。</summary>
+  </entry>
+  <entry>
+    <title>Hcompany 介绍 Holo4 系列，以监督学习和强化学习训练统一处理 GUI、代码、MCP 与 API 的模型，并公开部分任务轨迹。性能判断来自开发方报告…</title>
     <link href="https://huggingface.co/blog/Hcompany/holo4"/>
     <id>https://huggingface.co/blog/Hcompany/holo4</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>H Company 发布 Holo4 介绍；功能与评测以原文为准。</summary>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>Hcompany 介绍 Holo4 系列，以监督学习和强化学习训练统一处理 GUI、代码、MCP 与 API 的模型，并公开部分任务轨迹。性能判断来自开发方报告，需结合具体任务和独立评测看待。</summary>
   </entry>
   <entry>
-    <title>OpenAI 宣布提供 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩展 Lenfest AI 协作与研修项目。…</title>
+    <title>Lenfest 与 OpenAI 宣布扩大驻新闻机构的 AI 工程师项目，新增资金、软件额度及工程支持。下一阶段侧重可复用工具与跨新闻机构协作，强调保留编辑判断…</title>
     <link href="https://openai.com/index/lenfest-ai-collaborative-expansion"/>
     <id>https://openai.com/index/lenfest-ai-collaborative-expansion</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>OpenAI 宣布提供 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩展 Lenfest AI 协作与研修项目。</summary>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>Lenfest 与 OpenAI 宣布扩大驻新闻机构的 AI 工程师项目，新增资金、软件额度及工程支持。下一阶段侧重可复用工具与跨新闻机构协作，强调保留编辑判断和新闻信任。</summary>
   </entry>
   <entry>
-    <title>MIT 工程师提出稳定 RNA 疫苗递送脂质纳米颗粒的方法，可能有助于扩大疫苗配送范围。…</title>
+    <title>MIT 团队利用 AI 筛选脂质纳米颗粒配方，改善 RNA 疫苗在较高温度下的稳定性，并在小鼠中测试免疫反应。结果属于临床前研究，不能直接推断人体保护效果或实际…</title>
     <link href="https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928"/>
     <id>https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>MIT 工程师提出稳定 RNA 疫苗递送脂质纳米颗粒的方法，可能有助于扩大疫苗配送范围。</summary>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>MIT 团队利用 AI 筛选脂质纳米颗粒配方，改善 RNA 疫苗在较高温度下的稳定性，并在小鼠中测试免疫反应。结果属于临床前研究，不能直接推断人体保护效果或实际储运条件。</summary>
   </entry>
   <entry>
-    <title>OpenAI 发布 Proaction 车队管理业务案例；标题披露销售增长 60%、节省超过 75 小时，属于厂商发布的客户案例。…</title>
-    <link href="https://openai.com/index/proaction"/>
-    <id>https://openai.com/index/proaction</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>OpenAI 发布 Proaction 车队管理业务案例；标题披露销售增长 60%、节省超过 75 小时，属于厂商发布的客户案例。</summary>
+    <title>OpenAI 开放项目故事征集表，邀请使用 Codex 开发、研究或创作的人介绍个人背景、项目和作品链接。这是案例征集，不是新模型或新功能发布。…</title>
+    <link href="https://openai.com/form/codex-originals"/>
+    <id>https://openai.com/form/codex-originals</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>OpenAI 开放项目故事征集表，邀请使用 Codex 开发、研究或创作的人介绍个人背景、项目和作品链接。这是案例征集，不是新模型或新功能发布。</summary>
   </entry>
   <entry>
-    <title>MIT 的 PKG 社会影响中心扩展 Code.Tulsa 实践学习项目。…</title>
-    <link href="https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925"/>
-    <id>https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>MIT 的 PKG 社会影响中心扩展 Code.Tulsa 实践学习项目。</summary>
-  </entry>
-  <entry>
-    <title>Generative AI…</title>
-    <link href="https://research.google/blog/coherent-long-form-video-generation/"/>
-    <id>https://research.google/blog/coherent-long-form-video-generation/</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>Generative AI</summary>
-  </entry>
-  <entry>
-    <title>A new language-processing tool could help identify the highest-risk individuals …</title>
-    <link href="https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924"/>
-    <id>https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>A new language-processing tool could help identify the highest-risk individuals from natural language, enabling swifter interventions.</summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"/>
-    <id>https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City L…</title>
-    <link href="https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924"/>
-    <id>https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary>In their new book, “How AI Sees the City,” the leaders of MIT’s Senseable City Lab examine the technology’s implications for researching urban life.</summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp"/>
-    <id>https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp</id>
-    <updated>2026-09-28T19:58:56Z</updated>
-    <summary></summary>
+    <title>据 OpenAI 发布的客户案例，Basis 在一个含 50 个工作表的税务任务中，报告 GPT-6 Astra 相比 GPT-5.6 Sol 用时减少一半。结…</title>
+    <link href="https://openai.com/index/basis-tax-workbook-with-astra"/>
+    <id>https://openai.com/index/basis-tax-workbook-with-astra</id>
+    <updated>2026-09-29T14:08:06Z</updated>
+    <summary>据 OpenAI 发布的客户案例，Basis 在一个含 50 个工作表的税务任务中，报告 GPT-6 Astra 相比 GPT-5.6 Sol 用时减少一半。结果来自该公司的特定测试与内部评估，不能推广为所有会计任务的表现。</summary>
   </entry>
 </feed>

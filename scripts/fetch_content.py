@@ -1239,7 +1239,7 @@ def replace_block(html, start, end, inner):
     repl = f"{start}\n{inner}\n      {end}"
     if not pat.search(html):
         raise RuntimeError(f"未找到标记: {start}")
-    return pat.sub(repl, html, count=1)
+    return pat.sub(lambda _match: repl, html, count=1)
 
 
 def update_date(html, date_str):
