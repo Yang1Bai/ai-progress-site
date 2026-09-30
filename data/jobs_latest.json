@@ -316,6 +316,38 @@
           "soft matter"
         ],
         "source": "curated"
+      },
+      {
+        "title": "Assistant Professor of Chemistry",
+        "org": "University of Washington, Department of Chemistry",
+        "location": "Seattle, Washington, USA",
+        "url": "https://apply.interfolio.com/194442",
+        "deadline": "Priority consideration 2026-10-29; full consideration 2026-11-01; open until filled",
+        "tags": [
+          "chemistry",
+          "open search",
+          "Assistant Professor"
+        ],
+        "source": "curated",
+        "official_posting": "https://ap.washington.edu/ahr/position-details/?job_id=192872",
+        "priority_review_date": "2026-10-29",
+        "full_consideration_date": "2026-11-01"
+      },
+      {
+        "title": "Assistant/Associate Professor of Sustainability Engineering",
+        "org": "Purdue University, School of Sustainability Engineering and Environmental Engineering",
+        "location": "West Lafayette, Indiana, USA",
+        "url": "https://careers.purdue.edu/job/AssistantAssociate-Professor-of-Sustainability-Engineering/44028-en_US/",
+        "deadline": "Review begins 2026-10-24; open until filled",
+        "tags": [
+          "sustainability engineering",
+          "sustainable manufacturing",
+          "energy & resource efficiency",
+          "tenure-track / tenured"
+        ],
+        "source": "curated",
+        "official_posting": "https://careers.purdue.edu/job/AssistantAssociate-Professor-of-Sustainability-Engineering/44028-en_US/",
+        "review_begins_date": "2026-10-24"
       }
     ],
     "postdoc": [],
