@@ -2,6 +2,58 @@
   "date": "2026年9月30日",
   "news": [
     {
+      "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+      "body": "With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T11:15:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-09-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "This game-playing AI is the new champ at Stratego",
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "body": "Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T11:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-09-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "body": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-09-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "body": "",
+      "date": "2026-09-30",
+      "published_at": "2026-09-30T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-09-30"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Diffusion Controller：以轻量控制网络改善图像生成",
       "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
       "body": "Google Research 介绍可附加于图像生成模型的轻量控制网络，尝试将推理时引导与模型适配纳入统一框架，在提示词一致性和图像质量之间取得平衡。文中的效果来自作者测试，实际表现仍依赖基础模型与生成任务。",
@@ -50,22 +102,6 @@
       "editorial_date": "2026-09-30"
     },
     {
-      "title": "OpenAI 发布 GPT-6.1 Sol，侧重智能体任务的能力与成本",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "body": "OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能直接等同于所有真实任务的效果。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing GPT-6.1 Sol",
-      "body_original": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "editorial_date": "2026-09-30"
-    },
-    {
       "title": "DevDay 2026 回顾：持续工作智能体、模型与开发工具更新",
       "url": "https://openai.com/index/devday-2026-recap",
       "body": "OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同，公告中的预览或未来计划不代表已向所有用户开放。",
@@ -79,6 +115,22 @@
       "importance": "normal",
       "title_original": "DevDay 2026 Recap",
       "body_original": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "editorial_date": "2026-09-30"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.1 Sol，侧重智能体任务的能力与成本",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "body": "OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能直接等同于所有真实任务的效果。",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-09-29"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing GPT-6.1 Sol",
+      "body_original": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "editorial_date": "2026-09-30"
     },
     {
@@ -175,70 +227,6 @@
       "importance": "normal",
       "title_original": "Holo4: powering generalist computer-use agents",
       "body_original": "",
-      "editorial_date": "2026-09-30"
-    },
-    {
-      "title": "Lenfest 扩大地方新闻机构 AI 合作计划",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "body": "Lenfest 与 OpenAI 宣布扩大驻新闻机构的 AI 工程师项目，新增资金、软件额度及工程支持。下一阶段侧重可复用工具与跨新闻机构协作，强调保留编辑判断和新闻信任。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "body_original": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "editorial_date": "2026-09-30"
-    },
-    {
-      "title": "AI 辅助优化脂质配方，提高 RNA 疫苗耐热性",
-      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
-      "body": "MIT 团队利用 AI 筛选脂质纳米颗粒配方，改善 RNA 疫苗在较高温度下的稳定性，并在小鼠中测试免疫反应。结果属于临床前研究，不能直接推断人体保护效果或实际储运条件。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T05:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "New formulation helps RNA vaccines withstand high temperatures",
-      "body_original": "MIT engineers have found a way to stabilize the lipid nanoparticles used to deliver RNA vaccines, which could allow the vaccines to be more widely distributed.",
-      "editorial_date": "2026-09-30"
-    },
-    {
-      "title": "Codex Originals 征集开发者与研究者的真实项目",
-      "url": "https://openai.com/form/codex-originals",
-      "body": "OpenAI 开放项目故事征集表，邀请使用 Codex 开发、研究或创作的人介绍个人背景、项目和作品链接。这是案例征集，不是新模型或新功能发布。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "Are you a Codex Original?",
-      "body_original": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "editorial_date": "2026-09-30"
-    },
-    {
-      "title": "Basis 分享税务工作簿测试：Astra 缩短完成时间",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "body": "据 OpenAI 发布的客户案例，Basis 在一个含 50 个工作表的税务任务中，报告 GPT-6 Astra 相比 GPT-5.6 Sol 用时减少一半。结果来自该公司的特定测试与内部评估，不能推广为所有会计任务的表现。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "body_original": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "editorial_date": "2026-09-30"
     }
   ],
@@ -407,7 +395,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-09-30T13:20:02.542564+00:00",
+  "fetched_at": "2026-09-30T17:30:19.469852+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -419,13 +407,13 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 4
+      "items": 5
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "source": "Google Research",
@@ -436,8 +424,8 @@
     {
       "source": "Nature Materials",
       "url": "https://www.nature.com/nmat.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "Nature Catalysis",
@@ -452,16 +440,16 @@
       "items": 81
     }
   ],
+  "editorial": {
+    "date": "2026-09-30",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 6,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-09-30",
-    "items_applied": 21,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
