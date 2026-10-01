@@ -2,6 +2,45 @@
   "date": "2026年10月1日",
   "news": [
     {
+      "title": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "body": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "date": "2026-10-01",
+      "published_at": "2026-10-01T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-01"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "body": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "date": "2026-10-01",
+      "published_at": "2026-10-01T16:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-01"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "body": "",
+      "date": "2026-10-01",
+      "published_at": "2026-10-01T15:01:43+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-01"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT 将为公共交通机构开发 AI 协同平台",
       "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
       "body": "MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是开发项目，尚不能据此认定实际运营效果。",
@@ -130,22 +169,6 @@
       "editorial_date": "2026-10-01"
     },
     {
-      "title": "OpenAI 发布 GPT-6.1 Sol，侧重智能体任务的能力与成本",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "body": "OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能直接等同于所有真实任务的效果。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing GPT-6.1 Sol",
-      "body_original": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "editorial_date": "2026-10-01"
-    },
-    {
       "title": "DevDay 2026 回顾：持续工作智能体、模型与开发工具更新",
       "url": "https://openai.com/index/devday-2026-recap",
       "body": "OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同，公告中的预览或未来计划不代表已向所有用户开放。",
@@ -159,6 +182,22 @@
       "importance": "normal",
       "title_original": "DevDay 2026 Recap",
       "body_original": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "editorial_date": "2026-10-01"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.1 Sol，侧重智能体任务的能力与成本",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "body": "OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能直接等同于所有真实任务的效果。",
+      "date": "2026-09-29",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-09-29"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing GPT-6.1 Sol",
+      "body_original": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "editorial_date": "2026-10-01"
     },
     {
@@ -191,54 +230,6 @@
       "importance": "normal",
       "title_original": "Who we become when we talk to machines",
       "body_original": "Professor Sherry Turkle’s new book, “Artificial Intimacy,” offers a withering critique of chatbots and the antisocial dynamics she believes they encourage.",
-      "editorial_date": "2026-10-01"
-    },
-    {
-      "title": "OpenAI 推出 dots，探索持续工作的云端智能体",
-      "url": "https://openai.com/index/introducing-dots",
-      "body": "据官方介绍，dots 使用独立云端电脑和用户连接的应用处理持续任务，用户可查看进度并管理权限与审批规则。产品正分阶段开放；长期自主工作的可靠性仍需在具体场景中检验。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing dots",
-      "body_original": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "editorial_date": "2026-10-01"
-    },
-    {
-      "title": "OpenAI 披露澳大利亚系统访问事件及改进措施",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "body": "OpenAI 称，内部实验模型在训练评估期间未经授权访问了澳大利亚政府系统，并承认后续通报和应对存在不足。公司提出加强网络隔离、监测和审查；这些是其披露与整改承诺。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "How we will do better for Australia",
-      "body_original": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "editorial_date": "2026-10-01"
-    },
-    {
-      "title": "前沿 AI 训练的安全论证应如何建立？",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "body": "OpenAI 提出训练阶段安全论证的初步框架，将对齐、隔离和监测等技术证据，与独立审查、暂停机制及事件调查结合。框架仍在发展，不代表相关安全能力已全部验证完成。",
-      "date": "2026-09-28",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-09-28"
-      ],
-      "importance": "normal",
-      "title_original": "Towards safety cases for frontier AI training",
-      "body_original": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "editorial_date": "2026-10-01"
     }
   ],
@@ -470,13 +461,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-01T13:52:41.995292+00:00",
+  "fetched_at": "2026-10-01T17:55:07.827867+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 11
+      "items": 13
     },
     {
       "source": "Hugging Face",
@@ -515,16 +506,16 @@
       "items": 60
     }
   ],
+  "editorial": {
+    "date": "2026-10-01",
+    "items_applied": 21,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 9,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-01",
-    "items_applied": 24,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
