@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-09-30T17:30:20Z</updated>
+  <updated>2026-10-01T13:55:00Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年9月30日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-09-30.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-09-30.html</id>
-    <updated>2026-09-30T17:30:20Z</updated>
+    <title>每日汇总 2026年10月1日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-01.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-01.html</id>
+    <updated>2026-10-01T13:55:00Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>With $2.1 million funding from Google.org, the open-source Public Transit Intell…</title>
+    <title>MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是…</title>
     <link href="https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930"/>
     <id>https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary>With $2.1 million funding from Google.org, the open-source Public Transit Intelligence Hub will unify public transit monitoring, operations, and passenger communication.</summary>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是开发项目，尚不能据此认定实际运营效果。</summary>
   </entry>
   <entry>
-    <title>Able to defeat top-ranked human players and more efficient than other models, th…</title>
+    <title>MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策…</title>
     <link href="https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930"/>
     <id>https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary>Able to defeat top-ranked human players and more efficient than other models, the new system could help decision-makers in military maneuvers or business negotiations.</summary>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策能力。</summary>
   </entry>
   <entry>
-    <title>OpenAI is partnering with America’s SBDC to expand hands-on AI training and loca…</title>
+    <title>OpenAI 称其发现通过模型交互提取受保护推理的协同活动，并采取账户限制、技术修补及行业信息共享措施。文中归因属于公司调查判断，列出的请求数量也不等于成功提取…</title>
+    <link href="https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"/>
+    <id>https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign</id>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>OpenAI 称其发现通过模型交互提取受保护推理的协同活动，并采取账户限制、技术修补及行业信息共享措施。文中归因属于公司调查判断，列出的请求数量也不等于成功提取次数。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 宣布与 America’s SBDC 合作，计划培训顾问并为小企业提供实践课程和本地指导，同时发布小团队使用 AI 的报告。培训覆盖目标属于计划，…</title>
     <link href="https://openai.com/index/helping-small-businesses-put-ai-to-work"/>
     <id>https://openai.com/index/helping-small-businesses-put-ai-to-work</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary>OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.</summary>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>OpenAI 宣布与 America’s SBDC 合作，计划培训顾问并为小企业提供实践课程和本地指导，同时发布小团队使用 AI 的报告。培训覆盖目标属于计划，不能视为已实现的经营改善。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>Hugging Face 介绍可扩展的开放语音合成评测，讨论人工偏好评估的覆盖和一致性限制。不同指标衡量的质量侧面不同，自动评分与榜单结果不能完全替代具体语言和…</title>
     <link href="https://huggingface.co/blog/open-tts-leaderboard"/>
     <id>https://huggingface.co/blog/open-tts-leaderboard</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary></summary>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>Hugging Face 介绍可扩展的开放语音合成评测，讨论人工偏好评估的覆盖和一致性限制。不同指标衡量的质量侧面不同，自动评分与榜单结果不能完全替代具体语言和使用场景中的听感评价。</summary>
   </entry>
   <entry>
     <title>Google Research 介绍可附加于图像生成模型的轻量控制网络，尝试将推理时引导与模型适配纳入统一框架，在提示词一致性和图像质量之间取得平衡。文中的效果…</title>
     <link href="https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/"/>
     <id>https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/</id>
-    <updated>2026-09-30T17:30:20Z</updated>
+    <updated>2026-10-01T13:55:00Z</updated>
     <summary>Google Research 介绍可附加于图像生成模型的轻量控制网络，尝试将推理时引导与模型适配纳入统一框架，在提示词一致性和图像质量之间取得平衡。文中的效果来自作者测试，实际表现仍依赖基础模型与生成任务。</summary>
   </entry>
   <entry>
     <title>NVIDIA 介绍通过合成表格预训练的基础模型，将带标签样本作为上下文，直接完成新行的分类或回归预测。开发方报告了多项基准表现；无需任务微调不意味着无需真实业务…</title>
     <link href="https://huggingface.co/blog/nvidia/kumo-tabular"/>
     <id>https://huggingface.co/blog/nvidia/kumo-tabular</id>
-    <updated>2026-09-30T17:30:20Z</updated>
+    <updated>2026-10-01T13:55:00Z</updated>
     <summary>NVIDIA 介绍通过合成表格预训练的基础模型，将带标签样本作为上下文，直接完成新行的分类或回归预测。开发方报告了多项基准表现；无需任务微调不意味着无需真实业务数据验证。</summary>
   </entry>
   <entry>
     <title>ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。…</title>
     <link href="https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"/>
     <id>https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source</id>
-    <updated>2026-09-30T17:30:20Z</updated>
+    <updated>2026-10-01T13:55:00Z</updated>
     <summary>ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同…</title>
-    <link href="https://openai.com/index/devday-2026-recap"/>
-    <id>https://openai.com/index/devday-2026-recap</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary>OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同，公告中的预览或未来计划不代表已向所有用户开放。</summary>
   </entry>
   <entry>
     <title>OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能…</title>
     <link href="https://openai.com/index/introducing-gpt-6-1-sol"/>
     <id>https://openai.com/index/introducing-gpt-6-1-sol</id>
-    <updated>2026-09-30T17:30:20Z</updated>
+    <updated>2026-10-01T13:55:00Z</updated>
     <summary>OpenAI 称新版 Sol 在代码、电脑操作和专业工作评测中较前代提升，并在部分任务上接近 Astra。发布文提供了测试条件与价格信息；这些是开发方评测，不能直接等同于所有真实任务的效果。</summary>
   </entry>
   <entry>
-    <title>MIT 研究讨论招聘等场景中的算法同质化。研究认为，关于系统性排斥的担忧不能直接套用于所有情形；但共享算法形成的信息回音室，可能削弱探索和学习。…</title>
-    <link href="https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929"/>
-    <id>https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929</id>
-    <updated>2026-09-30T17:30:20Z</updated>
-    <summary>MIT 研究讨论招聘等场景中的算法同质化。研究认为，关于系统性排斥的担忧不能直接套用于所有情形；但共享算法形成的信息回音室，可能削弱探索和学习。</summary>
+    <title>OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同…</title>
+    <link href="https://openai.com/index/devday-2026-recap"/>
+    <id>https://openai.com/index/devday-2026-recap</id>
+    <updated>2026-10-01T13:55:00Z</updated>
+    <summary>OpenAI 汇总本次大会的模型、Codex、插件和协作产品公告，包含 GPT-6.1 Sol、dots 及云端开发工具。各项功能的推出阶段、地区和套餐范围不同，公告中的预览或未来计划不代表已向所有用户开放。</summary>
   </entry>
 </feed>
