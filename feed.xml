@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-02T13:24:52Z</updated>
+  <updated>2026-10-02T17:20:32Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月2日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-02.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-02.html</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Learn how startups can choose GPT-6 models, tune reasoning effort, improve promp…</title>
+    <link href="https://openai.com/index/practical-guide-building-gpt-6"/>
+    <id>https://openai.com/index/practical-guide-building-gpt-6</id>
+    <updated>2026-10-02T17:20:32Z</updated>
+    <summary>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/astabrief"/>
+    <id>https://huggingface.co/blog/allenai/astabrief</id>
+    <updated>2026-10-02T17:20:32Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Mobile Systems…</title>
+    <link href="https://research.google/blog/toward-provably-private-learning-from-federated-data/"/>
+    <id>https://research.google/blog/toward-provably-private-learning-from-federated-data/</id>
+    <updated>2026-10-02T17:20:32Z</updated>
+    <summary>Mobile Systems</summary>
+  </entry>
+  <entry>
+    <title>Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-author…</title>
+    <link href="https://news.mit.edu/2026/documenting-tech-worker-movement-0918"/>
+    <id>https://news.mit.edu/2026/documenting-tech-worker-movement-0918</id>
+    <updated>2026-10-02T17:20:32Z</updated>
+    <summary>Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.</summary>
   </entry>
   <entry>
     <title>ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可…</title>
     <link href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata"/>
     <id>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。</summary>
   </entry>
   <entry>
     <title>Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功…</title>
     <link href="https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002"/>
     <id>https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。</summary>
+  </entry>
+  <entry>
+    <title>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workfl…</title>
+    <link href="https://openai.com/index/chatham-financial"/>
+    <id>https://openai.com/index/chatham-financial</id>
+    <updated>2026-10-02T17:20:32Z</updated>
+    <summary>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</summary>
   </entry>
   <entry>
     <title>MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一…</title>
     <link href="https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001"/>
     <id>https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。</summary>
   </entry>
   <entry>
     <title>两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方…</title>
     <link href="https://openai.com/index/the-eternal-complement"/>
     <id>https://openai.com/index/the-eternal-complement</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。</summary>
   </entry>
   <entry>
     <title>OpenAI 介绍与 Albertsons 的合作，将 AI 用于内部工作、商品推荐和促销洞察，并推出 ChatGPT 内的 Safeway 购物体验。内容为合…</title>
     <link href="https://openai.com/index/albertsons-reimagining-retail"/>
     <id>https://openai.com/index/albertsons-reimagining-retail</id>
-    <updated>2026-10-02T13:24:52Z</updated>
+    <updated>2026-10-02T17:20:32Z</updated>
     <summary>OpenAI 介绍与 Albertsons 的合作，将 AI 用于内部工作、商品推荐和促销洞察，并推出 ChatGPT 内的 Safeway 购物体验。内容为合作方案例介绍，不能据此推断独立验证的普遍经营收益。</summary>
-  </entry>
-  <entry>
-    <title>AllenAI 发布重新设计的 MoE 训练系统，重点降低专家路由、通信和内存开销，以支持更大参数规模。文章报告特定配置下的吞吐测试；规模扩展效果仍取决于硬件、…</title>
-    <link href="https://huggingface.co/blog/allenai/olmocore3"/>
-    <id>https://huggingface.co/blog/allenai/olmocore3</id>
-    <updated>2026-10-02T13:24:52Z</updated>
-    <summary>AllenAI 发布重新设计的 MoE 训练系统，重点降低专家路由、通信和内存开销，以支持更大参数规模。文章报告特定配置下的吞吐测试；规模扩展效果仍取决于硬件、并行方案和模型配置。</summary>
-  </entry>
-  <entry>
-    <title>据 OpenAI 客户案例，The Den 在筹备新店时整合分散信息、准备许可和资助申请，团队自报每周节省 10 至 15 小时。团队仍审核输出并作最终决定，案…</title>
-    <link href="https://openai.com/index/the-den-family-social"/>
-    <id>https://openai.com/index/the-den-family-social</id>
-    <updated>2026-10-02T13:24:52Z</updated>
-    <summary>据 OpenAI 客户案例，The Den 在筹备新店时整合分散信息、准备许可和资助申请，团队自报每周节省 10 至 15 小时。团队仍审核输出并作最终决定，案例数据不代表所有小企业都能达到相同效果。</summary>
-  </entry>
-  <entry>
-    <title>MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是…</title>
-    <link href="https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930"/>
-    <id>https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930</id>
-    <updated>2026-10-02T13:24:52Z</updated>
-    <summary>MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是开发项目，尚不能据此认定实际运营效果。</summary>
-  </entry>
-  <entry>
-    <title>MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策…</title>
-    <link href="https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930"/>
-    <id>https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930</id>
-    <updated>2026-10-02T13:24:52Z</updated>
-    <summary>MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策能力。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 称其发现通过模型交互提取受保护推理的协同活动，并采取账户限制、技术修补及行业信息共享措施。文中归因属于公司调查判断，列出的请求数量也不等于成功提取…</title>
-    <link href="https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"/>
-    <id>https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign</id>
-    <updated>2026-10-02T13:24:52Z</updated>
-    <summary>OpenAI 称其发现通过模型交互提取受保护推理的协同活动，并采取账户限制、技术修补及行业信息共享措施。文中归因属于公司调查判断，列出的请求数量也不等于成功提取次数。</summary>
   </entry>
 </feed>

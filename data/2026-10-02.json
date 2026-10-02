@@ -2,6 +2,58 @@
   "date": "2026年10月2日",
   "news": [
     {
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "body": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T16:15:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "body": "",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T15:19:50+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Toward provably private learning from federated data",
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "body": "Mobile Systems",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T14:57:41+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Documenting the tech worker movement",
+      "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+      "body": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T13:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-02"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "AutoSynthData：从企业智能体的失败中生成训练任务",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "body": "ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。",
@@ -32,6 +84,19 @@
       "title_original": "3 Questions: A new resource to empower young entrepreneurs",
       "body_original": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
       "editorial_date": "2026-10-02"
+    },
+    {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "body": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "date": "2026-10-02",
+      "published_at": "2026-10-02T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-02"
+      ],
+      "importance": "normal"
     },
     {
       "title": "InstructMesh：让用户局部修复 AI 生成的三维模型",
@@ -79,22 +144,6 @@
       "importance": "normal",
       "title_original": "How Albertsons Companies is reimagining retail from the inside out",
       "body_original": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "editorial_date": "2026-10-02"
-    },
-    {
-      "title": "Olmo-core 3：面向大型混合专家模型的开放训练基础设施",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "body": "AllenAI 发布重新设计的 MoE 训练系统，重点降低专家路由、通信和内存开销，以支持更大参数规模。文章报告特定配置下的吞吐测试；规模扩展效果仍取决于硬件、并行方案和模型配置。",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T15:01:43+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-01"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "body_original": "",
       "editorial_date": "2026-10-02"
     },
     {
@@ -175,70 +224,6 @@
       "importance": "normal",
       "title_original": "Helping small businesses put AI to work",
       "body_original": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "editorial_date": "2026-10-02"
-    },
-    {
-      "title": "开放 TTS 评测榜探索多语言语音与声音克隆评价",
-      "url": "https://huggingface.co/blog/open-tts-leaderboard",
-      "body": "Hugging Face 介绍可扩展的开放语音合成评测，讨论人工偏好评估的覆盖和一致性限制。不同指标衡量的质量侧面不同，自动评分与榜单结果不能完全替代具体语言和使用场景中的听感评价。",
-      "date": "2026-09-30",
-      "published_at": "2026-09-30T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-09-30"
-      ],
-      "importance": "normal",
-      "title_original": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "body_original": "",
-      "editorial_date": "2026-10-02"
-    },
-    {
-      "title": "Diffusion Controller：以轻量控制网络改善图像生成",
-      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
-      "body": "Google Research 介绍可附加于图像生成模型的轻量控制网络，尝试将推理时引导与模型适配纳入统一框架，在提示词一致性和图像质量之间取得平衡。文中的效果来自作者测试，实际表现仍依赖基础模型与生成任务。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T18:38:27+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "How Diffusion Controller unifies and simplifies AI image generation",
-      "body_original": "Algorithms & Theory",
-      "editorial_date": "2026-10-02"
-    },
-    {
-      "title": "NVIDIA 发布面向表格预测的 Kumo Tabular 开放模型",
-      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "body": "NVIDIA 介绍通过合成表格预训练的基础模型，将带标签样本作为上下文，直接完成新行的分类或回归预测。开发方报告了多项基准表现；无需任务微调不意味着无需真实业务数据验证。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T15:30:38+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "body_original": "",
-      "editorial_date": "2026-10-02"
-    },
-    {
-      "title": "MCP 智能体核验：事实正确，也要引用对来源",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "body": "ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。",
-      "date": "2026-09-29",
-      "published_at": "2026-09-29T13:07:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-09-29"
-      ],
-      "importance": "normal",
-      "title_original": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "body_original": "",
       "editorial_date": "2026-10-02"
     }
   ],
@@ -381,13 +366,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-02T13:22:20.258347+00:00",
+  "fetched_at": "2026-10-02T17:20:29.037544+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 14
+      "items": 16
     },
     {
       "source": "Hugging Face",
@@ -399,13 +384,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -416,8 +401,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "arXiv materials",
@@ -426,16 +411,16 @@
       "items": 52
     }
   ],
+  "editorial": {
+    "date": "2026-10-02",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 5,
     "leader_count": 0,
     "science_count": 5
-  },
-  "editorial": {
-    "date": "2026-10-02",
-    "items_applied": 20,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
