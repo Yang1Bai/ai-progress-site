@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-02",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "title": "AutoSynthData：从企业智能体的失败中生成训练任务",
+      "body": "ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+      "title": "MIT 推出面向青少年的免费 AI 创业学习平台",
+      "body": "Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+      "title": "InstructMesh：让用户局部修复 AI 生成的三维模型",
+      "body": "MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。"
+    },
+    {
+      "url": "https://openai.com/index/the-eternal-complement",
+      "title": "观点：AI 的重要价值也可能来自平凡的执行工作",
+      "body": "两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。"
+    },
+    {
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "title": "Albertsons 扩大 AI 在零售运营与购物体验中的应用",
+      "body": "OpenAI 介绍与 Albertsons 的合作，将 AI 用于内部工作、商品推荐和促销洞察，并推出 ChatGPT 内的 Safeway 购物体验。内容为合作方案例介绍，不能据此推断独立验证的普遍经营收益。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "title": "Olmo-core 3：面向大型混合专家模型的开放训练基础设施",
+      "body": "AllenAI 发布重新设计的 MoE 训练系统，重点降低专家路由、通信和内存开销，以支持更大参数规模。文章报告特定配置下的吞吐测试；规模扩展效果仍取决于硬件、并行方案和模型配置。"
+    },
+    {
+      "url": "https://openai.com/index/the-den-family-social",
+      "title": "The Den 分享用 ChatGPT Work 减少行政工作的案例",
+      "body": "据 OpenAI 客户案例，The Den 在筹备新店时整合分散信息、准备许可和资助申请，团队自报每周节省 10 至 15 小时。团队仍审核输出并作最终决定，案例数据不代表所有小企业都能达到相同效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+      "title": "MIT 将为公共交通机构开发 AI 协同平台",
+      "body": "MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是开发项目，尚不能据此认定实际运营效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "title": "研究团队开发擅长不完全信息博弈的 Stratego AI",
+      "body": "MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策能力。"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "OpenAI 披露并处置协同模型蒸馏活动",
+      "body": "OpenAI 称其发现通过模型交互提取受保护推理的协同活动，并采取账户限制、技术修补及行业信息共享措施。文中归因属于公司调查判断，列出的请求数量也不等于成功提取次数。"
+    },
+    {
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "title": "OpenAI 与美国小企业发展中心合作开展 AI 培训",
+      "body": "OpenAI 宣布与 America’s SBDC 合作，计划培训顾问并为小企业提供实践课程和本地指导，同时发布小团队使用 AI 的报告。培训覆盖目标属于计划，不能视为已实现的经营改善。"
+    },
+    {
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "title": "开放 TTS 评测榜探索多语言语音与声音克隆评价",
+      "body": "Hugging Face 介绍可扩展的开放语音合成评测，讨论人工偏好评估的覆盖和一致性限制。不同指标衡量的质量侧面不同，自动评分与榜单结果不能完全替代具体语言和使用场景中的听感评价。"
+    },
+    {
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/",
+      "title": "Diffusion Controller：以轻量控制网络改善图像生成",
+      "body": "Google Research 介绍可附加于图像生成模型的轻量控制网络，尝试将推理时引导与模型适配纳入统一框架，在提示词一致性和图像质量之间取得平衡。文中的效果来自作者测试，实际表现仍依赖基础模型与生成任务。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "title": "NVIDIA 发布面向表格预测的 Kumo Tabular 开放模型",
+      "body": "NVIDIA 介绍通过合成表格预训练的基础模型，将带标签样本作为上下文，直接完成新行的分类或回归预测。开发方报告了多项基准表现；无需任务微调不意味着无需真实业务数据验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "title": "MCP 智能体核验：事实正确，也要引用对来源",
+      "body": "ProvenanceGuard 针对跨来源混淆：一句话可能在某处有依据，却被归到错误的工具或来源。作者提出将来源归属纳入核验，避免仅汇总证据后判定事实正确。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.00100",
+      "title": "跨晶体对称性的图神经网络分子动力学替代框架",
+      "summary": "预印本摘要：作者采用统一网络、图构建和训练流程，在铝、铁、镁体系中直接预测原子位移并迭代推进轨迹，省去显式力计算和时间积分。所报告稳定性覆盖特定元素及晶格测试，不代表无需重新训练即可泛化至任意材料。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.00794",
+      "title": "以钛酸锶缺陷能量检验长程机器学习原子间势",
+      "summary": "预印本摘要：研究将三种长程模型与短程 MACE 基线比较，从点电荷测试推进到 SrTiO₃ 缺陷及氧空位迁移。设计旨在分辨长程静电与其他能量贡献，并检验不同缺陷间距下的外推能力。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01036",
+      "title": "Symmetrix-XL：保留模型架构的等变原子模型推理加速",
+      "summary": "预印本摘要：推理引擎通过流式边计算、专用算子生成和分块执行，降低预训练 MACE 模型的计算与内存开销，无需重训或修改权重。作者在所测硬件和模型上核验能量、力及动力学结果，速度与容量收益依赖测试配置。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01898",
+      "title": "GEODE：保持对称性的笛卡尔坐标晶体扩散生成",
+      "summary": "预印本摘要：模型先采样对称模板，再联合生成晶格、坐标和原子类型，以 Wyckoff 约束保持指定对称性。作者测试模板过滤与介电率引导；生成的亚稳、新颖结构仍需进一步物理验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01432",
+      "title": "从原子轨迹学习第一性原理相场模型",
+      "summary": "预印本摘要：研究在明确假设下把分子动力学投影到组分密度场，用神经网络学习自由能与迁移率，并演示铁硼熔体和氢氦混合物的介观演化。结果依赖原子势精度及投影假设，不等于对所有微结构过程的普适描述。"
+    }
+  ]
+}
