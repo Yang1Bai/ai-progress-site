@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-03T14:46:38Z</updated>
+  <updated>2026-10-03T15:37:31Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月3日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-03.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-03.html</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
     <title>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景…</title>
     <link href="https://openai.com/index/practical-guide-building-gpt-6"/>
     <id>https://openai.com/index/practical-guide-building-gpt-6</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。</summary>
   </entry>
   <entry>
     <title>MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需…</title>
     <link href="https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002"/>
     <id>https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需具体方案与验证。</summary>
   </entry>
   <entry>
     <title>模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正…</title>
     <link href="https://huggingface.co/blog/allenai/astabrief"/>
     <id>https://huggingface.co/blog/allenai/astabrief</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正支持结论。</summary>
   </entry>
   <entry>
     <title>Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作…</title>
     <link href="https://research.google/blog/toward-provably-private-learning-from-federated-data/"/>
     <id>https://research.google/blog/toward-provably-private-learning-from-federated-data/</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作负载约束，不能仅凭“联邦学习”名称推定原始数据绝无风险。</summary>
   </entry>
   <entry>
     <title>MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会…</title>
     <link href="https://news.mit.edu/2026/documenting-tech-worker-movement-0918"/>
     <id>https://news.mit.edu/2026/documenting-tech-worker-movement-0918</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会研究与观点讨论。</summary>
   </entry>
   <entry>
     <title>ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可…</title>
     <link href="https://huggingface.co/blog/ServiceNow-AI/autosynthdata"/>
     <id>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。</summary>
   </entry>
   <entry>
     <title>Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功…</title>
     <link href="https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002"/>
     <id>https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。</summary>
   </entry>
   <entry>
     <title>OpenAI 客户案例介绍 Chatham 用 Codex 构建交易核验工具，汇集证据、比对关键条款并标记差异。公司称早期测量将复核时间从约 30 分钟缩短到不…</title>
     <link href="https://openai.com/index/chatham-financial"/>
     <id>https://openai.com/index/chatham-financial</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>OpenAI 客户案例介绍 Chatham 用 Codex 构建交易核验工具，汇集证据、比对关键条款并标记差异。公司称早期测量将复核时间从约 30 分钟缩短到不足 4 分钟，但仍与资深审核人员比较结果，数据不是独立验证的普遍收益。</summary>
   </entry>
   <entry>
     <title>MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一…</title>
     <link href="https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001"/>
     <id>https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。</summary>
   </entry>
   <entry>
     <title>两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方…</title>
     <link href="https://openai.com/index/the-eternal-complement"/>
     <id>https://openai.com/index/the-eternal-complement</id>
-    <updated>2026-10-03T14:46:38Z</updated>
+    <updated>2026-10-03T15:37:31Z</updated>
     <summary>两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。</summary>
   </entry>
 </feed>
