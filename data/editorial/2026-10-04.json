@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-04",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "ThinkingBox：用后台状态检验智能体是否真正完成任务",
+      "body": "微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。"
+    },
+    {
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "OpenAI 发布 GPT-6 系列模型使用指南",
+      "body": "官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+      "title": "MIT 研究者用强化学习探索更可靠的交通系统",
+      "body": "MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需具体方案与验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "title": "AllenAI 开源面向带引用科研报告的 AstaBrief 8B",
+      "body": "模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正支持结论。"
+    },
+    {
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "title": "Google 探索可外部验证隐私保证的联邦学习系统",
+      "body": "Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作负载约束，不能仅凭“联邦学习”名称推定原始数据绝无风险。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+      "title": "MIT 介绍记录科技行业劳工运动的新书",
+      "body": "MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会研究与观点讨论。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "title": "AutoSynthData：从企业智能体的失败中生成训练任务",
+      "body": "ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+      "title": "MIT 推出面向青少年的免费 AI 创业学习平台",
+      "body": "Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。"
+    },
+    {
+      "url": "https://openai.com/index/chatham-financial",
+      "title": "Chatham 用 AI 整理交易证据并辅助人工复核",
+      "body": "OpenAI 客户案例介绍 Chatham 用 Codex 构建交易核验工具，汇集证据、比对关键条款并标记差异。公司称早期测量将复核时间从约 30 分钟缩短到不足 4 分钟，但仍与资深审核人员比较结果，数据不是独立验证的普遍收益。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+      "title": "InstructMesh：让用户局部修复 AI 生成的三维模型",
+      "body": "MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。"
+    },
+    {
+      "url": "https://openai.com/index/the-eternal-complement",
+      "title": "观点：AI 的重要价值也可能来自平凡的执行工作",
+      "body": "两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。"
+    },
+    {
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "title": "Albertsons 扩大 AI 在零售运营与购物体验中的应用",
+      "body": "OpenAI 介绍与 Albertsons 的合作，将 AI 用于内部工作、商品推荐和促销洞察，并推出 ChatGPT 内的 Safeway 购物体验。内容为合作方案例介绍，不能据此推断独立验证的普遍经营收益。"
+    },
+    {
+      "url": "https://openai.com/index/the-den-family-social",
+      "title": "The Den 分享用 ChatGPT Work 减少行政工作的案例",
+      "body": "据 OpenAI 客户案例，The Den 在筹备新店时整合分散信息、准备许可和资助申请，团队自报每周节省 10 至 15 小时。团队仍审核输出并作最终决定，案例数据不代表所有小企业都能达到相同效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+      "title": "MIT 将为公共交通机构开发 AI 协同平台",
+      "body": "MIT Transit Lab 获得 Google.org 支持，计划建设公共交通智能枢纽，将实时监测、运营控制与乘客沟通信息整合起来，辅助调度人员决策。目前是开发项目，尚不能据此认定实际运营效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "title": "研究团队开发擅长不完全信息博弈的 Stratego AI",
+      "body": "MIT 等机构将高效训练算法与隐藏信息决策方法结合，报告系统在 Stratego 中战胜高水平人类玩家，并测试其他策略游戏。游戏基准表现不等同于已验证的现实决策能力。"
+    }
+  ],
+  "papers": []
+}
