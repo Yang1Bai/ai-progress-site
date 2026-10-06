@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-06T13:02:02Z</updated>
+  <updated>2026-10-06T13:03:56Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月6日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-06.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-06.html</id>
-    <updated>2026-10-06T13:02:02Z</updated>
+    <updated>2026-10-06T13:03:56Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方…</title>
     <link href="https://huggingface.co/blog/tiiuae/falcon-emirati"/>
     <id>https://huggingface.co/blog/tiiuae/falcon-emirati</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary></summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。</summary>
   </entry>
   <entry>
-    <title>Education Innovation…</title>
+    <title>工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。…</title>
     <link href="https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"/>
     <id>https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>Education Innovation</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。</summary>
   </entry>
   <entry>
-    <title>How OpenAI is approaching text watermarking under EU rules. Learn where watermar…</title>
+    <title>OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文…</title>
     <link href="https://openai.com/index/eu-text-provenance"/>
     <id>https://openai.com/index/eu-text-provenance</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文本、编辑和翻译会影响效果；水印不能证明内容真实或确定作者责任。</summary>
   </entry>
   <entry>
-    <title>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tool…</title>
+    <title>OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早…</title>
     <link href="https://openai.com/index/new-chatgpt-ads-format-and-measurement"/>
     <id>https://openai.com/index/new-chatgpt-ads-format-and-measurement</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早期客户结果不能视为普遍广告效果保证。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也…</title>
     <link href="https://huggingface.co/blog/microsoft/thinkingbox"/>
     <id>https://huggingface.co/blog/microsoft/thinkingbox</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary></summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。</summary>
   </entry>
   <entry>
-    <title>Learn how startups can choose GPT-6 models, tune reasoning effort, improve promp…</title>
+    <title>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景…</title>
     <link href="https://openai.com/index/practical-guide-building-gpt-6"/>
     <id>https://openai.com/index/practical-guide-building-gpt-6</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。</summary>
   </entry>
   <entry>
-    <title>Associate Professor Cathy Wu uses reinforcement learning to help map out improve…</title>
+    <title>MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需…</title>
     <link href="https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002"/>
     <id>https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需具体方案与验证。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正…</title>
     <link href="https://huggingface.co/blog/allenai/astabrief"/>
     <id>https://huggingface.co/blog/allenai/astabrief</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary></summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正支持结论。</summary>
   </entry>
   <entry>
-    <title>Mobile Systems…</title>
+    <title>Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作…</title>
     <link href="https://research.google/blog/toward-provably-private-learning-from-federated-data/"/>
     <id>https://research.google/blog/toward-provably-private-learning-from-federated-data/</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>Mobile Systems</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作负载约束，不能仅凭“联邦学习”名称推定原始数据绝无风险。</summary>
   </entry>
   <entry>
-    <title>Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-author…</title>
+    <title>MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会…</title>
     <link href="https://news.mit.edu/2026/documenting-tech-worker-movement-0918"/>
     <id>https://news.mit.edu/2026/documenting-tech-worker-movement-0918</id>
-    <updated>2026-10-06T13:02:02Z</updated>
-    <summary>Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.</summary>
+    <updated>2026-10-06T13:03:56Z</updated>
+    <summary>MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会研究与观点讨论。</summary>
   </entry>
 </feed>

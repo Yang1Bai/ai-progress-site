@@ -2,9 +2,9 @@
   "date": "2026年10月6日",
   "news": [
     {
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "title": "Falcon-Emirati 聚焦阿联酋阿拉伯语方言与文化语境",
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "body": "",
+      "body": "团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。",
       "date": "2026-10-06",
       "published_at": "2026-10-06T06:44:39+00:00",
       "source": "Hugging Face",
@@ -12,12 +12,15 @@
         "Hugging Face",
         "2026-10-06"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "body_original": "",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "title": "Google 报告讨论智能体隐私与安全的情境边界",
       "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
-      "body": "Education Innovation",
+      "body": "工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。",
       "date": "2026-10-05",
       "published_at": "2026-10-05T21:08:31+00:00",
       "source": "Google Research",
@@ -25,12 +28,15 @@
         "Google Research",
         "2026-10-05"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "body_original": "Education Innovation",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Our approach to EU text provenance rules",
+      "title": "OpenAI 公布面向欧盟的文本水印方案及其局限",
       "url": "https://openai.com/index/eu-text-provenance",
-      "body": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "body": "OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文本、编辑和翻译会影响效果；水印不能证明内容真实或确定作者责任。",
       "date": "2026-10-05",
       "published_at": "2026-10-05T15:00:00+00:00",
       "source": "OpenAI",
@@ -38,12 +44,15 @@
         "OpenAI",
         "2026-10-05"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Our approach to EU text provenance rules",
+      "body_original": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Building advertising for the way people use AI",
+      "title": "OpenAI 宣布测试 ChatGPT 视觉广告并扩展效果测量",
       "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "body": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "body": "OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早期客户结果不能视为普遍广告效果保证。",
       "date": "2026-10-05",
       "published_at": "2026-10-05T10:00:00+00:00",
       "source": "OpenAI",
@@ -51,12 +60,15 @@
         "OpenAI",
         "2026-10-05"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Building advertising for the way people use AI",
+      "body_original": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "title": "ThinkingBox：用后台状态检验智能体是否真正完成任务",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "body": "",
+      "body": "微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。",
       "date": "2026-10-03",
       "published_at": "2026-10-03T22:56:48+00:00",
       "source": "Hugging Face",
@@ -64,12 +76,15 @@
         "Hugging Face",
         "2026-10-03"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "The Agent Said It Was Done. The Database Disagreed.",
+      "body_original": "",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "A model guide for the GPT-6 family",
+      "title": "OpenAI 发布 GPT-6 系列模型使用指南",
       "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "body": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "body": "官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T16:15:00+00:00",
       "source": "OpenAI",
@@ -77,12 +92,15 @@
         "OpenAI",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "A model guide for the GPT-6 family",
+      "body_original": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Computational tools for society’s most complex challenges",
+      "title": "MIT 研究者用强化学习探索更可靠的交通系统",
       "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
-      "body": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
+      "body": "MIT 介绍 Cathy Wu 利用机器学习和强化学习研究复杂交通系统，希望降低大量设计方案的建模与比较成本。文章侧重研究方向与个人经历，交通系统的实际改进仍需具体方案与验证。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T15:30:00-04:00",
       "source": "MIT AI",
@@ -90,12 +108,15 @@
         "MIT AI",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Computational tools for society’s most complex challenges",
+      "body_original": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "title": "AllenAI 开源面向带引用科研报告的 AstaBrief 8B",
       "url": "https://huggingface.co/blog/allenai/astabrief",
-      "body": "",
+      "body": "模型将研究问题与检索到的文献片段转成带引用报告，现作为 Asta 的快速模式提供，并开放模型和训练数据。团队希望降低生成耗时与服务成本；报告仍需核查引用是否真正支持结论。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T15:19:50+00:00",
       "source": "Hugging Face",
@@ -103,12 +124,15 @@
         "Hugging Face",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "body_original": "",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Toward provably private learning from federated data",
+      "title": "Google 探索可外部验证隐私保证的联邦学习系统",
       "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
-      "body": "Mobile Systems",
+      "body": "Google Research 介绍新系统，在强调数据最小化、匿名化、透明与可审计性的同时，将部分计算移至服务端以改善训练和设备覆盖。隐私保护依赖完整系统与工作负载约束，不能仅凭“联邦学习”名称推定原始数据绝无风险。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T14:57:41+00:00",
       "source": "Google Research",
@@ -116,12 +140,15 @@
         "Google Research",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Toward provably private learning from federated data",
+      "body_original": "Mobile Systems",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Documenting the tech worker movement",
+      "title": "MIT 介绍记录科技行业劳工运动的新书",
       "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
-      "body": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
+      "body": "MIT 博士生 JS Tan 与 Clarissa Redwine 在新书中梳理科技员工集体行动及其遭遇的阻力。报道呈现作者对行业权力和劳动关系的分析，属于社会研究与观点讨论。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T13:00:00-04:00",
       "source": "MIT AI",
@@ -129,12 +156,15 @@
         "MIT AI",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Documenting the tech worker movement",
+      "body_original": "Writing as a participant and researcher, PhD student JS Tan SM ’22 has co-authored a new book about the rise of tech worker protests and the employer backlash that followed.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "title": "AutoSynthData：从企业智能体的失败中生成训练任务",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "body": "",
+      "body": "ServiceNow 介绍利用目标模型失败与较强教师模型成功案例来识别能力缺口，再生成并验证企业环境中的训练任务。课程随模型进步调整，任务仍需满足环境约束并能可靠检查完成情况。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T04:01:31+00:00",
       "source": "Hugging Face",
@@ -142,12 +172,15 @@
         "Hugging Face",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "body_original": "",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "3 Questions: A new resource to empower young entrepreneurs",
+      "title": "MIT 推出面向青少年的免费 AI 创业学习平台",
       "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
-      "body": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
+      "body": "Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T00:00:00-04:00",
       "source": "MIT AI",
@@ -155,12 +188,15 @@
         "MIT AI",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "3 Questions: A new resource to empower young entrepreneurs",
+      "body_original": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "title": "Chatham 用 AI 整理交易证据并辅助人工复核",
       "url": "https://openai.com/index/chatham-financial",
-      "body": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "body": "OpenAI 客户案例介绍 Chatham 用 Codex 构建交易核验工具，汇集证据、比对关键条款并标记差异。公司称早期测量将复核时间从约 30 分钟缩短到不足 4 分钟，但仍与资深审核人员比较结果，数据不是独立验证的普遍收益。",
       "date": "2026-10-02",
       "published_at": "2026-10-02T00:00:00+00:00",
       "source": "OpenAI",
@@ -168,12 +204,15 @@
         "OpenAI",
         "2026-10-02"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Chatham scales its capital markets expertise with OpenAI",
+      "body_original": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+      "title": "InstructMesh：让用户局部修复 AI 生成的三维模型",
       "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
-      "body": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
+      "body": "MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。",
       "date": "2026-10-01",
       "published_at": "2026-10-01T18:00:00-04:00",
       "source": "MIT AI",
@@ -181,12 +220,15 @@
         "MIT AI",
         "2026-10-01"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+      "body_original": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "The eternal complement",
+      "title": "观点：AI 的重要价值也可能来自平凡的执行工作",
       "url": "https://openai.com/index/the-eternal-complement",
-      "body": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "body": "两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。",
       "date": "2026-10-01",
       "published_at": "2026-10-01T17:00:00+00:00",
       "source": "OpenAI",
@@ -194,12 +236,15 @@
         "OpenAI",
         "2026-10-01"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "The eternal complement",
+      "body_original": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "editorial_date": "2026-10-06"
     }
   ],
   "papers": [
     {
-      "title": "Equivariant generative diffusion learns and generalizes the structural ensemble of amorphous oxides",
+      "title": "等变扩散模型学习非晶氧化物的结构分布",
       "url": "https://arxiv.org/abs/2610.03973",
       "body": "arXiv:2610.03973v1 Announce Type: new Abstract: Amorphous materials are statistical ensembles rather than definitive structures, and conventional density-functional (DFT) and machine-learned-potential simulations sample only a small part of that ensemble. We present an $SE(3)$-equivariant denoising-diffusion model that learns the configurational distribution of amorphous oxides, so the model itself is the structure database. The learning is data efficient. A model trained on $1{,}781$ DFT configurations suffices to reproduce partial radial distribution functions, coordination statistics and bond-angle distributions, and to generate models of over $3\\times10^{5}$ atoms at a cost comparable to",
       "date": "2026-10-06",
@@ -212,12 +257,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2610.03973v1 Announce Type: new Abstract: Amorphous materials are statistical ensembles rather than definitive structures, and conventional density-functional (DFT) and machine-learned-potential simulations sample only a small part of that ensemble. We present an $SE(3)$-equivariant denoising-diffusion model that learns the configurational distribution of amorphous oxides, so the model itself is the structure database. The learning is data efficient. A model trained on $1{,}781$ DFT configurations suffices to reproduce partial radial distribution functions, coordination statistics and bond-angle distributions, and to generate models of over $3\\times10^{5}$ atoms at a cost comparable to",
+      "summary": "预印本摘要：模型从 DFT 构型学习非晶结构集合，并生成供第一性原理弛豫的候选结构。作者测试结构统计、组成和密度等条件的拓展，同时指出训练去噪损失不能直接排序生成质量；候选仍需物理验证。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Equivariant generative diffusion learns and generalizes the structural ensemble of amorphous oxides",
+      "summary_original": "arXiv:2610.03973v1 Announce Type: new Abstract: Amorphous materials are statistical ensembles rather than definitive structures, and conventional density-functional (DFT) and machine-learned-potential simulations sample only a small part of that ensemble. We present an $SE(3)$-equivariant denoising-diffusion model that learns the configurational distribution of amorphous oxides, so the model itself is the structure database. The learning is data efficient. A model trained on $1{,}781$ DFT configurations suffices to reproduce partial radial distribution functions, coordination statistics and bond-angle distributions, and to generate models of over $3\\times10^{5}$ atoms at a cost comparable to",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "MOSAIC: Addressing Space for Local, Steerable, and Scalable Atomistic Generation",
+      "title": "MOSAIC：通过局部空间寻址实现可控原子结构生成",
       "url": "https://arxiv.org/abs/2610.04161",
       "body": "arXiv:2610.04161v1 Announce Type: new Abstract: Generative models are opening new possibilities in molecular discovery and materials science. Realizing this potential, however, requires both local control over atomic placement and the ability to assemble large, heterogeneous structures. We introduce Mosaic, a hybrid mesh-particle representation that partitions space into anchored regions containing atom slots. Each slot encodes occupancy, atomic species, and a continuous displacement from its anchor, providing persistent spatial addresses for local conditioning, hierarchical generation, and scalable assembly. Because Mosaic defines a representation rather than a model, it can be paired with ",
       "date": "2026-10-06",
@@ -230,12 +278,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2610.04161v1 Announce Type: new Abstract: Generative models are opening new possibilities in molecular discovery and materials science. Realizing this potential, however, requires both local control over atomic placement and the ability to assemble large, heterogeneous structures. We introduce Mosaic, a hybrid mesh-particle representation that partitions space into anchored regions containing atom slots. Each slot encodes occupancy, atomic species, and a continuous displacement from its anchor, providing persistent spatial addresses for local conditioning, hierarchical generation, and scalable assembly. Because Mosaic defines a representation rather than a model, it can be paired with ",
+      "summary": "预印本摘要：混合网格与粒子表示为原子槽提供固定空间锚点，支持局部条件控制、分层生成和大结构拼装。研究覆盖分子与多晶案例，表示可配合不同模型，但大规模生成不等于结构已具备实验稳定性。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "MOSAIC: Addressing Space for Local, Steerable, and Scalable Atomistic Generation",
+      "summary_original": "arXiv:2610.04161v1 Announce Type: new Abstract: Generative models are opening new possibilities in molecular discovery and materials science. Realizing this potential, however, requires both local control over atomic placement and the ability to assemble large, heterogeneous structures. We introduce Mosaic, a hybrid mesh-particle representation that partitions space into anchored regions containing atom slots. Each slot encodes occupancy, atomic species, and a continuous displacement from its anchor, providing persistent spatial addresses for local conditioning, hierarchical generation, and scalable assembly. Because Mosaic defines a representation rather than a model, it can be paired with ",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics",
+      "title": "观点：协同设计室内光伏、储能与铁电计算器件",
       "url": "https://arxiv.org/abs/2610.05133",
       "body": "arXiv:2610.05133v1 Announce Type: new Abstract: The exponential, pervasive rise of artificial intelligence (AI), hosted in large data centres, will test the limits of the underpinning infrastructure, including electricity and water supplies, which are becoming increasingly precious resources. Rather than performing all AI computations in centralized servers, for many functionalities, these can be performed locally across a network of billions of small, autonomous nodes, saving substantial energy costs associated with communication. This alternative paradigm is known as edge computing, or distributed intelligence (DI), but has been held back by the lack of availability of reliable local energ",
       "date": "2026-10-06",
@@ -248,12 +299,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2610.05133v1 Announce Type: new Abstract: The exponential, pervasive rise of artificial intelligence (AI), hosted in large data centres, will test the limits of the underpinning infrastructure, including electricity and water supplies, which are becoming increasingly precious resources. Rather than performing all AI computations in centralized servers, for many functionalities, these can be performed locally across a network of billions of small, autonomous nodes, saving substantial energy costs associated with communication. This alternative paradigm is known as edge computing, or distributed intelligence (DI), but has been held back by the lack of availability of reliable local energ",
+      "summary": "预印本观点文章讨论室内光伏为分布式智能供能的要求，以及铁电和反铁电材料用于储能与低功耗存内计算的潜力。核心是采能、储能和计算协同设计，属于技术路径分析而非完整系统性能的实验确认。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Computing at the Edge Enabled by Indoor Photovoltaics and Ferroelectrics",
+      "summary_original": "arXiv:2610.05133v1 Announce Type: new Abstract: The exponential, pervasive rise of artificial intelligence (AI), hosted in large data centres, will test the limits of the underpinning infrastructure, including electricity and water supplies, which are becoming increasingly precious resources. Rather than performing all AI computations in centralized servers, for many functionalities, these can be performed locally across a network of billions of small, autonomous nodes, saving substantial energy costs associated with communication. This alternative paradigm is known as edge computing, or distributed intelligence (DI), but has been held back by the lack of availability of reliable local energ",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Reinforcement Learning on the Discrete Composition Channel of a Crystal Generator: Validated Gains and Reward Hacking",
+      "title": "晶体生成的强化学习收益与奖励投机风险",
       "url": "https://arxiv.org/abs/2610.03880",
       "body": "arXiv:2610.03880v1 Announce Type: cross Abstract: Inverse materials design is a long-standing goal of computational materials discovery. Generative models for crystalline materials are typically trained to match the distribution of a structure database, while nothing in their training objective points them at specific design goals such as targeted properties. We use group-relative policy optimization (GRPO) to align a generative model based on stochastic interpolants and discrete flow matching with general black-box reward functions through reinforcement learning. Atom types are generated by a discrete flow and the policy gradient of our generalization of GRPO directly acts on the likelihood",
       "date": "2026-10-06",
@@ -266,12 +320,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2610.03880v1 Announce Type: cross Abstract: Inverse materials design is a long-standing goal of computational materials discovery. Generative models for crystalline materials are typically trained to match the distribution of a structure database, while nothing in their training objective points them at specific design goals such as targeted properties. We use group-relative policy optimization (GRPO) to align a generative model based on stochastic interpolants and discrete flow matching with general black-box reward functions through reinforcement learning. Atom types are generated by a discrete flow and the policy gradient of our generalization of GRPO directly acts on the likelihood",
+      "summary": "预印本摘要：作者用 GRPO 调整离散原子类型生成，并在基准中提升亚稳、独特和新颖结构比例。同时发现奖励投机及单元素不同堆积抬高指标的问题，强调必须检查参考相凸包和显式约束。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Reinforcement Learning on the Discrete Composition Channel of a Crystal Generator: Validated Gains and Reward Hacking",
+      "summary_original": "arXiv:2610.03880v1 Announce Type: cross Abstract: Inverse materials design is a long-standing goal of computational materials discovery. Generative models for crystalline materials are typically trained to match the distribution of a structure database, while nothing in their training objective points them at specific design goals such as targeted properties. We use group-relative policy optimization (GRPO) to align a generative model based on stochastic interpolants and discrete flow matching with general black-box reward functions through reinforcement learning. Atom types are generated by a discrete flow and the policy gradient of our generalization of GRPO directly acts on the likelihood",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "AnchorPose for Geometry-Aware MOF Assembly through Meso-Grained Pose Generation",
+      "title": "AnchorPose：利用构筑单元几何生成 MOF 组装姿态",
       "url": "https://arxiv.org/abs/2610.05843",
       "body": "arXiv:2610.05843v1 Announce Type: cross Abstract: Predicting metal-organic framework (MOF) structures from given building blocks requires recovering their positions and orientations in a periodic crystal. The spatial effects of rotation errors are geometry-dependent and anisotropic. The same angular error can produce different atomic displacements depending on block size, shape, and rotation axis. Angular error alone, without reference to the specific block geometry, therefore cannot fully describe the spatial consequences of a pose error. We introduce AnchorPose, a meso-grained pose generation framework that incorporates this geometric dependence into its generative representation. It repre",
       "date": "2026-10-06",
@@ -284,12 +341,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2610.05843v1 Announce Type: cross Abstract: Predicting metal-organic framework (MOF) structures from given building blocks requires recovering their positions and orientations in a periodic crystal. The spatial effects of rotation errors are geometry-dependent and anisotropic. The same angular error can produce different atomic displacements depending on block size, shape, and rotation axis. Angular error alone, without reference to the specific block geometry, therefore cannot fully describe the spatial consequences of a pose error. We introduce AnchorPose, a meso-grained pose generation framework that incorporates this geometric dependence into its generative representation. It repre",
+      "summary": "预印本摘要：方法以少量代表原子编码构筑单元几何，用贝叶斯流网络生成坐标，再刚性对齐恢复单元位置与朝向。在所测 MOF 基准上改善匹配率，结论依赖比较模型与测试集合。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "AnchorPose for Geometry-Aware MOF Assembly through Meso-Grained Pose Generation",
+      "summary_original": "arXiv:2610.05843v1 Announce Type: cross Abstract: Predicting metal-organic framework (MOF) structures from given building blocks requires recovering their positions and orientations in a periodic crystal. The spatial effects of rotation errors are geometry-dependent and anisotropic. The same angular error can produce different atomic displacements depending on block size, shape, and rotation axis. Angular error alone, without reference to the specific block geometry, therefore cannot fully describe the spatial consequences of a pose error. We introduce AnchorPose, a meso-grained pose generation framework that incorporates this geometric dependence into its generative representation. It repre",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Importance of Configurational Charge Ordering for Machine Learning Interatomic Potentials",
+      "title": "机器学习原子间势需要显式考虑混合价态电荷有序",
       "url": "https://arxiv.org/abs/2603.26471",
       "body": "arXiv:2603.26471v2 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) enable large-scale atomistic simulations but remain challenged in describing mixed-valence materials where charge ordering strongly influences thermodynamic stability. Here we investigate the role of configurational charge ordering in MLIP structural optimization of the battery cathode material NaFePO4. We show that conventional MLIPs fail to reproduce the correct stability of intermediate Na concentrations because structural optimization leads to incorrect Fe2+/Fe3+ charge assignments, resulting in incorrect energy ordering and convex-hull predictions. Analysis of the Fe2+/Fe3+ charge assignm",
       "date": "2026-10-06",
@@ -302,12 +362,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2603.26471v2 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) enable large-scale atomistic simulations but remain challenged in describing mixed-valence materials where charge ordering strongly influences thermodynamic stability. Here we investigate the role of configurational charge ordering in MLIP structural optimization of the battery cathode material NaFePO4. We show that conventional MLIPs fail to reproduce the correct stability of intermediate Na concentrations because structural optimization leads to incorrect Fe2+/Fe3+ charge assignments, resulting in incorrect energy ordering and convex-hull predictions. Analysis of the Fe2+/Fe3+ charge assignm",
+      "summary": "预印本摘要：研究以 NaFePO₄ 为例说明错误 Fe 价态分配会扭曲能量排序与凸包。将电荷态编码到表示中并重训多个势模型后，改善了与 DFT 的一致性，并测试多种框架和过渡金属；仍需按体系验证。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Importance of Configurational Charge Ordering for Machine Learning Interatomic Potentials",
+      "summary_original": "arXiv:2603.26471v2 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) enable large-scale atomistic simulations but remain challenged in describing mixed-valence materials where charge ordering strongly influences thermodynamic stability. Here we investigate the role of configurational charge ordering in MLIP structural optimization of the battery cathode material NaFePO4. We show that conventional MLIPs fail to reproduce the correct stability of intermediate Na concentrations because structural optimization leads to incorrect Fe2+/Fe3+ charge assignments, resulting in incorrect energy ordering and convex-hull predictions. Analysis of the Fe2+/Fe3+ charge assignm",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "At-Scale Discovery of High-Voltage Cathode Active Materials for Na-Ion Batteries via Charged-Only Structures and Committee Divide-and-Conquer Learning",
+      "title": "以带电态结构和模型委员会筛选钠离子电池高电压正极",
       "url": "https://arxiv.org/abs/2605.27229",
       "body": "arXiv:2605.27229v2 Announce Type: replace Abstract: Current cathode-active materials (CAMs) designed for sodium-ion batteries (SIBs) suffer from low operating voltages, limited energy density, irreversible phase transitions, and low intrinsic electrical conductivity. In this work, we have developed generalizable and transferable descriptor-based machine learning (ML) models, along with composition- and graph-based neural networks (NNs) and transfer learning (TL) models, all trained on a dataset of charged-only structures rather than charged/discharged pairs. Using a committee of the top four trained ML models, the mean voltage is predicted as the target property. More importantly, we show th",
       "date": "2026-10-06",
@@ -320,12 +383,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2605.27229v2 Announce Type: replace Abstract: Current cathode-active materials (CAMs) designed for sodium-ion batteries (SIBs) suffer from low operating voltages, limited energy density, irreversible phase transitions, and low intrinsic electrical conductivity. In this work, we have developed generalizable and transferable descriptor-based machine learning (ML) models, along with composition- and graph-based neural networks (NNs) and transfer learning (TL) models, all trained on a dataset of charged-only structures rather than charged/discharged pairs. Using a committee of the top four trained ML models, the mean voltage is predicted as the target property. More importantly, we show th",
+      "summary": "预印本摘要：研究用带电态结构训练电压预测模型，以委员会不确定性选择补充计算数据，并筛选大规模无钠宿主结构。部分优选候选经过第一性原理检查，数据库预测候选不能全部视为已获实验验证的电极。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "At-Scale Discovery of High-Voltage Cathode Active Materials for Na-Ion Batteries via Charged-Only Structures and Committee Divide-and-Conquer Learning",
+      "summary_original": "arXiv:2605.27229v2 Announce Type: replace Abstract: Current cathode-active materials (CAMs) designed for sodium-ion batteries (SIBs) suffer from low operating voltages, limited energy density, irreversible phase transitions, and low intrinsic electrical conductivity. In this work, we have developed generalizable and transferable descriptor-based machine learning (ML) models, along with composition- and graph-based neural networks (NNs) and transfer learning (TL) models, all trained on a dataset of charged-only structures rather than charged/discharged pairs. Using a committee of the top four trained ML models, the mean voltage is predicted as the target property. More importantly, we show th",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Modelling magnetic material properties with uncertainty-aware neural networks",
+      "title": "不确定性感知神经网络用于磁性材料性质建模",
       "url": "https://arxiv.org/abs/2606.11870",
       "body": "arXiv:2606.11870v2 Announce Type: replace Abstract: Machine learning is increasingly used to accelerate materials discovery across large compositional and structural design spaces, but limited and heterogeneous data make reliable uncertainty estimation essential. In this work, we investigate uncertainty quantification for permanent magnet modeling across three complementary studies. First, on a public Curie temperature surrogate dataset, we benchmark Gaussian process regression, random forest bagging, and dropout-based Bayesian neural networks and show that calibration, sharpness, and confidence curve diagnostics reveal differences in uncertainty quality that are not visible from point-predi",
       "date": "2026-10-06",
@@ -338,12 +404,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2606.11870v2 Announce Type: replace Abstract: Machine learning is increasingly used to accelerate materials discovery across large compositional and structural design spaces, but limited and heterogeneous data make reliable uncertainty estimation essential. In this work, we investigate uncertainty quantification for permanent magnet modeling across three complementary studies. First, on a public Curie temperature surrogate dataset, we benchmark Gaussian process regression, random forest bagging, and dropout-based Bayesian neural networks and show that calibration, sharpness, and confidence curve diagnostics reveal differences in uncertainty quality that are not visible from point-predi",
+      "summary": "预印本摘要：研究比较居里温度代理模型的不确定性校准、区间宽度和置信诊断，再拓展到钕铁硼内禀性质及图网络矫顽力预测。结果强调仅比较点预测误差不足以判断模型可信度。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Modelling magnetic material properties with uncertainty-aware neural networks",
+      "summary_original": "arXiv:2606.11870v2 Announce Type: replace Abstract: Machine learning is increasingly used to accelerate materials discovery across large compositional and structural design spaces, but limited and heterogeneous data make reliable uncertainty estimation essential. In this work, we investigate uncertainty quantification for permanent magnet modeling across three complementary studies. First, on a public Curie temperature surrogate dataset, we benchmark Gaussian process regression, random forest bagging, and dropout-based Bayesian neural networks and show that calibration, sharpness, and confidence curve diagnostics reveal differences in uncertainty quality that are not visible from point-predi",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Machine-Learning-Compatible CALPHAD-type Optimization from Phase Equilibria by Auto-differentiation",
+      "title": "通过自动微分将相平衡数据用于 CALPHAD 优化",
       "url": "https://arxiv.org/abs/2608.00516",
       "body": "arXiv:2608.00516v3 Announce Type: replace Abstract: To accurately determine phase boundaries and phase transitions, thermodynamic models that describe phase free energies often have to be optimized based on experimentally observed phase equilibria. While different approaches exist for thermodynamic optimization, they are often implemented in ways that are not compatible with machine learning workflows requiring differentiable calculation of the loss function. In this work, we derive a phase-equilibrium loss function based on thermodynamic potentials that can be efficiently evaluated and enables gradient-based optimization by auto-differentiation in the \\texttt{PyTorch} package. By minimizing",
       "date": "2026-10-06",
@@ -356,12 +425,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2608.00516v3 Announce Type: replace Abstract: To accurately determine phase boundaries and phase transitions, thermodynamic models that describe phase free energies often have to be optimized based on experimentally observed phase equilibria. While different approaches exist for thermodynamic optimization, they are often implemented in ways that are not compatible with machine learning workflows requiring differentiable calculation of the loss function. In this work, we derive a phase-equilibrium loss function based on thermodynamic potentials that can be efficiently evaluated and enables gradient-based optimization by auto-differentiation in the \\texttt{PyTorch} package. By minimizing",
+      "summary": "预印本摘要：研究构建基于热力学势的可微相平衡损失，在 PyTorch 中优化模型参数，并演示多参数三元体系和从目标相平衡反推原子势。方法适用性仍取决于数据和模型表达能力。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Machine-Learning-Compatible CALPHAD-type Optimization from Phase Equilibria by Auto-differentiation",
+      "summary_original": "arXiv:2608.00516v3 Announce Type: replace Abstract: To accurately determine phase boundaries and phase transitions, thermodynamic models that describe phase free energies often have to be optimized based on experimentally observed phase equilibria. While different approaches exist for thermodynamic optimization, they are often implemented in ways that are not compatible with machine learning workflows requiring differentiable calculation of the loss function. In this work, we derive a phase-equilibrium loss function based on thermodynamic potentials that can be efficiently evaluated and enables gradient-based optimization by auto-differentiation in the \\texttt{PyTorch} package. By minimizing",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "PINN-Phase: A physics-informed neural network for curvature-driven multiphase-field evolution",
+      "title": "PINN-Phase：受物理约束的多相场长时间演化",
       "url": "https://arxiv.org/abs/2608.29413",
       "body": "arXiv:2608.29413v2 Announce Type: replace Abstract: Phase-field simulation of polycrystalline microstructures becomes costly when many related cases must be evolved over long times. We introduce PINN-Phase, a physics-informed neural time integrator that advances the full multiphase field from its initial condition and enforces phase bounds and unit sum at every step. On the reported explicit multiphase-field path, it learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model satisfies the complete predefined criteria in seven of eight prospectively fixed unseen microstructures and",
       "date": "2026-10-06",
@@ -374,12 +446,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2608.29413v2 Announce Type: replace Abstract: Phase-field simulation of polycrystalline microstructures becomes costly when many related cases must be evolved over long times. We introduce PINN-Phase, a physics-informed neural time integrator that advances the full multiphase field from its initial condition and enforces phase bounds and unit sum at every step. On the reported explicit multiphase-field path, it learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model satisfies the complete predefined criteria in seven of eight prospectively fixed unseen microstructures and",
+      "summary": "预印本摘要：神经时间积分器在每一步约束相分数范围和总和，使用方程残差训练并测试未见初始微结构。作者在固定基准族中报告较好的长期一致性，但部分测试未满足全部标准，不能推断任意组织均稳定。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "PINN-Phase: A physics-informed neural network for curvature-driven multiphase-field evolution",
+      "summary_original": "arXiv:2608.29413v2 Announce Type: replace Abstract: Phase-field simulation of polycrystalline microstructures becomes costly when many related cases must be evolved over long times. We introduce PINN-Phase, a physics-informed neural time integrator that advances the full multiphase field from its initial condition and enforces phase bounds and unit sum at every step. On the reported explicit multiphase-field path, it learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model satisfies the complete predefined criteria in seven of eight prospectively fixed unseen microstructures and",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Revisiting the Broken Symmetry Phase of Solid Hydrogen: A Neural Network Variational Monte Carlo Study",
+      "title": "神经网络量子蒙特卡洛重新考察高压固态氢结构",
       "url": "https://arxiv.org/abs/2512.17703",
       "body": "arXiv:2512.17703v3 Announce Type: replace-cross Abstract: The crystal structure of high-pressure solid hydrogen remains a fundamental open problem. Although the research frontier has mostly shifted toward ultra-high pressure phases above 400 GPa, we show that even the broken symmetry phase observed around 130~GPa requires revisiting due to its intricate coupling of electronic and nuclear degrees of freedom. Here, we develop a first principle quantum Monte Carlo framework based on a deep neural network wave function that treats both electrons and nuclei quantum mechanically within the constant pressure ensemble. Our calculations reveal an unreported ground-state structure candidate for the br",
       "date": "2026-10-06",
@@ -392,12 +467,15 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2512.17703v3 Announce Type: replace-cross Abstract: The crystal structure of high-pressure solid hydrogen remains a fundamental open problem. Although the research frontier has mostly shifted toward ultra-high pressure phases above 400 GPa, we show that even the broken symmetry phase observed around 130~GPa requires revisiting due to its intricate coupling of electronic and nuclear degrees of freedom. Here, we develop a first principle quantum Monte Carlo framework based on a deep neural network wave function that treats both electrons and nuclei quantum mechanically within the constant pressure ensemble. Our calculations reveal an unreported ground-state structure candidate for the br",
+      "summary": "预印本摘要：同时量子处理电子与原子核的模型提出 Cmcm 候选结构，并比较状态方程、衍射峰及光谱对称性。静态 DFT 与量子处理给出不同稳定性判断，候选结构仍需进一步实验验证。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Revisiting the Broken Symmetry Phase of Solid Hydrogen: A Neural Network Variational Monte Carlo Study",
+      "summary_original": "arXiv:2512.17703v3 Announce Type: replace-cross Abstract: The crystal structure of high-pressure solid hydrogen remains a fundamental open problem. Although the research frontier has mostly shifted toward ultra-high pressure phases above 400 GPa, we show that even the broken symmetry phase observed around 130~GPa requires revisiting due to its intricate coupling of electronic and nuclear degrees of freedom. Here, we develop a first principle quantum Monte Carlo framework based on a deep neural network wave function that treats both electrons and nuclei quantum mechanically within the constant pressure ensemble. Our calculations reveal an unreported ground-state structure candidate for the br",
+      "editorial_date": "2026-10-06"
     },
     {
-      "title": "Physics-informed neural operator for parametric phase-field modelling of interfacial degradation and microstructural evolution",
+      "title": "PF-PINO：将相场方程约束嵌入神经算子",
       "url": "https://arxiv.org/abs/2603.09693",
       "body": "arXiv:2603.09693v2 Announce Type: replace-cross Abstract: Predicting interfacial degradation and microstructural evolution through phase-field modelling is computationally intensive, particularly for parametric studies. While neural operators such as the Fourier neural operator (FNO) offer a promising route to acceleration, the absence of physical constraints compromises their generalisation and long-term stability. Here, we present PF-PINO, a physics-informed neural operator framework that embeds phase-field governing equation residuals directly into the training loss, together with gradient normalisation loss balancing and a staggered training scheme for coupled multi-field systems. PF-PIN",
       "date": "2026-10-06",
@@ -410,9 +488,12 @@
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "arXiv:2603.09693v2 Announce Type: replace-cross Abstract: Predicting interfacial degradation and microstructural evolution through phase-field modelling is computationally intensive, particularly for parametric studies. While neural operators such as the Fourier neural operator (FNO) offer a promising route to acceleration, the absence of physical constraints compromises their generalisation and long-term stability. Here, we present PF-PINO, a physics-informed neural operator framework that embeds phase-field governing equation residuals directly into the training loss, together with gradient normalisation loss balancing and a staggered training scheme for coupled multi-field systems. PF-PIN",
+      "summary": "预印本摘要：框架把方程残差、损失平衡及交错训练用于腐蚀、凝固和相分离四类基准，测试参数泛化与长时间演化。作者报告相对 FNO 的误差改善，效果限于所测条件与基线。",
       "authors": "作者见原文",
-      "is_week_pick": false
+      "is_week_pick": false,
+      "title_original": "Physics-informed neural operator for parametric phase-field modelling of interfacial degradation and microstructural evolution",
+      "summary_original": "arXiv:2603.09693v2 Announce Type: replace-cross Abstract: Predicting interfacial degradation and microstructural evolution through phase-field modelling is computationally intensive, particularly for parametric studies. While neural operators such as the Fourier neural operator (FNO) offer a promising route to acceleration, the absence of physical constraints compromises their generalisation and long-term stability. Here, we present PF-PINO, a physics-informed neural operator framework that embeds phase-field governing equation residuals directly into the training loss, together with gradient normalisation loss balancing and a staggered training scheme for coupled multi-field systems. PF-PIN",
+      "editorial_date": "2026-10-06"
     }
   ],
   "leaders": [],
@@ -502,5 +583,11 @@
     "paper_count": 12,
     "leader_count": 0,
     "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-10-06",
+    "items_applied": 27,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
