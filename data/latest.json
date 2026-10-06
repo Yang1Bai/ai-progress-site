@@ -2,6 +2,58 @@
   "date": "2026年10月6日",
   "news": [
     {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "body": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "date": "2026-10-06",
+      "published_at": "2026-10-06T16:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-06"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "body": "Earth AI",
+      "date": "2026-10-06",
+      "published_at": "2026-10-06T15:05:11+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-06"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
+      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+      "body": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
+      "date": "2026-10-06",
+      "published_at": "2026-10-06T13:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-06"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+      "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+      "body": "The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.",
+      "date": "2026-10-06",
+      "published_at": "2026-10-06T11:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-06"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Falcon-Emirati 聚焦阿联酋阿拉伯语方言与文化语境",
       "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
       "body": "团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。",
@@ -22,7 +74,7 @@
       "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
       "body": "工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。",
       "date": "2026-10-05",
-      "published_at": "2026-10-05T21:08:31+00:00",
+      "published_at": "2026-10-05T21:08:00+00:00",
       "source": "Google Research",
       "tags": [
         "Google Research",
@@ -30,7 +82,7 @@
       ],
       "importance": "normal",
       "title_original": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
-      "body_original": "Education Innovation",
+      "body_original": "Generative AI",
       "editorial_date": "2026-10-06"
     },
     {
@@ -175,70 +227,6 @@
       "importance": "normal",
       "title_original": "AutoSynthData: Generating Training Data for Enterprise Agents",
       "body_original": "",
-      "editorial_date": "2026-10-06"
-    },
-    {
-      "title": "MIT 推出面向青少年的免费 AI 创业学习平台",
-      "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
-      "body": "Dear Dreamer 将创业框架改编为中学生可自主学习的视频、互动练习和个性化反馈。项目希望扩大青少年创业教育覆盖；目标人数和教育愿景不等于已验证的创业成功率。",
-      "date": "2026-10-02",
-      "published_at": "2026-10-02T00:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-02"
-      ],
-      "importance": "normal",
-      "title_original": "3 Questions: A new resource to empower young entrepreneurs",
-      "body_original": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
-      "editorial_date": "2026-10-06"
-    },
-    {
-      "title": "Chatham 用 AI 整理交易证据并辅助人工复核",
-      "url": "https://openai.com/index/chatham-financial",
-      "body": "OpenAI 客户案例介绍 Chatham 用 Codex 构建交易核验工具，汇集证据、比对关键条款并标记差异。公司称早期测量将复核时间从约 30 分钟缩短到不足 4 分钟，但仍与资深审核人员比较结果，数据不是独立验证的普遍收益。",
-      "date": "2026-10-02",
-      "published_at": "2026-10-02T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-02"
-      ],
-      "importance": "normal",
-      "title_original": "Chatham scales its capital markets expertise with OpenAI",
-      "body_original": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "editorial_date": "2026-10-06"
-    },
-    {
-      "title": "InstructMesh：让用户局部修复 AI 生成的三维模型",
-      "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
-      "body": "MIT 等机构开发的工具允许用户指出三维设计中需要修改的部分，改善模型可编辑性并支持后续制造。研究案例包括日用品与机器人部件，生成外观仍需与真实功能和制造约束一起验证。",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T18:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-01"
-      ],
-      "importance": "normal",
-      "title_original": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
-      "body_original": "“InstructMesh” can generate designs for everyday objects that are easy to edit and fabricate for both experts and newcomers to 3D modeling.",
-      "editorial_date": "2026-10-06"
-    },
-    {
-      "title": "观点：AI 的重要价值也可能来自平凡的执行工作",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "body": "两位作者讨论创意与执行能力的互补关系：科学突破不仅需要洞见，也依赖实验、组织和基础设施。文章提出不同未来情景，并明确属于作者个人观点，不是 OpenAI 的官方预测。",
-      "date": "2026-10-01",
-      "published_at": "2026-10-01T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-01"
-      ],
-      "importance": "normal",
-      "title_original": "The eternal complement",
-      "body_original": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
       "editorial_date": "2026-10-06"
     }
   ],
@@ -533,31 +521,31 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-06T13:02:00.280234+00:00",
+  "fetched_at": "2026-10-06T17:49:30.172518+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 7
+      "items": 5
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 8
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "source": "Nature Materials",
@@ -568,8 +556,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "arXiv materials",
@@ -578,16 +566,16 @@
       "items": 93
     }
   ],
+  "editorial": {
+    "date": "2026-10-06",
+    "items_applied": 23,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 12,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-06",
-    "items_applied": 27,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
