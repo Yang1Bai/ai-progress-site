@@ -2,6 +2,19 @@
   "date": "2026年10月7日",
   "news": [
     {
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "body": "",
+      "date": "2026-10-07",
+      "published_at": "2026-10-07T16:54:33+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-07"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "NVIDIA 分享 Nemotron 在信息学与数学奥赛任务中的专门化训练",
       "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
       "body": "团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。",
@@ -16,6 +29,32 @@
       "title_original": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
       "body_original": "",
       "editorial_date": "2026-10-07"
+    },
+    {
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "body": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "date": "2026-10-07",
+      "published_at": "2026-10-07T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-07"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "body": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "date": "2026-10-07",
+      "published_at": "2026-10-07T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-07"
+      ],
+      "importance": "normal"
     },
     {
       "title": "MIT 超算团队持续梳理 AI 加速器硬件演进",
@@ -146,22 +185,6 @@
       "editorial_date": "2026-10-07"
     },
     {
-      "title": "Falcon-Emirati 聚焦阿联酋阿拉伯语方言与文化语境",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "body": "团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T06:44:39+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-06"
-      ],
-      "importance": "normal",
-      "title_original": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "body_original": "",
-      "editorial_date": "2026-10-07"
-    },
-    {
       "title": "Google 报告讨论智能体隐私与安全的情境边界",
       "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
       "body": "工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。",
@@ -207,38 +230,6 @@
       "importance": "normal",
       "title_original": "Building advertising for the way people use AI",
       "body_original": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "editorial_date": "2026-10-07"
-    },
-    {
-      "title": "ThinkingBox：用后台状态检验智能体是否真正完成任务",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "body": "微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。",
-      "date": "2026-10-03",
-      "published_at": "2026-10-03T22:56:48+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-03"
-      ],
-      "importance": "normal",
-      "title_original": "The Agent Said It Was Done. The Database Disagreed.",
-      "body_original": "",
-      "editorial_date": "2026-10-07"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 系列模型使用指南",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "body": "官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。",
-      "date": "2026-10-02",
-      "published_at": "2026-10-02T16:15:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-02"
-      ],
-      "importance": "normal",
-      "title_original": "A model guide for the GPT-6 family",
-      "body_original": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "editorial_date": "2026-10-07"
     }
   ],
@@ -355,13 +346,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-07T13:01:15.613007+00:00",
+  "fetched_at": "2026-10-07T18:20:59.511474+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 11
+      "items": 13
     },
     {
       "source": "Hugging Face",
@@ -373,7 +364,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "Google Research",
@@ -390,8 +381,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "arXiv materials",
@@ -400,16 +391,16 @@
       "items": 57
     }
   ],
+  "editorial": {
+    "date": "2026-10-07",
+    "items_applied": 16,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 4,
     "leader_count": 0,
     "science_count": 4
-  },
-  "editorial": {
-    "date": "2026-10-07",
-    "items_applied": 19,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
