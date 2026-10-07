@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-06T17:49:31Z</updated>
+  <updated>2026-10-07T13:03:22Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月6日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-06.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-06.html</id>
-    <updated>2026-10-06T17:49:31Z</updated>
+    <title>每日汇总 2026年10月7日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-07.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-07.html</id>
+    <updated>2026-10-07T13:03:22Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Atlassian and OpenAI are expanding their partnership to connect frontier models …</title>
+    <title>团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评…</title>
+    <link href="https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"/>
+    <id>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</id>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。</summary>
+  </entry>
+  <entry>
+    <title>林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与…</title>
+    <link href="https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006"/>
+    <id>https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006</id>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与能效。</summary>
+  </entry>
+  <entry>
+    <title>双方计划将模型能力与 Teamwork Graph 的项目、文档和决策上下文结合，支持 Rovo 及现有工作流程。公告也讨论更深入的 Jira 集成探索，访问仍…</title>
     <link href="https://openai.com/index/atlassian-partnership"/>
     <id>https://openai.com/index/atlassian-partnership</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.</summary>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>双方计划将模型能力与 Teamwork Graph 的项目、文档和决策上下文结合，支持 Rovo 及现有工作流程。公告也讨论更深入的 Jira 集成探索，访问仍受权限约束，规划功能不能都视为已经上线。</summary>
   </entry>
   <entry>
-    <title>Earth AI…</title>
+    <title>Google 介绍 Population Dynamics Foundation Model 的五个合作案例，将预训练地点表征作为现有流行病学流程的输入。目标是…</title>
     <link href="https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/"/>
     <id>https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>Earth AI</summary>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>Google 介绍 Population Dynamics Foundation Model 的五个合作案例，将预训练地点表征作为现有流行病学流程的输入。目标是缓解报告滞后与数据稀疏，案例结果仍需在具体地区和健康任务中验证。</summary>
   </entry>
   <entry>
-    <title>As director, Bourg has focused on digital access, open and equitable scholarly p…</title>
+    <title>MIT 宣布 Chris Bourg 新任职衔及图书馆馆长职位的捐赠支持，强调数字时代的知识获取和保存使命。报道回顾开放出版与数字内容工作，属于组织与教育动态。…</title>
     <link href="https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006"/>
     <id>https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.</summary>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>MIT 宣布 Chris Bourg 新任职衔及图书馆馆长职位的捐赠支持，强调数字时代的知识获取和保存使命。报道回顾开放出版与数字内容工作，属于组织与教育动态。</summary>
   </entry>
   <entry>
-    <title>The effort aims to help U.S. learners from kindergarten to community college, wi…</title>
+    <title>OpenAI 客户案例介绍 Jump Trading 将智能体用于较长周期的编码与研究分析，由研究人员定义目标、评价标准和受控环境。案例强调监控与人工复核，没有…</title>
+    <link href="https://openai.com/index/jump-trading"/>
+    <id>https://openai.com/index/jump-trading</id>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>OpenAI 客户案例介绍 Jump Trading 将智能体用于较长周期的编码与研究分析，由研究人员定义目标、评价标准和受控环境。案例强调监控与人工复核，没有证明某种交易策略的收益。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI 将内部模型得到的数学结果、修订和引用规则公开到 GitHub，并分享部分 Lean 形式化、推理摘要及计算投入信息。发布强调社区反馈与透明度，不意…</title>
+    <link href="https://openai.com/index/sharing-ai-progress-in-mathematics"/>
+    <id>https://openai.com/index/sharing-ai-progress-in-mathematics</id>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>OpenAI 将内部模型得到的数学结果、修订和引用规则公开到 GitHub，并分享部分 Lean 形式化、推理摘要及计算投入信息。发布强调社区反馈与透明度，不意味着每项结果都已完成独立审查。</summary>
+  </entry>
+  <entry>
+    <title>MIT for America 计划覆盖从幼儿园到社区学院的学习阶段，重点包括数学、动手设计制造与建设性使用 AI。公告描述项目目标和安排，不应把预期教育收益当…</title>
     <link href="https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006"/>
     <id>https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>The effort aims to help U.S. learners from kindergarten to community college, with an emphasis on math, making, and the constructive use of AI.</summary>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>MIT for America 计划覆盖从幼儿园到社区学院的学习阶段，重点包括数学、动手设计制造与建设性使用 AI。公告描述项目目标和安排，不应把预期教育收益当成已验证结果。</summary>
+  </entry>
+  <entry>
+    <title>合作把合同配置、审批与可复用条款整理为 11 项研究任务，逐项检验业务要求是否满足。Astra 在该内部评估中优于所比较的 Sol 配置，但平均评分仍有明显改进…</title>
+    <link href="https://openai.com/index/advancing-computer-use-with-ironclad"/>
+    <id>https://openai.com/index/advancing-computer-use-with-ironclad</id>
+    <updated>2026-10-07T13:03:22Z</updated>
+    <summary>合作把合同配置、审批与可复用条款整理为 11 项研究任务，逐项检验业务要求是否满足。Astra 在该内部评估中优于所比较的 Sol 配置，但平均评分仍有明显改进空间，不能等同于可无监督完成所有法律工作。</summary>
   </entry>
   <entry>
     <title>团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方…</title>
     <link href="https://huggingface.co/blog/tiiuae/falcon-emirati"/>
     <id>https://huggingface.co/blog/tiiuae/falcon-emirati</id>
-    <updated>2026-10-06T17:49:31Z</updated>
+    <updated>2026-10-07T13:03:22Z</updated>
     <summary>团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。</summary>
-  </entry>
-  <entry>
-    <title>工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。…</title>
-    <link href="https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"/>
-    <id>https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文…</title>
-    <link href="https://openai.com/index/eu-text-provenance"/>
-    <id>https://openai.com/index/eu-text-provenance</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文本、编辑和翻译会影响效果；水印不能证明内容真实或确定作者责任。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早…</title>
-    <link href="https://openai.com/index/new-chatgpt-ads-format-and-measurement"/>
-    <id>https://openai.com/index/new-chatgpt-ads-format-and-measurement</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早期客户结果不能视为普遍广告效果保证。</summary>
-  </entry>
-  <entry>
-    <title>微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也…</title>
-    <link href="https://huggingface.co/blog/microsoft/thinkingbox"/>
-    <id>https://huggingface.co/blog/microsoft/thinkingbox</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。</summary>
-  </entry>
-  <entry>
-    <title>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景…</title>
-    <link href="https://openai.com/index/practical-guide-building-gpt-6"/>
-    <id>https://openai.com/index/practical-guide-building-gpt-6</id>
-    <updated>2026-10-06T17:49:31Z</updated>
-    <summary>官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。</summary>
   </entry>
 </feed>

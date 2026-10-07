@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-07",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "title": "NVIDIA 分享 Nemotron 在信息学与数学奥赛任务中的专门化训练",
+      "body": "团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+      "title": "MIT 超算团队持续梳理 AI 加速器硬件演进",
+      "body": "林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与能效。"
+    },
+    {
+      "url": "https://openai.com/index/atlassian-partnership",
+      "title": "Atlassian 与 OpenAI 扩大企业知识和智能体合作",
+      "body": "双方计划将模型能力与 Teamwork Graph 的项目、文档和决策上下文结合，支持 Rovo 及现有工作流程。公告也讨论更深入的 Jira 集成探索，访问仍受权限约束，规划功能不能都视为已经上线。"
+    },
+    {
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "title": "Google 用地理空间基础模型探索公共卫生数据缺口",
+      "body": "Google 介绍 Population Dynamics Foundation Model 的五个合作案例，将预训练地点表征作为现有流行病学流程的输入。目标是缓解报告滞后与数据稀疏，案例结果仍需在具体地区和健康任务中验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+      "title": "Chris Bourg 获任 MIT 副教务长及冠名图书馆馆长",
+      "body": "MIT 宣布 Chris Bourg 新任职衔及图书馆馆长职位的捐赠支持，强调数字时代的知识获取和保存使命。报道回顾开放出版与数字内容工作，属于组织与教育动态。"
+    },
+    {
+      "url": "https://openai.com/index/jump-trading",
+      "title": "Jump Trading 分享用 ChatGPT 扩展量化研究的实践",
+      "body": "OpenAI 客户案例介绍 Jump Trading 将智能体用于较长周期的编码与研究分析，由研究人员定义目标、评价标准和受控环境。案例强调监控与人工复核，没有证明某种交易策略的收益。"
+    },
+    {
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "title": "OpenAI 公开 AI 数学研究结果与部分 Lean 形式化证明",
+      "body": "OpenAI 将内部模型得到的数学结果、修订和引用规则公开到 GitHub，并分享部分 Lean 形式化、推理摘要及计算投入信息。发布强调社区反馈与透明度，不意味着每项结果都已完成独立审查。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+      "title": "MIT 启动面向美国多学段的 STEM 教育计划",
+      "body": "MIT for America 计划覆盖从幼儿园到社区学院的学习阶段，重点包括数学、动手设计制造与建设性使用 AI。公告描述项目目标和安排，不应把预期教育收益当成已验证结果。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "title": "OpenAI 与 Ironclad 用合同流程训练和评估计算机操作智能体",
+      "body": "合作把合同配置、审批与可复用条款整理为 11 项研究任务，逐项检验业务要求是否满足。Astra 在该内部评估中优于所比较的 Sol 配置，但平均评分仍有明显改进空间，不能等同于可无监督完成所有法律工作。"
+    },
+    {
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "title": "Falcon-Emirati 聚焦阿联酋阿拉伯语方言与文化语境",
+      "body": "团队在 Falcon-H1-Arabic 基础上开发 7B 方言专用模型，目标是理解阿联酋口语、诗歌和谚语中的语义与文化背景。文章强调标准阿拉伯语能力不能替代方言理解，实际适用性仍需场景化评估。"
+    },
+    {
+      "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "title": "Google 报告讨论智能体隐私与安全的情境边界",
+      "body": "工作坊报告借鉴情境完整性理论，提出应以具体场景的行为规范约束智能体，并在系统、模型、用户与生态层面协调防护。报告梳理开放研究问题，不能视为这些安全难题已经解决。"
+    },
+    {
+      "url": "https://openai.com/index/eu-text-provenance",
+      "title": "OpenAI 公布面向欧盟的文本水印方案及其局限",
+      "body": "OpenAI 宣布为部分 API 模型提供自愿启用水印，并计划逐步在欧盟符合条件的 ChatGPT 与 Codex 文本中加入统计水印。检测存在漏报与误报，短文本、编辑和翻译会影响效果；水印不能证明内容真实或确定作者责任。"
+    },
+    {
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "title": "OpenAI 宣布测试 ChatGPT 视觉广告并扩展效果测量",
+      "body": "OpenAI 计划本月稍晚先在美国的图像生成场景测试新视觉广告形式，广告会单独标注，并与生成图像分开。公司同时扩展转化与归因合作以及品牌适配评估试点；公告中的早期客户结果不能视为普遍广告效果保证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "ThinkingBox：用后台状态检验智能体是否真正完成任务",
+      "body": "微软介绍覆盖 507 个有状态业务流程的评测，每项任务重复运行 20 次，检查最终数据库状态与副作用。文章强调工具调用成功和流畅回复不能替代结果验证，单次成功也不能证明重复执行可靠；结论限于所测任务与配置。"
+    },
+    {
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "OpenAI 发布 GPT-6 系列模型使用指南",
+      "body": "官方指南讨论如何按任务选择模型、控制成本与延迟，并用清晰指令、上下文管理和持续评估支持长任务。指南强调上线前检验任务成功率及数据控制，不能把示例能力视为所有场景下的保证。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.06985",
+      "title": "CrystalJev：用校准概率决定材料筛选何时需要慢计算",
+      "summary": "预印本摘要：方法从冻结原子间势对未弛豫结构的一次查询构建概率决策，并按信息价值选择后续昂贵计算。作者通过新 DFT 计算检验预测校准；概率保证与效率结论受候选分布和所测任务约束。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.08291",
+      "title": "神经网络势模拟 V-Ti-Cr 合金力学性质",
+      "summary": "预印本摘要：研究先用 MatterSim 采样，再以 VASP 数据微调 DeepMD-DPA1 势，模拟不同温度与成分下的弹性性质。结果显示 Cr 与 Ti 含量变化具有相反趋势，适用性仍需按成分、温度和训练覆盖范围检验。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.08296",
+      "title": "OxiGen：显式氧化态约束的晶体生成",
+      "summary": "预印本摘要：扩散模型在生成中表示氧化态，通过有限状态自动机的结构化输出层保证整体电荷中性。所测基准中改善氧化态分布与候选有效性，但电荷中性和预测稳定并不保证可实验合成。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.09422",
+      "title": "Paimon：可扩展的原子模拟智能体框架",
+      "summary": "预印本摘要：平台组织原子模拟流程，并在液态电解质任务的多次试验中检查看似合理但物理错误的静默失误。研究展示无需修改现有智能体即可接入外部科学智能体，可靠性结论限于所测场景。"
+    }
+  ]
+}
