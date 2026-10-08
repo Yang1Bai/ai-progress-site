@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-08",
+  "news": [
+    {
+      "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+      "title": "MIT 研究用机器学习提高数据中心资源利用率",
+      "body": "报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据此推断数据中心扩张的总环境影响已被消除。"
+    },
+    {
+      "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+      "title": "Google 研究：AI 提高工作质量未必同步提高独立技能",
+      "body": "一项对执业专利律师开展的三个月随机试验发现，持续使用 AI 可改善工作质量，但脱离工具后的判断能力变化取决于资历。资深律师表现改善，初级律师平均未见技能增益且结果分化；结论需限定于该研究人群与任务。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "title": "Liquid AI 发布面向边缘设备的开放 d1 决策模型",
+      "body": "d1-3B 与实验性 d1-omni-600M 通过单次前向计算输出结构化决策，支持不同模态输入。团队报告文本任务与部分硬件延迟测试，但未发布视觉、音频决策基准，也未报告实验小模型的速度。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+      "title": "MIT 探讨 AI 时代人文学习的价值",
+      "body": "报道介绍 Concourse 项目如何把经典阅读、辩论与科学工程教育结合，让学生讨论智能和人的意义。文章呈现教师的教育观点与课程实践，不是关于 AI 学习效果的对照实验。"
+    },
+    {
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Falcon-ASR 聚焦阿拉伯语和阿联酋方言语音识别",
+      "body": "TII 发布 1.6B 参数语音识别模型，支持多种语言和逐词时间戳，并报告六个阿拉伯语测试集及内部方言测试。误字率比较依赖选定测试协议和榜单快照，实际录音条件仍需单独评估。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "title": "NVIDIA 分享 Nemotron 在信息学与数学奥赛任务中的专门化训练",
+      "body": "团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。"
+    },
+    {
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "title": "OpenAI 计划为青少年加入升学规划和更多学习工具",
+      "body": "公告介绍即将推出的 College Planner，用于组织申请要求、截止日期与助学金步骤，并扩展闪卡、测验和青少年反馈机制。首期升学体验面向美国部分高中阶段，使用量不能直接视为教育效果证据。"
+    },
+    {
+      "url": "https://openai.com/index/radisson",
+      "title": "Radisson 将酒店查找与比较接入 ChatGPT",
+      "body": "OpenAI 客户案例介绍 Radisson 与 Accenture 合作构建酒店插件，让用户在旅行规划中探索、比较和预订酒店。文章中的早期转化数据来自客户案例，不能当作所有酒店或渠道的普遍收益。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "title": "OpenAI 扩展 ChatGPT 中 GPT-6 与交互式界面能力",
+      "body": "官方公告介绍面向更多用户的 GPT-6，以及可生成视觉回答、学习演示和即时工具的 Intelligent UI。内容描述产品发布与应用场景，具体使用仍取决于账户可用性和任务中的实际验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+      "title": "MIT 超算团队持续梳理 AI 加速器硬件演进",
+      "body": "林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与能效。"
+    },
+    {
+      "url": "https://openai.com/index/atlassian-partnership",
+      "title": "Atlassian 与 OpenAI 扩大企业知识和智能体合作",
+      "body": "双方计划将模型能力与 Teamwork Graph 的项目、文档和决策上下文结合，支持 Rovo 及现有工作流程。公告也讨论更深入的 Jira 集成探索，访问仍受权限约束，规划功能不能都视为已经上线。"
+    },
+    {
+      "url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "title": "Google 用地理空间基础模型探索公共卫生数据缺口",
+      "body": "Google 介绍 Population Dynamics Foundation Model 的五个合作案例，将预训练地点表征作为现有流行病学流程的输入。目标是缓解报告滞后与数据稀疏，案例结果仍需在具体地区和健康任务中验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+      "title": "Chris Bourg 获任 MIT 副教务长及冠名图书馆馆长",
+      "body": "MIT 宣布 Chris Bourg 新任职衔及图书馆馆长职位的捐赠支持，强调数字时代的知识获取和保存使命。报道回顾开放出版与数字内容工作，属于组织与教育动态。"
+    },
+    {
+      "url": "https://openai.com/index/jump-trading",
+      "title": "Jump Trading 分享用 ChatGPT 扩展量化研究的实践",
+      "body": "OpenAI 客户案例介绍 Jump Trading 将智能体用于较长周期的编码与研究分析，由研究人员定义目标、评价标准和受控环境。案例强调监控与人工复核，没有证明某种交易策略的收益。"
+    },
+    {
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "title": "OpenAI 公开 AI 数学研究结果与部分 Lean 形式化证明",
+      "body": "OpenAI 将内部模型得到的数学结果、修订和引用规则公开到 GitHub，并分享部分 Lean 形式化、推理摘要及计算投入信息。发布强调社区反馈与透明度，不意味着每项结果都已完成独立审查。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.09461",
+      "title": "深度学习辅助优化兼顾静态与动态强度的多晶组织",
+      "summary": "预印本摘要：研究用三维 U-Net 预测铜多晶冲击响应，并结合随机组织生成和无导数优化，利用分布偏移指标监测代理模型可靠性。优化设计经晶体塑性有限元验证，速度与误差结果限于所测设计案例。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09837",
+      "title": "多组元材料中通用机器学习力场误差的来源",
+      "summary": "预印本摘要：作者以 7599 个多组元构型比较 11 个预训练模型与 DFT 的能量、力和应力，分析训练覆盖、局部几何及元素响应。压缩侧误差更明显等观察提示需要细分环境验证，不能仅用训练距离解释全部误差。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09389",
+      "title": "等变图网络加速有机分子动态极化率预测",
+      "summary": "预印本摘要：网络利用分子几何与光谱等信息预测频率相关复极化率张量，在两类分子数据集及器件光学计算中验证。结果支持作为昂贵量化计算的代理，但泛化依赖输入信息与训练分布。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.09433",
+      "title": "扩展深度能量法模拟热—力耦合裂纹扩展",
+      "summary": "预印本摘要：两个网络分别表示温度和位移，以不连续嵌入保留尖锐裂纹，并交错最小化传热与热弹性能量。研究结合裂尖增强、应力强度因子检查和扩展准则，性能仍需按载荷及裂纹场景验证。"
+    }
+  ]
+}
