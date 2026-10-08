@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-08T14:02:59Z</updated>
+  <updated>2026-10-08T18:20:39Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月8日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-08.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-08.html</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Across recruiting, engineering, and operations, Oracle turns specialist knowledg…</title>
+    <link href="https://openai.com/index/oracle"/>
+    <id>https://openai.com/index/oracle</id>
+    <updated>2026-10-08T18:20:39Z</updated>
+    <summary>Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.</summary>
+  </entry>
+  <entry>
+    <title>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold …</title>
+    <link href="https://openai.com/index/pollo-ai"/>
+    <id>https://openai.com/index/pollo-ai</id>
+    <updated>2026-10-08T18:20:39Z</updated>
+    <summary>With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.</summary>
   </entry>
   <entry>
     <title>报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据…</title>
     <link href="https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008"/>
     <id>https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据此推断数据中心扩张的总环境影响已被消除。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI disrupted two AI-enabled influence operations that used false-front journ…</title>
+    <link href="https://openai.com/index/disrupting-ai-enabled-false-front-operations"/>
+    <id>https://openai.com/index/disrupting-ai-enabled-false-front-operations</id>
+    <updated>2026-10-08T18:20:39Z</updated>
+    <summary>OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.</summary>
   </entry>
   <entry>
     <title>一项对执业专利律师开展的三个月随机试验发现，持续使用 AI 可改善工作质量，但脱离工具后的判断能力变化取决于资历。资深律师表现改善，初级律师平均未见技能增益且结…</title>
     <link href="https://research.google/blog/does-better-work-always-mean-better-workers/"/>
     <id>https://research.google/blog/does-better-work-always-mean-better-workers/</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>一项对执业专利律师开展的三个月随机试验发现，持续使用 AI 可改善工作质量，但脱离工具后的判断能力变化取决于资历。资深律师表现改善，初级律师平均未见技能增益且结果分化；结论需限定于该研究人群与任务。</summary>
   </entry>
   <entry>
     <title>d1-3B 与实验性 d1-omni-600M 通过单次前向计算输出结构化决策，支持不同模态输入。团队报告文本任务与部分硬件延迟测试，但未发布视觉、音频决策基准…</title>
     <link href="https://huggingface.co/blog/LiquidAI/open-d1"/>
     <id>https://huggingface.co/blog/LiquidAI/open-d1</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>d1-3B 与实验性 d1-omni-600M 通过单次前向计算输出结构化决策，支持不同模态输入。团队报告文本任务与部分硬件延迟测试，但未发布视觉、音频决策基准，也未报告实验小模型的速度。</summary>
   </entry>
   <entry>
     <title>报道介绍 Concourse 项目如何把经典阅读、辩论与科学工程教育结合，让学生讨论智能和人的意义。文章呈现教师的教育观点与课程实践，不是关于 AI 学习效果的…</title>
     <link href="https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007"/>
     <id>https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>报道介绍 Concourse 项目如何把经典阅读、辩论与科学工程教育结合，让学生讨论智能和人的意义。文章呈现教师的教育观点与课程实践，不是关于 AI 学习效果的对照实验。</summary>
   </entry>
   <entry>
     <title>TII 发布 1.6B 参数语音识别模型，支持多种语言和逐词时间戳，并报告六个阿拉伯语测试集及内部方言测试。误字率比较依赖选定测试协议和榜单快照，实际录音条件仍…</title>
     <link href="https://huggingface.co/blog/tiiuae/falcon-asr"/>
     <id>https://huggingface.co/blog/tiiuae/falcon-asr</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>TII 发布 1.6B 参数语音识别模型，支持多种语言和逐词时间戳，并报告六个阿拉伯语测试集及内部方言测试。误字率比较依赖选定测试协议和榜单快照，实际录音条件仍需单独评估。</summary>
   </entry>
   <entry>
     <title>团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评…</title>
     <link href="https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026"/>
     <id>https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。</summary>
   </entry>
   <entry>
     <title>公告介绍即将推出的 College Planner，用于组织申请要求、截止日期与助学金步骤，并扩展闪卡、测验和青少年反馈机制。首期升学体验面向美国部分高中阶段，…</title>
     <link href="https://openai.com/index/teens-learn-and-plan"/>
     <id>https://openai.com/index/teens-learn-and-plan</id>
-    <updated>2026-10-08T14:02:59Z</updated>
+    <updated>2026-10-08T18:20:39Z</updated>
     <summary>公告介绍即将推出的 College Planner，用于组织申请要求、截止日期与助学金步骤，并扩展闪卡、测验和青少年反馈机制。首期升学体验面向美国部分高中阶段，使用量不能直接视为教育效果证据。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 客户案例介绍 Radisson 与 Accenture 合作构建酒店插件，让用户在旅行规划中探索、比较和预订酒店。文章中的早期转化数据来自客户案例…</title>
-    <link href="https://openai.com/index/radisson"/>
-    <id>https://openai.com/index/radisson</id>
-    <updated>2026-10-08T14:02:59Z</updated>
-    <summary>OpenAI 客户案例介绍 Radisson 与 Accenture 合作构建酒店插件，让用户在旅行规划中探索、比较和预订酒店。文章中的早期转化数据来自客户案例，不能当作所有酒店或渠道的普遍收益。</summary>
-  </entry>
-  <entry>
-    <title>官方公告介绍面向更多用户的 GPT-6，以及可生成视觉回答、学习演示和即时工具的 Intelligent UI。内容描述产品发布与应用场景，具体使用仍取决于账户…</title>
-    <link href="https://openai.com/index/gpt-6-for-everyone"/>
-    <id>https://openai.com/index/gpt-6-for-everyone</id>
-    <updated>2026-10-08T14:02:59Z</updated>
-    <summary>官方公告介绍面向更多用户的 GPT-6，以及可生成视觉回答、学习演示和即时工具的 Intelligent UI。内容描述产品发布与应用场景，具体使用仍取决于账户可用性和任务中的实际验证。</summary>
-  </entry>
-  <entry>
-    <title>林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与…</title>
-    <link href="https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006"/>
-    <id>https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006</id>
-    <updated>2026-10-08T14:02:59Z</updated>
-    <summary>林肯实验室超算中心介绍自 2018 年开展的 AI 计算调查，汇总商用加速器的峰值性能和功率。硬件比较涵盖不同架构，峰值指标不能直接替代具体工作负载的实际速度与能效。</summary>
   </entry>
 </feed>

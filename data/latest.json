@@ -2,6 +2,32 @@
   "date": "2026年10月8日",
   "news": [
     {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "body": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "date": "2026-10-08",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-08"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "body": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "date": "2026-10-08",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-08"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT 研究用机器学习提高数据中心资源利用率",
       "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
       "body": "报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据此推断数据中心扩张的总环境影响已被消除。",
@@ -16,6 +42,19 @@
       "title_original": "Using AI to mitigate the growing environmental threat of data centers",
       "body_original": "By rethinking how large cloud computing systems operate, Associate Professor Christina Delimitrou seeks to make data centers more energy efficient.",
       "editorial_date": "2026-10-08"
+    },
+    {
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "body": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "date": "2026-10-08",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-08"
+      ],
+      "importance": "normal"
     },
     {
       "title": "Google 研究：AI 提高工作质量未必同步提高独立技能",
@@ -192,54 +231,6 @@
       "title_original": "Unlocking Earth AI’s planetary geospatial foundation models for global public health",
       "body_original": "Earth AI",
       "editorial_date": "2026-10-08"
-    },
-    {
-      "title": "Chris Bourg 获任 MIT 副教务长及冠名图书馆馆长",
-      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
-      "body": "MIT 宣布 Chris Bourg 新任职衔及图书馆馆长职位的捐赠支持，强调数字时代的知识获取和保存使命。报道回顾开放出版与数字内容工作，属于组织与教育动态。",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T13:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-06"
-      ],
-      "importance": "normal",
-      "title_original": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
-      "body_original": "As director, Bourg has focused on digital access, open and equitable scholarly publishing, and expanded support for data-intensive research.",
-      "editorial_date": "2026-10-08"
-    },
-    {
-      "title": "Jump Trading 分享用 ChatGPT 扩展量化研究的实践",
-      "url": "https://openai.com/index/jump-trading",
-      "body": "OpenAI 客户案例介绍 Jump Trading 将智能体用于较长周期的编码与研究分析，由研究人员定义目标、评价标准和受控环境。案例强调监控与人工复核，没有证明某种交易策略的收益。",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-06"
-      ],
-      "importance": "normal",
-      "title_original": "How Jump Trading is scaling quant research with ChatGPT",
-      "body_original": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "editorial_date": "2026-10-08"
-    },
-    {
-      "title": "OpenAI 公开 AI 数学研究结果与部分 Lean 形式化证明",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "body": "OpenAI 将内部模型得到的数学结果、修订和引用规则公开到 GitHub，并分享部分 Lean 形式化、推理摘要及计算投入信息。发布强调社区反馈与透明度，不意味着每项结果都已完成独立审查。",
-      "date": "2026-10-06",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-06"
-      ],
-      "importance": "normal",
-      "title_original": "Sharing AI progress in mathematics",
-      "body_original": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "editorial_date": "2026-10-08"
     }
   ],
   "papers": [
@@ -355,13 +346,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-08T14:00:45.683099+00:00",
+  "fetched_at": "2026-10-08T18:20:37.580448+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 13
+      "items": 14
     },
     {
       "source": "Hugging Face",
@@ -400,16 +391,16 @@
       "items": 49
     }
   ],
+  "editorial": {
+    "date": "2026-10-08",
+    "items_applied": 16,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 4,
     "leader_count": 0,
     "science_count": 4
-  },
-  "editorial": {
-    "date": "2026-10-08",
-    "items_applied": 19,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
