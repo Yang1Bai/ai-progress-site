@@ -2,6 +2,19 @@
   "date": "2026年10月9日",
   "news": [
     {
+      "title": "Impactful scheduling for GPU clusters",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "body": "",
+      "date": "2026-10-09",
+      "published_at": "2026-10-09T15:20:29+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-09"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Sophos 报告 AI 智能体缩短威胁调查时间",
       "url": "https://openai.com/index/sophos",
       "body": "OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这些是企业自报结果，不能视为所有安全场景的独立测评。",
@@ -224,22 +237,6 @@
       "title_original": "Helping teens learn, plan, and shape the future of AI",
       "body_original": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "editorial_date": "2026-10-09"
-    },
-    {
-      "title": "Radisson 将酒店查找与比较接入 ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "body": "OpenAI 客户案例介绍 Radisson 与 Accenture 合作构建酒店插件，让用户在旅行规划中探索、比较和预订酒店。文章中的早期转化数据来自客户案例，不能当作所有酒店或渠道的普遍收益。",
-      "date": "2026-10-07",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-07"
-      ],
-      "importance": "normal",
-      "title_original": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "body_original": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "editorial_date": "2026-10-09"
     }
   ],
   "papers": [
@@ -449,13 +446,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-09T13:04:02.109261+00:00",
+  "fetched_at": "2026-10-09T17:53:49.006358+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 15
+      "items": 14
     },
     {
       "source": "Hugging Face",
@@ -467,13 +464,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 8
+      "items": 7
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -494,16 +491,16 @@
       "items": 75
     }
   ],
+  "editorial": {
+    "date": "2026-10-09",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 8,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-09",
-    "items_applied": 23,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
