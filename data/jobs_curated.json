@@ -124,6 +124,101 @@
     ],
     "faculty": [
       {
+        "title": "Assistant Professor (Tenure Track) - AI for Materials Discovery, Design, and Manufacturing",
+        "org": "National University of Singapore, Department of Materials Science and Engineering",
+        "location": "Singapore",
+        "url": "https://cde.nus.edu.sg/mse/faculty-position-in-ai-for-materials-discovery-design-and-manufacturing/",
+        "deadline": "Open until filled",
+        "tags": [
+          "autonomous laboratories",
+          "robotic experimentation",
+          "AI materials discovery",
+          "automated characterization"
+        ],
+        "fit": "The official search prioritizes AI at the intersection of automated laboratories and experimental characterization. Yang's autonomous electrochemistry, active-learning workflows and inorganic materials discovery directly match this experimental faculty search; it is distinct from his submitted NUS Chemical & Biomolecular Engineering application.",
+        "rank": "Assistant Professor (tenure track)",
+        "application_email": "msebox1@nus.edu.sg",
+        "qs_world_rank": 10,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/universities/national-university-singapore-nus",
+        "official_posting": "https://cde.nus.edu.sg/mse/faculty-position-in-ai-for-materials-discovery-design-and-manufacturing/",
+        "source": "curated",
+        "verified_date": "2026-10-09"
+      },
+      {
+        "title": "Assistant/Associate (Pre-Tenure) Professors - Chemical, Environmental and Materials Engineering",
+        "org": "Brown University, School of Engineering",
+        "location": "Providence, Rhode Island, USA",
+        "url": "https://apply.interfolio.com/190435",
+        "deadline": "Review begins 2026-10-15; open until filled",
+        "tags": [
+          "autonomous materials discovery",
+          "automated characterization",
+          "electrochemical separations",
+          "critical minerals recovery"
+        ],
+        "fit": "The materials search explicitly welcomes ML, autonomous workflows and automated characterization, while the chemical/environmental search highlights electrochemical separations and critical-mineral recovery. These align with Yang's autonomous inorganic materials program and proposed electrochemical recovery research.",
+        "rank": "Assistant or Associate Professor (pre-tenure; tenure track)",
+        "review_begins_date": "2026-10-15",
+        "deadline_time_note": "Review date only; time and timezone not specified.",
+        "qs_world_rank": 66,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/universities/brown-university",
+        "official_posting": "https://engineering.brown.edu/resources/employment",
+        "announcement_source": "https://www.linkedin.com/pulse/multiple-tenure-track-faculty-positions-brown-chemical-nitin-padture-mbxve",
+        "date_source_note": "Official school page lists the position; date and full description cross-checked against Brown professor Nitin Padture's public announcement because Interfolio text was not readable.",
+        "source": "curated",
+        "verified_date": "2026-10-09"
+      },
+      {
+        "title": "Tenure-Track Assistant Professor - Chemical Engineering",
+        "org": "Massachusetts Institute of Technology, Department of Chemical Engineering",
+        "location": "Cambridge, Massachusetts, USA",
+        "url": "https://faculty-searches.mit.edu/cheme/register.tcl",
+        "deadline": "Priority consideration 2026-11-15; no hard closing date listed",
+        "tags": [
+          "electrochemical catalysis",
+          "reaction engineering",
+          "materials design",
+          "energy & sustainability"
+        ],
+        "fit": "The official search explicitly includes electrochemical catalysis, reaction engineering and materials design, with laboratory space, core facilities and start-up support. Yang could position his experimental autonomous discovery program around OER/HER, reaction-pathway measurements and data-driven catalyst synthesis.",
+        "rank": "Assistant Professor (tenure track); exceptional untenured Associate appointments possible",
+        "priority_review_date": "2026-11-15",
+        "qs_world_rank": 1,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/universities/massachusetts-institute-technology-mit",
+        "official_posting": "https://faculty-searches.mit.edu/cheme/",
+        "source": "curated",
+        "verified_date": "2026-10-09"
+      },
+      {
+        "title": "Open-Rank Faculty Position - Smart Manufacturing (University Tenure Line)",
+        "org": "Stanford University, School of Engineering (home department determined during search)",
+        "location": "Stanford, California, USA",
+        "url": "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-in-smart-manufacturing-stanford-university-california-united-states",
+        "deadline": "Review begins 2026-11-01; portal closes 2027-10-01 at 23:55 PDT",
+        "tags": [
+          "in-situ sensing",
+          "closed-loop process control",
+          "robotics & automation",
+          "AI materials manufacturing"
+        ],
+        "fit": "The official search combines materials science, autonomy, in-situ sensing, closed-loop control and robotics across engineering disciplines. Yang's dynamic reaction representations and autonomous synthesis fit when framed around reproducible, scalable materials processing rather than a general-purpose lab platform.",
+        "rank": "Tenure-track Assistant Professor or tenure-track/tenured Associate Professor (also tenured Full)",
+        "review_begins_date": "2026-11-01",
+        "closing_date": "2027-10-01",
+        "closing_time": "23:55",
+        "closing_timezone": "PDT",
+        "qs_world_rank": 2,
+        "qs_rank_tied": true,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/universities/stanford-university",
+        "official_posting": "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-in-smart-manufacturing-stanford-university-california-united-states",
+        "source": "curated",
+        "verified_date": "2026-10-09"
+      },
+      {
         "title": "Assistant Professor - Inorganic Chemistry, Inorganic Materials Chemistry & Artificial Intelligence (AI)",
         "org": "University of Houston, Department of Chemistry",
         "location": "Houston, Texas, USA",
@@ -212,14 +307,17 @@
         "org": "Tufts University, Department of Chemistry",
         "location": "Medford, Massachusetts, USA",
         "url": "https://apply.interfolio.com/192913",
-        "deadline": "2026-10-10",
+        "deadline": "Full consideration 2026-10-10; open until filled",
         "tags": [
           "AI for Science",
           "materials design",
           "materials synthesis",
           "energy materials"
         ],
-        "source": "curated"
+        "source": "curated",
+        "full_consideration_date": "2026-10-10",
+        "date_source": "https://sciences.academickeys.com/job/qlehjiu9/Assistant-Professor-in-Artificial-IntelligenceMachine-Learning-for-Materials-Design-tenuretrack",
+        "date_source_note": "Official faculty page confirms the search remains listed; full-consideration date from the reproduced announcement because Interfolio text was not readable."
       },
       {
         "title": "Tenure-track positions in Chemistry",
@@ -254,14 +352,17 @@
         "org": "California Institute of Technology, Division of Chemistry and Chemical Engineering",
         "location": "Pasadena, California, USA",
         "url": "https://www.applications.caltech.edu/jobs/chemistry",
-        "deadline": "2026-10-15",
+        "deadline": "Requested receipt date 2026-10-15; late applications may be considered",
         "tags": [
           "chemistry",
           "chemical engineering",
           "energy materials",
           "catalysis"
         ],
-        "source": "curated"
+        "source": "curated",
+        "requested_receipt_date": "2026-10-15",
+        "deadline_time_note": "Official requested receipt date, not a confirmed portal closure; time and timezone not specified.",
+        "verified_date": "2026-10-09"
       },
       {
         "title": "Open-Rank Faculty Positions (Assistant/Associate/Full Professor)",
@@ -300,19 +401,6 @@
           "ML",
           "materials",
           "computational chemistry"
-        ],
-        "source": "curated"
-      },
-      {
-        "title": "Junior Professor Chair (Tenure Track) - AI for Materials and Soft Matter",
-        "org": "ESPCI PSL University",
-        "location": "Paris, France",
-        "url": "https://recrutement.psl.eu/en/odysse-262399",
-        "deadline": "2026-09-21",
-        "tags": [
-          "ML",
-          "materials",
-          "soft matter"
         ],
         "source": "curated"
       },
