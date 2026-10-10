@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-10",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "title": "Ai2 用预算与公平份额改进 GPU 集群调度",
+      "body": "Ai2 分享以 GPU 时间预算、分层公平份额和时间切片约定替代优先级调度的实践，将资源分配从逐案协商转为透明预算流程。文章区分设备可用性、占用率、研究影响与实际利用率，不能把满占用直接当作算力高效使用。"
+    },
+    {
+      "url": "https://openai.com/index/sophos",
+      "title": "Sophos 报告 AI 智能体缩短威胁调查时间",
+      "body": "OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这些是企业自报结果，不能视为所有安全场景的独立测评。"
+    },
+    {
+      "url": "https://openai.com/index/asana-browser-agent",
+      "title": "Asana 报告优化浏览器智能体缓存与历史管理的测试结果",
+      "body": "客户案例介绍延长历史缓存、保留更多页面文本并批量移除截图的优化。其 144 次研究在同一演示目录任务上报告成本与速度改善；76 倍成本差异同时涉及模型与工作流变化，不代表任意浏览任务的普遍效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+      "title": "MIT 探讨 AI 时代研究与研究生教育的调整",
+      "body": "Sasha Rakhlin 在访谈中讨论 AI 对数学、统计和工程研究的影响，强调快速可靠的验证会推动模型能力进步。文章提出大学需要重新思考研究训练与评价，是学术观点讨论，不是教育效果实验。"
+    },
+    {
+      "url": "https://openai.com/index/oracle",
+      "title": "Oracle 用 ChatGPT 与 Codex 改进招聘和业务分析",
+      "body": "客户案例介绍招聘市场调研、基于业务对象关系生成查询，以及工程故障排查等应用。Oracle 自报部分工作所需时间缩短，同时强调架构、安全与输出仍需人员负责；效果不能直接外推至其他企业。"
+    },
+    {
+      "url": "https://openai.com/index/pollo-ai",
+      "title": "Pollo AI 将创意提示与产品照片转成广告素材",
+      "body": "案例介绍 Pollo Agent 用模型理解创意、规划场景并生成图片，再组织视频制作流程。文中展示产品广告与营销视觉案例；节省时间等指标来自企业自报，不代表独立比较或所有作品质量。"
+    },
+    {
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "title": "LegalOn 通过模型分工和预算管理降低开发成本",
+      "body": "客户案例称，LegalOn 按任务复杂度选择模型，并设置部门和个人预算、调整快速模式使用，估计每日成本降低约 65%。该数字属于企业案例估算；以功能发布衡量客户价值的管线仍在建设中。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+      "title": "MIT 研究用机器学习提高数据中心资源利用率",
+      "body": "报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据此推断数据中心扩张的总环境影响已被消除。"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "title": "OpenAI 披露利用 AI 支持虚假身份掩护的影响行动",
+      "body": "OpenAI 称已封禁来自俄罗斯与伊朗的两组影响行动账户，涉及伪装研究机构、记者身份及内部报告等用途。报告区分公开证据与操作者自述，后者可能夸大效果；不能把所有声称的传播成果视为已证实。"
+    },
+    {
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "title": "Hugging Face 分享用 ML Intern 定制小模型的实践",
+      "body": "作者展示通过详细任务说明，让 ML Intern 规划、训练、评估并发布定制模型的案例，包括较小的图像提示改写器。文中成本与输出有效率属于具体项目结果，不能推断任意训练任务都同样便宜或可靠。"
+    },
+    {
+      "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+      "title": "Google 研究：AI 提高工作质量未必同步提高独立技能",
+      "body": "一项对执业专利律师开展的三个月随机试验发现，持续使用 AI 可改善工作质量，但脱离工具后的判断能力变化取决于资历。资深律师表现改善，初级律师平均未见技能增益且结果分化；结论需限定于该研究人群与任务。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "title": "Liquid AI 发布面向边缘设备的开放 d1 决策模型",
+      "body": "d1-3B 与实验性 d1-omni-600M 通过单次前向计算输出结构化决策，支持不同模态输入。团队报告文本任务与部分硬件延迟测试，但未发布视觉、音频决策基准，也未报告实验小模型的速度。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+      "title": "MIT 探讨 AI 时代人文学习的价值",
+      "body": "报道介绍 Concourse 项目如何把经典阅读、辩论与科学工程教育结合，让学生讨论智能和人的意义。文章呈现教师的教育观点与课程实践，不是关于 AI 学习效果的对照实验。"
+    },
+    {
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Falcon-ASR 聚焦阿拉伯语和阿联酋方言语音识别",
+      "body": "TII 发布 1.6B 参数语音识别模型，支持多种语言和逐词时间戳，并报告六个阿拉伯语测试集及内部方言测试。误字率比较依赖选定测试协议和榜单快照，实际录音条件仍需单独评估。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "title": "NVIDIA 分享 Nemotron 在信息学与数学奥赛任务中的专门化训练",
+      "body": "团队通过监督微调、强化学习和反馈推理，将 Nemotron 系列用于 IOI 编程与 IMO 证明任务，并报告金牌水平表现。IOI 测试是遵循竞赛约束的非官方评测，未进入正式排名；两类任务使用专门化系统，不能视为通用能力的统一证明。"
+    }
+  ],
+  "papers": []
+}
