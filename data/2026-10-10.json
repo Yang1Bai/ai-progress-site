@@ -249,7 +249,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-10T12:59:39.639378+00:00",
+  "fetched_at": "2026-10-10T16:51:42.425564+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -294,16 +294,16 @@
       "items": 0
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 0,
-    "leader_count": 0,
-    "science_count": 0
-  },
   "editorial": {
     "date": "2026-10-10",
     "items_applied": 15,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
   }
 }
