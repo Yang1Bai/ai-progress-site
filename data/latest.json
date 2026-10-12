@@ -428,13 +428,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-12T13:34:12.339312+00:00",
+  "fetched_at": "2026-10-12T20:49:20.221768+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 14
+      "items": 13
     },
     {
       "source": "Hugging Face",
@@ -457,8 +457,8 @@
     {
       "source": "Nature Materials",
       "url": "https://www.nature.com/nmat.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "Nature Catalysis",
@@ -473,16 +473,16 @@
       "items": 50
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 7,
-    "leader_count": 0,
-    "science_count": 6
-  },
   "editorial": {
     "date": "2026-10-12",
     "items_applied": 22,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 7,
+    "leader_count": 0,
+    "science_count": 6
   }
 }
