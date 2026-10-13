@@ -2,6 +2,19 @@
   "date": "2026年10月13日",
   "news": [
     {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "body": "",
+      "date": "2026-10-13",
+      "published_at": "2026-10-13T17:05:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-13"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT 探讨公共讨论中 AI 生成文字的责任归属",
       "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
       "body": "Deb Roy 在访谈中讨论 AI 生成的公共意见如何增加识别虚假反馈的难度，主张即使借助 AI 撰写，也应有人对表达承担责任。文章聚焦公共沟通与信任的观点讨论，不代表已建立普遍有效的身份核验办法。",
@@ -66,9 +79,9 @@
       "editorial_date": "2026-10-13"
     },
     {
-      "title": "MIT 探讨 AI 时代研究与研究生教育的调整",
-      "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
-      "body": "Sasha Rakhlin 在访谈中讨论 AI 对数学、统计和工程研究的影响，强调快速可靠的验证会推动模型能力进步。文章提出大学需要重新思考研究训练与评价，是学术观点讨论，不是教育效果实验。",
+      "title": "3 Questions: What is the best path forward for AI in academia?",
+      "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-1008",
+      "body": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
       "date": "2026-10-08",
       "published_at": "2026-10-08T17:25:00-04:00",
       "source": "MIT AI",
@@ -76,10 +89,7 @@
         "MIT AI",
         "2026-10-08"
       ],
-      "importance": "normal",
-      "title_original": "3 Questions: What is the best path forward for AI in academia?",
-      "body_original": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
-      "editorial_date": "2026-10-13"
+      "importance": "normal"
     },
     {
       "title": "Oracle 用 ChatGPT 与 Codex 改进招聘和业务分析",
@@ -194,22 +204,6 @@
       "editorial_date": "2026-10-13"
     },
     {
-      "title": "Liquid AI 发布面向边缘设备的开放 d1 决策模型",
-      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "body": "d1-3B 与实验性 d1-omni-600M 通过单次前向计算输出结构化决策，支持不同模态输入。团队报告文本任务与部分硬件延迟测试，但未发布视觉、音频决策基准，也未报告实验小模型的速度。",
-      "date": "2026-10-07",
-      "published_at": "2026-10-07T16:54:33+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-07"
-      ],
-      "importance": "normal",
-      "title_original": "Multimodal open d1 decision models for the edge",
-      "body_original": "",
-      "editorial_date": "2026-10-13"
-    },
-    {
       "title": "MIT 探讨 AI 时代人文学习的价值",
       "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
       "body": "报道介绍 Concourse 项目如何把经典阅读、辩论与科学工程教育结合，让学生讨论智能和人的意义。文章呈现教师的教育观点与课程实践，不是关于 AI 学习效果的对照实验。",
@@ -249,13 +243,13 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-13T14:02:25.937589+00:00",
+  "fetched_at": "2026-10-13T18:47:50.715304+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Hugging Face",
@@ -267,19 +261,19 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 5
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 2
+      "items": 1
     },
     {
       "source": "Nature Materials",
       "url": "https://www.nature.com/nmat.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "Nature Catalysis",
@@ -294,16 +288,16 @@
       "items": 0
     }
   ],
+  "editorial": {
+    "date": "2026-10-13",
+    "items_applied": 13,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
-  },
-  "editorial": {
-    "date": "2026-10-13",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
