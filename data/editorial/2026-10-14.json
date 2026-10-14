@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-14",
+  "news": [
+    {
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "title": "OpenAI 报告欧盟企业智能体工具使用增长",
+      "body": "报告基于 OpenAI 企业客户样本，讨论 Codex 与 ChatGPT Work 的使用强度及国家差异。输出 token 占比和活跃用户增长衡量的是平台使用，不能直接等同于全欧盟采用率或已实现的生产率提升。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "title": "Liquid AI 发布面向设备端智能体的 LFM2.5 模型",
+      "body": "LFM2.5-24B-A2B 使用混合专家架构，每个 token 激活部分参数，扩展上下文并强化工具调用与多步任务。团队报告多项基准，实际速度、硬件需求和隐私仍取决于部署配置，不能仅凭激活参数推断。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "title": "MIT 研究神经网络如何自组织形成学习机制",
+      "body": "报道介绍 PNAS 研究：随机连接单元依据简单连接更新规则，可重组为有效的信息处理网络。研究关注学习机制与生物合理性，不代表人工网络已完整解释大脑学习。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+      "title": "MIT 林肯实验室举办新兴生物技术委员会访问活动",
+      "body": "报道回顾 9 月 3 日的交流，讨论马萨诸塞州生物技术生态与国家生物防御能力。文中投资建议来自委员会报告，不能视为资金已经落实或技术效果已获验证。"
+    },
+    {
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "title": "Higgsfield 分享用 AI 工作流制作更长视频的案例",
+      "body": "客户案例称，结合创作智能体与外部工具后，可制作超过十分钟的教学视频，并改善原型开发流程。这是企业自报实践，不代表模型能单次生成同等长度视频；语音驱动电影制作仍是后续愿景。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+      "title": "MIT 探讨公共讨论中 AI 生成文字的责任归属",
+      "body": "Deb Roy 在访谈中讨论 AI 生成的公共意见如何增加识别虚假反馈的难度，主张即使借助 AI 撰写，也应有人对表达承担责任。文章聚焦公共沟通与信任的观点讨论，不代表已建立普遍有效的身份核验办法。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "title": "Ai2 用预算与公平份额改进 GPU 集群调度",
+      "body": "Ai2 分享以 GPU 时间预算、分层公平份额和时间切片约定替代优先级调度的实践，将资源分配从逐案协商转为透明预算流程。文章区分设备可用性、占用率、研究影响与实际利用率，不能把满占用直接当作算力高效使用。"
+    },
+    {
+      "url": "https://openai.com/index/sophos",
+      "title": "Sophos 报告 AI 智能体缩短威胁调查时间",
+      "body": "OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这些是企业自报结果，不能视为所有安全场景的独立测评。"
+    },
+    {
+      "url": "https://openai.com/index/asana-browser-agent",
+      "title": "Asana 报告优化浏览器智能体缓存与历史管理的测试结果",
+      "body": "客户案例介绍延长历史缓存、保留更多页面文本并批量移除截图的优化。其 144 次研究在同一演示目录任务上报告成本与速度改善；76 倍成本差异同时涉及模型与工作流变化，不代表任意浏览任务的普遍效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
+      "title": "MIT 探讨 AI 时代研究与研究生教育的调整",
+      "body": "Sasha Rakhlin 在访谈中讨论数学、统计与工程研究的变化，强调快速可靠验证的重要性，并提出重新思考研究训练与评价。文章是学术观点讨论，不是教育效果实验。"
+    },
+    {
+      "url": "https://openai.com/index/oracle",
+      "title": "Oracle 用 ChatGPT 与 Codex 改进招聘和业务分析",
+      "body": "客户案例介绍招聘市场调研、基于业务对象关系生成查询，以及工程故障排查等应用。Oracle 自报部分工作所需时间缩短，同时强调架构、安全与输出仍需人员负责；效果不能直接外推至其他企业。"
+    },
+    {
+      "url": "https://openai.com/index/pollo-ai",
+      "title": "Pollo AI 将创意提示与产品照片转成广告素材",
+      "body": "案例介绍 Pollo Agent 用模型理解创意、规划场景并生成图片，再组织视频制作流程。文中展示产品广告与营销视觉案例；节省时间等指标来自企业自报，不代表独立比较或所有作品质量。"
+    },
+    {
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "title": "LegalOn 通过模型分工和预算管理降低开发成本",
+      "body": "客户案例称，LegalOn 按任务复杂度选择模型，并设置部门和个人预算、调整快速模式使用，估计每日成本降低约 65%。该数字属于企业案例估算；以功能发布衡量客户价值的管线仍在建设中。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+      "title": "MIT 研究用机器学习提高数据中心资源利用率",
+      "body": "报道介绍 Christina Delimitrou 团队改进云系统、共享硬件调度和服务器架构，以提高现有设备的计算效率。方向是减少软件与资源利用中的浪费，不能据此推断数据中心扩张的总环境影响已被消除。"
+    },
+    {
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "title": "OpenAI 披露利用 AI 支持虚假身份掩护的影响行动",
+      "body": "OpenAI 称已封禁来自俄罗斯与伊朗的两组影响行动账户，涉及伪装研究机构、记者身份及内部报告等用途。报告区分公开证据与操作者自述，后者可能夸大效果；不能把所有声称的传播成果视为已证实。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.14239",
+      "title": "用经典力场基准比较机器学习原子间势",
+      "summary": "预印本摘要：研究用 Lennard–Jones 与 Stillinger–Weber 势比较 ACE、神经网络势和 MACE，考察样本量、噪声、计算成本及径向分布。MACE 在这些测试中精度较高但成本明显增加，结论不能直接外推至任意材料体系。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14322",
+      "title": "溶液加工 NiO 阻变器件展示免成形多级突触状态",
+      "summary": "预印本摘要：研究报告 Ti/Pt/NiOx/Ag 器件的免成形开关和脉冲调控中间电阻态，部分状态至少保持 1000 秒。器件实验支持多级权重存储潜力，但有限保持时间与分类演示不等于完整神经计算硬件已成熟。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.14999",
+      "title": "DiffGA 用进化搜索引导冻结扩散模型设计材料",
+      "summary": "预印本摘要：框架在扩散采样过程中引入黑箱目标搜索，并用在线贝叶斯代理减少昂贵评估。作者比较计算设计任务及 DFT 对力场代理的可靠性；命中率取决于评估器，不能视为新化合物已获实验确认。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15236",
+      "title": "观点文章呼吁建立 ARPES 共享数据生态",
+      "summary": "预印本摘要：文章汇总社区讨论，提出标准化、可检索和可引用的光电子谱数据、治理及分阶段试点。近期重点是复现与复用，长期基础模型属于愿景，不能当作已建成的数据库或已实现的发现能力。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15683",
+      "title": "间接预测特征温度以筛选受挫磁性材料",
+      "summary": "预印本摘要：研究分别预测 Curie–Weiss 与 Néel 温度，结合模型不确定性构建保守受挫指数，筛出候选材料。候选包含已知与未探索体系；间接比值预测仍依赖温度模型误差，需进一步验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.16521",
+      "title": "神经网络势模拟 SrTiO₃ 氧空位扩散",
+      "summary": "预印本摘要：以第一性原理分子动力学数据训练的势用于更大体系和更长时间模拟，扩散结果与实验数据较接近。迁移焓与形成能检验支持所研究条件下的模型表现，不能保证所有缺陷浓度和环境均适用。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.17987",
+      "title": "知识引导采样构建材料反应行为的机器学习势",
+      "summary": "预印本摘要：研究结合改进描述符、主动学习和关键事件采样，以较小训练集描述特定材料的能垒与动力学性质。结果是特定体系的计算验证，不意味着其他复杂反应体系无需额外数据或基准。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18179",
+      "title": "态密度与第一性原理输运联合筛选霍伊斯勒热电候选",
+      "summary": "预印本摘要：研究比较计算和机器学习态密度的筛选排序，再以能带和输运计算检验候选。预测谱可能遗漏带隙，即使谱相似度较好；候选仍为计算结果，确认带隙需要能带分析。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18317",
+      "title": "把平面波 DFT 结果构造成可学习的紧凑哈密顿量",
+      "summary": "预印本摘要：研究按投影质量选择平面波本征态，构建非正交原子轨道哈密顿量，并在 MoS₂ 与钠相上检验能带重现。方法支持包含非局域作用的参考结果学习，验证范围仍受材料与基组选择限制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15591",
+      "title": "Tersoff-NN 结合解析作用与神经网络键级描述硅",
+      "summary": "预印本摘要：混合势保留 Tersoff 径向形式，用小网络表示环境相关键级，在硅的结构与动力学测试中平衡效率和精度。报告的加速相对所比较模型与硬件条件，域外稳定性仍需独立验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15904",
+      "title": "迁移学习辅助预测金属与半导体的折射率",
+      "summary": "预印本摘要：研究以神经网络预测不同波长的复折射率，再用已有模型初始化其他材料的训练。迁移学习旨在缩短训练时间，不能据此取代所有光学测量或忽略参考数据与波段的适用范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.16480",
+      "title": "PXRD-Bench 检验粉末衍射推断晶体结构的边界",
+      "summary": "预印本摘要：基准覆盖未知元素原子数、双相混合物及未见结构类型，并提供 Bragglite 基线。实验谱与新结构原型上的恢复仍有挑战；模型匹配率不是任意新样品结构均可唯一确定的保证。"
+    }
+  ]
+}
