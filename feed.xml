@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-14T12:58:01Z</updated>
+  <updated>2026-10-14T16:23:42Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月14日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-14.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-14.html</id>
-    <updated>2026-10-14T12:58:01Z</updated>
+    <updated>2026-10-14T16:23:42Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Earth AI…</title>
+    <link href="https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/"/>
+    <id>https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary>Earth AI</summary>
+  </entry>
+  <entry>
+    <title>General Science…</title>
+    <link href="https://research.google/blog/analyzing-technical-documents-with-deep-review/"/>
+    <id>https://research.google/blog/analyzing-technical-documents-with-deep-review/</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary>General Science</summary>
+  </entry>
+  <entry>
+    <title>General Science…</title>
+    <link href="https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/"/>
+    <id>https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary>General Science</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/hiro-acev2"/>
+    <id>https://huggingface.co/blog/allenai/hiro-acev2</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>A new machine-learning approach broke records for weather forecasting for an imp…</title>
+    <link href="https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"/>
+    <id>https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary>A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.</summary>
+  </entry>
+  <entry>
+    <title>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI…</title>
+    <link href="https://openai.com/index/third-moment-research"/>
+    <id>https://openai.com/index/third-moment-research</id>
+    <updated>2026-10-14T16:23:42Z</updated>
+    <summary>With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.</summary>
   </entry>
   <entry>
     <title>报告基于 OpenAI 企业客户样本，讨论 Codex 与 ChatGPT Work 的使用强度及国家差异。输出 token 占比和活跃用户增长衡量的是平台使用…</title>
     <link href="https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"/>
     <id>https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic</id>
-    <updated>2026-10-14T12:58:01Z</updated>
+    <updated>2026-10-14T16:23:42Z</updated>
     <summary>报告基于 OpenAI 企业客户样本，讨论 Codex 与 ChatGPT Work 的使用强度及国家差异。输出 token 占比和活跃用户增长衡量的是平台使用，不能直接等同于全欧盟采用率或已实现的生产率提升。</summary>
   </entry>
   <entry>
     <title>LFM2.5-24B-A2B 使用混合专家架构，每个 token 激活部分参数，扩展上下文并强化工具调用与多步任务。团队报告多项基准，实际速度、硬件需求和隐私仍…</title>
     <link href="https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"/>
     <id>https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b</id>
-    <updated>2026-10-14T12:58:01Z</updated>
+    <updated>2026-10-14T16:23:42Z</updated>
     <summary>LFM2.5-24B-A2B 使用混合专家架构，每个 token 激活部分参数，扩展上下文并强化工具调用与多步任务。团队报告多项基准，实际速度、硬件需求和隐私仍取决于部署配置，不能仅凭激活参数推断。</summary>
   </entry>
   <entry>
     <title>报道介绍 PNAS 研究：随机连接单元依据简单连接更新规则，可重组为有效的信息处理网络。研究关注学习机制与生物合理性，不代表人工网络已完整解释大脑学习。…</title>
     <link href="https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013"/>
     <id>https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013</id>
-    <updated>2026-10-14T12:58:01Z</updated>
+    <updated>2026-10-14T16:23:42Z</updated>
     <summary>报道介绍 PNAS 研究：随机连接单元依据简单连接更新规则，可重组为有效的信息处理网络。研究关注学习机制与生物合理性，不代表人工网络已完整解释大脑学习。</summary>
   </entry>
   <entry>
     <title>报道回顾 9 月 3 日的交流，讨论马萨诸塞州生物技术生态与国家生物防御能力。文中投资建议来自委员会报告，不能视为资金已经落实或技术效果已获验证。…</title>
     <link href="https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013"/>
     <id>https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013</id>
-    <updated>2026-10-14T12:58:01Z</updated>
+    <updated>2026-10-14T16:23:42Z</updated>
     <summary>报道回顾 9 月 3 日的交流，讨论马萨诸塞州生物技术生态与国家生物防御能力。文中投资建议来自委员会报告，不能视为资金已经落实或技术效果已获验证。</summary>
-  </entry>
-  <entry>
-    <title>客户案例称，结合创作智能体与外部工具后，可制作超过十分钟的教学视频，并改善原型开发流程。这是企业自报实践，不代表模型能单次生成同等长度视频；语音驱动电影制作仍是…</title>
-    <link href="https://openai.com/index/higgsfield-longer-videos-voice"/>
-    <id>https://openai.com/index/higgsfield-longer-videos-voice</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>客户案例称，结合创作智能体与外部工具后，可制作超过十分钟的教学视频，并改善原型开发流程。这是企业自报实践，不代表模型能单次生成同等长度视频；语音驱动电影制作仍是后续愿景。</summary>
-  </entry>
-  <entry>
-    <title>Deb Roy 在访谈中讨论 AI 生成的公共意见如何增加识别虚假反馈的难度，主张即使借助 AI 撰写，也应有人对表达承担责任。文章聚焦公共沟通与信任的观点讨论…</title>
-    <link href="https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013"/>
-    <id>https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>Deb Roy 在访谈中讨论 AI 生成的公共意见如何增加识别虚假反馈的难度，主张即使借助 AI 撰写，也应有人对表达承担责任。文章聚焦公共沟通与信任的观点讨论，不代表已建立普遍有效的身份核验办法。</summary>
-  </entry>
-  <entry>
-    <title>Ai2 分享以 GPU 时间预算、分层公平份额和时间切片约定替代优先级调度的实践，将资源分配从逐案协商转为透明预算流程。文章区分设备可用性、占用率、研究影响与实…</title>
-    <link href="https://huggingface.co/blog/allenai/impactful-scheduling"/>
-    <id>https://huggingface.co/blog/allenai/impactful-scheduling</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>Ai2 分享以 GPU 时间预算、分层公平份额和时间切片约定替代优先级调度的实践，将资源分配从逐案协商转为透明预算流程。文章区分设备可用性、占用率、研究影响与实际利用率，不能把满占用直接当作算力高效使用。</summary>
-  </entry>
-  <entry>
-    <title>OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这…</title>
-    <link href="https://openai.com/index/sophos"/>
-    <id>https://openai.com/index/sophos</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这些是企业自报结果，不能视为所有安全场景的独立测评。</summary>
-  </entry>
-  <entry>
-    <title>客户案例介绍延长历史缓存、保留更多页面文本并批量移除截图的优化。其 144 次研究在同一演示目录任务上报告成本与速度改善；76 倍成本差异同时涉及模型与工作流变…</title>
-    <link href="https://openai.com/index/asana-browser-agent"/>
-    <id>https://openai.com/index/asana-browser-agent</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>客户案例介绍延长历史缓存、保留更多页面文本并批量移除截图的优化。其 144 次研究在同一演示目录任务上报告成本与速度改善；76 倍成本差异同时涉及模型与工作流变化，不代表任意浏览任务的普遍效果。</summary>
-  </entry>
-  <entry>
-    <title>Sasha Rakhlin 在访谈中讨论数学、统计与工程研究的变化，强调快速可靠验证的重要性，并提出重新思考研究训练与评价。文章是学术观点讨论，不是教育效果实验…</title>
-    <link href="https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008"/>
-    <id>https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008</id>
-    <updated>2026-10-14T12:58:01Z</updated>
-    <summary>Sasha Rakhlin 在访谈中讨论数学、统计与工程研究的变化，强调快速可靠验证的重要性，并提出重新思考研究训练与评价。文章是学术观点讨论，不是教育效果实验。</summary>
   </entry>
 </feed>
