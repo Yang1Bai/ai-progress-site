@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-15",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "title": "Apertus 1.5 技术说明扩展多模态理解与工具使用",
+      "body": "项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
+      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。"
+    },
+    {
+      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+      "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
+      "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。"
+    },
+    {
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "title": "Google 发布面向复杂技术文档的 Deep Review",
+      "body": "团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。"
+    },
+    {
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "title": "Earth AI 探索多步地理空间分析与预测智能体",
+      "body": "技术说明把领域基础模型、空间工具和预先规划结合，用于跨数据集分析及预测建模，并扩大实验访问。系统仍属实验阶段，实际可靠性取决于数据、工具选择与具体任务验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "title": "Ai2 更新 HiRO-ACEv2 高分辨率气候模拟系统",
+      "body": "团队结合粗分辨率模拟与降尺度模型，生成降雨、风和气压等细尺度场，并与高分辨率模式比较极端事件统计。成本与精度属于特定基准结果，不能直接当作实际天气预报能力或所有气候情景的保证。"
+    },
+    {
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "title": "Amp 分享将智能体从编码扩展到产品工作的实践",
+      "body": "客户案例介绍规划、文档、页面设计及语音协调智能体等应用，也讨论模型速度与使用成本。内容主要是企业经验和产品愿景，不代表独立生产率测评或所有功能对所有用户开放。"
+    },
+    {
+      "url": "https://openai.com/index/sentinelone",
+      "title": "SentinelOne 报告 AI 缩短恶意软件分析时间",
+      "body": "客户案例称，借助 Daybreak 可把部分复杂恶意软件逆向分析从数周缩短至数小时，并扩大跨样本调查。数字来自企业自报，团队仍对结果负责；不能外推为所有样本均有相同效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+      "title": "研究用机器学习纠错改善两至六周天气预测",
+      "body": "MIT 报道团队训练模型修正现有预报系统的误差，改善两至六周尺度的预测，并在相关竞赛中取得好成绩。结果依赖所研究的系统、指标与时间范围，不意味着每次局地极端天气都可准确预报。"
+    },
+    {
+      "url": "https://openai.com/index/third-moment-research",
+      "title": "Third Moment 分享长时并行智能体研究系统",
+      "body": "客户案例介绍专用研究环境、轨迹审查和外层调度，以支持大规模并行与持续多日的实验。量化回测提速和智能体规模属于企业报告，不能据此推断真实交易收益或普遍可靠的自主科研能力。"
+    },
+    {
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "title": "Block 分享带人工核验的 AI 安全工作流",
+      "body": "案例介绍漏洞发现、检测调优和修复建议等应用，保留查询证据并由人员验证结果和部署变更。时间与工作量指标来自企业内部实践，补丁建议不能直接等同于已完成修复。"
+    },
+    {
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "title": "OpenAI 报告欧盟企业智能体工具使用增长",
+      "body": "报告基于 OpenAI 企业客户样本，讨论 Codex 与 ChatGPT Work 的使用强度及国家差异。输出 token 占比和活跃用户增长衡量的是平台使用，不能直接等同于全欧盟采用率或已实现的生产率提升。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "title": "Liquid AI 发布面向设备端智能体的 LFM2.5 模型",
+      "body": "LFM2.5-24B-A2B 使用混合专家架构，每个 token 激活部分参数，扩展上下文并强化工具调用与多步任务。团队报告多项基准，实际速度、硬件需求和隐私仍取决于部署配置，不能仅凭激活参数推断。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "title": "MIT 研究神经网络如何自组织形成学习机制",
+      "body": "报道介绍 PNAS 研究：随机连接单元依据简单连接更新规则，可重组为有效的信息处理网络。研究关注学习机制与生物合理性，不代表人工网络已完整解释大脑学习。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+      "title": "MIT 林肯实验室举办新兴生物技术委员会访问活动",
+      "body": "报道回顾 9 月 3 日的交流，讨论马萨诸塞州生物技术生态与国家生物防御能力。文中投资建议来自委员会报告，不能视为资金已经落实或技术效果已获验证。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.20063",
+      "title": "机器学习势预筛二维材料点缺陷的吸附与吸收趋势",
+      "summary": "预印本摘要：研究用 MACE 分子动力学考察 ADAQ 缺陷结构，在 0 K 与 300 K 比较定性吸附和吸收趋势。结果支持高通量预筛用途，定量准确性仍需 DFT 等方法验证，不能将定性一致当作所有缺陷稳定性已确认。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.14906",
+      "title": "AIDEN 神经网络重建实空间电荷密度",
+      "summary": "预印本摘要：模型区分元素相关中心密度与环境引起的再分布，以连续解码器重建任意空间位置的密度。作者报告晶体、分子和部分域外测试的精度与速度；泛化限于已检验情形，不是对所有电子结构计算的替代。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18179",
+      "title": "态密度与第一性原理输运联合筛选霍伊斯勒热电候选",
+      "summary": "预印本摘要：研究用计算及机器学习态密度排序，再以能带与输运计算检验候选。预测谱可能遗漏带隙，谱相似度好并不能确保带隙正确；筛出的材料仍为计算候选，需后续实验研究。"
+    }
+  ]
+}

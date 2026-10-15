@@ -1,36 +1,42 @@
 {
-  "date": "2026年10月14日",
+  "date": "2026年10月15日",
   "news": [
     {
-      "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-      "body": "Earth AI",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:38+00:00",
-      "source": "Google Research",
+      "title": "Apertus 1.5 技术说明扩展多模态理解与工具使用",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "body": "项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T09:08:45+00:00",
+      "source": "Hugging Face",
       "tags": [
-        "Google Research",
-        "2026-10-14"
+        "Hugging Face",
+        "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Apertus 1.5 Release Notes",
+      "body_original": "",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "Analyzing technical documents with Deep Review",
-      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-      "body": "General Science",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:37+00:00",
-      "source": "Google Research",
+      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00-04:00",
+      "source": "MIT AI",
       "tags": [
-        "Google Research",
-        "2026-10-14"
+        "MIT AI",
+        "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Q&A: The “collision” between AI, your brain, and society",
+      "body_original": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
       "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-      "body": "General Science",
+      "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。",
       "date": "2026-10-14",
       "published_at": "2026-10-14T16:14:34+00:00",
       "source": "Google Research",
@@ -38,12 +44,47 @@
         "Google Research",
         "2026-10-14"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "title": "Google 发布面向复杂技术文档的 Deep Review",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "body": "团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "Analyzing technical documents with Deep Review",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "Earth AI 探索多步地理空间分析与预测智能体",
+      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+      "body": "技术说明把领域基础模型、空间工具和预先规划结合，用于跨数据集分析及预测建模，并扩大实验访问。系统仍属实验阶段，实际可靠性取决于数据、工具选择与具体任务验证。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+      "body_original": "Earth AI",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "Ai2 更新 HiRO-ACEv2 高分辨率气候模拟系统",
       "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "body": "",
+      "body": "团队结合粗分辨率模拟与降尺度模型，生成降雨、风和气压等细尺度场，并与高分辨率模式比较极端事件统计。成本与精度属于特定基准结果，不能直接当作实际天气预报能力或所有气候情景的保证。",
       "date": "2026-10-14",
       "published_at": "2026-10-14T16:12:42+00:00",
       "source": "Hugging Face",
@@ -51,12 +92,47 @@
         "Hugging Face",
         "2026-10-14"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "body_original": "",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "Researchers improve weather forecasts looking two to six weeks out",
+      "title": "Amp 分享将智能体从编码扩展到产品工作的实践",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "body": "客户案例介绍规划、文档、页面设计及语音协调智能体等应用，也讨论模型速度与使用成本。内容主要是企业经验和产品愿景，不代表独立生产率测评或所有功能对所有用户开放。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "Amp puts AI agents to work beyond code with OpenAI models",
+      "body_original": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "SentinelOne 报告 AI 缩短恶意软件分析时间",
+      "url": "https://openai.com/index/sentinelone",
+      "body": "客户案例称，借助 Daybreak 可把部分复杂恶意软件逆向分析从数周缩短至数小时，并扩大跨样本调查。数字来自企业自报，团队仍对结果负责；不能外推为所有样本均有相同效果。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "SentinelOne cuts malware analysis from weeks to hours",
+      "body_original": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "研究用机器学习纠错改善两至六周天气预测",
       "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
-      "body": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
+      "body": "MIT 报道团队训练模型修正现有预报系统的误差，改善两至六周尺度的预测，并在相关竞赛中取得好成绩。结果依赖所研究的系统、指标与时间范围，不意味着每次局地极端天气都可准确预报。",
       "date": "2026-10-14",
       "published_at": "2026-10-14T11:00:00-04:00",
       "source": "MIT AI",
@@ -64,12 +140,15 @@
         "MIT AI",
         "2026-10-14"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Researchers improve weather forecasts looking two to six weeks out",
+      "body_original": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "title": "Third Moment 分享长时并行智能体研究系统",
       "url": "https://openai.com/index/third-moment-research",
-      "body": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "body": "客户案例介绍专用研究环境、轨迹审查和外层调度，以支持大规模并行与持续多日的实验。量化回测提速和智能体规模属于企业报告，不能据此推断真实交易收益或普遍可靠的自主科研能力。",
       "date": "2026-10-14",
       "published_at": "2026-10-14T07:00:00+00:00",
       "source": "OpenAI",
@@ -77,7 +156,26 @@
         "OpenAI",
         "2026-10-14"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "body_original": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "Block 分享带人工核验的 AI 安全工作流",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "body": "案例介绍漏洞发现、检测调优和修复建议等应用，保留查询证据并由人员验证结果和部署变更。时间与工作量指标来自企业内部实践，补丁建议不能直接等同于已完成修复。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "How Block is building AI-powered security with OpenAI technology",
+      "body_original": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "editorial_date": "2026-10-15"
     },
     {
       "title": "OpenAI 报告欧盟企业智能体工具使用增长",
@@ -93,7 +191,7 @@
       "importance": "normal",
       "title_original": "The EU’s next chapter in AI is agentic",
       "body_original": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "editorial_date": "2026-10-14"
+      "editorial_date": "2026-10-15"
     },
     {
       "title": "Liquid AI 发布面向设备端智能体的 LFM2.5 模型",
@@ -109,7 +207,7 @@
       "importance": "normal",
       "title_original": "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "body_original": "",
-      "editorial_date": "2026-10-14"
+      "editorial_date": "2026-10-15"
     },
     {
       "title": "MIT 研究神经网络如何自组织形成学习机制",
@@ -125,7 +223,7 @@
       "importance": "normal",
       "title_original": "How artificial neural networks build their own learning machinery",
       "body_original": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
-      "editorial_date": "2026-10-14"
+      "editorial_date": "2026-10-15"
     },
     {
       "title": "MIT 林肯实验室举办新兴生物技术委员会访问活动",
@@ -141,341 +239,72 @@
       "importance": "normal",
       "title_original": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
       "body_original": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "Higgsfield 分享用 AI 工作流制作更长视频的案例",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "body": "客户案例称，结合创作智能体与外部工具后，可制作超过十分钟的教学视频，并改善原型开发流程。这是企业自报实践，不代表模型能单次生成同等长度视频；语音驱动电影制作仍是后续愿景。",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-13"
-      ],
-      "importance": "normal",
-      "title_original": "Higgsfield takes AI video from 1 minute to over 10",
-      "body_original": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "MIT 探讨公共讨论中 AI 生成文字的责任归属",
-      "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
-      "body": "Deb Roy 在访谈中讨论 AI 生成的公共意见如何增加识别虚假反馈的难度，主张即使借助 AI 撰写，也应有人对表达承担责任。文章聚焦公共沟通与信任的观点讨论，不代表已建立普遍有效的身份核验办法。",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T00:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-13"
-      ],
-      "importance": "normal",
-      "title_original": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
-      "body_original": "Professor Deb Roy contends there should be someone who is “answerable” for every piece of text in public life, no matter its origins.",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "Asana 报告优化浏览器智能体缓存与历史管理的测试结果",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "body": "客户案例介绍延长历史缓存、保留更多页面文本并批量移除截图的优化。其 144 次研究在同一演示目录任务上报告成本与速度改善；76 倍成本差异同时涉及模型与工作流变化，不代表任意浏览任务的普遍效果。",
-      "date": "2026-10-09",
-      "published_at": "2026-10-09T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-09"
-      ],
-      "importance": "normal",
-      "title_original": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "body_original": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "Sophos 报告 AI 智能体缩短威胁调查时间",
-      "url": "https://openai.com/index/sophos",
-      "body": "OpenAI 客户案例称，Sophos 将智能体与威胁情报和响应流程结合，使用智能体的案例平均响应时间从约 38 分钟降至 89 秒。高风险操作仍设人工监督；这些是企业自报结果，不能视为所有安全场景的独立测评。",
-      "date": "2026-10-09",
-      "published_at": "2026-10-09T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-09"
-      ],
-      "importance": "normal",
-      "title_original": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "body_original": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "MIT 探讨 AI 时代研究与研究生教育的调整",
-      "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
-      "body": "Sasha Rakhlin 在访谈中讨论数学、统计与工程研究的变化，强调快速可靠验证的重要性，并提出重新思考研究训练与评价。文章是学术观点讨论，不是教育效果实验。",
-      "date": "2026-10-08",
-      "published_at": "2026-10-08T17:25:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-08"
-      ],
-      "importance": "normal",
-      "title_original": "3 Questions: What is the best path forward for AI in academia?",
-      "body_original": "MIT Statistics and Data Science Center Director Alexander (Sasha) Rakhlin shares important considerations for departments and institutions.",
-      "editorial_date": "2026-10-14"
+      "editorial_date": "2026-10-15"
     }
   ],
   "papers": [
     {
-      "title": "用经典力场基准比较机器学习原子间势",
-      "url": "https://arxiv.org/abs/2610.14239",
-      "body": "arXiv:2610.14239v1 Announce Type: new Abstract: We propose a rational comparison between several well-known machine-learning interatomic potentials (linear atomic cluster expansion, the Behler-Parrinello high-dimensional neural network potential, and the graph neural network-based MACE potential) by testing their performance for fitting classical potentials such as the Lennard-Jones and Stillinger-Weber potential. With this we assess their advantages and limitations regarding several aspects: varying training dataset size, robustness to noise, carbon footprint, as well as the ability to reproduce the radial distribution function as an example observable. Overall the MACE models are shown to ",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
+      "title": "机器学习势预筛二维材料点缺陷的吸附与吸收趋势",
+      "url": "https://arxiv.org/abs/2610.20063",
+      "body": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-14"
+        "2026-10-15"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究用 Lennard–Jones 与 Stillinger–Weber 势比较 ACE、神经网络势和 MACE，考察样本量、噪声、计算成本及径向分布。MACE 在这些测试中精度较高但成本明显增加，结论不能直接外推至任意材料体系。",
+      "summary": "预印本摘要：研究用 MACE 分子动力学考察 ADAQ 缺陷结构，在 0 K 与 300 K 比较定性吸附和吸收趋势。结果支持高通量预筛用途，定量准确性仍需 DFT 等方法验证，不能将定性一致当作所有缺陷稳定性已确认。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Benchmarking machine-learning interatomic potentials using classical force fields",
-      "summary_original": "arXiv:2610.14239v1 Announce Type: new Abstract: We propose a rational comparison between several well-known machine-learning interatomic potentials (linear atomic cluster expansion, the Behler-Parrinello high-dimensional neural network potential, and the graph neural network-based MACE potential) by testing their performance for fitting classical potentials such as the Lennard-Jones and Stillinger-Weber potential. With this we assess their advantages and limitations regarding several aspects: varying training dataset size, robustness to noise, carbon footprint, as well as the ability to reproduce the radial distribution function as an example observable. Overall the MACE models are shown to ",
-      "editorial_date": "2026-10-14"
+      "title_original": "Sorption Molecular Dynamics of Point Defects in 2D Materials with a Machine Learning Potential",
+      "summary_original": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
+      "editorial_date": "2026-10-15"
     },
     {
-      "title": "溶液加工 NiO 阻变器件展示免成形多级突触状态",
-      "url": "https://arxiv.org/abs/2610.14322",
-      "body": "arXiv:2610.14322v1 Announce Type: new Abstract: Artificial neural networks (ANN) implemented on crossbar arrays of non-volatile synaptic devices are known to consume much less energy compared to that implemented on conventional computing units. Solution-processed resistive random-access memory (RRAM) devices based on transition-metal oxides are suitable as such synaptic devices because of their cheap and easy fabrication method, stability, and suitable memristive properties. Here, in NiO-based RRAM devices with Ti/Pt as the bottom electrode and Ag as the top electrode (NiO layer deposited through solution processing), we experimentally report forming-free binary switching between a high resi",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
+      "title": "AIDEN 神经网络重建实空间电荷密度",
+      "url": "https://arxiv.org/abs/2609.14906",
+      "body": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-14"
+        "2026-10-15"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究报告 Ti/Pt/NiOx/Ag 器件的免成形开关和脉冲调控中间电阻态，部分状态至少保持 1000 秒。器件实验支持多级权重存储潜力，但有限保持时间与分类演示不等于完整神经计算硬件已成熟。",
+      "summary": "预印本摘要：模型区分元素相关中心密度与环境引起的再分布，以连续解码器重建任意空间位置的密度。作者报告晶体、分子和部分域外测试的精度与速度；泛化限于已检验情形，不是对所有电子结构计算的替代。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "A Solution-Processed Ti/Pt/NiOx/Ag RRAM Device with Multiple Forming-Free Non-Volatile Intermediate States",
-      "summary_original": "arXiv:2610.14322v1 Announce Type: new Abstract: Artificial neural networks (ANN) implemented on crossbar arrays of non-volatile synaptic devices are known to consume much less energy compared to that implemented on conventional computing units. Solution-processed resistive random-access memory (RRAM) devices based on transition-metal oxides are suitable as such synaptic devices because of their cheap and easy fabrication method, stability, and suitable memristive properties. Here, in NiO-based RRAM devices with Ti/Pt as the bottom electrode and Ag as the top electrode (NiO layer deposited through solution processing), we experimentally report forming-free binary switching between a high resi",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "DiffGA 用进化搜索引导冻结扩散模型设计材料",
-      "url": "https://arxiv.org/abs/2610.14999",
-      "body": "arXiv:2610.14999v1 Announce Type: new Abstract: Steering candidate generation toward user-defined objectives is central to inverse materials design, yet remains difficult when objectives are black-box, changing, or non-differentiable, as in many simulation- and experiment-derived properties. Generative models offer a solution but typically require retraining or fine-tuning for each new objective, demanding labeled data and substantial compute, or rely on differentiable guidance that is brittle to gradient noise and undefined for many practical targets. We present DiffGA, a retraining-free framework that injects evolutionary search into the sampling trajectory of a retrained diffusion model, ",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：框架在扩散采样过程中引入黑箱目标搜索，并用在线贝叶斯代理减少昂贵评估。作者比较计算设计任务及 DFT 对力场代理的可靠性；命中率取决于评估器，不能视为新化合物已获实验确认。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "DiffGA: Steering Frozen Diffusion Models for Materials Design via Evolutionary Search",
-      "summary_original": "arXiv:2610.14999v1 Announce Type: new Abstract: Steering candidate generation toward user-defined objectives is central to inverse materials design, yet remains difficult when objectives are black-box, changing, or non-differentiable, as in many simulation- and experiment-derived properties. Generative models offer a solution but typically require retraining or fine-tuning for each new objective, demanding labeled data and substantial compute, or rely on differentiable guidance that is brittle to gradient noise and undefined for many practical targets. We present DiffGA, a retraining-free framework that injects evolutionary search into the sampling trajectory of a retrained diffusion model, ",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "观点文章呼吁建立 ARPES 共享数据生态",
-      "url": "https://arxiv.org/abs/2610.15236",
-      "body": "arXiv:2610.15236v1 Announce Type: new Abstract: Condensed matter stands to gain profoundly from widespread adoption of artificial intelligence (AI). However, its current means of data organization impedes this endeavor. As a premier measure of electronic structure underlying material properties, Angle-Resolved Photoemission Spectroscopy (ARPES) has accumulated over four decades of spectra, yet the community's publication-centered workflow preserves only a highly selected fraction of its experimental record. A shared data ecosystem could transform these fragmented measurements and their contexts into a persistent, collective scientific memory, creating immediate value for reproducibility and ",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：文章汇总社区讨论，提出标准化、可检索和可引用的光电子谱数据、治理及分阶段试点。近期重点是复现与复用，长期基础模型属于愿景，不能当作已建成的数据库或已实现的发现能力。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Framework for an AI-Ready ARPES Community Database",
-      "summary_original": "arXiv:2610.15236v1 Announce Type: new Abstract: Condensed matter stands to gain profoundly from widespread adoption of artificial intelligence (AI). However, its current means of data organization impedes this endeavor. As a premier measure of electronic structure underlying material properties, Angle-Resolved Photoemission Spectroscopy (ARPES) has accumulated over four decades of spectra, yet the community's publication-centered workflow preserves only a highly selected fraction of its experimental record. A shared data ecosystem could transform these fragmented measurements and their contexts into a persistent, collective scientific memory, creating immediate value for reproducibility and ",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "间接预测特征温度以筛选受挫磁性材料",
-      "url": "https://arxiv.org/abs/2610.15683",
-      "body": "arXiv:2610.15683v1 Announce Type: new Abstract: Magnetic frustration is commonly quantified by the frustration index, calculated from the Curie-Weiss and Neel temperatures. Because both quantities are not simultaneously available for most materials, direct prediction of the magnetic frustration index remains challenging. Here, we propose a machine learning workflow for indirect prediction of the frustration index and consequent screening of potential frustrated magnetic compounds through independent prediction of Curie-Weiss and Neel temperatures. In our work, composition-based models implemented via the CatBoost algorithm, trained on experimental data were optimized using chemically informe",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究分别预测 Curie–Weiss 与 Néel 温度，结合模型不确定性构建保守受挫指数，筛出候选材料。候选包含已知与未探索体系；间接比值预测仍依赖温度模型误差，需进一步验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Indirect prediction and screening of frustrated magnetic materials using machine learning",
-      "summary_original": "arXiv:2610.15683v1 Announce Type: new Abstract: Magnetic frustration is commonly quantified by the frustration index, calculated from the Curie-Weiss and Neel temperatures. Because both quantities are not simultaneously available for most materials, direct prediction of the magnetic frustration index remains challenging. Here, we propose a machine learning workflow for indirect prediction of the frustration index and consequent screening of potential frustrated magnetic compounds through independent prediction of Curie-Weiss and Neel temperatures. In our work, composition-based models implemented via the CatBoost algorithm, trained on experimental data were optimized using chemically informe",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "神经网络势模拟 SrTiO₃ 氧空位扩散",
-      "url": "https://arxiv.org/abs/2610.16521",
-      "body": "arXiv:2610.16521v1 Announce Type: new Abstract: Oxygen-vacancy formation and diffusion play important roles in determining the electronic and atomic transport properties of SrTiO$_3$ (STO). Accurate analysis of such point defects requires sufficiently large-scale and long-time molecular dynamics (MD) simulations; however, direct investigations of oxygen-vacancy dynamics using {\\it ab initio} MD (AIMD) based on density functional theory (DFT) are limited to relatively small systems and short time scales because of their high computational cost. In this study, we develop a neural network potential (NNP) for pristine and oxygen-deficient STO using a reference dataset generated from AIMD simulat",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：以第一性原理分子动力学数据训练的势用于更大体系和更长时间模拟，扩散结果与实验数据较接近。迁移焓与形成能检验支持所研究条件下的模型表现，不能保证所有缺陷浓度和环境均适用。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials",
-      "summary_original": "arXiv:2610.16521v1 Announce Type: new Abstract: Oxygen-vacancy formation and diffusion play important roles in determining the electronic and atomic transport properties of SrTiO$_3$ (STO). Accurate analysis of such point defects requires sufficiently large-scale and long-time molecular dynamics (MD) simulations; however, direct investigations of oxygen-vacancy dynamics using {\\it ab initio} MD (AIMD) based on density functional theory (DFT) are limited to relatively small systems and short time scales because of their high computational cost. In this study, we develop a neural network potential (NNP) for pristine and oxygen-deficient STO using a reference dataset generated from AIMD simulat",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "知识引导采样构建材料反应行为的机器学习势",
-      "url": "https://arxiv.org/abs/2610.17987",
-      "body": "arXiv:2610.17987v1 Announce Type: new Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-diam",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究结合改进描述符、主动学习和关键事件采样，以较小训练集描述特定材料的能垒与动力学性质。结果是特定体系的计算验证，不意味着其他复杂反应体系无需额外数据或基准。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Knowledge-Guided Construction of Machine Learning Potentials for Reactive Behavior in Energetic Materials",
-      "summary_original": "arXiv:2610.17987v1 Announce Type: new Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-diam",
-      "editorial_date": "2026-10-14"
+      "title_original": "Neural-Network Solutions to Real-Space Charge Density and Generalization",
+      "summary_original": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
+      "editorial_date": "2026-10-15"
     },
     {
       "title": "态密度与第一性原理输运联合筛选霍伊斯勒热电候选",
       "url": "https://arxiv.org/abs/2610.18179",
-      "body": "arXiv:2610.18179v1 Announce Type: new Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of the",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
+      "body": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-14"
+        "2026-10-15"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究比较计算和机器学习态密度的筛选排序，再以能带和输运计算检验候选。预测谱可能遗漏带隙，即使谱相似度较好；候选仍为计算结果，确认带隙需要能带分析。",
+      "summary": "预印本摘要：研究用计算及机器学习态密度排序，再以能带与输运计算检验候选。预测谱可能遗漏带隙，谱相似度好并不能确保带隙正确；筛出的材料仍为计算候选，需后续实验研究。",
       "authors": "作者见原文",
       "is_week_pick": false,
       "title_original": "High-throughput screening of Heusler alloys for thermoelectrics combining machine-learned densities of states and first-principles transport",
-      "summary_original": "arXiv:2610.18179v1 Announce Type: new Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of the",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "把平面波 DFT 结果构造成可学习的紧凑哈密顿量",
-      "url": "https://arxiv.org/abs/2610.18317",
-      "body": "arXiv:2610.18317v1 Announce Type: new Abstract: Deep neural networks that predict density functional theory (DFT) Hamiltonians from material structures offer a route to efficient electronic-structure calculations. However, extending localized atomic-orbital (AO) Hamiltonian learning to plane-wave (PW) calculations with hybrid functionals requires a compact AO representation that preserves the effects of nonlocal operators. Here we propose a projectability-guided construction of nonorthogonal AO Hamiltonians from a small, selected set of PW eigenstates and eigenvalues. High-projectability states are retained, and selected higher-energy states complete the AO subspace, avoiding an empirical sh",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究按投影质量选择平面波本征态，构建非正交原子轨道哈密顿量，并在 MoS₂ 与钠相上检验能带重现。方法支持包含非局域作用的参考结果学习，验证范围仍受材料与基组选择限制。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Accurately Generalizing Deep-Learning Hamiltonian Methods to Plane-Wave Density Functional Theory",
-      "summary_original": "arXiv:2610.18317v1 Announce Type: new Abstract: Deep neural networks that predict density functional theory (DFT) Hamiltonians from material structures offer a route to efficient electronic-structure calculations. However, extending localized atomic-orbital (AO) Hamiltonian learning to plane-wave (PW) calculations with hybrid functionals requires a compact AO representation that preserves the effects of nonlocal operators. Here we propose a projectability-guided construction of nonorthogonal AO Hamiltonians from a small, selected set of PW eigenstates and eigenvalues. High-projectability states are retained, and selected higher-energy states complete the AO subspace, avoiding an empirical sh",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "Tersoff-NN 结合解析作用与神经网络键级描述硅",
-      "url": "https://arxiv.org/abs/2610.15591",
-      "body": "arXiv:2610.15591v1 Announce Type: cross Abstract: Accurate, robust, and efficient interatomic potentials are highly desirable for large-scale molecular dynamics simulations. Although machine-learning interatomic potentials can reproduce first-principles potential-energy surfaces with high accuracy, they typically incur higher computational costs than conventional empirical potentials and may be less reliable outside their training domains. We developed Tersoff-NN, a hybrid machine-learning potential for Si, which retains the analytical radial interactions and cutoff structure of the Tersoff potential while representing its environment-dependent bond-order factor using compact neural networks",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：混合势保留 Tersoff 径向形式，用小网络表示环境相关键级，在硅的结构与动力学测试中平衡效率和精度。报告的加速相对所比较模型与硬件条件，域外稳定性仍需独立验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Tersoff-NN: Hybrid Machine-Learned Bond-Order Extension of the Tersoff Potential",
-      "summary_original": "arXiv:2610.15591v1 Announce Type: cross Abstract: Accurate, robust, and efficient interatomic potentials are highly desirable for large-scale molecular dynamics simulations. Although machine-learning interatomic potentials can reproduce first-principles potential-energy surfaces with high accuracy, they typically incur higher computational costs than conventional empirical potentials and may be less reliable outside their training domains. We developed Tersoff-NN, a hybrid machine-learning potential for Si, which retains the analytical radial interactions and cutoff structure of the Tersoff potential while representing its environment-dependent bond-order factor using compact neural networks",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "迁移学习辅助预测金属与半导体的折射率",
-      "url": "https://arxiv.org/abs/2610.15904",
-      "body": "arXiv:2610.15904v1 Announce Type: cross Abstract: In this study, an artificial intelligence-assisted evaluation of the refractive indices of different materials is performed. The evaluation of the refractive index is necessary to design photonic devices for various classical and quantum photonic applications, and to theoretically analyse experimental results. The refractive index is one of the crucial parameters that affect the interaction of light with matter. Although the refractive index can be measured experimentally, its estimation via computational means provide the advantage of not requiring costly instrumentation, trained researchers and could avoid potential laboratory-based uncerta",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究以神经网络预测不同波长的复折射率，再用已有模型初始化其他材料的训练。迁移学习旨在缩短训练时间，不能据此取代所有光学测量或忽略参考数据与波段的适用范围。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Transfer learning-aided, artificial intelligence approach to evaluate optical properties of materials for classical and quantum photonic applications",
-      "summary_original": "arXiv:2610.15904v1 Announce Type: cross Abstract: In this study, an artificial intelligence-assisted evaluation of the refractive indices of different materials is performed. The evaluation of the refractive index is necessary to design photonic devices for various classical and quantum photonic applications, and to theoretically analyse experimental results. The refractive index is one of the crucial parameters that affect the interaction of light with matter. Although the refractive index can be measured experimentally, its estimation via computational means provide the advantage of not requiring costly instrumentation, trained researchers and could avoid potential laboratory-based uncerta",
-      "editorial_date": "2026-10-14"
-    },
-    {
-      "title": "PXRD-Bench 检验粉末衍射推断晶体结构的边界",
-      "url": "https://arxiv.org/abs/2610.16480",
-      "body": "arXiv:2610.16480v1 Announce Type: cross Abstract: Determining crystal structures from powder X-ray diffraction (PXRD) would enable routine characterization of newly synthesized materials, including those absent from reference databases. Generative models offer a promising approach, but existing evaluations remain fragmented and largely assume single-phase samples with known composition. To fill this gap, we introduce PXRD-Bench, a unified benchmark that extends evaluation to unknown per-element atom counts and recovery of both structures in two-phase mixtures. It provides approximately 4.1 million training structures with simulated PXRD, tests generalization to unseen compositions and struct",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：基准覆盖未知元素原子数、双相混合物及未见结构类型，并提供 Bragglite 基线。实验谱与新结构原型上的恢复仍有挑战；模型匹配率不是任意新样品结构均可唯一确定的保证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "PXRD-Bench: How Close Are We to Determining Crystal Structures from Powder Diffraction?",
-      "summary_original": "arXiv:2610.16480v1 Announce Type: cross Abstract: Determining crystal structures from powder X-ray diffraction (PXRD) would enable routine characterization of newly synthesized materials, including those absent from reference databases. Generative models offer a promising approach, but existing evaluations remain fragmented and largely assume single-phase samples with known composition. To fill this gap, we introduce PXRD-Bench, a unified benchmark that extends evaluation to unknown per-element atom counts and recovery of both structures in two-phase mixtures. It provides approximately 4.1 million training structures with simulated PXRD, tests generalization to unseen compositions and struct",
-      "editorial_date": "2026-10-14"
+      "summary_original": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
+      "editorial_date": "2026-10-15"
     }
   ],
   "leaders": [],
@@ -484,38 +313,23 @@
   "conferences": [],
   "science": [
     {
-      "title": "Benchmarking machine-learning interatomic potentials using classical force fields",
-      "body": "arXiv:2610.14239v1 Announce Type: new Abstract: We propose a rational comparison between several well-known machine-learning interatomic potentials (linear atomic cluster expansion, the Behler-Parrinello high-dimensional neural network potential, and the graph neural network-based MACE potential) by testing their performance for fitting classical potentials such as the Lennard-Jones and Stillinger-Weber potential. With this we assess their advantages and limitations regarding several aspects: varying training dataset size, robustness to noise, carbon footprint, as well as the ability to reproduce the radial distribution function as an example observable. Overall the MACE models are shown to ",
-      "url": "https://arxiv.org/abs/2610.14239"
+      "title": "Sorption Molecular Dynamics of Point Defects in 2D Materials with a Machine Learning Potential",
+      "body": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
+      "url": "https://arxiv.org/abs/2610.20063"
     },
     {
-      "title": "A Solution-Processed Ti/Pt/NiOx/Ag RRAM Device with Multiple Forming-Free Non-Volatile Intermediate States",
-      "body": "arXiv:2610.14322v1 Announce Type: new Abstract: Artificial neural networks (ANN) implemented on crossbar arrays of non-volatile synaptic devices are known to consume much less energy compared to that implemented on conventional computing units. Solution-processed resistive random-access memory (RRAM) devices based on transition-metal oxides are suitable as such synaptic devices because of their cheap and easy fabrication method, stability, and suitable memristive properties. Here, in NiO-based RRAM devices with Ti/Pt as the bottom electrode and Ag as the top electrode (NiO layer deposited through solution processing), we experimentally report forming-free binary switching between a high resi",
-      "url": "https://arxiv.org/abs/2610.14322"
+      "title": "Neural-Network Solutions to Real-Space Charge Density and Generalization",
+      "body": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
+      "url": "https://arxiv.org/abs/2609.14906"
     },
     {
-      "title": "DiffGA: Steering Frozen Diffusion Models for Materials Design via Evolutionary Search",
-      "body": "arXiv:2610.14999v1 Announce Type: new Abstract: Steering candidate generation toward user-defined objectives is central to inverse materials design, yet remains difficult when objectives are black-box, changing, or non-differentiable, as in many simulation- and experiment-derived properties. Generative models offer a solution but typically require retraining or fine-tuning for each new objective, demanding labeled data and substantial compute, or rely on differentiable guidance that is brittle to gradient noise and undefined for many practical targets. We present DiffGA, a retraining-free framework that injects evolutionary search into the sampling trajectory of a retrained diffusion model, ",
-      "url": "https://arxiv.org/abs/2610.14999"
-    },
-    {
-      "title": "Framework for an AI-Ready ARPES Community Database",
-      "body": "arXiv:2610.15236v1 Announce Type: new Abstract: Condensed matter stands to gain profoundly from widespread adoption of artificial intelligence (AI). However, its current means of data organization impedes this endeavor. As a premier measure of electronic structure underlying material properties, Angle-Resolved Photoemission Spectroscopy (ARPES) has accumulated over four decades of spectra, yet the community's publication-centered workflow preserves only a highly selected fraction of its experimental record. A shared data ecosystem could transform these fragmented measurements and their contexts into a persistent, collective scientific memory, creating immediate value for reproducibility and ",
-      "url": "https://arxiv.org/abs/2610.15236"
-    },
-    {
-      "title": "Indirect prediction and screening of frustrated magnetic materials using machine learning",
-      "body": "arXiv:2610.15683v1 Announce Type: new Abstract: Magnetic frustration is commonly quantified by the frustration index, calculated from the Curie-Weiss and Neel temperatures. Because both quantities are not simultaneously available for most materials, direct prediction of the magnetic frustration index remains challenging. Here, we propose a machine learning workflow for indirect prediction of the frustration index and consequent screening of potential frustrated magnetic compounds through independent prediction of Curie-Weiss and Neel temperatures. In our work, composition-based models implemented via the CatBoost algorithm, trained on experimental data were optimized using chemically informe",
-      "url": "https://arxiv.org/abs/2610.15683"
-    },
-    {
-      "title": "Theoretical Investigation of Oxygen-Vacancy Diffusion in SrTiO$_3$ using Neural Network Potentials",
-      "body": "arXiv:2610.16521v1 Announce Type: new Abstract: Oxygen-vacancy formation and diffusion play important roles in determining the electronic and atomic transport properties of SrTiO$_3$ (STO). Accurate analysis of such point defects requires sufficiently large-scale and long-time molecular dynamics (MD) simulations; however, direct investigations of oxygen-vacancy dynamics using {\\it ab initio} MD (AIMD) based on density functional theory (DFT) are limited to relatively small systems and short time scales because of their high computational cost. In this study, we develop a neural network potential (NNP) for pristine and oxygen-deficient STO using a reference dataset generated from AIMD simulat",
-      "url": "https://arxiv.org/abs/2610.16521"
+      "title": "High-throughput screening of Heusler alloys for thermoelectrics combining machine-learned densities of states and first-principles transport",
+      "body": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
+      "url": "https://arxiv.org/abs/2610.18179"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-14T16:23:40.519954+00:00",
+  "fetched_at": "2026-10-15T13:36:09.265099+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -533,13 +347,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -557,19 +371,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 167
+      "items": 58
     }
   ],
-  "editorial": {
-    "date": "2026-10-14",
-    "items_applied": 21,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 12,
+    "paper_count": 3,
     "leader_count": 0,
-    "science_count": 6
+    "science_count": 3
+  },
+  "editorial": {
+    "date": "2026-10-15",
+    "items_applied": 18,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
