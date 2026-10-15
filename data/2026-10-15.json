@@ -2,6 +2,19 @@
   "date": "2026年10月15日",
   "news": [
     {
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "body": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Apertus 1.5 技术说明扩展多模态理解与工具使用",
       "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
       "body": "项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。",
@@ -34,6 +47,19 @@
       "editorial_date": "2026-10-15"
     },
     {
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "body": "",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-15"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
       "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
       "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。",
@@ -46,22 +72,6 @@
       ],
       "importance": "normal",
       "title_original": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-      "body_original": "General Science",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "Google 发布面向复杂技术文档的 Deep Review",
-      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-      "body": "团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Analyzing technical documents with Deep Review",
       "body_original": "General Science",
       "editorial_date": "2026-10-15"
     },
@@ -79,6 +89,22 @@
       "importance": "normal",
       "title_original": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
       "body_original": "Earth AI",
+      "editorial_date": "2026-10-15"
+    },
+    {
+      "title": "Google 发布面向复杂技术文档的 Deep Review",
+      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+      "body": "团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "Analyzing technical documents with Deep Review",
+      "body_original": "General Science",
       "editorial_date": "2026-10-15"
     },
     {
@@ -208,38 +234,6 @@
       "title_original": "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "body_original": "",
       "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "MIT 研究神经网络如何自组织形成学习机制",
-      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
-      "body": "报道介绍 PNAS 研究：随机连接单元依据简单连接更新规则，可重组为有效的信息处理网络。研究关注学习机制与生物合理性，不代表人工网络已完整解释大脑学习。",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T17:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-13"
-      ],
-      "importance": "normal",
-      "title_original": "How artificial neural networks build their own learning machinery",
-      "body_original": "Machine-learning networks can learn without detailed instructions from a designer. Those that do may offer insight into how the brain reorganizes itself during learning.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "MIT 林肯实验室举办新兴生物技术委员会访问活动",
-      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
-      "body": "报道回顾 9 月 3 日的交流，讨论马萨诸塞州生物技术生态与国家生物防御能力。文中投资建议来自委员会报告，不能视为资金已经落实或技术效果已获验证。",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T16:40:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-13"
-      ],
-      "importance": "normal",
-      "title_original": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
-      "body_original": "Roadshow event highlights Massachusetts' defense-biotechnology ecosystem.",
-      "editorial_date": "2026-10-15"
     }
   ],
   "papers": [
@@ -329,7 +323,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-15T13:36:09.265099+00:00",
+  "fetched_at": "2026-10-15T16:11:46.334163+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -341,7 +335,7 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "source": "MIT AI",
@@ -364,8 +358,8 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "ok",
-      "items": 8
+      "status": "unavailable",
+      "error": "ParseError"
     },
     {
       "source": "arXiv materials",
@@ -374,16 +368,16 @@
       "items": 58
     }
   ],
+  "editorial": {
+    "date": "2026-10-15",
+    "items_applied": 16,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 3,
     "leader_count": 0,
     "science_count": 3
-  },
-  "editorial": {
-    "date": "2026-10-15",
-    "items_applied": 18,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }

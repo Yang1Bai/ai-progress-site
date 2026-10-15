@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-15T13:37:37Z</updated>
+  <updated>2026-10-15T16:11:48Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月15日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-15.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-15.html</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see ho…</title>
+    <link href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions"/>
+    <id>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</id>
+    <updated>2026-10-15T16:11:48Z</updated>
+    <summary>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</summary>
   </entry>
   <entry>
     <title>项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权…</title>
     <link href="https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"/>
     <id>https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。</summary>
   </entry>
   <entry>
     <title>Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。…</title>
     <link href="https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015"/>
     <id>https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/flux-3"/>
+    <id>https://huggingface.co/blog/flux-3</id>
+    <updated>2026-10-15T16:11:48Z</updated>
+    <summary></summary>
   </entry>
   <entry>
     <title>文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。…</title>
     <link href="https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/"/>
     <id>https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。</summary>
-  </entry>
-  <entry>
-    <title>团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证…</title>
-    <link href="https://research.google/blog/analyzing-technical-documents-with-deep-review/"/>
-    <id>https://research.google/blog/analyzing-technical-documents-with-deep-review/</id>
-    <updated>2026-10-15T13:37:37Z</updated>
-    <summary>团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。</summary>
   </entry>
   <entry>
     <title>技术说明把领域基础模型、空间工具和预先规划结合，用于跨数据集分析及预测建模，并扩大实验访问。系统仍属实验阶段，实际可靠性取决于数据、工具选择与具体任务验证。…</title>
     <link href="https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/"/>
     <id>https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>技术说明把领域基础模型、空间工具和预先规划结合，用于跨数据集分析及预测建模，并扩大实验访问。系统仍属实验阶段，实际可靠性取决于数据、工具选择与具体任务验证。</summary>
+  </entry>
+  <entry>
+    <title>团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证…</title>
+    <link href="https://research.google/blog/analyzing-technical-documents-with-deep-review/"/>
+    <id>https://research.google/blog/analyzing-technical-documents-with-deep-review/</id>
+    <updated>2026-10-15T16:11:48Z</updated>
+    <summary>团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。</summary>
   </entry>
   <entry>
     <title>团队结合粗分辨率模拟与降尺度模型，生成降雨、风和气压等细尺度场，并与高分辨率模式比较极端事件统计。成本与精度属于特定基准结果，不能直接当作实际天气预报能力或所有…</title>
     <link href="https://huggingface.co/blog/allenai/hiro-acev2"/>
     <id>https://huggingface.co/blog/allenai/hiro-acev2</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>团队结合粗分辨率模拟与降尺度模型，生成降雨、风和气压等细尺度场，并与高分辨率模式比较极端事件统计。成本与精度属于特定基准结果，不能直接当作实际天气预报能力或所有气候情景的保证。</summary>
   </entry>
   <entry>
     <title>客户案例介绍规划、文档、页面设计及语音协调智能体等应用，也讨论模型速度与使用成本。内容主要是企业经验和产品愿景，不代表独立生产率测评或所有功能对所有用户开放。…</title>
     <link href="https://openai.com/index/amp-beyond-coding"/>
     <id>https://openai.com/index/amp-beyond-coding</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>客户案例介绍规划、文档、页面设计及语音协调智能体等应用，也讨论模型速度与使用成本。内容主要是企业经验和产品愿景，不代表独立生产率测评或所有功能对所有用户开放。</summary>
   </entry>
   <entry>
     <title>客户案例称，借助 Daybreak 可把部分复杂恶意软件逆向分析从数周缩短至数小时，并扩大跨样本调查。数字来自企业自报，团队仍对结果负责；不能外推为所有样本均有…</title>
     <link href="https://openai.com/index/sentinelone"/>
     <id>https://openai.com/index/sentinelone</id>
-    <updated>2026-10-15T13:37:37Z</updated>
+    <updated>2026-10-15T16:11:48Z</updated>
     <summary>客户案例称，借助 Daybreak 可把部分复杂恶意软件逆向分析从数周缩短至数小时，并扩大跨样本调查。数字来自企业自报，团队仍对结果负责；不能外推为所有样本均有相同效果。</summary>
-  </entry>
-  <entry>
-    <title>MIT 报道团队训练模型修正现有预报系统的误差，改善两至六周尺度的预测，并在相关竞赛中取得好成绩。结果依赖所研究的系统、指标与时间范围，不意味着每次局地极端天气…</title>
-    <link href="https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"/>
-    <id>https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014</id>
-    <updated>2026-10-15T13:37:37Z</updated>
-    <summary>MIT 报道团队训练模型修正现有预报系统的误差，改善两至六周尺度的预测，并在相关竞赛中取得好成绩。结果依赖所研究的系统、指标与时间范围，不意味着每次局地极端天气都可准确预报。</summary>
-  </entry>
-  <entry>
-    <title>客户案例介绍专用研究环境、轨迹审查和外层调度，以支持大规模并行与持续多日的实验。量化回测提速和智能体规模属于企业报告，不能据此推断真实交易收益或普遍可靠的自主科…</title>
-    <link href="https://openai.com/index/third-moment-research"/>
-    <id>https://openai.com/index/third-moment-research</id>
-    <updated>2026-10-15T13:37:37Z</updated>
-    <summary>客户案例介绍专用研究环境、轨迹审查和外层调度，以支持大规模并行与持续多日的实验。量化回测提速和智能体规模属于企业报告，不能据此推断真实交易收益或普遍可靠的自主科研能力。</summary>
   </entry>
 </feed>
