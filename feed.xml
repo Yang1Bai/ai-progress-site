@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-16T13:46:30Z</updated>
+  <updated>2026-10-16T15:58:37Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月16日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-16.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-16.html</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
     <title>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语…</title>
     <link href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining"/>
     <id>https://huggingface.co/blog/nvidia/scaling-indic-pretraining</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。</summary>
   </entry>
   <entry>
     <title>Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能…</title>
     <link href="https://huggingface.co/blog/reflection-beam"/>
     <id>https://huggingface.co/blog/reflection-beam</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。</summary>
   </entry>
   <entry>
     <title>IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。…</title>
     <link href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1"/>
     <id>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。</summary>
   </entry>
   <entry>
     <title>计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限…</title>
     <link href="https://openai.com/index/introducing-the-rosalind-academic-plan"/>
     <id>https://openai.com/index/introducing-the-rosalind-academic-plan</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。</summary>
   </entry>
   <entry>
     <title>报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。…</title>
     <link href="https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015"/>
     <id>https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。</summary>
   </entry>
   <entry>
     <title>报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。…</title>
     <link href="https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015"/>
     <id>https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。</summary>
   </entry>
   <entry>
     <title>文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。…</title>
     <link href="https://openai.com/index/teaching-students-to-think-and-learn-through-questions"/>
     <id>https://openai.com/index/teaching-students-to-think-and-learn-through-questions</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。</summary>
   </entry>
   <entry>
     <title>Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。…</title>
     <link href="https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015"/>
     <id>https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。</summary>
   </entry>
   <entry>
     <title>客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。…</title>
     <link href="https://openai.com/index/sullivan-cromwell"/>
     <id>https://openai.com/index/sullivan-cromwell</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。</summary>
   </entry>
   <entry>
     <title>文章介绍大规模混合专家架构，可接收文本、图像、音频和视频并输出文本，面向编码与长任务工作流。开放权重不等于低硬件门槛，具体许可和部署能力仍应核对模型文档。…</title>
     <link href="https://huggingface.co/blog/meta-muse-spark-open"/>
     <id>https://huggingface.co/blog/meta-muse-spark-open</id>
-    <updated>2026-10-16T13:46:30Z</updated>
+    <updated>2026-10-16T15:58:37Z</updated>
     <summary>文章介绍大规模混合专家架构，可接收文本、图像、音频和视频并输出文本，面向编码与长任务工作流。开放权重不等于低硬件门槛，具体许可和部署能力仍应核对模型文档。</summary>
   </entry>
 </feed>
