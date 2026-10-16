@@ -1,10 +1,106 @@
 {
-  "date": "2026年10月15日",
+  "date": "2026年10月16日",
   "news": [
     {
-      "title": "Teaching students to think and learn through questions",
+      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T01:44:47+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "body_original": "",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "body_original": "",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T20:34:01+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "body_original": "",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Bringing GPT-Rosalind to academic research labs",
+      "body_original": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "MIT 调查：供应链可持续承诺增强，治理与落实仍有落差",
+      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "body": "报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T17:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "body_original": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "MIT 研究从细胞基因活动追溯信号通路指纹",
+      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "body": "报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T16:50:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "AI model decodes the language cells use to communicate",
+      "body_original": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "OpenAI 分享以提问引导学生思考的教学实践",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "body": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "body": "文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T13:00:00+00:00",
       "source": "OpenAI",
@@ -12,23 +108,10 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal"
-    },
-    {
-      "title": "Apertus 1.5 技术说明扩展多模态理解与工具使用",
-      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "body": "项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T09:08:45+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-15"
-      ],
       "importance": "normal",
-      "title_original": "Apertus 1.5 Release Notes",
-      "body_original": "",
-      "editorial_date": "2026-10-15"
+      "title_original": "Teaching students to think and learn through questions",
+      "body_original": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "editorial_date": "2026-10-16"
     },
     {
       "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
@@ -44,12 +127,28 @@
       "importance": "normal",
       "title_original": "Q&A: The “collision” between AI, your brain, and society",
       "body_original": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
-      "editorial_date": "2026-10-15"
+      "editorial_date": "2026-10-16"
     },
     {
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "body": "",
+      "title": "Sullivan & Cromwell 分享把法律经验用于协议审查的案例",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "body": "客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "body_original": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "Hugging Face 介绍 Meta Muse Spark Open 多模态开放权重模型",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "body": "文章介绍大规模混合专家架构，可接收文本、图像、音频和视频并输出文本，面向编码与长任务工作流。开放权重不等于低硬件门槛，具体许可和部署能力仍应核对模型文档。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source": "Hugging Face",
@@ -57,23 +156,26 @@
         "Hugging Face",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "body_original": "",
+      "editorial_date": "2026-10-16"
     },
     {
-      "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
-      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-      "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:34+00:00",
-      "source": "Google Research",
+      "title": "FLUX.3 Image Klein 在 Diffusers 中支持生成与布局控制",
+      "url": "https://huggingface.co/blog/flux-3",
+      "body": "教程展示文本生成、多参考图编辑及通过边界框指定布局。示例说明接口用法，不能保证任意提示都精确遵循布局；效果与运行成本依赖模型和配置。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00+00:00",
+      "source": "Hugging Face",
       "tags": [
-        "Google Research",
-        "2026-10-14"
+        "Hugging Face",
+        "2026-10-15"
       ],
       "importance": "normal",
-      "title_original": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-      "body_original": "General Science",
-      "editorial_date": "2026-10-15"
+      "title_original": "Welcome FLUX.3 Image Klein in Diffusers",
+      "body_original": "",
+      "editorial_date": "2026-10-16"
     },
     {
       "title": "Earth AI 探索多步地理空间分析与预测智能体",
@@ -89,7 +191,7 @@
       "importance": "normal",
       "title_original": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
       "body_original": "Earth AI",
-      "editorial_date": "2026-10-15"
+      "editorial_date": "2026-10-16"
     },
     {
       "title": "Google 发布面向复杂技术文档的 Deep Review",
@@ -105,7 +207,23 @@
       "importance": "normal",
       "title_original": "Analyzing technical documents with Deep Review",
       "body_original": "General Science",
-      "editorial_date": "2026-10-15"
+      "editorial_date": "2026-10-16"
+    },
+    {
+      "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
+      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
+      "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。",
+      "date": "2026-10-14",
+      "published_at": "2026-10-14T16:14:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-14"
+      ],
+      "importance": "normal",
+      "title_original": "Research@ 2026: 10 ways we're amplifying human ingenuity",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-16"
     },
     {
       "title": "Ai2 更新 HiRO-ACEv2 高分辨率气候模拟系统",
@@ -121,184 +239,51 @@
       "importance": "normal",
       "title_original": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
       "body_original": "",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "Amp 分享将智能体从编码扩展到产品工作的实践",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "body": "客户案例介绍规划、文档、页面设计及语音协调智能体等应用，也讨论模型速度与使用成本。内容主要是企业经验和产品愿景，不代表独立生产率测评或所有功能对所有用户开放。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Amp puts AI agents to work beyond code with OpenAI models",
-      "body_original": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "SentinelOne 报告 AI 缩短恶意软件分析时间",
-      "url": "https://openai.com/index/sentinelone",
-      "body": "客户案例称，借助 Daybreak 可把部分复杂恶意软件逆向分析从数周缩短至数小时，并扩大跨样本调查。数字来自企业自报，团队仍对结果负责；不能外推为所有样本均有相同效果。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "SentinelOne cuts malware analysis from weeks to hours",
-      "body_original": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "研究用机器学习纠错改善两至六周天气预测",
-      "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
-      "body": "MIT 报道团队训练模型修正现有预报系统的误差，改善两至六周尺度的预测，并在相关竞赛中取得好成绩。结果依赖所研究的系统、指标与时间范围，不意味着每次局地极端天气都可准确预报。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T11:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Researchers improve weather forecasts looking two to six weeks out",
-      "body_original": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "Third Moment 分享长时并行智能体研究系统",
-      "url": "https://openai.com/index/third-moment-research",
-      "body": "客户案例介绍专用研究环境、轨迹审查和外层调度，以支持大规模并行与持续多日的实验。量化回测提速和智能体规模属于企业报告，不能据此推断真实交易收益或普遍可靠的自主科研能力。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "body_original": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "Block 分享带人工核验的 AI 安全工作流",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "body": "案例介绍漏洞发现、检测调优和修复建议等应用，保留查询证据并由人员验证结果和部署变更。时间与工作量指标来自企业内部实践，补丁建议不能直接等同于已完成修复。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "How Block is building AI-powered security with OpenAI technology",
-      "body_original": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "OpenAI 报告欧盟企业智能体工具使用增长",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "body": "报告基于 OpenAI 企业客户样本，讨论 Codex 与 ChatGPT Work 的使用强度及国家差异。输出 token 占比和活跃用户增长衡量的是平台使用，不能直接等同于全欧盟采用率或已实现的生产率提升。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "The EU’s next chapter in AI is agentic",
-      "body_original": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "Liquid AI 发布面向设备端智能体的 LFM2.5 模型",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "body": "LFM2.5-24B-A2B 使用混合专家架构，每个 token 激活部分参数，扩展上下文并强化工具调用与多步任务。团队报告多项基准，实际速度、硬件需求和隐私仍取决于部署配置，不能仅凭激活参数推断。",
-      "date": "2026-10-13",
-      "published_at": "2026-10-13T17:05:48+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-13"
-      ],
-      "importance": "normal",
-      "title_original": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "body_original": "",
-      "editorial_date": "2026-10-15"
+      "editorial_date": "2026-10-16"
     }
   ],
   "papers": [
     {
-      "title": "机器学习势预筛二维材料点缺陷的吸附与吸收趋势",
-      "url": "https://arxiv.org/abs/2610.20063",
-      "body": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T00:00:00-04:00",
+      "title": "热力学约束潜空间模型预测非均质材料断裂",
+      "url": "https://arxiv.org/abs/2610.20614",
+      "body": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-15"
+        "2026-10-16"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究用 MACE 分子动力学考察 ADAQ 缺陷结构，在 0 K 与 300 K 比较定性吸附和吸收趋势。结果支持高通量预筛用途，定量准确性仍需 DFT 等方法验证，不能将定性一致当作所有缺陷稳定性已确认。",
+      "summary": "预印本摘要：研究用低维潜空间动力学和硬约束网络融入能量守恒、熵产生等原则，并结合几何条件编码器预测断裂演化。作者在未见测试样本上比较纯数据模型；优势限于所测体系，不能替代所有断裂力学验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Sorption Molecular Dynamics of Point Defects in 2D Materials with a Machine Learning Potential",
-      "summary_original": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
-      "editorial_date": "2026-10-15"
+      "title_original": "Thermodynamically Consistent Machine Learning for Fracture Prediction in Heterogeneous Materials",
+      "summary_original": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
+      "editorial_date": "2026-10-16"
     },
     {
-      "title": "AIDEN 神经网络重建实空间电荷密度",
-      "url": "https://arxiv.org/abs/2609.14906",
-      "body": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T00:00:00-04:00",
+      "title": "知识引导采样构建材料反应行为的机器学习势",
+      "url": "https://arxiv.org/abs/2610.17987",
+      "body": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-15"
+        "2026-10-16"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：模型区分元素相关中心密度与环境引起的再分布，以连续解码器重建任意空间位置的密度。作者报告晶体、分子和部分域外测试的精度与速度；泛化限于已检验情形，不是对所有电子结构计算的替代。",
+      "summary": "预印本摘要：研究结合改进描述符、主动学习和关键事件采样，以较小训练集描述特定材料的能垒与动力学性质。结果是特定体系的计算验证，不意味着其他复杂反应体系无需额外数据或基准。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Neural-Network Solutions to Real-Space Charge Density and Generalization",
-      "summary_original": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
-      "editorial_date": "2026-10-15"
-    },
-    {
-      "title": "态密度与第一性原理输运联合筛选霍伊斯勒热电候选",
-      "url": "https://arxiv.org/abs/2610.18179",
-      "body": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-15"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究用计算及机器学习态密度排序，再以能带与输运计算检验候选。预测谱可能遗漏带隙，谱相似度好并不能确保带隙正确；筛出的材料仍为计算候选，需后续实验研究。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "High-throughput screening of Heusler alloys for thermoelectrics combining machine-learned densities of states and first-principles transport",
-      "summary_original": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
-      "editorial_date": "2026-10-15"
+      "title_original": "Knowledge-Guided Construction of Machine Learning Potentials for Reactive Behavior in Energetic Materials",
+      "summary_original": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
+      "editorial_date": "2026-10-16"
     }
   ],
   "leaders": [],
@@ -307,23 +292,18 @@
   "conferences": [],
   "science": [
     {
-      "title": "Sorption Molecular Dynamics of Point Defects in 2D Materials with a Machine Learning Potential",
-      "body": "arXiv:2610.20063v1 Announce Type: new Abstract: Defect engineering is a crucial tool for tuning and tailoring the properties of two-dimensional (2D) materials. A key challenge is identifying which defects are kinetically stable at room temperature and sufficiently promising to warrant further investigation. However, identifying stable defects with suitable properties using first-principles calculations, such as density functional theory (DFT) is computationally demanding, effectively limiting the scope of high-throughput studies. In this work, we investigate whether the machine learning interatomic potential MACE can reproduce sorption trends (adsorption vs. absorption) previously obtained f",
-      "url": "https://arxiv.org/abs/2610.20063"
+      "title": "Thermodynamically Consistent Machine Learning for Fracture Prediction in Heterogeneous Materials",
+      "body": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
+      "url": "https://arxiv.org/abs/2610.20614"
     },
     {
-      "title": "Neural-Network Solutions to Real-Space Charge Density and Generalization",
-      "body": "arXiv:2609.14906v4 Announce Type: replace Abstract: The Hohenberg-Kohn theorem establishes that, in principle, the ground state (GS) charge density contains all GS information of a many-electron system, such that all GS observables can be expressed as functionals of the GS charge density. Conventional Kohn-Sham density functional theory requires iterative solution of the self-consistent-field equations at substantial computational cost, motivating the development of deep learning surrogates for electronic structure calculations and, in turn, accelerating computer-aided materials design. Here, we propose AIDEN, an Atomic-Interaction Density Equivariant Network for solving real-space charge de",
-      "url": "https://arxiv.org/abs/2609.14906"
-    },
-    {
-      "title": "High-throughput screening of Heusler alloys for thermoelectrics combining machine-learned densities of states and first-principles transport",
-      "body": "arXiv:2610.18179v2 Announce Type: replace Abstract: Thermoelectrics turn waste heat into electricity, but finding new ones requires transport calculations too costly for whole databases. Searches therefore choose what to calculate from the electronic density of states (DOS), increasingly predicted by machine learning, yet such choices are rarely tested. We test them on all 106,235 Heusler structures in the DXMag database, screening 51,257 on density-functional spectra and 54,978 on neural-network predictions, and judging both by 3,625 band-structure and transport calculations. A DOS-derived Seebeck indicator ranks most compounds passing every transport and stability test within the top 1% of",
-      "url": "https://arxiv.org/abs/2610.18179"
+      "title": "Knowledge-Guided Construction of Machine Learning Potentials for Reactive Behavior in Energetic Materials",
+      "body": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
+      "url": "https://arxiv.org/abs/2610.17987"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-15T16:11:46.334163+00:00",
+  "fetched_at": "2026-10-16T13:45:12.938903+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -335,13 +315,13 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 4
+      "items": 7
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 7
     },
     {
       "source": "Google Research",
@@ -358,26 +338,26 @@
     {
       "source": "Nature Catalysis",
       "url": "https://www.nature.com/natcatal.rss",
-      "status": "unavailable",
-      "error": "ParseError"
+      "status": "ok",
+      "items": 8
     },
     {
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 58
+      "items": 42
     }
   ],
-  "editorial": {
-    "date": "2026-10-15",
-    "items_applied": 16,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 3,
+    "paper_count": 2,
     "leader_count": 0,
-    "science_count": 3
+    "science_count": 2
+  },
+  "editorial": {
+    "date": "2026-10-16",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
