@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-16",
   "jobs": {
     "industry": [
       {
@@ -125,6 +125,84 @@
     ],
     "faculty": [
       {
+        "title": "Assistant Professor - AI for Materials (Tenure Track)",
+        "org": "University of California, Berkeley, Department of Materials Science and Engineering / BIDMaP",
+        "location": "Berkeley, California, USA",
+        "url": "https://aprecruit.berkeley.edu/JPF05603",
+        "deadline": "2026-12-01",
+        "rank": "Assistant Professor (tenure track)",
+        "closing_date": "2026-12-01",
+        "closing_time": "23:59",
+        "closing_timezone": "America/Los_Angeles",
+        "deadline_time_note": "Official final date: December 1, 2026 at 11:59pm Pacific Time (PST).",
+        "tags": [
+          "autonomous experimentation",
+          "multimodal learning",
+          "robotic materials discovery",
+          "AI characterization"
+        ],
+        "fit": "The search explicitly welcomes autonomous experimentation and data generation, multimodal learning, robotics, and AI/ML characterization. Yang's experimental autonomous inorganic discovery program and XRD/SEM/reaction representations directly match the MSE/BIDMaP remit.",
+        "qs_world_rank": 20,
+        "qs_rank_tied": true,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "official_posting": "https://aprecruit.berkeley.edu/JPF05603",
+        "source": "curated",
+        "verified_date": "2026-10-16"
+      },
+      {
+        "title": "Assistant Professor - Electrochemical Engineering (Tenure Stream)",
+        "org": "University of Toronto, Department of Chemical Engineering and Applied Chemistry",
+        "location": "Toronto, Ontario, Canada",
+        "url": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Electrochemical-Engineering-ON/606471717/",
+        "deadline": "2026-12-01",
+        "rank": "Assistant Professor (tenure stream)",
+        "job_id": "50288",
+        "closing_date": "2026-12-01",
+        "closing_time": "23:59",
+        "closing_timezone": "America/Toronto",
+        "deadline_time_note": "All materials, including recent reference letters, due December 1, 2026 at 11:59pm EST.",
+        "tags": [
+          "electrocatalysis",
+          "electrochemical synthesis",
+          "operando characterization",
+          "data-driven electrochemistry"
+        ],
+        "fit": "Explicitly seeks electrocatalysis, electrochemical reaction engineering, electrolyzers, synthesis/manufacturing, operando characterization and data-driven electrochemistry. Yang can connect autonomous OER/HER synthesis to mechanistic measurements and green hydrogen; the required Chemical Engineering or equivalent bachelor's degree needs an individual equivalence check.",
+        "qs_world_rank": 32,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "official_posting": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Electrochemical-Engineering-ON/606471717/",
+        "source": "curated",
+        "verified_date": "2026-10-16"
+      },
+      {
+        "title": "Assistant/Associate/Full Professor - Materials Science, Chemistry",
+        "org": "University of California, Berkeley, Department of Chemistry",
+        "location": "Berkeley, California, USA",
+        "url": "https://aprecruit.berkeley.edu/JPF05565",
+        "deadline": "2026-10-25",
+        "rank": "Assistant Professor (tenure track); Associate/Full Professor (tenured)",
+        "closing_date": "2026-10-25",
+        "closing_time": "23:59",
+        "closing_timezone": "America/Los_Angeles",
+        "deadline_time_note": "Official final date: October 25, 2026 at 11:59pm Pacific Time (PDT). This is a hard final deadline, as well as the review date.",
+        "tags": [
+          "inorganic materials",
+          "experimental synthesis",
+          "materials chemistry",
+          "LBNL collaboration"
+        ],
+        "fit": "A broad materials-science search in Chemistry with an explicit tenure-track Assistant Professor route and collaboration opportunities at LBNL. The fit is inferred from Yang's inorganic synthesis, electrochemistry and autonomous materials-discovery program; the advertisement does not specifically prioritize autonomous labs or AI.",
+        "qs_world_rank": 20,
+        "qs_rank_tied": true,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "official_posting": "https://aprecruit.berkeley.edu/JPF05565",
+        "source": "curated",
+        "verified_date": "2026-10-16"
+      },
+      {
         "title": "Assistant Professor (Tenure Track) - AI for Materials Discovery, Design, and Manufacturing",
         "org": "National University of Singapore, Department of Materials Science and Engineering",
         "location": "Singapore",
@@ -144,7 +222,9 @@
         "ranking_source": "https://www.topuniversities.com/universities/national-university-singapore-nus",
         "official_posting": "https://cde.nus.edu.sg/mse/faculty-position-in-ai-for-materials-discovery-design-and-manufacturing/",
         "source": "curated",
-        "verified_date": "2026-10-09"
+        "verified_date": "2026-10-16",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant/Associate (Pre-Tenure) Professors - Chemical, Environmental and Materials Engineering",
@@ -169,7 +249,9 @@
         "announcement_source": "https://www.linkedin.com/pulse/multiple-tenure-track-faculty-positions-brown-chemical-nitin-padture-mbxve",
         "date_source_note": "Official school page lists the position; date and full description cross-checked against Brown professor Nitin Padture's public announcement because Interfolio text was not readable.",
         "source": "curated",
-        "verified_date": "2026-10-09"
+        "verified_date": "2026-10-16",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-Track Assistant Professor - Chemical Engineering",
@@ -191,7 +273,9 @@
         "ranking_source": "https://www.topuniversities.com/universities/massachusetts-institute-technology-mit",
         "official_posting": "https://faculty-searches.mit.edu/cheme/",
         "source": "curated",
-        "verified_date": "2026-10-09"
+        "verified_date": "2026-10-16",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Open-Rank Faculty Position - Smart Manufacturing (University Tenure Line)",
@@ -217,7 +301,9 @@
         "ranking_source": "https://www.topuniversities.com/universities/stanford-university",
         "official_posting": "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-in-smart-manufacturing-stanford-university-california-united-states",
         "source": "curated",
-        "verified_date": "2026-10-09"
+        "verified_date": "2026-10-16",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant Professor - Inorganic Chemistry, Inorganic Materials Chemistry & Artificial Intelligence (AI)",
@@ -231,7 +317,10 @@
           "inorganic materials",
           "energy & catalysis"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-Track Assistant Professor - DS/AI for Science & Engineering",
@@ -245,7 +334,10 @@
           "experimental science platforms",
           "multi-agent learning"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-Track Assistant Professor - AI and Machine Learning in Chemical Engineering",
@@ -259,7 +351,10 @@
           "predictive characterization",
           "experimental-data integration"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant Professor (Open Rank) in Materials Science and Engineering",
@@ -273,7 +368,11 @@
           "materials discovery",
           "open rank"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed.",
+        "official_posting": "https://www.mse.gatech.edu/faculty_job_opportunity"
       },
       {
         "title": "Assistant Professor (Tenure-Track) in Materials Science and Engineering",
@@ -287,7 +386,9 @@
           "energy materials",
           "catalysis"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting remains indexed; full page and current deadline unavailable on this audit. Retained pending verification."
       },
       {
         "title": "Tenure-Track/Tenured Assistant or Associate Professor",
@@ -301,7 +402,10 @@
           "metals & ceramics",
           "ARM-MIP"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant Professor in Artificial Intelligence/Machine Learning for Materials Design",
@@ -317,8 +421,11 @@
         ],
         "source": "curated",
         "full_consideration_date": "2026-10-10",
-        "date_source": "https://sciences.academickeys.com/job/qlehjiu9/Assistant-Professor-in-Artificial-IntelligenceMachine-Learning-for-Materials-Design-tenuretrack",
-        "date_source_note": "Official faculty page confirms the search remains listed; full-consideration date from the reproduced announcement because Interfolio text was not readable."
+        "date_source": "https://logic.interfolio.com/dossier-api/positions/192913",
+        "date_source_note": "Official public Interfolio data confirms position open and October 10, 2026 full-consideration date; not a hard closing date.",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-track positions in Chemistry",
@@ -332,7 +439,10 @@
           "AI for Science",
           "automation"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-Track Faculty Positions in Chemical and Biomolecular Engineering",
@@ -346,7 +456,10 @@
           "energy",
           "decarbonisation"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant Professor in Chemistry, Biochemistry, or Chemical Engineering",
@@ -363,7 +476,9 @@
         "source": "curated",
         "requested_receipt_date": "2026-10-15",
         "deadline_time_note": "Official requested receipt date, not a confirmed portal closure; time and timezone not specified.",
-        "verified_date": "2026-10-09"
+        "verified_date": "2026-10-16",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Open-Rank Faculty Positions (Assistant/Associate/Full Professor)",
@@ -377,7 +492,10 @@
           "AI for materials",
           "advanced synthesis"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
@@ -390,7 +508,9 @@
           "materials",
           "scientific computing"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Previous-cycle advertisement (review began 2025-11-15 for Fall 2026). Current closure could not be confirmed on the official UT Austin portal; retained pending verification, not recommended as currently open."
       },
       {
         "title": "Associate or Full Professor Computational Materials Science",
@@ -403,7 +523,9 @@
           "materials",
           "computational chemistry"
         ],
-        "source": "curated"
+        "source": "curated",
+        "last_audited_date": "2026-10-16",
+        "audit_note": "Retained: original HERC page blocks access and official current status/deadline could not be independently confirmed. Not recommended as a verified open position."
       },
       {
         "title": "Assistant Professor of Chemistry",
@@ -419,7 +541,10 @@
         "source": "curated",
         "official_posting": "https://ap.washington.edu/ahr/position-details/?job_id=192872",
         "priority_review_date": "2026-10-29",
-        "full_consideration_date": "2026-11-01"
+        "full_consideration_date": "2026-11-01",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       },
       {
         "title": "Assistant/Associate Professor of Sustainability Engineering",
@@ -435,7 +560,10 @@
         ],
         "source": "curated",
         "official_posting": "https://careers.purdue.edu/job/AssistantAssociate-Professor-of-Sustainability-Engineering/44028-en_US/",
-        "review_begins_date": "2026-10-24"
+        "review_begins_date": "2026-10-24",
+        "last_audited_date": "2026-10-16",
+        "verified_date": "2026-10-16",
+        "audit_note": "Official posting or public Interfolio position data rechecked; no hard closing deadline has passed and no closure was confirmed."
       }
     ],
     "postdoc": [],
