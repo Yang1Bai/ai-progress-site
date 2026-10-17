@@ -2,9 +2,9 @@
   "date": "2026年10月17日",
   "news": [
     {
-      "title": "How Itaú is building generative AI for its entire customer base",
+      "title": "Itaú 分享面向客户的生成式 AI 与治理平台实践",
       "url": "https://openai.com/index/itau-generative-ai",
-      "body": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "body": "客户案例介绍对话界面 ia.i 和模型治理平台 IARA，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户是目标而非已完成状态，效率数据来自企业自报，不能外推为投资表现或所有业务效果。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T19:00:00+00:00",
       "source": "OpenAI",
@@ -12,12 +12,15 @@
         "OpenAI",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "How Itaú is building generative AI for its entire customer base",
+      "body_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "title": "Google 探索将 AI 智能体与湿实验机器人结合",
       "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
-      "body": "General Science",
+      "body": "研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T18:11:34+00:00",
       "source": "Google Research",
@@ -25,12 +28,15 @@
         "Google Research",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Fostering community amid Kendall Square’s innovation",
+      "title": "MIT 报道 Kendall Square 创新活动中的社区与劳动议题",
       "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
-      "body": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "body": "活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T12:00:00-04:00",
       "source": "MIT AI",
@@ -38,12 +44,15 @@
         "MIT AI",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Fostering community amid Kendall Square’s innovation",
+      "body_original": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "body": "",
+      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T01:44:47+00:00",
       "source": "Hugging Face",
@@ -51,12 +60,15 @@
         "Hugging Face",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "body_original": "",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
+      "title": "Benefit Street Partners 分享用 Codex 加快问题解答的案例",
       "url": "https://openai.com/index/benefit-street-partners",
-      "body": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "body": "客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source": "OpenAI",
@@ -64,12 +76,15 @@
         "OpenAI",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Benefit Street Partners answers questions faster with Codex",
+      "body_original": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "title": "Stack Overflow 分享通过 ChatGPT 插件扩展智能体服务的案例",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "body": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "body": "客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续使用、收入增长或答案质量提升。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source": "OpenAI",
@@ -77,12 +92,15 @@
         "OpenAI",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "body_original": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
       "url": "https://huggingface.co/blog/reflection-beam",
-      "body": "",
+      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。",
       "date": "2026-10-16",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source": "Hugging Face",
@@ -90,12 +108,15 @@
         "Hugging Face",
         "2026-10-16"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "body_original": "",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "body": "",
+      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T20:34:01+00:00",
       "source": "Hugging Face",
@@ -103,12 +124,15 @@
         "Hugging Face",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "body_original": "",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Bringing GPT-Rosalind to academic research labs",
+      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T19:00:00+00:00",
       "source": "OpenAI",
@@ -116,12 +140,15 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Bringing GPT-Rosalind to academic research labs",
+      "body_original": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "title": "MIT 调查：供应链可持续承诺增强，治理与落实仍有落差",
       "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-      "body": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+      "body": "报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T17:00:00-04:00",
       "source": "MIT AI",
@@ -129,12 +156,15 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "body_original": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "AI model decodes the language cells use to communicate",
+      "title": "MIT 研究从细胞基因活动追溯信号通路指纹",
       "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
-      "body": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "body": "报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T16:50:00-04:00",
       "source": "MIT AI",
@@ -142,12 +172,15 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "AI model decodes the language cells use to communicate",
+      "body_original": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Teaching students to think and learn through questions",
+      "title": "OpenAI 分享以提问引导学生思考的教学实践",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "body": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "body": "文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T13:00:00+00:00",
       "source": "OpenAI",
@@ -155,12 +188,15 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Teaching students to think and learn through questions",
+      "body_original": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Q&A: The “collision” between AI, your brain, and society",
+      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
       "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
-      "body": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00-04:00",
       "source": "MIT AI",
@@ -168,12 +204,15 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Q&A: The “collision” between AI, your brain, and society",
+      "body_original": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "title": "Sullivan & Cromwell 分享把法律经验用于协议审查的案例",
       "url": "https://openai.com/index/sullivan-cromwell",
-      "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "body": "客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source": "OpenAI",
@@ -181,12 +220,15 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "body_original": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "editorial_date": "2026-10-17"
     },
     {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "title": "Hugging Face 介绍 Meta Muse Spark Open 多模态开放权重模型",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "body": "",
+      "body": "文章介绍大规模混合专家架构，可接收文本、图像、音频和视频并输出文本，面向编码与长任务工作流。开放权重不等于低硬件门槛，具体许可和部署能力仍应核对模型文档。",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source": "Hugging Face",
@@ -194,7 +236,10 @@
         "Hugging Face",
         "2026-10-15"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "body_original": "",
+      "editorial_date": "2026-10-17"
     }
   ],
   "papers": [],
@@ -254,5 +299,11 @@
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-10-17",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

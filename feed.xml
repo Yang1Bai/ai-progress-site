@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-17T14:51:48Z</updated>
+  <updated>2026-10-17T18:49:21Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月17日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-17.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-17.html</id>
-    <updated>2026-10-17T14:51:48Z</updated>
+    <updated>2026-10-17T18:49:21Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>With ia.i, a conversational interface, and the IARA governance platform, Itaú is…</title>
+    <title>客户案例介绍对话界面 ia.i 和模型治理平台 IARA，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户是目标而非已完成状态，效率数据来自企业自报，不能外推为…</title>
     <link href="https://openai.com/index/itau-generative-ai"/>
     <id>https://openai.com/index/itau-generative-ai</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>客户案例介绍对话界面 ia.i 和模型治理平台 IARA，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户是目标而非已完成状态，效率数据来自企业自报，不能外推为投资表现或所有业务效果。</summary>
   </entry>
   <entry>
-    <title>General Science…</title>
+    <title>研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展…</title>
     <link href="https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/"/>
     <id>https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>General Science</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。</summary>
   </entry>
   <entry>
-    <title>The 18th annual Kendall Square Association Annual Meeting explored how new techn…</title>
+    <title>活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。…</title>
     <link href="https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016"/>
     <id>https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语…</title>
     <link href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining"/>
     <id>https://huggingface.co/blog/nvidia/scaling-indic-pretraining</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary></summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。</summary>
   </entry>
   <entry>
-    <title>Anant Kumar builds tools to compare loan valuations and analyze credit agreement…</title>
+    <title>客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。…</title>
     <link href="https://openai.com/index/benefit-street-partners"/>
     <id>https://openai.com/index/benefit-street-partners</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。</summary>
   </entry>
   <entry>
-    <title>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and i…</title>
+    <title>客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续…</title>
     <link href="https://openai.com/index/stack-overflow-chatgpt-plugin"/>
     <id>https://openai.com/index/stack-overflow-chatgpt-plugin</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续使用、收入增长或答案质量提升。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能…</title>
     <link href="https://huggingface.co/blog/reflection-beam"/>
     <id>https://huggingface.co/blog/reflection-beam</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary></summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。…</title>
     <link href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1"/>
     <id>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary></summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。</summary>
   </entry>
   <entry>
-    <title>Introducing the Rosalind Academic Plan, offering eligible academic labs sponsore…</title>
+    <title>计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限…</title>
     <link href="https://openai.com/index/introducing-the-rosalind-academic-plan"/>
     <id>https://openai.com/index/introducing-the-rosalind-academic-plan</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。</summary>
   </entry>
   <entry>
-    <title>MIT's Center for Transportation and Logistics finds sustainability commitments a…</title>
+    <title>报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。…</title>
     <link href="https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015"/>
     <id>https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015</id>
-    <updated>2026-10-17T14:51:48Z</updated>
-    <summary>MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.</summary>
+    <updated>2026-10-17T18:49:21Z</updated>
+    <summary>报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。</summary>
   </entry>
 </feed>
