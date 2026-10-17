@@ -1,10 +1,49 @@
 {
-  "date": "2026年10月16日",
+  "date": "2026年10月17日",
   "news": [
     {
-      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "body": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "body": "General Science",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Fostering community amid Kendall Square’s innovation",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "body": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T12:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。",
+      "body": "",
       "date": "2026-10-16",
       "published_at": "2026-10-16T01:44:47+00:00",
       "source": "Hugging Face",
@@ -12,15 +51,38 @@
         "Hugging Face",
         "2026-10-16"
       ],
-      "importance": "normal",
-      "title_original": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "body": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "body": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
       "url": "https://huggingface.co/blog/reflection-beam",
-      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。",
+      "body": "",
       "date": "2026-10-16",
       "published_at": "2026-10-16T00:00:00+00:00",
       "source": "Hugging Face",
@@ -28,15 +90,12 @@
         "Hugging Face",
         "2026-10-16"
       ],
-      "importance": "normal",
-      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。",
+      "body": "",
       "date": "2026-10-15",
       "published_at": "2026-10-15T20:34:01+00:00",
       "source": "Hugging Face",
@@ -44,15 +103,12 @@
         "Hugging Face",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
+      "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。",
+      "body": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T19:00:00+00:00",
       "source": "OpenAI",
@@ -60,15 +116,12 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Bringing GPT-Rosalind to academic research labs",
-      "body_original": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "MIT 调查：供应链可持续承诺增强，治理与落实仍有落差",
+      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
       "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-      "body": "报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。",
+      "body": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T17:00:00-04:00",
       "source": "MIT AI",
@@ -76,15 +129,12 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-      "body_original": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "MIT 研究从细胞基因活动追溯信号通路指纹",
+      "title": "AI model decodes the language cells use to communicate",
       "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
-      "body": "报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。",
+      "body": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T16:50:00-04:00",
       "source": "MIT AI",
@@ -92,15 +142,12 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "AI model decodes the language cells use to communicate",
-      "body_original": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 分享以提问引导学生思考的教学实践",
+      "title": "Teaching students to think and learn through questions",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "body": "文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。",
+      "body": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T13:00:00+00:00",
       "source": "OpenAI",
@@ -108,15 +155,12 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Teaching students to think and learn through questions",
-      "body_original": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
+      "title": "Q&A: The “collision” between AI, your brain, and society",
       "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
-      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。",
+      "body": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00-04:00",
       "source": "MIT AI",
@@ -124,15 +168,12 @@
         "MIT AI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Q&A: The “collision” between AI, your brain, and society",
-      "body_original": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "Sullivan & Cromwell 分享把法律经验用于协议审查的案例",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
       "url": "https://openai.com/index/sullivan-cromwell",
-      "body": "客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。",
+      "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source": "OpenAI",
@@ -140,15 +181,12 @@
         "OpenAI",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "body_original": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     },
     {
-      "title": "Hugging Face 介绍 Meta Muse Spark Open 多模态开放权重模型",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "body": "文章介绍大规模混合专家架构，可接收文本、图像、音频和视频并输出文本，面向编码与长任务工作流。开放权重不等于低硬件门槛，具体许可和部署能力仍应核对模型文档。",
+      "body": "",
       "date": "2026-10-15",
       "published_at": "2026-10-15T00:00:00+00:00",
       "source": "Hugging Face",
@@ -156,160 +194,23 @@
         "Hugging Face",
         "2026-10-15"
       ],
-      "importance": "normal",
-      "title_original": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "FLUX.3 Image Klein 在 Diffusers 中支持生成与布局控制",
-      "url": "https://huggingface.co/blog/flux-3",
-      "body": "教程展示文本生成、多参考图编辑及通过边界框指定布局。示例说明接口用法，不能保证任意提示都精确遵循布局；效果与运行成本依赖模型和配置。",
-      "date": "2026-10-15",
-      "published_at": "2026-10-15T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-15"
-      ],
-      "importance": "normal",
-      "title_original": "Welcome FLUX.3 Image Klein in Diffusers",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "Earth AI 探索多步地理空间分析与预测智能体",
-      "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
-      "body": "技术说明把领域基础模型、空间工具和预先规划结合，用于跨数据集分析及预测建模，并扩大实验访问。系统仍属实验阶段，实际可靠性取决于数据、工具选择与具体任务验证。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
-      "body_original": "Earth AI",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "Google 发布面向复杂技术文档的 Deep Review",
-      "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
-      "body": "团队介绍从论文分析扩展至多领域文档审查的智能体系统，用于反馈、核查论断与辅助评审。部署规模属于团队报告；自动反馈仍需专家判断，不能当作论文正确性或法律结论的保证。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Analyzing technical documents with Deep Review",
-      "body_original": "General Science",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "Google Research 汇总 Research@ 活动的研究与工具进展",
-      "url": "https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/",
-      "body": "文章介绍地理空间、医疗等方向的多项研究与工具，并讨论向合作伙伴开放能力。部分功能仍在早期或实验阶段；活动展示不等于所有产品均已普遍可用或效果已独立复现。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:14:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "Research@ 2026: 10 ways we're amplifying human ingenuity",
-      "body_original": "General Science",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "Ai2 更新 HiRO-ACEv2 高分辨率气候模拟系统",
-      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "body": "团队结合粗分辨率模拟与降尺度模型，生成降雨、风和气压等细尺度场，并与高分辨率模式比较极端事件统计。成本与精度属于特定基准结果，不能直接当作实际天气预报能力或所有气候情景的保证。",
-      "date": "2026-10-14",
-      "published_at": "2026-10-14T16:12:42+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-14"
-      ],
-      "importance": "normal",
-      "title_original": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "body_original": "",
-      "editorial_date": "2026-10-16"
+      "importance": "normal"
     }
   ],
-  "papers": [
-    {
-      "title": "热力学约束潜空间模型预测非均质材料断裂",
-      "url": "https://arxiv.org/abs/2610.20614",
-      "body": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
-      "date": "2026-10-16",
-      "published_at": "2026-10-16T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-16"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究用低维潜空间动力学和硬约束网络融入能量守恒、熵产生等原则，并结合几何条件编码器预测断裂演化。作者在未见测试样本上比较纯数据模型；优势限于所测体系，不能替代所有断裂力学验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Thermodynamically Consistent Machine Learning for Fracture Prediction in Heterogeneous Materials",
-      "summary_original": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
-      "editorial_date": "2026-10-16"
-    },
-    {
-      "title": "知识引导采样构建材料反应行为的机器学习势",
-      "url": "https://arxiv.org/abs/2610.17987",
-      "body": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
-      "date": "2026-10-16",
-      "published_at": "2026-10-16T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-16"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究结合改进描述符、主动学习和关键事件采样，以较小训练集描述特定材料的能垒与动力学性质。结果是特定体系的计算验证，不意味着其他复杂反应体系无需额外数据或基准。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Knowledge-Guided Construction of Machine Learning Potentials for Reactive Behavior in Energetic Materials",
-      "summary_original": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
-      "editorial_date": "2026-10-16"
-    }
-  ],
+  "papers": [],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [
-    {
-      "title": "Thermodynamically Consistent Machine Learning for Fracture Prediction in Heterogeneous Materials",
-      "body": "arXiv:2610.20614v1 Announce Type: cross Abstract: Understanding fracture behavior is critical for assessing the structural integrity and longevity. Highly time-consuming physics-based fracture simulations motivate the development of machine-learning-based fracture evolution prediction with surrogate models. However, most existing machine-learning models for fracture prediction operate as black boxes and require large training datasets to generalize reliably. In this work, Thermodynamically Consistent Latent Dynamics Identification (tLaSDI) for parametric systems is introduced to predict fracture patterns and evolution in heterogeneous materials. The model learns the thermodynamic state varia",
-      "url": "https://arxiv.org/abs/2610.20614"
-    },
-    {
-      "title": "Knowledge-Guided Construction of Machine Learning Potentials for Reactive Behavior in Energetic Materials",
-      "body": "arXiv:2610.17987v2 Announce Type: replace Abstract: Energetic materials involve multiple interactions, making reliable machine-learning potentials (MLPs) difficult to construct without extensive datasets. Here, we enhance the ability of the neural network interatomic potential (NNAP) to describe molecular systems using sphmulti, a refined spherical-harmonic basis set that combines extra radial basis with element-specific chemical weighting in each radial channel. We further integrate hyperactive learning, farthest-point sampling, and iterative sufficiency criteria with knowledge-guided key events, enabling the NNAP to retain essential information for describing the material system. For 3,3'-",
-      "url": "https://arxiv.org/abs/2610.17987"
-    }
-  ],
+  "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-16T15:58:36.114780+00:00",
+  "fetched_at": "2026-10-17T14:51:46.634138+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 9
+      "items": 12
     },
     {
       "source": "Hugging Face",
@@ -321,13 +222,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 4
     },
     {
       "source": "Nature Materials",
@@ -345,19 +246,13 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 42
+      "items": 0
     }
   ],
-  "editorial": {
-    "date": "2026-10-16",
-    "items_applied": 17,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 2,
+    "paper_count": 0,
     "leader_count": 0,
-    "science_count": 2
+    "science_count": 0
   }
 }
