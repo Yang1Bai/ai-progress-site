@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-18",
+  "news": [
+    {
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
+      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。"
+    },
+    {
+      "url": "https://openai.com/index/itau-generative-ai",
+      "title": "Itaú 分享面向客户的生成式 AI 与治理平台实践",
+      "body": "客户案例介绍对话界面 ia.i 和模型治理平台 IARA，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户是目标而非已完成状态，效率数据来自企业自报，不能外推为投资表现或所有业务效果。"
+    },
+    {
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "title": "Google 探索将 AI 智能体与湿实验机器人结合",
+      "body": "研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "title": "MIT 报道 Kendall Square 创新活动中的社区与劳动议题",
+      "body": "活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
+      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。"
+    },
+    {
+      "url": "https://openai.com/index/benefit-street-partners",
+      "title": "Benefit Street Partners 分享用 Codex 加快问题解答的案例",
+      "body": "客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。"
+    },
+    {
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "title": "Stack Overflow 分享通过 ChatGPT 插件扩展智能体服务的案例",
+      "body": "客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续使用、收入增长或答案质量提升。"
+    },
+    {
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
+      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
+      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
+      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "title": "MIT 调查：供应链可持续承诺增强，治理与落实仍有落差",
+      "body": "报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "title": "MIT 研究从细胞基因活动追溯信号通路指纹",
+      "body": "报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。"
+    },
+    {
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "title": "OpenAI 分享以提问引导学生思考的教学实践",
+      "body": "文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
+      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。"
+    },
+    {
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "title": "Sullivan & Cromwell 分享把法律经验用于协议审查的案例",
+      "body": "客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。"
+    }
+  ],
+  "papers": []
+}
