@@ -470,7 +470,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-19T13:33:27.435656+00:00",
+  "fetched_at": "2026-10-19T18:15:20.452353+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -515,16 +515,16 @@
       "items": 63
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 9,
-    "leader_count": 0,
-    "science_count": 6
-  },
   "editorial": {
     "date": "2026-10-19",
     "items_applied": 24,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 9,
+    "leader_count": 0,
+    "science_count": 6
   }
 }
