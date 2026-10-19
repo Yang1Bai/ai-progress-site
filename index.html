@@ -2272,7 +2272,7 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="0">0</span>
+      <span class="stat-num mono" data-target="9">9</span>
       <span class="stat-label">篇论文</span>
     </div>
     <div class="stat-divider"></div>
@@ -2282,7 +2282,7 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
     </div>
     <div class="stat-divider"></div>
     <div class="stat-block">
-      <span class="stat-num mono" data-target="0">0</span>
+      <span class="stat-num mono" data-target="6">6</span>
       <span class="stat-label">项进展</span>
     </div>
     <div class="stat-divider"></div>
@@ -2294,7 +2294,7 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
   <div class="hero-update-badge">
     <span class="badge-dot"></span>
     <span class="mono" style="font-size:.72rem;color:var(--text-mute);">LAST UPDATE</span>
-    <span class="mono" style="font-size:.72rem;color:var(--cyan);" id="last-updated">2026年10月18日</span>
+    <span class="mono" style="font-size:.72rem;color:var(--cyan);" id="last-updated">2026年10月19日</span>
   </div>
       <!-- STATS:END -->
 
@@ -2667,6 +2667,16 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
           <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
         </div>
       </div>
+      <div class="news-card reveal" data-tags="Hugging Face,2026-10-15" data-bookmark-id="项目总结已于7月发布权重的Apertus15加入">
+        <span class="card-badge breaking">BREAKING</span>
+        <h3 class="card-title">Apertus 1.5 技术说明扩展多模态理解与工具使用</h3>
+        <p class="card-summary">项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。</p>
+        <div class="card-footer">
+          <span class="src-badge src-blog">Blog</span><a class="card-source-link" href="https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes" target="_blank" rel="noopener">原文 ↗</a>
+          <div class="card-tags"><span class="card-tag" onclick="filterNews('Hugging Face')">Hugging Face</span><span class="card-tag" onclick="filterNews('2026-10-15')">2026-10-15</span></div>
+          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
+        </div>
+      </div>
       <div class="news-card reveal" data-tags="MIT AI,2026-10-15" data-bookmark-id="EricSo结合研究与个人反思介绍新书讨论认知外">
         <span class="card-badge update">UPDATE</span>
         <h3 class="card-title">MIT 访谈讨论广泛依赖 AI 对学习能力的影响</h3>
@@ -2674,16 +2684,6 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
         <div class="card-footer">
           <span class="src-badge src-unknown">Unknown</span><a class="card-source-link" href="https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015" target="_blank" rel="noopener">原文 ↗</a>
           <div class="card-tags"><span class="card-tag" onclick="filterNews('MIT AI')">MIT AI</span><span class="card-tag" onclick="filterNews('2026-10-15')">2026-10-15</span></div>
-          <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
-        </div>
-      </div>
-      <div class="news-card reveal" data-tags="OpenAI,2026-10-15" data-bookmark-id="客户案例介绍将律师的专业判断与AI辅助协议审查结">
-        <span class="card-badge update">UPDATE</span>
-        <h3 class="card-title">Sullivan &amp; Cromwell 分享把法律经验用于协议审查的案例</h3>
-        <p class="card-summary">客户案例介绍将律师的专业判断与 AI 辅助协议审查结合。企业经验不构成普遍准确率证明，具体法律判断与最终审查仍需由专业人员负责。</p>
-        <div class="card-footer">
-          <span class="src-badge src-official">Official</span><a class="card-source-link" href="https://openai.com/index/sullivan-cromwell" target="_blank" rel="noopener">原文 ↗</a>
-          <div class="card-tags"><span class="card-tag" onclick="filterNews('OpenAI')">OpenAI</span><span class="card-tag" onclick="filterNews('2026-10-15')">2026-10-15</span></div>
           <button class="bookmark-btn" onclick="toggleBookmark(this)" title="收藏">☆</button>
         </div>
       </div>
@@ -2700,7 +2700,54 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
     <p class="sec-desc" data-cn="精选 AI4Science 突破，涵盖材料发现、自动化实验与科学基础模型" data-en="Curated AI4Science breakthroughs in materials discovery, automated experiments, and scientific foundation models">精选 AI4Science 突破，涵盖材料发现、自动化实验与科学基础模型</p>
     <div class="science-grid">
       <!-- SCIENCE:START -->
-
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 9.3V1.99"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/></svg>
+        </div>
+        <h4>A Comprehensive Survey of Crystal Structural Prototypes: Construction, Classification, and Applications</h4>
+        <p>arXiv:2610.22600v1 Announce Type: new Abstract: Crystal structural prototypes describe recurring atomic arrangements across chemically distinct materials. Prototype libraries are built through crystallographic curation, standardization, geometric matching, local-environment clustering, and periodic-graph analysis, and support chemical substitution, derivative enumeration, high-throughput screening, structure solution, crystal structure prediction (CSP), and generative design. This survey compares methods by the structural information they retain and the equivalence rules they impose, distinguishing crystallographic structure types, geometric realizations, chemistry-anonymous topologies, and </p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.22600" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11H1l8-8 8 8h-8v8l-8-8"/></svg>
+        </div>
+        <h4>Physics-Informed Machine Learning for Response Tensors in Crystalline Magnets: Application to Kagome Metals</h4>
+        <p>arXiv:2610.22642v1 Announce Type: new Abstract: The prediction of response tensors from magnetic textures is a crucial challenge in the study of noncollinear magnets. Existing methods for constructing descriptors of a given response tensor are limited to first-order multipole expansions or restricted to simple magnetic structures. In this work, we construct a complete symmetry-invariant descriptor basis for arbitrary crystal structures and magnetic textures, providing interpretable features for machine learning modeling of response tensors. We modify the standard principal component analysis framework and derive uncorrelated order parameters that are hierarchically stable: extending the orde</p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.22642" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h4>topas-editor and TOPilot: tools for AI-driven analysis of diffraction and total scattering data</h4>
+        <p>arXiv:2610.23512v1 Announce Type: new Abstract: This paper describes topas-editor and TOPilot, which provide a powerful interface to the TOPAS software suite and allow generative AI-driven automation of complex crystallographic tasks. topas-editor is a TOPAS-aware VS Code extension designed for the rapid creation and editing of TOPAS input files and for interacting with the software. It knows TOPAS syntax, has crystallographic-aware editing features and provides in-line user guidance via hover tips and automated links to reference manuals. TOPilot is a collection of Python routines and machine-accessible reference documents that allow AI-driven automated analysis in TOPAS. It uses a transfer</p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.23512" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/></svg>
+        </div>
+        <h4>Scalable long-range machine learning interatomic potentials with electrical response for atomistic material modeling</h4>
+        <p>arXiv:2610.23643v1 Announce Type: new Abstract: Accurate atomistic simulations of materials under electric fields require long-range electrostatics and electrical-response modeling at length scales beyond the reach of conventional first-principles methods. Yet these capabilities remain difficult to reconcile with the scalability of machine-learning interatomic potentials (MLIPs). Strictly local models enable efficient spatial parallelization but neglect long-range interactions, whereas existing electrostatic extensions introduce global dependencies that hinder distributed computation. Here, we overcome this limitation by analytically separating the long-range electrostatic forces and Born ef</p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.23643" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+        </div>
+        <h4>Learning the self-energy through equivariant neural networks</h4>
+        <p>arXiv:2610.23717v1 Announce Type: new Abstract: The electronic self-energy determines the single-particle Green's function and, through it, quasiparticle energies and spectral functions, but computing it from first principles is expensive and it is a difficult machine-learning target: complex-valued, matrix-valued in a local-orbital basis, and dependent on a continuous frequency. We predict the dynamical correlation part of the imaginary-frequency G_0W_0 self-energy matrix of molecules from atomic species and coordinates with an E(3)-equivariant message-passing network, the rotational covariance of the orbital-space matrix being imposed by the architecture itself and the static exchange part</p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.23717" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
+      <article class="sci-card reveal">
+        <div class="sci-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h4>Automated end-station at the soft X-ray beamline featuring robotic air-to-ultrahigh-vacuum sample transfer, scanning probe spectroscopy, and machine learning analysis</h4>
+        <p>arXiv:2610.22384v1 Announce Type: cross Abstract: Driven by the growing integration of artificial intelligence and robotics in experimental science, we redefine the execution of user experiments at synchrotron soft X-ray beamlines by developing a highly automated end-station that can be operated without on-site staff. Installed at beamline BL08U of NanoTerasu, the system comprises four chamber units and two robots that automatically transfer samples from ambient air to an ultrahigh vacuum measurement stage for spectroscopic evaluations, before returning them to their original locations post-measurement. Soft X-ray absorption spectra are automatically acquired once programmed by scanning the </p>
+        <div class="sci-footer"><a class="sci-source-link" href="https://arxiv.org/abs/2610.22384" target="_blank" rel="noopener">原文 ↗</a></div>
+      </article>
       <!-- SCIENCE:END -->
     </div>
   </section>
@@ -2714,7 +2761,114 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
     <p class="sec-desc" data-cn="材料科学 × 机器学习：从催化剂发现到晶体结构预测" data-en="Materials science meets ML: catalyst discovery, crystal structure prediction, and beyond">材料科学 × 机器学习：从催化剂发现到晶体结构预测</p>
     <div class="papers-grid">
       <!-- MATERIAL:START -->
+      <article class="paper-card conf reveal">
 
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">综述比较晶体结构原型的构建、分类与用途</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：文章比较晶体学、几何和图拓扑等原型定义及数据库用途，指出邻居判据会影响分类，训练组分覆盖也影响生成测试。未见化学计量类别上的失败不能直接等同于未见结构原型的泛化能力。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.22600" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">对称性描述符连接磁结构与响应张量</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：研究构建可解释的对称性不变量与分层序参量，并用于 kagome 磁性体系的反常霍尔电导回归与分类。所述系数统计规律限定于相应模型区间，不能外推为所有磁性材料的普遍定律。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.22642" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">topas-editor 与 TOPilot 辅助衍射和总散射分析</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：工具结合 TOPAS 感知编辑器、参考文档与 AI 工作流，展示精修、物相识别和结构求解等案例。自动分析仍依赖软件、模型与输入条件；示例成功不能保证任意数据都得到唯一正确结构。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.23512" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">长程机器学习势兼顾电响应与分布式原子模拟</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：研究分离全局静电与局域潜电荷导数，构建可并行评估的能量、力及 Born 有效电荷模型，并测试水与功能材料。规模和计算开销来自特定平台与体系，电场响应预测仍需按目标条件验证。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.23643" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">等变网络学习分子电子自能并重建光谱</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：研究在虚频轴预测 G₀W₀ 动态关联自能矩阵，再在保持因果性与非负谱密度的表示中延拓。水簇及分子测试显示接近参考结果，模型仍依赖 DFT 参考，不能视为无需任何电子结构计算。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.23717" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">NanoTerasu 自动实验终端结合机器人与谱学分析</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：系统自动完成样品从空气到超高真空的转移、程序化软 X 射线吸收谱采集及降维分析，并积累数据供远程查看。无人现场操作能力限定于所建终端及预设流程，不等于任意实验无需监督。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.22384" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">综述审视原子间势主动学习的不确定性与数据效率</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：文章汇总候选生成、数据选择、参考计算和模型更新的闭环方法，讨论多类材料应用。不确定性估计不可在架构间直接互换，且可能在关键域外区域失效，需结合目标可观测量检验。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.23776" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">TRECI 用迁移学习降低恒电位金属水界面模拟成本</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：工作流从通用与领域模型迁移，在 Cu(111)-水界面以较少参考构型进行电子巨正则分子动力学，并分析电位相关溶剂重排。验证集中于所述体系与电位范围，不代表所有界面都能用相同数据量复现。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2511.19338" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
+      <article class="paper-card conf reveal">
+
+        <span class="paper-venue">arXiv materials</span>
+        <h4 class="paper-title">Tersoff-NN 结合解析作用与神经网络键级描述硅</h4>
+        <p class="paper-authors">作者见原文</p>
+        <p class="paper-summary">预印本摘要：混合势保留 Tersoff 径向形式，用小网络表示环境相关键级，在硅的结构与动力学测试中平衡效率和精度。报告的加速相对所比较模型与硬件条件，域外稳定性仍需独立验证。</p>
+
+        <div class="paper-meta">
+          <span class="paper-date">2026-10-19</span>
+          <a class="paper-link" href="https://arxiv.org/abs/2610.15591" target="_blank" rel="noopener">阅读 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+        </div>
+      </article>
       <!-- MATERIAL:END -->
     </div>
   </section>
@@ -2810,31 +2964,14 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
           <p class="gh-trend-desc">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</p>
           <div class="gh-trend-meta">
             <span class="gh-lang-dot" style="background:#3572A5"></span><span class="gh-lang-name">Python</span>
-            <span class="gh-stars-today">▲ 2,213 今日</span>
-            <span class="gh-stars-total">⭐ 16</span>
-          </div>
-        </div>
-        <div class="gh-trend-arrow">↗</div>
-      </a>
-      <a class="gh-trend-card reveal" href="https://github.com/anthropics/claude-plugins-official" target="_blank" rel="noopener">
-        <div class="gh-trend-rank">2</div>
-        <div class="gh-trend-body">
-          <div class="gh-trend-name">
-            <span class="gh-owner">anthropics</span>
-            <span class="gh-sep">/</span>
-            <span class="gh-repo">claude-plugins-official</span>
-          </div>
-          <p class="gh-trend-desc">Official, Anthropic-managed directory of high quality Claude Code Plugins.</p>
-          <div class="gh-trend-meta">
-            <span class="gh-lang-dot" style="background:#3572A5"></span><span class="gh-lang-name">Python</span>
-            <span class="gh-stars-today">▲ 1,187 今日</span>
+            <span class="gh-stars-today">▲ 3,860 今日</span>
             <span class="gh-stars-total">⭐ 16</span>
           </div>
         </div>
         <div class="gh-trend-arrow">↗</div>
       </a>
       <a class="gh-trend-card reveal" href="https://github.com/sponsors/anomalyco" target="_blank" rel="noopener">
-        <div class="gh-trend-rank">3</div>
+        <div class="gh-trend-rank">2</div>
         <div class="gh-trend-body">
           <div class="gh-trend-name">
             <span class="gh-owner">sponsors</span>
@@ -2844,24 +2981,41 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
           <p class="gh-trend-desc">The open source coding agent.</p>
           <div class="gh-trend-meta">
             <span class="gh-lang-dot" style="background:#2b7489"></span><span class="gh-lang-name">TypeScript</span>
-            <span class="gh-stars-today">▲ 1,417 今日</span>
+            <span class="gh-stars-today">▲ 1,310 今日</span>
             <span class="gh-stars-total">⭐ 16</span>
           </div>
         </div>
         <div class="gh-trend-arrow">↗</div>
       </a>
-      <a class="gh-trend-card reveal" href="https://github.com/cursor/plugins" target="_blank" rel="noopener">
+      <a class="gh-trend-card reveal" href="https://github.com/akitaonrails/ai-memory" target="_blank" rel="noopener">
+        <div class="gh-trend-rank">3</div>
+        <div class="gh-trend-body">
+          <div class="gh-trend-name">
+            <span class="gh-owner">akitaonrails</span>
+            <span class="gh-sep">/</span>
+            <span class="gh-repo">ai-memory</span>
+          </div>
+          <p class="gh-trend-desc">Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors</p>
+          <div class="gh-trend-meta">
+            <span class="gh-lang-dot" style="background:#dea584"></span><span class="gh-lang-name">Rust</span>
+            <span class="gh-stars-today">▲ 666 今日</span>
+            <span class="gh-stars-total">⭐ 16</span>
+          </div>
+        </div>
+        <div class="gh-trend-arrow">↗</div>
+      </a>
+      <a class="gh-trend-card reveal" href="https://github.com/Comfy-Org/ComfyUI" target="_blank" rel="noopener">
         <div class="gh-trend-rank">4</div>
         <div class="gh-trend-body">
           <div class="gh-trend-name">
-            <span class="gh-owner">cursor</span>
+            <span class="gh-owner">Comfy-Org</span>
             <span class="gh-sep">/</span>
-            <span class="gh-repo">plugins</span>
+            <span class="gh-repo">ComfyUI</span>
           </div>
-          <p class="gh-trend-desc">Cursor plugin specification and official plugins</p>
+          <p class="gh-trend-desc">The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.</p>
           <div class="gh-trend-meta">
-            <span class="gh-lang-dot" style="background:#2b7489"></span><span class="gh-lang-name">TypeScript</span>
-            <span class="gh-stars-today">▲ 351 今日</span>
+            <span class="gh-lang-dot" style="background:#3572A5"></span><span class="gh-lang-name">Python</span>
+            <span class="gh-stars-today">▲ 1,011 今日</span>
             <span class="gh-stars-total">⭐ 16</span>
           </div>
         </div>
@@ -2878,7 +3032,7 @@ section#jobs { border-top: 3px solid #6366f1; padding-top: 36px; margin-top: 40p
           <p class="gh-trend-desc">🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federa</p>
           <div class="gh-trend-meta">
             <span class="gh-lang-dot" style="background:#2b7489"></span><span class="gh-lang-name">TypeScript</span>
-            <span class="gh-stars-today">▲ 502 今日</span>
+            <span class="gh-stars-today">▲ 564 今日</span>
             <span class="gh-stars-total">⭐ 16</span>
           </div>
         </div>

@@ -1,0 +1,530 @@
+{
+  "date": "2026年10月19日",
+  "news": [
+    {
+      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。",
+      "date": "2026-10-18",
+      "published_at": "2026-10-18T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-18"
+      ],
+      "importance": "normal",
+      "title_original": "Giving AI a “crystal clear” view of the materials world",
+      "body_original": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Itaú 分享面向客户的生成式 AI 与治理平台实践",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "body": "客户案例介绍对话界面 ia.i 和模型治理平台 IARA，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户是目标而非已完成状态，效率数据来自企业自报，不能外推为投资表现或所有业务效果。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "How Itaú is building generative AI for its entire customer base",
+      "body_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Google 探索将 AI 智能体与湿实验机器人结合",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "body": "研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "MIT 报道 Kendall Square 创新活动中的社区与劳动议题",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "body": "活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T12:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Fostering community amid Kendall Square’s innovation",
+      "body_original": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T01:44:47+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "body_original": "",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Benefit Street Partners 分享用 Codex 加快问题解答的案例",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "body": "客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Benefit Street Partners answers questions faster with Codex",
+      "body_original": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Stack Overflow 分享通过 ChatGPT 插件扩展智能体服务的案例",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "body": "客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续使用、收入增长或答案质量提升。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "body_original": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "body_original": "",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T20:34:01+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "body_original": "",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Bringing GPT-Rosalind to academic research labs",
+      "body_original": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "MIT 调查：供应链可持续承诺增强，治理与落实仍有落差",
+      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "body": "报告调查多国供应链从业者，指出可持续发展重视度较高，但关税不确定性与执行能力限制行动。结果反映受访者报告，不能把意愿、AI 采用或测量扩展直接等同于减排成果。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T17:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "body_original": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "MIT 研究从细胞基因活动追溯信号通路指纹",
+      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "body": "报道介绍研究通过信号通路留下的基因表达模式，分析细胞接收到的发育指令。结果为理解细胞通信提供线索，不能外推为所有组织或疾病中的通路均可准确反演。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T16:50:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "AI model decodes the language cells use to communicate",
+      "body_original": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "OpenAI 分享以提问引导学生思考的教学实践",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "body": "文章讨论用问题推动学生解释思路、反思和学习的教学方式。实践案例与教育理念不能直接当作对所有年龄、学科与学习效果的因果验证。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Teaching students to think and learn through questions",
+      "body_original": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Apertus 1.5 技术说明扩展多模态理解与工具使用",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "body": "项目总结已于 7 月发布权重的 Apertus 1.5：加入图像和音频理解、可选思考模式及更长上下文。模型仅生成文本；本条是后续技术说明，不能误作今天首次发布权重。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T09:08:45+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Apertus 1.5 Release Notes",
+      "body_original": "",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "MIT 访谈讨论广泛依赖 AI 对学习能力的影响",
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "body": "Eric So 结合研究与个人反思介绍新书，讨论认知外包、学习中的反复尝试及技能保持。文章是研究综合与观点访谈，不能把所有 AI 使用都视为必然造成认知退化。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Q&A: The “collision” between AI, your brain, and society",
+      "body_original": "In a new book, Professor Eric So explores how the technology affects our thinking skills.",
+      "editorial_date": "2026-10-19"
+    }
+  ],
+  "papers": [
+    {
+      "title": "综述比较晶体结构原型的构建、分类与用途",
+      "url": "https://arxiv.org/abs/2610.22600",
+      "body": "arXiv:2610.22600v1 Announce Type: new Abstract: Crystal structural prototypes describe recurring atomic arrangements across chemically distinct materials. Prototype libraries are built through crystallographic curation, standardization, geometric matching, local-environment clustering, and periodic-graph analysis, and support chemical substitution, derivative enumeration, high-throughput screening, structure solution, crystal structure prediction (CSP), and generative design. This survey compares methods by the structural information they retain and the equivalence rules they impose, distinguishing crystallographic structure types, geometric realizations, chemistry-anonymous topologies, and ",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：文章比较晶体学、几何和图拓扑等原型定义及数据库用途，指出邻居判据会影响分类，训练组分覆盖也影响生成测试。未见化学计量类别上的失败不能直接等同于未见结构原型的泛化能力。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "A Comprehensive Survey of Crystal Structural Prototypes: Construction, Classification, and Applications",
+      "summary_original": "arXiv:2610.22600v1 Announce Type: new Abstract: Crystal structural prototypes describe recurring atomic arrangements across chemically distinct materials. Prototype libraries are built through crystallographic curation, standardization, geometric matching, local-environment clustering, and periodic-graph analysis, and support chemical substitution, derivative enumeration, high-throughput screening, structure solution, crystal structure prediction (CSP), and generative design. This survey compares methods by the structural information they retain and the equivalence rules they impose, distinguishing crystallographic structure types, geometric realizations, chemistry-anonymous topologies, and ",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "对称性描述符连接磁结构与响应张量",
+      "url": "https://arxiv.org/abs/2610.22642",
+      "body": "arXiv:2610.22642v1 Announce Type: new Abstract: The prediction of response tensors from magnetic textures is a crucial challenge in the study of noncollinear magnets. Existing methods for constructing descriptors of a given response tensor are limited to first-order multipole expansions or restricted to simple magnetic structures. In this work, we construct a complete symmetry-invariant descriptor basis for arbitrary crystal structures and magnetic textures, providing interpretable features for machine learning modeling of response tensors. We modify the standard principal component analysis framework and derive uncorrelated order parameters that are hierarchically stable: extending the orde",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究构建可解释的对称性不变量与分层序参量，并用于 kagome 磁性体系的反常霍尔电导回归与分类。所述系数统计规律限定于相应模型区间，不能外推为所有磁性材料的普遍定律。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Physics-Informed Machine Learning for Response Tensors in Crystalline Magnets: Application to Kagome Metals",
+      "summary_original": "arXiv:2610.22642v1 Announce Type: new Abstract: The prediction of response tensors from magnetic textures is a crucial challenge in the study of noncollinear magnets. Existing methods for constructing descriptors of a given response tensor are limited to first-order multipole expansions or restricted to simple magnetic structures. In this work, we construct a complete symmetry-invariant descriptor basis for arbitrary crystal structures and magnetic textures, providing interpretable features for machine learning modeling of response tensors. We modify the standard principal component analysis framework and derive uncorrelated order parameters that are hierarchically stable: extending the orde",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "topas-editor 与 TOPilot 辅助衍射和总散射分析",
+      "url": "https://arxiv.org/abs/2610.23512",
+      "body": "arXiv:2610.23512v1 Announce Type: new Abstract: This paper describes topas-editor and TOPilot, which provide a powerful interface to the TOPAS software suite and allow generative AI-driven automation of complex crystallographic tasks. topas-editor is a TOPAS-aware VS Code extension designed for the rapid creation and editing of TOPAS input files and for interacting with the software. It knows TOPAS syntax, has crystallographic-aware editing features and provides in-line user guidance via hover tips and automated links to reference manuals. TOPilot is a collection of Python routines and machine-accessible reference documents that allow AI-driven automated analysis in TOPAS. It uses a transfer",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：工具结合 TOPAS 感知编辑器、参考文档与 AI 工作流，展示精修、物相识别和结构求解等案例。自动分析仍依赖软件、模型与输入条件；示例成功不能保证任意数据都得到唯一正确结构。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "topas-editor and TOPilot: tools for AI-driven analysis of diffraction and total scattering data",
+      "summary_original": "arXiv:2610.23512v1 Announce Type: new Abstract: This paper describes topas-editor and TOPilot, which provide a powerful interface to the TOPAS software suite and allow generative AI-driven automation of complex crystallographic tasks. topas-editor is a TOPAS-aware VS Code extension designed for the rapid creation and editing of TOPAS input files and for interacting with the software. It knows TOPAS syntax, has crystallographic-aware editing features and provides in-line user guidance via hover tips and automated links to reference manuals. TOPilot is a collection of Python routines and machine-accessible reference documents that allow AI-driven automated analysis in TOPAS. It uses a transfer",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "长程机器学习势兼顾电响应与分布式原子模拟",
+      "url": "https://arxiv.org/abs/2610.23643",
+      "body": "arXiv:2610.23643v1 Announce Type: new Abstract: Accurate atomistic simulations of materials under electric fields require long-range electrostatics and electrical-response modeling at length scales beyond the reach of conventional first-principles methods. Yet these capabilities remain difficult to reconcile with the scalability of machine-learning interatomic potentials (MLIPs). Strictly local models enable efficient spatial parallelization but neglect long-range interactions, whereas existing electrostatic extensions introduce global dependencies that hinder distributed computation. Here, we overcome this limitation by analytically separating the long-range electrostatic forces and Born ef",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究分离全局静电与局域潜电荷导数，构建可并行评估的能量、力及 Born 有效电荷模型，并测试水与功能材料。规模和计算开销来自特定平台与体系，电场响应预测仍需按目标条件验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Scalable long-range machine learning interatomic potentials with electrical response for atomistic material modeling",
+      "summary_original": "arXiv:2610.23643v1 Announce Type: new Abstract: Accurate atomistic simulations of materials under electric fields require long-range electrostatics and electrical-response modeling at length scales beyond the reach of conventional first-principles methods. Yet these capabilities remain difficult to reconcile with the scalability of machine-learning interatomic potentials (MLIPs). Strictly local models enable efficient spatial parallelization but neglect long-range interactions, whereas existing electrostatic extensions introduce global dependencies that hinder distributed computation. Here, we overcome this limitation by analytically separating the long-range electrostatic forces and Born ef",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "等变网络学习分子电子自能并重建光谱",
+      "url": "https://arxiv.org/abs/2610.23717",
+      "body": "arXiv:2610.23717v1 Announce Type: new Abstract: The electronic self-energy determines the single-particle Green's function and, through it, quasiparticle energies and spectral functions, but computing it from first principles is expensive and it is a difficult machine-learning target: complex-valued, matrix-valued in a local-orbital basis, and dependent on a continuous frequency. We predict the dynamical correlation part of the imaginary-frequency G_0W_0 self-energy matrix of molecules from atomic species and coordinates with an E(3)-equivariant message-passing network, the rotational covariance of the orbital-space matrix being imposed by the architecture itself and the static exchange part",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究在虚频轴预测 G₀W₀ 动态关联自能矩阵，再在保持因果性与非负谱密度的表示中延拓。水簇及分子测试显示接近参考结果，模型仍依赖 DFT 参考，不能视为无需任何电子结构计算。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Learning the self-energy through equivariant neural networks",
+      "summary_original": "arXiv:2610.23717v1 Announce Type: new Abstract: The electronic self-energy determines the single-particle Green's function and, through it, quasiparticle energies and spectral functions, but computing it from first principles is expensive and it is a difficult machine-learning target: complex-valued, matrix-valued in a local-orbital basis, and dependent on a continuous frequency. We predict the dynamical correlation part of the imaginary-frequency G_0W_0 self-energy matrix of molecules from atomic species and coordinates with an E(3)-equivariant message-passing network, the rotational covariance of the orbital-space matrix being imposed by the architecture itself and the static exchange part",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "NanoTerasu 自动实验终端结合机器人与谱学分析",
+      "url": "https://arxiv.org/abs/2610.22384",
+      "body": "arXiv:2610.22384v1 Announce Type: cross Abstract: Driven by the growing integration of artificial intelligence and robotics in experimental science, we redefine the execution of user experiments at synchrotron soft X-ray beamlines by developing a highly automated end-station that can be operated without on-site staff. Installed at beamline BL08U of NanoTerasu, the system comprises four chamber units and two robots that automatically transfer samples from ambient air to an ultrahigh vacuum measurement stage for spectroscopic evaluations, before returning them to their original locations post-measurement. Soft X-ray absorption spectra are automatically acquired once programmed by scanning the ",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：系统自动完成样品从空气到超高真空的转移、程序化软 X 射线吸收谱采集及降维分析，并积累数据供远程查看。无人现场操作能力限定于所建终端及预设流程，不等于任意实验无需监督。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Automated end-station at the soft X-ray beamline featuring robotic air-to-ultrahigh-vacuum sample transfer, scanning probe spectroscopy, and machine learning analysis",
+      "summary_original": "arXiv:2610.22384v1 Announce Type: cross Abstract: Driven by the growing integration of artificial intelligence and robotics in experimental science, we redefine the execution of user experiments at synchrotron soft X-ray beamlines by developing a highly automated end-station that can be operated without on-site staff. Installed at beamline BL08U of NanoTerasu, the system comprises four chamber units and two robots that automatically transfer samples from ambient air to an ultrahigh vacuum measurement stage for spectroscopic evaluations, before returning them to their original locations post-measurement. Soft X-ray absorption spectra are automatically acquired once programmed by scanning the ",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "综述审视原子间势主动学习的不确定性与数据效率",
+      "url": "https://arxiv.org/abs/2610.23776",
+      "body": "arXiv:2610.23776v1 Announce Type: cross Abstract: Developing a machine learning interatomic potential (MLIP) that is accurate for the specific conditions under which it will be applied, rather than simply for the predefined configurations chosen by the model developer, is a significant challenge in atomistic simulation. Active learning (AL) addresses this challenge by closing the loop between candidate generation, data selection, reference calculation, and model updating. Here, we survey more than seventy studies, with an emphasis on work from 2020 to 2026, to understand how active learning has evolved from a niche, on-the-fly training technique for query-by-committee and Gaussian process fo",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：文章汇总候选生成、数据选择、参考计算和模型更新的闭环方法，讨论多类材料应用。不确定性估计不可在架构间直接互换，且可能在关键域外区域失效，需结合目标可观测量检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Active Learning for Interatomic Potentials: A Review of Uncertainty-Driven Data Efficiency",
+      "summary_original": "arXiv:2610.23776v1 Announce Type: cross Abstract: Developing a machine learning interatomic potential (MLIP) that is accurate for the specific conditions under which it will be applied, rather than simply for the predefined configurations chosen by the model developer, is a significant challenge in atomistic simulation. Active learning (AL) addresses this challenge by closing the loop between candidate generation, data selection, reference calculation, and model updating. Here, we survey more than seventy studies, with an emphasis on work from 2020 to 2026, to understand how active learning has evolved from a niche, on-the-fly training technique for query-by-committee and Gaussian process fo",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "TRECI 用迁移学习降低恒电位金属水界面模拟成本",
+      "url": "https://arxiv.org/abs/2511.19338",
+      "body": "arXiv:2511.19338v2 Announce Type: replace-cross Abstract: Simulating electrified metal-water interfaces with explicit solvent under constant potential is essential for understanding electrochemical processes, yet remains prohibitively expensive with ab initio methods. We present TRECI, a data-efficient workflow for constructing machine learning force-fields (ML-FFs) that achieve ab initio-level accuracy in electronically grand-canonical molecular dynamics. By leveraging transfer learning from general-purpose and domain-specific models, TRECI enables stable and accurate simulations across a wide potential range using a reduced number of reference configurations. This efficiency allows the use",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：工作流从通用与领域模型迁移，在 Cu(111)-水界面以较少参考构型进行电子巨正则分子动力学，并分析电位相关溶剂重排。验证集中于所述体系与电位范围，不代表所有界面都能用相同数据量复现。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Electrified Metal-Water Interfaces at Constant Potential: Data-Efficient Transfer Learning for Machine-Learning-Based Molecular Dynamics",
+      "summary_original": "arXiv:2511.19338v2 Announce Type: replace-cross Abstract: Simulating electrified metal-water interfaces with explicit solvent under constant potential is essential for understanding electrochemical processes, yet remains prohibitively expensive with ab initio methods. We present TRECI, a data-efficient workflow for constructing machine learning force-fields (ML-FFs) that achieve ab initio-level accuracy in electronically grand-canonical molecular dynamics. By leveraging transfer learning from general-purpose and domain-specific models, TRECI enables stable and accurate simulations across a wide potential range using a reduced number of reference configurations. This efficiency allows the use",
+      "editorial_date": "2026-10-19"
+    },
+    {
+      "title": "Tersoff-NN 结合解析作用与神经网络键级描述硅",
+      "url": "https://arxiv.org/abs/2610.15591",
+      "body": "arXiv:2610.15591v2 Announce Type: replace-cross Abstract: Accurate, robust, and efficient interatomic potentials are highly desirable for large-scale molecular dynamics simulations. Although machine-learning interatomic potentials can reproduce first-principles potential-energy surfaces with high accuracy, they typically incur higher computational costs than conventional empirical potentials and may be less reliable outside their training domains. We developed Tersoff-NN, a hybrid machine-learning potential for Si, which retains the analytical radial interactions and cutoff structure of the Tersoff potential while representing its environment-dependent bond-order factor using compact neural ",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：混合势保留 Tersoff 径向形式，用小网络表示环境相关键级，在硅的结构与动力学测试中平衡效率和精度。报告的加速相对所比较模型与硬件条件，域外稳定性仍需独立验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Tersoff-NN: Hybrid Machine-Learned Bond-Order Extension of the Tersoff Potential",
+      "summary_original": "arXiv:2610.15591v2 Announce Type: replace-cross Abstract: Accurate, robust, and efficient interatomic potentials are highly desirable for large-scale molecular dynamics simulations. Although machine-learning interatomic potentials can reproduce first-principles potential-energy surfaces with high accuracy, they typically incur higher computational costs than conventional empirical potentials and may be less reliable outside their training domains. We developed Tersoff-NN, a hybrid machine-learning potential for Si, which retains the analytical radial interactions and cutoff structure of the Tersoff potential while representing its environment-dependent bond-order factor using compact neural ",
+      "editorial_date": "2026-10-19"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "A Comprehensive Survey of Crystal Structural Prototypes: Construction, Classification, and Applications",
+      "body": "arXiv:2610.22600v1 Announce Type: new Abstract: Crystal structural prototypes describe recurring atomic arrangements across chemically distinct materials. Prototype libraries are built through crystallographic curation, standardization, geometric matching, local-environment clustering, and periodic-graph analysis, and support chemical substitution, derivative enumeration, high-throughput screening, structure solution, crystal structure prediction (CSP), and generative design. This survey compares methods by the structural information they retain and the equivalence rules they impose, distinguishing crystallographic structure types, geometric realizations, chemistry-anonymous topologies, and ",
+      "url": "https://arxiv.org/abs/2610.22600"
+    },
+    {
+      "title": "Physics-Informed Machine Learning for Response Tensors in Crystalline Magnets: Application to Kagome Metals",
+      "body": "arXiv:2610.22642v1 Announce Type: new Abstract: The prediction of response tensors from magnetic textures is a crucial challenge in the study of noncollinear magnets. Existing methods for constructing descriptors of a given response tensor are limited to first-order multipole expansions or restricted to simple magnetic structures. In this work, we construct a complete symmetry-invariant descriptor basis for arbitrary crystal structures and magnetic textures, providing interpretable features for machine learning modeling of response tensors. We modify the standard principal component analysis framework and derive uncorrelated order parameters that are hierarchically stable: extending the orde",
+      "url": "https://arxiv.org/abs/2610.22642"
+    },
+    {
+      "title": "topas-editor and TOPilot: tools for AI-driven analysis of diffraction and total scattering data",
+      "body": "arXiv:2610.23512v1 Announce Type: new Abstract: This paper describes topas-editor and TOPilot, which provide a powerful interface to the TOPAS software suite and allow generative AI-driven automation of complex crystallographic tasks. topas-editor is a TOPAS-aware VS Code extension designed for the rapid creation and editing of TOPAS input files and for interacting with the software. It knows TOPAS syntax, has crystallographic-aware editing features and provides in-line user guidance via hover tips and automated links to reference manuals. TOPilot is a collection of Python routines and machine-accessible reference documents that allow AI-driven automated analysis in TOPAS. It uses a transfer",
+      "url": "https://arxiv.org/abs/2610.23512"
+    },
+    {
+      "title": "Scalable long-range machine learning interatomic potentials with electrical response for atomistic material modeling",
+      "body": "arXiv:2610.23643v1 Announce Type: new Abstract: Accurate atomistic simulations of materials under electric fields require long-range electrostatics and electrical-response modeling at length scales beyond the reach of conventional first-principles methods. Yet these capabilities remain difficult to reconcile with the scalability of machine-learning interatomic potentials (MLIPs). Strictly local models enable efficient spatial parallelization but neglect long-range interactions, whereas existing electrostatic extensions introduce global dependencies that hinder distributed computation. Here, we overcome this limitation by analytically separating the long-range electrostatic forces and Born ef",
+      "url": "https://arxiv.org/abs/2610.23643"
+    },
+    {
+      "title": "Learning the self-energy through equivariant neural networks",
+      "body": "arXiv:2610.23717v1 Announce Type: new Abstract: The electronic self-energy determines the single-particle Green's function and, through it, quasiparticle energies and spectral functions, but computing it from first principles is expensive and it is a difficult machine-learning target: complex-valued, matrix-valued in a local-orbital basis, and dependent on a continuous frequency. We predict the dynamical correlation part of the imaginary-frequency G_0W_0 self-energy matrix of molecules from atomic species and coordinates with an E(3)-equivariant message-passing network, the rotational covariance of the orbital-space matrix being imposed by the architecture itself and the static exchange part",
+      "url": "https://arxiv.org/abs/2610.23717"
+    },
+    {
+      "title": "Automated end-station at the soft X-ray beamline featuring robotic air-to-ultrahigh-vacuum sample transfer, scanning probe spectroscopy, and machine learning analysis",
+      "body": "arXiv:2610.22384v1 Announce Type: cross Abstract: Driven by the growing integration of artificial intelligence and robotics in experimental science, we redefine the execution of user experiments at synchrotron soft X-ray beamlines by developing a highly automated end-station that can be operated without on-site staff. Installed at beamline BL08U of NanoTerasu, the system comprises four chamber units and two robots that automatically transfer samples from ambient air to an ultrahigh vacuum measurement stage for spectroscopic evaluations, before returning them to their original locations post-measurement. Soft X-ray absorption spectra are automatically acquired once programmed by scanning the ",
+      "url": "https://arxiv.org/abs/2610.22384"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-10-19T13:33:27.435656+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 63
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 9,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-10-19",
+    "items_applied": 24,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
