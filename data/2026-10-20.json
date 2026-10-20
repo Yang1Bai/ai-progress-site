@@ -1,0 +1,488 @@
+{
+  "date": "2026年10月20日",
+  "news": [
+    {
+      "title": "AnyLanguageModel 1.0 统一 Apple 平台本地与托管模型接口",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "body": "项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Hugging Face 团队介绍 PyTorch 2.15 的 MPS 改进",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "body": "文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "MPS in PyTorch 2.15",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "MIT 用对称性模型辅助运动中胎儿 MRI 重建",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "body": "报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T14:20:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "body_original": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "OpenAI 报告低资源编程语言构建与迁移评测进展",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "body": "研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "Advancing coding in low‑resource programming languages",
+      "body_original": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "TorchNeuron 公测将 Trainium 接入原生 PyTorch 工作流",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "body": "文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。",
+      "date": "2026-10-18",
+      "published_at": "2026-10-18T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-18"
+      ],
+      "importance": "normal",
+      "title_original": "Giving AI a “crystal clear” view of the materials world",
+      "body_original": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Itaú 如何面向全体客户构建生成式 AI",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "body": "仅根据已有来源标题翻译。原文当前无法访问，未核验正文，不沿用此前案例细节。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "How Itaú is building generative AI for its entire customer base",
+      "body_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Google 探索将 AI 智能体与湿实验机器人结合",
+      "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+      "body": "研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T18:11:34+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+      "body_original": "General Science",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "MIT 报道 Kendall Square 创新活动中的社区与劳动议题",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "body": "活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T12:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Fostering community amid Kendall Square’s innovation",
+      "body_original": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "NVIDIA 与 AI4Bharat 介绍印度语言预训练数据生成方案",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "body": "文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T01:44:47+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Benefit Street Partners 分享用 Codex 加快问题解答的案例",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "body": "客户案例介绍把 AI 编码与内部工作需求结合，以帮助人员更快获取和分析信息。案例经验不代表独立准确率评估，也不能据此推断投资回报或省略对输出的核验。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Benefit Street Partners answers questions faster with Codex",
+      "body_original": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Stack Overflow 分享通过 ChatGPT 插件扩展智能体服务的案例",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "body": "客户案例讨论将 Stack Overflow for Agents 与 ChatGPT 插件连接，以及注册量变化。增长指标来自企业报告，不能把注册量直接当作持续使用、收入增长或答案质量提升。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "body_original": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Reflection 发布面向编码与智能体的 Beam 开放模型",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "body": "Hugging Face 介绍 Beam 混合专家模型、长上下文及配套运行框架，并提供推理和后训练方案。总参数规模较大，激活参数不能直接代表显存需求；文章所述能力仍需结合具体部署与任务测试。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "Granite Switch 4.1 将对话、决策和语音转写组合到同一端点",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "body": "IBM 团队介绍基础模型、决策适配器与语音识别组件的组合及缓存复用，用于多类任务切换。效率与榜单描述来自团队测试，不能视为所有负载或硬件上的统一表现。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T20:34:01+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "body_original": "",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "OpenAI 推出面向合资格学术实验室的 Rosalind 计划",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "body": "计划为合资格美国大学实验室提供限期赞助席位，GPT-Rosalind 访问仍需审批，当前不包含 API。科研应用示例不代表实验结论已自动验证；资格、期限和用量限制应按官方要求确认。",
+      "date": "2026-10-15",
+      "published_at": "2026-10-15T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-15"
+      ],
+      "importance": "normal",
+      "title_original": "Bringing GPT-Rosalind to academic research labs",
+      "body_original": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "editorial_date": "2026-10-20"
+    }
+  ],
+  "papers": [
+    {
+      "title": "MagPT 联合建模原子结构与磁矩预测磁行为",
+      "url": "https://arxiv.org/abs/2610.24407",
+      "body": "arXiv:2610.24407v1 Announce Type: new Abstract: Controlling magnetic phases and properties through composition and external conditions is central to the development of magnetic materials. Atomistic foundation models offer a route to predicting such behaviour across diverse materials, but magnetic materials remain challenging because their atomic structure and local moments are strongly coupled, while temperature and disorder drive magnetic moments into non-collinear states with evolving orientations and magnitudes. Broadly pretrained atomistic models still sample only limited magnetic diversity, while finite-temperature descriptions of coupled lattice and magnetic fluctuations remain largely",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：模型在多元素自旋晶格构型上预训练，同时描述原子位置与矢量磁矩，测试不同组分和温度下的磁行为。覆盖仍受训练构型与测试体系限制，不能保证所有磁相和条件均可准确预测。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Atomistic prediction of magnetic behaviour across chemistry, structure and temperature",
+      "summary_original": "arXiv:2610.24407v1 Announce Type: new Abstract: Controlling magnetic phases and properties through composition and external conditions is central to the development of magnetic materials. Atomistic foundation models offer a route to predicting such behaviour across diverse materials, but magnetic materials remain challenging because their atomic structure and local moments are strongly coupled, while temperature and disorder drive magnetic moments into non-collinear states with evolving orientations and magnitudes. Broadly pretrained atomistic models still sample only limited magnetic diversity, while finite-temperature descriptions of coupled lattice and magnetic fluctuations remain largely",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "PDF 与机器学习分子动力学解析三维 COF 局域运动",
+      "url": "https://arxiv.org/abs/2610.24418",
+      "body": "arXiv:2610.24418v1 Announce Type: new Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both are c",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合同步辐射对分布函数与机器学习势模拟，比较两类三维 COF 连接单元的振动、倾转和位移。结果关联特定结构与局域动力学，不代表所有框架的吸附或扩散性能已被验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Reticulating Local Dynamics in Three-Dimensional Covalent Organic Frameworks",
+      "summary_original": "arXiv:2610.24418v1 Announce Type: new Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both are c",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "晶体图网络与语言模型融合预测磁有序类别",
+      "url": "https://arxiv.org/abs/2610.25775",
+      "body": "arXiv:2610.25775v1 Announce Type: new Abstract: AI/ML models are useful for the prediction of materials' properties. Recently, there has been great progress in developing Neural Network models to predict the properties of solids, molecules, and crystals, avoiding expensive and time-consuming laboratory testing. This study presents a novel AI/ML-based multi-modal approach to predict material magnetic ordering using material crystal structure information as input to a Graph Neural Network model (GNN) and semantic text descriptions of the material's properties and structure as input to a Large Language Model (LLM), before performing information fusion of the GNN and LLM outputs to predict mater",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究融合结构图和语义文本，预测非磁、铁磁、反铁磁及亚铁磁类别，并与单模态方法比较。结果依赖所述数据划分，不能由内部测试精度直接推断未见化学空间的泛化。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Crystal Structure Based Graph Neural Network And LLM Multi-Modal Approach for Material Magnetic Ordering Prediction",
+      "summary_original": "arXiv:2610.25775v1 Announce Type: new Abstract: AI/ML models are useful for the prediction of materials' properties. Recently, there has been great progress in developing Neural Network models to predict the properties of solids, molecules, and crystals, avoiding expensive and time-consuming laboratory testing. This study presents a novel AI/ML-based multi-modal approach to predict material magnetic ordering using material crystal structure information as input to a Graph Neural Network model (GNN) and semantic text descriptions of the material's properties and structure as input to a Large Language Model (LLM), before performing information fusion of the GNN and LLM outputs to predict mater",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "微调机器学习势探索金刚石缺陷形成路径",
+      "url": "https://arxiv.org/abs/2610.26301",
+      "body": "arXiv:2610.26301v1 Announce Type: new Abstract: Diamond is an important host material for functional defects such as solid-state spin qubits. During the defect creation by irradiation and subsequent thermal annealing, carbon-related defects, including vacancies and interstitials, are generated and can migrate to form new defect complexes. To investigate this kinetically driven process and reveal the formation mechanisms of the di-interstitials and di-vacancies in the neutral charge state, we fine-tuned a universal machine learning interatomic potential using a small dataset generated from density functional theory calculations. We obtained a barrier of 1.84 eV for mono-interstitial migration",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用 DFT 小数据集微调通用势，分析中性碳间隙与空位的迁移和复合机制。计算提供候选路径，结论限于所测电荷态与模型验证范围。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Machine Learning-Assisted Discovery of Carbon-Related Defect Formation Mechanisms in Diamond",
+      "summary_original": "arXiv:2610.26301v1 Announce Type: new Abstract: Diamond is an important host material for functional defects such as solid-state spin qubits. During the defect creation by irradiation and subsequent thermal annealing, carbon-related defects, including vacancies and interstitials, are generated and can migrate to form new defect complexes. To investigate this kinetically driven process and reveal the formation mechanisms of the di-interstitials and di-vacancies in the neutral charge state, we fine-tuned a universal machine learning interatomic potential using a small dataset generated from density functional theory calculations. We obtained a barrier of 1.84 eV for mono-interstitial migration",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "无序碳测试揭示基础机器学习势的动力学失效",
+      "url": "https://arxiv.org/abs/2610.26701",
+      "body": "arXiv:2610.26701v1 Announce Type: cross Abstract: Foundation machine-learned interatomic potentials (MLIPs) promise broad transferability, yet their out-of-domain reliability is hard to establish. Here, we use pure and O/H-containing disordered carbon spanning multiple phases, competing hybridisations and porous frameworks to stress-test six popular foundation MLIPs. We first screen all six on density functional theory (DFT) energy and force errors and binding curves, then subject four to melt-quench-anneal molecular dynamics and evaluate the resulting structural observables. Binding curves and O/H-containing trajectories reveal unphysical extrapolation and dynamical failures that low DFT en",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究比较能量、力、结合曲线及熔融淬火模拟，发现低 DFT 误差可能掩盖不物理外推和动力学失败。可靠性须按目标体系与可观测量验证，不能仅以静态误差排序。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Challenging Atomistic Foundation Models on Disordered Carbons",
+      "summary_original": "arXiv:2610.26701v1 Announce Type: cross Abstract: Foundation machine-learned interatomic potentials (MLIPs) promise broad transferability, yet their out-of-domain reliability is hard to establish. Here, we use pure and O/H-containing disordered carbon spanning multiple phases, competing hybridisations and porous frameworks to stress-test six popular foundation MLIPs. We first screen all six on density functional theory (DFT) energy and force errors and binding curves, then subject four to melt-quench-anneal molecular dynamics and evaluate the resulting structural observables. Binding curves and O/H-containing trajectories reveal unphysical extrapolation and dynamical failures that low DFT en",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "机器学习校正钢的浅层压痕尺寸效应",
+      "url": "https://arxiv.org/abs/2604.27775",
+      "body": "arXiv:2604.27775v4 Announce Type: replace Abstract: Shallow nanoindentation, needed for thin layers, individual phases and small volumes, gives hardness inflated by the indentation size effect (ISE). The Nix-Gao correction reduces this inflation but requires deep indentations of the same material, often impossible in such samples. We present a data-efficient workflow, trained on a few reference materials, that predicts a high-load reference hardness from a single shallow indentation. Seven models were trained on 703 indentations (5-350 mN) on three steels (2.0-6.5 GPa): Ridge regression, Random Forest, XGBoost, two feed-forward networks, and two physics-constrained neural networks (PCNNs) th",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究从浅压痕估计高载荷参考硬度，比较线性、树模型与物理约束网络。开发集最优模型未必最好迁移；在域外熔融石英上全部失败，适用边界明确。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Data-Efficient Indentation Size Effect Mitigation in Steels Using Machine Learning and a Physics-Constrained Neural Network",
+      "summary_original": "arXiv:2604.27775v4 Announce Type: replace Abstract: Shallow nanoindentation, needed for thin layers, individual phases and small volumes, gives hardness inflated by the indentation size effect (ISE). The Nix-Gao correction reduces this inflation but requires deep indentations of the same material, often impossible in such samples. We present a data-efficient workflow, trained on a few reference materials, that predicts a high-load reference hardness from a single shallow indentation. Seven models were trained on 703 indentations (5-350 mN) on three steels (2.0-6.5 GPa): Ridge regression, Random Forest, XGBoost, two feed-forward networks, and two physics-constrained neural networks (PCNNs) th",
+      "editorial_date": "2026-10-20"
+    },
+    {
+      "title": "生成式晶体预测基准检验原型依赖",
+      "url": "https://arxiv.org/abs/2609.26502",
+      "body": "arXiv:2609.26502v2 Announce Type: replace Abstract: Deep generative models are widely reported to enable de novo crystal structure prediction (CSP), but their capability has not been measured consistently against template-based methods. We evaluate 12 representative generative CSP models, spanning latent-variable, diffusion, flow-matching, autoregressive, and manifold random-walk architectures, against TCSP 2.0 on 180 test structures and a leakage-controlled subset of 46. All methods use identical structure-matching, symmetry, and consensus criteria. Template retrieval is the strongest single method, reaching 68.3% top-1 success; symmetry-aware EquiCSP (66.4%) and Uni-3DAR (62.9%) form the n",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究在统一标准下比较多类生成模型与模板方法，并通过移除训练原型家族测试依赖。结果提示生成优势有限且依赖覆盖，不能将基准成功直接等同于真正从零发现新原型。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
+      "summary_original": "arXiv:2609.26502v2 Announce Type: replace Abstract: Deep generative models are widely reported to enable de novo crystal structure prediction (CSP), but their capability has not been measured consistently against template-based methods. We evaluate 12 representative generative CSP models, spanning latent-variable, diffusion, flow-matching, autoregressive, and manifold random-walk architectures, against TCSP 2.0 on 180 test structures and a leakage-controlled subset of 46. All methods use identical structure-matching, symmetry, and consensus criteria. Template retrieval is the strongest single method, reaching 68.3% top-1 success; symmetry-aware EquiCSP (66.4%) and Uni-3DAR (62.9%) form the n",
+      "editorial_date": "2026-10-20"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Atomistic prediction of magnetic behaviour across chemistry, structure and temperature",
+      "body": "arXiv:2610.24407v1 Announce Type: new Abstract: Controlling magnetic phases and properties through composition and external conditions is central to the development of magnetic materials. Atomistic foundation models offer a route to predicting such behaviour across diverse materials, but magnetic materials remain challenging because their atomic structure and local moments are strongly coupled, while temperature and disorder drive magnetic moments into non-collinear states with evolving orientations and magnitudes. Broadly pretrained atomistic models still sample only limited magnetic diversity, while finite-temperature descriptions of coupled lattice and magnetic fluctuations remain largely",
+      "url": "https://arxiv.org/abs/2610.24407"
+    },
+    {
+      "title": "Reticulating Local Dynamics in Three-Dimensional Covalent Organic Frameworks",
+      "body": "arXiv:2610.24418v1 Announce Type: new Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both are c",
+      "url": "https://arxiv.org/abs/2610.24418"
+    },
+    {
+      "title": "Crystal Structure Based Graph Neural Network And LLM Multi-Modal Approach for Material Magnetic Ordering Prediction",
+      "body": "arXiv:2610.25775v1 Announce Type: new Abstract: AI/ML models are useful for the prediction of materials' properties. Recently, there has been great progress in developing Neural Network models to predict the properties of solids, molecules, and crystals, avoiding expensive and time-consuming laboratory testing. This study presents a novel AI/ML-based multi-modal approach to predict material magnetic ordering using material crystal structure information as input to a Graph Neural Network model (GNN) and semantic text descriptions of the material's properties and structure as input to a Large Language Model (LLM), before performing information fusion of the GNN and LLM outputs to predict mater",
+      "url": "https://arxiv.org/abs/2610.25775"
+    },
+    {
+      "title": "Machine Learning-Assisted Discovery of Carbon-Related Defect Formation Mechanisms in Diamond",
+      "body": "arXiv:2610.26301v1 Announce Type: new Abstract: Diamond is an important host material for functional defects such as solid-state spin qubits. During the defect creation by irradiation and subsequent thermal annealing, carbon-related defects, including vacancies and interstitials, are generated and can migrate to form new defect complexes. To investigate this kinetically driven process and reveal the formation mechanisms of the di-interstitials and di-vacancies in the neutral charge state, we fine-tuned a universal machine learning interatomic potential using a small dataset generated from density functional theory calculations. We obtained a barrier of 1.84 eV for mono-interstitial migration",
+      "url": "https://arxiv.org/abs/2610.26301"
+    },
+    {
+      "title": "Challenging Atomistic Foundation Models on Disordered Carbons",
+      "body": "arXiv:2610.26701v1 Announce Type: cross Abstract: Foundation machine-learned interatomic potentials (MLIPs) promise broad transferability, yet their out-of-domain reliability is hard to establish. Here, we use pure and O/H-containing disordered carbon spanning multiple phases, competing hybridisations and porous frameworks to stress-test six popular foundation MLIPs. We first screen all six on density functional theory (DFT) energy and force errors and binding curves, then subject four to melt-quench-anneal molecular dynamics and evaluate the resulting structural observables. Binding curves and O/H-containing trajectories reveal unphysical extrapolation and dynamical failures that low DFT en",
+      "url": "https://arxiv.org/abs/2610.26701"
+    },
+    {
+      "title": "Data-Efficient Indentation Size Effect Mitigation in Steels Using Machine Learning and a Physics-Constrained Neural Network",
+      "body": "arXiv:2604.27775v4 Announce Type: replace Abstract: Shallow nanoindentation, needed for thin layers, individual phases and small volumes, gives hardness inflated by the indentation size effect (ISE). The Nix-Gao correction reduces this inflation but requires deep indentations of the same material, often impossible in such samples. We present a data-efficient workflow, trained on a few reference materials, that predicts a high-load reference hardness from a single shallow indentation. Seven models were trained on 703 indentations (5-350 mN) on three steels (2.0-6.5 GPa): Ridge regression, Random Forest, XGBoost, two feed-forward networks, and two physics-constrained neural networks (PCNNs) th",
+      "url": "https://arxiv.org/abs/2604.27775"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-10-20T13:04:26.053295+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 11
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 77
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 7,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-10-20",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
