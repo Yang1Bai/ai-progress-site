@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-20T13:05:37Z</updated>
+  <updated>2026-10-20T16:15:33Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月20日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-20.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-20.html</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/fairstress"/>
+    <id>https://huggingface.co/blog/allenai/fairstress</id>
+    <updated>2026-10-20T16:15:33Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/ibm-research/altk-evolve-bc"/>
+    <id>https://huggingface.co/blog/ibm-research/altk-evolve-bc</id>
+    <updated>2026-10-20T16:15:33Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/hf-torchtpu"/>
+    <id>https://huggingface.co/blog/hf-torchtpu</id>
+    <updated>2026-10-20T16:15:33Z</updated>
+    <summary></summary>
   </entry>
   <entry>
     <title>项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型…</title>
     <link href="https://huggingface.co/blog/anylanguagemodel-1-0"/>
     <id>https://huggingface.co/blog/anylanguagemodel-1-0</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。</summary>
   </entry>
   <entry>
     <title>文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优…</title>
     <link href="https://huggingface.co/blog/mps-pytorch-2-15"/>
     <id>https://huggingface.co/blog/mps-pytorch-2-15</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。</summary>
   </entry>
   <entry>
     <title>报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。…</title>
     <link href="https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019"/>
     <id>https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。</summary>
   </entry>
   <entry>
     <title>研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。…</title>
     <link href="https://openai.com/index/low-resource-programming-languages"/>
     <id>https://openai.com/index/low-resource-programming-languages</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。</summary>
   </entry>
   <entry>
     <title>文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。…</title>
     <link href="https://huggingface.co/blog/hf-torchneuron"/>
     <id>https://huggingface.co/blog/hf-torchneuron</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。</summary>
   </entry>
   <entry>
     <title>报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任…</title>
     <link href="https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018"/>
     <id>https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。</summary>
   </entry>
   <entry>
     <title>仅根据已有来源标题翻译。原文当前无法访问，未核验正文，不沿用此前案例细节。…</title>
     <link href="https://openai.com/index/itau-generative-ai"/>
     <id>https://openai.com/index/itau-generative-ai</id>
-    <updated>2026-10-20T13:05:37Z</updated>
+    <updated>2026-10-20T16:15:33Z</updated>
     <summary>仅根据已有来源标题翻译。原文当前无法访问，未核验正文，不沿用此前案例细节。</summary>
-  </entry>
-  <entry>
-    <title>研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展…</title>
-    <link href="https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/"/>
-    <id>https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/</id>
-    <updated>2026-10-20T13:05:37Z</updated>
-    <summary>研究介绍把智能体连接到实验机器人，通过真实读数反馈开展分子设计循环，并报告特定蛋白结合物研究结果。文章也指出模型对三维几何与物理状态推理仍不可靠；自动化实验进展不等于药物已获临床验证。</summary>
-  </entry>
-  <entry>
-    <title>活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。…</title>
-    <link href="https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016"/>
-    <id>https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016</id>
-    <updated>2026-10-20T13:05:37Z</updated>
-    <summary>活动汇集企业、居民与研究人员，讨论 AI 如何帮助劳动者扩展能力，以及创新与社区的关系。报道呈现演讲和交流观点，不是关于就业影响的因果研究。</summary>
-  </entry>
-  <entry>
-    <title>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语…</title>
-    <link href="https://huggingface.co/blog/nvidia/scaling-indic-pretraining"/>
-    <id>https://huggingface.co/blog/nvidia/scaling-indic-pretraining</id>
-    <updated>2026-10-20T13:05:37Z</updated>
-    <summary>文章预告覆盖 22 种印度语言的大规模语料及开放 GPU 数据生成管线，包含翻译、质量检查与修复流程。来源称数据即将发布，不能写成已全部开放；规模也不等于所有语言质量已独立验证。</summary>
   </entry>
 </feed>
