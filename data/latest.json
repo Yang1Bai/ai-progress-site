@@ -2,6 +2,58 @@
   "date": "2026年10月21日",
   "news": [
     {
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+      "body": "Health & Bioscience",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T16:23:53+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1-system-level-profilin",
+      "body": "",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T16:04:43+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "body": "",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T14:58:18+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "body": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "NVIDIA Kumo Forecast 结合预训练与历史模式检索",
       "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
       "body": "模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。",
@@ -32,6 +84,45 @@
       "title_original": "OpenAI models are coming to Google Cloud",
       "body_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "body": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "body": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-21"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "body": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T04:50:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-21"
+      ],
+      "importance": "normal"
     },
     {
       "title": "FairStress 检验模型决策受挑战时的公平性",
@@ -127,118 +218,6 @@
       "importance": "normal",
       "title_original": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
       "body_original": "",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "AnyLanguageModel 1.0 统一 Apple 平台本地与托管模型接口",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "body": "项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。",
-      "date": "2026-10-20",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-20"
-      ],
-      "importance": "normal",
-      "title_original": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "body_original": "",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "Hugging Face 团队介绍 PyTorch 2.15 的 MPS 改进",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "body": "文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。",
-      "date": "2026-10-20",
-      "published_at": "2026-10-20T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-20"
-      ],
-      "importance": "normal",
-      "title_original": "MPS in PyTorch 2.15",
-      "body_original": "",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "MIT 用对称性模型辅助运动中胎儿 MRI 重建",
-      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-      "body": "报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。",
-      "date": "2026-10-19",
-      "published_at": "2026-10-19T14:20:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-19"
-      ],
-      "importance": "normal",
-      "title_original": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-      "body_original": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "OpenAI 报告低资源编程语言构建与迁移评测进展",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "body": "研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。",
-      "date": "2026-10-19",
-      "published_at": "2026-10-19T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-19"
-      ],
-      "importance": "normal",
-      "title_original": "Advancing coding in low‑resource programming languages",
-      "body_original": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "TorchNeuron 公测将 Trainium 接入原生 PyTorch 工作流",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "body": "文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。",
-      "date": "2026-10-19",
-      "published_at": "2026-10-19T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-19"
-      ],
-      "importance": "normal",
-      "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "body_original": "",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
-      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。",
-      "date": "2026-10-18",
-      "published_at": "2026-10-18T00:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-18"
-      ],
-      "importance": "normal",
-      "title_original": "Giving AI a “crystal clear” view of the materials world",
-      "body_original": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "editorial_date": "2026-10-21"
-    },
-    {
-      "title": "Itaú 分享客户生成式 AI 与治理平台实践",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "body": "客户案例介绍 ia.i 对话服务和 IARA 治理平台，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户仍是目标，效率指标来自企业自报，不能外推为投资收益。",
-      "date": "2026-10-16",
-      "published_at": "2026-10-16T19:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-16"
-      ],
-      "importance": "normal",
-      "title_original": "How Itaú is building generative AI for its entire customer base",
-      "body_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "editorial_date": "2026-10-21"
     }
   ],
@@ -428,31 +407,31 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-21T13:03:28.154713+00:00",
+  "fetched_at": "2026-10-21T16:30:33.139879+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 11
+      "items": 15
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 12
+      "items": 13
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 4
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -473,16 +452,16 @@
       "items": 53
     }
   ],
+  "editorial": {
+    "date": "2026-10-21",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 7,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-21",
-    "items_applied": 22,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
