@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-21",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "title": "NVIDIA Kumo Forecast 结合预训练与历史模式检索",
+      "body": "模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。"
+    },
+    {
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "title": "OpenAI 宣布模型与 Codex 工作流将接入 Google Cloud",
+      "body": "合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "title": "FairStress 检验模型决策受挑战时的公平性",
+      "body": "Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "title": "ALTK-Evolve 用经验规则改善客服智能体基准表现",
+      "body": "方法从训练任务的成功与失败中提取简短规则，加入提示而不更新模型权重。报告结果限定于指定版本的客服基准与榜单快照，不能当作所有生产客服任务的领先表现。"
+    },
+    {
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "title": "餐饮加盟商分享用 ChatGPT Work 加快对账与定价分析",
+      "body": "客户案例介绍菜单分析、薪资和现金对账等工作流。节时数字来自经营者自报，潜在现金流改善是估计，不能写成已经实现的利润。"
+    },
+    {
+      "url": "https://openai.com/index/terminal-x",
+      "title": "Terminal X 分享投资研究输出的评估与审计工作流",
+      "body": "案例介绍按机构标准给智能体输出评分，并比较与资深审核人员的判断一致性。企业自报的一致率不代表投资收益或预测市场的准确率，最终决策仍需专业核验。"
+    },
+    {
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "title": "OpenAI 宣布收购 Orchestra Bio",
+      "body": "公告称已收购药物开发协调平台，并计划与 Rosalind 的模型和科研工具结合。后续目标是帮助团队连接研究、实验与项目决策，不代表新疗法已获临床或监管验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "title": "TorchTPU 将 TPU 接入原生 PyTorch 工作流",
+      "body": "Hugging Face 介绍原生设备后端、内核与分布式支持，减少以往依赖专门适配层的复杂性。兼容范围、性能与成本仍取决于版本、模型和云硬件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "title": "AnyLanguageModel 1.0 统一 Apple 平台本地与托管模型接口",
+      "body": "项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。"
+    },
+    {
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "title": "Hugging Face 团队介绍 PyTorch 2.15 的 MPS 改进",
+      "body": "文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "title": "MIT 用对称性模型辅助运动中胎儿 MRI 重建",
+      "body": "报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。"
+    },
+    {
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "title": "OpenAI 报告低资源编程语言构建与迁移评测进展",
+      "body": "研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。"
+    },
+    {
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "title": "TorchNeuron 公测将 Trainium 接入原生 PyTorch 工作流",
+      "body": "文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
+      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。"
+    },
+    {
+      "url": "https://openai.com/index/itau-generative-ai",
+      "title": "Itaú 分享客户生成式 AI 与治理平台实践",
+      "body": "客户案例介绍 ia.i 对话服务和 IARA 治理平台，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户仍是目标，效率指标来自企业自报，不能外推为投资收益。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.27036",
+      "title": "MOFFieldBench 对齐结构与连续电子场的多模态基准",
+      "summary": "预印本摘要：基准对齐 MOF 晶体结构、电子密度和静电势，用于重建、性质预测与检索。部分任务中融合表示改善结果，密度初始化节时来自配对测试，不能保证所有 MOF 计算同样加速。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27412",
+      "title": "训练后的神经切线核揭示材料表征几何",
+      "summary": "预印本摘要：研究分析仅用组分预测超导转变温度的网络，通过核回归、谱分析和聚类探索学到的材料关系。表征邻近性提供线索，不能据此确认新的超导机制或性质。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28529",
+      "title": "对称性约束模型预测自旋相关非线性霍尔响应",
+      "summary": "预印本摘要：研究在蜂窝模型中分析结构、自旋方向与载流子占据的共同作用。代理精度随化学势变化，优异的固定条件测试不能外推为所有能量范围都准确。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28629",
+      "title": "GBClaw 用领域工具与智能体研究晶界机制",
+      "summary": "预印本摘要：框架结合调度、记忆和原子模拟，分析镍中一般非对称倾斜晶界的缺陷与变形。研究者引导的后续计算仍是机制解释的重要部分，不代表完全无人监督的普遍发现能力。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.27762",
+      "title": "CrystalAR 联合生成对称模板与晶体结构",
+      "summary": "预印本摘要：方法在统一自回归序列中建模 Wyckoff 模板与逐级空间定位，并开展约束搜索。报告生成及结构预测基准表现，仍需检验稳定性、可合成性与域外泛化。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.28363",
+      "title": "TexFlow 在旋转流形上学习晶体织构分布",
+      "summary": "预印本摘要：条件归一化流生成有效旋转，以加工参数等条件描述晶粒取向概率，并辅以全局可视化。概率建模能力不等于所有工艺到性能关系已获验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.20497",
+      "title": "线性元学习与自适应置信度辅助多目标分子搜索",
+      "summary": "预印本摘要：工作流结合可解释代理与多目标优化，在自旋交叉金属有机配合物搜索中比较 Pareto 结果。改进限定于该计算搜索与基准，候选仍需进一步量化和实验验证。"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "date": "2026年10月21日",
+  "news": [
+    {
+      "title": "NVIDIA Kumo Forecast 结合预训练与历史模式检索",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "body": "模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T12:51:24+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "title_original": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "OpenAI 宣布模型与 Codex 工作流将接入 Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "body": "合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI models are coming to Google Cloud",
+      "body_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "FairStress 检验模型决策受挑战时的公平性",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "body": "Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T16:09:19+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "ALTK-Evolve 用经验规则改善客服智能体基准表现",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "body": "方法从训练任务的成功与失败中提取简短规则，加入提示而不更新模型权重。报告结果限定于指定版本的客服基准与榜单快照，不能当作所有生产客服任务的领先表现。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T15:19:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "餐饮加盟商分享用 ChatGPT Work 加快对账与定价分析",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "body": "客户案例介绍菜单分析、薪资和现金对账等工作流。节时数字来自经营者自报，潜在现金流改善是估计，不能写成已经实现的利润。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "body_original": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "Terminal X 分享投资研究输出的评估与审计工作流",
+      "url": "https://openai.com/index/terminal-x",
+      "body": "案例介绍按机构标准给智能体输出评分，并比较与资深审核人员的判断一致性。企业自报的一致率不代表投资收益或预测市场的准确率，最终决策仍需专业核验。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "body_original": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "OpenAI 宣布收购 Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "body": "公告称已收购药物开发协调平台，并计划与 Rosalind 的模型和科研工具结合。后续目标是帮助团队连接研究、实验与项目决策，不代表新疗法已获临床或监管验证。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI acquires Orchestra Bio",
+      "body_original": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "TorchTPU 将 TPU 接入原生 PyTorch 工作流",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "body": "Hugging Face 介绍原生设备后端、内核与分布式支持，减少以往依赖专门适配层的复杂性。兼容范围、性能与成本仍取决于版本、模型和云硬件。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "AnyLanguageModel 1.0 统一 Apple 平台本地与托管模型接口",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "body": "项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "Hugging Face 团队介绍 PyTorch 2.15 的 MPS 改进",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "body": "文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。",
+      "date": "2026-10-20",
+      "published_at": "2026-10-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-20"
+      ],
+      "importance": "normal",
+      "title_original": "MPS in PyTorch 2.15",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "MIT 用对称性模型辅助运动中胎儿 MRI 重建",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "body": "报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T14:20:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "body_original": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "OpenAI 报告低资源编程语言构建与迁移评测进展",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "body": "研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "Advancing coding in low‑resource programming languages",
+      "body_original": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "TorchNeuron 公测将 Trainium 接入原生 PyTorch 工作流",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "body": "文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。",
+      "date": "2026-10-19",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-19"
+      ],
+      "importance": "normal",
+      "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "body_original": "",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "MIT 用结构与语言结合改进 AI 对材料的描述",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "body": "报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。",
+      "date": "2026-10-18",
+      "published_at": "2026-10-18T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-18"
+      ],
+      "importance": "normal",
+      "title_original": "Giving AI a “crystal clear” view of the materials world",
+      "body_original": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "Itaú 分享客户生成式 AI 与治理平台实践",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "body": "客户案例介绍 ia.i 对话服务和 IARA 治理平台，首阶段覆盖部分客户，并计划扩大服务。覆盖全体客户仍是目标，效率指标来自企业自报，不能外推为投资收益。",
+      "date": "2026-10-16",
+      "published_at": "2026-10-16T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-16"
+      ],
+      "importance": "normal",
+      "title_original": "How Itaú is building generative AI for its entire customer base",
+      "body_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "editorial_date": "2026-10-21"
+    }
+  ],
+  "papers": [
+    {
+      "title": "MOFFieldBench 对齐结构与连续电子场的多模态基准",
+      "url": "https://arxiv.org/abs/2610.27036",
+      "body": "arXiv:2610.27036v1 Announce Type: new Abstract: Machine-learning models for metal-organic frameworks (MOFs) predominantly rely on atomic structures, whereas electron-density (ED) and electrostatic-potential (ESP) fields remain underexplored as scalable learning representations. These continuous fields encode complementary spatial and electronic information relevant to structure-property relationships, particularly pore geometry and guest-framework interactions, but costly first-principles calculations, storage requirements and the scarcity of systematically aligned datasets limit their broader use. Here we introduce MOFFieldBench, a multimodal benchmark comprising approximately 46,000 MOFs w",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：基准对齐 MOF 晶体结构、电子密度和静电势，用于重建、性质预测与检索。部分任务中融合表示改善结果，密度初始化节时来自配对测试，不能保证所有 MOF 计算同样加速。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "MOFFieldBench: A Machine Learning Benchmark for Continuous Electronic Fields in Metal-Organic Frameworks",
+      "summary_original": "arXiv:2610.27036v1 Announce Type: new Abstract: Machine-learning models for metal-organic frameworks (MOFs) predominantly rely on atomic structures, whereas electron-density (ED) and electrostatic-potential (ESP) fields remain underexplored as scalable learning representations. These continuous fields encode complementary spatial and electronic information relevant to structure-property relationships, particularly pore geometry and guest-framework interactions, but costly first-principles calculations, storage requirements and the scarcity of systematically aligned datasets limit their broader use. Here we introduce MOFFieldBench, a multimodal benchmark comprising approximately 46,000 MOFs w",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "训练后的神经切线核揭示材料表征几何",
+      "url": "https://arxiv.org/abs/2610.27412",
+      "body": "arXiv:2610.27412v1 Announce Type: new Abstract: Neural networks trained to predict materials properties learn representations whose physical content can be difficult to extract. We use the neural tangent kernel (NTK), evaluated at trained parameters, to recover the geometry learned by a network that predicts superconducting transition temperatures from elemental composition alone. Kernel ridge regression with the trained NTK closely reproduces the network's predictive performance and substantially outperforms regression with the initial kernel. Spectral analysis and multidimensional scaling reveal a geometry dominated by a small number of directions. Clustering and local neighborhood analysi",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究分析仅用组分预测超导转变温度的网络，通过核回归、谱分析和聚类探索学到的材料关系。表征邻近性提供线索，不能据此确认新的超导机制或性质。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Learning the Geometry of Materials Space with Trained Neural Tangent Kernels",
+      "summary_original": "arXiv:2610.27412v1 Announce Type: new Abstract: Neural networks trained to predict materials properties learn representations whose physical content can be difficult to extract. We use the neural tangent kernel (NTK), evaluated at trained parameters, to recover the geometry learned by a network that predicts superconducting transition temperatures from elemental composition alone. Kernel ridge regression with the trained NTK closely reproduces the network's predictive performance and substantially outperforms regression with the initial kernel. Spectral analysis and multidimensional scaling reveal a geometry dominated by a small number of directions. Clustering and local neighborhood analysi",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "对称性约束模型预测自旋相关非线性霍尔响应",
+      "url": "https://arxiv.org/abs/2610.28529",
+      "body": "arXiv:2610.28529v1 Announce Type: new Abstract: A Berry-curvature dipole can produce a nonlinear Hall current even when the linear Hall response vanishes, but symmetry alone does not determine its magnitude or magnetic tunability. The interplay of structural symmetry, moment orientation, and carrier occupation is examined in a honeycomb model. Curvature maps and the band-summed dipole integrand reveal how velocity and the occupation window near the Fermi level select signed contributions. Removing threefold rotation permits a nonmagnetic dipole perpendicular to the surviving mirror. Generic magnetic reorientation activates the second component and tunes both components through positive and n",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究在蜂窝模型中分析结构、自旋方向与载流子占据的共同作用。代理精度随化学势变化，优异的固定条件测试不能外推为所有能量范围都准确。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Symmetry-Guided Machine Learning of Spin-Dependent Nonlinear Hall Response",
+      "summary_original": "arXiv:2610.28529v1 Announce Type: new Abstract: A Berry-curvature dipole can produce a nonlinear Hall current even when the linear Hall response vanishes, but symmetry alone does not determine its magnitude or magnetic tunability. The interplay of structural symmetry, moment orientation, and carrier occupation is examined in a honeycomb model. Curvature maps and the band-summed dipole integrand reveal how velocity and the occupation window near the Fermi level select signed contributions. Removing threefold rotation permits a nonmagnetic dipole perpendicular to the surviving mirror. Generic magnetic reorientation activates the second component and tunes both components through positive and n",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "GBClaw 用领域工具与智能体研究晶界机制",
+      "url": "https://arxiv.org/abs/2610.28629",
+      "body": "arXiv:2610.28629v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majority of real-world interfaces in polycrystalline materials, they remain understudied because their structural complexity and interfacial mismatch complicate experimental and modeling research. GBClaw integrates large language models (LLMs) into a modul",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架结合调度、记忆和原子模拟，分析镍中一般非对称倾斜晶界的缺陷与变形。研究者引导的后续计算仍是机制解释的重要部分，不代表完全无人监督的普遍发现能力。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "summary_original": "arXiv:2610.28629v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majority of real-world interfaces in polycrystalline materials, they remain understudied because their structural complexity and interfacial mismatch complicate experimental and modeling research. GBClaw integrates large language models (LLMs) into a modul",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "CrystalAR 联合生成对称模板与晶体结构",
+      "url": "https://arxiv.org/abs/2610.27762",
+      "body": "arXiv:2610.27762v1 Announce Type: cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional structures",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法在统一自回归序列中建模 Wyckoff 模板与逐级空间定位，并开展约束搜索。报告生成及结构预测基准表现，仍需检验稳定性、可合成性与域外泛化。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
+      "summary_original": "arXiv:2610.27762v1 Announce Type: cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional structures",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "TexFlow 在旋转流形上学习晶体织构分布",
+      "url": "https://arxiv.org/abs/2610.28363",
+      "body": "arXiv:2610.28363v1 Announce Type: cross Abstract: Crystallographic texture is an important microstructural feature that statistically describes the orientations of grains in polycrystalline materials. Conventional texture analysis relies on the orientation distribution functions and pole figures, which are essential for interpreting the texture of a given material specimen but do not, by themselves, provide a direct framework for predictive modeling of process-structure-property linkages. Data- and machine learning-based approaches offer a means to address this gap; however, a key challenge lies in developing representations and learning frameworks that account for the manifold structure of ",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：条件归一化流生成有效旋转，以加工参数等条件描述晶粒取向概率，并辅以全局可视化。概率建模能力不等于所有工艺到性能关系已获验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "TexFlow: learning crystallographic texture on SO(3) manifold via normalizing flows",
+      "summary_original": "arXiv:2610.28363v1 Announce Type: cross Abstract: Crystallographic texture is an important microstructural feature that statistically describes the orientations of grains in polycrystalline materials. Conventional texture analysis relies on the orientation distribution functions and pole figures, which are essential for interpreting the texture of a given material specimen but do not, by themselves, provide a direct framework for predictive modeling of process-structure-property linkages. Data- and machine learning-based approaches offer a means to address this gap; however, a key challenge lies in developing representations and learning frameworks that account for the manifold structure of ",
+      "editorial_date": "2026-10-21"
+    },
+    {
+      "title": "线性元学习与自适应置信度辅助多目标分子搜索",
+      "url": "https://arxiv.org/abs/2606.20497",
+      "body": "arXiv:2606.20497v2 Announce Type: replace-cross Abstract: Navigating the vast space of synthetically accessible molecules demands surrogate models that are interpretable and capable of handling multiple competing objectives at the same time. Deep learning approaches struggle to satisfy them under the computational constraints of quantum-level chemistry. Here, we introduce a modular pipeline that combines interpretable linear meta-learning models and adaptive-confidence uncertainty quantification into an Efficient Global Optimization (EGO) framework for multi-objective molecular discovery. For the first time, linear meta-learning is deployed in a multi-objective chemical search setting: by tr",
+      "date": "2026-10-21",
+      "published_at": "2026-10-21T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-21"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：工作流结合可解释代理与多目标优化，在自旋交叉金属有机配合物搜索中比较 Pareto 结果。改进限定于该计算搜索与基准，候选仍需进一步量化和实验验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Interpretable Meta-Learning for Multi-Objective Chemical Search",
+      "summary_original": "arXiv:2606.20497v2 Announce Type: replace-cross Abstract: Navigating the vast space of synthetically accessible molecules demands surrogate models that are interpretable and capable of handling multiple competing objectives at the same time. Deep learning approaches struggle to satisfy them under the computational constraints of quantum-level chemistry. Here, we introduce a modular pipeline that combines interpretable linear meta-learning models and adaptive-confidence uncertainty quantification into an Efficient Global Optimization (EGO) framework for multi-objective molecular discovery. For the first time, linear meta-learning is deployed in a multi-objective chemical search setting: by tr",
+      "editorial_date": "2026-10-21"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "MOFFieldBench: A Machine Learning Benchmark for Continuous Electronic Fields in Metal-Organic Frameworks",
+      "body": "arXiv:2610.27036v1 Announce Type: new Abstract: Machine-learning models for metal-organic frameworks (MOFs) predominantly rely on atomic structures, whereas electron-density (ED) and electrostatic-potential (ESP) fields remain underexplored as scalable learning representations. These continuous fields encode complementary spatial and electronic information relevant to structure-property relationships, particularly pore geometry and guest-framework interactions, but costly first-principles calculations, storage requirements and the scarcity of systematically aligned datasets limit their broader use. Here we introduce MOFFieldBench, a multimodal benchmark comprising approximately 46,000 MOFs w",
+      "url": "https://arxiv.org/abs/2610.27036"
+    },
+    {
+      "title": "Learning the Geometry of Materials Space with Trained Neural Tangent Kernels",
+      "body": "arXiv:2610.27412v1 Announce Type: new Abstract: Neural networks trained to predict materials properties learn representations whose physical content can be difficult to extract. We use the neural tangent kernel (NTK), evaluated at trained parameters, to recover the geometry learned by a network that predicts superconducting transition temperatures from elemental composition alone. Kernel ridge regression with the trained NTK closely reproduces the network's predictive performance and substantially outperforms regression with the initial kernel. Spectral analysis and multidimensional scaling reveal a geometry dominated by a small number of directions. Clustering and local neighborhood analysi",
+      "url": "https://arxiv.org/abs/2610.27412"
+    },
+    {
+      "title": "Symmetry-Guided Machine Learning of Spin-Dependent Nonlinear Hall Response",
+      "body": "arXiv:2610.28529v1 Announce Type: new Abstract: A Berry-curvature dipole can produce a nonlinear Hall current even when the linear Hall response vanishes, but symmetry alone does not determine its magnitude or magnetic tunability. The interplay of structural symmetry, moment orientation, and carrier occupation is examined in a honeycomb model. Curvature maps and the band-summed dipole integrand reveal how velocity and the occupation window near the Fermi level select signed contributions. Removing threefold rotation permits a nonmagnetic dipole perpendicular to the surviving mirror. Generic magnetic reorientation activates the second component and tunes both components through positive and n",
+      "url": "https://arxiv.org/abs/2610.28529"
+    },
+    {
+      "title": "GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery",
+      "body": "arXiv:2610.28629v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems hold immense potential for automating complex workflows in materials discovery and design, but extending them to domain-intensive mechanistic investigations remains challenging. Here, we present GBClaw, an agentic AI framework for investigating the structure and deformation of general grain boundaries (GBs). Although general GBs constitute the vast majority of real-world interfaces in polycrystalline materials, they remain understudied because their structural complexity and interfacial mismatch complicate experimental and modeling research. GBClaw integrates large language models (LLMs) into a modul",
+      "url": "https://arxiv.org/abs/2610.28629"
+    },
+    {
+      "title": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
+      "body": "arXiv:2610.27762v1 Announce Type: cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional structures",
+      "url": "https://arxiv.org/abs/2610.27762"
+    },
+    {
+      "title": "TexFlow: learning crystallographic texture on SO(3) manifold via normalizing flows",
+      "body": "arXiv:2610.28363v1 Announce Type: cross Abstract: Crystallographic texture is an important microstructural feature that statistically describes the orientations of grains in polycrystalline materials. Conventional texture analysis relies on the orientation distribution functions and pole figures, which are essential for interpreting the texture of a given material specimen but do not, by themselves, provide a direct framework for predictive modeling of process-structure-property linkages. Data- and machine learning-based approaches offer a means to address this gap; however, a key challenge lies in developing representations and learning frameworks that account for the manifold structure of ",
+      "url": "https://arxiv.org/abs/2610.28363"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-10-21T13:03:28.154713+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 11
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 12
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 4
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 53
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 7,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-10-21",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}

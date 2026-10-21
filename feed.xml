@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-20T16:15:33Z</updated>
+  <updated>2026-10-21T13:05:00Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月20日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-20.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-20.html</id>
-    <updated>2026-10-20T16:15:33Z</updated>
+    <title>每日汇总 2026年10月21日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-21.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-21.html</id>
+    <updated>2026-10-21T13:05:00Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。…</title>
+    <link href="https://huggingface.co/blog/nvidia/kumo-forecast"/>
+    <id>https://huggingface.co/blog/nvidia/kumo-forecast</id>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。</summary>
+  </entry>
+  <entry>
+    <title>合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。…</title>
+    <link href="https://openai.com/index/openai-models-google-cloud"/>
+    <id>https://openai.com/index/openai-models-google-cloud</id>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。</summary>
+  </entry>
+  <entry>
+    <title>Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性…</title>
     <link href="https://huggingface.co/blog/allenai/fairstress"/>
     <id>https://huggingface.co/blog/allenai/fairstress</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary></summary>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>方法从训练任务的成功与失败中提取简短规则，加入提示而不更新模型权重。报告结果限定于指定版本的客服基准与榜单快照，不能当作所有生产客服任务的领先表现。…</title>
     <link href="https://huggingface.co/blog/ibm-research/altk-evolve-bc"/>
     <id>https://huggingface.co/blog/ibm-research/altk-evolve-bc</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary></summary>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>方法从训练任务的成功与失败中提取简短规则，加入提示而不更新模型权重。报告结果限定于指定版本的客服基准与榜单快照，不能当作所有生产客服任务的领先表现。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>客户案例介绍菜单分析、薪资和现金对账等工作流。节时数字来自经营者自报，潜在现金流改善是估计，不能写成已经实现的利润。…</title>
+    <link href="https://openai.com/index/ted-taylor-restaurant"/>
+    <id>https://openai.com/index/ted-taylor-restaurant</id>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>客户案例介绍菜单分析、薪资和现金对账等工作流。节时数字来自经营者自报，潜在现金流改善是估计，不能写成已经实现的利润。</summary>
+  </entry>
+  <entry>
+    <title>案例介绍按机构标准给智能体输出评分，并比较与资深审核人员的判断一致性。企业自报的一致率不代表投资收益或预测市场的准确率，最终决策仍需专业核验。…</title>
+    <link href="https://openai.com/index/terminal-x"/>
+    <id>https://openai.com/index/terminal-x</id>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>案例介绍按机构标准给智能体输出评分，并比较与资深审核人员的判断一致性。企业自报的一致率不代表投资收益或预测市场的准确率，最终决策仍需专业核验。</summary>
+  </entry>
+  <entry>
+    <title>公告称已收购药物开发协调平台，并计划与 Rosalind 的模型和科研工具结合。后续目标是帮助团队连接研究、实验与项目决策，不代表新疗法已获临床或监管验证。…</title>
+    <link href="https://openai.com/index/openai-to-acquire-orchestra-bio"/>
+    <id>https://openai.com/index/openai-to-acquire-orchestra-bio</id>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>公告称已收购药物开发协调平台，并计划与 Rosalind 的模型和科研工具结合。后续目标是帮助团队连接研究、实验与项目决策，不代表新疗法已获临床或监管验证。</summary>
+  </entry>
+  <entry>
+    <title>Hugging Face 介绍原生设备后端、内核与分布式支持，减少以往依赖专门适配层的复杂性。兼容范围、性能与成本仍取决于版本、模型和云硬件。…</title>
     <link href="https://huggingface.co/blog/hf-torchtpu"/>
     <id>https://huggingface.co/blog/hf-torchtpu</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary></summary>
+    <updated>2026-10-21T13:05:00Z</updated>
+    <summary>Hugging Face 介绍原生设备后端、内核与分布式支持，减少以往依赖专门适配层的复杂性。兼容范围、性能与成本仍取决于版本、模型和云硬件。</summary>
   </entry>
   <entry>
     <title>项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型…</title>
     <link href="https://huggingface.co/blog/anylanguagemodel-1-0"/>
     <id>https://huggingface.co/blog/anylanguagemodel-1-0</id>
-    <updated>2026-10-20T16:15:33Z</updated>
+    <updated>2026-10-21T13:05:00Z</updated>
     <summary>项目介绍统一会话接口及 Swift 模型下载组件，可在系统、本地开放权重和托管模型之间选择。各后端的功能、系统版本和资源需求仍有差异，不能将接口统一视为所有模型能力相同。</summary>
   </entry>
   <entry>
     <title>文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优…</title>
     <link href="https://huggingface.co/blog/mps-pytorch-2-15"/>
     <id>https://huggingface.co/blog/mps-pytorch-2-15</id>
-    <updated>2026-10-20T16:15:33Z</updated>
+    <updated>2026-10-21T13:05:00Z</updated>
     <summary>文章讨论 Apple 芯片上的 FP8 支持、解码路径和 Metal 内核改进。功能依赖兼容系统、Python 与硬件，实际性能应按模型和负载测试，不能把单项优化外推为统一加速。</summary>
-  </entry>
-  <entry>
-    <title>报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。…</title>
-    <link href="https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019"/>
-    <id>https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary>报道介绍 E(3)-Pose 通过学习空间变换帮助处理胎动造成的切片错位，供放射科医生查看更清晰图像。研究展示不等于临床诊断已获普遍验证，也不能替代医生评估。</summary>
-  </entry>
-  <entry>
-    <title>研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。…</title>
-    <link href="https://openai.com/index/low-resource-programming-languages"/>
-    <id>https://openai.com/index/low-resource-programming-languages</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary>研究以多语言数据库实现和 COBOL 迁移测试衡量模型能力，强调保持原程序行为。基准结果限于所测任务，生产迁移仍需专家审查、业务规则核验和充分测试。</summary>
-  </entry>
-  <entry>
-    <title>文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。…</title>
-    <link href="https://huggingface.co/blog/hf-torchneuron"/>
-    <id>https://huggingface.co/blog/hf-torchneuron</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary>文章介绍原生设备后端、即时执行及分布式接口，并说明 Hugging Face 库的集成。项目处于公测，兼容性和实际性能需结合版本、模型与硬件验证。</summary>
-  </entry>
-  <entry>
-    <title>报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任…</title>
-    <link href="https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018"/>
-    <id>https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary>报道介绍多模态模型将三维原子结构与自然语言信息结合，利用实验文献和第一性原理数据库描述材料的性质、加工与用途。方法旨在缓解文本训练和材料数据偏差，不能据此认为任意需求都能直接得到已验证的新材料。</summary>
-  </entry>
-  <entry>
-    <title>仅根据已有来源标题翻译。原文当前无法访问，未核验正文，不沿用此前案例细节。…</title>
-    <link href="https://openai.com/index/itau-generative-ai"/>
-    <id>https://openai.com/index/itau-generative-ai</id>
-    <updated>2026-10-20T16:15:33Z</updated>
-    <summary>仅根据已有来源标题翻译。原文当前无法访问，未核验正文，不沿用此前案例细节。</summary>
   </entry>
 </feed>
