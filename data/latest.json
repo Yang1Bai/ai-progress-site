@@ -2,6 +2,19 @@
   "date": "2026年10月22日",
   "news": [
     {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "body": "",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T16:11:31+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-22"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Granite 用四种时间序列模型集成预测",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "body": "方案组合四种互补架构，提供中位数与分位数预测，无需重训或拟合集成权重。不同序列仍需比较表现，首次运行需下载成员模型。",
@@ -16,6 +29,19 @@
       "title_original": "Ensemble forecasting with IBM Granite time-series models",
       "body_original": "",
       "editorial_date": "2026-10-22"
+    },
+    {
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "body": "What forward deployed engineering means at OpenAI",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T06:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-22"
+      ],
+      "importance": "normal"
     },
     {
       "title": "OpenAI 推动跨服务一致的安全标准",
@@ -207,38 +233,6 @@
       "importance": "normal",
       "title_original": "Using thousands of AI agents to uncover new leads in biological data",
       "body_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "Cloudflare 将漏洞分析与运行环境信号结合",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "body": "案例介绍利用 Daybreak 分析授权代码，并结合流量及安全信号准备补丁或防护建议。团队与客户仍审查拟议修改，案例效率数字属于企业自报。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "body_original": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "OpenAI 提出加强网络防御能力的政策蓝图",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "body": "建议涵盖前沿模型安全责任、防御工具与基础设施投入，以及公共机构评估和事件响应。这些是政策建议，不代表新法律已经生效。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "body_original": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "editorial_date": "2026-10-22"
     }
   ],
@@ -470,7 +464,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-22T12:59:44.192296+00:00",
+  "fetched_at": "2026-10-22T16:31:26.913694+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -515,16 +509,16 @@
       "items": 56
     }
   ],
+  "editorial": {
+    "date": "2026-10-22",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 9,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-22",
-    "items_applied": 24,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
