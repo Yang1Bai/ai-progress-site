@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-21T16:30:35Z</updated>
+  <updated>2026-10-22T13:02:26Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月21日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-21.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-21.html</id>
-    <updated>2026-10-21T16:30:35Z</updated>
+    <title>每日汇总 2026年10月22日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-22.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-22.html</id>
+    <updated>2026-10-22T13:02:26Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Health &amp; Bioscience…</title>
+    <title>方案组合四种互补架构，提供中位数与分位数预测，无需重训或拟合集成权重。不同序列仍需比较表现，首次运行需下载成员模型。…</title>
+    <link href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"/>
+    <id>https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>方案组合四种互补架构，提供中位数与分位数预测，无需重训或拟合集成权重。不同序列仍需比较表现，首次运行需下载成员模型。</summary>
+  </entry>
+  <entry>
+    <title>公告要求合作伙伴维持相应防护与协同执行，并宣布使用政策更新将于 11 月 20 日生效。不能把未来生效的要求写成今日已经实施。…</title>
+    <link href="https://openai.com/index/broad-access-through-consistent-standards"/>
+    <id>https://openai.com/index/broad-access-through-consistent-standards</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>公告要求合作伙伴维持相应防护与协同执行，并宣布使用政策更新将于 11 月 20 日生效。不能把未来生效的要求写成今日已经实施。</summary>
+  </entry>
+  <entry>
+    <title>预训练模型直接利用数据库关系与历史样本进行推断，无需每项任务单独训练。报告结果来自指定基准，不能外推为所有企业数据上的领先表现。…</title>
+    <link href="https://huggingface.co/blog/nvidia/kumo-relational"/>
+    <id>https://huggingface.co/blog/nvidia/kumo-relational</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>预训练模型直接利用数据库关系与历史样本进行推断，无需每项任务单独训练。报告结果来自指定基准，不能外推为所有企业数据上的领先表现。</summary>
+  </entry>
+  <entry>
+    <title>案例针对葡萄牙语作文评分模型调整词表，报告该部署推理成本下降。效果依赖语言、任务和工作负载，不能泛化为所有小模型都节省相同比例。…</title>
+    <link href="https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"/>
+    <id>https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>案例针对葡萄牙语作文评分模型调整词表，报告该部署推理成本下降。效果依赖语言、任务和工作负载，不能泛化为所有小模型都节省相同比例。</summary>
+  </entry>
+  <entry>
+    <title>合作基于 LegalEdge，计划以自然语言受理请求并关联先例、研究与历史工作。部分能力仍属规划，法律判断与决策继续由专业人员负责。…</title>
+    <link href="https://openai.com/index/att-legal"/>
+    <id>https://openai.com/index/att-legal</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>合作基于 LegalEdge，计划以自然语言受理请求并关联先例、研究与历史工作。部分能力仍属规划，法律判断与决策继续由专业人员负责。</summary>
+  </entry>
+  <entry>
+    <title>研究利用低成本探头与非超声专业人员采集的扫查数据估计孕周，并开展前瞻性多中心验证。研究结果不等于替代完整产检或所有超声诊断。…</title>
     <link href="https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/"/>
     <id>https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>Health &amp; Bioscience</summary>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>研究利用低成本探头与非超声专业人员采集的扫查数据估计孕周，并开展前瞻性多中心验证。研究结果不等于替代完整产检或所有超声诊断。</summary>
   </entry>
   <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1-system-level-profilin"/>
-    <id>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1-system-level-profilin</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary></summary>
+    <title>教程用运行轨迹定位推理工作负载中的瓶颈，为原生 PyTorch 后端调优提供方法。实际加速幅度仍取决于模型、硬件和执行配置。…</title>
+    <link href="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"/>
+    <id>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1</id>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>教程用运行轨迹定位推理工作负载中的瓶颈，为原生 PyTorch 后端调优提供方法。实际加速幅度仍取决于模型、硬件和执行配置。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>系列包括多语言语音模型与较小的 TurboCTC 模型，并报告指定评测中的速度和准确性。不同语言、音频条件与部署环境仍需单独验证。…</title>
     <link href="https://huggingface.co/blog/ibm-granite/granite-speech-5"/>
     <id>https://huggingface.co/blog/ibm-granite/granite-speech-5</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary></summary>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>系列包括多语言语音模型与较小的 TurboCTC 模型，并报告指定评测中的速度和准确性。不同语言、音频条件与部署环境仍需单独验证。</summary>
   </entry>
   <entry>
-    <title>From local businesses to global brands, more advertisers can now reach people as…</title>
+    <title>公告称扩展后覆盖 89 国，已有超过十万广告主投放。广告适用于 Free 与 Go；平台自报规模不代表广告主的实际收益。…</title>
     <link href="https://openai.com/index/chatgpt-ads-expands-26-new-countries"/>
     <id>https://openai.com/index/chatgpt-ads-expands-26-new-countries</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.</summary>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>公告称扩展后覆盖 89 国，已有超过十万广告主投放。广告适用于 Free 与 Go；平台自报规模不代表广告主的实际收益。</summary>
   </entry>
   <entry>
-    <title>模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。…</title>
-    <link href="https://huggingface.co/blog/nvidia/kumo-forecast"/>
-    <id>https://huggingface.co/blog/nvidia/kumo-forecast</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>模型结合时间序列表征和可选历史检索，并提供分预测时域的解释接口。检索上下文与近期输入窗口不同，实际收益和解释可靠性仍需按数据与任务验证。</summary>
-  </entry>
-  <entry>
-    <title>合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。…</title>
+    <title>双方合作拟通过云平台提供原生模型与智能体工作流访问。全面可用仍有后续推出安排，不能写成所有客户已可立即使用。…</title>
     <link href="https://openai.com/index/openai-models-google-cloud"/>
     <id>https://openai.com/index/openai-models-google-cloud</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>合作计划通过 Model Garden 与 Marketplace 提供访问，并结合云端治理能力。公告称全面可用预计在未来数周，不能写成所有用户今天已可使用。</summary>
-  </entry>
-  <entry>
-    <title>Patch the Planet connects security researchers, maintainers, and incident respon…</title>
-    <link href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"/>
-    <id>https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.</summary>
-  </entry>
-  <entry>
-    <title>Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversation…</title>
-    <link href="https://openai.com/index/building-chatgpt-ad-stack"/>
-    <id>https://openai.com/index/building-chatgpt-ad-stack</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.</summary>
-  </entry>
-  <entry>
-    <title>See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to un…</title>
-    <link href="https://openai.com/index/scaling-ai-research-for-complex-biological-data"/>
-    <id>https://openai.com/index/scaling-ai-research-for-complex-biological-data</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.</summary>
-  </entry>
-  <entry>
-    <title>Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性…</title>
-    <link href="https://huggingface.co/blog/allenai/fairstress"/>
-    <id>https://huggingface.co/blog/allenai/fairstress</id>
-    <updated>2026-10-21T16:30:35Z</updated>
-    <summary>Ai2 的基准不仅检查人口属性交换后的初始选择，还测试说服性挑战是否让模型对不同群体表现出不同的改判倾向。结果衡量特定评测中的行为，不能概括所有真实决策的公平性。</summary>
+    <updated>2026-10-22T13:02:26Z</updated>
+    <summary>双方合作拟通过云平台提供原生模型与智能体工作流访问。全面可用仍有后续推出安排，不能写成所有客户已可立即使用。</summary>
   </entry>
 </feed>
