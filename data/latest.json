@@ -1,10 +1,106 @@
 {
-  "date": "2026年10月22日",
+  "date": "2026年10月23日",
   "news": [
     {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "title": "MIT 访谈回顾 AI 对复杂人类思维的建模历史",
+      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+      "body": "历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "Q&A: How AI came to model the “messy” human mind",
+      "body_original": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "OpenAI 与波兰 NASK 探索 AI 安全研究合作",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "body": "双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "body_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "TorchNeuron 提供 Trainium 模型兼容性查询",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "body": "支持页面列出指定软件版本下的测试结果、运行脚本、编译在内的耗时与显存。尚未测试不等于不兼容，当前覆盖的任务与模型范围仍有限。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "Does Your Model Run on AWS Trainium? Look It Up",
+      "body_original": "",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "ThinkingBox 把数据库最终状态检查用作训练奖励",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "body": "团队用基准之外的任务训练智能体，通过可执行结果评价完成情况。报告提升来自指定模型与训练配置，不能等同于所有真实业务任务都可靠完成。",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T22:24:34+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-22"
+      ],
+      "importance": "normal",
+      "title_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "body_original": "",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "OpenAI 宣布 Decisions API 正式可用",
+      "url": "https://openai.com/index/decisions-api",
+      "body": "服务面向分类、路由等答案范围有限的决策，支持文本、图像和结构化输入。速度与成本优势取决于任务和比较条件，仍应评估错误及低置信度情况。",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-22"
+      ],
+      "importance": "normal",
+      "title_original": "Build more responsive apps with the Decisions API",
+      "body_original": "Fast, focused, low-cost decisions for any application.",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "X-Hinges 为交互式打印物件嵌入传感与导线",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "body": "软件将不同材料用于传感器和连接线路，以减少信号干扰，支持响应动作的打印物件原型。文中的感知能力不意味着设备具有意识，实际精度仍需按设计验证。",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T16:45:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-22"
+      ],
+      "importance": "normal",
+      "title_original": "This design software reimagines everyday objects as self-aware devices",
+      "body_original": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "OlmoEarth 1.3 开放全球年度卫星嵌入",
       "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "body": "",
+      "body": "团队提供十米像素的预计算特征与浏览器地图探索工具，支持相似区域检索等用途。嵌入是可复用表征，具体土地分类或变化判断仍需任务验证。",
       "date": "2026-10-22",
       "published_at": "2026-10-22T16:11:31+00:00",
       "source": "Hugging Face",
@@ -12,7 +108,10 @@
         "Hugging Face",
         "2026-10-22"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "body_original": "",
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "Granite 用四种时间序列模型集成预测",
@@ -28,12 +127,12 @@
       "importance": "normal",
       "title_original": "Ensemble forecasting with IBM Granite time-series models",
       "body_original": "",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     },
     {
-      "title": "What FDE means at OpenAI",
+      "title": "OpenAI 介绍面向客户场景的前线部署工程",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "body": "What forward deployed engineering means at OpenAI",
+      "body": "文章强调从业务结果出发，连接客户、产品与研究团队，缩小模型能力和可用系统之间的差距。案例反映团队实践，不是对所有企业部署效果的保证。",
       "date": "2026-10-22",
       "published_at": "2026-10-22T06:00:00+00:00",
       "source": "OpenAI",
@@ -41,7 +140,26 @@
         "OpenAI",
         "2026-10-22"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "What FDE means at OpenAI",
+      "body_original": "What forward deployed engineering means at OpenAI",
+      "editorial_date": "2026-10-23"
+    },
+    {
+      "title": "Uber 宣布向全体员工推广 ChatGPT Work",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "body": "公告称从千人试点扩大到三万多名员工，并配套批准的集成、技能库与培训。推广规模不等于所有员工已经使用，也不能据此推断实际生产率收益。",
+      "date": "2026-10-22",
+      "published_at": "2026-10-22T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-22"
+      ],
+      "importance": "normal",
+      "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "body_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "OpenAI 推动跨服务一致的安全标准",
@@ -57,7 +175,7 @@
       "importance": "normal",
       "title_original": "Broad access through consistent standards",
       "body_original": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "Kumo Relational 用历史上下文预测关系型数据",
@@ -73,7 +191,7 @@
       "importance": "normal",
       "title_original": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
       "body_original": "",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "VocabX 通过词表专门化降低特定推理成本",
@@ -89,7 +207,7 @@
       "importance": "normal",
       "title_original": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
       "body_original": "",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "AT&T 探索用 AI 连接企业法律知识",
@@ -105,7 +223,7 @@
       "importance": "normal",
       "title_original": "How AT&T is rethinking in-house legal work with OpenAI",
       "body_original": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     },
     {
       "title": "AI 辅助超声研究探索基层孕期评估",
@@ -121,310 +239,51 @@
       "importance": "normal",
       "title_original": "Empowering frontline maternal care with AI-assisted ultrasound",
       "body_original": "Health & Bioscience",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "TorchNeuron 教程介绍 Trainium 系统级性能分析",
-      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "body": "教程用运行轨迹定位推理工作负载中的瓶颈，为原生 PyTorch 后端调优提供方法。实际加速幅度仍取决于模型、硬件和执行配置。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T16:04:43+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-      "body_original": "",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "Granite Speech 5.0 更新转写、翻译与说话人归属能力",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "body": "系列包括多语言语音模型与较小的 TurboCTC 模型，并报告指定评测中的速度和准确性。不同语言、音频条件与部署环境仍需单独验证。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T14:58:18+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "body_original": "",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "OpenAI 宣布 ChatGPT 广告扩展至另外 26 国",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "body": "公告称扩展后覆盖 89 国，已有超过十万广告主投放。广告适用于 Free 与 Go；平台自报规模不代表广告主的实际收益。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T13:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "body_original": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "OpenAI 模型与 Codex 工作流计划接入 Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "body": "双方合作拟通过云平台提供原生模型与智能体工作流访问。全面可用仍有后续推出安排，不能写成所有客户已可立即使用。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "OpenAI models are coming to Google Cloud",
-      "body_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "Patch the Planet 协调关键漏洞修复与披露",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "body": "公告介绍 PHP 维护者牵头的修复及跨机构防护协调，并提出可重复的响应框架。发现漏洞只是起点，实际保护仍依赖修补、验证和部署。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "body_original": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "OpenAI 介绍 ChatGPT 广告系统架构",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "body": "专门模型协调检索、排序、相关性评估与竞价，广告选择服务与回答生成分开运行。这是平台对系统设计的介绍，不是独立隐私或效果审计。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "body_original": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "分布式 AI 智能体分析脑细胞数据寻找研究线索",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "body": "团队用大量智能体联合分析小鼠脑细胞扰动数据和文献，整理可能的生物学关联。提出的机制与疾病研究方向仍需后续实验检验。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T04:50:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Using thousands of AI agents to uncover new leads in biological data",
-      "body_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "editorial_date": "2026-10-22"
+      "editorial_date": "2026-10-23"
     }
   ],
   "papers": [
     {
-      "title": "机器学习与大模型材料知识提取综述",
-      "url": "https://arxiv.org/abs/2610.29895",
-      "body": "arXiv:2610.29895v1 Announce Type: new Abstract: Over the past decade, substantial efforts have been devoted to developing machine learning (ML) methods for extracting materials data and, where possible, materials knowledge directly from the scientific literature. This review traces the evolution of these methods from heuristic, rule-based pipelines through natural language processing (NLP) models and transformer-based encoders to, lastly, large language models (LLMs) and agentic systems capable of extracting materials information across multiple modalities, including text, tables, and figures. Beside construction of large, queryable materials databases and knowledge graphs that support downs",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
+      "title": "扩散模型生成增材制造微结构并探索逆向设计",
+      "url": "https://arxiv.org/abs/2610.30404",
+      "body": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-22"
+        "2026-10-23"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：综述从规则和传统自然语言处理到多模态大模型及智能体的材料信息提取方法。样本级结构、加工与性能关联、统一术语和可信基准仍是主要挑战。",
+      "summary": "预印本摘要：研究用扩散模型合成具有取向信息的金属增材制造微结构，并以无分类器引导探索性能或工艺到结构的映射。数字孪生保真度与不确定性案例不等于完成实物构件认证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models",
-      "summary_original": "arXiv:2610.29895v1 Announce Type: new Abstract: Over the past decade, substantial efforts have been devoted to developing machine learning (ML) methods for extracting materials data and, where possible, materials knowledge directly from the scientific literature. This review traces the evolution of these methods from heuristic, rule-based pipelines through natural language processing (NLP) models and transformer-based encoders to, lastly, large language models (LLMs) and agentic systems capable of extracting materials information across multiple modalities, including text, tables, and figures. Beside construction of large, queryable materials databases and knowledge graphs that support downs",
-      "editorial_date": "2026-10-22"
+      "title_original": "Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins",
+      "summary_original": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
+      "editorial_date": "2026-10-23"
     },
     {
-      "title": "组合神经网络融合 X 射线与中子散射反演",
-      "url": "https://arxiv.org/abs/2610.29362",
-      "body": "arXiv:2610.29362v1 Announce Type: cross Abstract: X-ray and neutron scattering are indispensable for structural characterization across condensed-matter physics and materials science. Yet, because scattering experiments generally record intensities without phase information, distinct structures can yield similar scattering patterns, rendering the corresponding inverse problems non-unique. This ambiguity can be reduced by combining complementary measurements, but their integration into machine-learning frameworks remains challenging. Here we introduce a modular framework for probabilistic multi-measurement analysis based on prior-amortized flow matching. Single-observation posterior estimator",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
+      "title": "CrystalAR 联合生成对称模板与晶体结构",
+      "url": "https://arxiv.org/abs/2610.27762",
+      "body": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-22"
+        "2026-10-23"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：分别学习不同观测的后验估计，再通过组合流匹配融合信息，展示反射率问题中的不确定性分析。测试结果不意味着普遍解决反演的非唯一性。",
+      "summary": "预印本摘要：统一自回归序列建模 Wyckoff 模板与分层空间定位，并开展约束搜索。生成与结构预测基准表现仍需结合稳定性、可合成性和域外测试评价。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Compositional neural networks for multimodal X-ray and neutron scattering inversion",
-      "summary_original": "arXiv:2610.29362v1 Announce Type: cross Abstract: X-ray and neutron scattering are indispensable for structural characterization across condensed-matter physics and materials science. Yet, because scattering experiments generally record intensities without phase information, distinct structures can yield similar scattering patterns, rendering the corresponding inverse problems non-unique. This ambiguity can be reduced by combining complementary measurements, but their integration into machine-learning frameworks remains challenging. Here we introduce a modular framework for probabilistic multi-measurement analysis based on prior-amortized flow matching. Single-observation posterior estimator",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "紧束缚与机器学习势结合描述镁化合物",
-      "url": "https://arxiv.org/abs/2606.25853",
-      "body": "arXiv:2606.25853v3 Announce Type: replace Abstract: We present a model for magnesium-based systems that combines density functional tight binding (DFTB) with MACE, a machine learning interatomic potential (DFTB+MACE). In this model, the conventional repulsive potential, pair potential, is replaced by a many-body MACE potential. The MACE component of the model is trained on the difference between density functional theory (DFT) energies and forces and the corresponding DFTB values, but neglecting the pair potential contribution. Using this model we performed structural relaxation of MgO-CO2 adsorption systems, molecular dynamics calculations of water clusters and phonon spectrum calculations ",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：方法结合 DFTB 与 MACE 对残差能量和力建模，测试氧化镁、二氧化碳、水团簇及声子。改进依赖训练覆盖，不能直接推广到全部镁材料。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "A Combined Tight Binding with Machine Learning Potential Model for Magnesium Compounds",
-      "summary_original": "arXiv:2606.25853v3 Announce Type: replace Abstract: We present a model for magnesium-based systems that combines density functional tight binding (DFTB) with MACE, a machine learning interatomic potential (DFTB+MACE). In this model, the conventional repulsive potential, pair potential, is replaced by a many-body MACE potential. The MACE component of the model is trained on the difference between density functional theory (DFT) energies and forces and the corresponding DFTB values, but neglecting the pair potential contribution. Using this model we performed structural relaxation of MgO-CO2 adsorption systems, molecular dynamics calculations of water clusters and phonon spectrum calculations ",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "JANUS 联合采样无序材料组分与原子结构",
-      "url": "https://arxiv.org/abs/2608.19116",
-      "body": "arXiv:2608.19116v2 Announce Type: replace Abstract: Disordered materials are central to modern technologies, from high-performance alloys to quantum devices, yet understanding and designing them requires exploring an enormous space of compositions and atomic arrangements. Here we introduce JANUS, a multimodal neural sampler that jointly explores chemical composition, atomic structure and volume, learning directly from the energy of the system without requiring pre-generated equilibrium configurations. Across test systems, JANUS reproduces reference equilibrium properties and recovers free energy and phase behavior with about three orders of magnitude fewer energy evaluations than reference M",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：神经采样器从能量信息学习组分、排列及体积，研究合金化学有序与缺陷候选。部分候选获得计算验证，尚不等于实验器件性能得到确认。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials",
-      "summary_original": "arXiv:2608.19116v2 Announce Type: replace Abstract: Disordered materials are central to modern technologies, from high-performance alloys to quantum devices, yet understanding and designing them requires exploring an enormous space of compositions and atomic arrangements. Here we introduce JANUS, a multimodal neural sampler that jointly explores chemical composition, atomic structure and volume, learning directly from the energy of the system without requiring pre-generated equilibrium configurations. Across test systems, JANUS reproduces reference equilibrium properties and recovers free energy and phase behavior with about three orders of magnitude fewer energy evaluations than reference M",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "PINN-Phase 以物理约束推进多相场演化",
-      "url": "https://arxiv.org/abs/2608.29413",
-      "body": "arXiv:2608.29413v3 Announce Type: replace Abstract: Polycrystal phase-field simulations are repeated for many related initial conditions, calling for integrators trained once and reused without retraining. We introduce PINN-Phase, a physics-informed neural time integrator that advances the multiphase field autonomously from its initial condition, enforcing phase bounds and unit sum at every step. Its hybrid realization learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model meets all predefined criteria on seven of eight prospectively fixed unseen microstructures and both atypi",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：模型约束相变量范围与总和，并测试未见微结构和不同尺度。泛化表现依赖网格、时间和晶粒配置，不能外推为任意多相场问题都准确。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "PINN-Phase: Physics-informed neural integration for accurate, generalizable and scalable multiphase-field evolution",
-      "summary_original": "arXiv:2608.29413v3 Announce Type: replace Abstract: Polycrystal phase-field simulations are repeated for many related initial conditions, calling for integrators trained once and reused without retraining. We introduce PINN-Phase, a physics-informed neural time integrator that advances the multiphase field autonomously from its initial condition, enforcing phase bounds and unit sum at every step. Its hybrid realization learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model meets all predefined criteria on seven of eight prospectively fixed unseen microstructures and both atypi",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "机器学习高熵催化剂研究方法综述",
-      "url": "https://arxiv.org/abs/2609.19837",
-      "body": "arXiv:2609.19837v2 Announce Type: replace Abstract: High-entropy alloys (HEAs) exhibit exceptional catalytic performance in various reactions due to their high configurational entropy, synergistic elemental effects, tunable electronic structures, and excellent structural stability. However, the vast compositional space of HEA catalysts makes traditional experimental and theoretical design costly and inefficient. In recent years, data-driven machine learning (ML) methods have emerged as powerful tools for studying HEAs in catalysis. Through predictive models and ML surrogates, researchers can decipher the intricate composition-structure-performance relationships of these materials. In additio",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：综述组分、结构和催化性能建模，以及大模型信息提取与工作流应用。重点是方法与挑战的梳理，不是某种新催化剂的实验发现。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Machine Learning for High-Entropy Catalysts: Methods and Applications",
-      "summary_original": "arXiv:2609.19837v2 Announce Type: replace Abstract: High-entropy alloys (HEAs) exhibit exceptional catalytic performance in various reactions due to their high configurational entropy, synergistic elemental effects, tunable electronic structures, and excellent structural stability. However, the vast compositional space of HEA catalysts makes traditional experimental and theoretical design costly and inefficient. In recent years, data-driven machine learning (ML) methods have emerged as powerful tools for studying HEAs in catalysis. Through predictive models and ML surrogates, researchers can decipher the intricate composition-structure-performance relationships of these materials. In additio",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "AI 辅助力学分析 Eshelby 稳定性",
-      "url": "https://arxiv.org/abs/2610.13400",
-      "body": "arXiv:2610.13400v2 Announce Type: replace Abstract: How can human researchers use artificial intelligence (AI) to make progress on difficult mechanics problems while retaining control of physical significance, mathematical rigor, and validation? We explore this opportunity through a quantitative stability problem rooted in the Eshelby conjecture. For a uniform dilatational eigenstrain in a homogeneous isotropic solid, we establish a nonlinear two-sided relation between whole-interior strain heterogeneity and a geometry-only distance from the ellipsoid family, with half-order Sobolev scaling that captures morphological length scale. We then develop a complementary finite-shape theory: ellipso",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：工作研究各向同性固体均匀膨胀问题的局部与有限形状稳定性，并结合理论界限及有限元检查。结论适用于其假设，AI 辅助不替代力学验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Quantitative Eshelby stability: local and finite-shape theory through AI-assisted mechanics",
-      "summary_original": "arXiv:2610.13400v2 Announce Type: replace Abstract: How can human researchers use artificial intelligence (AI) to make progress on difficult mechanics problems while retaining control of physical significance, mathematical rigor, and validation? We explore this opportunity through a quantitative stability problem rooted in the Eshelby conjecture. For a uniform dilatational eigenstrain in a homogeneous isotropic solid, we establish a nonlinear two-sided relation between whole-interior strain heterogeneity and a geometry-only distance from the ellipsoid family, with half-order Sobolev scaling that captures morphological length scale. We then develop a complementary finite-shape theory: ellipso",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "对称性引导自旋相关非线性霍尔响应预测",
-      "url": "https://arxiv.org/abs/2610.28529",
-      "body": "arXiv:2610.28529v2 Announce Type: replace Abstract: A Berry-curvature dipole can produce a nonlinear Hall current even when the linear Hall response vanishes, but symmetry alone does not determine its magnitude or magnetic tunability. The interplay of structural symmetry, moment orientation, and carrier occupation is examined in a honeycomb model. Curvature maps and the band-summed dipole integrand reveal how velocity and the occupation window near the Fermi level select signed contributions. Removing threefold rotation permits a nonmagnetic dipole perpendicular to the surviving mirror. Generic magnetic reorientation activates the second component and tunes both components through positive a",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究蜂窝模型中结构、自旋与载流子占据的作用。固定化学势下的高精度不能外推到全部能量扫描范围，域外误差仍需检查。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Symmetry-Guided Machine Learning of Spin-Dependent Nonlinear Hall Response",
-      "summary_original": "arXiv:2610.28529v2 Announce Type: replace Abstract: A Berry-curvature dipole can produce a nonlinear Hall current even when the linear Hall response vanishes, but symmetry alone does not determine its magnitude or magnetic tunability. The interplay of structural symmetry, moment orientation, and carrier occupation is examined in a honeycomb model. Curvature maps and the band-summed dipole integrand reveal how velocity and the occupation window near the Fermi level select signed contributions. Removing threefold rotation permits a nonmagnetic dipole perpendicular to the surviving mirror. Generic magnetic reorientation activates the second component and tunes both components through positive a",
-      "editorial_date": "2026-10-22"
-    },
-    {
-      "title": "欧氏傅里叶神经算子探索跨物理区域泛化",
-      "url": "https://arxiv.org/abs/2608.28425",
-      "body": "arXiv:2608.28425v3 Announce Type: replace-cross Abstract: Fourier neural operators (FNOs) provide an efficient framework for learning mappings between function spaces as they are, by construction, independent of the grid resolution at which they are trained and evaluated. However, FNOs are not independent of the periodic domain they are applied to: their discrete spectral weights are indexed by integer Fourier mode numbers, which correspond to physical wavevectors. When applied to a different domain, the same trained weights act at different wavevectors, and the FNO silently represents a different operator. This makes FNOs unsuitable for tasks where transfer across domains is crucial. We pro",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：连续物理波矢核区分网格分辨率变化与真实区域变化，测试热方程及晶体交换关联势。展示的跨网格与区域结果不代表任意域外外推能力。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Euclidean Fourier Neural Operators",
-      "summary_original": "arXiv:2608.28425v3 Announce Type: replace-cross Abstract: Fourier neural operators (FNOs) provide an efficient framework for learning mappings between function spaces as they are, by construction, independent of the grid resolution at which they are trained and evaluated. However, FNOs are not independent of the periodic domain they are applied to: their discrete spectral weights are indexed by integer Fourier mode numbers, which correspond to physical wavevectors. When applied to a different domain, the same trained weights act at different wavevectors, and the FNO silently represents a different operator. This makes FNOs unsuitable for tasks where transfer across domains is crucial. We pro",
-      "editorial_date": "2026-10-22"
+      "title_original": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
+      "summary_original": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
+      "editorial_date": "2026-10-23"
     }
   ],
   "leaders": [],
@@ -433,38 +292,18 @@
   "conferences": [],
   "science": [
     {
-      "title": "Automated Materials Data and Knowledge Extraction using Machine Learning and Large Language Models",
-      "body": "arXiv:2610.29895v1 Announce Type: new Abstract: Over the past decade, substantial efforts have been devoted to developing machine learning (ML) methods for extracting materials data and, where possible, materials knowledge directly from the scientific literature. This review traces the evolution of these methods from heuristic, rule-based pipelines through natural language processing (NLP) models and transformer-based encoders to, lastly, large language models (LLMs) and agentic systems capable of extracting materials information across multiple modalities, including text, tables, and figures. Beside construction of large, queryable materials databases and knowledge graphs that support downs",
-      "url": "https://arxiv.org/abs/2610.29895"
+      "title": "Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins",
+      "body": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
+      "url": "https://arxiv.org/abs/2610.30404"
     },
     {
-      "title": "Compositional neural networks for multimodal X-ray and neutron scattering inversion",
-      "body": "arXiv:2610.29362v1 Announce Type: cross Abstract: X-ray and neutron scattering are indispensable for structural characterization across condensed-matter physics and materials science. Yet, because scattering experiments generally record intensities without phase information, distinct structures can yield similar scattering patterns, rendering the corresponding inverse problems non-unique. This ambiguity can be reduced by combining complementary measurements, but their integration into machine-learning frameworks remains challenging. Here we introduce a modular framework for probabilistic multi-measurement analysis based on prior-amortized flow matching. Single-observation posterior estimator",
-      "url": "https://arxiv.org/abs/2610.29362"
-    },
-    {
-      "title": "A Combined Tight Binding with Machine Learning Potential Model for Magnesium Compounds",
-      "body": "arXiv:2606.25853v3 Announce Type: replace Abstract: We present a model for magnesium-based systems that combines density functional tight binding (DFTB) with MACE, a machine learning interatomic potential (DFTB+MACE). In this model, the conventional repulsive potential, pair potential, is replaced by a many-body MACE potential. The MACE component of the model is trained on the difference between density functional theory (DFT) energies and forces and the corresponding DFTB values, but neglecting the pair potential contribution. Using this model we performed structural relaxation of MgO-CO2 adsorption systems, molecular dynamics calculations of water clusters and phonon spectrum calculations ",
-      "url": "https://arxiv.org/abs/2606.25853"
-    },
-    {
-      "title": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials",
-      "body": "arXiv:2608.19116v2 Announce Type: replace Abstract: Disordered materials are central to modern technologies, from high-performance alloys to quantum devices, yet understanding and designing them requires exploring an enormous space of compositions and atomic arrangements. Here we introduce JANUS, a multimodal neural sampler that jointly explores chemical composition, atomic structure and volume, learning directly from the energy of the system without requiring pre-generated equilibrium configurations. Across test systems, JANUS reproduces reference equilibrium properties and recovers free energy and phase behavior with about three orders of magnitude fewer energy evaluations than reference M",
-      "url": "https://arxiv.org/abs/2608.19116"
-    },
-    {
-      "title": "PINN-Phase: Physics-informed neural integration for accurate, generalizable and scalable multiphase-field evolution",
-      "body": "arXiv:2608.29413v3 Announce Type: replace Abstract: Polycrystal phase-field simulations are repeated for many related initial conditions, calling for integrators trained once and reused without retraining. We introduce PINN-Phase, a physics-informed neural time integrator that advances the multiphase field autonomously from its initial condition, enforcing phase bounds and unit sum at every step. Its hybrid realization learns from the governing residual on its own predicted states, without post-initial-condition reference states in the loss or checkpoint selection. A fixed 25-grain model meets all predefined criteria on seven of eight prospectively fixed unseen microstructures and both atypi",
-      "url": "https://arxiv.org/abs/2608.29413"
-    },
-    {
-      "title": "Machine Learning for High-Entropy Catalysts: Methods and Applications",
-      "body": "arXiv:2609.19837v2 Announce Type: replace Abstract: High-entropy alloys (HEAs) exhibit exceptional catalytic performance in various reactions due to their high configurational entropy, synergistic elemental effects, tunable electronic structures, and excellent structural stability. However, the vast compositional space of HEA catalysts makes traditional experimental and theoretical design costly and inefficient. In recent years, data-driven machine learning (ML) methods have emerged as powerful tools for studying HEAs in catalysis. Through predictive models and ML surrogates, researchers can decipher the intricate composition-structure-performance relationships of these materials. In additio",
-      "url": "https://arxiv.org/abs/2609.19837"
+      "title": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
+      "body": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
+      "url": "https://arxiv.org/abs/2610.27762"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-22T16:31:26.913694+00:00",
+  "fetched_at": "2026-10-23T13:26:51.046505+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -476,7 +315,7 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "source": "MIT AI",
@@ -506,19 +345,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 56
+      "items": 44
     }
   ],
-  "editorial": {
-    "date": "2026-10-22",
-    "items_applied": 22,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 9,
+    "paper_count": 2,
     "leader_count": 0,
-    "science_count": 6
+    "science_count": 2
+  },
+  "editorial": {
+    "date": "2026-10-23",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

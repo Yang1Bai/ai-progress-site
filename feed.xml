@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-22T16:31:28Z</updated>
+  <updated>2026-10-23T13:27:51Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月22日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-22.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-22.html</id>
-    <updated>2026-10-22T16:31:28Z</updated>
+    <title>每日汇总 2026年10月23日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-23.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-23.html</id>
+    <updated>2026-10-23T13:27:51Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。…</title>
+    <link href="https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023"/>
+    <id>https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。</summary>
+  </entry>
+  <entry>
+    <title>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。…</title>
+    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
+    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。</summary>
+  </entry>
+  <entry>
+    <title>支持页面列出指定软件版本下的测试结果、运行脚本、编译在内的耗时与显存。尚未测试不等于不兼容，当前覆盖的任务与模型范围仍有限。…</title>
+    <link href="https://huggingface.co/blog/torch-neuronx-model-support"/>
+    <id>https://huggingface.co/blog/torch-neuronx-model-support</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>支持页面列出指定软件版本下的测试结果、运行脚本、编译在内的耗时与显存。尚未测试不等于不兼容，当前覆盖的任务与模型范围仍有限。</summary>
+  </entry>
+  <entry>
+    <title>团队用基准之外的任务训练智能体，通过可执行结果评价完成情况。报告提升来自指定模型与训练配置，不能等同于所有真实业务任务都可靠完成。…</title>
+    <link href="https://huggingface.co/blog/microsoft/thinkingbox-training"/>
+    <id>https://huggingface.co/blog/microsoft/thinkingbox-training</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>团队用基准之外的任务训练智能体，通过可执行结果评价完成情况。报告提升来自指定模型与训练配置，不能等同于所有真实业务任务都可靠完成。</summary>
+  </entry>
+  <entry>
+    <title>服务面向分类、路由等答案范围有限的决策，支持文本、图像和结构化输入。速度与成本优势取决于任务和比较条件，仍应评估错误及低置信度情况。…</title>
+    <link href="https://openai.com/index/decisions-api"/>
+    <id>https://openai.com/index/decisions-api</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>服务面向分类、路由等答案范围有限的决策，支持文本、图像和结构化输入。速度与成本优势取决于任务和比较条件，仍应评估错误及低置信度情况。</summary>
+  </entry>
+  <entry>
+    <title>软件将不同材料用于传感器和连接线路，以减少信号干扰，支持响应动作的打印物件原型。文中的感知能力不意味着设备具有意识，实际精度仍需按设计验证。…</title>
+    <link href="https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022"/>
+    <id>https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>软件将不同材料用于传感器和连接线路，以减少信号干扰，支持响应动作的打印物件原型。文中的感知能力不意味着设备具有意识，实际精度仍需按设计验证。</summary>
+  </entry>
+  <entry>
+    <title>团队提供十米像素的预计算特征与浏览器地图探索工具，支持相似区域检索等用途。嵌入是可复用表征，具体土地分类或变化判断仍需任务验证。…</title>
     <link href="https://huggingface.co/blog/allenai/olmoearth-v1-3"/>
     <id>https://huggingface.co/blog/allenai/olmoearth-v1-3</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary></summary>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>团队提供十米像素的预计算特征与浏览器地图探索工具，支持相似区域检索等用途。嵌入是可复用表征，具体土地分类或变化判断仍需任务验证。</summary>
   </entry>
   <entry>
     <title>方案组合四种互补架构，提供中位数与分位数预测，无需重训或拟合集成权重。不同序列仍需比较表现，首次运行需下载成员模型。…</title>
     <link href="https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"/>
     <id>https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1</id>
-    <updated>2026-10-22T16:31:28Z</updated>
+    <updated>2026-10-23T13:27:51Z</updated>
     <summary>方案组合四种互补架构，提供中位数与分位数预测，无需重训或拟合集成权重。不同序列仍需比较表现，首次运行需下载成员模型。</summary>
   </entry>
   <entry>
-    <title>What forward deployed engineering means at OpenAI…</title>
+    <title>文章强调从业务结果出发，连接客户、产品与研究团队，缩小模型能力和可用系统之间的差距。案例反映团队实践，不是对所有企业部署效果的保证。…</title>
     <link href="https://openai.com/index/forward-deployed-engineering-means"/>
     <id>https://openai.com/index/forward-deployed-engineering-means</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>What forward deployed engineering means at OpenAI</summary>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>文章强调从业务结果出发，连接客户、产品与研究团队，缩小模型能力和可用系统之间的差距。案例反映团队实践，不是对所有企业部署效果的保证。</summary>
   </entry>
   <entry>
-    <title>公告要求合作伙伴维持相应防护与协同执行，并宣布使用政策更新将于 11 月 20 日生效。不能把未来生效的要求写成今日已经实施。…</title>
-    <link href="https://openai.com/index/broad-access-through-consistent-standards"/>
-    <id>https://openai.com/index/broad-access-through-consistent-standards</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>公告要求合作伙伴维持相应防护与协同执行，并宣布使用政策更新将于 11 月 20 日生效。不能把未来生效的要求写成今日已经实施。</summary>
-  </entry>
-  <entry>
-    <title>预训练模型直接利用数据库关系与历史样本进行推断，无需每项任务单独训练。报告结果来自指定基准，不能外推为所有企业数据上的领先表现。…</title>
-    <link href="https://huggingface.co/blog/nvidia/kumo-relational"/>
-    <id>https://huggingface.co/blog/nvidia/kumo-relational</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>预训练模型直接利用数据库关系与历史样本进行推断，无需每项任务单独训练。报告结果来自指定基准，不能外推为所有企业数据上的领先表现。</summary>
-  </entry>
-  <entry>
-    <title>案例针对葡萄牙语作文评分模型调整词表，报告该部署推理成本下降。效果依赖语言、任务和工作负载，不能泛化为所有小模型都节省相同比例。…</title>
-    <link href="https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"/>
-    <id>https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>案例针对葡萄牙语作文评分模型调整词表，报告该部署推理成本下降。效果依赖语言、任务和工作负载，不能泛化为所有小模型都节省相同比例。</summary>
-  </entry>
-  <entry>
-    <title>合作基于 LegalEdge，计划以自然语言受理请求并关联先例、研究与历史工作。部分能力仍属规划，法律判断与决策继续由专业人员负责。…</title>
-    <link href="https://openai.com/index/att-legal"/>
-    <id>https://openai.com/index/att-legal</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>合作基于 LegalEdge，计划以自然语言受理请求并关联先例、研究与历史工作。部分能力仍属规划，法律判断与决策继续由专业人员负责。</summary>
-  </entry>
-  <entry>
-    <title>研究利用低成本探头与非超声专业人员采集的扫查数据估计孕周，并开展前瞻性多中心验证。研究结果不等于替代完整产检或所有超声诊断。…</title>
-    <link href="https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/"/>
-    <id>https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>研究利用低成本探头与非超声专业人员采集的扫查数据估计孕周，并开展前瞻性多中心验证。研究结果不等于替代完整产检或所有超声诊断。</summary>
-  </entry>
-  <entry>
-    <title>教程用运行轨迹定位推理工作负载中的瓶颈，为原生 PyTorch 后端调优提供方法。实际加速幅度仍取决于模型、硬件和执行配置。…</title>
-    <link href="https://huggingface.co/blog/amazon/profiling-torchneuron-part-1"/>
-    <id>https://huggingface.co/blog/amazon/profiling-torchneuron-part-1</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>教程用运行轨迹定位推理工作负载中的瓶颈，为原生 PyTorch 后端调优提供方法。实际加速幅度仍取决于模型、硬件和执行配置。</summary>
-  </entry>
-  <entry>
-    <title>系列包括多语言语音模型与较小的 TurboCTC 模型，并报告指定评测中的速度和准确性。不同语言、音频条件与部署环境仍需单独验证。…</title>
-    <link href="https://huggingface.co/blog/ibm-granite/granite-speech-5"/>
-    <id>https://huggingface.co/blog/ibm-granite/granite-speech-5</id>
-    <updated>2026-10-22T16:31:28Z</updated>
-    <summary>系列包括多语言语音模型与较小的 TurboCTC 模型，并报告指定评测中的速度和准确性。不同语言、音频条件与部署环境仍需单独验证。</summary>
+    <title>公告称从千人试点扩大到三万多名员工，并配套批准的集成、技能库与培训。推广规模不等于所有员工已经使用，也不能据此推断实际生产率收益。…</title>
+    <link href="https://openai.com/index/uber-chatgpt-work-rollout"/>
+    <id>https://openai.com/index/uber-chatgpt-work-rollout</id>
+    <updated>2026-10-23T13:27:51Z</updated>
+    <summary>公告称从千人试点扩大到三万多名员工，并配套批准的集成、技能库与培训。推广规模不等于所有员工已经使用，也不能据此推断实际生产率收益。</summary>
   </entry>
 </feed>
