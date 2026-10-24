@@ -1,10 +1,42 @@
 {
-  "date": "2026年10月23日",
+  "date": "2026年10月24日",
   "news": [
     {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "title": "Google 回顾 AI 结核病筛查从研究走向基层的进展",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+      "body": "文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T18:51:33+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "Bringing foundational models to the front lines of TB screening",
+      "body_original": "Generative AI",
+      "editorial_date": "2026-10-24"
+    },
+    {
+      "title": "Martha Minow 在 MIT 讨论 AI 与民主的关系",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "body": "讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T17:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "body_original": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "editorial_date": "2026-10-24"
+    },
+    {
+      "title": "OpenAI 介绍 Habitat 在线存储的扩展经验",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "body": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "body": "文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。",
       "date": "2026-10-23",
       "published_at": "2026-10-23T17:00:00+00:00",
       "source": "OpenAI",
@@ -12,12 +44,15 @@
         "OpenAI",
         "2026-10-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "body_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "editorial_date": "2026-10-24"
     },
     {
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "title": "LitPivot 让研究构想随文献证据迭代",
       "url": "https://huggingface.co/blog/allenai/litpivot",
-      "body": "",
+      "body": "系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。",
       "date": "2026-10-23",
       "published_at": "2026-10-23T16:15:50+00:00",
       "source": "Hugging Face",
@@ -25,7 +60,42 @@
         "Hugging Face",
         "2026-10-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "body_original": "",
+      "editorial_date": "2026-10-24"
+    },
+    {
+      "title": "MIT 人文社科学院周年活动讨论 AI 与人的理解",
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "body": "报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T15:35:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "Reinforcing the value of human understanding at MIT",
+      "body_original": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+      "editorial_date": "2026-10-24"
+    },
+    {
+      "title": "OpenAI 介绍前沿模型训练环境的隔离加固",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "body": "文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。",
+      "date": "2026-10-23",
+      "published_at": "2026-10-23T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-23"
+      ],
+      "importance": "normal",
+      "title_original": "Securing our frontier model training environment",
+      "body_original": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "MIT 访谈回顾 AI 对复杂人类思维的建模历史",
@@ -41,7 +111,7 @@
       "importance": "normal",
       "title_original": "Q&A: How AI came to model the “messy” human mind",
       "body_original": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "OpenAI 与波兰 NASK 探索 AI 安全研究合作",
@@ -57,7 +127,7 @@
       "importance": "normal",
       "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "body_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "TorchNeuron 提供 Trainium 模型兼容性查询",
@@ -73,7 +143,7 @@
       "importance": "normal",
       "title_original": "Does Your Model Run on AWS Trainium? Look It Up",
       "body_original": "",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "ThinkingBox 把数据库最终状态检查用作训练奖励",
@@ -89,7 +159,7 @@
       "importance": "normal",
       "title_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "body_original": "",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "OpenAI 宣布 Decisions API 正式可用",
@@ -105,7 +175,7 @@
       "importance": "normal",
       "title_original": "Build more responsive apps with the Decisions API",
       "body_original": "Fast, focused, low-cost decisions for any application.",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "X-Hinges 为交互式打印物件嵌入传感与导线",
@@ -121,7 +191,7 @@
       "importance": "normal",
       "title_original": "This design software reimagines everyday objects as self-aware devices",
       "body_original": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "Granite 用四种时间序列模型集成预测",
@@ -137,7 +207,7 @@
       "importance": "normal",
       "title_original": "Ensemble forecasting with IBM Granite time-series models",
       "body_original": "",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "OpenAI 介绍面向客户场景的前线部署工程",
@@ -153,7 +223,7 @@
       "importance": "normal",
       "title_original": "What FDE means at OpenAI",
       "body_original": "What forward deployed engineering means at OpenAI",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     },
     {
       "title": "Uber 宣布向全体员工推广 ChatGPT Work",
@@ -169,135 +239,17 @@
       "importance": "normal",
       "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
       "body_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "editorial_date": "2026-10-23"
-    },
-    {
-      "title": "OpenAI 推动跨服务一致的安全标准",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "body": "公告要求合作伙伴维持相应防护与协同执行，并宣布使用政策更新将于 11 月 20 日生效。不能把未来生效的要求写成今日已经实施。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T21:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "Broad access through consistent standards",
-      "body_original": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "editorial_date": "2026-10-23"
-    },
-    {
-      "title": "Kumo Relational 用历史上下文预测关系型数据",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "body": "预训练模型直接利用数据库关系与历史样本进行推断，无需每项任务单独训练。报告结果来自指定基准，不能外推为所有企业数据上的领先表现。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T18:26:30+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "body_original": "",
-      "editorial_date": "2026-10-23"
-    },
-    {
-      "title": "VocabX 通过词表专门化降低特定推理成本",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "body": "案例针对葡萄牙语作文评分模型调整词表，报告该部署推理成本下降。效果依赖语言、任务和工作负载，不能泛化为所有小模型都节省相同比例。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T17:35:36+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "body_original": "",
-      "editorial_date": "2026-10-23"
-    },
-    {
-      "title": "AT&T 探索用 AI 连接企业法律知识",
-      "url": "https://openai.com/index/att-legal",
-      "body": "合作基于 LegalEdge，计划以自然语言受理请求并关联先例、研究与历史工作。部分能力仍属规划，法律判断与决策继续由专业人员负责。",
-      "date": "2026-10-21",
-      "published_at": "2026-10-21T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-21"
-      ],
-      "importance": "normal",
-      "title_original": "How AT&T is rethinking in-house legal work with OpenAI",
-      "body_original": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "editorial_date": "2026-10-23"
+      "editorial_date": "2026-10-24"
     }
   ],
-  "papers": [
-    {
-      "title": "扩散模型生成增材制造微结构并探索逆向设计",
-      "url": "https://arxiv.org/abs/2610.30404",
-      "body": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究用扩散模型合成具有取向信息的金属增材制造微结构，并以无分类器引导探索性能或工艺到结构的映射。数字孪生保真度与不确定性案例不等于完成实物构件认证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins",
-      "summary_original": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
-      "editorial_date": "2026-10-23"
-    },
-    {
-      "title": "CrystalAR 联合生成对称模板与晶体结构",
-      "url": "https://arxiv.org/abs/2610.27762",
-      "body": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T00:00:00-04:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：统一自回归序列建模 Wyckoff 模板与分层空间定位，并开展约束搜索。生成与结构预测基准表现仍需结合稳定性、可合成性和域外测试评价。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
-      "summary_original": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
-      "editorial_date": "2026-10-23"
-    }
-  ],
+  "papers": [],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [
-    {
-      "title": "Microstructural Generative Inverse Models for Additive Manufacturing Digital Twins",
-      "body": "arXiv:2610.30404v1 Announce Type: new Abstract: Metal additive manufacturing (AM) offers substantial advantages to the fabrication of complex structural components, but its widespread adoption is slowed due to complexities in the process-structure-property relations which is the cause for uncertainty and drives risk. Accurately quantifying these complex relations solely via experimental workflows is time consuming and costly. Integrated computational materials and engineering (ICME) frameworks address this challenge by leveraging advanced computational tools, such as crystal plasticity finite element models (CPFEM), to predict critical mechanical properties directly from microstructural data",
-      "url": "https://arxiv.org/abs/2610.30404"
-    },
-    {
-      "title": "CrystalAR: Autoregressive Modeling for Symmetric Crystal Generation",
-      "body": "arXiv:2610.27762v2 Announce Type: replace-cross Abstract: Deep generative modeling has achieved remarkable progress in crystal generation. Given the rich symmetries inherent in crystalline structures, recent work has sought to explicitly incorporate space-group symmetry into generative models, enabling more effective exploration of novel symmetry templates. Yet introducing symmetry templates increases the combinatorial complexity of stoichiometric relationships between atomic species and crystallographic sites, while creating a fundamental tension between flexible exploration of discrete crystallographic templates and faithful realization of these templates as continuous three-dimensional st",
-      "url": "https://arxiv.org/abs/2610.27762"
-    }
-  ],
+  "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-23T16:21:30.753429+00:00",
+  "fetched_at": "2026-10-24T13:04:16.647176+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -315,7 +267,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 4
+      "items": 6
     },
     {
       "source": "Google Research",
@@ -339,19 +291,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 44
+      "items": 0
     }
   ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  },
   "editorial": {
-    "date": "2026-10-23",
+    "date": "2026-10-24",
     "items_applied": 15,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
-  },
-  "stats": {
-    "news_count": 15,
-    "paper_count": 2,
-    "leader_count": 0,
-    "science_count": 2
   }
 }
