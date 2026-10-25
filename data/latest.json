@@ -1,5 +1,5 @@
 {
-  "date": "2026年10月24日",
+  "date": "2026年10月25日",
   "news": [
     {
       "title": "Google 回顾 AI 结核病筛查从研究走向基层的进展",
@@ -15,7 +15,7 @@
       "importance": "normal",
       "title_original": "Bringing foundational models to the front lines of TB screening",
       "body_original": "Generative AI",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "Martha Minow 在 MIT 讨论 AI 与民主的关系",
@@ -31,7 +31,7 @@
       "importance": "normal",
       "title_original": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
       "body_original": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "OpenAI 介绍 Habitat 在线存储的扩展经验",
@@ -47,7 +47,7 @@
       "importance": "normal",
       "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "body_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "LitPivot 让研究构想随文献证据迭代",
@@ -63,7 +63,7 @@
       "importance": "normal",
       "title_original": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
       "body_original": "",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "MIT 人文社科学院周年活动讨论 AI 与人的理解",
@@ -79,7 +79,7 @@
       "importance": "normal",
       "title_original": "Reinforcing the value of human understanding at MIT",
       "body_original": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "OpenAI 介绍前沿模型训练环境的隔离加固",
@@ -95,7 +95,7 @@
       "importance": "normal",
       "title_original": "Securing our frontier model training environment",
       "body_original": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "MIT 访谈回顾 AI 对复杂人类思维的建模历史",
@@ -111,7 +111,7 @@
       "importance": "normal",
       "title_original": "Q&A: How AI came to model the “messy” human mind",
       "body_original": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "OpenAI 与波兰 NASK 探索 AI 安全研究合作",
@@ -127,7 +127,7 @@
       "importance": "normal",
       "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "body_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "TorchNeuron 提供 Trainium 模型兼容性查询",
@@ -143,7 +143,7 @@
       "importance": "normal",
       "title_original": "Does Your Model Run on AWS Trainium? Look It Up",
       "body_original": "",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "ThinkingBox 把数据库最终状态检查用作训练奖励",
@@ -159,7 +159,7 @@
       "importance": "normal",
       "title_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "body_original": "",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "OpenAI 宣布 Decisions API 正式可用",
@@ -175,7 +175,7 @@
       "importance": "normal",
       "title_original": "Build more responsive apps with the Decisions API",
       "body_original": "Fast, focused, low-cost decisions for any application.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "X-Hinges 为交互式打印物件嵌入传感与导线",
@@ -191,7 +191,7 @@
       "importance": "normal",
       "title_original": "This design software reimagines everyday objects as self-aware devices",
       "body_original": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "Granite 用四种时间序列模型集成预测",
@@ -207,7 +207,7 @@
       "importance": "normal",
       "title_original": "Ensemble forecasting with IBM Granite time-series models",
       "body_original": "",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "OpenAI 介绍面向客户场景的前线部署工程",
@@ -223,7 +223,7 @@
       "importance": "normal",
       "title_original": "What FDE means at OpenAI",
       "body_original": "What forward deployed engineering means at OpenAI",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     },
     {
       "title": "Uber 宣布向全体员工推广 ChatGPT Work",
@@ -239,7 +239,7 @@
       "importance": "normal",
       "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
       "body_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "editorial_date": "2026-10-24"
+      "editorial_date": "2026-10-25"
     }
   ],
   "papers": [],
@@ -249,7 +249,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-24T15:17:44.780470+00:00",
+  "fetched_at": "2026-10-25T13:04:35.632511+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -267,7 +267,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 5
     },
     {
       "source": "Google Research",
@@ -294,16 +294,16 @@
       "items": 0
     }
   ],
-  "editorial": {
-    "date": "2026-10-24",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-10-25",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
