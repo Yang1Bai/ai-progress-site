@@ -2,6 +2,32 @@
   "date": "2026年10月26日",
   "news": [
     {
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "body": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "date": "2026-10-26",
+      "published_at": "2026-10-26T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-26"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "body": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "date": "2026-10-26",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-26"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Google 回顾 AI 结核病筛查从研究走向基层的进展",
       "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
       "body": "文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。",
@@ -208,38 +234,6 @@
       "title_original": "Ensemble forecasting with IBM Granite time-series models",
       "body_original": "",
       "editorial_date": "2026-10-26"
-    },
-    {
-      "title": "OpenAI 介绍面向客户场景的前线部署工程",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "body": "文章强调从业务结果出发，连接客户、产品与研究团队，缩小模型能力和可用系统之间的差距。案例反映团队实践，不是对所有企业部署效果的保证。",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T06:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "title_original": "What FDE means at OpenAI",
-      "body_original": "What forward deployed engineering means at OpenAI",
-      "editorial_date": "2026-10-26"
-    },
-    {
-      "title": "Uber 宣布向全体员工推广 ChatGPT Work",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "body": "公告称从千人试点扩大到三万多名员工，并配套批准的集成、技能库与培训。推广规模不等于所有员工已经使用，也不能据此推断实际生产率收益。",
-      "date": "2026-10-22",
-      "published_at": "2026-10-22T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-22"
-      ],
-      "importance": "normal",
-      "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "body_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "editorial_date": "2026-10-26"
     }
   ],
   "papers": [
@@ -381,13 +375,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-26T13:48:56.856277+00:00",
+  "fetched_at": "2026-10-26T18:08:05.112697+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 18
+      "items": 20
     },
     {
       "source": "Hugging Face",
@@ -426,16 +420,16 @@
       "items": 56
     }
   ],
+  "editorial": {
+    "date": "2026-10-26",
+    "items_applied": 18,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 5,
     "leader_count": 0,
     "science_count": 5
-  },
-  "editorial": {
-    "date": "2026-10-26",
-    "items_applied": 20,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }

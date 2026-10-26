@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-26T13:49:39Z</updated>
+  <updated>2026-10-26T18:08:06Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年10月26日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-26.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-26.html</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Explore OpenAI Signals data on 165 work activities across nearly 100 countries, …</title>
+    <link href="https://openai.com/index/chatgpt-expanding-world-of-work"/>
+    <id>https://openai.com/index/chatgpt-expanding-world-of-work</id>
+    <updated>2026-10-26T18:08:06Z</updated>
+    <summary>Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.</summary>
+  </entry>
+  <entry>
+    <title>Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the …</title>
+    <link href="https://openai.com/index/fanatics-streamline-fan-experience"/>
+    <id>https://openai.com/index/fanatics-streamline-fan-experience</id>
+    <updated>2026-10-26T18:08:06Z</updated>
+    <summary>Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.</summary>
   </entry>
   <entry>
     <title>文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI…</title>
     <link href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/"/>
     <id>https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。</summary>
   </entry>
   <entry>
     <title>讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。…</title>
     <link href="https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023"/>
     <id>https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。</summary>
   </entry>
   <entry>
     <title>文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。…</title>
     <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
     <id>https://openai.com/index/scaling-storage-one-billion-users-part-two</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。</summary>
   </entry>
   <entry>
     <title>系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。…</title>
     <link href="https://huggingface.co/blog/allenai/litpivot"/>
     <id>https://huggingface.co/blog/allenai/litpivot</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。</summary>
   </entry>
   <entry>
     <title>报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。…</title>
     <link href="https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023"/>
     <id>https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。</summary>
   </entry>
   <entry>
     <title>文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。…</title>
     <link href="https://openai.com/index/securing-our-frontier-model-training-environment"/>
     <id>https://openai.com/index/securing-our-frontier-model-training-environment</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。</summary>
   </entry>
   <entry>
     <title>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。…</title>
     <link href="https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023"/>
     <id>https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。</summary>
   </entry>
   <entry>
     <title>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。…</title>
     <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
     <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
-    <updated>2026-10-26T13:49:39Z</updated>
+    <updated>2026-10-26T18:08:06Z</updated>
     <summary>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。</summary>
-  </entry>
-  <entry>
-    <title>支持页面列出指定软件版本下的测试结果、运行脚本、编译在内的耗时与显存。尚未测试不等于不兼容，当前覆盖的任务与模型范围仍有限。…</title>
-    <link href="https://huggingface.co/blog/torch-neuronx-model-support"/>
-    <id>https://huggingface.co/blog/torch-neuronx-model-support</id>
-    <updated>2026-10-26T13:49:39Z</updated>
-    <summary>支持页面列出指定软件版本下的测试结果、运行脚本、编译在内的耗时与显存。尚未测试不等于不兼容，当前覆盖的任务与模型范围仍有限。</summary>
-  </entry>
-  <entry>
-    <title>团队用基准之外的任务训练智能体，通过可执行结果评价完成情况。报告提升来自指定模型与训练配置，不能等同于所有真实业务任务都可靠完成。…</title>
-    <link href="https://huggingface.co/blog/microsoft/thinkingbox-training"/>
-    <id>https://huggingface.co/blog/microsoft/thinkingbox-training</id>
-    <updated>2026-10-26T13:49:39Z</updated>
-    <summary>团队用基准之外的任务训练智能体，通过可执行结果评价完成情况。报告提升来自指定模型与训练配置，不能等同于所有真实业务任务都可靠完成。</summary>
   </entry>
 </feed>
