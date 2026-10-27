@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-26T18:08:06Z</updated>
+  <updated>2026-10-27T16:04:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月26日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-26.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-26.html</id>
-    <updated>2026-10-26T18:08:06Z</updated>
+    <title>每日汇总 2026年10月27日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-27.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-27.html</id>
+    <updated>2026-10-27T16:04:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Explore OpenAI Signals data on 165 work activities across nearly 100 countries, …</title>
-    <link href="https://openai.com/index/chatgpt-expanding-world-of-work"/>
-    <id>https://openai.com/index/chatgpt-expanding-world-of-work</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.</summary>
+    <title>客户案例介绍通过界面操作检查应用行为，例如不同屏幕尺寸下的功能问题，并结合安全分析。自动发现仍需验证，案例不等于所有缺陷均能检出。…</title>
+    <link href="https://openai.com/index/greptile-code-review-codex-astra"/>
+    <id>https://openai.com/index/greptile-code-review-codex-astra</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>客户案例介绍通过界面操作检查应用行为，例如不同屏幕尺寸下的功能问题，并结合安全分析。自动发现仍需验证，案例不等于所有缺陷均能检出。</summary>
   </entry>
   <entry>
-    <title>Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the …</title>
+    <title>报道介绍 MIT 团队参与人工智能、气候创新及产业合作讨论。活动强调多方协作，不代表会上讨论的技术已产生可量化减排成果。…</title>
+    <link href="https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026"/>
+    <id>https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>报道介绍 MIT 团队参与人工智能、气候创新及产业合作讨论。活动强调多方协作，不代表会上讨论的技术已产生可量化减排成果。</summary>
+  </entry>
+  <entry>
+    <title>公告介绍数学、计算机科学和物理方向的材料及不同发布安排，并将稿件视为待学界理解的原始研究数据。不能把公告中的发现主张直接写成已获独立验证的定论。…</title>
+    <link href="https://openai.com/index/building-scientific-understanding-with-academic-communities"/>
+    <id>https://openai.com/index/building-scientific-understanding-with-academic-communities</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>公告介绍数学、计算机科学和物理方向的材料及不同发布安排，并将稿件视为待学界理解的原始研究数据。不能把公告中的发现主张直接写成已获独立验证的定论。</summary>
+  </entry>
+  <entry>
+    <title>案例介绍关联文件、依赖与共享组件的风险分析，并对选定问题在隔离环境中验证及提出修复。最终是否发布修改仍由人工审核决定。…</title>
+    <link href="https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"/>
+    <id>https://openai.com/index/gpt-6-1-sol-coderabbit-code-security</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>案例介绍关联文件、依赖与共享组件的风险分析，并对选定问题在隔离环境中验证及提出修复。最终是否发布修改仍由人工审核决定。</summary>
+  </entry>
+  <entry>
+    <title>数据覆盖近百国的 165 类工作活动，支持季度比较与经济研究。消息使用分布不能直接解释为就业替代、劳动生产率或因果影响。…</title>
+    <link href="https://openai.com/index/chatgpt-expanding-world-of-work"/>
+    <id>https://openai.com/index/chatgpt-expanding-world-of-work</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>数据覆盖近百国的 165 类工作活动，支持季度比较与经济研究。消息使用分布不能直接解释为就业替代、劳动生产率或因果影响。</summary>
+  </entry>
+  <entry>
+    <title>案例介绍结合商品、库存和搭配规则生成推荐，并由团队反馈迭代。互动提升属于企业自报指标，不等于销售或利润增长已获独立证实。…</title>
     <link href="https://openai.com/index/fanatics-streamline-fan-experience"/>
     <id>https://openai.com/index/fanatics-streamline-fan-experience</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.</summary>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>案例介绍结合商品、库存和搭配规则生成推荐，并由团队反馈迭代。互动提升属于企业自报指标，不等于销售或利润增长已获独立证实。</summary>
+  </entry>
+  <entry>
+    <title>内部团队使用快速模型并行查找潜在原因、汇总信息，缩短部分调查流程。节时数字来自内部经验，工具仍是工程师的调查助手。…</title>
+    <link href="https://openai.com/index/openai-cut-incident-investigation"/>
+    <id>https://openai.com/index/openai-cut-incident-investigation</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>内部团队使用快速模型并行查找潜在原因、汇总信息，缩短部分调查流程。节时数字来自内部经验，工具仍是工程师的调查助手。</summary>
+  </entry>
+  <entry>
+    <title>公告介绍面向视觉理解、计算机操作和写作的模型，并报告指定评测中的能力与成本表现。基准结果不保证所有应用任务都同样准确或高效。…</title>
+    <link href="https://openai.com/index/introducing-gpt-6-1-terra"/>
+    <id>https://openai.com/index/introducing-gpt-6-1-terra</id>
+    <updated>2026-10-27T16:04:49Z</updated>
+    <summary>公告介绍面向视觉理解、计算机操作和写作的模型，并报告指定评测中的能力与成本表现。基准结果不保证所有应用任务都同样准确或高效。</summary>
   </entry>
   <entry>
     <title>文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI…</title>
     <link href="https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/"/>
     <id>https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/</id>
-    <updated>2026-10-26T18:08:06Z</updated>
+    <updated>2026-10-27T16:04:49Z</updated>
     <summary>文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。</summary>
   </entry>
   <entry>
     <title>讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。…</title>
     <link href="https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023"/>
     <id>https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023</id>
-    <updated>2026-10-26T18:08:06Z</updated>
+    <updated>2026-10-27T16:04:49Z</updated>
     <summary>讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。</summary>
-  </entry>
-  <entry>
-    <title>文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。…</title>
-    <link href="https://openai.com/index/scaling-storage-one-billion-users-part-two"/>
-    <id>https://openai.com/index/scaling-storage-one-billion-users-part-two</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。</summary>
-  </entry>
-  <entry>
-    <title>系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。…</title>
-    <link href="https://huggingface.co/blog/allenai/litpivot"/>
-    <id>https://huggingface.co/blog/allenai/litpivot</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。</summary>
-  </entry>
-  <entry>
-    <title>报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。…</title>
-    <link href="https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023"/>
-    <id>https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。</summary>
-  </entry>
-  <entry>
-    <title>文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。…</title>
-    <link href="https://openai.com/index/securing-our-frontier-model-training-environment"/>
-    <id>https://openai.com/index/securing-our-frontier-model-training-environment</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。</summary>
-  </entry>
-  <entry>
-    <title>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。…</title>
-    <link href="https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023"/>
-    <id>https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。</summary>
-  </entry>
-  <entry>
-    <title>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。…</title>
-    <link href="https://openai.com/index/openai-nask-ai-safety-security-partnership"/>
-    <id>https://openai.com/index/openai-nask-ai-safety-security-partnership</id>
-    <updated>2026-10-26T18:08:06Z</updated>
-    <summary>双方签署协议，拟共同研究能力评估、潜在漏洞与防护机制。合作方向与既有安全案例不代表所有新系统已经获得独立安全认证。</summary>
   </entry>
 </feed>

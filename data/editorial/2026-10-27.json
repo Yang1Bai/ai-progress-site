@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-27",
+  "news": [
+    {
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "title": "Greptile 用 AI 测试补充代码审查",
+      "body": "客户案例介绍通过界面操作检查应用行为，例如不同屏幕尺寸下的功能问题，并结合安全分析。自动发现仍需验证，案例不等于所有缺陷均能检出。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "title": "MIT 在纽约气候周连接跨领域合作网络",
+      "body": "报道介绍 MIT 团队参与人工智能、气候创新及产业合作讨论。活动强调多方协作，不代表会上讨论的技术已产生可量化减排成果。"
+    },
+    {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "title": "OpenAI 探索与学界共同理解模型生成的研究结果",
+      "body": "公告介绍数学、计算机科学和物理方向的材料及不同发布安排，并将稿件视为待学界理解的原始研究数据。不能把公告中的发现主张直接写成已获独立验证的定论。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "CodeRabbit 用模型辅助跨代码库安全调查",
+      "body": "案例介绍关联文件、依赖与共享组件的风险分析，并对选定问题在隔离环境中验证及提出修复。最终是否发布修改仍由人工审核决定。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "title": "OpenAI 发布按工作活动划分的 ChatGPT 使用数据",
+      "body": "数据覆盖近百国的 165 类工作活动，支持季度比较与经济研究。消息使用分布不能直接解释为就业替代、劳动生产率或因果影响。"
+    },
+    {
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "title": "Fanatics 用 AI 更新商品搭配推荐",
+      "body": "案例介绍结合商品、库存和搭配规则生成推荐，并由团队反馈迭代。互动提升属于企业自报指标，不等于销售或利润增长已获独立证实。"
+    },
+    {
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "title": "OpenAI 分享 Ultrafast 辅助故障调查案例",
+      "body": "内部团队使用快速模型并行查找潜在原因、汇总信息，缩短部分调查流程。节时数字来自内部经验，工具仍是工程师的调查助手。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "title": "OpenAI 发布 GPT-6.1 Terra",
+      "body": "公告介绍面向视觉理解、计算机操作和写作的模型，并报告指定评测中的能力与成本表现。基准结果不保证所有应用任务都同样准确或高效。"
+    },
+    {
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+      "title": "Google 回顾 AI 结核病筛查从研究走向基层的进展",
+      "body": "文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "title": "Martha Minow 在 MIT 讨论 AI 与民主的关系",
+      "body": "讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。"
+    },
+    {
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "OpenAI 介绍 Habitat 在线存储的扩展经验",
+      "body": "文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "title": "LitPivot 让研究构想随文献证据迭代",
+      "body": "系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "title": "MIT 人文社科学院周年活动讨论 AI 与人的理解",
+      "body": "报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。"
+    },
+    {
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "title": "OpenAI 介绍前沿模型训练环境的隔离加固",
+      "body": "文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+      "title": "MIT 访谈回顾 AI 对复杂人类思维的建模历史",
+      "body": "历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.34551",
+      "title": "为机器学习原子势增加热力学校正层",
+      "summary": "预印本摘要：方法拟合附加能量修正，使相自由能靠近评估参考，无需重训基础势。在指定元素的相变测试中改善温度预测，但较大校正仍会影响缺陷及热膨胀等性质。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34642",
+      "title": "文献数据宁缺毋错：分层检测提取错误",
+      "summary": "预印本摘要：框架结合来源、模式、物理约束与人工复核，识别文献挖掘中的数值错误。门控后仍有错误漏过，测量条件缺失也是限制，不能仅靠大模型抽取即认定数据可信。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35653",
+      "title": "保留约束微调铝 MACE 势以改善缺陷动力学",
+      "summary": "预印本摘要：研究结合不确定性选样、迭代更新与相对能量锚定，在改善缺陷预测时约束弹性及振动响应漂移。结果限于指定势、更新预算和样本，不能保证通用域外稳定。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.15389",
+      "title": "机器学习分子动力学揭示固体酸中的质子弹弓机制",
+      "summary": "预印本摘要：模拟比较两种固体酸中多阴离子转动与 O-H 重取向如何共同促进长程迁移，并分析质子浓度的作用。提出的机制来自特定材料模拟，仍应结合实验检验。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.08960",
+      "title": "CrystalREPA 将原子势表征迁移到晶体生成模型",
+      "summary": "预印本摘要：训练时对齐生成器与冻结原子势的原子表征，在多个框架和数据集改善稳定性与结构指标。教师的常规榜单准确率不足以判断迁移效果，候选仍需独立验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.24418",
+      "title": "结合散射与机器学习模拟比较三维 COF 局部运动",
+      "summary": "预印本摘要：研究用 X 射线对分布函数和原子势加速动力学，区分两种 COF 中连接体的摆动、重取向与平移。局部运动差异不等于所有吸附或机械性能已获验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.10115",
+      "title": "SymADiT 在潜空间生成中加入晶体对称约束",
+      "summary": "预印本摘要：方法以 Wyckoff 位置表达晶体，并通过潜空间流匹配生成符合空间群约束的结构。基准中的稳定与有效性表现不等同于实验可合成性。"
+    }
+  ]
+}
