@@ -2,6 +2,45 @@
   "date": "2026年10月27日",
   "news": [
     {
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "body": "",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-27"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "body": "",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-27"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "body": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-27"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Greptile 用 AI 测试补充代码审查",
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "body": "客户案例介绍通过界面操作检查应用行为，例如不同屏幕尺寸下的功能问题，并结合安全分析。自动发现仍需验证，案例不等于所有缺陷均能检出。",
@@ -178,22 +217,6 @@
       "editorial_date": "2026-10-27"
     },
     {
-      "title": "LitPivot 让研究构想随文献证据迭代",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "body": "系统围绕提案正在编辑的部分组织文献，以原文片段支持批评与修改建议。17 名研究者参与的研究显示文献扎根性改善，但样本有限，主观新颖性感受不等于研究贡献已被证实。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T16:15:50+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "body_original": "",
-      "editorial_date": "2026-10-27"
-    },
-    {
       "title": "MIT 人文社科学院周年活动讨论 AI 与人的理解",
       "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
       "body": "报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。",
@@ -207,38 +230,6 @@
       "importance": "normal",
       "title_original": "Reinforcing the value of human understanding at MIT",
       "body_original": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "OpenAI 介绍前沿模型训练环境的隔离加固",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "body": "文章回顾研究环境中的边界突破与红队测试，介绍断网训练和多层防护。训练评估环境不同于客户产品，这些措施也不代表隔离风险已完全消除。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "Securing our frontier model training environment",
-      "body_original": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "MIT 访谈回顾 AI 对复杂人类思维的建模历史",
-      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
-      "body": "历史学者讨论早期研究者为何把随机性引入逻辑计算，并将其与创造力和可预测性的权衡联系起来。这是历史研究与解释视角，不是证明所有现代幻觉都无法避免的技术结论。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T00:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "Q&A: How AI came to model the “messy” human mind",
-      "body_original": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
       "editorial_date": "2026-10-27"
     }
   ],
@@ -428,19 +419,19 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-27T16:03:48.613877+00:00",
+  "fetched_at": "2026-10-27T17:20:48.971680+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "MIT AI",
@@ -473,16 +464,16 @@
       "items": 107
     }
   ],
+  "editorial": {
+    "date": "2026-10-27",
+    "items_applied": 19,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 7,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-27",
-    "items_applied": 22,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
