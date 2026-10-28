@@ -1,10 +1,90 @@
 {
-  "date": "2026年10月27日",
+  "date": "2026年10月28日",
   "news": [
     {
-      "title": "Build specialized multimodal models with LFM3",
+      "title": "Nemotron 3.5 Transcribe 整合多语言语音任务",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "body": "开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T14:58:17+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "body_original": "",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "Legora 分享法律智能体与文档审查实践",
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "Legora is building the agentic operating system for legal work",
+      "body_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "Legora 法律智能体案例的另一来源链接",
+      "url": "https://openai.com/index/legora",
+      "body": "此链接与本期另一条 Legora 来源为同一篇案例，不代表第二项独立进展。内容介绍法律工作流与审查效率，效果数字属于企业自报。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "Legora is building the agentic operating system for legal work",
+      "body_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "MIT 研究者探索让机器更好地理解声音",
+      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+      "body": "人物报道介绍声源分离、音频增强和声音分析等研究方向。交通事故定位等例子体现潜在用途，不等于所有相关产品已完成部署验证。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "Making machines that can listen",
+      "body_original": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "睡眠框架探索大模型持续学习与记忆巩固",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "body": "研究交替使用主动交互与离线巩固，把短期上下文转为参数中的知识，并评估遗忘与推理。特定实验结果不保证任意模型都能无限记忆或持续更新。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T17:35:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "body_original": "Education Innovation",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "LFM3 以共享骨干支持专门化多模态模型",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "body": "",
+      "body": "系列在约二十亿参数级别提供文本、视觉、语音等分支，强调本地部署和任务微调。不同设备、后端与上下文长度的性能仍需按实际负载验证。",
       "date": "2026-10-27",
       "published_at": "2026-10-27T17:16:52+00:00",
       "source": "Hugging Face",
@@ -12,12 +92,31 @@
         "Hugging Face",
         "2026-10-27"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Build specialized multimodal models with LFM3",
+      "body_original": "",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "title": "MIT 学员分享 AI 课程与同伴合作写书经历",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "body": "报道介绍学员 Prabha Jha 参加高管课程后，与同伴交流并合作整理 AI 应用观点。属于个人学习经历，不能视为课程效果的独立对照研究。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T16:55:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Learner collaborates with MIT peers to develop book of AI insights",
+      "body_original": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "Ai2 基准检验大模型能否可靠判断科研新颖性",
       "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "body": "",
+      "body": "研究发布评估集与代码，分析模型、提示、评估格式及检索等选择对新颖性判断的影响。自动评分不能替代对相关文献与实际贡献的专家核验。",
       "date": "2026-10-27",
       "published_at": "2026-10-27T16:12:42+00:00",
       "source": "Hugging Face",
@@ -25,12 +124,31 @@
         "Hugging Face",
         "2026-10-27"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
+      "body_original": "",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "title": "Retell 分享大规模语音客服模型实践",
+      "url": "https://openai.com/index/retell-ai",
+      "body": "案例介绍语音平台利用模型生成响应、处理业务流程并转接人工。通话规模及解决率来自企业自报，不能外推为每类任务都有同样可靠性。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
+      "body_original": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "OpenAI 与 Oracle 扩展企业应用合作",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "body": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "body": "双方计划连接 Oracle 应用、数据和获准的工作流，并结合组织权限及审批。部分集成仍在开发，不能写成所有客户已经可用。",
       "date": "2026-10-27",
       "published_at": "2026-10-27T07:00:00+00:00",
       "source": "OpenAI",
@@ -38,7 +156,26 @@
         "OpenAI",
         "2026-10-27"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "body_original": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "Check Point 分享 Daybreak 辅助漏洞研究",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "body": "案例介绍分析漏洞、攻击路径和配置问题，以缩短从情报到防护的流程。节时来自企业经验，不代表自动输出可直接替代安全团队验证。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "How Check Point accelerates vulnerability research with Daybreak",
+      "body_original": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "editorial_date": "2026-10-28"
     },
     {
       "title": "Greptile 用 AI 测试补充代码审查",
@@ -54,7 +191,7 @@
       "importance": "normal",
       "title_original": "Greptile takes bug detection beyond code review with GPT-6 Astra",
       "body_original": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "editorial_date": "2026-10-27"
+      "editorial_date": "2026-10-28"
     },
     {
       "title": "MIT 在纽约气候周连接跨领域合作网络",
@@ -70,7 +207,7 @@
       "importance": "normal",
       "title_original": "At New York Climate Week 2026, MIT connects with a global network",
       "body_original": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
-      "editorial_date": "2026-10-27"
+      "editorial_date": "2026-10-28"
     },
     {
       "title": "OpenAI 探索与学界共同理解模型生成的研究结果",
@@ -86,7 +223,7 @@
       "importance": "normal",
       "title_original": "Working with academic communities to build scientific understanding",
       "body_original": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "editorial_date": "2026-10-27"
+      "editorial_date": "2026-10-28"
     },
     {
       "title": "CodeRabbit 用模型辅助跨代码库安全调查",
@@ -102,284 +239,219 @@
       "importance": "normal",
       "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "body_original": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "OpenAI 发布按工作活动划分的 ChatGPT 使用数据",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "body": "数据覆盖近百国的 165 类工作活动，支持季度比较与经济研究。消息使用分布不能直接解释为就业替代、劳动生产率或因果影响。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "ChatGPT’s expanding world of work",
-      "body_original": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "Fanatics 用 AI 更新商品搭配推荐",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "body": "案例介绍结合商品、库存和搭配规则生成推荐，并由团队反馈迭代。互动提升属于企业自报指标，不等于销售或利润增长已获独立证实。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "How Fanatics and OpenAI streamline the fan experience",
-      "body_original": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "OpenAI 分享 Ultrafast 辅助故障调查案例",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "body": "内部团队使用快速模型并行查找潜在原因、汇总信息，缩短部分调查流程。节时数字来自内部经验，工具仍是工程师的调查助手。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "body_original": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "body": "公告介绍面向视觉理解、计算机操作和写作的模型，并报告指定评测中的能力与成本表现。基准结果不保证所有应用任务都同样准确或高效。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing GPT-6.1 Terra",
-      "body_original": "Bringing fast and capable computer use to everyone",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "Google 回顾 AI 结核病筛查从研究走向基层的进展",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-      "body": "文章介绍胸部影像筛查、前瞻性临床研究及与当地合作伙伴推进部署的路径，也讨论 MedGemma 等开放模型。筛查用于发现需要进一步检测的人群，不能等同于单凭 AI 确诊或各地区均已获准使用。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T18:51:33+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "Bringing foundational models to the front lines of TB screening",
-      "body_original": "Generative AI",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "Martha Minow 在 MIT 讨论 AI 与民主的关系",
-      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "body": "讲座从教育、公民参与和制度信任等角度讨论 AI 可能带来的侵蚀与支持作用。这是法律学者的公共论述，不应当作已获因果验证的统一社会结论。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T17:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "body_original": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "OpenAI 介绍 Habitat 在线存储的扩展经验",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "body": "文章讨论 Cosmos DB 多租户隔离、数据移动、热点限流及全球缓存等设计权衡。经验来自其自身大规模工作负载，不意味着相同架构适用于所有系统。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "body_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "editorial_date": "2026-10-27"
-    },
-    {
-      "title": "MIT 人文社科学院周年活动讨论 AI 与人的理解",
-      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "body": "报道回顾 9 月研讨会中对人文学科、教育和技术社会影响的讨论。内容是学术活动观点汇集，不是新的 AI 性能或社会效果实验。",
-      "date": "2026-10-23",
-      "published_at": "2026-10-23T15:35:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-23"
-      ],
-      "importance": "normal",
-      "title_original": "Reinforcing the value of human understanding at MIT",
-      "body_original": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "editorial_date": "2026-10-27"
+      "editorial_date": "2026-10-28"
     }
   ],
   "papers": [
     {
-      "title": "为机器学习原子势增加热力学校正层",
-      "url": "https://arxiv.org/abs/2610.34551",
-      "body": "arXiv:2610.34551v1 Announce Type: new Abstract: Machine learning interatomic potentials enable atomistic simulations with near \\textit{ab initio} accuracy over large length and time scales. Foundation models extend this capability across the periodic table but inherit the thermodynamic description of the electronic structure methods used to generate their training data. Small errors in relative phase stability can therefore produce large errors in transformation temperatures. We introduce an additive thermodynamic correction layer that shifts phase free energies towards an assessed reference without retraining or modifying the base potential. A first order thermodynamic construction converts",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "机器学习合金设计同时考虑性能、成本与碳排放",
+      "url": "https://arxiv.org/abs/2610.35946",
+      "body": "arXiv:2610.35946v1 Announce Type: new Abstract: Designing sustainable alloys must reconcile high performance with real-world constraints, including feedstock scarcity and variability, processing and energy requirements, regulatory thresholds, and economic limitations. Addressing these constraints reaches far beyond today's conventional performance-focused frameworks. It needs to consider not only complex property-processing-performance trade-offs but also sustainable production pathways. Here, we propose a physics-informed ensemble (PIE) learning framework that integrates fundamental structure-property relationships with processing routes and sustainability criteria for mechanism-based alloy",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法拟合附加能量修正，使相自由能靠近评估参考，无需重训基础势。在指定元素的相变测试中改善温度预测，但较大校正仍会影响缺陷及热膨胀等性质。",
+      "summary": "预印本摘要：物理启发集成框架结合成分、微结构、加工及可持续性约束，研究镁合金候选。报告的优化取决于数据、比较对象和成本排放假设，不能泛化为全部生产路线。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "A thermodynamic correction layer for machine learning interatomic potentials",
-      "summary_original": "arXiv:2610.34551v1 Announce Type: new Abstract: Machine learning interatomic potentials enable atomistic simulations with near \\textit{ab initio} accuracy over large length and time scales. Foundation models extend this capability across the periodic table but inherit the thermodynamic description of the electronic structure methods used to generate their training data. Small errors in relative phase stability can therefore produce large errors in transformation temperatures. We introduce an additive thermodynamic correction layer that shifts phase free energies towards an assessed reference without retraining or modifying the base potential. A first order thermodynamic construction converts",
-      "editorial_date": "2026-10-27"
+      "title_original": "Machine learning enabled design of sustainable alloys considering real world constraints",
+      "summary_original": "arXiv:2610.35946v1 Announce Type: new Abstract: Designing sustainable alloys must reconcile high performance with real-world constraints, including feedstock scarcity and variability, processing and energy requirements, regulatory thresholds, and economic limitations. Addressing these constraints reaches far beyond today's conventional performance-focused frameworks. It needs to consider not only complex property-processing-performance trade-offs but also sustainable production pathways. Here, we propose a physics-informed ensemble (PIE) learning framework that integrates fundamental structure-property relationships with processing routes and sustainability criteria for mechanism-based alloy",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "文献数据宁缺毋错：分层检测提取错误",
-      "url": "https://arxiv.org/abs/2610.34642",
-      "body": "arXiv:2610.34642v1 Announce Type: new Abstract: Machine learning across materials science, chemistry, energy, and medicine increasingly relies on literature-extracted datasets due to a lack of curated databases. However, automated extraction introduces errors: text recognition misreads digits, units and notations are confused, values are misattributed, and LLMs hallucinate numbers. Drawing on our work building an electro-optic property database, we present a taxonomy of errors organized by their origin and signatures, alongside a layered framework for error detection. The framework combines schema and provenance checks, physical admissibility (bounds, symmetry, and governing equations), cros",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "UniTB 将物理先验引入通用哈密顿量学习",
+      "url": "https://arxiv.org/abs/2610.36135",
+      "body": "arXiv:2610.36135v1 Announce Type: new Abstract: Density functional theory (DFT) gives the electronic structure of materials, but its cost limits large-supercell calculations and materials screening. Machine-learned Hamiltonians bypass the self-consistent cycle but are usually system-specific; universal ones could cover new compositions and disordered solids. Such models must generalize across chemistry and keep downstream properties physical, while staying inexpensive for large cells. Here we introduce UniTB, a universal E(3) equivariant Hamiltonian representation framework that integrates physical priors rooted in density-functional tight-binding theory with deep learning. UniTB's network, ",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：框架结合来源、模式、物理约束与人工复核，识别文献挖掘中的数值错误。门控后仍有错误漏过，测量条件缺失也是限制，不能仅靠大模型抽取即认定数据可信。",
+      "summary": "预印本摘要：等变模型在紧束缚先验上学习修正，并约束能带偏移，测试晶体及非晶体系性质。误差与速度结果限于其数据和任务，不能保证所有电子结构计算均可替代。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "No Value Is Better Than a Wrong Value: Finding and Handling Erroneous Data in Literature-Mined Datasets for AI",
-      "summary_original": "arXiv:2610.34642v1 Announce Type: new Abstract: Machine learning across materials science, chemistry, energy, and medicine increasingly relies on literature-extracted datasets due to a lack of curated databases. However, automated extraction introduces errors: text recognition misreads digits, units and notations are confused, values are misattributed, and LLMs hallucinate numbers. Drawing on our work building an electro-optic property database, we present a taxonomy of errors organized by their origin and signatures, alongside a layered framework for error detection. The framework combines schema and provenance checks, physical admissibility (bounds, symmetry, and governing equations), cros",
-      "editorial_date": "2026-10-27"
+      "title_original": "Physical structure as an organizing principle for universal Hamiltonian learning",
+      "summary_original": "arXiv:2610.36135v1 Announce Type: new Abstract: Density functional theory (DFT) gives the electronic structure of materials, but its cost limits large-supercell calculations and materials screening. Machine-learned Hamiltonians bypass the self-consistent cycle but are usually system-specific; universal ones could cover new compositions and disordered solids. Such models must generalize across chemistry and keep downstream properties physical, while staying inexpensive for large cells. Here we introduce UniTB, a universal E(3) equivariant Hamiltonian representation framework that integrates physical priors rooted in density-functional tight-binding theory with deep learning. UniTB's network, ",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "保留约束微调铝 MACE 势以改善缺陷动力学",
-      "url": "https://arxiv.org/abs/2610.35653",
-      "body": "arXiv:2610.35653v1 Announce Type: new Abstract: Adapting a pre-trained machine-learning interatomic potential for non-equilibrium defect dynamics and plasticity requires improving defect accuracy without degrading the near-equilibrium elastic and vibrational response. Here we achieve this balance for the aluminium MACE potential QP17 by integrating conditional readout uncertainty, iterative full-parameter updates and protocol-compatible relative-energy anchoring. Sensitivities over 144 linear readout weights guide acquisition, with within-batch covariance updates and evolving neural representations. After four active-learning rounds (32 acquired configurations and 400 gradient updates), forc",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "ChronoSyn 用材料发现时间辅助可合成性预测",
+      "url": "https://arxiv.org/abs/2610.36193",
+      "body": "arXiv:2610.36193v1 Announce Type: new Abstract: High-throughput computational and generative approaches are proposing candidate materials far faster than they can be synthesized, making it increasingly important to identify which hypothetical materials are likely to be experimentally realizable. Positive-unlabeled (PU) learning has emerged as a representative framework for synthesizability prediction, yet existing approaches treat experimentally reported materials as a static collection, overlooking the historical trajectory of materials discovery and the diverse practical factors that have driven its progress. Here we introduce ChronoSyn, a chronology-aware machine learning model that joint",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究结合不确定性选样、迭代更新与相对能量锚定，在改善缺陷预测时约束弹性及振动响应漂移。结果限于指定势、更新预算和样本，不能保证通用域外稳定。",
+      "summary": "预印本摘要：模型联合学习已报道材料的相对时间顺序与可合成性标签，再筛选假想组分。高分代表模型判断，历史报道偏差仍可能存在，不能当作合成成功证明。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Retention-constrained fine-tuning of a pre-trained aluminium MACE potential for non-equilibrium defect dynamics and plasticity",
-      "summary_original": "arXiv:2610.35653v1 Announce Type: new Abstract: Adapting a pre-trained machine-learning interatomic potential for non-equilibrium defect dynamics and plasticity requires improving defect accuracy without degrading the near-equilibrium elastic and vibrational response. Here we achieve this balance for the aluminium MACE potential QP17 by integrating conditional readout uncertainty, iterative full-parameter updates and protocol-compatible relative-energy anchoring. Sensitivities over 144 linear readout weights guide acquisition, with within-batch covariance updates and evolving neural representations. After four active-learning rounds (32 acquired configurations and 400 gradient updates), forc",
-      "editorial_date": "2026-10-27"
+      "title_original": "Learning the Chronology of Materials Discovery for Synthesizability Prediction",
+      "summary_original": "arXiv:2610.36193v1 Announce Type: new Abstract: High-throughput computational and generative approaches are proposing candidate materials far faster than they can be synthesized, making it increasingly important to identify which hypothetical materials are likely to be experimentally realizable. Positive-unlabeled (PU) learning has emerged as a representative framework for synthesizability prediction, yet existing approaches treat experimentally reported materials as a static collection, overlooking the historical trajectory of materials discovery and the diverse practical factors that have driven its progress. Here we introduce ChronoSyn, a chronology-aware machine learning model that joint",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "机器学习分子动力学揭示固体酸中的质子弹弓机制",
-      "url": "https://arxiv.org/abs/2503.15389",
-      "body": "arXiv:2503.15389v2 Announce Type: replace Abstract: In solid acid electrolytes CsH$_2$PO$_4$ and CsHSO$_4$, the origin of fast proton conduction has long been debated, attributed either to local proton hopping or to polyanion rotation. However, the precise role of polyanion rotation and its interplay with proton hopping remained unresolved. Nanosecond-scale molecular dynamics simulations, driven by equivariant neural network force fields, reveal a nuanced proton slingshot mechanism: protons are first carried by rotating polyanions, followed by O-H bond reorientation, and the combined motion enables long-range jumps. This mechanism challenges the conventional revolving paddlewheel model, reve",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "量子与机器学习混合方法研究锆位错环",
+      "url": "https://arxiv.org/abs/2610.36619",
+      "body": "arXiv:2610.36619v1 Announce Type: new Abstract: Zr cladding alloys in nuclear reactors are exposed to high neutron fluxes, making irradiation-induced defects and solute segregation central to understanding their in-service behaviour. Dislocation cores involve short-range chemistry and long-range elastic fields, which are difficult to describe simultaneously using conventional atomistic methods. Using a hybrid quantum mechanics/machine learning (QM/ML) framework, this part of work examines prismatic loops in hcp {\\alpha}-Zr. All three loop variants are considered, including faulted and perfect, interstitial- and vacancy-type, and first- and second-order prismatic configurations. Nine possible",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：模拟比较两种固体酸中多阴离子转动与 O-H 重取向如何共同促进长程迁移，并分析质子浓度的作用。提出的机制来自特定材料模拟，仍应结合实验检验。",
+      "summary": "预印本摘要：研究表征 α-Zr 中多类位错线段的核心、溶质结合和迁移路径，比较 Fe、H、Sn、Nb 的偏好。原子尺度机制尚不能直接推断完整服役寿命。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Revealing the proton slingshot mechanism in solid acid electrolytes through machine learning molecular dynamics",
-      "summary_original": "arXiv:2503.15389v2 Announce Type: replace Abstract: In solid acid electrolytes CsH$_2$PO$_4$ and CsHSO$_4$, the origin of fast proton conduction has long been debated, attributed either to local proton hopping or to polyanion rotation. However, the precise role of polyanion rotation and its interplay with proton hopping remained unresolved. Nanosecond-scale molecular dynamics simulations, driven by equivariant neural network force fields, reveal a nuanced proton slingshot mechanism: protons are first carried by rotating polyanions, followed by O-H bond reorientation, and the combined motion enables long-range jumps. This mechanism challenges the conventional revolving paddlewheel model, reve",
-      "editorial_date": "2026-10-27"
+      "title_original": "Comprehensive QM/ML Study of Dislocation Loop Line Segments in {\\alpha}-Zr Part I: Loop Core Geometries, Solute Binding, and Transition Barriers",
+      "summary_original": "arXiv:2610.36619v1 Announce Type: new Abstract: Zr cladding alloys in nuclear reactors are exposed to high neutron fluxes, making irradiation-induced defects and solute segregation central to understanding their in-service behaviour. Dislocation cores involve short-range chemistry and long-range elastic fields, which are difficult to describe simultaneously using conventional atomistic methods. Using a hybrid quantum mechanics/machine learning (QM/ML) framework, this part of work examines prismatic loops in hcp {\\alpha}-Zr. All three loop variants are considered, including faulted and perfect, interstitial- and vacancy-type, and first- and second-order prismatic configurations. Nine possible",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "CrystalREPA 将原子势表征迁移到晶体生成模型",
-      "url": "https://arxiv.org/abs/2605.08960",
-      "body": "arXiv:2605.08960v2 Announce Type: replace Abstract: Crystal generative models mainly learn what stable crystals look like, with little explicit supervision for what makes them stable. We reveal a substantial representation gap between state-of-the-art crystal generative models and pretrained universal machine learning interatomic potentials (MLIPs) via energy probing, and show this gap can be closed by a simple training-time alignment. We propose Crystal REPresentation Alignment (CrystalREPA), a plug-and-play framework that aligns the atom-wise hidden states of generative encoders with frozen MLIP representations through an element-aware contrastive objective, transferring stability-aware at",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "电荷密度监督改善部分原子能量预测任务",
+      "url": "https://arxiv.org/abs/2610.36779",
+      "body": "arXiv:2610.36779v1 Announce Type: new Abstract: Ground-state electron density contains sufficient information to determine ground-state energy, while providing spatial electronic information. This study developed a charge-density-informed graph neural network (hereafter CDGNN) that jointly learns energy and valence electron density from equivariant atomic graphs. This approach incorporates density-supervised real-space probe representations into the global energy regressor, allowing density-related spatial information to contribute to energy prediction. On the QM9 dataset, CDGNN reduced the energy prediction errors relative to an equivariant GNN baseline for interpolation and extrapolation t",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：训练时对齐生成器与冻结原子势的原子表征，在多个框架和数据集改善稳定性与结构指标。教师的常规榜单准确率不足以判断迁移效果，候选仍需独立验证。",
+      "summary": "预印本摘要：CDGNN 联合学习价电子密度与能量，在 QM9 测试中改善预测，但小型含氢铁体系收益有限。结果显示密度监督的优势依赖数据与任务。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models",
-      "summary_original": "arXiv:2605.08960v2 Announce Type: replace Abstract: Crystal generative models mainly learn what stable crystals look like, with little explicit supervision for what makes them stable. We reveal a substantial representation gap between state-of-the-art crystal generative models and pretrained universal machine learning interatomic potentials (MLIPs) via energy probing, and show this gap can be closed by a simple training-time alignment. We propose Crystal REPresentation Alignment (CrystalREPA), a plug-and-play framework that aligns the atom-wise hidden states of generative encoders with frozen MLIP representations through an element-aware contrastive objective, transferring stability-aware at",
-      "editorial_date": "2026-10-27"
+      "title_original": "Charge density-supervised real-space representations for atomistic energy prediction",
+      "summary_original": "arXiv:2610.36779v1 Announce Type: new Abstract: Ground-state electron density contains sufficient information to determine ground-state energy, while providing spatial electronic information. This study developed a charge-density-informed graph neural network (hereafter CDGNN) that jointly learns energy and valence electron density from equivariant atomic graphs. This approach incorporates density-supervised real-space probe representations into the global energy regressor, allowing density-related spatial information to contribute to energy prediction. On the QM9 dataset, CDGNN reduced the energy prediction errors relative to an equivariant GNN baseline for interpolation and extrapolation t",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "结合散射与机器学习模拟比较三维 COF 局部运动",
-      "url": "https://arxiv.org/abs/2610.24418",
-      "body": "arXiv:2610.24418v2 Announce Type: replace Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both a",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "GMMag 联合生成晶体和位点磁矩",
+      "url": "https://arxiv.org/abs/2610.37222",
+      "body": "arXiv:2610.37222v1 Announce Type: new Abstract: We introduce GMMag, a workflow for generating crystal structures together with their site-resolved magnetic moments, built on a conditional variational autoencoder with a graph neural network encoder and a transformer decoder. Gaussian-mixture sampling redirects generation towards selected chemical and magnetic targets without retraining. We systematically investigate how encoder and decoder design, the representation of magnetic-moment magnitudes and relative signs, and sampling choices affect reconstruction, generation quality and diversity. Because a higher screening pass rate does not necessarily yield more qualifying candidates with distin",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究用 X 射线对分布函数和原子势加速动力学，区分两种 COF 中连接体的摆动、重取向与平移。局部运动差异不等于所有吸附或机械性能已获验证。",
+      "summary": "预印本摘要：工作流以高斯混合采样调整目标，并分析重复组分如何限制有限预算内的独特候选数量。含钕高磁化候选来自模型与计算筛选，仍需稳定性及实验验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Reticulating Local Dynamics in Three-Dimensional Covalent Organic Frameworks",
-      "summary_original": "arXiv:2610.24418v2 Announce Type: replace Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both a",
-      "editorial_date": "2026-10-27"
+      "title_original": "Magnetic crystal generation with site-resolved magnetic moments via Gaussian-mixture retargeting and finite-budget yield prediction",
+      "summary_original": "arXiv:2610.37222v1 Announce Type: new Abstract: We introduce GMMag, a workflow for generating crystal structures together with their site-resolved magnetic moments, built on a conditional variational autoencoder with a graph neural network encoder and a transformer decoder. Gaussian-mixture sampling redirects generation towards selected chemical and magnetic targets without retraining. We systematically investigate how encoder and decoder design, the representation of magnetic-moment magnitudes and relative signs, and sampling choices affect reconstruction, generation quality and diversity. Because a higher screening pass rate does not necessarily yield more qualifying candidates with distin",
+      "editorial_date": "2026-10-28"
     },
     {
-      "title": "SymADiT 在潜空间生成中加入晶体对称约束",
-      "url": "https://arxiv.org/abs/2605.10115",
-      "body": "arXiv:2605.10115v2 Announce Type: replace-cross Abstract: Tackling the task of crystal generation, we aim to enhance the previously proposed, symmetry-agnostic, All-atom Diffusion Transformer (ADiT) by introducing SymADiT, a symmetry-aware variant. To do so, we use a representation of crystals based on Wyckoff positions. We follow ADiT and perform generative modelling in latent space, adapted to our symmetry-aware representation. By forcing the output of the generative model to adhere to the symmetry restrictions imposed by the generated crystal's space group and each atom's Wyckoff position, the generated crystals exhibit more realistic symmetry properties. We benchmark our method against b",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T00:00:00-04:00",
+      "title": "商业 CMOS 后端集成铁电氧化铪突触权重",
+      "url": "https://arxiv.org/abs/2610.37530",
+      "body": "arXiv:2610.37530v1 Announce Type: new Abstract: Functionalising the back-end-of-line (BEOL) of CMOS with emerging materials is a key route to neural network accelerators and neuromorphic systems. In this work, we demonstrate for the first time the integration of 2-terminal ferroelectric synaptic weights in the BEOL of as-delivered commercial 180 nm CMOS dies. A novel material stack is proposed, in which a WOx/[HfO2-ZrO2] bilayer is sandwiched between TiN and Mo electrodes. For devices annealed at 450 {\\deg}C, programming below 1.8 V is achieved with a cycle-to-cycle variation below 3 %. Synaptic weights annealed at 500 {\\deg}C exhibit more gradual weight updates, while the tested underlying ",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-10-27"
+        "2026-10-28"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法以 Wyckoff 位置表达晶体，并通过潜空间流匹配生成符合空间群约束的结构。基准中的稳定与有效性表现不等同于实验可合成性。",
+      "summary": "预印本摘要：研究在商业 CMOS 芯片后端集成双端铁电器件，比较退火条件、权重更新及下层晶体管功能。神经网络表现主要通过硬件感知模拟评估，不等于完整加速器已获验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "SymADiT: Symmetry-Aware Crystal Generation with Latent Flow Matching",
-      "summary_original": "arXiv:2605.10115v2 Announce Type: replace-cross Abstract: Tackling the task of crystal generation, we aim to enhance the previously proposed, symmetry-agnostic, All-atom Diffusion Transformer (ADiT) by introducing SymADiT, a symmetry-aware variant. To do so, we use a representation of crystals based on Wyckoff positions. We follow ADiT and perform generative modelling in latent space, adapted to our symmetry-aware representation. By forcing the output of the generative model to adhere to the symmetry restrictions imposed by the generated crystal's space group and each atom's Wyckoff position, the generated crystals exhibit more realistic symmetry properties. We benchmark our method against b",
-      "editorial_date": "2026-10-27"
+      "title_original": "Back-End-Of-Line Integration of 2-Terminal Ferroelectric Hafnia Synaptic Weights on Commercial CMOS Process",
+      "summary_original": "arXiv:2610.37530v1 Announce Type: new Abstract: Functionalising the back-end-of-line (BEOL) of CMOS with emerging materials is a key route to neural network accelerators and neuromorphic systems. In this work, we demonstrate for the first time the integration of 2-terminal ferroelectric synaptic weights in the BEOL of as-delivered commercial 180 nm CMOS dies. A novel material stack is proposed, in which a WOx/[HfO2-ZrO2] bilayer is sandwiched between TiN and Mo electrodes. For devices annealed at 450 {\\deg}C, programming below 1.8 V is achieved with a cycle-to-cycle variation below 3 %. Synaptic weights annealed at 500 {\\deg}C exhibit more gradual weight updates, while the tested underlying ",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "多尺度计算研究 MoS₂ 忆阻器中的铜导电丝",
+      "url": "https://arxiv.org/abs/2610.37152",
+      "body": "arXiv:2610.37152v1 Announce Type: cross Abstract: Vertically-aligned MoS$_2$ films paired with a Cu top electrode have been used as electrochemical metallization cell memristor devices. The memristive switching has been attributed to the formation of conductive filaments, yet their exact structure has remained elusive. Here we carry out a multi-scale computational study of Cu intercalation, clustering, and field-driven dynamics to eventually model the filament formation under operating conditions. We use density-functional theory results to fine-tune a machine learning force field, and the most important physical phenomena are further distilled into multi-particle kinetic Monte Carlo simulat",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：结合 DFT、微调原子势和动力学蒙特卡洛研究铜插层与电场驱动成丝。部分开关指标与已有实验相符，提出的具体结构仍是计算机制解释。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Cu intercalation and field-driven filament formation in vertically aligned MoS$_2$ memristors",
+      "summary_original": "arXiv:2610.37152v1 Announce Type: cross Abstract: Vertically-aligned MoS$_2$ films paired with a Cu top electrode have been used as electrochemical metallization cell memristor devices. The memristive switching has been attributed to the formation of conductive filaments, yet their exact structure has remained elusive. Here we carry out a multi-scale computational study of Cu intercalation, clustering, and field-driven dynamics to eventually model the filament formation under operating conditions. We use density-functional theory results to fine-tune a machine learning force field, and the most important physical phenomena are further distilled into multi-particle kinetic Monte Carlo simulat",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "双原子析氢催化剂筛选兼顾活性和碳成本",
+      "url": "https://arxiv.org/abs/2605.29821",
+      "body": "arXiv:2605.29821v2 Announce Type: replace Abstract: Catalyst discovery for green hydrogen has optimized activity alone, deferring economic and environmental costs to stages where they disqualify otherwise promising candidates. Here we introduce a unified machine learning framework that screens catalytic activity and monetized carbon cost in a single pipeline. A machine learning potential predicts hydrogen evolution activity and stability at density-functional-theory accuracy. A second model, trained on published estimates of the social cost of carbon, converts each candidate's embodied CO2 into a monetary burden. Screening 460 graphene-supported dual-atom catalysts across 23 transition metal",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架联合预测催化性质与货币化碳成本，对石墨烯负载双原子候选进行筛选。候选活性、可合成性及成本对比依赖模型和碳价假设，尚不能视为实验催化性能或完整生命周期结论。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Sustainability-Aware Discovery of Dual-Atom Hydrogen Evolution Catalysts via a Unified Machine Learning Framework for Activity and Carbon Cost",
+      "summary_original": "arXiv:2605.29821v2 Announce Type: replace Abstract: Catalyst discovery for green hydrogen has optimized activity alone, deferring economic and environmental costs to stages where they disqualify otherwise promising candidates. Here we introduce a unified machine learning framework that screens catalytic activity and monetized carbon cost in a single pipeline. A machine learning potential predicts hydrogen evolution activity and stability at density-functional-theory accuracy. A second model, trained on published estimates of the social cost of carbon, converts each candidate's embodied CO2 into a monetary burden. Screening 460 graphene-supported dual-atom catalysts across 23 transition metal",
+      "editorial_date": "2026-10-28"
+    },
+    {
+      "title": "模拟探索超离子水的质子热电与行星磁场",
+      "url": "https://arxiv.org/abs/2601.03659",
+      "body": "arXiv:2601.03659v3 Announce Type: replace-cross Abstract: The origin of the anomalous magnetic fields of Uranus and Neptune, with significant tilts and multi-dipole configurations, is central to understanding the internal structure and evolution of the ice giants. Recent investigations confirmed that superionic H$_2$O ice is thermodynamically stable and constitutes the dominant H$_2$O phase within their icy mantles. Here, we use deep learning and ab initio molecular dynamics to investigate the thermal and protonic transport properties of superionic H$_2$O ice. We demonstrate that superionic H$_2$O ice exhibits a pronounced protonic thermoelectric effect, with a maximum Seebeck coefficient th",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：深度学习和第一性原理动力学预测高压超离子水中的热电输运，并在偶极近似下比较行星平均磁场。与观测量级一致不等于唯一解释复杂磁场结构。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Protonic thermoelectric effect of Superionic H$_2$O and magnetic field generation in Uranus and Neptune",
+      "summary_original": "arXiv:2601.03659v3 Announce Type: replace-cross Abstract: The origin of the anomalous magnetic fields of Uranus and Neptune, with significant tilts and multi-dipole configurations, is central to understanding the internal structure and evolution of the ice giants. Recent investigations confirmed that superionic H$_2$O ice is thermodynamically stable and constitutes the dominant H$_2$O phase within their icy mantles. Here, we use deep learning and ab initio molecular dynamics to investigate the thermal and protonic transport properties of superionic H$_2$O ice. We demonstrate that superionic H$_2$O ice exhibits a pronounced protonic thermoelectric effect, with a maximum Seebeck coefficient th",
+      "editorial_date": "2026-10-28"
     }
   ],
   "leaders": [],
@@ -388,62 +460,62 @@
   "conferences": [],
   "science": [
     {
-      "title": "A thermodynamic correction layer for machine learning interatomic potentials",
-      "body": "arXiv:2610.34551v1 Announce Type: new Abstract: Machine learning interatomic potentials enable atomistic simulations with near \\textit{ab initio} accuracy over large length and time scales. Foundation models extend this capability across the periodic table but inherit the thermodynamic description of the electronic structure methods used to generate their training data. Small errors in relative phase stability can therefore produce large errors in transformation temperatures. We introduce an additive thermodynamic correction layer that shifts phase free energies towards an assessed reference without retraining or modifying the base potential. A first order thermodynamic construction converts",
-      "url": "https://arxiv.org/abs/2610.34551"
+      "title": "Machine learning enabled design of sustainable alloys considering real world constraints",
+      "body": "arXiv:2610.35946v1 Announce Type: new Abstract: Designing sustainable alloys must reconcile high performance with real-world constraints, including feedstock scarcity and variability, processing and energy requirements, regulatory thresholds, and economic limitations. Addressing these constraints reaches far beyond today's conventional performance-focused frameworks. It needs to consider not only complex property-processing-performance trade-offs but also sustainable production pathways. Here, we propose a physics-informed ensemble (PIE) learning framework that integrates fundamental structure-property relationships with processing routes and sustainability criteria for mechanism-based alloy",
+      "url": "https://arxiv.org/abs/2610.35946"
     },
     {
-      "title": "No Value Is Better Than a Wrong Value: Finding and Handling Erroneous Data in Literature-Mined Datasets for AI",
-      "body": "arXiv:2610.34642v1 Announce Type: new Abstract: Machine learning across materials science, chemistry, energy, and medicine increasingly relies on literature-extracted datasets due to a lack of curated databases. However, automated extraction introduces errors: text recognition misreads digits, units and notations are confused, values are misattributed, and LLMs hallucinate numbers. Drawing on our work building an electro-optic property database, we present a taxonomy of errors organized by their origin and signatures, alongside a layered framework for error detection. The framework combines schema and provenance checks, physical admissibility (bounds, symmetry, and governing equations), cros",
-      "url": "https://arxiv.org/abs/2610.34642"
+      "title": "Physical structure as an organizing principle for universal Hamiltonian learning",
+      "body": "arXiv:2610.36135v1 Announce Type: new Abstract: Density functional theory (DFT) gives the electronic structure of materials, but its cost limits large-supercell calculations and materials screening. Machine-learned Hamiltonians bypass the self-consistent cycle but are usually system-specific; universal ones could cover new compositions and disordered solids. Such models must generalize across chemistry and keep downstream properties physical, while staying inexpensive for large cells. Here we introduce UniTB, a universal E(3) equivariant Hamiltonian representation framework that integrates physical priors rooted in density-functional tight-binding theory with deep learning. UniTB's network, ",
+      "url": "https://arxiv.org/abs/2610.36135"
     },
     {
-      "title": "Retention-constrained fine-tuning of a pre-trained aluminium MACE potential for non-equilibrium defect dynamics and plasticity",
-      "body": "arXiv:2610.35653v1 Announce Type: new Abstract: Adapting a pre-trained machine-learning interatomic potential for non-equilibrium defect dynamics and plasticity requires improving defect accuracy without degrading the near-equilibrium elastic and vibrational response. Here we achieve this balance for the aluminium MACE potential QP17 by integrating conditional readout uncertainty, iterative full-parameter updates and protocol-compatible relative-energy anchoring. Sensitivities over 144 linear readout weights guide acquisition, with within-batch covariance updates and evolving neural representations. After four active-learning rounds (32 acquired configurations and 400 gradient updates), forc",
-      "url": "https://arxiv.org/abs/2610.35653"
+      "title": "Learning the Chronology of Materials Discovery for Synthesizability Prediction",
+      "body": "arXiv:2610.36193v1 Announce Type: new Abstract: High-throughput computational and generative approaches are proposing candidate materials far faster than they can be synthesized, making it increasingly important to identify which hypothetical materials are likely to be experimentally realizable. Positive-unlabeled (PU) learning has emerged as a representative framework for synthesizability prediction, yet existing approaches treat experimentally reported materials as a static collection, overlooking the historical trajectory of materials discovery and the diverse practical factors that have driven its progress. Here we introduce ChronoSyn, a chronology-aware machine learning model that joint",
+      "url": "https://arxiv.org/abs/2610.36193"
     },
     {
-      "title": "Revealing the proton slingshot mechanism in solid acid electrolytes through machine learning molecular dynamics",
-      "body": "arXiv:2503.15389v2 Announce Type: replace Abstract: In solid acid electrolytes CsH$_2$PO$_4$ and CsHSO$_4$, the origin of fast proton conduction has long been debated, attributed either to local proton hopping or to polyanion rotation. However, the precise role of polyanion rotation and its interplay with proton hopping remained unresolved. Nanosecond-scale molecular dynamics simulations, driven by equivariant neural network force fields, reveal a nuanced proton slingshot mechanism: protons are first carried by rotating polyanions, followed by O-H bond reorientation, and the combined motion enables long-range jumps. This mechanism challenges the conventional revolving paddlewheel model, reve",
-      "url": "https://arxiv.org/abs/2503.15389"
+      "title": "Comprehensive QM/ML Study of Dislocation Loop Line Segments in {\\alpha}-Zr Part I: Loop Core Geometries, Solute Binding, and Transition Barriers",
+      "body": "arXiv:2610.36619v1 Announce Type: new Abstract: Zr cladding alloys in nuclear reactors are exposed to high neutron fluxes, making irradiation-induced defects and solute segregation central to understanding their in-service behaviour. Dislocation cores involve short-range chemistry and long-range elastic fields, which are difficult to describe simultaneously using conventional atomistic methods. Using a hybrid quantum mechanics/machine learning (QM/ML) framework, this part of work examines prismatic loops in hcp {\\alpha}-Zr. All three loop variants are considered, including faulted and perfect, interstitial- and vacancy-type, and first- and second-order prismatic configurations. Nine possible",
+      "url": "https://arxiv.org/abs/2610.36619"
     },
     {
-      "title": "CrystalREPA: Transferring Physical Priors from Universal MLIPs to Crystal Generative Models",
-      "body": "arXiv:2605.08960v2 Announce Type: replace Abstract: Crystal generative models mainly learn what stable crystals look like, with little explicit supervision for what makes them stable. We reveal a substantial representation gap between state-of-the-art crystal generative models and pretrained universal machine learning interatomic potentials (MLIPs) via energy probing, and show this gap can be closed by a simple training-time alignment. We propose Crystal REPresentation Alignment (CrystalREPA), a plug-and-play framework that aligns the atom-wise hidden states of generative encoders with frozen MLIP representations through an element-aware contrastive objective, transferring stability-aware at",
-      "url": "https://arxiv.org/abs/2605.08960"
+      "title": "Charge density-supervised real-space representations for atomistic energy prediction",
+      "body": "arXiv:2610.36779v1 Announce Type: new Abstract: Ground-state electron density contains sufficient information to determine ground-state energy, while providing spatial electronic information. This study developed a charge-density-informed graph neural network (hereafter CDGNN) that jointly learns energy and valence electron density from equivariant atomic graphs. This approach incorporates density-supervised real-space probe representations into the global energy regressor, allowing density-related spatial information to contribute to energy prediction. On the QM9 dataset, CDGNN reduced the energy prediction errors relative to an equivariant GNN baseline for interpolation and extrapolation t",
+      "url": "https://arxiv.org/abs/2610.36779"
     },
     {
-      "title": "Reticulating Local Dynamics in Three-Dimensional Covalent Organic Frameworks",
-      "body": "arXiv:2610.24418v2 Announce Type: replace Abstract: In covalent organic frameworks (COFs), the geometry of the building units predetermines the structure of the framework, yet comparable design principles relating the COF linkers to the local motions that govern guest adsorption and diffusion as well as mechanical response have remained beyond reach. Here, we combine synchrotron X-ray pair distribution function (PDF) analysis with molecular dynamics (MD) simulations accelerated by machine learning interatomic potentials to resolve and compare the local dynamics of two three-dimensional imine-linked COFs, chosen to differ in the geometry and rigidity of one of their two building units. Both a",
-      "url": "https://arxiv.org/abs/2610.24418"
+      "title": "Magnetic crystal generation with site-resolved magnetic moments via Gaussian-mixture retargeting and finite-budget yield prediction",
+      "body": "arXiv:2610.37222v1 Announce Type: new Abstract: We introduce GMMag, a workflow for generating crystal structures together with their site-resolved magnetic moments, built on a conditional variational autoencoder with a graph neural network encoder and a transformer decoder. Gaussian-mixture sampling redirects generation towards selected chemical and magnetic targets without retraining. We systematically investigate how encoder and decoder design, the representation of magnetic-moment magnitudes and relative signs, and sampling choices affect reconstruction, generation quality and diversity. Because a higher screening pass rate does not necessarily yield more qualifying candidates with distin",
+      "url": "https://arxiv.org/abs/2610.37222"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-27T17:20:48.971680+00:00",
+  "fetched_at": "2026-10-28T16:23:15.462734+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 24
+      "items": 21
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 5
+      "items": 7
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -461,19 +533,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 107
+      "items": 61
     }
   ],
-  "editorial": {
-    "date": "2026-10-27",
-    "items_applied": 19,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 7,
+    "paper_count": 10,
     "leader_count": 0,
     "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-10-28",
+    "items_applied": 25,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

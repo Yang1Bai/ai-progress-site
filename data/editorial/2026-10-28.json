@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-28",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "title": "Nemotron 3.5 Transcribe 整合多语言语音任务",
+      "body": "开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。"
+    },
+    {
+      "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "title": "Legora 分享法律智能体与文档审查实践",
+      "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。"
+    },
+    {
+      "url": "https://openai.com/index/legora",
+      "title": "Legora 法律智能体案例的另一来源链接",
+      "body": "此链接与本期另一条 Legora 来源为同一篇案例，不代表第二项独立进展。内容介绍法律工作流与审查效率，效果数字属于企业自报。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+      "title": "MIT 研究者探索让机器更好地理解声音",
+      "body": "人物报道介绍声源分离、音频增强和声音分析等研究方向。交通事故定位等例子体现潜在用途，不等于所有相关产品已完成部署验证。"
+    },
+    {
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "title": "睡眠框架探索大模型持续学习与记忆巩固",
+      "body": "研究交替使用主动交互与离线巩固，把短期上下文转为参数中的知识，并评估遗忘与推理。特定实验结果不保证任意模型都能无限记忆或持续更新。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "title": "LFM3 以共享骨干支持专门化多模态模型",
+      "body": "系列在约二十亿参数级别提供文本、视觉、语音等分支，强调本地部署和任务微调。不同设备、后端与上下文长度的性能仍需按实际负载验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "title": "MIT 学员分享 AI 课程与同伴合作写书经历",
+      "body": "报道介绍学员 Prabha Jha 参加高管课程后，与同伴交流并合作整理 AI 应用观点。属于个人学习经历，不能视为课程效果的独立对照研究。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "title": "Ai2 基准检验大模型能否可靠判断科研新颖性",
+      "body": "研究发布评估集与代码，分析模型、提示、评估格式及检索等选择对新颖性判断的影响。自动评分不能替代对相关文献与实际贡献的专家核验。"
+    },
+    {
+      "url": "https://openai.com/index/retell-ai",
+      "title": "Retell 分享大规模语音客服模型实践",
+      "body": "案例介绍语音平台利用模型生成响应、处理业务流程并转接人工。通话规模及解决率来自企业自报，不能外推为每类任务都有同样可靠性。"
+    },
+    {
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "title": "OpenAI 与 Oracle 扩展企业应用合作",
+      "body": "双方计划连接 Oracle 应用、数据和获准的工作流，并结合组织权限及审批。部分集成仍在开发，不能写成所有客户已经可用。"
+    },
+    {
+      "url": "https://openai.com/index/check-point-daybreak",
+      "title": "Check Point 分享 Daybreak 辅助漏洞研究",
+      "body": "案例介绍分析漏洞、攻击路径和配置问题，以缩短从情报到防护的流程。节时来自企业经验，不代表自动输出可直接替代安全团队验证。"
+    },
+    {
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "title": "Greptile 用 AI 测试补充代码审查",
+      "body": "客户案例介绍通过界面操作检查应用行为，例如不同屏幕尺寸下的功能问题，并结合安全分析。自动发现仍需验证，案例不等于所有缺陷均能检出。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "title": "MIT 在纽约气候周连接跨领域合作网络",
+      "body": "报道介绍 MIT 团队参与人工智能、气候创新及产业合作讨论。活动强调多方协作，不代表会上讨论的技术已产生可量化减排成果。"
+    },
+    {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "title": "OpenAI 探索与学界共同理解模型生成的研究结果",
+      "body": "公告介绍数学、计算机科学和物理方向的材料及不同发布安排，并将稿件视为待学界理解的原始研究数据。不能把公告中的发现主张直接写成已获独立验证的定论。"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "CodeRabbit 用模型辅助跨代码库安全调查",
+      "body": "案例介绍关联文件、依赖与共享组件的风险分析，并对选定问题在隔离环境中验证及提出修复。最终是否发布修改仍由人工审核决定。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2610.35946",
+      "title": "机器学习合金设计同时考虑性能、成本与碳排放",
+      "summary": "预印本摘要：物理启发集成框架结合成分、微结构、加工及可持续性约束，研究镁合金候选。报告的优化取决于数据、比较对象和成本排放假设，不能泛化为全部生产路线。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36135",
+      "title": "UniTB 将物理先验引入通用哈密顿量学习",
+      "summary": "预印本摘要：等变模型在紧束缚先验上学习修正，并约束能带偏移，测试晶体及非晶体系性质。误差与速度结果限于其数据和任务，不能保证所有电子结构计算均可替代。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36193",
+      "title": "ChronoSyn 用材料发现时间辅助可合成性预测",
+      "summary": "预印本摘要：模型联合学习已报道材料的相对时间顺序与可合成性标签，再筛选假想组分。高分代表模型判断，历史报道偏差仍可能存在，不能当作合成成功证明。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36619",
+      "title": "量子与机器学习混合方法研究锆位错环",
+      "summary": "预印本摘要：研究表征 α-Zr 中多类位错线段的核心、溶质结合和迁移路径，比较 Fe、H、Sn、Nb 的偏好。原子尺度机制尚不能直接推断完整服役寿命。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36779",
+      "title": "电荷密度监督改善部分原子能量预测任务",
+      "summary": "预印本摘要：CDGNN 联合学习价电子密度与能量，在 QM9 测试中改善预测，但小型含氢铁体系收益有限。结果显示密度监督的优势依赖数据与任务。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37222",
+      "title": "GMMag 联合生成晶体和位点磁矩",
+      "summary": "预印本摘要：工作流以高斯混合采样调整目标，并分析重复组分如何限制有限预算内的独特候选数量。含钕高磁化候选来自模型与计算筛选，仍需稳定性及实验验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37530",
+      "title": "商业 CMOS 后端集成铁电氧化铪突触权重",
+      "summary": "预印本摘要：研究在商业 CMOS 芯片后端集成双端铁电器件，比较退火条件、权重更新及下层晶体管功能。神经网络表现主要通过硬件感知模拟评估，不等于完整加速器已获验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37152",
+      "title": "多尺度计算研究 MoS₂ 忆阻器中的铜导电丝",
+      "summary": "预印本摘要：结合 DFT、微调原子势和动力学蒙特卡洛研究铜插层与电场驱动成丝。部分开关指标与已有实验相符，提出的具体结构仍是计算机制解释。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.29821",
+      "title": "双原子析氢催化剂筛选兼顾活性和碳成本",
+      "summary": "预印本摘要：框架联合预测催化性质与货币化碳成本，对石墨烯负载双原子候选进行筛选。候选活性、可合成性及成本对比依赖模型和碳价假设，尚不能视为实验催化性能或完整生命周期结论。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.03659",
+      "title": "模拟探索超离子水的质子热电与行星磁场",
+      "summary": "预印本摘要：深度学习和第一性原理动力学预测高压超离子水中的热电输运，并在偶极近似下比较行星平均磁场。与观测量级一致不等于唯一解释复杂磁场结构。"
+    }
+  ]
+}
