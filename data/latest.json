@@ -18,6 +18,32 @@
       "editorial_date": "2026-10-28"
     },
     {
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "body": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T12:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-28"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "body": "How AI might enter the org chart—beneath, beside, and between us.",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Legora 分享法律智能体与文档审查实践",
       "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
       "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。",
@@ -207,38 +233,6 @@
       "importance": "normal",
       "title_original": "At New York Climate Week 2026, MIT connects with a global network",
       "body_original": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
-      "editorial_date": "2026-10-28"
-    },
-    {
-      "title": "OpenAI 探索与学界共同理解模型生成的研究结果",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "body": "公告介绍数学、计算机科学和物理方向的材料及不同发布安排，并将稿件视为待学界理解的原始研究数据。不能把公告中的发现主张直接写成已获独立验证的定论。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T14:30:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "Working with academic communities to build scientific understanding",
-      "body_original": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "editorial_date": "2026-10-28"
-    },
-    {
-      "title": "CodeRabbit 用模型辅助跨代码库安全调查",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "body": "案例介绍关联文件、依赖与共享组件的风险分析，并对选定问题在隔离环境中验证及提出修复。最终是否发布修改仍由人工审核决定。",
-      "date": "2026-10-26",
-      "published_at": "2026-10-26T13:45:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-26"
-      ],
-      "importance": "normal",
-      "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "body_original": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
       "editorial_date": "2026-10-28"
     }
   ],
@@ -491,7 +485,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-10-28T16:23:15.462734+00:00",
+  "fetched_at": "2026-10-28T17:49:42.604276+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -503,19 +497,19 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -536,16 +530,16 @@
       "items": 61
     }
   ],
+  "editorial": {
+    "date": "2026-10-28",
+    "items_applied": 23,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 10,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-10-28",
-    "items_applied": 25,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
