@@ -1,0 +1,309 @@
+{
+  "date": "2026年10月29日",
+  "news": [
+    {
+      "title": "Granite Switch 4.1.1 以模块适配器更新能力",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "body": "补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal",
+      "title_original": "Granite Switch 4.1.1 — Update models like you update software",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "body": "倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal",
+      "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Hugging Face 介绍 Mistral Large 4 多模态模型",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "body": "文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal",
+      "title_original": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Swift 开放模型接口扩展到语音识别与决策",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "body": "AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确认。",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Nemotron 3.5 Transcribe 整合多语言语音任务",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "body": "开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T14:58:17+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "body": "合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T13:15:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "body_original": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "MIT 访谈探讨基础设施的设计、融资与运营挑战",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "body": "访谈讨论气候、能源、AI 和供应链压力下如何建设基础设施，强调多方协作与全流程考量。属于专家观点，不是具体工程效果的验证报告。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T12:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "3 Questions: Why infrastructure is entering a defining era",
+      "body_original": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "评论文章探讨 AI 如何改变企业组织结构",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "body": "两位作者讨论 AI 进入管理层级与协作关系的可能路径，并提出自主性、规模和薪酬问题。文章明确代表作者个人观点，不能视为已证实的经济预测。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "The future of the firm",
+      "body_original": "How AI might enter the org chart—beneath, beside, and between us.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Legora 分享法律智能体与文档审查实践",
+      "url": "https://openai.com/index/legora",
+      "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T09:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "Legora is building the agentic operating system for legal work",
+      "body_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "MIT 研究者探索让机器更好地理解声音",
+      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+      "body": "人物报道介绍声源分离、音频增强和声音分析等研究方向。交通事故定位等例子体现潜在用途，不等于所有相关产品已完成部署验证。",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T00:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-28"
+      ],
+      "importance": "normal",
+      "title_original": "Making machines that can listen",
+      "body_original": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "睡眠框架探索大模型持续学习与记忆巩固",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "body": "研究交替使用主动交互与离线巩固，把短期上下文转为参数中的知识，并评估遗忘与推理。特定实验结果不保证任意模型都能无限记忆或持续更新。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T17:35:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "body_original": "Education Innovation",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "LFM3 以共享骨干支持专门化多模态模型",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "body": "系列在约二十亿参数级别提供文本、视觉、语音等分支，强调本地部署和任务微调。不同设备、后端与上下文长度的性能仍需按实际负载验证。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T17:16:52+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Build specialized multimodal models with LFM3",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "MIT 学员分享 AI 课程与同伴合作写书经历",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "body": "报道介绍学员 Prabha Jha 参加高管课程后，与同伴交流并合作整理 AI 应用观点。属于个人学习经历，不能视为课程效果的独立对照研究。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T16:55:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Learner collaborates with MIT peers to develop book of AI insights",
+      "body_original": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Ai2 基准检验大模型能否可靠判断科研新颖性",
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "body": "研究发布评估集与代码，分析模型、提示、评估格式及检索等选择对新颖性判断的影响。自动评分不能替代对相关文献与实际贡献的专家核验。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T16:12:42+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
+      "body_original": "",
+      "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "Retell 分享大规模语音客服模型实践",
+      "url": "https://openai.com/index/retell-ai",
+      "body": "案例介绍语音平台利用模型生成响应、处理业务流程并转接人工。通话规模及解决率来自企业自报，不能外推为每类任务都有同样可靠性。",
+      "date": "2026-10-27",
+      "published_at": "2026-10-27T15:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-27"
+      ],
+      "importance": "normal",
+      "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
+      "body_original": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "editorial_date": "2026-10-29"
+    }
+  ],
+  "papers": [],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [],
+  "content_mode": "public",
+  "fetched_at": "2026-10-29T16:01:36.651029+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 18
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-10-29",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}

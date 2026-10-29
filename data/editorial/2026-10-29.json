@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-29",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 以模块适配器更新能力",
+      "body": "补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。"
+    },
+    {
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
+      "body": "倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。"
+    },
+    {
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "title": "Hugging Face 介绍 Mistral Large 4 多模态模型",
+      "body": "文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "title": "Swift 开放模型接口扩展到语音识别与决策",
+      "body": "AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确认。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "title": "Nemotron 3.5 Transcribe 整合多语言语音任务",
+      "body": "开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。"
+    },
+    {
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+      "body": "合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "title": "MIT 访谈探讨基础设施的设计、融资与运营挑战",
+      "body": "访谈讨论气候、能源、AI 和供应链压力下如何建设基础设施，强调多方协作与全流程考量。属于专家观点，不是具体工程效果的验证报告。"
+    },
+    {
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "title": "评论文章探讨 AI 如何改变企业组织结构",
+      "body": "两位作者讨论 AI 进入管理层级与协作关系的可能路径，并提出自主性、规模和薪酬问题。文章明确代表作者个人观点，不能视为已证实的经济预测。"
+    },
+    {
+      "url": "https://openai.com/index/legora",
+      "title": "Legora 分享法律智能体与文档审查实践",
+      "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+      "title": "MIT 研究者探索让机器更好地理解声音",
+      "body": "人物报道介绍声源分离、音频增强和声音分析等研究方向。交通事故定位等例子体现潜在用途，不等于所有相关产品已完成部署验证。"
+    },
+    {
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "title": "睡眠框架探索大模型持续学习与记忆巩固",
+      "body": "研究交替使用主动交互与离线巩固，把短期上下文转为参数中的知识，并评估遗忘与推理。特定实验结果不保证任意模型都能无限记忆或持续更新。"
+    },
+    {
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "title": "LFM3 以共享骨干支持专门化多模态模型",
+      "body": "系列在约二十亿参数级别提供文本、视觉、语音等分支，强调本地部署和任务微调。不同设备、后端与上下文长度的性能仍需按实际负载验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "title": "MIT 学员分享 AI 课程与同伴合作写书经历",
+      "body": "报道介绍学员 Prabha Jha 参加高管课程后，与同伴交流并合作整理 AI 应用观点。属于个人学习经历，不能视为课程效果的独立对照研究。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "title": "Ai2 基准检验大模型能否可靠判断科研新颖性",
+      "body": "研究发布评估集与代码，分析模型、提示、评估格式及检索等选择对新颖性判断的影响。自动评分不能替代对相关文献与实际贡献的专家核验。"
+    },
+    {
+      "url": "https://openai.com/index/retell-ai",
+      "title": "Retell 分享大规模语音客服模型实践",
+      "body": "案例介绍语音平台利用模型生成响应、处理业务流程并转接人工。通话规模及解决率来自企业自报，不能外推为每类任务都有同样可靠性。"
+    }
+  ],
+  "papers": []
+}
