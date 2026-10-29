@@ -2,6 +2,19 @@
   "date": "2026年10月29日",
   "news": [
     {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Granite Switch 4.1.1 以模块适配器更新能力",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
       "body": "补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。",
@@ -16,6 +29,32 @@
       "title_original": "Granite Switch 4.1.1 — Update models like you update software",
       "body_original": "",
       "editorial_date": "2026-10-29"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "body": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
     },
     {
       "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
@@ -192,54 +231,6 @@
       "title_original": "Build specialized multimodal models with LFM3",
       "body_original": "",
       "editorial_date": "2026-10-29"
-    },
-    {
-      "title": "MIT 学员分享 AI 课程与同伴合作写书经历",
-      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
-      "body": "报道介绍学员 Prabha Jha 参加高管课程后，与同伴交流并合作整理 AI 应用观点。属于个人学习经历，不能视为课程效果的独立对照研究。",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T16:55:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-27"
-      ],
-      "importance": "normal",
-      "title_original": "Learner collaborates with MIT peers to develop book of AI insights",
-      "body_original": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
-      "editorial_date": "2026-10-29"
-    },
-    {
-      "title": "Ai2 基准检验大模型能否可靠判断科研新颖性",
-      "url": "https://huggingface.co/blog/allenai/novelty-bench",
-      "body": "研究发布评估集与代码，分析模型、提示、评估格式及检索等选择对新颖性判断的影响。自动评分不能替代对相关文献与实际贡献的专家核验。",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T16:12:42+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-27"
-      ],
-      "importance": "normal",
-      "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
-    },
-    {
-      "title": "Retell 分享大规模语音客服模型实践",
-      "url": "https://openai.com/index/retell-ai",
-      "body": "案例介绍语音平台利用模型生成响应、处理业务流程并转接人工。通话规模及解决率来自企业自报，不能外推为每类任务都有同样可靠性。",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T15:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-10-27"
-      ],
-      "importance": "normal",
-      "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
-      "body_original": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "editorial_date": "2026-10-29"
     }
   ],
   "papers": [],
@@ -249,13 +240,13 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-29T16:01:36.651029+00:00",
+  "fetched_at": "2026-10-29T17:56:59.952459+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 18
+      "items": 21
     },
     {
       "source": "Hugging Face",
@@ -294,16 +285,16 @@
       "items": 0
     }
   ],
+  "editorial": {
+    "date": "2026-10-29",
+    "items_applied": 12,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
-  },
-  "editorial": {
-    "date": "2026-10-29",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
