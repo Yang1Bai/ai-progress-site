@@ -1,6 +1,19 @@
 {
-  "date": "2026年10月29日",
+  "date": "2026年10月30日",
   "news": [
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "body": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
     {
       "title": "An updated Model Spec for more capable and beneficial AI",
       "url": "https://openai.com/index/updated-model-spec",
@@ -15,9 +28,9 @@
       "importance": "normal"
     },
     {
-      "title": "Granite Switch 4.1.1 以模块适配器更新能力",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "body": "补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。",
+      "body": "",
       "date": "2026-10-29",
       "published_at": "2026-10-29T13:37:07+00:00",
       "source": "Hugging Face",
@@ -25,10 +38,7 @@
         "Hugging Face",
         "2026-10-29"
       ],
-      "importance": "normal",
-      "title_original": "Granite Switch 4.1.1 — Update models like you update software",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
       "title": "How we detect frontier model misalignment",
@@ -57,9 +67,22 @@
       "importance": "normal"
     },
     {
-      "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "body": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "body": "倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。",
+      "body": "",
       "date": "2026-10-29",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source": "Hugging Face",
@@ -67,15 +90,12 @@
         "Hugging Face",
         "2026-10-29"
       ],
-      "importance": "normal",
-      "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "Hugging Face 介绍 Mistral Large 4 多模态模型",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
       "url": "https://huggingface.co/blog/mistral-large4",
-      "body": "文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。",
+      "body": "",
       "date": "2026-10-29",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source": "Hugging Face",
@@ -83,15 +103,12 @@
         "Hugging Face",
         "2026-10-29"
       ],
-      "importance": "normal",
-      "title_original": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "Swift 开放模型接口扩展到语音识别与决策",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
       "url": "https://huggingface.co/blog/anydecisionmodel",
-      "body": "AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确认。",
+      "body": "",
       "date": "2026-10-29",
       "published_at": "2026-10-29T00:00:00+00:00",
       "source": "Hugging Face",
@@ -99,15 +116,12 @@
         "Hugging Face",
         "2026-10-29"
       ],
-      "importance": "normal",
-      "title_original": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "Nemotron 3.5 Transcribe 整合多语言语音任务",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
       "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "body": "开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。",
+      "body": "",
       "date": "2026-10-28",
       "published_at": "2026-10-28T14:58:17+00:00",
       "source": "Hugging Face",
@@ -115,15 +129,12 @@
         "Hugging Face",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "body": "合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。",
+      "body": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
       "date": "2026-10-28",
       "published_at": "2026-10-28T13:15:00+00:00",
       "source": "OpenAI",
@@ -131,15 +142,12 @@
         "OpenAI",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "body_original": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "MIT 访谈探讨基础设施的设计、融资与运营挑战",
+      "title": "3 Questions: Why infrastructure is entering a defining era",
       "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-      "body": "访谈讨论气候、能源、AI 和供应链压力下如何建设基础设施，强调多方协作与全流程考量。属于专家观点，不是具体工程效果的验证报告。",
+      "body": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
       "date": "2026-10-28",
       "published_at": "2026-10-28T12:00:00-04:00",
       "source": "MIT AI",
@@ -147,15 +155,12 @@
         "MIT AI",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "3 Questions: Why infrastructure is entering a defining era",
-      "body_original": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "评论文章探讨 AI 如何改变企业组织结构",
+      "title": "The future of the firm",
       "url": "https://openai.com/index/the-future-of-the-firm",
-      "body": "两位作者讨论 AI 进入管理层级与协作关系的可能路径，并提出自主性、规模和薪酬问题。文章明确代表作者个人观点，不能视为已证实的经济预测。",
+      "body": "How AI might enter the org chart—beneath, beside, and between us.",
       "date": "2026-10-28",
       "published_at": "2026-10-28T10:00:00+00:00",
       "source": "OpenAI",
@@ -163,15 +168,12 @@
         "OpenAI",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "The future of the firm",
-      "body_original": "How AI might enter the org chart—beneath, beside, and between us.",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "Legora 分享法律智能体与文档审查实践",
+      "title": "Legora is building the agentic operating system for legal work",
       "url": "https://openai.com/index/legora",
-      "body": "客户案例介绍将模型用于法律工作流和大规模文档审查。节时与周转改善来自企业自报，实际法律结论仍需专业审核。",
+      "body": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
       "date": "2026-10-28",
       "published_at": "2026-10-28T09:30:00+00:00",
       "source": "OpenAI",
@@ -179,15 +181,12 @@
         "OpenAI",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "Legora is building the agentic operating system for legal work",
-      "body_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     },
     {
-      "title": "MIT 研究者探索让机器更好地理解声音",
+      "title": "Making machines that can listen",
       "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
-      "body": "人物报道介绍声源分离、音频增强和声音分析等研究方向。交通事故定位等例子体现潜在用途，不等于所有相关产品已完成部署验证。",
+      "body": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
       "date": "2026-10-28",
       "published_at": "2026-10-28T00:00:00-04:00",
       "source": "MIT AI",
@@ -195,70 +194,283 @@
         "MIT AI",
         "2026-10-28"
       ],
-      "importance": "normal",
-      "title_original": "Making machines that can listen",
-      "body_original": "Professor Paris Smaragdis develops computers with superhuman hearing for applications like speech recognition, music understanding, and environmental monitoring.",
-      "editorial_date": "2026-10-29"
-    },
-    {
-      "title": "睡眠框架探索大模型持续学习与记忆巩固",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
-      "body": "研究交替使用主动交互与离线巩固，把短期上下文转为参数中的知识，并评估遗忘与推理。特定实验结果不保证任意模型都能无限记忆或持续更新。",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T17:35:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-10-27"
-      ],
-      "importance": "normal",
-      "title_original": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "body_original": "Education Innovation",
-      "editorial_date": "2026-10-29"
-    },
-    {
-      "title": "LFM3 以共享骨干支持专门化多模态模型",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "body": "系列在约二十亿参数级别提供文本、视觉、语音等分支，强调本地部署和任务微调。不同设备、后端与上下文长度的性能仍需按实际负载验证。",
-      "date": "2026-10-27",
-      "published_at": "2026-10-27T17:16:52+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-27"
-      ],
-      "importance": "normal",
-      "title_original": "Build specialized multimodal models with LFM3",
-      "body_original": "",
-      "editorial_date": "2026-10-29"
+      "importance": "normal"
     }
   ],
-  "papers": [],
+  "papers": [
+    {
+      "title": "Crystoria: A Large-Scale Crystal Dataset Linking Thermodynamic and Dynamical Stability for Materials AI",
+      "url": "https://arxiv.org/abs/2610.38195",
+      "body": "arXiv:2610.38195v1 Announce Type: new Abstract: Large-scale crystal databases have transformed materials discovery by making millions of structures and thermodynamic properties accessible to materials informatics. Yet dynamical stability remains sparsely characterized at a comparable scale because its evaluation is substantially more computationally demanding than conventional structure and energy calculations. This mismatch creates a critical gap between the rapidly expanding crystal-structure space and the physical information available for materials research and machine learning. Here we introduce Crystoria, a large-scale crystal dataset designed to bring dynamical stability to the scale ",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.38195v1 Announce Type: new Abstract: Large-scale crystal databases have transformed materials discovery by making millions of structures and thermodynamic properties accessible to materials informatics. Yet dynamical stability remains sparsely characterized at a comparable scale because its evaluation is substantially more computationally demanding than conventional structure and energy calculations. This mismatch creates a critical gap between the rapidly expanding crystal-structure space and the physical information available for materials research and machine learning. Here we introduce Crystoria, a large-scale crystal dataset designed to bring dynamical stability to the scale ",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Strain-Induced BCC-to-FCC Transformation in Tungsten Uncovered by Molecular Dynamics Simulations with Machine Learning Potentials",
+      "url": "https://arxiv.org/abs/2610.38477",
+      "body": "arXiv:2610.38477v1 Announce Type: new Abstract: Polymorphic transformations occur in a minority of metals. Tungsten is not one of them. This observation does not rule out its intrinsic phase transition possibility, but may be due to inaccessible thermodynamic and mechanical conditions in conventional experiments. Herein, we investigate the body centered cubic (BCC) to face centered cubic (FCC) transformation in tungsten via a rigorously validated machine learning potential (MLP) molecular dynamics (MD) approach. Our simulations demonstrate that strain induced BCC to FCC transformation indeed occurs in tungsten. The FCC phase exceeds 20 at.% at low temperature and in the presence of dislocati",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.38477v1 Announce Type: new Abstract: Polymorphic transformations occur in a minority of metals. Tungsten is not one of them. This observation does not rule out its intrinsic phase transition possibility, but may be due to inaccessible thermodynamic and mechanical conditions in conventional experiments. Herein, we investigate the body centered cubic (BCC) to face centered cubic (FCC) transformation in tungsten via a rigorously validated machine learning potential (MLP) molecular dynamics (MD) approach. Our simulations demonstrate that strain induced BCC to FCC transformation indeed occurs in tungsten. The FCC phase exceeds 20 at.% at low temperature and in the presence of dislocati",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Autonomous Quantum Measurement with Agentic AI",
+      "url": "https://arxiv.org/abs/2610.38850",
+      "body": "arXiv:2610.38850v1 Announce Type: new Abstract: Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is difficult to document and transfer. Here we introduce Quantum Agent (QUANTA), an agentic artificial intelligence (AI) framework for autonomous quantum-materials characterization. Using a widely adopted Physical Property Measurement System (PPMS) as an experimental platform, QUANTA combines retrieval augmentation using scientific literature, experimental protocols and prior measurements with specialized agents for experimental planning, ",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.38850v1 Announce Type: new Abstract: Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is difficult to document and transfer. Here we introduce Quantum Agent (QUANTA), an agentic artificial intelligence (AI) framework for autonomous quantum-materials characterization. Using a widely adopted Physical Property Measurement System (PPMS) as an experimental platform, QUANTA combines retrieval augmentation using scientific literature, experimental protocols and prior measurements with specialized agents for experimental planning, ",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Learning Between the Lines: Interaction Interpolation in a Multi Element Machine Learning Interatomic Potential",
+      "url": "https://arxiv.org/abs/2610.38876",
+      "body": "arXiv:2610.38876v1 Announce Type: new Abstract: The continuous development of machine learning inter-atomic potentials (MLIAPs)has greatly accelerated materials research in recent years. However, the need to con- struct custom MLIAPs for each unique problem remains a bottleneck which raises the question of the transferability of MLIAPs. While foundation MLIAPs can achieve transferability due to the broad coverage of chemical space represented in their training sets, their size and computational cost limits their routine use. We address this gap by developing a lightweight general-purpose MLIAP for metal alloys spanning twelve elements (Al, Sc, Ti, V, Cu, Zn, Zr, Nb, Mo, Hf, Ta, W). Here, we ",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.38876v1 Announce Type: new Abstract: The continuous development of machine learning inter-atomic potentials (MLIAPs)has greatly accelerated materials research in recent years. However, the need to con- struct custom MLIAPs for each unique problem remains a bottleneck which raises the question of the transferability of MLIAPs. While foundation MLIAPs can achieve transferability due to the broad coverage of chemical space represented in their training sets, their size and computational cost limits their routine use. We address this gap by developing a lightweight general-purpose MLIAP for metal alloys spanning twelve elements (Al, Sc, Ti, V, Cu, Zn, Zr, Nb, Mo, Hf, Ta, W). Here, we ",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Development and application of a machine learning potential for diamond surfaces and their sliding interfaces with silicon nitride and silica: effect of passivation, orientation and load",
+      "url": "https://arxiv.org/abs/2610.38937",
+      "body": "arXiv:2610.38937v1 Announce Type: new Abstract: Friction and wear of diamond are controlled by its surface chemistry, which determines whether covalent bonds form across the sliding interface. First-principles simulations have explored the role of surface orientation and passivation, but are limited to a few hundred atoms and tens of picoseconds. To bridge this gap, we develop a reactive machine learning interatomic potential for the C/H/N/O/Si chemical space, covering diamond, silicon nitride, silicon oxide, their surfaces, interfaces, and environmental molecules. The potential is trained on a large dataset of diverse structures and is tested on multiple physical properties, including ab in",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.38937v1 Announce Type: new Abstract: Friction and wear of diamond are controlled by its surface chemistry, which determines whether covalent bonds form across the sliding interface. First-principles simulations have explored the role of surface orientation and passivation, but are limited to a few hundred atoms and tens of picoseconds. To bridge this gap, we develop a reactive machine learning interatomic potential for the C/H/N/O/Si chemical space, covering diamond, silicon nitride, silicon oxide, their surfaces, interfaces, and environmental molecules. The potential is trained on a large dataset of diverse structures and is tested on multiple physical properties, including ab in",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Interpretable neural equation learning for high-dimensional materials data",
+      "url": "https://arxiv.org/abs/2610.37880",
+      "body": "arXiv:2610.37880v1 Announce Type: cross Abstract: Equation learning seeks to discover compact, interpretable equations from data using various machine-learning techniques. However, few workflows discover and interpret learned equations in sparse, high-dimensional materials datasets. We present nn-EQL, an equation-learning framework that generates candidate equations through iterative training, pruning, and retraining of a neural network with customizable, user-specified neuron-level activation functions. Candidate equations are ranked using a minimum description length (MDL)-inspired score, balancing error and sparsity, and diagnosed to assess term-wise contributions, input-scaled sensitivit",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.37880v1 Announce Type: cross Abstract: Equation learning seeks to discover compact, interpretable equations from data using various machine-learning techniques. However, few workflows discover and interpret learned equations in sparse, high-dimensional materials datasets. We present nn-EQL, an equation-learning framework that generates candidate equations through iterative training, pruning, and retraining of a neural network with customizable, user-specified neuron-level activation functions. Candidate equations are ranked using a minimum description length (MDL)-inspired score, balancing error and sparsity, and diagnosed to assess term-wise contributions, input-scaled sensitivit",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Distilling Large-Scale Machine Learning Interatomic Potentials to Predict Long-Timescale Electrolyte Transport Properties",
+      "url": "https://arxiv.org/abs/2610.39513",
+      "body": "arXiv:2610.39513v1 Announce Type: cross Abstract: Accurately predicting the transport properties of liquid electrolytes is critical for next-generation battery design and requires force fields that are both quantum-mechanically accurate and fast enough for long-timescale simulation. Recent large-scale pretrained machine learning interatomic potentials (MLIPs) approach density-functional-theory accuracy, but remain too slow to access the necessary timescales to converge transport properties. We provide a knowledge distillation procedure to transfer the accuracy of a large-scale \"teacher\" MLIP into fast, system-specific \"students\", without any additional ab initio data. Our distilled models ru",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.39513v1 Announce Type: cross Abstract: Accurately predicting the transport properties of liquid electrolytes is critical for next-generation battery design and requires force fields that are both quantum-mechanically accurate and fast enough for long-timescale simulation. Recent large-scale pretrained machine learning interatomic potentials (MLIPs) approach density-functional-theory accuracy, but remain too slow to access the necessary timescales to converge transport properties. We provide a knowledge distillation procedure to transfer the accuracy of a large-scale \"teacher\" MLIP into fast, system-specific \"students\", without any additional ab initio data. Our distilled models ru",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Does System Size Matter in Uncertainty Quantification for Machine Learning Interatomic Potentials?",
+      "url": "https://arxiv.org/abs/2610.40126",
+      "body": "arXiv:2610.40126v1 Announce Type: cross Abstract: Machine-learning interatomic potentials (MLIPs) commonly use uncertainty estimates to flag out-of-distribution (OOD) configurations and select structures for active learning. A key question is whether the resulting structure-level uncertainty scores remain comparable across different system sizes. A common practice is to aggregate per-atom uncertainties by their mean or maximum and compare the resulting score against a fixed threshold, implicitly assuming such comparability. We test this assumption across several in-distribution (ID)/OOD pairs by characterizing both aggregations as a function of atom count. The two aggregations exhibit distin",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.40126v1 Announce Type: cross Abstract: Machine-learning interatomic potentials (MLIPs) commonly use uncertainty estimates to flag out-of-distribution (OOD) configurations and select structures for active learning. A key question is whether the resulting structure-level uncertainty scores remain comparable across different system sizes. A common practice is to aggregate per-atom uncertainties by their mean or maximum and compare the resulting score against a fixed threshold, implicitly assuming such comparability. We test this assumption across several in-distribution (ID)/OOD pairs by characterizing both aggregations as a function of atom count. The two aggregations exhibit distin",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Framework-Conditional Open Materials Generation",
+      "url": "https://arxiv.org/abs/2610.40443",
+      "body": "arXiv:2610.40443v1 Announce Type: cross Abstract: Theoretical predictions of novel materials rely on a variety of techniques, from data-mining-based ion substitution methods to fully de novo generative models. Each approach imposes specific constraints and encounters unique challenges when extrapolating beyond the distribution of known materials to discover new ones. The foremost goal of materials generation is to produce stable, unique, and novel (S.U.N.) structures. Predicted structures that meet these criteria, however, typically result from novel chemical compositions mapped onto known structural prototypes or frameworks. We leverage this heuristic insight to present a new generative par",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.40443v1 Announce Type: cross Abstract: Theoretical predictions of novel materials rely on a variety of techniques, from data-mining-based ion substitution methods to fully de novo generative models. Each approach imposes specific constraints and encounters unique challenges when extrapolating beyond the distribution of known materials to discover new ones. The foremost goal of materials generation is to produce stable, unique, and novel (S.U.N.) structures. Predicted structures that meet these criteria, however, typically result from novel chemical compositions mapped onto known structural prototypes or frameworks. We leverage this heuristic insight to present a new generative par",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "ML-COHP: predicting bond descriptors using latent space of a universal interatomic potentials",
+      "url": "https://arxiv.org/abs/2610.40445",
+      "body": "arXiv:2610.40445v1 Announce Type: cross Abstract: The integrated crystal orbital Hamilton population (ICOHP) is the standard measure of bond strength in a DFT calculation, but every structure needs its own DFT single point and LOBSTER projection, which takes days for a cell of a hundred atoms, such as a grain boundary or a catalytic nanoparticle. We predict ICOHP from the frozen descriptors of a MACE foundation model. A symmetric pair head reads the scalar and bond-projected vector channels of the two atoms and corrects a pair baseline built from the element embeddings of the same model. We tested the model on the high-entropy diboride (Hf,Zr,Ti,Nb,Ta)B$_2$, Pt clusters on defective graphene",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.40445v1 Announce Type: cross Abstract: The integrated crystal orbital Hamilton population (ICOHP) is the standard measure of bond strength in a DFT calculation, but every structure needs its own DFT single point and LOBSTER projection, which takes days for a cell of a hundred atoms, such as a grain boundary or a catalytic nanoparticle. We predict ICOHP from the frozen descriptors of a MACE foundation model. A symmetric pair head reads the scalar and bond-projected vector channels of the two atoms and corrects a pair baseline built from the element embeddings of the same model. We tested the model on the high-entropy diboride (Hf,Zr,Ti,Nb,Ta)B$_2$, Pt clusters on defective graphene",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "LightPFP: A Lightweight Route to Ab Initio Accuracy at Scale",
+      "url": "https://arxiv.org/abs/2510.23064",
+      "body": "arXiv:2510.23064v3 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) bridge the gap between quantum-mechanical accuracy and scalable molecular simulations. However, a fundamental trade-off persists: universal MLIPs (u-MLIPs) offer broad transferability but are computationally expensive, whereas task-specific MLIPs (ts-MLIPs) achieve high efficiency at the expense of costly DFT training data. Here we introduce LightPFP, a data-efficient knowledge distillation framework. Instead of relying on expensive DFT calculations, LightPFP constructs a distilled ts-MLIP by using a u-MLIP to generate high-quality, material-specific training data, while employing a pre-traine",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2510.23064v3 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) bridge the gap between quantum-mechanical accuracy and scalable molecular simulations. However, a fundamental trade-off persists: universal MLIPs (u-MLIPs) offer broad transferability but are computationally expensive, whereas task-specific MLIPs (ts-MLIPs) achieve high efficiency at the expense of costly DFT training data. Here we introduce LightPFP, a data-efficient knowledge distillation framework. Instead of relying on expensive DFT calculations, LightPFP constructs a distilled ts-MLIP by using a u-MLIP to generate high-quality, material-specific training data, while employing a pre-traine",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Machine-learned exchange-correlation functionals for molecules, solids, and reactive surfaces",
+      "url": "https://arxiv.org/abs/2608.21525",
+      "body": "arXiv:2608.21525v2 Announce Type: replace Abstract: The application of density functional theory to heterogeneous catalysis is hindered by the shortcomings of conventional density functional approximations. We combine machine learning with explicitly non-local physically informed descriptors and introduce an exchange-correlation functional (CIDER26SS) framework regularized for wide transferability. CIDER26SS is size-extensive, highly efficient, provides a balanced and accurate description of both molecular and solid-state systems, and is specifically well-optimized for transition metal surface chemistry. Surpassing existing conventional functionals, CIDER26SS resolves the CO/Pt puzzle, ident",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00-04:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-10-30"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2608.21525v2 Announce Type: replace Abstract: The application of density functional theory to heterogeneous catalysis is hindered by the shortcomings of conventional density functional approximations. We combine machine learning with explicitly non-local physically informed descriptors and introduce an exchange-correlation functional (CIDER26SS) framework regularized for wide transferability. CIDER26SS is size-extensive, highly efficient, provides a balanced and accurate description of both molecular and solid-state systems, and is specifically well-optimized for transition metal surface chemistry. Surpassing existing conventional functionals, CIDER26SS resolves the CO/Pt puzzle, ident",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    }
+  ],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [],
+  "science": [
+    {
+      "title": "Crystoria: A Large-Scale Crystal Dataset Linking Thermodynamic and Dynamical Stability for Materials AI",
+      "body": "arXiv:2610.38195v1 Announce Type: new Abstract: Large-scale crystal databases have transformed materials discovery by making millions of structures and thermodynamic properties accessible to materials informatics. Yet dynamical stability remains sparsely characterized at a comparable scale because its evaluation is substantially more computationally demanding than conventional structure and energy calculations. This mismatch creates a critical gap between the rapidly expanding crystal-structure space and the physical information available for materials research and machine learning. Here we introduce Crystoria, a large-scale crystal dataset designed to bring dynamical stability to the scale ",
+      "url": "https://arxiv.org/abs/2610.38195"
+    },
+    {
+      "title": "Strain-Induced BCC-to-FCC Transformation in Tungsten Uncovered by Molecular Dynamics Simulations with Machine Learning Potentials",
+      "body": "arXiv:2610.38477v1 Announce Type: new Abstract: Polymorphic transformations occur in a minority of metals. Tungsten is not one of them. This observation does not rule out its intrinsic phase transition possibility, but may be due to inaccessible thermodynamic and mechanical conditions in conventional experiments. Herein, we investigate the body centered cubic (BCC) to face centered cubic (FCC) transformation in tungsten via a rigorously validated machine learning potential (MLP) molecular dynamics (MD) approach. Our simulations demonstrate that strain induced BCC to FCC transformation indeed occurs in tungsten. The FCC phase exceeds 20 at.% at low temperature and in the presence of dislocati",
+      "url": "https://arxiv.org/abs/2610.38477"
+    },
+    {
+      "title": "Autonomous Quantum Measurement with Agentic AI",
+      "body": "arXiv:2610.38850v1 Announce Type: new Abstract: Quantum materials exhibit diverse electronic and functional phenomena, but their characterization requires extensive experimental expertise, iterative decision-making and accumulated laboratory knowledge that is difficult to document and transfer. Here we introduce Quantum Agent (QUANTA), an agentic artificial intelligence (AI) framework for autonomous quantum-materials characterization. Using a widely adopted Physical Property Measurement System (PPMS) as an experimental platform, QUANTA combines retrieval augmentation using scientific literature, experimental protocols and prior measurements with specialized agents for experimental planning, ",
+      "url": "https://arxiv.org/abs/2610.38850"
+    },
+    {
+      "title": "Learning Between the Lines: Interaction Interpolation in a Multi Element Machine Learning Interatomic Potential",
+      "body": "arXiv:2610.38876v1 Announce Type: new Abstract: The continuous development of machine learning inter-atomic potentials (MLIAPs)has greatly accelerated materials research in recent years. However, the need to con- struct custom MLIAPs for each unique problem remains a bottleneck which raises the question of the transferability of MLIAPs. While foundation MLIAPs can achieve transferability due to the broad coverage of chemical space represented in their training sets, their size and computational cost limits their routine use. We address this gap by developing a lightweight general-purpose MLIAP for metal alloys spanning twelve elements (Al, Sc, Ti, V, Cu, Zn, Zr, Nb, Mo, Hf, Ta, W). Here, we ",
+      "url": "https://arxiv.org/abs/2610.38876"
+    },
+    {
+      "title": "Development and application of a machine learning potential for diamond surfaces and their sliding interfaces with silicon nitride and silica: effect of passivation, orientation and load",
+      "body": "arXiv:2610.38937v1 Announce Type: new Abstract: Friction and wear of diamond are controlled by its surface chemistry, which determines whether covalent bonds form across the sliding interface. First-principles simulations have explored the role of surface orientation and passivation, but are limited to a few hundred atoms and tens of picoseconds. To bridge this gap, we develop a reactive machine learning interatomic potential for the C/H/N/O/Si chemical space, covering diamond, silicon nitride, silicon oxide, their surfaces, interfaces, and environmental molecules. The potential is trained on a large dataset of diverse structures and is tested on multiple physical properties, including ab in",
+      "url": "https://arxiv.org/abs/2610.38937"
+    },
+    {
+      "title": "Interpretable neural equation learning for high-dimensional materials data",
+      "body": "arXiv:2610.37880v1 Announce Type: cross Abstract: Equation learning seeks to discover compact, interpretable equations from data using various machine-learning techniques. However, few workflows discover and interpret learned equations in sparse, high-dimensional materials datasets. We present nn-EQL, an equation-learning framework that generates candidate equations through iterative training, pruning, and retraining of a neural network with customizable, user-specified neuron-level activation functions. Candidate equations are ranked using a minimum description length (MDL)-inspired score, balancing error and sparsity, and diagnosed to assess term-wise contributions, input-scaled sensitivit",
+      "url": "https://arxiv.org/abs/2610.37880"
+    }
+  ],
   "content_mode": "public",
-  "fetched_at": "2026-10-29T17:56:59.952459+00:00",
+  "fetched_at": "2026-10-30T17:39:07.888338+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 21
+      "items": 18
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "source": "Google Research",
@@ -282,19 +494,13 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 0
+      "items": 109
     }
   ],
-  "editorial": {
-    "date": "2026-10-29",
-    "items_applied": 12,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 0,
+    "paper_count": 12,
     "leader_count": 0,
-    "science_count": 0
+    "science_count": 6
   }
 }

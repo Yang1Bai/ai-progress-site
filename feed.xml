@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-29T17:57:01Z</updated>
+  <updated>2026-10-30T17:39:09Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月29日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-29.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-29.html</id>
-    <updated>2026-10-29T17:57:01Z</updated>
+    <title>每日汇总 2026年10月30日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-30.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-30.html</id>
+    <updated>2026-10-30T17:39:09Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards,…</title>
+    <link href="https://openai.com/index/community-safety-report-and-new-protections-for-teens"/>
+    <id>https://openai.com/index/community-safety-report-and-new-protections-for-teens</id>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.</summary>
   </entry>
   <entry>
     <title>OpenAI’s updated Model Spec outlines five core values to guide more capable AI t…</title>
     <link href="https://openai.com/index/updated-model-spec"/>
     <id>https://openai.com/index/updated-model-spec</id>
-    <updated>2026-10-29T17:57:01Z</updated>
+    <updated>2026-10-30T17:39:09Z</updated>
     <summary>OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.</summary>
   </entry>
   <entry>
-    <title>补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。…</title>
+    <title>…</title>
     <link href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"/>
     <id>https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。</summary>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary></summary>
   </entry>
   <entry>
     <title>OpenAI uses layered monitoring to detect frontier model misalignment and unautho…</title>
     <link href="https://openai.com/index/how-we-detect-frontier-model-misalignment"/>
     <id>https://openai.com/index/how-we-detect-frontier-model-misalignment</id>
-    <updated>2026-10-29T17:57:01Z</updated>
+    <updated>2026-10-30T17:39:09Z</updated>
     <summary>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</summary>
   </entry>
   <entry>
     <title>Ropes &amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers r…</title>
     <link href="https://openai.com/index/ropes-gray-ai-diligence"/>
     <id>https://openai.com/index/ropes-gray-ai-diligence</id>
-    <updated>2026-10-29T17:57:01Z</updated>
+    <updated>2026-10-30T17:39:09Z</updated>
     <summary>Ropes &amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.</summary>
   </entry>
   <entry>
-    <title>倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。…</title>
+    <title>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and…</title>
+    <link href="https://openai.com/index/credit-saison"/>
+    <id>https://openai.com/index/credit-saison</id>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.</summary>
+  </entry>
+  <entry>
+    <title>…</title>
     <link href="https://huggingface.co/blog/announcing-project-protostar"/>
     <id>https://huggingface.co/blog/announcing-project-protostar</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。</summary>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary></summary>
   </entry>
   <entry>
-    <title>文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。…</title>
+    <title>…</title>
     <link href="https://huggingface.co/blog/mistral-large4"/>
     <id>https://huggingface.co/blog/mistral-large4</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。</summary>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary></summary>
   </entry>
   <entry>
-    <title>AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确…</title>
+    <title>…</title>
     <link href="https://huggingface.co/blog/anydecisionmodel"/>
     <id>https://huggingface.co/blog/anydecisionmodel</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确认。</summary>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary></summary>
   </entry>
   <entry>
-    <title>开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。…</title>
+    <title>…</title>
     <link href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"/>
     <id>https://huggingface.co/blog/nvidia/nemotron-transcribe-granary</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>开放权重模型结合转写、说话人归属、翻译和音频问答，并配套 Granary 数据流程及适配方法。语言覆盖因任务而异，榜单表现不能代表所有口音、场景或部署条件。</summary>
-  </entry>
-  <entry>
-    <title>合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。…</title>
-    <link href="https://openai.com/index/openai-servicenow-partnership-expansion"/>
-    <id>https://openai.com/index/openai-servicenow-partnership-expansion</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。</summary>
-  </entry>
-  <entry>
-    <title>访谈讨论气候、能源、AI 和供应链压力下如何建设基础设施，强调多方协作与全流程考量。属于专家观点，不是具体工程效果的验证报告。…</title>
-    <link href="https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028"/>
-    <id>https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028</id>
-    <updated>2026-10-29T17:57:01Z</updated>
-    <summary>访谈讨论气候、能源、AI 和供应链压力下如何建设基础设施，强调多方协作与全流程考量。属于专家观点，不是具体工程效果的验证报告。</summary>
+    <updated>2026-10-30T17:39:09Z</updated>
+    <summary></summary>
   </entry>
 </feed>
