@@ -149,9 +149,9 @@
         "official_posting": "https://aprecruit.berkeley.edu/JPF05603",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "audit_status": "verified_open",
-        "audit_note": "Official AP Recruit page rechecked: hard final deadline remains 2026-12-01 23:59 Pacific."
+        "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines."
       },
       {
         "title": "Assistant Professor - Electrochemical Engineering (Tenure Stream)",
@@ -178,9 +178,9 @@
         "official_posting": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Electrochemical-Engineering-ON/606471717/",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_status": "verified_open",
-        "audit_note": "Official posting 50288 rechecked: all materials and letters due 2026-12-01 23:59 EST."
+        "last_audited_date": "2026-10-30",
+        "audit_status": "verification_limited_retained",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed."
       },
       {
         "title": "Assistant or Untenured Associate Professor - Chemical Engineering (Tenure Track)",
@@ -208,40 +208,69 @@
         "official_posting": "https://facultypositions.stanford.edu/jobs/assistant-or-untenured-associate-professor-in-chemical-engineering-department-stanford-university-california-united-states",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "audit_status": "verified_open",
-        "audit_note": "Official Stanford university tenure-track posting rechecked; full consideration 2026-11-13 and applications may continue until filled."
+        "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines."
       },
       {
-        "title": "Assistant/Associate/Full Professor - Materials Science, Chemistry",
-        "org": "University of California, Berkeley, Department of Chemistry",
+        "title": "Assistant Professor - Chemical and Biomolecular Engineering (Tenure Track)",
+        "org": "University of California, Berkeley, Department of Chemical and Biomolecular Engineering",
         "location": "Berkeley, California, USA",
-        "url": "https://aprecruit.berkeley.edu/JPF05565",
-        "deadline": "2026-10-25",
-        "rank": "Assistant Professor (tenure track); Associate/Full Professor (tenured)",
-        "closing_date": "2026-10-25",
+        "url": "https://aprecruit.berkeley.edu/JPF05504",
+        "deadline": "2026-11-18",
+        "rank": "Assistant Professor (tenure track)",
+        "job_id": "JPF05504",
+        "closing_date": "2026-11-18",
         "closing_time": "23:59",
         "closing_timezone": "America/Los_Angeles",
-        "deadline_time_note": "Official final date: October 25, 2026 at 11:59pm Pacific Time (PDT). This is a hard final deadline, as well as the review date.",
+        "deadline_time_note": "Official final date and full-consideration date are November 18, 2026 at 11:59pm Pacific Time (PST). This is a hard final deadline.",
         "tags": [
-          "inorganic materials",
-          "experimental synthesis",
-          "materials chemistry",
-          "LBNL collaboration"
+          "experimental electrochemistry",
+          "inorganic synthesis",
+          "chemical reaction engineering",
+          "materials discovery"
         ],
-        "fit": "A broad materials-science search in Chemistry with an explicit tenure-track Assistant Professor route and collaboration opportunities at LBNL. The fit is inferred from Yang's inorganic synthesis, electrochemistry and autonomous materials-discovery program; the advertisement does not specifically prioritize autonomous labs or AI.",
+        "fit": "The official tenure-track search welcomes every research area within chemical and biomolecular engineering. Fit is inferred from Yang's experimental electrocatalysis, autonomous inorganic synthesis and critical-material recovery program, with potential CBE/LBNL collaborations; the advertisement does not specifically prioritize autonomous laboratories.",
         "qs_world_rank": 20,
         "qs_rank_tied": true,
         "qs_ranking_year": 2027,
         "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
-        "official_posting": "https://aprecruit.berkeley.edu/JPF05565",
+        "official_posting": "https://aprecruit.berkeley.edu/JPF05504",
         "source": "curated",
-        "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
+        "verified_date": "2026-10-30",
+        "last_audited_date": "2026-10-30",
         "audit_status": "verified_open",
-        "audit_note": "Official AP Recruit page rechecked: final deadline 2026-10-25 23:59 Pacific. User declined this specific application; retained on website until expiry.",
-        "user_application_decision": "declined",
-        "application_reminders": false
+        "audit_note": "Official AP Recruit page independently read on October 30: TT Assistant Professor, final deadline 2026-11-18 23:59 Pacific.",
+        "application_status": "not_recorded"
+      },
+      {
+        "title": "Open-Rank Full-Time Tenure-Track Faculty - Chemical Engineering",
+        "org": "University of Washington, Seattle, Department of Chemical Engineering",
+        "location": "Seattle, Washington, USA",
+        "url": "https://apply.interfolio.com/190651",
+        "deadline": "Priority review 2026-11-16; open until filled",
+        "rank": "Assistant Professor, Associate Professor or Professor (tenure track)",
+        "job_id": "188735",
+        "priority_review_date": "2026-11-16",
+        "deadline_time_note": "November 16, 2026 is first review and priority consideration, not a hard closing deadline. Time and timezone not specified; open until filled.",
+        "tags": [
+          "clean energy",
+          "electrochemical interfaces",
+          "materials discovery",
+          "experimental chemical engineering"
+        ],
+        "fit": "The official open-rank tenure-track search explicitly welcomes materials, interfacial sciences, clean energy technology and energy systems, while accepting all chemical-engineering research areas. Yang's experimental autonomous electrocatalyst discovery program can connect these areas; fit is inferred rather than an explicit SDL preference. This is distinct from his submitted UW Seattle Chemistry application.",
+        "qs_world_rank": 92,
+        "qs_rank_tied": true,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "official_posting": "https://ap.washington.edu/ahr/position-details/?job_id=188735",
+        "source": "curated",
+        "verified_date": "2026-10-30",
+        "last_audited_date": "2026-10-30",
+        "audit_status": "verified_open",
+        "audit_note": "Official UW posting 188735 independently read on October 30: priority 2026-11-16, open until filled; application Interfolio 190651.",
+        "application_status": "not_recorded"
       },
       {
         "title": "Assistant Professor (Tenure Track) - AI for Materials Discovery, Design, and Manufacturing",
@@ -264,9 +293,9 @@
         "official_posting": "https://cde.nus.edu.sg/mse/faculty-position-in-ai-for-materials-discovery-design-and-manufacturing/",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official NUS MSE recruitment page still invites tenure-track applications; no hard closing date stated.",
-        "audit_status": "verified_open"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant/Associate (Pre-Tenure) Professors - Chemical, Environmental and Materials Engineering",
@@ -292,9 +321,9 @@
         "date_source_note": "Official school page lists the position; date and full description cross-checked against Brown professor Nitin Padture's public announcement because Interfolio text was not readable.",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official Brown employment page and public Interfolio position data 190435 confirm Open; review began 2026-10-15, until filled.",
-        "audit_status": "verified_open"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Tenure-Track Assistant Professor - Chemical Engineering",
@@ -317,16 +346,16 @@
         "official_posting": "https://faculty-searches.mit.edu/cheme/",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official MIT ChemE application instructions rechecked: priority 2026-11-15, not a hard closing date.",
-        "audit_status": "verified_open"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Open-Rank Faculty Position - Smart Manufacturing (University Tenure Line)",
         "org": "Stanford University, School of Engineering (home department determined during search)",
         "location": "Stanford, California, USA",
         "url": "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-in-smart-manufacturing-stanford-university-california-united-states",
-        "deadline": "Review begins 2026-11-01; portal closes 2027-10-01 at 23:55 PDT",
+        "deadline": "Review begins 2026-11-01; no hard closing date currently stated",
         "tags": [
           "in-situ sensing",
           "closed-loop process control",
@@ -336,9 +365,6 @@
         "fit": "The official search combines materials science, autonomy, in-situ sensing, closed-loop control and robotics across engineering disciplines. Yang's dynamic reaction representations and autonomous synthesis fit when framed around reproducible, scalable materials processing rather than a general-purpose lab platform.",
         "rank": "Tenure-track Assistant Professor or tenure-track/tenured Associate Professor (also tenured Full)",
         "review_begins_date": "2026-11-01",
-        "closing_date": "2027-10-01",
-        "closing_time": "23:55",
-        "closing_timezone": "PDT",
         "qs_world_rank": 2,
         "qs_rank_tied": true,
         "qs_ranking_year": 2027,
@@ -346,9 +372,10 @@
         "official_posting": "https://facultypositions.stanford.edu/jobs/open-rank-faculty-position-in-smart-manufacturing-stanford-university-california-united-states",
         "source": "curated",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official Stanford posting rechecked: review begins 2026-11-01; portal closes 2027-10-01 23:55 PDT.",
-        "audit_status": "verified_open"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Official posting independently read 2026-10-30: review starts November 1. Prior portal closing timestamp no longer displayed; removed unsupported closing fields.",
+        "audit_status": "verified_open",
+        "deadline_time_note": "November 1, 2026 is the review-begins date, not a hard deadline. Review time/timezone not specified. The former portal closing timestamp is no longer displayed in the current official posting and is not treated as verified."
       },
       {
         "title": "Assistant Professor - Inorganic Chemistry, Inorganic Materials Chemistry & Artificial Intelligence (AI)",
@@ -363,9 +390,9 @@
           "energy & catalysis"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official Houston posting 496810 rechecked: review began 2026-10-01 and continues until filled.",
+        "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines.",
         "audit_status": "verified_open"
       },
       {
@@ -381,9 +408,9 @@
           "multi-agent learning"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official BU AJO posting rechecked: priority 2026-12-01, rolling review until 2027-04-30.",
+        "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines.",
         "audit_status": "verified_open"
       },
       {
@@ -399,10 +426,10 @@
           "experimental-data integration"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official public Interfolio data 192372 confirms Open; full consideration 2026-12-15, later applications until filled.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant Professor (Open Rank) in Materials Science and Engineering",
@@ -417,11 +444,11 @@
           "open rank"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official Georgia Tech MSE page confirms job 303133 and review beginning 2026-11-06; until filled.",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
         "official_posting": "https://www.mse.gatech.edu/faculty_job_opportunity",
-        "audit_status": "verified_open"
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant Professor (Tenure-Track) in Materials Science and Engineering",
@@ -436,9 +463,9 @@
           "catalysis"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official Interfolio title remains publicly indexed, but full current status and deadline could not be independently read. Retained; not promoted as newly verified.",
-        "audit_status": "verification_incomplete"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Tenure-Track/Tenured Assistant or Associate Professor",
@@ -453,10 +480,10 @@
           "ARM-MIP"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official public Interfolio data 190627 confirms Open; full consideration 2026-11-30, later applications until filled.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant Professor in Artificial Intelligence/Machine Learning for Materials Design",
@@ -474,10 +501,10 @@
         "full_consideration_date": "2026-10-10",
         "date_source": "https://logic.interfolio.com/dossier-api/positions/192913",
         "date_source_note": "Official public Interfolio data confirms position open and October 10, 2026 full-consideration date; not a hard closing date.",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official public Interfolio data 192913 confirms Open. Previously recorded full-consideration date 2026-10-10 has passed; it is not a hard closing deadline.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Tenure-track positions in Chemistry",
@@ -492,10 +519,10 @@
           "automation"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official public Interfolio data 191917 confirms Open; priority/review began 2026-09-30, until filled.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Tenure-Track Faculty Positions in Chemical and Biomolecular Engineering",
@@ -510,10 +537,10 @@
           "decarbonisation"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official NUS CBE tenure-track recruitment page remains available and invites applications; no hard closing date stated.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant Professor in Chemistry, Biochemistry, or Chemical Engineering",
@@ -531,8 +558,8 @@
         "requested_receipt_date": "2026-10-15",
         "deadline_time_note": "Official requested receipt date, not a confirmed portal closure; time and timezone not specified.",
         "verified_date": "2026-10-23",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Official Caltech page rechecked: requested receipt 2026-10-15; late applications may be considered, not a confirmed hard closure.",
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Official posting still permits late consideration after the October 15 target; not confirmed closed.",
         "audit_status": "verified_open"
       },
       {
@@ -548,10 +575,10 @@
           "advanced synthesis"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official public Interfolio data 191744 confirms Open; review continues until filled.",
-        "audit_status": "verified_open"
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
@@ -565,9 +592,9 @@
           "scientific computing"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Rechecked legacy Fall 2026 announcement; current official UT Austin status/closing date not established. Retained under user retention rule, not recommended as verified open.",
-        "audit_status": "verification_incomplete"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Associate or Full Professor Computational Materials Science",
@@ -581,9 +608,9 @@
           "computational chemistry"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-23",
-        "audit_note": "Rechecked original HERC link, which remains behind an anti-bot page; exact official current vacancy and deadline not established. Retained, not recommended as verified open.",
-        "audit_status": "verification_incomplete"
+        "last_audited_date": "2026-10-30",
+        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
+        "audit_status": "verification_limited_retained"
       },
       {
         "title": "Assistant Professor of Chemistry",
@@ -600,9 +627,9 @@
         "official_posting": "https://ap.washington.edu/ahr/position-details/?job_id=192872",
         "priority_review_date": "2026-10-29",
         "full_consideration_date": "2026-11-01",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official UW vacancy 192872 rechecked: priority 2026-10-29, full consideration 2026-11-01, until filled. Already submitted; no application reminder.",
+        "audit_note": "Official UW job_id 192872 read independently: October 29 priority, November 1 full consideration, open until filled. User has submitted; no reminders.",
         "audit_status": "verified_open"
       },
       {
@@ -620,9 +647,9 @@
         "source": "curated",
         "official_posting": "https://careers.purdue.edu/job/AssistantAssociate-Professor-of-Sustainability-Engineering/44028-en_US/",
         "review_begins_date": "2026-10-24",
-        "last_audited_date": "2026-10-23",
+        "last_audited_date": "2026-10-30",
         "verified_date": "2026-10-23",
-        "audit_note": "Official Purdue vacancy 44028 rechecked: review begins 2026-10-24 and continues until filled.",
+        "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines.",
         "audit_status": "verified_open"
       }
     ],
