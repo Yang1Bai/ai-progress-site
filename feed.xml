@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-10-30T17:39:09Z</updated>
+  <updated>2026-10-31T16:43:42Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年10月30日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-30.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-30.html</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <title>每日汇总 2026年10月31日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-10-31.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-10-31.html</id>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/nvidia/nemotron-halloween"/>
+    <id>https://huggingface.co/blog/nvidia/nemotron-halloween</id>
+    <updated>2026-10-31T16:43:42Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Five MIT faculty members and two additional alumni are honored with fellowships …</title>
+    <link href="https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030"/>
+    <id>https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030</id>
+    <updated>2026-10-31T16:43:42Z</updated>
+    <summary>Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.</summary>
+  </entry>
+  <entry>
+    <title>MIT professors Adam Berinsky and Chara Podimata discuss a new project to track h…</title>
+    <link href="https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030"/>
+    <id>https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030</id>
+    <updated>2026-10-31T16:43:42Z</updated>
+    <summary>MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI will honor a shared robots.txt signal to help website operators communica…</title>
+    <link href="https://openai.com/index/helping-websites-express-ai-training-preferences"/>
+    <id>https://openai.com/index/helping-websites-express-ai-training-preferences</id>
+    <updated>2026-10-31T16:43:42Z</updated>
+    <summary>OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.</summary>
   </entry>
   <entry>
     <title>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards,…</title>
     <link href="https://openai.com/index/community-safety-report-and-new-protections-for-teens"/>
     <id>https://openai.com/index/community-safety-report-and-new-protections-for-teens</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI shares excerpts from court briefs by creators, academics, accessibility a…</title>
+    <link href="https://openai.com/index/fair-use-benefits-everyone"/>
+    <id>https://openai.com/index/fair-use-benefits-everyone</id>
+    <updated>2026-10-31T16:43:42Z</updated>
+    <summary>OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.</summary>
   </entry>
   <entry>
     <title>OpenAI’s updated Model Spec outlines five core values to guide more capable AI t…</title>
     <link href="https://openai.com/index/updated-model-spec"/>
     <id>https://openai.com/index/updated-model-spec</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary>OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.</summary>
   </entry>
   <entry>
     <title>…</title>
     <link href="https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"/>
     <id>https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary></summary>
   </entry>
   <entry>
     <title>OpenAI uses layered monitoring to detect frontier model misalignment and unautho…</title>
     <link href="https://openai.com/index/how-we-detect-frontier-model-misalignment"/>
     <id>https://openai.com/index/how-we-detect-frontier-model-misalignment</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary>OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.</summary>
   </entry>
   <entry>
     <title>Ropes &amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers r…</title>
     <link href="https://openai.com/index/ropes-gray-ai-diligence"/>
     <id>https://openai.com/index/ropes-gray-ai-diligence</id>
-    <updated>2026-10-30T17:39:09Z</updated>
+    <updated>2026-10-31T16:43:42Z</updated>
     <summary>Ropes &amp; Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.</summary>
-  </entry>
-  <entry>
-    <title>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and…</title>
-    <link href="https://openai.com/index/credit-saison"/>
-    <id>https://openai.com/index/credit-saison</id>
-    <updated>2026-10-30T17:39:09Z</updated>
-    <summary>Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.</summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/announcing-project-protostar"/>
-    <id>https://huggingface.co/blog/announcing-project-protostar</id>
-    <updated>2026-10-30T17:39:09Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/mistral-large4"/>
-    <id>https://huggingface.co/blog/mistral-large4</id>
-    <updated>2026-10-30T17:39:09Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/anydecisionmodel"/>
-    <id>https://huggingface.co/blog/anydecisionmodel</id>
-    <updated>2026-10-30T17:39:09Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"/>
-    <id>https://huggingface.co/blog/nvidia/nemotron-transcribe-granary</id>
-    <updated>2026-10-30T17:39:09Z</updated>
-    <summary></summary>
   </entry>
 </feed>

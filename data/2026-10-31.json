@@ -1,0 +1,258 @@
+{
+  "date": "2026年10月31日",
+  "news": [
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "body": "",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "body": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T16:15:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "body": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T15:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T09:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "body": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "body": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "body": "",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "body": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "body": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "body": "",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "body": "",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "body": "",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "body": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "date": "2026-10-28",
+      "published_at": "2026-10-28T13:15:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-28"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "papers": [],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [],
+  "content_mode": "public",
+  "fetched_at": "2026-10-31T16:43:40.822939+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 20
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  }
+}
