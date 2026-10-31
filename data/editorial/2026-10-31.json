@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-31",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "title": "Nemotron 为万圣节互动投影提供语音与动画",
+      "body": "作者用语音识别、小语言模型、语音合成及面部动画组件，在单台工作站上制作能与访客对话的 MonsterHouse。属于个人互动演示，不能据此推断通用部署性能。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "title": "MIT 多位研究人员入选 AI2050 Fellows",
+      "body": "MIT 报道五位教师及另外两位校友入选 Schmidt Sciences 的 2026 年 AI2050 项目。资助围绕人工智能如何惠及社会展开，入选本身不等于研究结论已获验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "title": "MIT 建立聊天机器人选举回答观察平台",
+      "body": "LLM Election Observatory 定期向不同模型提出固定选举问题，比较回答如何变化。平台观察模型输出，不能直接证明其改变了真实选民的投票选择。"
+    },
+    {
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "title": "OpenAI 计划支持网站统一表达 AI 训练偏好",
+      "body": "公告提出尊重 robots.txt 中的共享偏好信号，减少网站逐个配置提供商规则的工作。实现计划在未来数月推进，既有爬虫控制继续适用。"
+    },
+    {
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "title": "OpenAI 发布社区安全报告并加强青少年保护",
+      "body": "公告介绍危害识别、人工审核与可信威胁升级机制，并提出对未成年人枪支内容增加限制。相关保护将在未来数周逐步推出，不能写成风险已完全消除。"
+    },
+    {
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "title": "OpenAI 阐述 AI 训练合理使用立场",
+      "body": "文章汇集支持合理使用及其适用于 AI 训练的观点，并回应相关诉讼争议。属于当事方政策与法律主张，不能当作法院已作出的最终裁决。"
+    },
+    {
+      "url": "https://openai.com/index/updated-model-spec",
+      "title": "OpenAI 按五项核心价值更新模型行为规范",
+      "body": "更新围绕忠实于人类意图、减少伤害、诚实透明、人类自主和关怀组织指引，并调整监督、情境及行为默认设置。规范描述目标行为，不保证所有模型输出均已符合。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 以模块适配器更新能力",
+      "body": "补丁版保持基础模型不变，组合新的语音与决策适配器，并声明兼容 4.1。第三方 Adapter SDK 和教程仍在准备，不能写成现已全面可用。"
+    },
+    {
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "title": "OpenAI 介绍前沿模型行为偏离监测体系",
+      "body": "文章介绍激活探针、模型审核、调查智能体和人工响应等多层监测，并讨论历史事件回放评估。回放中的预警表现不等同于真实事件已被成功阻止。"
+    },
+    {
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "title": "Ropes & Gray 开发交易尽调 AI 工具",
+      "body": "工具对大量合同进行初步分类、归组和摘要，律师用已完成交易的人工报告比较并改进输出。其定位是协助初审，专业判断和核验仍由律师承担。"
+    },
+    {
+      "url": "https://openai.com/index/credit-saison",
+      "title": "Credit Saison 披露企业 AI 试点成效",
+      "body": "案例称 2025 年约一个多月、315 人参与的试点获得 954% 投资回报率，并节省员工时间。这是企业自报的特定试点结果，不能外推为所有组织的收益保证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
+      "body": "倡议联合高校、研究机构和开放社区，将数据、模型及代码整理为可复用格式，并计划 11 月 2 日启动首个挑战。倡议发布不代表所有公共科研资源已完成开放。"
+    },
+    {
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "title": "Hugging Face 介绍 Mistral Large 4 多模态模型",
+      "body": "文章介绍稀疏专家、稀疏注意力和图像输入等架构及评测。开放权重许可证包含服务用途限制，基准表现不能外推为所有任务或部署条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "title": "Swift 开放模型接口扩展到语音识别与决策",
+      "body": "AnySpeechRecognizer 和 AnyDecisionModel 提供熟悉的接口，可下载开放模型并在设备运行。可用模型、系统版本及硬件条件仍需逐项确认。"
+    },
+    {
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+      "body": "合作计划把模型及智能体连接到开发、IT 和安全流程，操作受组织权限与业务规则约束。公告中的新集成不应全部视为已向所有客户开放。"
+    }
+  ],
+  "papers": []
+}
