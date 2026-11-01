@@ -1,5 +1,5 @@
 {
-  "date": "2026年10月31日",
+  "date": "2026年11月1日",
   "news": [
     {
       "title": "Nemotron 为万圣节互动投影提供语音与动画",
@@ -15,7 +15,7 @@
       "importance": "normal",
       "title_original": "nemotron-halloween",
       "body_original": "",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "MIT 多位研究人员入选 AI2050 Fellows",
@@ -31,7 +31,7 @@
       "importance": "normal",
       "title_original": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
       "body_original": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "MIT 建立聊天机器人选举回答观察平台",
@@ -47,7 +47,7 @@
       "importance": "normal",
       "title_original": "Q&A: Hey AI, who should I vote for this year?",
       "body_original": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 计划支持网站统一表达 AI 训练偏好",
@@ -63,7 +63,7 @@
       "importance": "normal",
       "title_original": "Making it easier for websites to express AI training preferences",
       "body_original": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 发布社区安全报告并加强青少年保护",
@@ -79,7 +79,7 @@
       "importance": "normal",
       "title_original": "Community safety report and new protections for teens",
       "body_original": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 阐述 AI 训练合理使用立场",
@@ -95,7 +95,7 @@
       "importance": "normal",
       "title_original": "Fair use benefits everyone",
       "body_original": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 按五项核心价值更新模型行为规范",
@@ -111,7 +111,7 @@
       "importance": "normal",
       "title_original": "An updated Model Spec for more capable and beneficial AI",
       "body_original": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "Granite Switch 4.1.1 以模块适配器更新能力",
@@ -127,7 +127,7 @@
       "importance": "normal",
       "title_original": "Granite Switch 4.1.1 — Update models like you update software",
       "body_original": "",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 介绍前沿模型行为偏离监测体系",
@@ -143,7 +143,7 @@
       "importance": "normal",
       "title_original": "How we detect frontier model misalignment",
       "body_original": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "Ropes & Gray 开发交易尽调 AI 工具",
@@ -159,7 +159,7 @@
       "importance": "normal",
       "title_original": "How Ropes & Gray is developing AI for transactional diligence",
       "body_original": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "Credit Saison 披露企业 AI 试点成效",
@@ -175,7 +175,7 @@
       "importance": "normal",
       "title_original": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
       "body_original": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "ProtoStar 推动公共资助科研成果便于 AI 复用",
@@ -191,7 +191,7 @@
       "importance": "normal",
       "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "body_original": "",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "Hugging Face 介绍 Mistral Large 4 多模态模型",
@@ -207,7 +207,7 @@
       "importance": "normal",
       "title_original": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
       "body_original": "",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "Swift 开放模型接口扩展到语音识别与决策",
@@ -223,7 +223,7 @@
       "importance": "normal",
       "title_original": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
       "body_original": "",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     },
     {
       "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
@@ -239,7 +239,7 @@
       "importance": "normal",
       "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "body_original": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "editorial_date": "2026-10-31"
+      "editorial_date": "2026-11-01"
     }
   ],
   "papers": [],
@@ -249,7 +249,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-10-31T16:43:40.822939+00:00",
+  "fetched_at": "2026-11-01T15:58:32.970018+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -301,7 +301,7 @@
     "science_count": 0
   },
   "editorial": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "items_applied": 15,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
