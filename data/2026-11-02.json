@@ -1,0 +1,306 @@
+{
+  "date": "2026年11月2日",
+  "news": [
+    {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "body": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Powering up for a pivotal moment",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "body": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T14:55:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "body": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "body": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T00:35:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "body": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-02"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "body": "",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T17:57:24+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "body": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T16:15:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "body": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T15:00:00-04:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T09:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "body": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "body": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "date": "2026-10-30",
+      "published_at": "2026-10-30T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-30"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "body": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "body": "",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T13:37:07+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "body": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "body": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "date": "2026-10-29",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-10-29"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "papers": [
+    {
+      "title": "Generative Design and Graph Neural Network Screening of Novel Bimetallic Alloy Catalysts for the Hydrogen Evolution Reaction",
+      "url": "https://arxiv.org/abs/2610.41932",
+      "body": "arXiv:2610.41932v1 Announce Type: new Abstract: Identifying earth-abundant catalysts for the hydrogen evolution reaction (HER) is a central challenge in scalable green hydrogen production. We present a computational pipeline that couples diffusion-based generative modelling, machine-learning force-field relaxation, and graph neural network (GNN) property prediction to discover bimetallic HER catalysts beyond the structures and stoichiometries covered by existing adsorption databases. A generative model (MatterGen) is fine-tuned on bulk alloy structures labelled with their minimum hydrogen adsorption energy and steered towards adsorption energies near zero. From the generated pool we retain t",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-02"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2610.41932v1 Announce Type: new Abstract: Identifying earth-abundant catalysts for the hydrogen evolution reaction (HER) is a central challenge in scalable green hydrogen production. We present a computational pipeline that couples diffusion-based generative modelling, machine-learning force-field relaxation, and graph neural network (GNN) property prediction to discover bimetallic HER catalysts beyond the structures and stoichiometries covered by existing adsorption databases. A generative model (MatterGen) is fine-tuned on bulk alloy structures labelled with their minimum hydrogen adsorption energy and steered towards adsorption energies near zero. From the generated pool we retain t",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential",
+      "url": "https://arxiv.org/abs/2607.28000",
+      "body": "arXiv:2607.28000v2 Announce Type: replace Abstract: Iron (Fe) oxidation is a fundamental phenomenon that is scientifically vital and technologically significant. Despite substantial experimental efforts, accurate atomistic modelling of Fe oxidation remains elusive, which requires a reliable interatomic potential, whose development hinges on a representative first-principles training dataset. However, Fe-oxygen (O) system is known for its structural complexity, rendering the generation of high-quality first-principles dataset challenging. In this work, we propose the Perturbation Augmented Space group structure Sampling (PASS) method to generate extensive dataset for Fe-O system consisting of",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-02"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2607.28000v2 Announce Type: replace Abstract: Iron (Fe) oxidation is a fundamental phenomenon that is scientifically vital and technologically significant. Despite substantial experimental efforts, accurate atomistic modelling of Fe oxidation remains elusive, which requires a reliable interatomic potential, whose development hinges on a representative first-principles training dataset. However, Fe-oxygen (O) system is known for its structural complexity, rendering the generation of high-quality first-principles dataset challenging. In this work, we propose the Perturbation Augmented Space group structure Sampling (PASS) method to generate extensive dataset for Fe-O system consisting of",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Generative Design and Graph Neural Network Screening of Novel Bimetallic Alloy Catalysts for the Hydrogen Evolution Reaction",
+      "body": "arXiv:2610.41932v1 Announce Type: new Abstract: Identifying earth-abundant catalysts for the hydrogen evolution reaction (HER) is a central challenge in scalable green hydrogen production. We present a computational pipeline that couples diffusion-based generative modelling, machine-learning force-field relaxation, and graph neural network (GNN) property prediction to discover bimetallic HER catalysts beyond the structures and stoichiometries covered by existing adsorption databases. A generative model (MatterGen) is fine-tuned on bulk alloy structures labelled with their minimum hydrogen adsorption energy and steered towards adsorption energies near zero. From the generated pool we retain t",
+      "url": "https://arxiv.org/abs/2610.41932"
+    },
+    {
+      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential",
+      "body": "arXiv:2607.28000v2 Announce Type: replace Abstract: Iron (Fe) oxidation is a fundamental phenomenon that is scientifically vital and technologically significant. Despite substantial experimental efforts, accurate atomistic modelling of Fe oxidation remains elusive, which requires a reliable interatomic potential, whose development hinges on a representative first-principles training dataset. However, Fe-oxygen (O) system is known for its structural complexity, rendering the generation of high-quality first-principles dataset challenging. In this work, we propose the Perturbation Augmented Space group structure Sampling (PASS) method to generate extensive dataset for Fe-O system consisting of",
+      "url": "https://arxiv.org/abs/2607.28000"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-02T21:19:23.103357+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 17
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 53
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 2,
+    "leader_count": 0,
+    "science_count": 2
+  }
+}
