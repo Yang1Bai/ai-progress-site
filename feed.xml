@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-02T21:19:24Z</updated>
+  <updated>2026-11-03T14:03:34Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月2日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-02.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-02.html</id>
-    <updated>2026-11-02T21:19:24Z</updated>
+    <title>每日汇总 2026年11月3日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html</id>
+    <updated>2026-11-03T14:03:34Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI’s Grid Protectors Program will work with utilities to help future compute…</title>
+    <title>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。…</title>
+    <link href="https://openai.com/index/heimstaden"/>
+    <id>https://openai.com/index/heimstaden</id>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。</summary>
+  </entry>
+  <entry>
+    <title>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆…</title>
+    <link href="https://huggingface.co/blog/transformers-mic"/>
+    <id>https://huggingface.co/blog/transformers-mic</id>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆盖全部训练与部署风险。</summary>
+  </entry>
+  <entry>
+    <title>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。…</title>
+    <link href="https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"/>
+    <id>https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</id>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。</summary>
+  </entry>
+  <entry>
+    <title>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。…</title>
+    <link href="https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"/>
+    <id>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</id>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。</summary>
+  </entry>
+  <entry>
+    <title>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论…</title>
+    <link href="https://openai.com/index/scaling-git-at-openai"/>
+    <id>https://openai.com/index/scaling-git-at-openai</id>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论。</summary>
+  </entry>
+  <entry>
+    <title>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价…</title>
     <link href="https://openai.com/index/grid-protectors-program"/>
     <id>https://openai.com/index/grid-protectors-program</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.</summary>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价或可靠性收益。</summary>
   </entry>
   <entry>
-    <title>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research co…</title>
+    <title>报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。…</title>
     <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
     <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.</summary>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。</summary>
   </entry>
   <entry>
-    <title>Introducing LifeVal, a benchmark measuring how well AI helps people complete eve…</title>
+    <title>评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。…</title>
     <link href="https://openai.com/index/lifeval"/>
     <id>https://openai.com/index/lifeval</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.</summary>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。</summary>
   </entry>
   <entry>
-    <title>The MIT professors collaborated to identify the first AI-discovered antibiotic, …</title>
+    <title>Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌…</title>
     <link href="https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102"/>
     <id>https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.</summary>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌候选物的工作。获奖与候选物发现不等于药物已经获批临床使用。</summary>
   </entry>
   <entry>
-    <title>Qodo brings company knowledge and coding standards into Codex, helping developer…</title>
+    <title>案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。…</title>
     <link href="https://openai.com/index/qodo-codex-plugin"/>
     <id>https://openai.com/index/qodo-codex-plugin</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.</summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/nvidia/nemotron-halloween"/>
-    <id>https://huggingface.co/blog/nvidia/nemotron-halloween</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>Five MIT faculty members and two additional alumni are honored with fellowships …</title>
-    <link href="https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030"/>
-    <id>https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.</summary>
-  </entry>
-  <entry>
-    <title>MIT professors Adam Berinsky and Chara Podimata discuss a new project to track h…</title>
-    <link href="https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030"/>
-    <id>https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI will honor a shared robots.txt signal to help website operators communica…</title>
-    <link href="https://openai.com/index/helping-websites-express-ai-training-preferences"/>
-    <id>https://openai.com/index/helping-websites-express-ai-training-preferences</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.</summary>
-  </entry>
-  <entry>
-    <title>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards,…</title>
-    <link href="https://openai.com/index/community-safety-report-and-new-protections-for-teens"/>
-    <id>https://openai.com/index/community-safety-report-and-new-protections-for-teens</id>
-    <updated>2026-11-02T21:19:24Z</updated>
-    <summary>OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.</summary>
+    <updated>2026-11-03T14:03:34Z</updated>
+    <summary>案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。</summary>
   </entry>
 </feed>

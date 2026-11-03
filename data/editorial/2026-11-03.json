@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-03",
+  "news": [
+    {
+      "url": "https://openai.com/index/heimstaden",
+      "title": "Heimstaden 分享 AI 在住宅租赁与管理中的应用",
+      "body": "案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。"
+    },
+    {
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "title": "Transformers 用小型模型夹具提前发现集成回归",
+      "body": "文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆盖全部训练与部署风险。"
+    },
+    {
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "title": "OpenAI 提高安全漏洞赏金并增设报告奖励",
+      "body": "更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。"
+    },
+    {
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "title": "OpenAI 筹备与外部研究人员合作的安全强化行动",
+      "body": "计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。"
+    },
+    {
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "title": "OpenAI 介绍面向智能体并行开发的 Git 扩展",
+      "body": "工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论。"
+    },
+    {
+      "url": "https://openai.com/index/grid-protectors-program",
+      "title": "OpenAI 推出未来计算园区电网灵活性计划",
+      "body": "Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价或可靠性收益。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "title": "MIT 能源会议讨论转型中的 AI、材料与社会信任",
+      "body": "报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。"
+    },
+    {
+      "url": "https://openai.com/index/lifeval",
+      "title": "LifeVal 用日常生活任务评估 AI 助手进展",
+      "body": "评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "title": "MIT 两位学者因 AI 抗生素发现研究获奖",
+      "body": "Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌候选物的工作。获奖与候选物发现不等于药物已经获批临床使用。"
+    },
+    {
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "title": "Qodo 将组织知识与代码规范接入 Codex 审查",
+      "body": "案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。"
+    },
+    {
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "title": "OpenAI 任命 Dan Driscoll 担任国家安全现代化高级顾问",
+      "body": "公告称新设岗位将就先进 AI 在国家及网络安全中的应用提供建议，并与政府、行业及盟友机构合作。任命公告不等于具体项目已经部署或成效已经验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "title": "Nemotron 为万圣节互动投影提供语音与动画",
+      "body": "作者用语音识别、小语言模型、语音合成及面部动画组件，在单台工作站上制作能与访客对话的 MonsterHouse。属于个人互动演示，不能据此推断通用部署性能。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "title": "MIT 多位研究人员入选 AI2050 Fellows",
+      "body": "MIT 报道五位教师及另外两位校友入选 Schmidt Sciences 的 2026 年 AI2050 项目。资助围绕人工智能如何惠及社会展开，入选本身不等于研究结论已获验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "title": "MIT 建立聊天机器人选举回答观察平台",
+      "body": "LLM Election Observatory 定期向不同模型提出固定选举问题，比较回答如何变化。平台观察模型输出，不能直接证明其改变了真实选民的投票选择。"
+    },
+    {
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "title": "OpenAI 计划支持网站统一表达 AI 训练偏好",
+      "body": "公告提出尊重 robots.txt 中的共享偏好信号，减少网站逐个配置提供商规则的工作。实现计划在未来数月推进，既有爬虫控制继续适用。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.00228",
+      "title": "AI 时代化学键概念仍可作为可学习表示",
+      "summary": "预印本摘要：研究通过线性探针考察 Allegro 与 MACE 隐表示中的成键信息，并在 MEGNet 中测试显式键描述符的补充价值。结果支持重新评估化学键表示，不代表所有任务都需要相同描述符。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00533",
+      "title": "机器学习筛选适合硼烯合成的硼化物衬底",
+      "summary": "预印本摘要：研究结合 DFT 与机器学习分析两种硼烯相在 1356 个硼化物表面的结合，利用预测电荷转移辅助筛选候选。少量额外 DFT 算例验证不等于候选衬底均已完成实验合成。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00739",
+      "title": "原位生长曲线补充碳纳米管森林产率预测",
+      "summary": "预印本摘要：研究结合气流条件和不同时间窗口的生长曲线，发现中后期动态信息改善产率预测，而密度与 G/D 比未获一致改善。结论限于所研究的 CVD 数据与观测条件。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.00766",
+      "title": "扩散模型筛选钙钛矿时需核查拓扑与带隙外推",
+      "summary": "预印本摘要：研究用连接性筛选生成的 ABX3 结构，并考察带隙分布和元素外推。不同标签来源及 B 位元素不重叠测试暴露可靠性限制，不能仅凭预测带隙接近目标就断言筛选有效。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.01417",
+      "title": "结构条件神经场学习多模态材料光谱",
+      "summary": "预印本摘要：框架结合等变结构编码器与坐标条件网络，预测从态密度到散射函数的连续响应，并测试应变、组分及较大构型迁移。计算扩展性不等于所有实验光谱和材料体系均已验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.01525",
+      "title": "InformedXRD 强调粉末衍射分类的可复现评估",
+      "summary": "预印本摘要：框架提供空间群到消光群映射、可重建基准与层级误差分析，并比较不同模型及频率基线。结果强调评估设计会改变结论，不能只看单一 Top-k 排名。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.02622",
+      "title": "物理约束网络辅助设计接近刚度上界的超材料",
+      "summary": "预印本摘要：研究用 PINN 求解闭孔晶格板取向，结合有限元、增材制造与实验表征评估近各向同性结构。结果在给定相对密度与几何条件下接近 Hashin–Shtrikman 上界，并非所有密度都达到理论极限。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.02906",
+      "title": "双分支 Transformer 在对称约束下生成晶体",
+      "summary": "预印本摘要：ST2M 结合 Wyckoff 轨道表示、自由度掩码及离散连续扩散，生成满足指定对称性的候选，并对部分结构进行第一性原理验证。计算稳定性不等同于可合成性或实验发现。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.03154",
+      "title": "PaddleMaterials 整合材料深度学习任务与工作流",
+      "summary": "预印本摘要：工具包统一性质预测、结构生成、原子间势、电子结构场、光谱与显微图像等任务，并测试编译执行及材料案例。加速效果依赖模型和硬件，案例精度不能外推到所有材料。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.03485",
+      "title": "精确边界约束 PINN 反演剪切压电系数",
+      "summary": "预印本摘要：研究在带噪声的模拟波场上，将边界及初始条件直接嵌入网络，反演 e15 并与软约束方法比较。结果来自指定仿真体系，尚不能视为已完成真实器件的无损测量验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.16605",
+      "title": "UnIPH 联合学习原子间势与电子哈密顿量",
+      "summary": "预印本摘要：等变图网络利用 DFT 与 Wannier 投影数据联合预测能量、力和紧束缚哈密顿量，并分别测试双层石墨烯及单层 MoS2 的形变电子响应。两个体系分别训练，不能当作跨材料通用模型。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.12405",
+      "title": "连续 SUN 指标细化晶体生成模型评估",
+      "summary": "预印本摘要：研究将稳定、唯一及新颖性从二元判断改为连续分数，并在 Chemeleon2 案例中探索强化学习奖励。分数依赖权重与相似度设计，不能替代实验可合成性或完整物性验证。"
+    }
+  ]
+}
