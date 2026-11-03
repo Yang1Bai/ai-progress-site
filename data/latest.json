@@ -2,6 +2,45 @@
   "date": "2026年11月3日",
   "news": [
     {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "body": "",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T17:15:21+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-03"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "body": "",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T16:35:36+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-03"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "body": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-03"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Heimstaden 分享 AI 在住宅租赁与管理中的应用",
       "url": "https://openai.com/index/heimstaden",
       "body": "案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。",
@@ -16,6 +55,19 @@
       "title_original": "Heimstaden is changing residential real estate management with AI",
       "body_original": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "editorial_date": "2026-11-03"
+    },
+    {
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "body": "",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-03"
+      ],
+      "importance": "normal"
     },
     {
       "title": "Transformers 用小型模型夹具提前发现集成回归",
@@ -146,22 +198,6 @@
       "editorial_date": "2026-11-03"
     },
     {
-      "title": "Qodo 将组织知识与代码规范接入 Codex 审查",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "body": "案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。",
-      "date": "2026-11-02",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-02"
-      ],
-      "importance": "normal",
-      "title_original": "Qodo builds context into AI code review with Codex",
-      "body_original": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "editorial_date": "2026-11-03"
-    },
-    {
       "title": "OpenAI 任命 Dan Driscoll 担任国家安全现代化高级顾问",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "body": "公告称新设岗位将就先进 AI 在国家及网络安全中的应用提供建议，并与政府、行业及盟友机构合作。任命公告不等于具体项目已经部署或成效已经验证。",
@@ -178,67 +214,19 @@
       "editorial_date": "2026-11-03"
     },
     {
-      "title": "Nemotron 为万圣节互动投影提供语音与动画",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "body": "作者用语音识别、小语言模型、语音合成及面部动画组件，在单台工作站上制作能与访客对话的 MonsterHouse。属于个人互动演示，不能据此推断通用部署性能。",
-      "date": "2026-10-30",
-      "published_at": "2026-10-30T17:57:24+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-10-30"
-      ],
-      "importance": "normal",
-      "title_original": "nemotron-halloween",
-      "body_original": "",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "MIT 多位研究人员入选 AI2050 Fellows",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "body": "MIT 报道五位教师及另外两位校友入选 Schmidt Sciences 的 2026 年 AI2050 项目。资助围绕人工智能如何惠及社会展开，入选本身不等于研究结论已获验证。",
-      "date": "2026-10-30",
-      "published_at": "2026-10-30T16:15:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-30"
-      ],
-      "importance": "normal",
-      "title_original": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "body_original": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "MIT 建立聊天机器人选举回答观察平台",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "body": "LLM Election Observatory 定期向不同模型提出固定选举问题，比较回答如何变化。平台观察模型输出，不能直接证明其改变了真实选民的投票选择。",
-      "date": "2026-10-30",
-      "published_at": "2026-10-30T15:00:00-04:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-10-30"
-      ],
-      "importance": "normal",
-      "title_original": "Q&A: Hey AI, who should I vote for this year?",
-      "body_original": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "OpenAI 计划支持网站统一表达 AI 训练偏好",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "body": "公告提出尊重 robots.txt 中的共享偏好信号，减少网站逐个配置提供商规则的工作。实现计划在未来数月推进，既有爬虫控制继续适用。",
-      "date": "2026-10-30",
-      "published_at": "2026-10-30T09:30:00+00:00",
+      "title": "Qodo 将组织知识与代码规范接入 Codex 审查",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "body": "案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T00:00:00+00:00",
       "source": "OpenAI",
       "tags": [
         "OpenAI",
-        "2026-10-30"
+        "2026-11-02"
       ],
       "importance": "normal",
-      "title_original": "Making it easier for websites to express AI training preferences",
-      "body_original": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "title_original": "Qodo builds context into AI code review with Codex",
+      "body_original": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "editorial_date": "2026-11-03"
     }
   ],
@@ -533,7 +521,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-03T14:02:05.192948+00:00",
+  "fetched_at": "2026-11-03T18:58:12.976861+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -545,7 +533,7 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "MIT AI",
@@ -557,7 +545,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 1
+      "items": 0
     },
     {
       "source": "Nature Materials",
@@ -578,16 +566,16 @@
       "items": 110
     }
   ],
+  "editorial": {
+    "date": "2026-11-03",
+    "items_applied": 23,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 12,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-03",
-    "items_applied": 27,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }

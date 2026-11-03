@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-03T14:03:34Z</updated>
+  <updated>2026-11-03T18:58:13Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月3日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/statebench"/>
+    <id>https://huggingface.co/blog/allenai/statebench</id>
+    <updated>2026-11-03T18:58:13Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/ibm-research/palette-deck-building"/>
+    <id>https://huggingface.co/blog/ibm-research/palette-deck-building</id>
+    <updated>2026-11-03T18:58:13Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design,…</title>
+    <link href="https://openai.com/index/accelerating-engineering-for-the-physical-world"/>
+    <id>https://openai.com/index/accelerating-engineering-for-the-physical-world</id>
+    <updated>2026-11-03T18:58:13Z</updated>
+    <summary>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</summary>
   </entry>
   <entry>
     <title>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。…</title>
     <link href="https://openai.com/index/heimstaden"/>
     <id>https://openai.com/index/heimstaden</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/cwe-bench"/>
+    <id>https://huggingface.co/blog/cwe-bench</id>
+    <updated>2026-11-03T18:58:13Z</updated>
+    <summary></summary>
   </entry>
   <entry>
     <title>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆…</title>
     <link href="https://huggingface.co/blog/transformers-mic"/>
     <id>https://huggingface.co/blog/transformers-mic</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆盖全部训练与部署风险。</summary>
   </entry>
   <entry>
     <title>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。…</title>
     <link href="https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"/>
     <id>https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。</summary>
   </entry>
   <entry>
     <title>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。…</title>
     <link href="https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"/>
     <id>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。</summary>
   </entry>
   <entry>
     <title>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论…</title>
     <link href="https://openai.com/index/scaling-git-at-openai"/>
     <id>https://openai.com/index/scaling-git-at-openai</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论。</summary>
   </entry>
   <entry>
     <title>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价…</title>
     <link href="https://openai.com/index/grid-protectors-program"/>
     <id>https://openai.com/index/grid-protectors-program</id>
-    <updated>2026-11-03T14:03:34Z</updated>
+    <updated>2026-11-03T18:58:13Z</updated>
     <summary>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价或可靠性收益。</summary>
-  </entry>
-  <entry>
-    <title>报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。…</title>
-    <link href="https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102"/>
-    <id>https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102</id>
-    <updated>2026-11-03T14:03:34Z</updated>
-    <summary>报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。</summary>
-  </entry>
-  <entry>
-    <title>评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。…</title>
-    <link href="https://openai.com/index/lifeval"/>
-    <id>https://openai.com/index/lifeval</id>
-    <updated>2026-11-03T14:03:34Z</updated>
-    <summary>评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。</summary>
-  </entry>
-  <entry>
-    <title>Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌…</title>
-    <link href="https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102"/>
-    <id>https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102</id>
-    <updated>2026-11-03T14:03:34Z</updated>
-    <summary>Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌候选物的工作。获奖与候选物发现不等于药物已经获批临床使用。</summary>
-  </entry>
-  <entry>
-    <title>案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。…</title>
-    <link href="https://openai.com/index/qodo-codex-plugin"/>
-    <id>https://openai.com/index/qodo-codex-plugin</id>
-    <updated>2026-11-03T14:03:34Z</updated>
-    <summary>案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。</summary>
   </entry>
 </feed>
