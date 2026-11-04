@@ -1,10 +1,10 @@
 {
-  "date": "2026年11月3日",
+  "date": "2026年11月4日",
   "news": [
     {
-      "title": "StateBench: Testing how language models track state changes over long documents",
+      "title": "StateBench 评估长文档中的状态追踪",
       "url": "https://huggingface.co/blog/allenai/statebench",
-      "body": "",
+      "body": "基准区分查找最近一次更新与追踪多步状态变化，测试模型能否持续跟踪实体和对象。结果取决于基准任务设置。",
       "date": "2026-11-03",
       "published_at": "2026-11-03T17:15:21+00:00",
       "source": "Hugging Face",
@@ -12,12 +12,15 @@
         "Hugging Face",
         "2026-11-03"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "StateBench: Testing how language models track state changes over long documents",
+      "body_original": "",
+      "editorial_date": "2026-11-04"
     },
     {
-      "title": "Palette: teaching a small model to build decks in your design language",
+      "title": "IBM 用小模型生成符合模板的演示文稿",
       "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "body": "",
+      "body": "Palette 用按设计规范生成的合成数据训练开放权重模型，并以自动检查发现文字溢出和元素重叠等问题。效果取决于模板和训练数据。",
       "date": "2026-11-03",
       "published_at": "2026-11-03T16:35:36+00:00",
       "source": "Hugging Face",
@@ -25,12 +28,31 @@
         "Hugging Face",
         "2026-11-03"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Palette: teaching a small model to build decks in your design language",
+      "body_original": "",
+      "editorial_date": "2026-11-04"
     },
     {
-      "title": "Accelerating engineering for the physical world",
+      "title": "MIT.nano 会议讨论如何连接共享科研设施",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "body": "报道回顾 10 月 NEMO 用户会议。与会者讨论仪器预约、访问权限和培训，以及如何跨机构找到所需设备。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T14:30:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "Building connections across the research infrastructure",
+      "body_original": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+      "editorial_date": "2026-11-04"
+    },
+    {
+      "title": "OpenAI 探索将 AI 用于实体产品工程设计",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "body": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "body": "文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。",
       "date": "2026-11-03",
       "published_at": "2026-11-03T12:00:00+00:00",
       "source": "OpenAI",
@@ -38,7 +60,26 @@
         "OpenAI",
         "2026-11-03"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Accelerating engineering for the physical world",
+      "body_original": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "editorial_date": "2026-11-04"
+    },
+    {
+      "title": "思科结合网络遥测与 AI 辅助安全防御",
+      "url": "https://openai.com/index/cisco-cyber",
+      "body": "案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "How Cisco defends at machine speed with OpenAI",
+      "body_original": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "Heimstaden 分享 AI 在住宅租赁与管理中的应用",
@@ -54,12 +95,28 @@
       "importance": "normal",
       "title_original": "Heimstaden is changing residential real estate management with AI",
       "body_original": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     },
     {
-      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "body": "公司公布任命。Hazelbaker 此前在 Uber 负责全球传播、公共政策等事务，也曾在 Snap 和 Google 任职。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "body_original": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "editorial_date": "2026-11-04"
+    },
+    {
+      "title": "CWE-bench v2 公开 100 项漏洞修复任务",
       "url": "https://huggingface.co/blog/cwe-bench",
-      "body": "",
+      "body": "评估要求智能体在真实开源仓库中找出并修复弱点，同时保留原有功能。公开任务采用程序化评分，并设有独立保留集。",
       "date": "2026-11-03",
       "published_at": "2026-11-03T00:00:00+00:00",
       "source": "Hugging Face",
@@ -67,7 +124,10 @@
         "Hugging Face",
         "2026-11-03"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "CWE-bench v2: More coverage, quality, and transparency",
+      "body_original": "",
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "Transformers 用小型模型夹具提前发现集成回归",
@@ -83,23 +143,7 @@
       "importance": "normal",
       "title_original": "Transformers Model Integration Contracts",
       "body_original": "",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "OpenAI 提高安全漏洞赏金并增设报告奖励",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "body": "更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。",
-      "date": "2026-11-02",
-      "published_at": "2026-11-02T18:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-02"
-      ],
-      "importance": "normal",
-      "title_original": "Rewarding defenders with bigger bug bounties",
-      "body_original": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "OpenAI 筹备与外部研究人员合作的安全强化行动",
@@ -115,7 +159,23 @@
       "importance": "normal",
       "title_original": "Preparing our next security sprint to harden OpenAI",
       "body_original": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
+    },
+    {
+      "title": "OpenAI 提高安全漏洞赏金并增设报告奖励",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "body": "更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。",
+      "date": "2026-11-02",
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-02"
+      ],
+      "importance": "normal",
+      "title_original": "Rewarding defenders with bigger bug bounties",
+      "body_original": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "OpenAI 介绍面向智能体并行开发的 Git 扩展",
@@ -131,7 +191,7 @@
       "importance": "normal",
       "title_original": "Scaling Git at OpenAI",
       "body_original": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "OpenAI 推出未来计算园区电网灵活性计划",
@@ -147,7 +207,7 @@
       "importance": "normal",
       "title_original": "Introducing the Grid Protectors Program",
       "body_original": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "MIT 能源会议讨论转型中的 AI、材料与社会信任",
@@ -163,7 +223,7 @@
       "importance": "normal",
       "title_original": "Powering up for a pivotal moment",
       "body_original": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     },
     {
       "title": "LifeVal 用日常生活任务评估 AI 助手进展",
@@ -179,309 +239,51 @@
       "importance": "normal",
       "title_original": "LifeVal",
       "body_original": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "MIT 两位学者因 AI 抗生素发现研究获奖",
-      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-      "body": "Regina Barzilay 和 Jim Collins 获 2026 年 Pritzker AI 与科学研究奖，表彰结合深度学习、生物工程及实验验证寻找抗菌候选物的工作。获奖与候选物发现不等于药物已经获批临床使用。",
-      "date": "2026-11-02",
-      "published_at": "2026-11-02T00:35:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-02"
-      ],
-      "importance": "normal",
-      "title_original": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-      "body_original": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "OpenAI 任命 Dan Driscoll 担任国家安全现代化高级顾问",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "body": "公告称新设岗位将就先进 AI 在国家及网络安全中的应用提供建议，并与政府、行业及盟友机构合作。任命公告不等于具体项目已经部署或成效已经验证。",
-      "date": "2026-11-02",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-02"
-      ],
-      "importance": "normal",
-      "title_original": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "body_original": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "Qodo 将组织知识与代码规范接入 Codex 审查",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "body": "案例介绍插件利用跨仓库上下文帮助发现高优先级问题，并把组织标准带入开发过程。这是产品实践介绍，自动审查仍需结合人工判断，不能保证发现所有缺陷。",
-      "date": "2026-11-02",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-02"
-      ],
-      "importance": "normal",
-      "title_original": "Qodo builds context into AI code review with Codex",
-      "body_original": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "editorial_date": "2026-11-03"
+      "editorial_date": "2026-11-04"
     }
   ],
   "papers": [
     {
-      "title": "AI 时代化学键概念仍可作为可学习表示",
-      "url": "https://arxiv.org/abs/2611.00228",
-      "body": "arXiv:2611.00228v1 Announce Type: new Abstract: Chemical bonding is the language through which chemistry rationalizes materials structure, stability, properties, and reactivity. Meanwhile, modern deep-learning models achieve remarkable predictive performance using representations based largely on compositional and structural information, raising the question of whether explicit bonding concepts remain necessary. In this work, we argue that artificial intelligence does not render chemical bonding obsolete but provides a new framework for evaluating and refining bonding concepts. We show that, through linear probing, Allegro and MACE embeddings recover bonding descriptors with (R^2 > 0.95), in",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
+      "title": "用傅里叶神经算子学习原子间长程相互作用",
+      "url": "https://arxiv.org/abs/2611.03678",
+      "body": "arXiv:2611.03678v1 Announce Type: new Abstract: Long-range interactions in machine-learning interatomic potentials are commonly treated by coupling learned sources through either a prescribed electrostatic kernel or a learned but configuration-independent one. Whether such a kernel suffices depends on the underlying screened interaction. We address this question by using Fourier neural operators (FNOs) to learn how latent source fields, built from the descriptors of a local backbone (here MACE), interact across the simulation cell. For a synthetic ionic system with tunable screening, a prescribed Coulomb kernel underestimates the long-wavelength charge fluctuations by 43% under strong screen",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-03"
+        "2026-11-04"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究通过线性探针考察 Allegro 与 MACE 隐表示中的成键信息，并在 MEGNet 中测试显式键描述符的补充价值。结果支持重新评估化学键表示，不代表所有任务都需要相同描述符。",
+      "summary": "预印本摘要。研究将 MACE 局域特征转化为潜在源场，再用傅里叶神经算子描述跨模拟晶胞的作用。在可调屏蔽的合成离子体系中，模型更好地再现了长波电荷涨落，效果仍需在更多真实材料中验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "In the age of big data and AI: do we still need chemical bonds?",
-      "summary_original": "arXiv:2611.00228v1 Announce Type: new Abstract: Chemical bonding is the language through which chemistry rationalizes materials structure, stability, properties, and reactivity. Meanwhile, modern deep-learning models achieve remarkable predictive performance using representations based largely on compositional and structural information, raising the question of whether explicit bonding concepts remain necessary. In this work, we argue that artificial intelligence does not render chemical bonding obsolete but provides a new framework for evaluating and refining bonding concepts. We show that, through linear probing, Allegro and MACE embeddings recover bonding descriptors with (R^2 > 0.95), in",
-      "editorial_date": "2026-11-03"
+      "title_original": "When do machine-learning potentials need a configuration-dependent kernel? Learning long-range interactions with Fourier neural operators",
+      "summary_original": "arXiv:2611.03678v1 Announce Type: new Abstract: Long-range interactions in machine-learning interatomic potentials are commonly treated by coupling learned sources through either a prescribed electrostatic kernel or a learned but configuration-independent one. Whether such a kernel suffices depends on the underlying screened interaction. We address this question by using Fourier neural operators (FNOs) to learn how latent source fields, built from the descriptors of a local backbone (here MACE), interact across the simulation cell. For a synthetic ionic system with tunable screening, a prescribed Coulomb kernel underestimates the long-wavelength charge fluctuations by 43% under strong screen",
+      "editorial_date": "2026-11-04"
     },
     {
-      "title": "机器学习筛选适合硼烯合成的硼化物衬底",
-      "url": "https://arxiv.org/abs/2611.00533",
-      "body": "arXiv:2611.00533v1 Announce Type: new Abstract: Borophene, a monolayer of boron, is distinctive among two-dimensional materials owing to its unique properties, including polymorphism and potential applications in quantum technologies and energy conversion and storage. Nevertheless, its applications are hindered by the strong binding of borophene to metal substrates, which impedes the realization of freestanding borophene. Alternative substrates with tunable binding to borophene are therefore highly desirable. Since boride layers arise during borophene synthesis on metals, borides provide potential alternative substrates for borophene synthesis. In this work, we investigate the binding energi",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
+      "title": "多孔氧化物储能材料的生成式 AI 研究路线",
+      "url": "https://arxiv.org/abs/2608.02858",
+      "body": "arXiv:2608.02858v2 Announce Type: replace Abstract: The discovery of next-generation energy-storage materials is increasingly limited by the complexity of the underlying design problem rather than by computational capability alone. Porous transition-metal oxides represent a particularly challenging class of battery materials because their performance emerges from coupled interactions among crystal chemistry, pore architecture, ion transport, electrochemistry, electro-chemo-mechanics, synthesis, manufacturing, and battery-system operation. Recent advances in generative artificial intelligence (AI) have demonstrated remarkable capabilities for generating chemically plausible crystal structures",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-03"
+        "2026-11-04"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究结合 DFT 与机器学习分析两种硼烯相在 1356 个硼化物表面的结合，利用预测电荷转移辅助筛选候选。少量额外 DFT 算例验证不等于候选衬底均已完成实验合成。",
+      "summary": "预印本摘要。观点文章提出将晶体化学、孔隙结构、离子输运及制造约束纳入材料生成与验证。文章梳理研究机会与挑战，所提路线仍有待系统检验。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Machine Learning Aided Computational Discovery of Boride Substrates for Borophene Synthesis",
-      "summary_original": "arXiv:2611.00533v1 Announce Type: new Abstract: Borophene, a monolayer of boron, is distinctive among two-dimensional materials owing to its unique properties, including polymorphism and potential applications in quantum technologies and energy conversion and storage. Nevertheless, its applications are hindered by the strong binding of borophene to metal substrates, which impedes the realization of freestanding borophene. Alternative substrates with tunable binding to borophene are therefore highly desirable. Since boride layers arise during borophene synthesis on metals, borides provide potential alternative substrates for borophene synthesis. In this work, we investigate the binding energi",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "原位生长曲线补充碳纳米管森林产率预测",
-      "url": "https://arxiv.org/abs/2611.00739",
-      "body": "arXiv:2611.00739v1 Announce Type: new Abstract: Machine learning for chemical vapor deposition (CVD) of carbon nanotubes (CNTs) has largely mapped static synthesis conditions to final properties, implicitly treating these conditions as a complete description of growth. Here, we test this assumption by integrating gas-flow conditions with in-situ time-resolve growth profiles (growth curves) of vertically aligned CNT forests. We introduce an observation-window analysis, in which prediction is evaluated as a function of observation time by providing models with the growth curve only up to progressively later times, to determine not only whether a property can be predicted, but when the necessar",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究结合气流条件和不同时间窗口的生长曲线，发现中后期动态信息改善产率预测，而密度与 G/D 比未获一致改善。结论限于所研究的 CVD 数据与观测条件。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Beyond Synthesis Conditions: Linking In-situ Growth Dynamics to Carbon Nanotube Forest Properties through Multimodal Machine Learning",
-      "summary_original": "arXiv:2611.00739v1 Announce Type: new Abstract: Machine learning for chemical vapor deposition (CVD) of carbon nanotubes (CNTs) has largely mapped static synthesis conditions to final properties, implicitly treating these conditions as a complete description of growth. Here, we test this assumption by integrating gas-flow conditions with in-situ time-resolve growth profiles (growth curves) of vertically aligned CNT forests. We introduce an observation-window analysis, in which prediction is evaluated as a function of observation time by providing models with the growth curve only up to progressively later times, to determine not only whether a property can be predicted, but when the necessar",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "扩散模型筛选钙钛矿时需核查拓扑与带隙外推",
-      "url": "https://arxiv.org/abs/2611.00766",
-      "body": "arXiv:2611.00766v1 Announce Type: new Abstract: Crystal-generation models can explore compositions and atomic arrangements beyond a fixed set of crystal prototypes, but their usefulness for a specific materials family depends on whether the generated structures retain the defining topology and whether their predicted properties remain reliable across the sampled chemistry. Here, a pretrained diffusion model is used to generate candidate ABX$_3$ perovskites and to examine their structural, chemical and electronic-property distributions. A connectivity-based filter distinguishes three-dimensional corner-sharing perovskites from structures that share the same nominal ABX$_3$ stoichiometry. The ",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究用连接性筛选生成的 ABX3 结构，并考察带隙分布和元素外推。不同标签来源及 B 位元素不重叠测试暴露可靠性限制，不能仅凭预测带隙接近目标就断言筛选有效。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Diffusion-Based Generative Screening of ABX$_3$ Perovskite Compositions for Bandgap-Targeted Materials Discovery",
-      "summary_original": "arXiv:2611.00766v1 Announce Type: new Abstract: Crystal-generation models can explore compositions and atomic arrangements beyond a fixed set of crystal prototypes, but their usefulness for a specific materials family depends on whether the generated structures retain the defining topology and whether their predicted properties remain reliable across the sampled chemistry. Here, a pretrained diffusion model is used to generate candidate ABX$_3$ perovskites and to examine their structural, chemical and electronic-property distributions. A connectivity-based filter distinguishes three-dimensional corner-sharing perovskites from structures that share the same nominal ABX$_3$ stoichiometry. The ",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "结构条件神经场学习多模态材料光谱",
-      "url": "https://arxiv.org/abs/2611.01417",
-      "body": "arXiv:2611.01417v1 Announce Type: new Abstract: Spectroscopic observables encode rich information about material behavior across diverse, often high-dimensional domains of energy, momentum, and other experimental coordinates, providing critical insights into the physical properties underlying material functionalities and applications. However, learning these responses directly from atomic structures remains challenging due to the complexity of both structural configurations and spectroscopic observation spaces. Here, we develop a structure-conditioned neural-field framework that learns continuous spectroscopic response functions by coupling an equivariant structural encoder with a coordinate",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：框架结合等变结构编码器与坐标条件网络，预测从态密度到散射函数的连续响应，并测试应变、组分及较大构型迁移。计算扩展性不等于所有实验光谱和材料体系均已验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Learning materials spectra across modalities and scales with structure-conditioned neural fields",
-      "summary_original": "arXiv:2611.01417v1 Announce Type: new Abstract: Spectroscopic observables encode rich information about material behavior across diverse, often high-dimensional domains of energy, momentum, and other experimental coordinates, providing critical insights into the physical properties underlying material functionalities and applications. However, learning these responses directly from atomic structures remains challenging due to the complexity of both structural configurations and spectroscopic observation spaces. Here, we develop a structure-conditioned neural-field framework that learns continuous spectroscopic response functions by coupling an equivariant structural encoder with a coordinate",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "InformedXRD 强调粉末衍射分类的可复现评估",
-      "url": "https://arxiv.org/abs/2611.01525",
-      "body": "arXiv:2611.01525v1 Announce Type: cross Abstract: Machine learning for powder diffraction (PXRD) symmetry classification is being trained at scale, yet the field lacks a common evaluation standard: papers report results on different subsets of experimental archives, with different target taxonomies, preprocessing, and metrics, and published models are rarely released in a form that permits rescoring. We present InformedXRD, an evaluation framework with three parts: (i) a machine-readable mapping from 230 space groups to 99 extinction groups, the finest classes powder diffraction can identify from systematic absences alone; (ii) a benchmark-construction method whose inclusion rules are specif",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：框架提供空间群到消光群映射、可重建基准与层级误差分析，并比较不同模型及频率基线。结果强调评估设计会改变结论，不能只看单一 Top-k 排名。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "InformedXRD: Reproducible Benchmarks and Physics-Informed Evaluation for Powder Diffraction Symmetry Classification",
-      "summary_original": "arXiv:2611.01525v1 Announce Type: cross Abstract: Machine learning for powder diffraction (PXRD) symmetry classification is being trained at scale, yet the field lacks a common evaluation standard: papers report results on different subsets of experimental archives, with different target taxonomies, preprocessing, and metrics, and published models are rarely released in a form that permits rescoring. We present InformedXRD, an evaluation framework with three parts: (i) a machine-readable mapping from 230 space groups to 99 extinction groups, the finest classes powder diffraction can identify from systematic absences alone; (ii) a benchmark-construction method whose inclusion rules are specif",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "物理约束网络辅助设计接近刚度上界的超材料",
-      "url": "https://arxiv.org/abs/2611.02622",
-      "body": "arXiv:2611.02622v1 Announce Type: cross Abstract: Current methods of deriving ultrastiff isotropic metamaterials require heuristics or topology optimization, which are highly inefficient and limited by human input. To circumvent this, Physics Informed Neural Networks are applied to analytical equations to systematically solve for plate orientations in closed cell lattices. Following a standardized procedure, the plate orientations were modelled and assembled into geometries resembling quasi random foams for validation via finite element simulations. Closed cell 6-plate geometries were also additively manufactured using LAPIS and experimentally characterized. The results indicate that a minim",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究用 PINN 求解闭孔晶格板取向，结合有限元、增材制造与实验表征评估近各向同性结构。结果在给定相对密度与几何条件下接近 Hashin–Shtrikman 上界，并非所有密度都达到理论极限。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Derivation of Novel Isotropic Metamaterials at the Hashin Shtrikman Stiffness Limit Enabled by Physics Informed Neural Networks",
-      "summary_original": "arXiv:2611.02622v1 Announce Type: cross Abstract: Current methods of deriving ultrastiff isotropic metamaterials require heuristics or topology optimization, which are highly inefficient and limited by human input. To circumvent this, Physics Informed Neural Networks are applied to analytical equations to systematically solve for plate orientations in closed cell lattices. Following a standardized procedure, the plate orientations were modelled and assembled into geometries resembling quasi random foams for validation via finite element simulations. Closed cell 6-plate geometries were also additively manufactured using LAPIS and experimentally characterized. The results indicate that a minim",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "双分支 Transformer 在对称约束下生成晶体",
-      "url": "https://arxiv.org/abs/2611.02906",
-      "body": "arXiv:2611.02906v1 Announce Type: cross Abstract: Generative models for crystal structure prediction (CSP) have expanded the search space for novel materials and improved screening efficiency. However, simultaneously generating stable and novel structures remains challenging because of the complex structural and physical constraints governing crystals. To address this challenge, we propose site-orbit masked twin-branch Transformer model (ST2M), a symmetry-guided discrete--continuous diffusion framework incorporating degree-of-freedom masks and conditioned on Wyckoff patterns. ST2M represents crystal structures as sequences of independent occupied Wyckoff orbits and employs a twin-branch Tran",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：ST2M 结合 Wyckoff 轨道表示、自由度掩码及离散连续扩散，生成满足指定对称性的候选，并对部分结构进行第一性原理验证。计算稳定性不等同于可合成性或实验发现。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Site-orbit masked twin-branch Transformer for symmetry-constrained crystal generation",
-      "summary_original": "arXiv:2611.02906v1 Announce Type: cross Abstract: Generative models for crystal structure prediction (CSP) have expanded the search space for novel materials and improved screening efficiency. However, simultaneously generating stable and novel structures remains challenging because of the complex structural and physical constraints governing crystals. To address this challenge, we propose site-orbit masked twin-branch Transformer model (ST2M), a symmetry-guided discrete--continuous diffusion framework incorporating degree-of-freedom masks and conditioned on Wyckoff patterns. ST2M represents crystal structures as sequences of independent occupied Wyckoff orbits and employs a twin-branch Tran",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "PaddleMaterials 整合材料深度学习任务与工作流",
-      "url": "https://arxiv.org/abs/2611.03154",
-      "body": "arXiv:2611.03154v1 Announce Type: cross Abstract: Machine learning supports materials design, atomistic simulation and experimental characterization, yet models and workflows remain fragmented. We present PaddleMaterials, an open-source framework integrating heterogeneous materials-learning tasks while preserving task-specific representations and scientific semantics. It unifies data processing, training, evaluation, pretrained-model management and workflows across six task classes: property prediction, structure generation, machine-learning interatomic potentials, electronic-structure fields, spectrum elucidation and microscopy image processing. Task interfaces record physical quantities, u",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：工具包统一性质预测、结构生成、原子间势、电子结构场、光谱与显微图像等任务，并测试编译执行及材料案例。加速效果依赖模型和硬件，案例精度不能外推到所有材料。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "PaddleMaterials: An End-to-End Deep Learning Toolkit for Materials Science",
-      "summary_original": "arXiv:2611.03154v1 Announce Type: cross Abstract: Machine learning supports materials design, atomistic simulation and experimental characterization, yet models and workflows remain fragmented. We present PaddleMaterials, an open-source framework integrating heterogeneous materials-learning tasks while preserving task-specific representations and scientific semantics. It unifies data processing, training, evaluation, pretrained-model management and workflows across six task classes: property prediction, structure generation, machine-learning interatomic potentials, electronic-structure fields, spectrum elucidation and microscopy image processing. Task interfaces record physical quantities, u",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "精确边界约束 PINN 反演剪切压电系数",
-      "url": "https://arxiv.org/abs/2611.03485",
-      "body": "arXiv:2611.03485v1 Announce Type: cross Abstract: The shear piezoelectric coefficient $e_{15}$ governs the shear-mode electromechanical coupling in piezoelectric micromachined ultrasonic transducers (PMUTs) and surface acoustic wave (SAW) devices, but measuring it typically requires destructive resonance testing on dedicated specimens. On simulated data, $e_{15}$ can instead be recovered non-destructively from sparse, noisy subsurface wavefield observations using a constrained physics-informed neural network (PINN). By building exact spatial distance functions and temporal multipliers directly into the network output, the clamped, grounded boundaries and resting initial state hold automatica",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究在带噪声的模拟波场上，将边界及初始条件直接嵌入网络，反演 e15 并与软约束方法比较。结果来自指定仿真体系，尚不能视为已完成真实器件的无损测量验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Identifying the Shear Piezoelectric Coefficient using Physics-Informed Neural Networks under Exact Boundary and Initial Constraints",
-      "summary_original": "arXiv:2611.03485v1 Announce Type: cross Abstract: The shear piezoelectric coefficient $e_{15}$ governs the shear-mode electromechanical coupling in piezoelectric micromachined ultrasonic transducers (PMUTs) and surface acoustic wave (SAW) devices, but measuring it typically requires destructive resonance testing on dedicated specimens. On simulated data, $e_{15}$ can instead be recovered non-destructively from sparse, noisy subsurface wavefield observations using a constrained physics-informed neural network (PINN). By building exact spatial distance functions and temporal multipliers directly into the network output, the clamped, grounded boundaries and resting initial state hold automatica",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "UnIPH 联合学习原子间势与电子哈密顿量",
-      "url": "https://arxiv.org/abs/2510.16605",
-      "body": "arXiv:2510.16605v2 Announce Type: replace Abstract: We introduce UnIPH, an equivariant graph neural network designed to jointly predict both interatomic potentials and tight-binding (TB) Hamiltonians for an atomic structure. UnIPH is trained using density functional theory (DFT) calculations followed by Wannier projection to predict energies and forces as node-level targets and Wannier-projected TB Hamiltonians as edge-level targets. This enables physically consistent modeling of coupled mechanical-electronic responses with near-DFT-level accuracy. After separately training two UnIPH models on DFT data for bilayer graphene and monolayer MoS2, respectively, we find that these models capture k",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：等变图网络利用 DFT 与 Wannier 投影数据联合预测能量、力和紧束缚哈密顿量，并分别测试双层石墨烯及单层 MoS2 的形变电子响应。两个体系分别训练，不能当作跨材料通用模型。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Unified Learning of Interatomic Potentials and Electronic Hamiltonians, with Applications in 2D Materials",
-      "summary_original": "arXiv:2510.16605v2 Announce Type: replace Abstract: We introduce UnIPH, an equivariant graph neural network designed to jointly predict both interatomic potentials and tight-binding (TB) Hamiltonians for an atomic structure. UnIPH is trained using density functional theory (DFT) calculations followed by Wannier projection to predict energies and forces as node-level targets and Wannier-projected TB Hamiltonians as edge-level targets. This enables physically consistent modeling of coupled mechanical-electronic responses with near-DFT-level accuracy. After separately training two UnIPH models on DFT data for bilayer graphene and monolayer MoS2, respectively, we find that these models capture k",
-      "editorial_date": "2026-11-03"
-    },
-    {
-      "title": "连续 SUN 指标细化晶体生成模型评估",
-      "url": "https://arxiv.org/abs/2510.12405",
-      "body": "arXiv:2510.12405v4 Announce Type: replace-cross Abstract: To address pressing scientific challenges such as climate change, increasingly sophisticated generative models are being developed to efficiently sample the large chemical space of potential functional materials. The proliferation of these models has necessitated the establishment of rigorous evaluation metrics. While uniqueness (U), novelty (N), and stability (S) of samples serve as standard metrics, their current formulations show several limitations. U and N rely on binary comparisons of crystals, rendering them dependent on heuristic thresholds, incapable of quantifying the degree of similarity, sensitive to atomic coordinate pert",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究将稳定、唯一及新颖性从二元判断改为连续分数，并在 Chemeleon2 案例中探索强化学习奖励。分数依赖权重与相似度设计，不能替代实验可合成性或完整物性验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Continuous SUN (Stable, Unique, and Novel) Metric for Generative Modeling of Inorganic Crystals",
-      "summary_original": "arXiv:2510.12405v4 Announce Type: replace-cross Abstract: To address pressing scientific challenges such as climate change, increasingly sophisticated generative models are being developed to efficiently sample the large chemical space of potential functional materials. The proliferation of these models has necessitated the establishment of rigorous evaluation metrics. While uniqueness (U), novelty (N), and stability (S) of samples serve as standard metrics, their current formulations show several limitations. U and N rely on binary comparisons of crystals, rendering them dependent on heuristic thresholds, incapable of quantifying the degree of similarity, sensitive to atomic coordinate pert",
-      "editorial_date": "2026-11-03"
+      "title_original": "Physics-Informed and Knowledge-Driven Generative AI for Autonomous Discovery of Porous Oxide Energy Materials: Opportunities and Challenges",
+      "summary_original": "arXiv:2608.02858v2 Announce Type: replace Abstract: The discovery of next-generation energy-storage materials is increasingly limited by the complexity of the underlying design problem rather than by computational capability alone. Porous transition-metal oxides represent a particularly challenging class of battery materials because their performance emerges from coupled interactions among crystal chemistry, pore architecture, ion transport, electrochemistry, electro-chemo-mechanics, synthesis, manufacturing, and battery-system operation. Recent advances in generative artificial intelligence (AI) have demonstrated remarkable capabilities for generating chemically plausible crystal structures",
+      "editorial_date": "2026-11-04"
     }
   ],
   "leaders": [],
@@ -490,38 +292,18 @@
   "conferences": [],
   "science": [
     {
-      "title": "In the age of big data and AI: do we still need chemical bonds?",
-      "body": "arXiv:2611.00228v1 Announce Type: new Abstract: Chemical bonding is the language through which chemistry rationalizes materials structure, stability, properties, and reactivity. Meanwhile, modern deep-learning models achieve remarkable predictive performance using representations based largely on compositional and structural information, raising the question of whether explicit bonding concepts remain necessary. In this work, we argue that artificial intelligence does not render chemical bonding obsolete but provides a new framework for evaluating and refining bonding concepts. We show that, through linear probing, Allegro and MACE embeddings recover bonding descriptors with (R^2 > 0.95), in",
-      "url": "https://arxiv.org/abs/2611.00228"
+      "title": "When do machine-learning potentials need a configuration-dependent kernel? Learning long-range interactions with Fourier neural operators",
+      "body": "arXiv:2611.03678v1 Announce Type: new Abstract: Long-range interactions in machine-learning interatomic potentials are commonly treated by coupling learned sources through either a prescribed electrostatic kernel or a learned but configuration-independent one. Whether such a kernel suffices depends on the underlying screened interaction. We address this question by using Fourier neural operators (FNOs) to learn how latent source fields, built from the descriptors of a local backbone (here MACE), interact across the simulation cell. For a synthetic ionic system with tunable screening, a prescribed Coulomb kernel underestimates the long-wavelength charge fluctuations by 43% under strong screen",
+      "url": "https://arxiv.org/abs/2611.03678"
     },
     {
-      "title": "Machine Learning Aided Computational Discovery of Boride Substrates for Borophene Synthesis",
-      "body": "arXiv:2611.00533v1 Announce Type: new Abstract: Borophene, a monolayer of boron, is distinctive among two-dimensional materials owing to its unique properties, including polymorphism and potential applications in quantum technologies and energy conversion and storage. Nevertheless, its applications are hindered by the strong binding of borophene to metal substrates, which impedes the realization of freestanding borophene. Alternative substrates with tunable binding to borophene are therefore highly desirable. Since boride layers arise during borophene synthesis on metals, borides provide potential alternative substrates for borophene synthesis. In this work, we investigate the binding energi",
-      "url": "https://arxiv.org/abs/2611.00533"
-    },
-    {
-      "title": "Beyond Synthesis Conditions: Linking In-situ Growth Dynamics to Carbon Nanotube Forest Properties through Multimodal Machine Learning",
-      "body": "arXiv:2611.00739v1 Announce Type: new Abstract: Machine learning for chemical vapor deposition (CVD) of carbon nanotubes (CNTs) has largely mapped static synthesis conditions to final properties, implicitly treating these conditions as a complete description of growth. Here, we test this assumption by integrating gas-flow conditions with in-situ time-resolve growth profiles (growth curves) of vertically aligned CNT forests. We introduce an observation-window analysis, in which prediction is evaluated as a function of observation time by providing models with the growth curve only up to progressively later times, to determine not only whether a property can be predicted, but when the necessar",
-      "url": "https://arxiv.org/abs/2611.00739"
-    },
-    {
-      "title": "Diffusion-Based Generative Screening of ABX$_3$ Perovskite Compositions for Bandgap-Targeted Materials Discovery",
-      "body": "arXiv:2611.00766v1 Announce Type: new Abstract: Crystal-generation models can explore compositions and atomic arrangements beyond a fixed set of crystal prototypes, but their usefulness for a specific materials family depends on whether the generated structures retain the defining topology and whether their predicted properties remain reliable across the sampled chemistry. Here, a pretrained diffusion model is used to generate candidate ABX$_3$ perovskites and to examine their structural, chemical and electronic-property distributions. A connectivity-based filter distinguishes three-dimensional corner-sharing perovskites from structures that share the same nominal ABX$_3$ stoichiometry. The ",
-      "url": "https://arxiv.org/abs/2611.00766"
-    },
-    {
-      "title": "Learning materials spectra across modalities and scales with structure-conditioned neural fields",
-      "body": "arXiv:2611.01417v1 Announce Type: new Abstract: Spectroscopic observables encode rich information about material behavior across diverse, often high-dimensional domains of energy, momentum, and other experimental coordinates, providing critical insights into the physical properties underlying material functionalities and applications. However, learning these responses directly from atomic structures remains challenging due to the complexity of both structural configurations and spectroscopic observation spaces. Here, we develop a structure-conditioned neural-field framework that learns continuous spectroscopic response functions by coupling an equivariant structural encoder with a coordinate",
-      "url": "https://arxiv.org/abs/2611.01417"
-    },
-    {
-      "title": "InformedXRD: Reproducible Benchmarks and Physics-Informed Evaluation for Powder Diffraction Symmetry Classification",
-      "body": "arXiv:2611.01525v1 Announce Type: cross Abstract: Machine learning for powder diffraction (PXRD) symmetry classification is being trained at scale, yet the field lacks a common evaluation standard: papers report results on different subsets of experimental archives, with different target taxonomies, preprocessing, and metrics, and published models are rarely released in a form that permits rescoring. We present InformedXRD, an evaluation framework with three parts: (i) a machine-readable mapping from 230 space groups to 99 extinction groups, the finest classes powder diffraction can identify from systematic absences alone; (ii) a benchmark-construction method whose inclusion rules are specif",
-      "url": "https://arxiv.org/abs/2611.01525"
+      "title": "Physics-Informed and Knowledge-Driven Generative AI for Autonomous Discovery of Porous Oxide Energy Materials: Opportunities and Challenges",
+      "body": "arXiv:2608.02858v2 Announce Type: replace Abstract: The discovery of next-generation energy-storage materials is increasingly limited by the complexity of the underlying design problem rather than by computational capability alone. Porous transition-metal oxides represent a particularly challenging class of battery materials because their performance emerges from coupled interactions among crystal chemistry, pore architecture, ion transport, electrochemistry, electro-chemo-mechanics, synthesis, manufacturing, and battery-system operation. Recent advances in generative artificial intelligence (AI) have demonstrated remarkable capabilities for generating chemically plausible crystal structures",
+      "url": "https://arxiv.org/abs/2608.02858"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-03T18:58:12.976861+00:00",
+  "fetched_at": "2026-11-04T13:56:51.042530+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -539,7 +321,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "source": "Google Research",
@@ -563,19 +345,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 110
+      "items": 56
     }
   ],
-  "editorial": {
-    "date": "2026-11-03",
-    "items_applied": 23,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 12,
+    "paper_count": 2,
     "leader_count": 0,
-    "science_count": 6
+    "science_count": 2
+  },
+  "editorial": {
+    "date": "2026-11-04",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

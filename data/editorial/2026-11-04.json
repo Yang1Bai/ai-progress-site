@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-04",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "title": "StateBench 评估长文档中的状态追踪",
+      "body": "基准区分查找最近一次更新与追踪多步状态变化，测试模型能否持续跟踪实体和对象。结果取决于基准任务设置。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "IBM 用小模型生成符合模板的演示文稿",
+      "body": "Palette 用按设计规范生成的合成数据训练开放权重模型，并以自动检查发现文字溢出和元素重叠等问题。效果取决于模板和训练数据。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "title": "MIT.nano 会议讨论如何连接共享科研设施",
+      "body": "报道回顾 10 月 NEMO 用户会议。与会者讨论仪器预约、访问权限和培训，以及如何跨机构找到所需设备。"
+    },
+    {
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "title": "OpenAI 探索将 AI 用于实体产品工程设计",
+      "body": "文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。"
+    },
+    {
+      "url": "https://openai.com/index/cisco-cyber",
+      "title": "思科结合网络遥测与 AI 辅助安全防御",
+      "body": "案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。"
+    },
+    {
+      "url": "https://openai.com/index/heimstaden",
+      "title": "Heimstaden 分享 AI 在住宅租赁与管理中的应用",
+      "body": "案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。"
+    },
+    {
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
+      "body": "公司公布任命。Hazelbaker 此前在 Uber 负责全球传播、公共政策等事务，也曾在 Snap 和 Google 任职。"
+    },
+    {
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "title": "CWE-bench v2 公开 100 项漏洞修复任务",
+      "body": "评估要求智能体在真实开源仓库中找出并修复弱点，同时保留原有功能。公开任务采用程序化评分，并设有独立保留集。"
+    },
+    {
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "title": "Transformers 用小型模型夹具提前发现集成回归",
+      "body": "文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆盖全部训练与部署风险。"
+    },
+    {
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "title": "OpenAI 筹备与外部研究人员合作的安全强化行动",
+      "body": "计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。"
+    },
+    {
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "title": "OpenAI 提高安全漏洞赏金并增设报告奖励",
+      "body": "更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。"
+    },
+    {
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "title": "OpenAI 介绍面向智能体并行开发的 Git 扩展",
+      "body": "工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论。"
+    },
+    {
+      "url": "https://openai.com/index/grid-protectors-program",
+      "title": "OpenAI 推出未来计算园区电网灵活性计划",
+      "body": "Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价或可靠性收益。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "title": "MIT 能源会议讨论转型中的 AI、材料与社会信任",
+      "body": "报道回顾 9 月研究会议，涵盖废碳利用、AI 与数据中心的公共信任及量子工具等议题。专家讨论与研究方向不等同于技术已经规模化落地。"
+    },
+    {
+      "url": "https://openai.com/index/lifeval",
+      "title": "LifeVal 用日常生活任务评估 AI 助手进展",
+      "body": "评估从时间使用调查及用户需求出发，关注育儿、公共服务、预算等实际任务。基准表现用于追踪特定任务进步，不能证明所有现实场景都能安全可靠地自动完成。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.03678",
+      "title": "用傅里叶神经算子学习原子间长程相互作用",
+      "summary": "预印本摘要。研究将 MACE 局域特征转化为潜在源场，再用傅里叶神经算子描述跨模拟晶胞的作用。在可调屏蔽的合成离子体系中，模型更好地再现了长波电荷涨落，效果仍需在更多真实材料中验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.02858",
+      "title": "多孔氧化物储能材料的生成式 AI 研究路线",
+      "summary": "预印本摘要。观点文章提出将晶体化学、孔隙结构、离子输运及制造约束纳入材料生成与验证。文章梳理研究机会与挑战，所提路线仍有待系统检验。"
+    }
+  ]
+}

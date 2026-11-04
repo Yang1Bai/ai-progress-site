@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-03T18:58:13Z</updated>
+  <updated>2026-11-04T13:57:44Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月3日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-03.html</id>
-    <updated>2026-11-03T18:58:13Z</updated>
+    <title>每日汇总 2026年11月4日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-04.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-04.html</id>
+    <updated>2026-11-04T13:57:44Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>基准区分查找最近一次更新与追踪多步状态变化，测试模型能否持续跟踪实体和对象。结果取决于基准任务设置。…</title>
     <link href="https://huggingface.co/blog/allenai/statebench"/>
     <id>https://huggingface.co/blog/allenai/statebench</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary></summary>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>基准区分查找最近一次更新与追踪多步状态变化，测试模型能否持续跟踪实体和对象。结果取决于基准任务设置。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>Palette 用按设计规范生成的合成数据训练开放权重模型，并以自动检查发现文字溢出和元素重叠等问题。效果取决于模板和训练数据。…</title>
     <link href="https://huggingface.co/blog/ibm-research/palette-deck-building"/>
     <id>https://huggingface.co/blog/ibm-research/palette-deck-building</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary></summary>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>Palette 用按设计规范生成的合成数据训练开放权重模型，并以自动检查发现文字溢出和元素重叠等问题。效果取决于模板和训练数据。</summary>
   </entry>
   <entry>
-    <title>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design,…</title>
+    <title>报道回顾 10 月 NEMO 用户会议。与会者讨论仪器预约、访问权限和培训，以及如何跨机构找到所需设备。…</title>
+    <link href="https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103"/>
+    <id>https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103</id>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>报道回顾 10 月 NEMO 用户会议。与会者讨论仪器预约、访问权限和培训，以及如何跨机构找到所需设备。</summary>
+  </entry>
+  <entry>
+    <title>文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。…</title>
     <link href="https://openai.com/index/accelerating-engineering-for-the-physical-world"/>
     <id>https://openai.com/index/accelerating-engineering-for-the-physical-world</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary>Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.</summary>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。</summary>
+  </entry>
+  <entry>
+    <title>案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。…</title>
+    <link href="https://openai.com/index/cisco-cyber"/>
+    <id>https://openai.com/index/cisco-cyber</id>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。</summary>
   </entry>
   <entry>
     <title>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。…</title>
     <link href="https://openai.com/index/heimstaden"/>
     <id>https://openai.com/index/heimstaden</id>
-    <updated>2026-11-03T18:58:13Z</updated>
+    <updated>2026-11-04T13:57:44Z</updated>
     <summary>案例介绍借助 ChatGPT 和 Codex 改进房源展示、资产分析与物业运营。文中的成本及采用率来自企业自报，不能外推为所有房地产公司的效果。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>公司公布任命。Hazelbaker 此前在 Uber 负责全球传播、公共政策等事务，也曾在 Snap 和 Google 任职。…</title>
+    <link href="https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"/>
+    <id>https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer</id>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>公司公布任命。Hazelbaker 此前在 Uber 负责全球传播、公共政策等事务，也曾在 Snap 和 Google 任职。</summary>
+  </entry>
+  <entry>
+    <title>评估要求智能体在真实开源仓库中找出并修复弱点，同时保留原有功能。公开任务采用程序化评分，并设有独立保留集。…</title>
     <link href="https://huggingface.co/blog/cwe-bench"/>
     <id>https://huggingface.co/blog/cwe-bench</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary></summary>
+    <updated>2026-11-04T13:57:44Z</updated>
+    <summary>评估要求智能体在真实开源仓库中找出并修复弱点，同时保留原有功能。公开任务采用程序化评分，并设有独立保留集。</summary>
   </entry>
   <entry>
     <title>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆…</title>
     <link href="https://huggingface.co/blog/transformers-mic"/>
     <id>https://huggingface.co/blog/transformers-mic</id>
-    <updated>2026-11-03T18:58:13Z</updated>
+    <updated>2026-11-04T13:57:44Z</updated>
     <summary>文章介绍从真实模型配置构建保留各类层的小型夹具，在 CPU 上运行快速集成测试，并回放定位 UMT5 未来词元泄漏问题。此类检查补充真实检查点和硬件测试，不能覆盖全部训练与部署风险。</summary>
-  </entry>
-  <entry>
-    <title>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。…</title>
-    <link href="https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"/>
-    <id>https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary>更新提高中高危及严重漏洞奖励，并引入报告质量、持续参与和专项活动等加成。具体奖励取决于漏洞目标、严重程度和项目规则，不是每份报告都能获得最高金额。</summary>
   </entry>
   <entry>
     <title>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。…</title>
     <link href="https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"/>
     <id>https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai</id>
-    <updated>2026-11-03T18:58:13Z</updated>
+    <updated>2026-11-04T13:57:44Z</updated>
     <summary>计划与 Cathedral 等安全伙伴使用模型测试内部系统、复现弱点并验证修复。公告描述下一轮计划及既往实践，不能理解为已消除所有平台漏洞。</summary>
-  </entry>
-  <entry>
-    <title>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论…</title>
-    <link href="https://openai.com/index/scaling-git-at-openai"/>
-    <id>https://openai.com/index/scaling-git-at-openai</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary>工程文章讨论单体仓库并发需求增长，介绍 Pando 架构、推送与读取扩展，以及对 Git 生态的投入。其设计针对特定内部负载，不能直接视为所有团队的通用迁移结论。</summary>
-  </entry>
-  <entry>
-    <title>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价…</title>
-    <link href="https://openai.com/index/grid-protectors-program"/>
-    <id>https://openai.com/index/grid-protectors-program</id>
-    <updated>2026-11-03T18:58:13Z</updated>
-    <summary>Grid Protectors 计划与电力公司和监管方协商，在电网承压时降低园区需求，并按本地条件利用发电或储能。各地承诺仍在落实，不能把目标写成已经实现的电价或可靠性收益。</summary>
   </entry>
 </feed>
