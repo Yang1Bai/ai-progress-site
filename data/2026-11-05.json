@@ -2,6 +2,32 @@
   "date": "2026年11月5日",
   "news": [
     {
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "body": "Health & Bioscience",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T16:01:08+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-05"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "body": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "OpenAI 公布计算园区社区承诺与政策建议",
       "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
       "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
@@ -208,38 +234,6 @@
       "title_original": "Building connections across the research infrastructure",
       "body_original": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
       "editorial_date": "2026-11-05"
-    },
-    {
-      "title": "OpenAI 探索将 AI 用于实体产品工程设计",
-      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "body": "文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "title_original": "Accelerating engineering for the physical world",
-      "body_original": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
-      "editorial_date": "2026-11-05"
-    },
-    {
-      "title": "思科结合网络遥测与 AI 辅助安全防御",
-      "url": "https://openai.com/index/cisco-cyber",
-      "body": "案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。",
-      "date": "2026-11-03",
-      "published_at": "2026-11-03T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-03"
-      ],
-      "importance": "normal",
-      "title_original": "How Cisco defends at machine speed with OpenAI",
-      "body_original": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
-      "editorial_date": "2026-11-05"
     }
   ],
   "papers": [
@@ -329,7 +323,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-05T15:43:37.696792+00:00",
+  "fetched_at": "2026-11-05T19:25:12.027347+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -353,7 +347,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -374,16 +368,16 @@
       "items": 47
     }
   ],
+  "editorial": {
+    "date": "2026-11-05",
+    "items_applied": 16,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 3,
     "leader_count": 0,
     "science_count": 3
-  },
-  "editorial": {
-    "date": "2026-11-05",
-    "items_applied": 18,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
