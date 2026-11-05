@@ -1,0 +1,389 @@
+{
+  "date": "2026年11月5日",
+  "news": [
+    {
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Setting a new standard for responsible AI infrastructure",
+      "body_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "MIT 用多视角不确定性分析修正机器人记忆",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "body": "UQ-DAAAM 比较同一物体的多种描述，识别可能误标的记忆，并选择额外视角改善描述。研究面向复杂机器人任务，实际部署效果仍需验证。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Clearing up a robot’s fuzzy memory",
+      "body_original": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "Phonon 介绍端侧语音合成与开放权重",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "body": "文章介绍可离线运行的小型语音模型及语音定制能力。31m 版本采用 Apache 2.0，其他模型使用非商业许可，应用时需按版本核查授权与硬件条件。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "body_original": "",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "Google 以交互讨论澄清主观图像分类边界",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+      "body": "Agile Deliberation 引导用户划分子类并讨论边界案例，再用大模型驱动的优化流程构建分类器。类别定义依赖文化、个人偏好和使用情境。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T18:07:05+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
+      "body_original": "Data Mining & Modeling",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "Dharma 发布文档结构化字段抽取模型",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "body": "文章介绍约 20 亿参数模型，按用户指定字段将文档信息转为 JSON。性能比较来自发布方所测任务，跨文档类型与实际业务准确性仍需评估。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "body_original": "",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "OpenAI 宣布拟收购 Pierre Computer Company",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "body": "公告计划引入 Pierre 团队和开发工具经验，扩展 Codex 的代码浏览、审查与 Git 工作流。交易公告描述拟议收购，交割状态应以后续信息为准。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T14:30:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "body_original": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "OpenAI 披露 Linux 漏洞发现与补丁生成流程",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "body": "报告称一次运行验证并为 948 个本地提权漏洞生成补丁，API 成本约 120 万美元。数字来自该次研究运行，补丁的维护者审核和实际合入需要分别确认。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "A thousand fewer paths to root",
+      "body_original": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "Daybreak Red 扩展至 AWS GovCloud 美国东区",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "body": "公告向获批客户提供 GPT-5.6 Cyber，用于授权漏洞研究、受控复现与安全测试。使用资格与部署治理要求仍适用，修复方案需由专业人员审核。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "body_original": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "OpenAI 发布 Images 2.6 图像生成与编辑更新",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "body": "更新面向 ChatGPT、Codex 和 API，介绍更快生成、多轮一致性编辑及 GIF 功能。API 提供不同速度和质量选项，实际表现依赖所选设置。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing Images 2.6",
+      "body_original": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "DevRev 分享企业自助服务智能体实践",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "body": "案例介绍结合企业知识、实时数据和模型，让 Computer 与 Operator 处理客户及员工请求。案例成效来自企业介绍，实际操作仍受组织权限和审核流程约束。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "body_original": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "StateBench 评估长文档中的状态追踪",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "body": "基准区分查找最近一次更新与追踪多步状态变化，测试模型能否持续跟踪实体和对象。结果取决于基准任务设置。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T17:15:21+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "StateBench: Testing how language models track state changes over long documents",
+      "body_original": "",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "IBM 用小模型生成符合模板的演示文稿",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "body": "Palette 用按设计规范生成的合成数据训练开放权重模型，并以自动检查发现文字溢出和元素重叠等问题。效果取决于模板和训练数据。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T16:35:36+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "Palette: teaching a small model to build decks in your design language",
+      "body_original": "",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "MIT.nano 会议讨论如何连接共享科研设施",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "body": "报道回顾 10 月 NEMO 用户会议。与会者讨论仪器预约、访问权限和培训，以及如何跨机构找到所需设备。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T14:30:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "Building connections across the research infrastructure",
+      "body_original": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "OpenAI 探索将 AI 用于实体产品工程设计",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "body": "文章展示模型协助设计设备外壳、电路板和软件，并讨论制图、仿真与跨专业协作。案例仍处于探索阶段，实际制造需逐项验证。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "Accelerating engineering for the physical world",
+      "body_original": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "思科结合网络遥测与 AI 辅助安全防御",
+      "url": "https://openai.com/index/cisco-cyber",
+      "body": "案例介绍思科如何利用网络数据和模型辅助调查与修复。实际成效取决于数据覆盖、部署环境和安全团队审核。",
+      "date": "2026-11-03",
+      "published_at": "2026-11-03T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-03"
+      ],
+      "importance": "normal",
+      "title_original": "How Cisco defends at machine speed with OpenAI",
+      "body_original": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "editorial_date": "2026-11-05"
+    }
+  ],
+  "papers": [
+    {
+      "title": "微调 MACE 研究硫银锗矿电解质的温度依赖离子运动",
+      "url": "https://arxiv.org/abs/2611.05946",
+      "body": "arXiv:2611.05946v1 Announce Type: new Abstract: The rapid growth of machine-learning interatomic potentials (MLIP), particularly the foundational models for materials chemistry, such as MACE, has significantly strengthened our capabilities in studying the complex dynamics of materials through statistical sampling. Here, by performing molecular dynamics with a fine-tuned MACE model, that are further combined with essential dynamics analysis, a tool that is commonly applied in (bio)molecular simulations, we examine the temperature-dependent ion dynamics in a prototypical inorganic solid superionic conductor, namely argyrodite Li$_{6}$PS$_{5}$Cl. Our analyses show clear localised phonon-like dy",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合分子动力学和本征动力学分析考察 Li6PS5Cl，发现低温局域运动及中间温区锂离子与骨架运动的竞争。结论来自给定模型与模拟条件，仍需结合实验检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Temperature-Dependent Ion Dynamics in Argyrodite Superionic Conductor Li$_{6}$PS$_{5}$Cl with Fine-Tuned MACE Foundation Model",
+      "summary_original": "arXiv:2611.05946v1 Announce Type: new Abstract: The rapid growth of machine-learning interatomic potentials (MLIP), particularly the foundational models for materials chemistry, such as MACE, has significantly strengthened our capabilities in studying the complex dynamics of materials through statistical sampling. Here, by performing molecular dynamics with a fine-tuned MACE model, that are further combined with essential dynamics analysis, a tool that is commonly applied in (bio)molecular simulations, we examine the temperature-dependent ion dynamics in a prototypical inorganic solid superionic conductor, namely argyrodite Li$_{6}$PS$_{5}$Cl. Our analyses show clear localised phonon-like dy",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "进化算法构造可解释的空间结构描述符",
+      "url": "https://arxiv.org/abs/2611.06811",
+      "body": "arXiv:2611.06811v1 Announce Type: new Abstract: Structure property prediction is a classical task in machine learning, ranging from molecular activity and materials properties to local functional responses measured in microscopy. For image-based regression, two choices define the information available to the predictor: the size of the image neighborhood and the spatial resolution retained within it. A small neighborhood can omit relevant surrounding structure, whereas a large, finely sampled neighborhood can introduce redundant or irrelevant information. Here, we develop a framework for constructing spatial descriptors for prediction of local spectra and hysteresis loops. We benchmark regres",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用遗传算法优化图像区域划分与池化方式，平衡局部光谱和滞回曲线预测误差与描述符维度。区域解释取决于预测模型、观测响应及所研究数据。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Evolutionary Design of Interpretable Spatial Descriptors for Structure-Property Relationship Discovery",
+      "summary_original": "arXiv:2611.06811v1 Announce Type: new Abstract: Structure property prediction is a classical task in machine learning, ranging from molecular activity and materials properties to local functional responses measured in microscopy. For image-based regression, two choices define the information available to the predictor: the size of the image neighborhood and the spatial resolution retained within it. A small neighborhood can omit relevant surrounding structure, whereas a large, finely sampled neighborhood can introduce redundant or irrelevant information. Here, we develop a framework for constructing spatial descriptors for prediction of local spectra and hysteresis loops. We benchmark regres",
+      "editorial_date": "2026-11-05"
+    },
+    {
+      "title": "热条件时间序列模型预测非等温晶粒生长",
+      "url": "https://arxiv.org/abs/2611.06843",
+      "body": "arXiv:2611.06843v1 Announce Type: new Abstract: Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In previous work, grain growth was successfully predicted under isothermal conditions by treating grain size distributions as time series and forecasting their evolution using recurrent neural networks, allowing complete grain growth trajectories to be generated in seconds rather than through c",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架结合晶粒尺寸分布、瞬时温度与温度变化率预测组织演化，并使用经验证的前沿追踪模拟数据评估。仿真预测效果仍需在具体材料实验中进一步检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials",
+      "summary_original": "arXiv:2611.06843v1 Announce Type: new Abstract: Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In previous work, grain growth was successfully predicted under isothermal conditions by treating grain size distributions as time series and forecasting their evolution using recurrent neural networks, allowing complete grain growth trajectories to be generated in seconds rather than through c",
+      "editorial_date": "2026-11-05"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Temperature-Dependent Ion Dynamics in Argyrodite Superionic Conductor Li$_{6}$PS$_{5}$Cl with Fine-Tuned MACE Foundation Model",
+      "body": "arXiv:2611.05946v1 Announce Type: new Abstract: The rapid growth of machine-learning interatomic potentials (MLIP), particularly the foundational models for materials chemistry, such as MACE, has significantly strengthened our capabilities in studying the complex dynamics of materials through statistical sampling. Here, by performing molecular dynamics with a fine-tuned MACE model, that are further combined with essential dynamics analysis, a tool that is commonly applied in (bio)molecular simulations, we examine the temperature-dependent ion dynamics in a prototypical inorganic solid superionic conductor, namely argyrodite Li$_{6}$PS$_{5}$Cl. Our analyses show clear localised phonon-like dy",
+      "url": "https://arxiv.org/abs/2611.05946"
+    },
+    {
+      "title": "Evolutionary Design of Interpretable Spatial Descriptors for Structure-Property Relationship Discovery",
+      "body": "arXiv:2611.06811v1 Announce Type: new Abstract: Structure property prediction is a classical task in machine learning, ranging from molecular activity and materials properties to local functional responses measured in microscopy. For image-based regression, two choices define the information available to the predictor: the size of the image neighborhood and the spatial resolution retained within it. A small neighborhood can omit relevant surrounding structure, whereas a large, finely sampled neighborhood can introduce redundant or irrelevant information. Here, we develop a framework for constructing spatial descriptors for prediction of local spectra and hysteresis loops. We benchmark regres",
+      "url": "https://arxiv.org/abs/2611.06811"
+    },
+    {
+      "title": "Thermally Conditioned Time-Series Forecasting of Grain Growth in Polycrystalline Materials",
+      "body": "arXiv:2611.06843v1 Announce Type: new Abstract: Grain growth during heat treatment strongly affects the microstructure of polycrystalline materials and, consequently, their mechanical properties. Although numerical methods such as front-tracking or front-capturing simulations can accurately describe grain growth, their high computational cost limits their use for long or non-isothermal thermal cycles. In previous work, grain growth was successfully predicted under isothermal conditions by treating grain size distributions as time series and forecasting their evolution using recurrent neural networks, allowing complete grain growth trajectories to be generated in seconds rather than through c",
+      "url": "https://arxiv.org/abs/2611.06843"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-05T15:43:37.696792+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 21
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 1
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 47
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 3,
+    "leader_count": 0,
+    "science_count": 3
+  },
+  "editorial": {
+    "date": "2026-11-05",
+    "items_applied": 18,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
