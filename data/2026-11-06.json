@@ -18,6 +18,19 @@
       "editorial_date": "2026-11-06"
     },
     {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "body": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "开放语音识别评测新增埃及与尼日利亚英语",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
       "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。",
@@ -224,22 +237,6 @@
       "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
       "body_original": "Data Mining & Modeling",
       "editorial_date": "2026-11-06"
-    },
-    {
-      "title": "Dharma 发布文档结构化字段抽取模型",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "body": "文章介绍约 20 亿参数模型，按用户指定字段将文档信息转为 JSON。性能比较来自发布方所测任务，跨文档类型与实际业务准确性仍需评估。",
-      "date": "2026-11-04",
-      "published_at": "2026-11-04T17:50:10+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-04"
-      ],
-      "importance": "normal",
-      "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "body_original": "",
-      "editorial_date": "2026-11-06"
     }
   ],
   "papers": [
@@ -329,13 +326,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-06T14:49:57.302122+00:00",
+  "fetched_at": "2026-11-06T18:48:10.875050+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "source": "Hugging Face",
@@ -374,16 +371,16 @@
       "items": 48
     }
   ],
+  "editorial": {
+    "date": "2026-11-06",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 3,
     "leader_count": 0,
     "science_count": 3
-  },
-  "editorial": {
-    "date": "2026-11-06",
-    "items_applied": 18,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
