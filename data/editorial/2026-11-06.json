@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。"
+    },
+    {
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。"
+    },
+    {
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。"
+    },
+    {
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。"
+    },
+    {
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。"
+    },
+    {
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。"
+    },
+    {
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "title": "Flipsnack 分享广告转化优化试验",
+      "body": "案例比较五个美国广告活动改为注册转化目标前后的表现，报告注册增加及单位注册成本下降。结果来自特定活动及观察时段，不保证其他广告主取得相同效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "title": "MIT 用多视角不确定性分析修正机器人记忆",
+      "body": "UQ-DAAAM 比较同一物体的多种描述，识别可能误标的记忆，并选择额外视角改善描述。研究面向复杂机器人任务，实际部署效果仍需验证。"
+    },
+    {
+      "url": "https://openai.com/index/franklin-templeton",
+      "title": "富兰克林邓普顿探索 AI 辅助投资研究",
+      "body": "公司介绍通过语义层和智能体连接研究、风险与合规信息，帮助组合经理比较观点。工作流仍在发展，材料未提供可据此推断投资收益的证据。"
+    },
+    {
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "title": "Phonon 介绍端侧语音合成与开放权重",
+      "body": "文章介绍可离线运行的小型语音模型及语音定制能力。31m 版本采用 Apache 2.0，其他模型使用非商业许可，应用时需按版本核查授权与硬件条件。"
+    },
+    {
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+      "title": "Google 以交互讨论澄清主观图像分类边界",
+      "body": "Agile Deliberation 引导用户划分子类并讨论边界案例，再用大模型驱动的优化流程构建分类器。类别定义依赖文化、个人偏好和使用情境。"
+    },
+    {
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "title": "Dharma 发布文档结构化字段抽取模型",
+      "body": "文章介绍约 20 亿参数模型，按用户指定字段将文档信息转为 JSON。性能比较来自发布方所测任务，跨文档类型与实际业务准确性仍需评估。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.07410",
+      "title": "等变表示的奇异值谱刻画结构对称性",
+      "summary": "预印本摘要：SymFP 将等变表示的秩约束用于点群识别和连续对称性破缺分析，并在合成结构、分子及生物组装体上测试。结论依赖所研究结构和评估条件。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07695",
+      "title": "直积空间等变学习用于电子哈密顿量预测",
+      "summary": "预印本摘要：DP-Learner 直接在类似哈密顿量的算符块上传递信息，以减少表示不匹配与转换开销，并构造保持旋转及自旋等变性的运算。适用性能仍需按材料与硬件条件评估。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07998",
+      "title": "基于几何分片的多尺度聚合物性质表示",
+      "summary": "预印本摘要：研究将分子分片表述为半径约束优化问题，探索由几何决定子结构的多尺度表示，以改善聚合物性质预测。对新化学体系的泛化仍需独立检验。"
+    }
+  ]
+}

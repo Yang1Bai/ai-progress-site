@@ -1,0 +1,389 @@
+{
+  "date": "2026年11月6日",
+  "news": [
+    {
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "body_original": "",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "body_original": "",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Cult.fit builds operational muscle with Codex",
+      "body_original": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T19:35:16+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "body_original": "",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Australian universities are creating AI-native graduates",
+      "body_original": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T16:01:08+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Detecting signs of hypertension using wearable sensors",
+      "body_original": "Health & Bioscience",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "body_original": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Merge builds product and business tools with OpenAI technology",
+      "body_original": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Setting a new standard for responsible AI infrastructure",
+      "body_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Flipsnack 分享广告转化优化试验",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "body": "案例比较五个美国广告活动改为注册转化目标前后的表现，报告注册增加及单位注册成本下降。结果来自特定活动及观察时段，不保证其他广告主取得相同效果。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:45:15+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Flipsnack grows product signups with conversion optimization",
+      "body_original": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "MIT 用多视角不确定性分析修正机器人记忆",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "body": "UQ-DAAAM 比较同一物体的多种描述，识别可能误标的记忆，并选择额外视角改善描述。研究面向复杂机器人任务，实际部署效果仍需验证。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Clearing up a robot’s fuzzy memory",
+      "body_original": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "富兰克林邓普顿探索 AI 辅助投资研究",
+      "url": "https://openai.com/index/franklin-templeton",
+      "body": "公司介绍通过语义层和智能体连接研究、风险与合规信息，帮助组合经理比较观点。工作流仍在发展，材料未提供可据此推断投资收益的证据。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Franklin Templeton uses OpenAI to support investment research",
+      "body_original": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Phonon 介绍端侧语音合成与开放权重",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "body": "文章介绍可离线运行的小型语音模型及语音定制能力。31m 版本采用 Apache 2.0，其他模型使用非商业许可，应用时需按版本核查授权与硬件条件。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "body_original": "",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Google 以交互讨论澄清主观图像分类边界",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+      "body": "Agile Deliberation 引导用户划分子类并讨论边界案例，再用大模型驱动的优化流程构建分类器。类别定义依赖文化、个人偏好和使用情境。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T18:07:05+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Agile Deliberation: How AI helps humans define the gray areas",
+      "body_original": "Data Mining & Modeling",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "Dharma 发布文档结构化字段抽取模型",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "body": "文章介绍约 20 亿参数模型，按用户指定字段将文档信息转为 JSON。性能比较来自发布方所测任务，跨文档类型与实际业务准确性仍需评估。",
+      "date": "2026-11-04",
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-04"
+      ],
+      "importance": "normal",
+      "title_original": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "body_original": "",
+      "editorial_date": "2026-11-06"
+    }
+  ],
+  "papers": [
+    {
+      "title": "等变表示的奇异值谱刻画结构对称性",
+      "url": "https://arxiv.org/abs/2611.07410",
+      "body": "arXiv:2611.07410v1 Announce Type: cross Abstract: Symmetry governs the organization of physical structures, while symmetry breaking reveals their transformations. In geometric deep learning, symmetry imposes rank constraints on equivariant representations, limiting the expressive capacity of equivariant graph neural networks (GNNs). Here we show that these constraints can instead be exploited: the singular-value spectra of equivariant representations provide a unified fingerprint of structural symmetry. We introduce spectral symmetry fingerprints (SymFP), which enable discrete point-group identification through rank-template matching and continuous symmetry analysis by quantifying spectral e",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：SymFP 将等变表示的秩约束用于点群识别和连续对称性破缺分析，并在合成结构、分子及生物组装体上测试。结论依赖所研究结构和评估条件。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Spectral symmetry fingerprints in equivariant representations",
+      "summary_original": "arXiv:2611.07410v1 Announce Type: cross Abstract: Symmetry governs the organization of physical structures, while symmetry breaking reveals their transformations. In geometric deep learning, symmetry imposes rank constraints on equivariant representations, limiting the expressive capacity of equivariant graph neural networks (GNNs). Here we show that these constraints can instead be exploited: the singular-value spectra of equivariant representations provide a unified fingerprint of structural symmetry. We introduce spectral symmetry fingerprints (SymFP), which enable discrete point-group identification through rank-template matching and continuous symmetry analysis by quantifying spectral e",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "直积空间等变学习用于电子哈密顿量预测",
+      "url": "https://arxiv.org/abs/2611.07695",
+      "body": "arXiv:2611.07695v1 Announce Type: cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bottleneck",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：DP-Learner 直接在类似哈密顿量的算符块上传递信息，以减少表示不匹配与转换开销，并构造保持旋转及自旋等变性的运算。适用性能仍需按材料与硬件条件评估。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
+      "summary_original": "arXiv:2611.07695v1 Announce Type: cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bottleneck",
+      "editorial_date": "2026-11-06"
+    },
+    {
+      "title": "基于几何分片的多尺度聚合物性质表示",
+      "url": "https://arxiv.org/abs/2611.07998",
+      "body": "arXiv:2611.07998v1 Announce Type: cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of multiscale m",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究将分子分片表述为半径约束优化问题，探索由几何决定子结构的多尺度表示，以改善聚合物性质预测。对新化学体系的泛化仍需独立检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
+      "summary_original": "arXiv:2611.07998v1 Announce Type: cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of multiscale m",
+      "editorial_date": "2026-11-06"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Spectral symmetry fingerprints in equivariant representations",
+      "body": "arXiv:2611.07410v1 Announce Type: cross Abstract: Symmetry governs the organization of physical structures, while symmetry breaking reveals their transformations. In geometric deep learning, symmetry imposes rank constraints on equivariant representations, limiting the expressive capacity of equivariant graph neural networks (GNNs). Here we show that these constraints can instead be exploited: the singular-value spectra of equivariant representations provide a unified fingerprint of structural symmetry. We introduce spectral symmetry fingerprints (SymFP), which enable discrete point-group identification through rank-template matching and continuous symmetry analysis by quantifying spectral e",
+      "url": "https://arxiv.org/abs/2611.07410"
+    },
+    {
+      "title": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
+      "body": "arXiv:2611.07695v1 Announce Type: cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bottleneck",
+      "url": "https://arxiv.org/abs/2611.07695"
+    },
+    {
+      "title": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
+      "body": "arXiv:2611.07998v1 Announce Type: cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of multiscale m",
+      "url": "https://arxiv.org/abs/2611.07998"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-06T14:49:57.302122+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 23
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 48
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 3,
+    "leader_count": 0,
+    "science_count": 3
+  },
+  "editorial": {
+    "date": "2026-11-06",
+    "items_applied": 18,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
