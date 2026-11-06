@@ -183,6 +183,34 @@
         "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed."
       },
       {
+        "title": "Tenure-Track Associate Professor / Assistant Professor - Materials and Energy",
+        "org": "The University of Hong Kong, Department of Materials and Energy",
+        "location": "Hong Kong SAR, China",
+        "url": "https://jobs.hku.hk/cw/en/job/537824/tenuretrack-associate-professorassistant-professor",
+        "deadline": "Portal close 2026-12-01 (HKT); body says review begins 2026-12-01, then open until filled — conflicting official dates",
+        "rank": "Associate Professor / Assistant Professor (tenure track)",
+        "review_begins_date": "2026-12-01",
+        "deadline_time_note": "The official page lists Applications close: December 1, 2026 (HK Time), without a clock time. Its body instead says review starts December 1 and continues until filled. Do not assume acceptance after December 1 or automatic closure without rechecking.",
+        "tags": [
+          "automated intelligent materials lab",
+          "AI-driven materials discovery",
+          "energy materials",
+          "catalysis"
+        ],
+        "fit": "The recruitment explicitly targets AI for Materials and Energy Materials. The department defines these areas to include automated intelligent materials labs, materials informatics, AI-enabled characterization, energy conversion and catalytic materials: a strong substantive home for Yang's experimental autonomous inorganic and electrocatalyst discovery program.",
+        "qs_world_rank": 11,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "official_posting": "https://jobs.hku.hk/cw/en/job/537824/tenuretrack-associate-professorassistant-professor",
+        "source": "curated",
+        "verified_date": "2026-11-06",
+        "last_audited_date": "2026-11-06",
+        "audit_status": "verified_open",
+        "audit_note": "Advertised November 4, 2026. Official vacancy and live application entry verified November 6. Date conflict preserved for manual recheck; no unambiguous ISO hard deadline assigned. Ref.537824 is distinct from previously submitted HKU MILES Ref.537677.",
+        "research_source": "https://mse.hku.hk/research/research-areas/",
+        "application_status": "No submission recorded"
+      },
+      {
         "title": "Assistant or Untenured Associate Professor - Chemical Engineering (Tenure Track)",
         "org": "Stanford University, Department of Chemical Engineering",
         "location": "Stanford, California, USA",
