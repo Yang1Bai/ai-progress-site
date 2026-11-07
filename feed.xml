@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-07T14:05:30Z</updated>
+  <updated>2026-11-07T17:19:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月7日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-07.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-07.html</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
     <title>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响…</title>
     <link href="https://huggingface.co/blog/allenai/toyblocks"/>
     <id>https://huggingface.co/blog/allenai/toyblocks</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。</summary>
   </entry>
   <entry>
     <title>报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。…</title>
     <link href="https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106"/>
     <id>https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。</summary>
   </entry>
   <entry>
     <title>公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。…</title>
     <link href="https://openai.com/index/partnering-with-hacktron"/>
     <id>https://openai.com/index/partnering-with-hacktron</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。</summary>
   </entry>
   <entry>
     <title>基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。…</title>
     <link href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"/>
     <id>https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。</summary>
   </entry>
   <entry>
     <title>Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和…</title>
     <link href="https://huggingface.co/blog/open-asr-leaderboard-liva"/>
     <id>https://huggingface.co/blog/open-asr-leaderboard-liva</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。</summary>
   </entry>
   <entry>
     <title>案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。…</title>
     <link href="https://openai.com/index/cultfit-builds-with-codex"/>
     <id>https://openai.com/index/cultfit-builds-with-codex</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。</summary>
   </entry>
   <entry>
     <title>四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试…</title>
     <link href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"/>
     <id>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。</summary>
   </entry>
   <entry>
     <title>文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。…</title>
     <link href="https://openai.com/index/australian-universities-ai-native-graduates"/>
     <id>https://openai.com/index/australian-universities-ai-native-graduates</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。</summary>
   </entry>
   <entry>
     <title>研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。…</title>
     <link href="https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/"/>
     <id>https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。</summary>
   </entry>
   <entry>
     <title>公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。…</title>
     <link href="https://openai.com/index/introducing-gpt-6-cyber"/>
     <id>https://openai.com/index/introducing-gpt-6-cyber</id>
-    <updated>2026-11-07T14:05:30Z</updated>
+    <updated>2026-11-07T17:19:49Z</updated>
     <summary>公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。</summary>
   </entry>
 </feed>
