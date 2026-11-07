@@ -1,0 +1,309 @@
+{
+  "date": "2026年11月7日",
+  "news": [
+    {
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "body_original": "",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "How to predict the behavior of molecules from scant data",
+      "body_original": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "body_original": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "BioBasicsBench 评估日常湿实验数据分析能力",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "body": "基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Measuring how AI agents handle everyday wet-lab science",
+      "body_original": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "body_original": "",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Cult.fit builds operational muscle with Codex",
+      "body_original": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T19:35:16+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "body_original": "",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Australian universities are creating AI-native graduates",
+      "body_original": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T16:01:08+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Detecting signs of hypertension using wearable sensors",
+      "body_original": "Health & Bioscience",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "body_original": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Merge builds product and business tools with OpenAI technology",
+      "body_original": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Setting a new standard for responsible AI infrastructure",
+      "body_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "Flipsnack 分享广告转化优化试验",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "body": "案例比较五个美国广告活动改为注册转化目标前后的表现，报告注册增加及单位注册成本下降。结果来自特定活动及观察时段，不保证其他广告主取得相同效果。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:45:15+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Flipsnack grows product signups with conversion optimization",
+      "body_original": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "MIT 用多视角不确定性分析修正机器人记忆",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "body": "UQ-DAAAM 比较同一物体的多种描述，识别可能误标的记忆，并选择额外视角改善描述。研究面向复杂机器人任务，实际部署效果仍需验证。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Clearing up a robot’s fuzzy memory",
+      "body_original": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "editorial_date": "2026-11-07"
+    },
+    {
+      "title": "富兰克林邓普顿探索 AI 辅助投资研究",
+      "url": "https://openai.com/index/franklin-templeton",
+      "body": "公司介绍通过语义层和智能体连接研究、风险与合规信息，帮助组合经理比较观点。工作流仍在发展，材料未提供可据此推断投资收益的证据。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Franklin Templeton uses OpenAI to support investment research",
+      "body_original": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "editorial_date": "2026-11-07"
+    }
+  ],
+  "papers": [],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [],
+  "content_mode": "public",
+  "fetched_at": "2026-11-07T14:04:38.584226+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 25
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-11-07",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
