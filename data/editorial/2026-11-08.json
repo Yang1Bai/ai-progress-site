@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-08",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。"
+    },
+    {
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。"
+    },
+    {
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "title": "BioBasicsBench 评估日常湿实验数据分析能力",
+      "body": "基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。"
+    },
+    {
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。"
+    },
+    {
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。"
+    },
+    {
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。"
+    },
+    {
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。"
+    },
+    {
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。"
+    },
+    {
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。"
+    },
+    {
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "title": "Flipsnack 分享广告转化优化试验",
+      "body": "案例比较五个美国广告活动改为注册转化目标前后的表现，报告注册增加及单位注册成本下降。结果来自特定活动及观察时段，不保证其他广告主取得相同效果。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "title": "MIT 用多视角不确定性分析修正机器人记忆",
+      "body": "UQ-DAAAM 比较同一物体的多种描述，识别可能误标的记忆，并选择额外视角改善描述。研究面向复杂机器人任务，实际部署效果仍需验证。"
+    },
+    {
+      "url": "https://openai.com/index/franklin-templeton",
+      "title": "富兰克林邓普顿探索 AI 辅助投资研究",
+      "body": "公司介绍通过语义层和智能体连接研究、风险与合规信息，帮助组合经理比较观点。工作流仍在发展，材料未提供可据此推断投资收益的证据。"
+    }
+  ],
+  "papers": []
+}
