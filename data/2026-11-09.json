@@ -1,0 +1,488 @@
+{
+  "date": "2026年11月9日",
+  "news": [
+    {
+      "title": "HOPE 在专家剪枝中考虑协作关系",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "body": "文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T12:34:29+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "body_original": "",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "WorldParticle 用统一架构模拟多类物理过程",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "body": "MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+      "body_original": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "FLEX 帮助机器人从自然语言反馈中调整运动规划",
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "body": "研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "AI-assisted learning platform helps robots reason beyond literal commands",
+      "body_original": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "body_original": "",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "How to predict the behavior of molecules from scant data",
+      "body_original": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "body_original": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "BioBasicsBench 评估日常湿实验数据分析能力",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "body": "基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Measuring how AI agents handle everyday wet-lab science",
+      "body_original": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "body_original": "",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T20:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Cult.fit builds operational muscle with Codex",
+      "body_original": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T19:35:16+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "body_original": "",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Australian universities are creating AI-native graduates",
+      "body_original": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T16:01:08+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Detecting signs of hypertension using wearable sensors",
+      "body_original": "Health & Bioscience",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "body_original": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Merge builds product and business tools with OpenAI technology",
+      "body_original": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
+      "date": "2026-11-05",
+      "published_at": "2026-11-05T02:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-05"
+      ],
+      "importance": "normal",
+      "title_original": "Setting a new standard for responsible AI infrastructure",
+      "body_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "editorial_date": "2026-11-09"
+    }
+  ],
+  "papers": [
+    {
+      "title": "局域电荷密度学习扩展全局电子性质计算",
+      "url": "https://arxiv.org/abs/2611.09153",
+      "body": "arXiv:2611.09153v1 Announce Type: new Abstract: Machine learning from local atomic environments offers an efficient route to electronic structure, but evaluating global electronic properties in large systems remains computationally demanding. Here we combine real space charge density learning with stochastic propagation using Kohn-Sham Hamiltonians constructed from the predicted densities. The framework avoids target system self-consistent iterations and explicit diagonalization, while hierarchical blocking enables dense grid inference within limited GPU memory. We demonstrate density of states calculations for one million Si atoms and optical and transport calculations for over one hundred ",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合实空间电荷密度预测与随机传播，避免目标体系的自洽迭代和显式对角化，并演示大规模硅体系的态密度及光学输运计算。尺度展示受模型、材料与计算设置限制。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "From local learning to global electronic properties in large-scale systems",
+      "summary_original": "arXiv:2611.09153v1 Announce Type: new Abstract: Machine learning from local atomic environments offers an efficient route to electronic structure, but evaluating global electronic properties in large systems remains computationally demanding. Here we combine real space charge density learning with stochastic propagation using Kohn-Sham Hamiltonians constructed from the predicted densities. The framework avoids target system self-consistent iterations and explicit diagonalization, while hierarchical blocking enables dense grid inference within limited GPU memory. We demonstrate density of states calculations for one million Si atoms and optical and transport calculations for over one hundred ",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "物理先验约束原子间势的不确定性估计",
+      "url": "https://arxiv.org/abs/2611.09325",
+      "body": "arXiv:2611.09325v1 Announce Type: new Abstract: Standard uncertainty quantification methods for machine learning interatomic potentials often fail to quantify the effects of model misspecification despite its prominence as a source of error. To combat this, misspecification-aware uncertainty schemes have been gaining attention, pointwise optimal parameter set regression (POPS-Regression) among them. However, no guarantees on the physicality of the posterior distribution are given and uncertainty estimates can be conservative compared to the true error. To combat this, we present a model misspecification aware scheme that builds on POPS-Regression by allowing users to specify physical priors ",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方案在 POPS 回归基础上允许指定物理先验，并在模型集合中施加约束，示范声子和弹性性质。适用先验需能表示为参数凸集，估计可靠性仍需结合目标任务验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Physics Informed Priors for Machine Learning Interatomic Potentials with Uncertainty Quantification",
+      "summary_original": "arXiv:2611.09325v1 Announce Type: new Abstract: Standard uncertainty quantification methods for machine learning interatomic potentials often fail to quantify the effects of model misspecification despite its prominence as a source of error. To combat this, misspecification-aware uncertainty schemes have been gaining attention, pointwise optimal parameter set regression (POPS-Regression) among them. However, no guarantees on the physicality of the posterior distribution are given and uncertainty estimates can be conservative compared to the true error. To combat this, we present a model misspecification aware scheme that builds on POPS-Regression by allowing users to specify physical priors ",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "可微基础模型联合优化晶体组成与结构",
+      "url": "https://arxiv.org/abs/2611.09572",
+      "body": "arXiv:2611.09572v1 Announce Type: new Abstract: Designing a crystal for a target property requires choosing its elements, stoichiometry, and atomic structure together, yet gradients exist only for the continuous structural variables. We introduce differentiable Equiformer fast effective-atom theory (DEFEAT), which lets a pretrained EquiformerV3 foundation model accept continuous species weights and site occupancies without retraining on fractional data, thereby enabling gradient-based materials optimization. Gradients from fine-tuned property models and a machine-learned energy penalty then guide updates to composition, atom count, atomic positions, and lattice vectors in a single optimizati",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：DEFEAT 引入连续元素权重和位点占据，联合优化组成、原子数与晶格，并用第一性原理计算检验部分超导体和半导体候选。预测温度与带隙存在计算方法误差，候选仍需实验验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Inverse design of superconductors and semiconductors with differentiable foundation models",
+      "summary_original": "arXiv:2611.09572v1 Announce Type: new Abstract: Designing a crystal for a target property requires choosing its elements, stoichiometry, and atomic structure together, yet gradients exist only for the continuous structural variables. We introduce differentiable Equiformer fast effective-atom theory (DEFEAT), which lets a pretrained EquiformerV3 foundation model accept continuous species weights and site occupancies without retraining on fractional data, thereby enabling gradient-based materials optimization. Gradients from fine-tuned property models and a machine-learned energy penalty then guide updates to composition, atom count, atomic positions, and lattice vectors in a single optimizati",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "水自电离自由能中的多种效应可能相互抵消",
+      "url": "https://arxiv.org/abs/2611.08874",
+      "body": "arXiv:2611.08874v1 Announce Type: cross Abstract: Few molecular processes are more fundamental to chemistry than the autoionization of water, whose equilibrium constant, $K_w \\approx 10^{-14}$, underlies acid-base equilibria and the chemistry of life. Yet the molecular origins of the free energy cost of forming and separating ions remain incompletely understood. Efforts to explain it have been limited by the difficulty of modeling water reactivity in sufficient detail. Here we combine machine learning interatomic potentials (MLIPs) with spectral adaptive biasing force enhanced sampling to connect proton transfer and water wire configurations to the underlying free energy landscape. We identi",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合机器学习势和增强采样，分析长程静电、体系尺寸及核量子运动对离子形成分离自由能的竞争影响。结果提示评估模型时需分别检查这些贡献与采样范围。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Fortuitous Cancellation of Competing Effects in the Free Energy of Water Autoionization: Long-Range Electrostatics, System Size, and Nuclear Quantum Effects",
+      "summary_original": "arXiv:2611.08874v1 Announce Type: cross Abstract: Few molecular processes are more fundamental to chemistry than the autoionization of water, whose equilibrium constant, $K_w \\approx 10^{-14}$, underlies acid-base equilibria and the chemistry of life. Yet the molecular origins of the free energy cost of forming and separating ions remain incompletely understood. Efforts to explain it have been limited by the difficulty of modeling water reactivity in sufficient detail. Here we combine machine learning interatomic potentials (MLIPs) with spectral adaptive biasing force enhanced sampling to connect proton transfer and water wire configurations to the underlying free energy landscape. We identi",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "AtomMOF 联合预测框架与吸附质的全原子结构",
+      "url": "https://arxiv.org/abs/2602.07351",
+      "body": "arXiv:2602.07351v3 Announce Type: replace Abstract: Metal-organic frameworks (MOFs) are promising materials for applications such as direct air capture, where performance depends on how adsorbates bind within the framework. Accurately predicting MOF-adsorbate configurations is therefore important for screening candidate materials. However, traditional approaches are computationally expensive and require a known host structure, while existing generative models rely on rigid-body assumptions and do not explicitly model adsorbates. We introduce AtomMOF, a scalable all-atom flow-matching model that jointly predicts MOF-adsorbate structures from discrete building blocks and adsorbates. Built on a",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：流匹配模型从构筑单元和吸附质生成联合构型，并用机器学习势引导与弛豫改善结构有效性。报告的匹配率和能量表现来自特定数据集，实际吸附性能仍需独立验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "AtomMOF: All-Atom Flow Matching for MOF-Adsorbate Structure Prediction",
+      "summary_original": "arXiv:2602.07351v3 Announce Type: replace Abstract: Metal-organic frameworks (MOFs) are promising materials for applications such as direct air capture, where performance depends on how adsorbates bind within the framework. Accurately predicting MOF-adsorbate configurations is therefore important for screening candidate materials. However, traditional approaches are computationally expensive and require a known host structure, while existing generative models rely on rigid-body assumptions and do not explicitly model adsorbates. We introduce AtomMOF, a scalable all-atom flow-matching model that jointly predicts MOF-adsorbate structures from discrete building blocks and adsorbates. Built on a",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "机器学习势模拟应变对 Li3YCl6 离子输运的影响",
+      "url": "https://arxiv.org/abs/2605.05603",
+      "body": "arXiv:2605.05603v2 Announce Type: replace Abstract: Solid-state batteries require electrolytes that sustain high ionic conductivity under the mechanical environment of a functioning cell. Lattice strain, arising from stack pressure, lattice mismatch at interfaces, and more importantly electrochemical cycling, can either enhance or suppress Li$^+$ transport in solid electrolytes, yet how it couples to the underlying diffusion mechanism in Li3YCl6 remains poorly understood. Using Li3YCl6 halide superionic conductor, we address this with large-scale molecular dynamics simulations driven by an Atomic Cluster Expansion (ACE) machine learning interatomic potential trained on first-principles data.",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用第一性原理数据训练的 ACE 势开展大规模分子动力学，发现扩散通道和应变响应随温度变化。拉伸与压缩效应来自给定模拟体系，电池实际环境仍需验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes",
+      "summary_original": "arXiv:2605.05603v2 Announce Type: replace Abstract: Solid-state batteries require electrolytes that sustain high ionic conductivity under the mechanical environment of a functioning cell. Lattice strain, arising from stack pressure, lattice mismatch at interfaces, and more importantly electrochemical cycling, can either enhance or suppress Li$^+$ transport in solid electrolytes, yet how it couples to the underlying diffusion mechanism in Li3YCl6 remains poorly understood. Using Li3YCl6 halide superionic conductor, we address this with large-scale molecular dynamics simulations driven by an Atomic Cluster Expansion (ACE) machine learning interatomic potential trained on first-principles data.",
+      "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "DeepH-2 同时编码旋转与基组等变性",
+      "url": "https://arxiv.org/abs/2401.17015",
+      "body": "arXiv:2401.17015v2 Announce Type: replace-cross Abstract: Deep learning has the potential to transform computational materials research by making electronic-structure calculations more efficient and scalable. The Hamiltonian matrix in the localized atomic-orbital basis is a promising target for deep-learning electronic structure, yet enforcing rotational equivariance can be computationally costly, and the matrix depends on the choice of basis set. Here we introduce DeepH-2, a physics-guided neural-network framework that reduces the computational cost of enforcing rotational equivariance through a local-coordinate formulation and incorporates basis equivariance by mapping a shared latent Hami",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架用局域坐标降低旋转等变计算开销，再将共享潜在哈密顿量映射到目标原子轨道基组。测试误差与迁移结果依赖训练集、材料类别及基组条件。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Universal Hamiltonian learning with rotational and basis equivariance",
+      "summary_original": "arXiv:2401.17015v2 Announce Type: replace-cross Abstract: Deep learning has the potential to transform computational materials research by making electronic-structure calculations more efficient and scalable. The Hamiltonian matrix in the localized atomic-orbital basis is a promising target for deep-learning electronic structure, yet enforcing rotational equivariance can be computationally costly, and the matrix depends on the choice of basis set. Here we introduce DeepH-2, a physics-guided neural-network framework that reduces the computational cost of enforcing rotational equivariance through a local-coordinate formulation and incorporates basis equivariance by mapping a shared latent Hami",
+      "editorial_date": "2026-11-09"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "From local learning to global electronic properties in large-scale systems",
+      "body": "arXiv:2611.09153v1 Announce Type: new Abstract: Machine learning from local atomic environments offers an efficient route to electronic structure, but evaluating global electronic properties in large systems remains computationally demanding. Here we combine real space charge density learning with stochastic propagation using Kohn-Sham Hamiltonians constructed from the predicted densities. The framework avoids target system self-consistent iterations and explicit diagonalization, while hierarchical blocking enables dense grid inference within limited GPU memory. We demonstrate density of states calculations for one million Si atoms and optical and transport calculations for over one hundred ",
+      "url": "https://arxiv.org/abs/2611.09153"
+    },
+    {
+      "title": "Physics Informed Priors for Machine Learning Interatomic Potentials with Uncertainty Quantification",
+      "body": "arXiv:2611.09325v1 Announce Type: new Abstract: Standard uncertainty quantification methods for machine learning interatomic potentials often fail to quantify the effects of model misspecification despite its prominence as a source of error. To combat this, misspecification-aware uncertainty schemes have been gaining attention, pointwise optimal parameter set regression (POPS-Regression) among them. However, no guarantees on the physicality of the posterior distribution are given and uncertainty estimates can be conservative compared to the true error. To combat this, we present a model misspecification aware scheme that builds on POPS-Regression by allowing users to specify physical priors ",
+      "url": "https://arxiv.org/abs/2611.09325"
+    },
+    {
+      "title": "Inverse design of superconductors and semiconductors with differentiable foundation models",
+      "body": "arXiv:2611.09572v1 Announce Type: new Abstract: Designing a crystal for a target property requires choosing its elements, stoichiometry, and atomic structure together, yet gradients exist only for the continuous structural variables. We introduce differentiable Equiformer fast effective-atom theory (DEFEAT), which lets a pretrained EquiformerV3 foundation model accept continuous species weights and site occupancies without retraining on fractional data, thereby enabling gradient-based materials optimization. Gradients from fine-tuned property models and a machine-learned energy penalty then guide updates to composition, atom count, atomic positions, and lattice vectors in a single optimizati",
+      "url": "https://arxiv.org/abs/2611.09572"
+    },
+    {
+      "title": "Fortuitous Cancellation of Competing Effects in the Free Energy of Water Autoionization: Long-Range Electrostatics, System Size, and Nuclear Quantum Effects",
+      "body": "arXiv:2611.08874v1 Announce Type: cross Abstract: Few molecular processes are more fundamental to chemistry than the autoionization of water, whose equilibrium constant, $K_w \\approx 10^{-14}$, underlies acid-base equilibria and the chemistry of life. Yet the molecular origins of the free energy cost of forming and separating ions remain incompletely understood. Efforts to explain it have been limited by the difficulty of modeling water reactivity in sufficient detail. Here we combine machine learning interatomic potentials (MLIPs) with spectral adaptive biasing force enhanced sampling to connect proton transfer and water wire configurations to the underlying free energy landscape. We identi",
+      "url": "https://arxiv.org/abs/2611.08874"
+    },
+    {
+      "title": "AtomMOF: All-Atom Flow Matching for MOF-Adsorbate Structure Prediction",
+      "body": "arXiv:2602.07351v3 Announce Type: replace Abstract: Metal-organic frameworks (MOFs) are promising materials for applications such as direct air capture, where performance depends on how adsorbates bind within the framework. Accurately predicting MOF-adsorbate configurations is therefore important for screening candidate materials. However, traditional approaches are computationally expensive and require a known host structure, while existing generative models rely on rigid-body assumptions and do not explicitly model adsorbates. We introduce AtomMOF, a scalable all-atom flow-matching model that jointly predicts MOF-adsorbate structures from discrete building blocks and adsorbates. Built on a",
+      "url": "https://arxiv.org/abs/2602.07351"
+    },
+    {
+      "title": "Strain-Dependent Ionic Transport in Li3YCl6 Solid Electrolytes",
+      "body": "arXiv:2605.05603v2 Announce Type: replace Abstract: Solid-state batteries require electrolytes that sustain high ionic conductivity under the mechanical environment of a functioning cell. Lattice strain, arising from stack pressure, lattice mismatch at interfaces, and more importantly electrochemical cycling, can either enhance or suppress Li$^+$ transport in solid electrolytes, yet how it couples to the underlying diffusion mechanism in Li3YCl6 remains poorly understood. Using Li3YCl6 halide superionic conductor, we address this with large-scale molecular dynamics simulations driven by an Atomic Cluster Expansion (ACE) machine learning interatomic potential trained on first-principles data.",
+      "url": "https://arxiv.org/abs/2605.05603"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-09T14:27:06.952128+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 22
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 57
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 7,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-09",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}

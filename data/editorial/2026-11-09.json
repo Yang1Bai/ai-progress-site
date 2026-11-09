@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-09",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "title": "HOPE 在专家剪枝中考虑协作关系",
+      "body": "文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "title": "WorldParticle 用统一架构模拟多类物理过程",
+      "body": "MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "title": "FLEX 帮助机器人从自然语言反馈中调整运动规划",
+      "body": "研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。"
+    },
+    {
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。"
+    },
+    {
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "title": "BioBasicsBench 评估日常湿实验数据分析能力",
+      "body": "基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。"
+    },
+    {
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "title": "开放语音识别评测新增埃及与尼日利亚英语",
+      "body": "Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。"
+    },
+    {
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit 分享 Codex 在运营与工具开发中的应用",
+      "body": "案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
+      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。"
+    },
+    {
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
+      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。"
+    },
+    {
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+      "title": "Google 研究用可穿戴传感器识别高血压迹象",
+      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。"
+    },
+    {
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
+      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。"
+    },
+    {
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "title": "OpenAI 公布计算园区社区承诺与政策建议",
+      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.09153",
+      "title": "局域电荷密度学习扩展全局电子性质计算",
+      "summary": "预印本摘要：研究结合实空间电荷密度预测与随机传播，避免目标体系的自洽迭代和显式对角化，并演示大规模硅体系的态密度及光学输运计算。尺度展示受模型、材料与计算设置限制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.09325",
+      "title": "物理先验约束原子间势的不确定性估计",
+      "summary": "预印本摘要：方案在 POPS 回归基础上允许指定物理先验，并在模型集合中施加约束，示范声子和弹性性质。适用先验需能表示为参数凸集，估计可靠性仍需结合目标任务验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.09572",
+      "title": "可微基础模型联合优化晶体组成与结构",
+      "summary": "预印本摘要：DEFEAT 引入连续元素权重和位点占据，联合优化组成、原子数与晶格，并用第一性原理计算检验部分超导体和半导体候选。预测温度与带隙存在计算方法误差，候选仍需实验验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.08874",
+      "title": "水自电离自由能中的多种效应可能相互抵消",
+      "summary": "预印本摘要：研究结合机器学习势和增强采样，分析长程静电、体系尺寸及核量子运动对离子形成分离自由能的竞争影响。结果提示评估模型时需分别检查这些贡献与采样范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.07351",
+      "title": "AtomMOF 联合预测框架与吸附质的全原子结构",
+      "summary": "预印本摘要：流匹配模型从构筑单元和吸附质生成联合构型，并用机器学习势引导与弛豫改善结构有效性。报告的匹配率和能量表现来自特定数据集，实际吸附性能仍需独立验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.05603",
+      "title": "机器学习势模拟应变对 Li3YCl6 离子输运的影响",
+      "summary": "预印本摘要：研究用第一性原理数据训练的 ACE 势开展大规模分子动力学，发现扩散通道和应变响应随温度变化。拉伸与压缩效应来自给定模拟体系，电池实际环境仍需验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.17015",
+      "title": "DeepH-2 同时编码旋转与基组等变性",
+      "summary": "预印本摘要：框架用局域坐标降低旋转等变计算开销，再将共享潜在哈密顿量映射到目标原子轨道基组。测试误差与迁移结果依赖训练集、材料类别及基组条件。"
+    }
+  ]
+}
