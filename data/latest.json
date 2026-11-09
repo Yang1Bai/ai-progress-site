@@ -2,6 +2,58 @@
   "date": "2026年11月9日",
   "news": [
     {
+      "title": "Exploring the world's languages with Language Explorer",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "body": "Natural Language Processing",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T20:29:39+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-09"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "body": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "body": "",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T15:05:57+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-09"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Introducing Control Room: Human control over AI workloads",
+      "url": "https://openai.com/index/introducing-control-room",
+      "body": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "HOPE 在专家剪枝中考虑协作关系",
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "body": "文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。",
@@ -16,6 +68,32 @@
       "title_original": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
       "body_original": "",
       "editorial_date": "2026-11-09"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "body": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "body": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal"
     },
     {
       "title": "WorldParticle 用统一架构模拟多类物理过程",
@@ -143,102 +221,6 @@
       "importance": "normal",
       "title_original": "Cult.fit builds operational muscle with Codex",
       "body_original": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "NVIDIA 扩展 Cosmos 3 交互世界仿真模型",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "body": "四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T19:35:16+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "body_original": "",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "澳大利亚高校探索 AI 工具融入学习与评估",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "body": "文章介绍临床模拟、教师培训及学生原型项目，并讨论高校制定使用框架的实践。调查反映受访学生的使用与期待，不能直接推断学习成效。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "Australian universities are creating AI-native graduates",
-      "body_original": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "Google 研究用可穿戴传感器识别高血压迹象",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-      "body": "研究探索借助消费级手表传感器和 AI 被动识别高血压风险信号。属于研究性筛查方向，实际诊断和医疗决策仍需规范血压测量及临床评估。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T16:01:08+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "Detecting signs of hypertension using wearable sensors",
-      "body_original": "Health & Bioscience",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "body": "公告介绍漏洞发现、验证与候选修复能力，并报告指定基准及授权范围遵循测试的改善。评测结果取决于测试设置，访问与使用仍受资格和授权要求约束。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T09:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "body_original": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "Merge 分享 AI 支持产品与业务工具开发的实践",
-      "url": "https://openai.com/index/merge-builds-with-openai",
-      "body": "案例介绍团队用模型和 Codex 审查代码、测试产品、开展营销与业务规划，并管理员工的工具和系统访问。成效来自企业介绍，实际应用需结合组织上下文。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "Merge builds product and business tools with OpenAI technology",
-      "body_original": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
-      "editorial_date": "2026-11-09"
-    },
-    {
-      "title": "OpenAI 公布计算园区社区承诺与政策建议",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "body": "公司发布社区公约和计算园区政策蓝图，涉及当地参与、电力成本及就业机会。承诺主要面向未来自有运营园区，实施进度仍需后续核验。",
-      "date": "2026-11-05",
-      "published_at": "2026-11-05T02:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-05"
-      ],
-      "importance": "normal",
-      "title_original": "Setting a new standard for responsible AI infrastructure",
-      "body_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
       "editorial_date": "2026-11-09"
     }
   ],
@@ -428,7 +410,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-09T14:27:06.952128+00:00",
+  "fetched_at": "2026-11-09T21:52:25.401556+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -446,13 +428,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 5
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -473,16 +455,16 @@
       "items": 57
     }
   ],
+  "editorial": {
+    "date": "2026-11-09",
+    "items_applied": 16,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 7,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-09",
-    "items_applied": 22,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }

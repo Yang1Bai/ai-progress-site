@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-09T14:28:01Z</updated>
+  <updated>2026-11-09T21:52:26Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月9日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-09.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-09.html</id>
-    <updated>2026-11-09T14:28:01Z</updated>
+    <updated>2026-11-09T21:52:26Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>Natural Language Processing…</title>
+    <link href="https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/"/>
+    <id>https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary>Natural Language Processing</summary>
+  </entry>
+  <entry>
+    <title>ChatGPT Enterprise is now available through AWS Marketplace, helping organizatio…</title>
+    <link href="https://openai.com/index/chatgpt-enterprise-aws-marketplace"/>
+    <id>https://openai.com/index/chatgpt-enterprise-aws-marketplace</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary>ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"/>
+    <id>https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Learn how OpenAI’s Control Room tracks model workloads across our research infra…</title>
+    <link href="https://openai.com/index/introducing-control-room"/>
+    <id>https://openai.com/index/introducing-control-room</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary>Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.</summary>
   </entry>
   <entry>
     <title>文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。…</title>
     <link href="https://huggingface.co/blog/amazon/higher-order-pruning-experts"/>
     <id>https://huggingface.co/blog/amazon/higher-order-pruning-experts</id>
-    <updated>2026-11-09T14:28:01Z</updated>
+    <updated>2026-11-09T21:52:26Z</updated>
     <summary>文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。</summary>
+  </entry>
+  <entry>
+    <title>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to…</title>
+    <link href="https://openai.com/index/coderabbit-codex-daybreak"/>
+    <id>https://openai.com/index/coderabbit-codex-daybreak</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</summary>
+  </entry>
+  <entry>
+    <title>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawing…</title>
+    <link href="https://openai.com/index/kuken"/>
+    <id>https://openai.com/index/kuken</id>
+    <updated>2026-11-09T21:52:26Z</updated>
+    <summary>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</summary>
   </entry>
   <entry>
     <title>MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。…</title>
     <link href="https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109"/>
     <id>https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109</id>
-    <updated>2026-11-09T14:28:01Z</updated>
+    <updated>2026-11-09T21:52:26Z</updated>
     <summary>MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。</summary>
   </entry>
   <entry>
     <title>研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。…</title>
     <link href="https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109"/>
     <id>https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109</id>
-    <updated>2026-11-09T14:28:01Z</updated>
+    <updated>2026-11-09T21:52:26Z</updated>
     <summary>研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。</summary>
   </entry>
   <entry>
     <title>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响…</title>
     <link href="https://huggingface.co/blog/allenai/toyblocks"/>
     <id>https://huggingface.co/blog/allenai/toyblocks</id>
-    <updated>2026-11-09T14:28:01Z</updated>
+    <updated>2026-11-09T21:52:26Z</updated>
     <summary>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。</summary>
-  </entry>
-  <entry>
-    <title>报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。…</title>
-    <link href="https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106"/>
-    <id>https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。</summary>
-  </entry>
-  <entry>
-    <title>公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。…</title>
-    <link href="https://openai.com/index/partnering-with-hacktron"/>
-    <id>https://openai.com/index/partnering-with-hacktron</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。</summary>
-  </entry>
-  <entry>
-    <title>基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。…</title>
-    <link href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"/>
-    <id>https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>基准包含 100 项任务，考察智能体解释原始实验数据、识别错误和判断证据是否充分的能力。结果显示图像解读、对照检查及实验情境应用仍有改进空间。</summary>
-  </entry>
-  <entry>
-    <title>Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和…</title>
-    <link href="https://huggingface.co/blog/open-asr-leaderboard-liva"/>
-    <id>https://huggingface.co/blog/open-asr-leaderboard-liva</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>Open ASR Leaderboard 与 Liva AI 合作增加两种口音的私有测试数据，以扩展代表性并减少针对公开测试集调优的影响。榜单结论仍取决于语料和任务覆盖。</summary>
-  </entry>
-  <entry>
-    <title>案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。…</title>
-    <link href="https://openai.com/index/cultfit-builds-with-codex"/>
-    <id>https://openai.com/index/cultfit-builds-with-codex</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>案例介绍工程和非工程团队用 Codex 构建内部应用，并通过 API 开发会员体验。节省成本及效率数据来自企业自报，实际收益依赖组织条件。</summary>
-  </entry>
-  <entry>
-    <title>四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试…</title>
-    <link href="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"/>
-    <id>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</id>
-    <updated>2026-11-09T14:28:01Z</updated>
-    <summary>四个开放权重检查点覆盖动作条件视觉、仿真迁移及多传感器驾驶场景，并支持连续交互研究。使用须核查 OpenMDW1.1 条款，仿真表现仍需结合实际机器人或驾驶测试。</summary>
   </entry>
 </feed>
