@@ -18,6 +18,19 @@
       "editorial_date": "2026-11-10"
     },
     {
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "body": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "教育合作报告讨论如何补齐 AI 使用指导",
       "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。",
@@ -34,6 +47,19 @@
       "editorial_date": "2026-11-10"
     },
     {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "body": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT 团队获资助研发新一代除草方案",
       "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
       "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。",
@@ -48,6 +74,32 @@
       "title_original": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
       "body_original": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
       "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "body": "",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-10"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "body": "",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-10"
+      ],
+      "importance": "normal"
     },
     {
       "title": "Language Explorer 展示全球语言多样性",
@@ -175,70 +227,6 @@
       "importance": "normal",
       "title_original": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
       "body_original": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
-      "editorial_date": "2026-11-10"
-    },
-    {
-      "title": "FLEX 帮助机器人从自然语言反馈中调整运动规划",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "body": "研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。",
-      "date": "2026-11-09",
-      "published_at": "2026-11-09T00:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-09"
-      ],
-      "importance": "normal",
-      "title_original": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "body_original": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
-      "editorial_date": "2026-11-10"
-    },
-    {
-      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。",
-      "date": "2026-11-06",
-      "published_at": "2026-11-06T14:00:48+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-06"
-      ],
-      "importance": "normal",
-      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "body_original": "",
-      "editorial_date": "2026-11-10"
-    },
-    {
-      "title": "MIT 探索少样本条件下的分子性质预测",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。",
-      "date": "2026-11-06",
-      "published_at": "2026-11-06T14:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-06"
-      ],
-      "importance": "normal",
-      "title_original": "How to predict the behavior of molecules from scant data",
-      "body_original": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
-      "editorial_date": "2026-11-10"
-    },
-    {
-      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。",
-      "date": "2026-11-06",
-      "published_at": "2026-11-06T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-06"
-      ],
-      "importance": "normal",
-      "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "body_original": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "editorial_date": "2026-11-10"
     }
   ],
@@ -512,19 +500,19 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-10T14:29:38.472562+00:00",
+  "fetched_at": "2026-11-10T19:14:29.680320+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 20
+      "items": 22
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 7
+      "items": 8
     },
     {
       "source": "MIT AI",
@@ -557,16 +545,16 @@
       "items": 103
     }
   ],
+  "editorial": {
+    "date": "2026-11-10",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 11,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-10",
-    "items_applied": 26,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
