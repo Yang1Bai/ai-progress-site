@@ -1,0 +1,572 @@
+{
+  "date": "2026年11月10日",
+  "news": [
+    {
+      "title": "OpenAI 推出照护者日常 AI 使用培训",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "body": "工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Helping caregivers use AI in everyday life",
+      "body_original": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "教育合作报告讨论如何补齐 AI 使用指导",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Closing the AI guidance gap in education",
+      "body_original": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "MIT 团队获资助研发新一代除草方案",
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "body_original": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "Language Explorer 展示全球语言多样性",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "body": "Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T20:29:39+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Exploring the world's languages with Language Explorer",
+      "body_original": "Natural Language Processing",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "ChatGPT Enterprise 扩展 AWS Marketplace 采购渠道",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "body": "企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "ChatGPT Enterprise now available in AWS Marketplace",
+      "body_original": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "NVIDIA 与 Elith 发布日本金融场景合成人物数据",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "body": "数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T15:05:57+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "body_original": "",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "Control Room 集中追踪与停止研究模型任务",
+      "url": "https://openai.com/index/control-room",
+      "body": "OpenAI 介绍已部署的研究基础设施控制系统，连接推理任务和引擎以响应安全干预。公告中的停止时延与覆盖范围对应其内部实现。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "body_original": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "HOPE 在专家剪枝中考虑协作关系",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "body": "文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T12:34:29+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "body_original": "",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "CodeRabbit 分享智能体开发与代码审核实践",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "body": "案例介绍借助模型、Codex 和 Daybreak 扩展软件开发并审查生成代码。产出提升为企业自报，实际效果依赖团队与项目条件。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "CodeRabbit scales agentic software development and ships 20x more",
+      "body_original": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "Kuken 用 AI 检索多年工程图纸",
+      "url": "https://openai.com/index/kuken",
+      "body": "案例介绍通过零件号或截图寻找替换部件原始图纸，企业报告检索时间缩短。预计年度节时和已观察检索表现需区分。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Kuken Industries searches 70 years of drawings in minutes",
+      "body_original": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "WorldParticle 用统一架构模拟多类物理过程",
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "body": "MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+      "body_original": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "FLEX 帮助机器人从自然语言反馈中调整运动规划",
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "body": "研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "AI-assisted learning platform helps robots reason beyond literal commands",
+      "body_original": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:48+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "body_original": "",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T14:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "How to predict the behavior of molecules from scant data",
+      "body_original": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。",
+      "date": "2026-11-06",
+      "published_at": "2026-11-06T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-06"
+      ],
+      "importance": "normal",
+      "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "body_original": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "editorial_date": "2026-11-10"
+    }
+  ],
+  "papers": [
+    {
+      "title": "SHAP 与 SISSO 解释杂化钙钛矿性质预测",
+      "url": "https://arxiv.org/abs/2611.09944",
+      "body": "arXiv:2611.09944v1 Announce Type: new Abstract: Accurate and interpretable property prediction is essential for exploring hybrid organic-inorganic perovskites. Here, we combine machine-learning screening with SHAP analysis and SISSO descriptor discovery. Using 4,456 compounds, optimized XGBoost models achieved test-set $R^2$ values of 0.99 for formation energy and 0.93 for band gap and were applied to over 180,000 candidates. Comparison across approximately 17,000 common compounds revealed broadly overlapping distributions from XGBoost and CGCNN but substantially lower predictions from UPET, suggesting potential limitations in its transferability to hybrid organic-inorganic perovskites. SHAP",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合 XGBoost、特征归因与符号描述符筛选形成能和带隙，并比较不同模型的预测分布。筛选结果与可解释性依赖数据覆盖及模型迁移能力。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Interpretable machine learning of formation energies and band gaps in hybrid perovskites through SHAP analysis and SISSO modelling",
+      "summary_original": "arXiv:2611.09944v1 Announce Type: new Abstract: Accurate and interpretable property prediction is essential for exploring hybrid organic-inorganic perovskites. Here, we combine machine-learning screening with SHAP analysis and SISSO descriptor discovery. Using 4,456 compounds, optimized XGBoost models achieved test-set $R^2$ values of 0.99 for formation energy and 0.93 for band gap and were applied to over 180,000 candidates. Comparison across approximately 17,000 common compounds revealed broadly overlapping distributions from XGBoost and CGCNN but substantially lower predictions from UPET, suggesting potential limitations in its transferability to hybrid organic-inorganic perovskites. SHAP",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "数据驱动修正提高低成本带隙计算的可比性",
+      "url": "https://arxiv.org/abs/2611.10889",
+      "body": "arXiv:2611.10889v1 Announce Type: new Abstract: We demonstrate that a single machine-learning correction, applied to bandgaps from density functional theory calculations with two of the most frequently used energy functionals, results in bandgaps that are close to the experimental values. This solves a classical problem of computationally efficient electronic structure methods, to give reliable bandgaps that can be compared to experiments. The employed approach relies on materials specific feature engineering of machine learning models, and is shown to have close accuracy to that of much more expensive calculations based on the GW-approximation or hybrid functionals. The findings reported he",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究对常用 DFT 泛函的带隙加入机器学习修正，并与实验值和高成本计算比较。修正效果取决于特征设计与训练材料范围。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "A data-driven approach for systematic correction of electronic bandgaps",
+      "summary_original": "arXiv:2611.10889v1 Announce Type: new Abstract: We demonstrate that a single machine-learning correction, applied to bandgaps from density functional theory calculations with two of the most frequently used energy functionals, results in bandgaps that are close to the experimental values. This solves a classical problem of computationally efficient electronic structure methods, to give reliable bandgaps that can be compared to experiments. The employed approach relies on materials specific feature engineering of machine learning models, and is shown to have close accuracy to that of much more expensive calculations based on the GW-approximation or hybrid functionals. The findings reported he",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "经验赝势网络直接预测完整电子能带",
+      "url": "https://arxiv.org/abs/2611.11070",
+      "body": "arXiv:2611.11070v1 Announce Type: new Abstract: Electronic band structures govern how crystals conduct electrons and absorb light. Density-functional theory (DFT) computes them through costly self-consistent iterations, while existing machine-learning models either predict isolated scalar properties or output Hamiltonians that still require DFT solvers. Here we present EpNet, a learned empirical pseudopotential for crystals spanning 63 elements across the \\textit{s}, \\textit{p} and \\textit{d} blocks. An equivariant neural network builds its Hamiltonian from physics-motivated local potentials and nonlocal projectors. Trained solely on band energies, EpNet predicts complete band structures dir",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：EpNet 将物理动机的局域势和非局域投影结合到等变网络，学习多元素晶体能带。摘要中部分误差数值显示为未解析宏，本摘要保留定性结论。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Learning Electronic Band Structures Across the s, p, d Blocks with an Empirical Pseudopotential Network",
+      "summary_original": "arXiv:2611.11070v1 Announce Type: new Abstract: Electronic band structures govern how crystals conduct electrons and absorb light. Density-functional theory (DFT) computes them through costly self-consistent iterations, while existing machine-learning models either predict isolated scalar properties or output Hamiltonians that still require DFT solvers. Here we present EpNet, a learned empirical pseudopotential for crystals spanning 63 elements across the \\textit{s}, \\textit{p} and \\textit{d} blocks. An equivariant neural network builds its Hamiltonian from physics-motivated local potentials and nonlocal projectors. Trained solely on band energies, EpNet predicts complete band structures dir",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "高斯核特征辅助识别高压材料相",
+      "url": "https://arxiv.org/abs/2611.12840",
+      "body": "arXiv:2611.12840v1 Announce Type: new Abstract: Phase identification is a computational task involving the classification of material structure using the positions of atoms. Using data from Molecular Dynamics (MD) simulations, our task is to identify the material phase of a set of atoms, based on how the simulations predict their positioning relative to each other. By leveraging existing research on mechanistic neural network theory, particularly Neural Tangent Kernels (NTK), we develop a new and efficient method for classifying simulated material samples. Our method involves defining a set of \"atom detectors\" that are given positions around the origin in cartesian coordinates. The sum of Ga",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法在局域原子分布上设置探测点并聚合高斯响应，再进行神经网络分类。准确性及加速比较来自模拟样本，实际结构识别仍需独立验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "High Pressure Material Phase Identification with Gaussian Kernel Neural Networks",
+      "summary_original": "arXiv:2611.12840v1 Announce Type: new Abstract: Phase identification is a computational task involving the classification of material structure using the positions of atoms. Using data from Molecular Dynamics (MD) simulations, our task is to identify the material phase of a set of atoms, based on how the simulations predict their positioning relative to each other. By leveraging existing research on mechanistic neural network theory, particularly Neural Tangent Kernels (NTK), we develop a new and efficient method for classifying simulated material samples. Our method involves defining a set of \"atom detectors\" that are given positions around the origin in cartesian coordinates. The sum of Ga",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "AJIN 从实验结果学习原子层沉积化学",
+      "url": "https://arxiv.org/abs/2611.10024",
+      "body": "arXiv:2611.10024v1 Announce Type: cross Abstract: Whether a precursor-substrate-reactant combination yields an atomic layer deposition (ALD) process is still settled by trial-and-error experiments. Here we introduce AJIN (ALD Joint Interpretable Network), a machine-learning framework that learns this decision from experimental outcomes. We compiled 560 experimentally observed ALD and area-selective ALD outcomes spanning 76 precursors, 27 substrates, 20 reactants and 25-620 degrees Celsius. Following the ALD cycle, AJIN predicts adsorption from graph-neural-network embeddings of the precursor and substrate with temperature, and deposition by adding the reactant. The best model (CHGNet-MLP) re",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究整理前驱体、衬底、反应物与温度的实验数据，分别预测吸附和沉积，并用新实验测试。对未见前驱体的迁移仍有限，适合辅助优先筛选。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Experimentally Grounded Machine Learning of PrecursorSurface-Reactant Chemistry in Atomic Layer Deposition",
+      "summary_original": "arXiv:2611.10024v1 Announce Type: cross Abstract: Whether a precursor-substrate-reactant combination yields an atomic layer deposition (ALD) process is still settled by trial-and-error experiments. Here we introduce AJIN (ALD Joint Interpretable Network), a machine-learning framework that learns this decision from experimental outcomes. We compiled 560 experimentally observed ALD and area-selective ALD outcomes spanning 76 precursors, 27 substrates, 20 reactants and 25-620 degrees Celsius. Following the ALD cycle, AJIN predicts adsorption from graph-neural-network embeddings of the precursor and substrate with temperature, and deposition by adding the reactant. The best model (CHGNet-MLP) re",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "循环神经算子逼近微结构相关非弹性本构",
+      "url": "https://arxiv.org/abs/2611.11805",
+      "body": "arXiv:2611.11805v1 Announce Type: cross Abstract: We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we prove a universal approximation theorem showing tha",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用内部变量表示加载历史，并在周期 Kelvin–Voigt 黏弹性条件下证明二维和三维一致逼近结果。理论适用假设与晶体塑性数值示例应分别理解。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
+      "summary_original": "arXiv:2611.11805v1 Announce Type: cross Abstract: We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we prove a universal approximation theorem showing tha",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "UniHam 提供含自旋轨道耦合的哈密顿量基准",
+      "url": "https://arxiv.org/abs/2611.12509",
+      "body": "arXiv:2611.12509v1 Announce Type: cross Abstract: Accurate prediction of electronic Hamiltonians would enable broad property inference while avoiding the high computational cost of Density Functional Theory (DFT). However, progress toward general-purpose materials foundation models is limited by a data bottleneck: existing Hamiltonian datasets are typically small, lack structural diversity, and often omit essential relativistic physics such as spin--orbit coupling (SOC). We therefore construct UniHam, a large-scale Hamiltonian dataset and benchmark suite comprising 100,000+ DFT-computed complex-valued Hermitian Hamiltonians with full SOC, covering 72 elements and a wide range of crystal geom",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：数据集覆盖多元素及晶体结构，并评估重构、分布外泛化和下游物性。结果强调需要同时检查谱层面表现与成分、对称性变化下的稳健性。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "UniHam: A Large-Scale SOC-Complete Dataset and Benchmark for Hamiltonian Learning in Materials",
+      "summary_original": "arXiv:2611.12509v1 Announce Type: cross Abstract: Accurate prediction of electronic Hamiltonians would enable broad property inference while avoiding the high computational cost of Density Functional Theory (DFT). However, progress toward general-purpose materials foundation models is limited by a data bottleneck: existing Hamiltonian datasets are typically small, lack structural diversity, and often omit essential relativistic physics such as spin--orbit coupling (SOC). We therefore construct UniHam, a large-scale Hamiltonian dataset and benchmark suite comprising 100,000+ DFT-computed complex-valued Hermitian Hamiltonians with full SOC, covering 72 elements and a wide range of crystal geom",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "沿弛豫轨迹微调原子间势可能改善最终结构",
+      "url": "https://arxiv.org/abs/2512.01067",
+      "body": "arXiv:2512.01067v3 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) are commonly trained and evaluated by their ability to reproduce first-principles energies and forces. Practical value, however, is often determined by downstream processes such as structural relaxation. Much of MLIP literature is motivated by the expectation that improving force accuracy will produce correspondingly better downstream behavior. Although this expectation is natural, it may not hold in practice due to model inaccuracies. Here, we demonstrate that force accuracy and relaxation accuracy can be driven in opposite directions. Starting from pretrained MLIPs, we differentiate through ",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究对完整弛豫轨迹求导并优化终态结构，观察到结构误差改善可伴随力误差增加。任务收益涉及物理保真度取舍，不能仅用单一指标评价。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Worse Forces Can Lead to Better Structures: Trajectory-Level Fine-Tuning of Machine Learning Interatomic Potentials",
+      "summary_original": "arXiv:2512.01067v3 Announce Type: replace Abstract: Machine learning interatomic potentials (MLIPs) are commonly trained and evaluated by their ability to reproduce first-principles energies and forces. Practical value, however, is often determined by downstream processes such as structural relaxation. Much of MLIP literature is motivated by the expectation that improving force accuracy will produce correspondingly better downstream behavior. Although this expectation is natural, it may not hold in practice due to model inaccuracies. Here, we demonstrate that force accuracy and relaxation accuracy can be driven in opposite directions. Starting from pretrained MLIPs, we differentiate through ",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "Paimon 整合原子模拟的智能体工作流",
+      "url": "https://arxiv.org/abs/2606.09422",
+      "body": "arXiv:2606.09422v4 Announce Type: replace Abstract: Traditionally, atomistic simulation has been constrained by the computational scaling limits of ab initio methods and the parameterization overhead of empirical force fields. The recent emergence of universal machine learning interatomic potentials has significantly mitigated these bottlenecks, offering near-quantum accuracy and generalizability across diverse chemical spaces at a fraction of the computational cost. However, this shift has relocated the bottleneck to the human dimension: time-consuming mechanical processes, such as input preparation and data analysis, now dominate the research lifecycle. We introduce Paimon, a Platform for ",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架连接输入准备、模拟与分析，并在液态电解质任务中测试减少物理上错误却表面合理的结果。所报告可靠性依赖测试任务与验证机制。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "An Extensible Agentic Framework for Expert-Level Automation of Atomistic Simulations",
+      "summary_original": "arXiv:2606.09422v4 Announce Type: replace Abstract: Traditionally, atomistic simulation has been constrained by the computational scaling limits of ab initio methods and the parameterization overhead of empirical force fields. The recent emergence of universal machine learning interatomic potentials has significantly mitigated these bottlenecks, offering near-quantum accuracy and generalizability across diverse chemical spaces at a fraction of the computational cost. However, this shift has relocated the bottleneck to the human dimension: time-consuming mechanical processes, such as input preparation and data analysis, now dominate the research lifecycle. We introduce Paimon, a Platform for ",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "QT-Net 强调原子环境分布外评估",
+      "url": "https://arxiv.org/abs/2605.10458",
+      "body": "arXiv:2605.10458v2 Announce Type: replace-cross Abstract: Atomic properties such as partial charges or multipoles encode chemically meaningful information that can inform downstream molecular property prediction, but their evaluation as machine learning targets has been complicated by the absence of a principled out-of-distribution evaluation protocol at the atomic level. In this work, we propose a held-out evaluation protocol that clusters atomic environments by SOAP descriptors and computes metrics accounting only for cluster labels unseen during training. Following this procedure, we use 5$\\times$5 cross-validation and Tukey's HSD to run a statistically rigorous comparison of E(3)-equivar",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究按 SOAP 特征聚类并保留未见环境，统计比较原子电荷与多极矩预测模型。训练环境覆盖会影响分子下游任务，评估需明确划分方式。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "QT-Net: Rethinking Evaluation of AI Models in Atomic Chemical Space",
+      "summary_original": "arXiv:2605.10458v2 Announce Type: replace-cross Abstract: Atomic properties such as partial charges or multipoles encode chemically meaningful information that can inform downstream molecular property prediction, but their evaluation as machine learning targets has been complicated by the absence of a principled out-of-distribution evaluation protocol at the atomic level. In this work, we propose a held-out evaluation protocol that clusters atomic environments by SOAP descriptors and computes metrics accounting only for cluster labels unseen during training. Following this procedure, we use 5$\\times$5 cross-validation and Tukey's HSD to run a statistically rigorous comparison of E(3)-equivar",
+      "editorial_date": "2026-11-10"
+    },
+    {
+      "title": "基于几何分片的多尺度聚合物性质表示",
+      "url": "https://arxiv.org/abs/2611.07998",
+      "body": "arXiv:2611.07998v2 Announce Type: replace-cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of mult",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究将分子分片表述为半径约束优化问题，探索由几何决定子结构的多尺度表示，以改善聚合物性质预测。对新化学体系的泛化仍需独立检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
+      "summary_original": "arXiv:2611.07998v2 Announce Type: replace-cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of mult",
+      "editorial_date": "2026-11-10"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Interpretable machine learning of formation energies and band gaps in hybrid perovskites through SHAP analysis and SISSO modelling",
+      "body": "arXiv:2611.09944v1 Announce Type: new Abstract: Accurate and interpretable property prediction is essential for exploring hybrid organic-inorganic perovskites. Here, we combine machine-learning screening with SHAP analysis and SISSO descriptor discovery. Using 4,456 compounds, optimized XGBoost models achieved test-set $R^2$ values of 0.99 for formation energy and 0.93 for band gap and were applied to over 180,000 candidates. Comparison across approximately 17,000 common compounds revealed broadly overlapping distributions from XGBoost and CGCNN but substantially lower predictions from UPET, suggesting potential limitations in its transferability to hybrid organic-inorganic perovskites. SHAP",
+      "url": "https://arxiv.org/abs/2611.09944"
+    },
+    {
+      "title": "A data-driven approach for systematic correction of electronic bandgaps",
+      "body": "arXiv:2611.10889v1 Announce Type: new Abstract: We demonstrate that a single machine-learning correction, applied to bandgaps from density functional theory calculations with two of the most frequently used energy functionals, results in bandgaps that are close to the experimental values. This solves a classical problem of computationally efficient electronic structure methods, to give reliable bandgaps that can be compared to experiments. The employed approach relies on materials specific feature engineering of machine learning models, and is shown to have close accuracy to that of much more expensive calculations based on the GW-approximation or hybrid functionals. The findings reported he",
+      "url": "https://arxiv.org/abs/2611.10889"
+    },
+    {
+      "title": "Learning Electronic Band Structures Across the s, p, d Blocks with an Empirical Pseudopotential Network",
+      "body": "arXiv:2611.11070v1 Announce Type: new Abstract: Electronic band structures govern how crystals conduct electrons and absorb light. Density-functional theory (DFT) computes them through costly self-consistent iterations, while existing machine-learning models either predict isolated scalar properties or output Hamiltonians that still require DFT solvers. Here we present EpNet, a learned empirical pseudopotential for crystals spanning 63 elements across the \\textit{s}, \\textit{p} and \\textit{d} blocks. An equivariant neural network builds its Hamiltonian from physics-motivated local potentials and nonlocal projectors. Trained solely on band energies, EpNet predicts complete band structures dir",
+      "url": "https://arxiv.org/abs/2611.11070"
+    },
+    {
+      "title": "High Pressure Material Phase Identification with Gaussian Kernel Neural Networks",
+      "body": "arXiv:2611.12840v1 Announce Type: new Abstract: Phase identification is a computational task involving the classification of material structure using the positions of atoms. Using data from Molecular Dynamics (MD) simulations, our task is to identify the material phase of a set of atoms, based on how the simulations predict their positioning relative to each other. By leveraging existing research on mechanistic neural network theory, particularly Neural Tangent Kernels (NTK), we develop a new and efficient method for classifying simulated material samples. Our method involves defining a set of \"atom detectors\" that are given positions around the origin in cartesian coordinates. The sum of Ga",
+      "url": "https://arxiv.org/abs/2611.12840"
+    },
+    {
+      "title": "Experimentally Grounded Machine Learning of PrecursorSurface-Reactant Chemistry in Atomic Layer Deposition",
+      "body": "arXiv:2611.10024v1 Announce Type: cross Abstract: Whether a precursor-substrate-reactant combination yields an atomic layer deposition (ALD) process is still settled by trial-and-error experiments. Here we introduce AJIN (ALD Joint Interpretable Network), a machine-learning framework that learns this decision from experimental outcomes. We compiled 560 experimentally observed ALD and area-selective ALD outcomes spanning 76 precursors, 27 substrates, 20 reactants and 25-620 degrees Celsius. Following the ALD cycle, AJIN predicts adsorption from graph-neural-network embeddings of the precursor and substrate with temperature, and deposition by adding the reactant. The best model (CHGNet-MLP) re",
+      "url": "https://arxiv.org/abs/2611.10024"
+    },
+    {
+      "title": "Operator Learning of Microstructure-Dependent Internal-Variable Models for Inelastic Homogenization: Approximation and Complexity",
+      "body": "arXiv:2611.11805v1 Announce Type: cross Abstract: We study the learning of homogenized constitutive laws for inelastic heterogeneous materials, aiming to replace costly concurrent unit-cell simulations with surrogates that generalize across loading histories and microstructures. We focus on the recurrent neural operator framework, motivated by the explicit form of homogenized Kelvin--Voigt linear viscoelasticity. In this framework, internal variables enable a Markovian approximation of loading-history dependence, and neural operators represent the microstructure-dependent constitutive response. For periodic Kelvin--Voigt viscoelasticity, we prove a universal approximation theorem showing tha",
+      "url": "https://arxiv.org/abs/2611.11805"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-10T14:29:38.472562+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 20
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 103
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 11,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-10",
+    "items_applied": 26,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}

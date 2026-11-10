@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-10",
+  "news": [
+    {
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "title": "OpenAI 推出照护者日常 AI 使用培训",
+      "body": "工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。"
+    },
+    {
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "教育合作报告讨论如何补齐 AI 使用指导",
+      "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "title": "MIT 团队获资助研发新一代除草方案",
+      "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。"
+    },
+    {
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "title": "Language Explorer 展示全球语言多样性",
+      "body": "Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise 扩展 AWS Marketplace 采购渠道",
+      "body": "企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "title": "NVIDIA 与 Elith 发布日本金融场景合成人物数据",
+      "body": "数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。"
+    },
+    {
+      "url": "https://openai.com/index/control-room",
+      "title": "Control Room 集中追踪与停止研究模型任务",
+      "body": "OpenAI 介绍已部署的研究基础设施控制系统，连接推理任务和引擎以响应安全干预。公告中的停止时延与覆盖范围对应其内部实现。"
+    },
+    {
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "title": "HOPE 在专家剪枝中考虑协作关系",
+      "body": "文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。"
+    },
+    {
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "title": "CodeRabbit 分享智能体开发与代码审核实践",
+      "body": "案例介绍借助模型、Codex 和 Daybreak 扩展软件开发并审查生成代码。产出提升为企业自报，实际效果依赖团队与项目条件。"
+    },
+    {
+      "url": "https://openai.com/index/kuken",
+      "title": "Kuken 用 AI 检索多年工程图纸",
+      "body": "案例介绍通过零件号或截图寻找替换部件原始图纸，企业报告检索时间缩短。预计年度节时和已观察检索表现需区分。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+      "title": "WorldParticle 用统一架构模拟多类物理过程",
+      "body": "MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "title": "FLEX 帮助机器人从自然语言反馈中调整运动规划",
+      "body": "研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "title": "ToyBlocks 提供可控的机器人学习与评估环境",
+      "body": "Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "title": "MIT 探索少样本条件下的分子性质预测",
+      "body": "报道介绍在目标性质数据较少时辅助筛选候选分子的方法，涉及潜在药物靶点的配体亲和力等任务。结果依赖所测数据与性质，候选仍需计算和实验检验。"
+    },
+    {
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "title": "OpenAI 与 Hacktron 合作寻找系统漏洞",
+      "body": "公告介绍与独立安全研究团队合作发现和报告弱点，并指向漏洞赏金计划的授权范围。合作成果与修复状态需按具体发现分别核验。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.09944",
+      "title": "SHAP 与 SISSO 解释杂化钙钛矿性质预测",
+      "summary": "预印本摘要：研究结合 XGBoost、特征归因与符号描述符筛选形成能和带隙，并比较不同模型的预测分布。筛选结果与可解释性依赖数据覆盖及模型迁移能力。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.10889",
+      "title": "数据驱动修正提高低成本带隙计算的可比性",
+      "summary": "预印本摘要：研究对常用 DFT 泛函的带隙加入机器学习修正，并与实验值和高成本计算比较。修正效果取决于特征设计与训练材料范围。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.11070",
+      "title": "经验赝势网络直接预测完整电子能带",
+      "summary": "预印本摘要：EpNet 将物理动机的局域势和非局域投影结合到等变网络，学习多元素晶体能带。摘要中部分误差数值显示为未解析宏，本摘要保留定性结论。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12840",
+      "title": "高斯核特征辅助识别高压材料相",
+      "summary": "预印本摘要：方法在局域原子分布上设置探测点并聚合高斯响应，再进行神经网络分类。准确性及加速比较来自模拟样本，实际结构识别仍需独立验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.10024",
+      "title": "AJIN 从实验结果学习原子层沉积化学",
+      "summary": "预印本摘要：研究整理前驱体、衬底、反应物与温度的实验数据，分别预测吸附和沉积，并用新实验测试。对未见前驱体的迁移仍有限，适合辅助优先筛选。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.11805",
+      "title": "循环神经算子逼近微结构相关非弹性本构",
+      "summary": "预印本摘要：研究用内部变量表示加载历史，并在周期 Kelvin–Voigt 黏弹性条件下证明二维和三维一致逼近结果。理论适用假设与晶体塑性数值示例应分别理解。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.12509",
+      "title": "UniHam 提供含自旋轨道耦合的哈密顿量基准",
+      "summary": "预印本摘要：数据集覆盖多元素及晶体结构，并评估重构、分布外泛化和下游物性。结果强调需要同时检查谱层面表现与成分、对称性变化下的稳健性。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.01067",
+      "title": "沿弛豫轨迹微调原子间势可能改善最终结构",
+      "summary": "预印本摘要：研究对完整弛豫轨迹求导并优化终态结构，观察到结构误差改善可伴随力误差增加。任务收益涉及物理保真度取舍，不能仅用单一指标评价。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.09422",
+      "title": "Paimon 整合原子模拟的智能体工作流",
+      "summary": "预印本摘要：框架连接输入准备、模拟与分析，并在液态电解质任务中测试减少物理上错误却表面合理的结果。所报告可靠性依赖测试任务与验证机制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.10458",
+      "title": "QT-Net 强调原子环境分布外评估",
+      "summary": "预印本摘要：研究按 SOAP 特征聚类并保留未见环境，统计比较原子电荷与多极矩预测模型。训练环境覆盖会影响分子下游任务，评估需明确划分方式。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07998",
+      "title": "基于几何分片的多尺度聚合物性质表示",
+      "summary": "预印本摘要：研究将分子分片表述为半径约束优化问题，探索由几何决定子结构的多尺度表示，以改善聚合物性质预测。对新化学体系的泛化仍需独立检验。"
+    }
+  ]
+}

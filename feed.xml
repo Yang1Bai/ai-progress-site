@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-09T21:52:26Z</updated>
+  <updated>2026-11-10T15:32:56Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月9日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-09.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-09.html</id>
-    <updated>2026-11-09T21:52:26Z</updated>
+    <title>每日汇总 2026年11月10日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-10.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-10.html</id>
+    <updated>2026-11-10T15:32:56Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Natural Language Processing…</title>
+    <title>工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。…</title>
+    <link href="https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"/>
+    <id>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</id>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。</summary>
+  </entry>
+  <entry>
+    <title>文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。…</title>
+    <link href="https://openai.com/index/closing-ai-guidance-gap-education"/>
+    <id>https://openai.com/index/closing-ai-guidance-gap-education</id>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。</summary>
+  </entry>
+  <entry>
+    <title>ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。…</title>
+    <link href="https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110"/>
+    <id>https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110</id>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。</summary>
+  </entry>
+  <entry>
+    <title>Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。…</title>
     <link href="https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/"/>
     <id>https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>Natural Language Processing</summary>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。</summary>
   </entry>
   <entry>
-    <title>ChatGPT Enterprise is now available through AWS Marketplace, helping organizatio…</title>
+    <title>企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。…</title>
     <link href="https://openai.com/index/chatgpt-enterprise-aws-marketplace"/>
     <id>https://openai.com/index/chatgpt-enterprise-aws-marketplace</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.</summary>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。…</title>
     <link href="https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"/>
     <id>https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary></summary>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。</summary>
   </entry>
   <entry>
-    <title>Learn how OpenAI’s Control Room tracks model workloads across our research infra…</title>
-    <link href="https://openai.com/index/introducing-control-room"/>
-    <id>https://openai.com/index/introducing-control-room</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.</summary>
+    <title>OpenAI 介绍已部署的研究基础设施控制系统，连接推理任务和引擎以响应安全干预。公告中的停止时延与覆盖范围对应其内部实现。…</title>
+    <link href="https://openai.com/index/control-room"/>
+    <id>https://openai.com/index/control-room</id>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>OpenAI 介绍已部署的研究基础设施控制系统，连接推理任务和引擎以响应安全干预。公告中的停止时延与覆盖范围对应其内部实现。</summary>
   </entry>
   <entry>
     <title>文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。…</title>
     <link href="https://huggingface.co/blog/amazon/higher-order-pruning-experts"/>
     <id>https://huggingface.co/blog/amazon/higher-order-pruning-experts</id>
-    <updated>2026-11-09T21:52:26Z</updated>
+    <updated>2026-11-10T15:32:56Z</updated>
     <summary>文章讨论混合专家模型推理时的显存占用，并提出在剪枝时考虑专家之间的联合贡献。效果依赖校准数据和模型结构，压缩后的任务表现需单独评估。</summary>
   </entry>
   <entry>
-    <title>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to…</title>
+    <title>案例介绍借助模型、Codex 和 Daybreak 扩展软件开发并审查生成代码。产出提升为企业自报，实际效果依赖团队与项目条件。…</title>
     <link href="https://openai.com/index/coderabbit-codex-daybreak"/>
     <id>https://openai.com/index/coderabbit-codex-daybreak</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</summary>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>案例介绍借助模型、Codex 和 Daybreak 扩展软件开发并审查生成代码。产出提升为企业自报，实际效果依赖团队与项目条件。</summary>
   </entry>
   <entry>
-    <title>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawing…</title>
+    <title>案例介绍通过零件号或截图寻找替换部件原始图纸，企业报告检索时间缩短。预计年度节时和已观察检索表现需区分。…</title>
     <link href="https://openai.com/index/kuken"/>
     <id>https://openai.com/index/kuken</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</summary>
-  </entry>
-  <entry>
-    <title>MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。…</title>
-    <link href="https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109"/>
-    <id>https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>MIT、UBC 等团队介绍将不同物理现象纳入单一深度学习系统的方法，涵盖颗粒、流体及分子等场景。跨现象建模能力仍需按具体体系与耦合条件验证。</summary>
-  </entry>
-  <entry>
-    <title>研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。…</title>
-    <link href="https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109"/>
-    <id>https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>研究以特征编辑流程将对话指令转化为更一般的规划偏好，并在多个仿真场景演示。实际机器人部署与复杂环境泛化仍需进一步评估。</summary>
-  </entry>
-  <entry>
-    <title>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响…</title>
-    <link href="https://huggingface.co/blog/allenai/toyblocks"/>
-    <id>https://huggingface.co/blog/allenai/toyblocks</id>
-    <updated>2026-11-09T21:52:26Z</updated>
-    <summary>Allen AI 介绍 FoundationWorlds 框架，将模拟世界、自动任务与示范生成和行为指标结合。ToyBlocks 用于研究数据与模型设计如何影响学习，结果取决于受控仿真条件。</summary>
+    <updated>2026-11-10T15:32:56Z</updated>
+    <summary>案例介绍通过零件号或截图寻找替换部件原始图纸，企业报告检索时间缩短。预计年度节时和已观察检索表现需区分。</summary>
   </entry>
 </feed>
