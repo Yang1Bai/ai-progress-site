@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-11",
+  "news": [
+    {
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "title": "OpenAI 回顾面向退役军人的 Plus 支持计划",
+      "body": "公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。"
+    },
+    {
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "title": "BotPsy 探索小于十亿参数的端侧智能体",
+      "body": "模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。"
+    },
+    {
+      "url": "https://huggingface.co/blog/token-pooling",
+      "title": "池化感知训练压缩多向量检索表示",
+      "body": "文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。"
+    },
+    {
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "title": "OpenAI 推出照护者日常 AI 使用培训",
+      "body": "工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "title": "ChatGPT 推出企业资料与商业智能体测试版",
+      "body": "Business Hub 支持符合条件的企业认领和维护资料、查看互动信息。Business Agents 初期面向美国部分电商与在线服务企业，资格和可用范围需逐项确认。"
+    },
+    {
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "title": "教育合作报告讨论如何补齐 AI 使用指导",
+      "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。"
+    },
+    {
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "title": "新加坡航空分享 AI 客服与员工工具实践",
+      "body": "案例介绍客服机器人、旅行发现和内部平台的应用，并报告满意度及处理时间变化。指标来自企业案例，实际效果依赖使用场景。"
+    },
+    {
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "title": "OpenAI 与 Upwork 研究自由职业需求变化",
+      "body": "研究讨论平台需求、技能组合及 AI 相关项目预算的变化。平台观察有样本和时间范围，不能直接外推为整个劳动力市场的因果结论。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "title": "MIT 团队获资助研发新一代除草方案",
+      "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。"
+    },
+    {
+      "url": "https://openai.com/index/cogent-security",
+      "title": "Cogent 将企业上下文与权限控制接入安全修复",
+      "body": "案例介绍智能体从风险调查到获准修改及验证修复的工作流。效率改善来自企业介绍，具体修复仍需结合目标系统和审核机制。"
+    },
+    {
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "title": "Hugging Face Hub 支持通过 Google Cloud 结算",
+      "body": "组织管理员可经 Google Cloud Marketplace 关联账户，将符合条件的 Hub 使用纳入云账单。服务范围、合同与计费条件应按订阅确认。"
+    },
+    {
+      "url": "https://huggingface.co/blog/decision",
+      "title": "Hugging Face 介绍返回选项概率的决策模型",
+      "body": "模型根据上下文对预定义选项给出结构化选择及概率，适用于路由与分类等任务。概率是否校准及任务适用性仍需独立测试。"
+    },
+    {
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "title": "Language Explorer 展示全球语言多样性",
+      "body": "Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。"
+    },
+    {
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "title": "ChatGPT Enterprise 扩展 AWS Marketplace 采购渠道",
+      "body": "企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "title": "NVIDIA 与 Elith 发布日本金融场景合成人物数据",
+      "body": "数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2607.20681",
+      "title": "神经网络势描述 NiTi 马氏体有限温行为",
+      "summary": "预印本摘要：研究以 DFT 数据训练并验证结构、弹性、层错与振动性质，再模拟温度依赖结构演化。结果受参考泛函和训练构型覆盖限制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02948",
+      "title": "FrOGS 跨化学条件采样合金构型",
+      "summary": "预印本摘要：方法联合自回归模型与连续时间马尔可夫链，学习独立构型采样并估计配分函数和热力学量。估计性质和适用条件需按论文设定检验。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.02126",
+      "title": "贝叶斯优化加速材料表征图像反演",
+      "summary": "预印本摘要：方法利用图像匹配目标的复合结构与局部摘要，优化电子衍射图像中的厚度和晶体倾角等参数。效率取决于模拟器、表示及目标条件。"
+    }
+  ]
+}

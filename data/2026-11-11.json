@@ -1,0 +1,389 @@
+{
+  "date": "2026年11月11日",
+  "news": [
+    {
+      "title": "OpenAI 回顾面向退役军人的 Plus 支持计划",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "body": "公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "title_original": "ChatGPT Plus for veterans and servicemembers",
+      "body_original": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "BotPsy 探索小于十亿参数的端侧智能体",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "body": "模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T05:01:16+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "title_original": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "body_original": "",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "池化感知训练压缩多向量检索表示",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "body": "文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "title_original": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "body_original": "",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "OpenAI 推出照护者日常 AI 使用培训",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "body": "工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Helping caregivers use AI in everyday life",
+      "body_original": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "ChatGPT 推出企业资料与商业智能体测试版",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "body": "Business Hub 支持符合条件的企业认领和维护资料、查看互动信息。Business Agents 初期面向美国部分电商与在线服务企业，资格和可用范围需逐项确认。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing Businesses in ChatGPT",
+      "body_original": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "教育合作报告讨论如何补齐 AI 使用指导",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Closing the AI guidance gap in education",
+      "body_original": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "新加坡航空分享 AI 客服与员工工具实践",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "body": "案例介绍客服机器人、旅行发现和内部平台的应用，并报告满意度及处理时间变化。指标来自企业案例，实际效果依赖使用场景。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "body_original": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "OpenAI 与 Upwork 研究自由职业需求变化",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "body": "研究讨论平台需求、技能组合及 AI 相关项目预算的变化。平台观察有样本和时间范围，不能直接外推为整个劳动力市场的因果结论。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T07:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Work at the Frontier: AI’s effect on freelance work",
+      "body_original": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "MIT 团队获资助研发新一代除草方案",
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "body_original": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "Cogent 将企业上下文与权限控制接入安全修复",
+      "url": "https://openai.com/index/cogent-security",
+      "body": "案例介绍智能体从风险调查到获准修改及验证修复的工作流。效率改善来自企业介绍，具体修复仍需结合目标系统和审核机制。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "body_original": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "Hugging Face Hub 支持通过 Google Cloud 结算",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "body": "组织管理员可经 Google Cloud Marketplace 关联账户，将符合条件的 Hub 使用纳入云账单。服务范围、合同与计费条件应按订阅确认。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "body_original": "",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "Hugging Face 介绍返回选项概率的决策模型",
+      "url": "https://huggingface.co/blog/decision",
+      "body": "模型根据上下文对预定义选项给出结构化选择及概率，适用于路由与分类等任务。概率是否校准及任务适用性仍需独立测试。",
+      "date": "2026-11-10",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-10"
+      ],
+      "importance": "normal",
+      "title_original": "Decision Models in Hugging Face",
+      "body_original": "",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "Language Explorer 展示全球语言多样性",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+      "body": "Google 介绍通过可视化和数据探索世界语言的在线工具，并讨论与语言社区合作的重要性。资料覆盖与产品支持范围需按具体语言核查。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T20:29:39+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Exploring the world's languages with Language Explorer",
+      "body_original": "Natural Language Processing",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "ChatGPT Enterprise 扩展 AWS Marketplace 采购渠道",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "body": "企业可通过 AWS 账户购买并管理相关软件支出。公告介绍采购安排，具体合同、服务可用性和资格仍需按客户条件确认。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T19:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "ChatGPT Enterprise now available in AWS Marketplace",
+      "body_original": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "NVIDIA 与 Elith 发布日本金融场景合成人物数据",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "body": "数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。",
+      "date": "2026-11-09",
+      "published_at": "2026-11-09T15:05:57+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-09"
+      ],
+      "importance": "normal",
+      "title_original": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "body_original": "",
+      "editorial_date": "2026-11-11"
+    }
+  ],
+  "papers": [
+    {
+      "title": "神经网络势描述 NiTi 马氏体有限温行为",
+      "url": "https://arxiv.org/abs/2607.20681",
+      "body": "arXiv:2607.20681v2 Announce Type: replace Abstract: We present a high-dimensional neural network potential (HDNNP) for the martensitic phase of the NiTi shape-memory alloy trained to density functional theory (DFT) data. A central aspect of this work is the systematic validation of the potential with respect to the underlying DFT reference method for key properties governing structural evolution, including equilibrium crystal structures, elastic constants, generalized-stacking fault energies, and vibrational spectra. The HDNNP accurately describes the relative stability of the B19$^\\prime$ and B33 phases, including subtle energy differences on the order of meV/atom. The predicted stacking-fa",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究以 DFT 数据训练并验证结构、弹性、层错与振动性质，再模拟温度依赖结构演化。结果受参考泛函和训练构型覆盖限制。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "A high-dimensional neural network potential for finite-temperature phenomena in NiTi martensite",
+      "summary_original": "arXiv:2607.20681v2 Announce Type: replace Abstract: We present a high-dimensional neural network potential (HDNNP) for the martensitic phase of the NiTi shape-memory alloy trained to density functional theory (DFT) data. A central aspect of this work is the systematic validation of the potential with respect to the underlying DFT reference method for key properties governing structural evolution, including equilibrium crystal structures, elastic constants, generalized-stacking fault energies, and vibrational spectra. The HDNNP accurately describes the relative stability of the B19$^\\prime$ and B33 phases, including subtle energy differences on the order of meV/atom. The predicted stacking-fa",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "FrOGS 跨化学条件采样合金构型",
+      "url": "https://arxiv.org/abs/2609.02948",
+      "body": "arXiv:2609.02948v3 Announce Type: replace Abstract: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a common absolute scale. Markov chain Monte Carlo (MCMC) is the standard tool, but it requires separate simulations at different conditions, and auxiliary free-energy methods such as thermodynamic integration are used to place results on a common absolute scale. Modern discrete neural samplers typically use reverse KL divergence as the objective and can be mode-seeking or biased. We present Free energy Offering Generative Sampler (FrOGS), a hybrid discrete neural sampler that couples an aut",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法联合自回归模型与连续时间马尔可夫链，学习独立构型采样并估计配分函数和热力学量。估计性质和适用条件需按论文设定检验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions",
+      "summary_original": "arXiv:2609.02948v3 Announce Type: replace Abstract: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a common absolute scale. Markov chain Monte Carlo (MCMC) is the standard tool, but it requires separate simulations at different conditions, and auxiliary free-energy methods such as thermodynamic integration are used to place results on a common absolute scale. Modern discrete neural samplers typically use reverse KL divergence as the objective and can be mode-seeking or biased. We present Free energy Offering Generative Sampler (FrOGS), a hybrid discrete neural sampler that couples an aut",
+      "editorial_date": "2026-11-11"
+    },
+    {
+      "title": "贝叶斯优化加速材料表征图像反演",
+      "url": "https://arxiv.org/abs/2609.02126",
+      "body": "arXiv:2609.02126v2 Announce Type: replace-cross Abstract: Estimating physical parameters from scientific images is a common inverse problem in materials characterization that often relies on expensive physics-based simulations. In electron microscopy, specimen thickness and crystal mistilt are critical parameters that govern how electrons scatter through the sample, and therefore the accuracy of any atomic-scale structure recovered from it. They are commonly inferred by matching experimental position-averaged convergent-beam electron diffraction (PACBED) patterns to simulated ones, but grid searches scale poorly and neural-network methods require extensive pretraining that may not transfer t",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-11"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法利用图像匹配目标的复合结构与局部摘要，优化电子衍射图像中的厚度和晶体倾角等参数。效率取决于模拟器、表示及目标条件。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+      "summary_original": "arXiv:2609.02126v2 Announce Type: replace-cross Abstract: Estimating physical parameters from scientific images is a common inverse problem in materials characterization that often relies on expensive physics-based simulations. In electron microscopy, specimen thickness and crystal mistilt are critical parameters that govern how electrons scatter through the sample, and therefore the accuracy of any atomic-scale structure recovered from it. They are commonly inferred by matching experimental position-averaged convergent-beam electron diffraction (PACBED) patterns to simulated ones, but grid searches scale poorly and neural-network methods require extensive pretraining that may not transfer t",
+      "editorial_date": "2026-11-11"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "A high-dimensional neural network potential for finite-temperature phenomena in NiTi martensite",
+      "body": "arXiv:2607.20681v2 Announce Type: replace Abstract: We present a high-dimensional neural network potential (HDNNP) for the martensitic phase of the NiTi shape-memory alloy trained to density functional theory (DFT) data. A central aspect of this work is the systematic validation of the potential with respect to the underlying DFT reference method for key properties governing structural evolution, including equilibrium crystal structures, elastic constants, generalized-stacking fault energies, and vibrational spectra. The HDNNP accurately describes the relative stability of the B19$^\\prime$ and B33 phases, including subtle energy differences on the order of meV/atom. The predicted stacking-fa",
+      "url": "https://arxiv.org/abs/2607.20681"
+    },
+    {
+      "title": "FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions",
+      "body": "arXiv:2609.02948v3 Announce Type: replace Abstract: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a common absolute scale. Markov chain Monte Carlo (MCMC) is the standard tool, but it requires separate simulations at different conditions, and auxiliary free-energy methods such as thermodynamic integration are used to place results on a common absolute scale. Modern discrete neural samplers typically use reverse KL divergence as the objective and can be mode-seeking or biased. We present Free energy Offering Generative Sampler (FrOGS), a hybrid discrete neural sampler that couples an aut",
+      "url": "https://arxiv.org/abs/2609.02948"
+    },
+    {
+      "title": "Scalable Bayesian Optimization of Composite Functions for Image-Based Inverse Problems in Materials Characterization",
+      "body": "arXiv:2609.02126v2 Announce Type: replace-cross Abstract: Estimating physical parameters from scientific images is a common inverse problem in materials characterization that often relies on expensive physics-based simulations. In electron microscopy, specimen thickness and crystal mistilt are critical parameters that govern how electrons scatter through the sample, and therefore the accuracy of any atomic-scale structure recovered from it. They are commonly inferred by matching experimental position-averaged convergent-beam electron diffraction (PACBED) patterns to simulated ones, but grid searches scale poorly and neural-network methods require extensive pretraining that may not transfer t",
+      "url": "https://arxiv.org/abs/2609.02126"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-11T15:26:24.909565+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 20
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 43
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 3,
+    "leader_count": 0,
+    "science_count": 3
+  },
+  "editorial": {
+    "date": "2026-11-11",
+    "items_applied": 18,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
