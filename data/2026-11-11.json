@@ -34,6 +34,19 @@
       "editorial_date": "2026-11-11"
     },
     {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "body": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "date": "2026-11-11",
+      "published_at": "2026-11-11T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-11"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "池化感知训练压缩多向量检索表示",
       "url": "https://huggingface.co/blog/token-pooling",
       "body": "文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。",
@@ -224,22 +237,6 @@
       "title_original": "ChatGPT Enterprise now available in AWS Marketplace",
       "body_original": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
       "editorial_date": "2026-11-11"
-    },
-    {
-      "title": "NVIDIA 与 Elith 发布日本金融场景合成人物数据",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "body": "数据结合官方人口统计、家庭金融与金融素养信息生成合成人物，用于金融 AI 场景研究。合成样本仍需检验分布偏差及具体任务适用性。",
-      "date": "2026-11-09",
-      "published_at": "2026-11-09T15:05:57+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-09"
-      ],
-      "importance": "normal",
-      "title_original": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "body_original": "",
-      "editorial_date": "2026-11-11"
     }
   ],
   "papers": [
@@ -329,19 +326,19 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-11T15:26:24.909565+00:00",
+  "fetched_at": "2026-11-11T19:10:40.567659+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 20
+      "items": 21
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "MIT AI",
@@ -353,7 +350,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -374,16 +371,16 @@
       "items": 43
     }
   ],
+  "editorial": {
+    "date": "2026-11-11",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 3,
     "leader_count": 0,
     "science_count": 3
-  },
-  "editorial": {
-    "date": "2026-11-11",
-    "items_applied": 18,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
