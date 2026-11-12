@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-11T19:10:41Z</updated>
+  <updated>2026-11-12T14:12:39Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月11日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-11.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-11.html</id>
-    <updated>2026-11-11T19:10:41Z</updated>
+    <title>每日汇总 2026年11月12日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-12.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-12.html</id>
+    <updated>2026-11-12T14:12:39Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。…</title>
+    <link href="https://openai.com/business/customer-stories/holidays-extras-codex"/>
+    <id>https://openai.com/business/customer-stories/holidays-extras-codex</id>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。</summary>
+  </entry>
+  <entry>
+    <title>方法旨在以较少训练数据改善快速气候模拟器的性能和适应性，支持多情景分析。预测可靠性仍需按区域、干预方式及训练覆盖检验。…</title>
+    <link href="https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112"/>
+    <id>https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112</id>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>方法旨在以较少训练数据改善快速气候模拟器的性能和适应性，支持多情景分析。预测可靠性仍需按区域、干预方式及训练覆盖检验。</summary>
+  </entry>
+  <entry>
+    <title>公告讨论建设儿童安全和发展相关证据，支持适龄保护、家长工具及风险评估等方向。研究与政策倡议的落实仍需后续跟踪。…</title>
+    <link href="https://openai.com/index/children-first-declaration"/>
+    <id>https://openai.com/index/children-first-declaration</id>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>公告讨论建设儿童安全和发展相关证据，支持适龄保护、家长工具及风险评估等方向。研究与政策倡议的落实仍需后续跟踪。</summary>
+  </entry>
+  <entry>
+    <title>Sam Nickless 访谈回顾从试验到个人及组织生产力的应用历程，并讨论领导支持和采用文化。观点和案例指标来自企业经验。…</title>
+    <link href="https://openai.com/index/gilbert-tobin-sam-nickless"/>
+    <id>https://openai.com/index/gilbert-tobin-sam-nickless</id>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>Sam Nickless 访谈回顾从试验到个人及组织生产力的应用历程，并讨论领导支持和采用文化。观点和案例指标来自企业经验。</summary>
+  </entry>
+  <entry>
+    <title>研究性框架将被动传感信号转化为可干预健康指标，并模拟十二周习惯变化情景，扩展结合血液标志物。模型情景输出与实际临床效果需分别验证。…</title>
+    <link href="https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/"/>
+    <id>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</id>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>研究性框架将被动传感信号转化为可干预健康指标，并模拟十二周习惯变化情景，扩展结合血液标志物。模型情景输出与实际临床效果需分别验证。</summary>
   </entry>
   <entry>
     <title>公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。…</title>
     <link href="https://openai.com/index/chatgpt-plus-for-veterans"/>
     <id>https://openai.com/index/chatgpt-plus-for-veterans</id>
-    <updated>2026-11-11T19:10:41Z</updated>
+    <updated>2026-11-12T14:12:39Z</updated>
     <summary>公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。</summary>
   </entry>
   <entry>
     <title>模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。…</title>
     <link href="https://huggingface.co/blog/qvac/botpsy"/>
     <id>https://huggingface.co/blog/qvac/botpsy</id>
-    <updated>2026-11-11T19:10:41Z</updated>
+    <updated>2026-11-12T14:12:39Z</updated>
     <summary>模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。</summary>
   </entry>
   <entry>
-    <title>JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his less…</title>
+    <title>首席架构师访谈讨论产品落地、技术权衡及生产评估，并回顾小团队开发过程。经验受平台规模和业务环境影响。…</title>
     <link href="https://openai.com/index/jiostar-vijay-seshadri"/>
     <id>https://openai.com/index/jiostar-vijay-seshadri</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.</summary>
+    <updated>2026-11-12T14:12:39Z</updated>
+    <summary>首席架构师访谈讨论产品落地、技术权衡及生产评估，并回顾小团队开发过程。经验受平台规模和业务环境影响。</summary>
   </entry>
   <entry>
     <title>文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。…</title>
     <link href="https://huggingface.co/blog/token-pooling"/>
     <id>https://huggingface.co/blog/token-pooling</id>
-    <updated>2026-11-11T19:10:41Z</updated>
+    <updated>2026-11-12T14:12:39Z</updated>
     <summary>文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。</summary>
   </entry>
   <entry>
     <title>工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。…</title>
     <link href="https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"/>
     <id>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</id>
-    <updated>2026-11-11T19:10:41Z</updated>
+    <updated>2026-11-12T14:12:39Z</updated>
     <summary>工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。</summary>
-  </entry>
-  <entry>
-    <title>Business Hub 支持符合条件的企业认领和维护资料、查看互动信息。Business Agents 初期面向美国部分电商与在线服务企业，资格和可用范围需逐…</title>
-    <link href="https://openai.com/index/introducing-businesses-chatgpt"/>
-    <id>https://openai.com/index/introducing-businesses-chatgpt</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>Business Hub 支持符合条件的企业认领和维护资料、查看互动信息。Business Agents 初期面向美国部分电商与在线服务企业，资格和可用范围需逐项确认。</summary>
-  </entry>
-  <entry>
-    <title>文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。…</title>
-    <link href="https://openai.com/index/closing-ai-guidance-gap-education"/>
-    <id>https://openai.com/index/closing-ai-guidance-gap-education</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。</summary>
-  </entry>
-  <entry>
-    <title>案例介绍客服机器人、旅行发现和内部平台的应用，并报告满意度及处理时间变化。指标来自企业案例，实际效果依赖使用场景。…</title>
-    <link href="https://openai.com/index/singapore-airlines-travel-work"/>
-    <id>https://openai.com/index/singapore-airlines-travel-work</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>案例介绍客服机器人、旅行发现和内部平台的应用，并报告满意度及处理时间变化。指标来自企业案例，实际效果依赖使用场景。</summary>
-  </entry>
-  <entry>
-    <title>研究讨论平台需求、技能组合及 AI 相关项目预算的变化。平台观察有样本和时间范围，不能直接外推为整个劳动力市场的因果结论。…</title>
-    <link href="https://openai.com/index/ai-effect-on-freelance-work"/>
-    <id>https://openai.com/index/ai-effect-on-freelance-work</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>研究讨论平台需求、技能组合及 AI 相关项目预算的变化。平台观察有样本和时间范围，不能直接外推为整个劳动力市场的因果结论。</summary>
-  </entry>
-  <entry>
-    <title>ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。…</title>
-    <link href="https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110"/>
-    <id>https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110</id>
-    <updated>2026-11-11T19:10:41Z</updated>
-    <summary>ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。</summary>
   </entry>
 </feed>
