@@ -2,6 +2,19 @@
   "date": "2026年11月12日",
   "news": [
     {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "body": "",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T19:07:35+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-12"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "Holiday Extras 分享 Codex 支持应用重建的实践",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "body": "案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。",
@@ -64,6 +77,19 @@
       "title_original": "Gilbert + Tobin rethinks the business of law with AI",
       "body_original": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "editorial_date": "2026-11-12"
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "body": "",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-12"
+      ],
+      "importance": "normal"
     },
     {
       "title": "Google 探索可穿戴信号辅助 CKM 风险画像",
@@ -208,38 +234,6 @@
       "title_original": "Singapore Airlines elevates travel & work with OpenAI technology",
       "body_original": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
       "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "OpenAI 与 Upwork 研究自由职业需求变化",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "body": "研究讨论平台需求、技能组合及 AI 相关项目预算的变化。平台观察有样本和时间范围，不能直接外推为整个劳动力市场的因果结论。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T07:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "Work at the Frontier: AI’s effect on freelance work",
-      "body_original": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "MIT 团队获资助研发新一代除草方案",
-      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-      "body": "ARPA-H 项目支持团队探索兼顾农业需求与健康保护的除草替代方案。报道描述研发目标与资金安排，产品效果及安全性仍需后续验证。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T00:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-      "body_original": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-      "editorial_date": "2026-11-12"
     }
   ],
   "papers": [],
@@ -249,19 +243,19 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-11-12T14:11:53.862256+00:00",
+  "fetched_at": "2026-11-12T19:28:07.621897+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 19
+      "items": 18
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 8
+      "items": 10
     },
     {
       "source": "MIT AI",
@@ -273,7 +267,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -294,16 +288,16 @@
       "items": 0
     }
   ],
+  "editorial": {
+    "date": "2026-11-12",
+    "items_applied": 13,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
-  },
-  "editorial": {
-    "date": "2026-11-12",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
