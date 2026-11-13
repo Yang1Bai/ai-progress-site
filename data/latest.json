@@ -1,6 +1,97 @@
 {
-  "date": "2026年11月12日",
+  "date": "2026年11月13日",
   "news": [
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "body": "",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T18:00:39+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "body": "",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T17:02:35+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "body": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T15:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "body": "",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T14:05:22+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "New AI “copilot” helps engineers design better structures",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "body": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Helping robots fit into the human workplace",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "body": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-13"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "body": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T20:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-12"
+      ],
+      "importance": "normal"
+    },
     {
       "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
@@ -15,9 +106,35 @@
       "importance": "normal"
     },
     {
-      "title": "Holiday Extras 分享 Codex 支持应用重建的实践",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "body": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T16:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-12"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "body": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-12"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "body": "案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。",
+      "body": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T09:30:00+00:00",
       "source": "OpenAI",
@@ -25,15 +142,12 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Holiday Extras is rethinking what it can build with Codex",
-      "body_original": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "editorial_date": "2026-11-12"
+      "importance": "normal"
     },
     {
-      "title": "MIT 研究减少气候模拟器训练的数据需求",
+      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
       "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-      "body": "方法旨在以较少训练数据改善快速气候模拟器的性能和适应性，支持多情景分析。预测可靠性仍需按区域、干预方式及训练覆盖检验。",
+      "body": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T00:00:00-05:00",
       "source": "MIT AI",
@@ -41,15 +155,12 @@
         "MIT AI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "New research could lead to faster, trustworthy AI models for climate prediction",
-      "body_original": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
-      "editorial_date": "2026-11-12"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 支持 AI 与儿童安全研究",
+      "title": "Supporting research on AI and children’s safety",
       "url": "https://openai.com/index/children-first-declaration",
-      "body": "公告讨论建设儿童安全和发展相关证据，支持适龄保护、家长工具及风险评估等方向。研究与政策倡议的落实仍需后续跟踪。",
+      "body": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T00:00:00+00:00",
       "source": "OpenAI",
@@ -57,15 +168,12 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Supporting research on AI and children’s safety",
-      "body_original": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "editorial_date": "2026-11-12"
+      "importance": "normal"
     },
     {
-      "title": "Gilbert + Tobin 讨论 AI 对律所业务的影响",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "body": "Sam Nickless 访谈回顾从试验到个人及组织生产力的应用历程，并讨论领导支持和采用文化。观点和案例指标来自企业经验。",
+      "body": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T00:00:00+00:00",
       "source": "OpenAI",
@@ -73,10 +181,7 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Gilbert + Tobin rethinks the business of law with AI",
-      "body_original": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "editorial_date": "2026-11-12"
+      "importance": "normal"
     },
     {
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
@@ -90,160 +195,264 @@
         "2026-11-12"
       ],
       "importance": "normal"
-    },
-    {
-      "title": "Google 探索可穿戴信号辅助 CKM 风险画像",
-      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
-      "body": "研究性框架将被动传感信号转化为可干预健康指标，并模拟十二周习惯变化情景，扩展结合血液标志物。模型情景输出与实际临床效果需分别验证。",
-      "date": "2026-11-11",
-      "published_at": "2026-11-11T19:54:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-11-11"
-      ],
-      "importance": "normal",
-      "title_original": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-      "body_original": "Health & Bioscience",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "OpenAI 回顾面向退役军人的 Plus 支持计划",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "body": "公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。",
-      "date": "2026-11-11",
-      "published_at": "2026-11-11T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-11"
-      ],
-      "importance": "normal",
-      "title_original": "ChatGPT Plus for veterans and servicemembers",
-      "body_original": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "BotPsy 探索小于十亿参数的端侧智能体",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "body": "模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。",
-      "date": "2026-11-11",
-      "published_at": "2026-11-11T05:01:16+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-11"
-      ],
-      "importance": "normal",
-      "title_original": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "body_original": "",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "JioStar 分享大规模内容发现中的 AI 架构经验",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri",
-      "body": "首席架构师访谈讨论产品落地、技术权衡及生产评估，并回顾小团队开发过程。经验受平台规模和业务环境影响。",
-      "date": "2026-11-11",
-      "published_at": "2026-11-11T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-11"
-      ],
-      "importance": "normal",
-      "title_original": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "body_original": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "池化感知训练压缩多向量检索表示",
-      "url": "https://huggingface.co/blog/token-pooling",
-      "body": "文章让编码器在训练时适应词元向量合并，以改善相同存储预算下的检索质量。报告的压缩与保留率来自特定模型和 NanoBEIR 评估。",
-      "date": "2026-11-11",
-      "published_at": "2026-11-11T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-11"
-      ],
-      "importance": "normal",
-      "title_original": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "body_original": "",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "OpenAI 推出照护者日常 AI 使用培训",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "body": "工作坊介绍照护日程、资源检索和通俗资料整理等用途，并强调隐私及专业咨询边界。公告描述支持计划，实际帮助效果需随实施评估。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "Helping caregivers use AI in everyday life",
-      "body_original": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "ChatGPT 推出企业资料与商业智能体测试版",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "body": "Business Hub 支持符合条件的企业认领和维护资料、查看互动信息。Business Agents 初期面向美国部分电商与在线服务企业，资格和可用范围需逐项确认。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing Businesses in ChatGPT",
-      "body_original": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "教育合作报告讨论如何补齐 AI 使用指导",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "body": "文章总结欧洲、中东和非洲教育合作中的教师准备、AI 素养及地方支持经验。调查与国家案例有各自范围，不能直接推断普遍学习收益。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T09:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "Closing the AI guidance gap in education",
-      "body_original": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
-      "editorial_date": "2026-11-12"
-    },
-    {
-      "title": "新加坡航空分享 AI 客服与员工工具实践",
-      "url": "https://openai.com/index/singapore-airlines-travel-work",
-      "body": "案例介绍客服机器人、旅行发现和内部平台的应用，并报告满意度及处理时间变化。指标来自企业案例，实际效果依赖使用场景。",
-      "date": "2026-11-10",
-      "published_at": "2026-11-10T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-10"
-      ],
-      "importance": "normal",
-      "title_original": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "body_original": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
-      "editorial_date": "2026-11-12"
     }
   ],
-  "papers": [],
+  "papers": [
+    {
+      "title": "Materials research with a general-purpose agent",
+      "url": "https://arxiv.org/abs/2611.15451",
+      "body": "arXiv:2611.15451v1 Announce Type: new Abstract: Over the last decade we have built Alexandria, an open database of about 15 million density-functional calculations of crystals. It includes PBE, PBEsol, SCAN and TB-mBJ results, structures relaxed at pressures up to 150 GPa, dielectric tensors and about 145,000 electron-phonon calculations, together with more than 400 million structures relaxed with machine-learned potentials. On these data we trained a generative model for crystal structures, a universal interatomic potential and graph neural networks for more than ten properties, from band gaps to superconducting critical temperatures. From the convex hull we computed a reaction graph of the",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.15451v1 Announce Type: new Abstract: Over the last decade we have built Alexandria, an open database of about 15 million density-functional calculations of crystals. It includes PBE, PBEsol, SCAN and TB-mBJ results, structures relaxed at pressures up to 150 GPa, dielectric tensors and about 145,000 electron-phonon calculations, together with more than 400 million structures relaxed with machine-learned potentials. On these data we trained a generative model for crystal structures, a universal interatomic potential and graph neural networks for more than ten properties, from band gaps to superconducting critical temperatures. From the convex hull we computed a reaction graph of the",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Brute-force molecular dynamics simulation of aging in amorphous Ge$_2$Sb$_2$Te$_5$",
+      "url": "https://arxiv.org/abs/2611.15664",
+      "body": "arXiv:2611.15664v1 Announce Type: new Abstract: Chalcogenide alloys such as the prototypical Ge$_2$Sb$_2$Te$_5$ compound are used in phase change electronic memories due to their ability to undergo a fast and reversible transition between the amorphous and crystalline phases upon heating. The amorphous phase is subject to aging that leads to an increase in the electrical resistance, which is detrimental to the operation of the devices. Using a machine learning interatomic potential, we have investigated the structural relaxations responsible for aging in amorphous Ge$_2$Sb$_2$Te$_5$ in molecular dynamics simulations at temperatures slightly below the glass transition. The aging simulation, l",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.15664v1 Announce Type: new Abstract: Chalcogenide alloys such as the prototypical Ge$_2$Sb$_2$Te$_5$ compound are used in phase change electronic memories due to their ability to undergo a fast and reversible transition between the amorphous and crystalline phases upon heating. The amorphous phase is subject to aging that leads to an increase in the electrical resistance, which is detrimental to the operation of the devices. Using a machine learning interatomic potential, we have investigated the structural relaxations responsible for aging in amorphous Ge$_2$Sb$_2$Te$_5$ in molecular dynamics simulations at temperatures slightly below the glass transition. The aging simulation, l",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Uncertainty Aware AFM-IR Hyperspectral Cube Reconstruction via Convolutional-Attentive Conditional Neural Processes",
+      "url": "https://arxiv.org/abs/2611.16118",
+      "body": "arXiv:2611.16118v1 Announce Type: new Abstract: Atomic force microscopy-infrared spectroscopy (AFM-IR) maps chemical composition at nanoscale spatial resolution, but the time required to acquire individual spectra limits hyperspectral imaging. Here, we introduce a convolutional-attentive conditional neural process (CACNP), a neural process architecture for reconstructing AFM-IR hyperspectral cubes from sparsely sampled spectra and a small set of structure images, each acquired at a selected wavenumber. The model is trained entirely on synthetic cubes generated from experimental infrared spectra and predicts both spectral intensities and their associated uncertainty. Validation on experimenta",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.16118v1 Announce Type: new Abstract: Atomic force microscopy-infrared spectroscopy (AFM-IR) maps chemical composition at nanoscale spatial resolution, but the time required to acquire individual spectra limits hyperspectral imaging. Here, we introduce a convolutional-attentive conditional neural process (CACNP), a neural process architecture for reconstructing AFM-IR hyperspectral cubes from sparsely sampled spectra and a small set of structure images, each acquired at a selected wavenumber. The model is trained entirely on synthetic cubes generated from experimental infrared spectra and predicts both spectral intensities and their associated uncertainty. Validation on experimenta",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Multi-reference variational states resolve stripe selection and local $d$-wave pairing in the Hubbard model",
+      "url": "https://arxiv.org/abs/2611.16430",
+      "body": "arXiv:2611.16430v1 Announce Type: new Abstract: Whether stripes compete with $d$-wave superconductivity or promote pairing through fluctuations remains unsettled in the two-dimensional Hubbard model. Using multi-reference neural variational auxiliary-field quantum Monte Carlo (MR-nVAFQMC) at $U/t=8$, we superpose unpaired Slater determinants across stripe periods and domain-wall positions, reaching variational energies competitive with leading benchmarks on periodic lattices up to $32\\times32$ sites. For cuprate next-nearest-neighbor hopping ($t'/t=-0.2$), diagonal hopping preserves electron-doped antiferromagnetism while kinetically frustrating hole motion into Yamada stripes with a dome of",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.16430v1 Announce Type: new Abstract: Whether stripes compete with $d$-wave superconductivity or promote pairing through fluctuations remains unsettled in the two-dimensional Hubbard model. Using multi-reference neural variational auxiliary-field quantum Monte Carlo (MR-nVAFQMC) at $U/t=8$, we superpose unpaired Slater determinants across stripe periods and domain-wall positions, reaching variational energies competitive with leading benchmarks on periodic lattices up to $32\\times32$ sites. For cuprate next-nearest-neighbor hopping ($t'/t=-0.2$), diagonal hopping preserves electron-doped antiferromagnetism while kinetically frustrating hole motion into Yamada stripes with a dome of",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Systematic Evaluation of Training Data Generation Strategies for Machine Learning-Based Molecular and Materials Property Prediction",
+      "url": "https://arxiv.org/abs/2611.16792",
+      "body": "arXiv:2611.16792v1 Announce Type: new Abstract: Machine-learning (ML) models for molecular and materials property prediction are often trained on large datasets curated through arbitrary or generic sampling strategies. Such approaches can lead to the over- or under-representation of regions of chemical and materials space that are most relevant to the prediction task. An important challenge is therefore how to efficiently curate training data to maximize predictive performance while minimising the number of labelled examples required. Here, we systematically compare training data acquisition strategies for molecular and materials property prediction, ranging from random sampling to various a",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.16792v1 Announce Type: new Abstract: Machine-learning (ML) models for molecular and materials property prediction are often trained on large datasets curated through arbitrary or generic sampling strategies. Such approaches can lead to the over- or under-representation of regions of chemical and materials space that are most relevant to the prediction task. An important challenge is therefore how to efficiently curate training data to maximize predictive performance while minimising the number of labelled examples required. Here, we systematically compare training data acquisition strategies for molecular and materials property prediction, ranging from random sampling to various a",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Distilling an atomistic foundation model is all you need for large-scale molecular dynamics of semiconductor interfaces",
+      "url": "https://arxiv.org/abs/2611.14948",
+      "body": "arXiv:2611.14948v1 Announce Type: cross Abstract: State-of-the-art atomistic foundation models provide broadly transferable energy and force predictions, but their direct deployment in large-scale molecular dynamics remains computationally costly. Here we examine whether their knowledge can be distilled into compact potentials while retaining the physical responses of heterogeneous semiconductor interfaces. From 128 pretrained models spanning 22 model families, we select a fixed EquiformerV3 teacher and train atomic cluster expansion (ACE) and neuroevolution potential (NEP) students without target-specific teacher fine-tuning, with both simulation speed and accessible system size improved by",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.14948v1 Announce Type: cross Abstract: State-of-the-art atomistic foundation models provide broadly transferable energy and force predictions, but their direct deployment in large-scale molecular dynamics remains computationally costly. Here we examine whether their knowledge can be distilled into compact potentials while retaining the physical responses of heterogeneous semiconductor interfaces. From 128 pretrained models spanning 22 model families, we select a fixed EquiformerV3 teacher and train atomic cluster expansion (ACE) and neuroevolution potential (NEP) students without target-specific teacher fine-tuning, with both simulation speed and accessible system size improved by",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Are Scaling Laws of Universal MLIPs Universal?",
+      "url": "https://arxiv.org/abs/2611.15603",
+      "body": "arXiv:2611.15603v1 Announce Type: cross Abstract: Neural scaling laws enable the prediction of returns from larger training datasets, but machine-learned interatomic potential (MLIP) datasets are heterogeneous and expensive to generate, and equal numbers of structures need not contain equal amounts of useful information. We study data scaling under fixed model configurations for M3GNet, MACE, and PET trained on subsets of a combined MatPES-MP-ALOE training pool. Across training structure subsets from 10,000 to 640,000, together with the full 1.16-million-structure training set, we compare uniform random sampling, three chemistry- and structure-informed stratification policies, iterative DIRE",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.15603v1 Announce Type: cross Abstract: Neural scaling laws enable the prediction of returns from larger training datasets, but machine-learned interatomic potential (MLIP) datasets are heterogeneous and expensive to generate, and equal numbers of structures need not contain equal amounts of useful information. We study data scaling under fixed model configurations for M3GNet, MACE, and PET trained on subsets of a combined MatPES-MP-ALOE training pool. Across training structure subsets from 10,000 to 640,000, together with the full 1.16-million-structure training set, we compare uniform random sampling, three chemistry- and structure-informed stratification policies, iterative DIRE",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Machine-accelerated extraction of experimental superconducting parameters for physical insight and prediction across thousands of materials",
+      "url": "https://arxiv.org/abs/2611.15627",
+      "body": "arXiv:2611.15627v1 Announce Type: cross Abstract: New superconductors could unlock next-generation technologies from nuclear fusion to lossless electronics. Machine learning can predict candidate superconductors but lacks validated experimental training data beyond the critical temperature. Here we present AutoSuperCon, a database of eight superconducting parameters, containing 20354 entries for 6793 superconductors. The data were extracted from over 47000 arXiv preprints using a large language model and validated against reference datasets ($R^2 = 0.96$ with NIMS SuperCon). Using AutoSuperCon, we show that median gap ratios rise from 3.6 in conventional superconductors to 6.4 in cuprates, 2",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.15627v1 Announce Type: cross Abstract: New superconductors could unlock next-generation technologies from nuclear fusion to lossless electronics. Machine learning can predict candidate superconductors but lacks validated experimental training data beyond the critical temperature. Here we present AutoSuperCon, a database of eight superconducting parameters, containing 20354 entries for 6793 superconductors. The data were extracted from over 47000 arXiv preprints using a large language model and validated against reference datasets ($R^2 = 0.96$ with NIMS SuperCon). Using AutoSuperCon, we show that median gap ratios rise from 3.6 in conventional superconductors to 6.4 in cuprates, 2",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Atomistic simulations of electrochemical systems with machine learning potentials",
+      "url": "https://arxiv.org/abs/2611.15939",
+      "body": "arXiv:2611.15939v1 Announce Type: cross Abstract: Modern machine learning potentials (MLPs) enable large-scale atomistic simulations at unprecedented accuracy. The incorporation of explicit physical interactions such as long-range electrostatics has continuously broadened their applicability to increasingly complex systems in chemistry and materials science. Extending MLPs to electrochemistry and electrocatalysis, however, is still challenging as it requires the consideration of electrode potentials and electric fields in the atomic interactions. Such approaches have emerged only recently, and although the field is evolving rapidly, further conceptual advances are still needed for carrying o",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.15939v1 Announce Type: cross Abstract: Modern machine learning potentials (MLPs) enable large-scale atomistic simulations at unprecedented accuracy. The incorporation of explicit physical interactions such as long-range electrostatics has continuously broadened their applicability to increasingly complex systems in chemistry and materials science. Extending MLPs to electrochemistry and electrocatalysis, however, is still challenging as it requires the consideration of electrode potentials and electric fields in the atomic interactions. Such approaches have emerged only recently, and although the field is evolving rapidly, further conceptual advances are still needed for carrying o",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "Quantum Material Generation via Coherent Hamiltonian Search",
+      "url": "https://arxiv.org/abs/2611.16016",
+      "body": "arXiv:2611.16016v1 Announce Type: cross Abstract: Discovering new materials with targeted properties is a central goal of materials science, yet the space of candidates is vast. Data-driven generative models learn the distribution of known materials, but they extrapolate poorly, and a generated structure is not known to be stable. A material's properties follow from its Hamiltonian, and a quantum computer can calculate them from it. We introduce the quantum material generative algorithm (QMage), a coherent search, guided by the Hamiltonian, over crystalline configurations of atomic composition, unit cell structure, and atomic positions, for one whose calculated properties meet the targets to",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2611.16016v1 Announce Type: cross Abstract: Discovering new materials with targeted properties is a central goal of materials science, yet the space of candidates is vast. Data-driven generative models learn the distribution of known materials, but they extrapolate poorly, and a generated structure is not known to be stable. A material's properties follow from its Hamiltonian, and a quantum computer can calculate them from it. We introduce the quantum material generative algorithm (QMage), a coherent search, guided by the Hamiltonian, over crystalline configurations of atomic composition, unit cell structure, and atomic positions, for one whose calculated properties meet the targets to",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions",
+      "url": "https://arxiv.org/abs/2609.02948",
+      "body": "arXiv:2609.02948v4 Announce Type: replace Abstract: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a common absolute scale. Markov chain Monte Carlo (MCMC) is the standard tool, but it requires separate simulations at different conditions, and auxiliary free-energy methods such as thermodynamic integration are used to place results on a common absolute scale. Modern discrete neural samplers typically use reverse KL divergence as the objective and can be mode-seeking or biased. We present Free energy Offering Generative Sampler (FrOGS), a hybrid discrete neural sampler that couples an aut",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2609.02948v4 Announce Type: replace Abstract: Predicting the thermodynamic properties of an alloy requires sampling its configurations across many chemical conditions and recovering free energies on a common absolute scale. Markov chain Monte Carlo (MCMC) is the standard tool, but it requires separate simulations at different conditions, and auxiliary free-energy methods such as thermodynamic integration are used to place results on a common absolute scale. Modern discrete neural samplers typically use reverse KL divergence as the objective and can be mode-seeking or biased. We present Free energy Offering Generative Sampler (FrOGS), a hybrid discrete neural sampler that couples an aut",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    },
+    {
+      "title": "From Accurate Quantum Chemistry to Converged Thermodynamics for Ion Pairing in Solution",
+      "url": "https://arxiv.org/abs/2603.06800",
+      "body": "arXiv:2603.06800v2 Announce Type: replace-cross Abstract: Quantitative prediction of thermodynamic properties in solution is essential for translating atomistic simulations into reliable chemical insight. As an exemplar system, the behaviour of CaCO$_3$ in water has been widely studied to understand its mineralization in seawater, with potential implications for carbon-capture strategies. However, making accurate computational predictions has been a long-standing challenge, requiring both highly accurate electronic structure methods and extensive statistical sampling. Here, we combine advances in machine learning and electronic structure theory to fully resolve the ion pairing free energy of",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "arXiv:2603.06800v2 Announce Type: replace-cross Abstract: Quantitative prediction of thermodynamic properties in solution is essential for translating atomistic simulations into reliable chemical insight. As an exemplar system, the behaviour of CaCO$_3$ in water has been widely studied to understand its mineralization in seawater, with potential implications for carbon-capture strategies. However, making accurate computational predictions has been a long-standing challenge, requiring both highly accurate electronic structure methods and extensive statistical sampling. Here, we combine advances in machine learning and electronic structure theory to fully resolve the ion pairing free energy of",
+      "authors": "作者见原文",
+      "is_week_pick": false
+    }
+  ],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [],
+  "science": [
+    {
+      "title": "Materials research with a general-purpose agent",
+      "body": "arXiv:2611.15451v1 Announce Type: new Abstract: Over the last decade we have built Alexandria, an open database of about 15 million density-functional calculations of crystals. It includes PBE, PBEsol, SCAN and TB-mBJ results, structures relaxed at pressures up to 150 GPa, dielectric tensors and about 145,000 electron-phonon calculations, together with more than 400 million structures relaxed with machine-learned potentials. On these data we trained a generative model for crystal structures, a universal interatomic potential and graph neural networks for more than ten properties, from band gaps to superconducting critical temperatures. From the convex hull we computed a reaction graph of the",
+      "url": "https://arxiv.org/abs/2611.15451"
+    },
+    {
+      "title": "Brute-force molecular dynamics simulation of aging in amorphous Ge$_2$Sb$_2$Te$_5$",
+      "body": "arXiv:2611.15664v1 Announce Type: new Abstract: Chalcogenide alloys such as the prototypical Ge$_2$Sb$_2$Te$_5$ compound are used in phase change electronic memories due to their ability to undergo a fast and reversible transition between the amorphous and crystalline phases upon heating. The amorphous phase is subject to aging that leads to an increase in the electrical resistance, which is detrimental to the operation of the devices. Using a machine learning interatomic potential, we have investigated the structural relaxations responsible for aging in amorphous Ge$_2$Sb$_2$Te$_5$ in molecular dynamics simulations at temperatures slightly below the glass transition. The aging simulation, l",
+      "url": "https://arxiv.org/abs/2611.15664"
+    },
+    {
+      "title": "Uncertainty Aware AFM-IR Hyperspectral Cube Reconstruction via Convolutional-Attentive Conditional Neural Processes",
+      "body": "arXiv:2611.16118v1 Announce Type: new Abstract: Atomic force microscopy-infrared spectroscopy (AFM-IR) maps chemical composition at nanoscale spatial resolution, but the time required to acquire individual spectra limits hyperspectral imaging. Here, we introduce a convolutional-attentive conditional neural process (CACNP), a neural process architecture for reconstructing AFM-IR hyperspectral cubes from sparsely sampled spectra and a small set of structure images, each acquired at a selected wavenumber. The model is trained entirely on synthetic cubes generated from experimental infrared spectra and predicts both spectral intensities and their associated uncertainty. Validation on experimenta",
+      "url": "https://arxiv.org/abs/2611.16118"
+    },
+    {
+      "title": "Multi-reference variational states resolve stripe selection and local $d$-wave pairing in the Hubbard model",
+      "body": "arXiv:2611.16430v1 Announce Type: new Abstract: Whether stripes compete with $d$-wave superconductivity or promote pairing through fluctuations remains unsettled in the two-dimensional Hubbard model. Using multi-reference neural variational auxiliary-field quantum Monte Carlo (MR-nVAFQMC) at $U/t=8$, we superpose unpaired Slater determinants across stripe periods and domain-wall positions, reaching variational energies competitive with leading benchmarks on periodic lattices up to $32\\times32$ sites. For cuprate next-nearest-neighbor hopping ($t'/t=-0.2$), diagonal hopping preserves electron-doped antiferromagnetism while kinetically frustrating hole motion into Yamada stripes with a dome of",
+      "url": "https://arxiv.org/abs/2611.16430"
+    },
+    {
+      "title": "Systematic Evaluation of Training Data Generation Strategies for Machine Learning-Based Molecular and Materials Property Prediction",
+      "body": "arXiv:2611.16792v1 Announce Type: new Abstract: Machine-learning (ML) models for molecular and materials property prediction are often trained on large datasets curated through arbitrary or generic sampling strategies. Such approaches can lead to the over- or under-representation of regions of chemical and materials space that are most relevant to the prediction task. An important challenge is therefore how to efficiently curate training data to maximize predictive performance while minimising the number of labelled examples required. Here, we systematically compare training data acquisition strategies for molecular and materials property prediction, ranging from random sampling to various a",
+      "url": "https://arxiv.org/abs/2611.16792"
+    },
+    {
+      "title": "Distilling an atomistic foundation model is all you need for large-scale molecular dynamics of semiconductor interfaces",
+      "body": "arXiv:2611.14948v1 Announce Type: cross Abstract: State-of-the-art atomistic foundation models provide broadly transferable energy and force predictions, but their direct deployment in large-scale molecular dynamics remains computationally costly. Here we examine whether their knowledge can be distilled into compact potentials while retaining the physical responses of heterogeneous semiconductor interfaces. From 128 pretrained models spanning 22 model families, we select a fixed EquiformerV3 teacher and train atomic cluster expansion (ACE) and neuroevolution potential (NEP) students without target-specific teacher fine-tuning, with both simulation speed and accessible system size improved by",
+      "url": "https://arxiv.org/abs/2611.14948"
+    }
+  ],
   "content_mode": "public",
-  "fetched_at": "2026-11-12T19:28:07.621897+00:00",
+  "fetched_at": "2026-11-13T19:06:58.650245+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -261,7 +470,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 5
+      "items": 7
     },
     {
       "source": "Google Research",
@@ -285,19 +494,13 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 0
+      "items": 104
     }
   ],
-  "editorial": {
-    "date": "2026-11-12",
-    "items_applied": 13,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 0,
+    "paper_count": 12,
     "leader_count": 0,
-    "science_count": 0
+    "science_count": 6
   }
 }

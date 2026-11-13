@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-12T19:28:09Z</updated>
+  <updated>2026-11-13T19:06:59Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月12日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-12.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-12.html</id>
-    <updated>2026-11-12T19:28:09Z</updated>
+    <title>每日汇总 2026年11月13日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-13.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-13.html</id>
+    <updated>2026-11-13T19:06:59Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"/>
+    <id>https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/xybench"/>
+    <id>https://huggingface.co/blog/allenai/xybench</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and …</title>
+    <link href="https://openai.com/index/introducing-chatgpt-wallet"/>
+    <id>https://openai.com/index/introducing-chatgpt-wallet</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/ggml-org/llama-cpp-v1"/>
+    <id>https://huggingface.co/blog/ggml-org/llama-cpp-v1</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>The system asks humans for feedback to increase trust in machine-generated desig…</title>
+    <link href="https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113"/>
+    <id>https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.</summary>
+  </entry>
+  <entry>
+    <title>Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robus…</title>
+    <link href="https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113"/>
+    <id>https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.</summary>
+  </entry>
+  <entry>
+    <title>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, ide…</title>
+    <link href="https://openai.com/business/customer-stories/amplitude"/>
+    <id>https://openai.com/business/customer-stories/amplitude</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</summary>
   </entry>
   <entry>
     <title>…</title>
     <link href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"/>
     <id>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</id>
-    <updated>2026-11-12T19:28:09Z</updated>
+    <updated>2026-11-13T19:06:59Z</updated>
     <summary></summary>
   </entry>
   <entry>
-    <title>案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。…</title>
-    <link href="https://openai.com/business/customer-stories/holidays-extras-codex"/>
-    <id>https://openai.com/business/customer-stories/holidays-extras-codex</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>案例介绍用 Codex 将客户服务经验转化为应用改进，并报告预订转化和开发时间变化。数据为企业特定项目自报，不能外推为普遍收益。</summary>
+    <title>A secure operating system, a quantum microsystem platform, and a 5G interference…</title>
+    <link href="https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112"/>
+    <id>https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
   </entry>
   <entry>
-    <title>方法旨在以较少训练数据改善快速气候模拟器的性能和适应性，支持多情景分析。预测可靠性仍需按区域、干预方式及训练覆盖检验。…</title>
-    <link href="https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112"/>
-    <id>https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>方法旨在以较少训练数据改善快速气候模拟器的性能和适应性，支持多情景分析。预测可靠性仍需按区域、干预方式及训练覆盖检验。</summary>
-  </entry>
-  <entry>
-    <title>公告讨论建设儿童安全和发展相关证据，支持适龄保护、家长工具及风险评估等方向。研究与政策倡议的落实仍需后续跟踪。…</title>
-    <link href="https://openai.com/index/children-first-declaration"/>
-    <id>https://openai.com/index/children-first-declaration</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>公告讨论建设儿童安全和发展相关证据，支持适龄保护、家长工具及风险评估等方向。研究与政策倡议的落实仍需后续跟踪。</summary>
-  </entry>
-  <entry>
-    <title>Sam Nickless 访谈回顾从试验到个人及组织生产力的应用历程，并讨论领导支持和采用文化。观点和案例指标来自企业经验。…</title>
-    <link href="https://openai.com/index/gilbert-tobin-sam-nickless"/>
-    <id>https://openai.com/index/gilbert-tobin-sam-nickless</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>Sam Nickless 访谈回顾从试验到个人及组织生产力的应用历程，并讨论领导支持和采用文化。观点和案例指标来自企业经验。</summary>
-  </entry>
-  <entry>
-    <title>…</title>
-    <link href="https://huggingface.co/blog/3d-lora-finetuning"/>
-    <id>https://huggingface.co/blog/3d-lora-finetuning</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>研究性框架将被动传感信号转化为可干预健康指标，并模拟十二周习惯变化情景，扩展结合血液标志物。模型情景输出与实际临床效果需分别验证。…</title>
-    <link href="https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/"/>
-    <id>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>研究性框架将被动传感信号转化为可干预健康指标，并模拟十二周习惯变化情景，扩展结合血液标志物。模型情景输出与实际临床效果需分别验证。</summary>
-  </entry>
-  <entry>
-    <title>公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。…</title>
-    <link href="https://openai.com/index/chatgpt-plus-for-veterans"/>
-    <id>https://openai.com/index/chatgpt-plus-for-veterans</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>公告介绍符合条件的过渡期军人与退役军人领取一年免费访问及参加培训的情况，并分享求职使用案例。资格和申领条款需按计划要求确认。</summary>
-  </entry>
-  <entry>
-    <title>模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。…</title>
-    <link href="https://huggingface.co/blog/qvac/botpsy"/>
-    <id>https://huggingface.co/blog/qvac/botpsy</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>模型基于 Qwen3.5-0.8B，面向函数调用与个人助理工作流。专用任务表现和端侧可用性仍取决于测试、硬件及部署设置。</summary>
-  </entry>
-  <entry>
-    <title>首席架构师访谈讨论产品落地、技术权衡及生产评估，并回顾小团队开发过程。经验受平台规模和业务环境影响。…</title>
-    <link href="https://openai.com/index/jiostar-vijay-seshadri"/>
-    <id>https://openai.com/index/jiostar-vijay-seshadri</id>
-    <updated>2026-11-12T19:28:09Z</updated>
-    <summary>首席架构师访谈讨论产品落地、技术权衡及生产评估，并回顾小团队开发过程。经验受平台规模和业务环境影响。</summary>
+    <title>Gondola helps creatives get credit and get hired, with Codex raising its lead en…</title>
+    <link href="https://openai.com/business/customer-stories/gondola"/>
+    <id>https://openai.com/business/customer-stories/gondola</id>
+    <updated>2026-11-13T19:06:59Z</updated>
+    <summary>Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</summary>
   </entry>
 </feed>
