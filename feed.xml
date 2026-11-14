@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-13T19:06:59Z</updated>
+  <updated>2026-11-14T14:50:30Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月13日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-13.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-13.html</id>
-    <updated>2026-11-13T19:06:59Z</updated>
+    <title>每日汇总 2026年11月14日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-14.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-14.html</id>
+    <updated>2026-11-14T14:50:30Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>Google 报告了研究人员与多智能体工具在数学、化学和系统工程中的协作案例。研究者负责设定问题与约束，智能体辅助编写求解器和检验候选方案；这是机构报告，具体成…</title>
+    <link href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"/>
+    <id>https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</id>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>Google 报告了研究人员与多智能体工具在数学、化学和系统工程中的协作案例。研究者负责设定问题与约束，智能体辅助编写求解器和检验候选方案；这是机构报告，具体成果仍需逐项审视其验证证据。</summary>
+  </entry>
+  <entry>
+    <title>教程演示将机械臂、夹爪和饮料罐资产组装到 Isaac Sim，并检查碰撞、质量与关节设置后运行抓取任务。资产外观正确不代表动力学行为正确，仿真检查也不能替代真实…</title>
     <link href="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"/>
     <id>https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary></summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>教程演示将机械臂、夹爪和饮料罐资产组装到 Isaac Sim，并检查碰撞、质量与关节设置后运行抓取任务。资产外观正确不代表动力学行为正确，仿真检查也不能替代真实机器人的安全验证。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>该基准收集编程和日常生活问题，评估模型能否发现用户所选方法与真实目标之间的偏差。作者发现，模型有时提出有效方案，却仍围绕原有错误思路展开；结果针对其评测条件。…</title>
     <link href="https://huggingface.co/blog/allenai/xybench"/>
     <id>https://huggingface.co/blog/allenai/xybench</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary></summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>该基准收集编程和日常生活问题，评估模型能否发现用户所选方法与真实目标之间的偏差。作者发现，模型有时提出有效方案，却仍围绕原有错误思路展开；结果针对其评测条件。</summary>
   </entry>
   <entry>
-    <title>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and …</title>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/index/introducing-chatgpt-wallet"/>
     <id>https://openai.com/index/introducing-chatgpt-wallet</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件…</title>
     <link href="https://huggingface.co/blog/ggml-org/llama-cpp-v1"/>
     <id>https://huggingface.co/blog/ggml-org/llama-cpp-v1</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary></summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件性能同步提升。</summary>
   </entry>
   <entry>
-    <title>The system asks humans for feedback to increase trust in machine-generated desig…</title>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/customer-stories/shield"/>
+    <id>https://openai.com/business/customer-stories/shield</id>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。…</title>
     <link href="https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113"/>
     <id>https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.</summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。</summary>
   </entry>
   <entry>
-    <title>Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robus…</title>
+    <title>MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。…</title>
     <link href="https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113"/>
     <id>https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.</summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。</summary>
   </entry>
   <entry>
-    <title>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, ide…</title>
+    <title>来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。…</title>
     <link href="https://openai.com/business/customer-stories/amplitude"/>
     <id>https://openai.com/business/customer-stories/amplitude</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定…</title>
     <link href="https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"/>
     <id>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary></summary>
-  </entry>
-  <entry>
-    <title>A secure operating system, a quantum microsystem platform, and a 5G interference…</title>
-    <link href="https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112"/>
-    <id>https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.</summary>
-  </entry>
-  <entry>
-    <title>Gondola helps creatives get credit and get hired, with Codex raising its lead en…</title>
-    <link href="https://openai.com/business/customer-stories/gondola"/>
-    <id>https://openai.com/business/customer-stories/gondola</id>
-    <updated>2026-11-13T19:06:59Z</updated>
-    <summary>Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.</summary>
+    <updated>2026-11-14T14:50:30Z</updated>
+    <summary>LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定已解决提示注入问题。</summary>
   </entry>
 </feed>

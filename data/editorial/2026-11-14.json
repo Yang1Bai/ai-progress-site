@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-14",
+  "news": [
+    {
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "title": "Google 介绍 Antigravity 多智能体科研协作进展",
+      "body": "Google 报告了研究人员与多智能体工具在数学、化学和系统工程中的协作案例。研究者负责设定问题与约束，智能体辅助编写求解器和检验候选方案；这是机构报告，具体成果仍需逐项审视其验证证据。"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "title": "用 SimReady 资产搭建机器人抓取仿真",
+      "body": "教程演示将机械臂、夹爪和饮料罐资产组装到 Isaac Sim，并检查碰撞、质量与关节设置后运行抓取任务。资产外观正确不代表动力学行为正确，仿真检查也不能替代真实机器人的安全验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "title": "XYBench：检验助手能否识别问题背后的错误前提",
+      "body": "该基准收集编程和日常生活问题，评估模型能否发现用户所选方法与真实目标之间的偏差。作者发现，模型有时提出有效方案，却仍围绕原有错误思路展开；结果针对其评测条件。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "title": "OpenAI 介绍 ChatGPT Wallet",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "llama.cpp 1.0 发布，明确接口兼容性边界",
+      "body": "项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件性能同步提升。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/shield",
+      "title": "Shield 借助 OpenAI 协助技术人员处理旧门户工作",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "title": "MIT 设计助手让工程师参与结构优化过程",
+      "body": "研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "title": "Robust AI 用移动机器人辅助仓库与工厂人员",
+      "body": "MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "title": "Amplitude 如何借助 OpenAI 在一至两天内推出产品改进",
+      "body": "来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "title": "IBM 发布面向模型上下文结构的 LLMON 标记语言",
+      "body": "LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定已解决提示注入问题。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "title": "林肯实验室三项技术获 2026 年 R&D 100 奖",
+      "body": "获奖技术分别涉及嵌入式操作系统安全、超导与半导体芯片集成，以及减轻 5G 同频干扰的算法。报道说明技术转移和奖项背景，奖项本身不等同于对全部应用表现的独立验证。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "title": "Gondola 称团队借助 Codex 扩展开发、营收翻倍",
+      "body": "来源标题译文；原文访问受限，未核验正文。营收变化为来源案例陈述，不能据此判断 Codex 的独立因果贡献。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "title": "Holiday Extras 重新探索使用 Codex 构建产品的方式",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+      "title": "MIT 探索用精选合成数据训练气候模拟器",
+      "body": "研究利用经过优化的合成训练数据，提高气候模拟器对未见情景的适应能力，并减少训练数据需求。报道描述的是所测情景下的模拟结果，不能消除真实气候预测的不确定性。"
+    },
+    {
+      "url": "https://openai.com/index/children-first-declaration",
+      "title": "OpenAI 支持人工智能与儿童安全研究",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    }
+  ],
+  "papers": []
+}
