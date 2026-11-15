@@ -1,10 +1,10 @@
 {
-  "date": "2026年11月14日",
+  "date": "2026年11月15日",
   "news": [
     {
-      "title": "Google 介绍 Antigravity 多智能体科研协作进展",
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "body": "Google 报告了研究人员与多智能体工具在数学、化学和系统工程中的协作案例。研究者负责设定问题与约束，智能体辅助编写求解器和检验候选方案；这是机构报告，具体成果仍需逐项审视其验证证据。",
+      "body": "Education Innovation",
       "date": "2026-11-13",
       "published_at": "2026-11-13T20:47:18+00:00",
       "source": "Google Research",
@@ -12,15 +12,12 @@
         "Google Research",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "Advancing science & engineering with Antigravity’s /teamwork",
-      "body_original": "Education Innovation",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "用 SimReady 资产搭建机器人抓取仿真",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "body": "教程演示将机械臂、夹爪和饮料罐资产组装到 Isaac Sim，并检查碰撞、质量与关节设置后运行抓取任务。资产外观正确不代表动力学行为正确，仿真检查也不能替代真实机器人的安全验证。",
+      "body": "",
       "date": "2026-11-13",
       "published_at": "2026-11-13T18:00:39+00:00",
       "source": "Hugging Face",
@@ -28,15 +25,12 @@
         "Hugging Face",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "body_original": "",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "XYBench：检验助手能否识别问题背后的错误前提",
+      "title": "XYBench: Helping with the problem behind the question",
       "url": "https://huggingface.co/blog/allenai/xybench",
-      "body": "该基准收集编程和日常生活问题，评估模型能否发现用户所选方法与真实目标之间的偏差。作者发现，模型有时提出有效方案，却仍围绕原有错误思路展开；结果针对其评测条件。",
+      "body": "",
       "date": "2026-11-13",
       "published_at": "2026-11-13T17:02:35+00:00",
       "source": "Hugging Face",
@@ -44,15 +38,12 @@
         "Hugging Face",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "XYBench: Helping with the problem behind the question",
-      "body_original": "",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 介绍 ChatGPT Wallet",
+      "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "body": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "date": "2026-11-13",
       "published_at": "2026-11-13T15:00:00+00:00",
       "source": "OpenAI",
@@ -60,15 +51,12 @@
         "OpenAI",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "Introducing ChatGPT Wallet",
-      "body_original": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "llama.cpp 1.0 发布，明确接口兼容性边界",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "body": "项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件性能同步提升。",
+      "body": "",
       "date": "2026-11-13",
       "published_at": "2026-11-13T14:05:22+00:00",
       "source": "Hugging Face",
@@ -76,15 +64,12 @@
         "Hugging Face",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "body_original": "",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "Shield 借助 OpenAI 协助技术人员处理旧门户工作",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
       "url": "https://openai.com/business/customer-stories/shield",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "body": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "date": "2026-11-13",
       "published_at": "2026-11-13T08:00:00+00:00",
       "source": "OpenAI",
@@ -92,15 +77,12 @@
         "OpenAI",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "body_original": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "MIT 设计助手让工程师参与结构优化过程",
+      "title": "New AI “copilot” helps engineers design better structures",
       "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "body": "研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。",
+      "body": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
       "date": "2026-11-13",
       "published_at": "2026-11-13T00:00:00-05:00",
       "source": "MIT AI",
@@ -108,15 +90,12 @@
         "MIT AI",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "New AI “copilot” helps engineers design better structures",
-      "body_original": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "Robust AI 用移动机器人辅助仓库与工厂人员",
+      "title": "Helping robots fit into the human workplace",
       "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-      "body": "MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。",
+      "body": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
       "date": "2026-11-13",
       "published_at": "2026-11-13T00:00:00-05:00",
       "source": "MIT AI",
@@ -124,15 +103,12 @@
         "MIT AI",
         "2026-11-13"
       ],
-      "importance": "normal",
-      "title_original": "Helping robots fit into the human workplace",
-      "body_original": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "Amplitude 如何借助 OpenAI 在一至两天内推出产品改进",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "url": "https://openai.com/business/customer-stories/amplitude",
-      "body": "来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。",
+      "body": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T20:00:00+00:00",
       "source": "OpenAI",
@@ -140,15 +116,12 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "body_original": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "IBM 发布面向模型上下文结构的 LLMON 标记语言",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "body": "LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定已解决提示注入问题。",
+      "body": "",
       "date": "2026-11-12",
       "published_at": "2026-11-12T19:07:35+00:00",
       "source": "Hugging Face",
@@ -156,15 +129,12 @@
         "Hugging Face",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "body_original": "",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "林肯实验室三项技术获 2026 年 R&D 100 奖",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
       "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-      "body": "获奖技术分别涉及嵌入式操作系统安全、超导与半导体芯片集成，以及减轻 5G 同频干扰的算法。报道说明技术转移和奖项背景，奖项本身不等同于对全部应用表现的独立验证。",
+      "body": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T16:15:00-05:00",
       "source": "MIT AI",
@@ -172,15 +142,12 @@
         "MIT AI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "body_original": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "Gondola 称团队借助 Codex 扩展开发、营收翻倍",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
       "url": "https://openai.com/business/customer-stories/gondola",
-      "body": "来源标题译文；原文访问受限，未核验正文。营收变化为来源案例陈述，不能据此判断 Codex 的独立因果贡献。",
+      "body": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T12:00:00+00:00",
       "source": "OpenAI",
@@ -188,15 +155,12 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Gondola doubles revenue as its team builds more with Codex",
-      "body_original": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "Holiday Extras 重新探索使用 Codex 构建产品的方式",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "body": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T09:30:00+00:00",
       "source": "OpenAI",
@@ -204,15 +168,12 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Holiday Extras is rethinking what it can build with Codex",
-      "body_original": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "MIT 探索用精选合成数据训练气候模拟器",
+      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
       "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-      "body": "研究利用经过优化的合成训练数据，提高气候模拟器对未见情景的适应能力，并减少训练数据需求。报道描述的是所测情景下的模拟结果，不能消除真实气候预测的不确定性。",
+      "body": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T00:00:00-05:00",
       "source": "MIT AI",
@@ -220,15 +181,12 @@
         "MIT AI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "New research could lead to faster, trustworthy AI models for climate prediction",
-      "body_original": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     },
     {
-      "title": "OpenAI 支持人工智能与儿童安全研究",
+      "title": "Supporting research on AI and children’s safety",
       "url": "https://openai.com/index/children-first-declaration",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "body": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
       "date": "2026-11-12",
       "published_at": "2026-11-12T00:00:00+00:00",
       "source": "OpenAI",
@@ -236,10 +194,7 @@
         "OpenAI",
         "2026-11-12"
       ],
-      "importance": "normal",
-      "title_original": "Supporting research on AI and children’s safety",
-      "body_original": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "editorial_date": "2026-11-14"
+      "importance": "normal"
     }
   ],
   "papers": [],
@@ -249,7 +204,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-11-14T17:36:14.791401+00:00",
+  "fetched_at": "2026-11-15T18:24:38.384508+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -294,12 +249,6 @@
       "items": 0
     }
   ],
-  "editorial": {
-    "date": "2026-11-14",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
