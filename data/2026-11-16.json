@@ -1,0 +1,551 @@
+{
+  "date": "2026年11月16日",
+  "news": [
+    {
+      "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T09:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "title_original": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "body_original": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "英国国王信托与 OpenAI 宣布百万英镑合作",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "body": "来源标题译文；原文访问受限，未核验正文。金额来自来源标题，未独立核实。",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "title_original": "The King’s Trust and OpenAI launch £1m partnership",
+      "body_original": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "迈向在格点上定义标准模型的一步",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "body": "来源标题译文；原文访问受限，未核验正文，不能据此判断理论问题已被解决。",
+      "date": "2026-11-15",
+      "published_at": "2026-11-15T22:00:01+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-15"
+      ],
+      "importance": "normal",
+      "title_original": "A step toward defining the Standard Model on a lattice",
+      "body_original": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "OpenAI 推出新的科学博客",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-15",
+      "published_at": "2026-11-15T22:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-15"
+      ],
+      "importance": "normal",
+      "title_original": "Our new blog for science",
+      "body_original": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "Google 介绍 Antigravity 多智能体科研协作进展",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "body": "Google 报告了研究人员与多智能体工具在数学、化学和系统工程中的协作案例。研究者负责设定问题与约束，智能体辅助编写求解器和检验候选方案；这是机构报告，具体成果仍需逐项审视其验证证据。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T20:47:18+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "Advancing science & engineering with Antigravity’s /teamwork",
+      "body_original": "Education Innovation",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "用 SimReady 资产搭建机器人抓取仿真",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "body": "教程演示将机械臂、夹爪和饮料罐资产组装到 Isaac Sim，并检查碰撞、质量与关节设置后运行抓取任务。资产外观正确不代表动力学行为正确，仿真检查也不能替代真实机器人的安全验证。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T18:00:39+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "body_original": "",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "XYBench：检验助手能否识别问题背后的错误前提",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "body": "该基准收集编程和日常生活问题，评估模型能否发现用户所选方法与真实目标之间的偏差。作者发现，模型有时提出有效方案，却仍围绕原有错误思路展开；结果针对其评测条件。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T17:02:35+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "XYBench: Helping with the problem behind the question",
+      "body_original": "",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "OpenAI 介绍 ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T15:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing ChatGPT Wallet",
+      "body_original": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "llama.cpp 1.0 发布，明确接口兼容性边界",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "body": "项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件性能同步提升。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T14:05:22+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "body_original": "",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "Shield 借助 OpenAI 协助技术人员处理旧门户工作",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "body_original": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "MIT 设计助手让工程师参与结构优化过程",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "body": "研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "New AI “copilot” helps engineers design better structures",
+      "body_original": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "Robust AI 用移动机器人辅助仓库与工厂人员",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "body": "MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。",
+      "date": "2026-11-13",
+      "published_at": "2026-11-13T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-13"
+      ],
+      "importance": "normal",
+      "title_original": "Helping robots fit into the human workplace",
+      "body_original": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "Amplitude 如何借助 OpenAI 在一至两天内推出产品改进",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "body": "来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T20:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-12"
+      ],
+      "importance": "normal",
+      "title_original": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "body_original": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "IBM 发布面向模型上下文结构的 LLMON 标记语言",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "body": "LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定已解决提示注入问题。",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T19:07:35+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-12"
+      ],
+      "importance": "normal",
+      "title_original": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "body_original": "",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "林肯实验室三项技术获 2026 年 R&D 100 奖",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "body": "获奖技术分别涉及嵌入式操作系统安全、超导与半导体芯片集成，以及减轻 5G 同频干扰的算法。报道说明技术转移和奖项背景，奖项本身不等同于对全部应用表现的独立验证。",
+      "date": "2026-11-12",
+      "published_at": "2026-11-12T16:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-12"
+      ],
+      "importance": "normal",
+      "title_original": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "body_original": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "editorial_date": "2026-11-16"
+    }
+  ],
+  "papers": [
+    {
+      "title": "晶体结构预测三十年：从全局搜索到生成学习",
+      "url": "https://arxiv.org/abs/2611.17670",
+      "body": "arXiv:2611.17670v1 Announce Type: new Abstract: Crystal structure prediction (CSP) determines periodic atomic or molecular arrangements from chemical composition and physical conditions. Over three decades, CSP has evolved from chemical construction and global energy optimization to hybrid approaches combining symmetry, learned potentials, adaptive search, and deep generative models. This survey reviews method, software, review, and benchmark records from 1996 to October 2026, covering inorganic and molecular crystals, including formula-conditioned diffusion, flow, and autoregressive models that preserve composition. We classify methods by candidate construction and exploration: template and",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本综述摘要：作者梳理晶体结构预测中的搜索、势函数与生成模型，区分生成、弛豫、排序及物理验证。其评测与实验案例审计未显示一种方法普遍占优；关于生成模型发现记录的判断限定于综述所覆盖证据。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Crystal Structure Prediction from Search to Learning: A 30-Year Expedition",
+      "summary_original": "arXiv:2611.17670v1 Announce Type: new Abstract: Crystal structure prediction (CSP) determines periodic atomic or molecular arrangements from chemical composition and physical conditions. Over three decades, CSP has evolved from chemical construction and global energy optimization to hybrid approaches combining symmetry, learned potentials, adaptive search, and deep generative models. This survey reviews method, software, review, and benchmark records from 1996 to October 2026, covering inorganic and molecular crystals, including formula-conditioned diffusion, flow, and autoregressive models that preserve composition. We classify methods by candidate construction and exploration: template and",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "电场如何使氧化锂晶界从空位陷阱转为离子通道",
+      "url": "https://arxiv.org/abs/2611.17679",
+      "body": "arXiv:2611.17679v1 Announce Type: new Abstract: Ion transport in solids has conventionally been understood from equilibrium diffusion, yet ions in batteries are driven by electric fields. Does field-driven ion transport follow equilibrium behavior? We examined this question in bulk Li2O and at its grain boundaries (GBs) using electric-field molecular dynamics combining a machine learning interatomic potential with a Bader charge prediction model. Although Li diffusion in cubic Li2O is isotropic at zero field, an electric field renders it orientation dependent because Li hops along a limited set of crystallographic pathways that the field biases unequally. At GBs, this anisotropy becomes a qu",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究结合机器学习原子间势与电荷预测，模拟电场下氧化锂的体相和晶界输运。结果指出输运不仅取决于静态空位俘获，还与电场和晶向通道的夹角有关；这是模拟证据。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Electric Fields Turn Vacancy-trapping Grain Boundaries into Li-Ion Pathways in Li2O",
+      "summary_original": "arXiv:2611.17679v1 Announce Type: new Abstract: Ion transport in solids has conventionally been understood from equilibrium diffusion, yet ions in batteries are driven by electric fields. Does field-driven ion transport follow equilibrium behavior? We examined this question in bulk Li2O and at its grain boundaries (GBs) using electric-field molecular dynamics combining a machine learning interatomic potential with a Bader charge prediction model. Although Li diffusion in cubic Li2O is isotropic at zero field, an electric field renders it orientation dependent because Li hops along a limited set of crystallographic pathways that the field biases unequally. At GBs, this anisotropy becomes a qu",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "GaDiT：面向无序原子结构的可解释生成与逆向设计",
+      "url": "https://arxiv.org/abs/2611.18420",
+      "body": "arXiv:2611.18420v1 Announce Type: new Abstract: Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：模型结合周期图和扩散 Transformer，在非晶碳、硅及二氧化硅中探索条件生成。作者还用原子响应分析关联局部环境与目标性质；生成质量及效率结果限于所测体系，不能替代实验验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures",
+      "summary_original": "arXiv:2611.18420v1 Announce Type: new Abstract: Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "用局部原子扰动检验材料图网络的特征归因",
+      "url": "https://arxiv.org/abs/2611.18430",
+      "body": "arXiv:2611.18430v1 Announce Type: new Abstract: Graph neural networks (GNNs) show promise for predicting materials properties, but interpretability remains a challenge, particularly understanding whether attributed feature importance reflects physical reality or statistical artifacts. Here, we present a methods validation study that deliberately overfits a physics-aware GNN ensemble to probe the robustness of feature-ranking approaches. Using the CoMoFeNiCu high-entropy alloy system with three stoichiometries, we train GNNs to predict decomposition enthalpies from DFT-calculated structures while explicitly constraining output weights to encode feature importance. By design, our dataset is li",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究以 CoMoFeNiCu 分解焓为案例，故意构造过拟合模型，并通过原子交换和重新排序特征检验局部环境信息。结果支持在严格扰动检验下评估解释性，不代表模型已具备跨组分泛化能力。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Validating Graph Neural Network Feature Attribution Through Local Perturbations: A Study on CoMoFeNiCu Decomposition Enthalpy",
+      "summary_original": "arXiv:2611.18430v1 Announce Type: new Abstract: Graph neural networks (GNNs) show promise for predicting materials properties, but interpretability remains a challenge, particularly understanding whether attributed feature importance reflects physical reality or statistical artifacts. Here, we present a methods validation study that deliberately overfits a physics-aware GNN ensemble to probe the robustness of feature-ranking approaches. Using the CoMoFeNiCu high-entropy alloy system with three stoichiometries, we train GNNs to predict decomposition enthalpies from DFT-calculated structures while explicitly constraining output weights to encode feature importance. By design, our dataset is li",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "针对钠碳化学微调原子基础模型",
+      "url": "https://arxiv.org/abs/2611.18490",
+      "body": "arXiv:2611.18490v1 Announce Type: new Abstract: Atomistic foundation models have emerged as a promising route to DFT-level accuracy for materials simulation with complex chemical environments. However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear. Among materials with competing bonding regimes, sodium storage in hard carbon poses a substantial challenge. Hard carbon features diverse local structural motifs, including defective and curved graphitic regions, amorphous regions, and closed/open pores. Motivated by its importance for Na-ion batteries, we systematically evaluate existing pret",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者发现预训练 MACE 模型对部分钠团簇与碳环境的相互作用描述不足，采用定向微调改善能量预测，并探索硬碳孔径与平台电压的关联。结论来自所测结构与计算参考，尚不能直接推断电池实际性能。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Fine-tuned atomistic foundation model for accurate sodium-carbon chemistry in Na-ion batteries",
+      "summary_original": "arXiv:2611.18490v1 Announce Type: new Abstract: Atomistic foundation models have emerged as a promising route to DFT-level accuracy for materials simulation with complex chemical environments. However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear. Among materials with competing bonding regimes, sodium storage in hard carbon poses a substantial challenge. Hard carbon features diverse local structural motifs, including defective and curved graphitic regions, amorphous regions, and closed/open pores. Motivated by its importance for Na-ion batteries, we systematically evaluate existing pret",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "扩散树采样：在推理时引导晶体生成",
+      "url": "https://arxiv.org/abs/2611.17462",
+      "body": "arXiv:2611.17462v1 Announce Type: cross Abstract: Diffusion-based generative models have become strong priors over plausible crystal structures, but turning that prior into promising candidates requires steering toward several conflicting properties at once. Fine-tuning is expensive and produces a new model for every new objective, while differentiable guidance is not applicable to many real-world tasks. We instead adapt these generative models at inference time using Diffusion Tree Sampling (DTS), a Monte Carlo tree search procedure over the denoising trajectory. We make two technical contributions on top of DTS that are particularly relevant for AI-for-science applications. First, we show ",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法在扩散去噪轨迹上使用蒙特卡洛树搜索，结合条件提案和多目标采样，在不修改模型参数的情况下探索稳定性及性质目标。所报改进属于生成与计算评测，候选材料仍需进一步验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Diffusion Tree Sampling for Inference Time Adaptation of Crystal Generative Models",
+      "summary_original": "arXiv:2611.17462v1 Announce Type: cross Abstract: Diffusion-based generative models have become strong priors over plausible crystal structures, but turning that prior into promising candidates requires steering toward several conflicting properties at once. Fine-tuning is expensive and produces a new model for every new objective, while differentiable guidance is not applicable to many real-world tasks. We instead adapt these generative models at inference time using Diffusion Tree Sampling (DTS), a Monte Carlo tree search procedure over the denoising trajectory. We make two technical contributions on top of DTS that are particularly relevant for AI-for-science applications. First, we show ",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "无网格深度能量方法模拟热驱动脆性断裂",
+      "url": "https://arxiv.org/abs/2611.17630",
+      "body": "arXiv:2611.17630v1 Announce Type: cross Abstract: Phase-field simulation of thermally driven fracture requires resolving localized crack bands whose paths are unknown in advance and thermal boundary layers whose thickness evolves during the transient. Neural energy-based computations of thermal fracture have so far started from defects placed in advance. This paper proposes a mesh-free deep energy method based on multiresolution neural representations that predicts spontaneous crack nucleation, crack spacing, and selective crack propagation and arrest under transient thermal loading. Two networks, each with its own multiresolution encoding, represent the displacement and phase fields and the",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用多分辨率神经表示求解位移、相场和温度，模拟瞬态热载荷下裂纹成核与扩展。作者与有限元和既有基准进行比较；适用性仍受模型假设、边界条件与所测算例限制。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "A mesh-free deep energy method for phase-field modeling of thermally driven brittle fracture",
+      "summary_original": "arXiv:2611.17630v1 Announce Type: cross Abstract: Phase-field simulation of thermally driven fracture requires resolving localized crack bands whose paths are unknown in advance and thermal boundary layers whose thickness evolves during the transient. Neural energy-based computations of thermal fracture have so far started from defects placed in advance. This paper proposes a mesh-free deep energy method based on multiresolution neural representations that predicts spontaneous crack nucleation, crack spacing, and selective crack propagation and arrest under transient thermal loading. Two networks, each with its own multiresolution encoding, represent the displacement and phase fields and the",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "CGTransformer：用拓扑序列表示改进晶体生成",
+      "url": "https://arxiv.org/abs/2611.18303",
+      "body": "arXiv:2611.18303v1 Announce Type: cross Abstract: Autoregressive language models offer a unified route to crystal generation and inverse design, but their performance depends on how periodic structures are serialized. Symmetry equivalent and closely related crystals can receive different atomic orders under coordinate-based serialization, introducing variability unrelated to their structural connectivity. Here, we present CGTransformer (Crystal Graph Transformer), an autoregressive generative framework that addresses this challenge via a graph-embedded sorting strategy. Using quotientgraph topology and barycentric embeddings, Element Symmetry Graph (ESG) converts periodic crystal networks in",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法将周期晶体图转换为保留局部及对称信息的一维序列，以减少坐标排序带来的变化。作者在晶体恢复及宽带隙材料条件生成中报告改进；比较限于指定数据集和基线，不表示实验发现已完成。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "CGTransformer: A Topology-Aware Autoregressive Framework for Crystal Generation and Inverse Design",
+      "summary_original": "arXiv:2611.18303v1 Announce Type: cross Abstract: Autoregressive language models offer a unified route to crystal generation and inverse design, but their performance depends on how periodic structures are serialized. Symmetry equivalent and closely related crystals can receive different atomic orders under coordinate-based serialization, introducing variability unrelated to their structural connectivity. Here, we present CGTransformer (Crystal Graph Transformer), an autoregressive generative framework that addresses this challenge via a graph-embedded sorting strategy. Using quotientgraph topology and barycentric embeddings, Element Symmetry Graph (ESG) converts periodic crystal networks in",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "学习材料强度面，降低相场断裂模拟的尺度限制",
+      "url": "https://arxiv.org/abs/2611.18473",
+      "body": "arXiv:2611.18473v1 Announce Type: cross Abstract: Classical phase-field models of brittle fracture capture toughness-controlled crack growth but not the material's strength surface, which governs crack nucleation. The theory of Kumar et al. (2020) incorporates the strength surface through a nucleation driving force, and Chockalingam (2025) derived this driving force for arbitrary strength surfaces described by $n$ material parameters, with which the phase-field strength surface (PFSS) converges to the material strength surface as the regularization length $\\varepsilon \\to 0$ and matches it exactly at $n$ chosen states for any $\\varepsilon$. In practice, however, the strength surface must be ",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者将物理约束神经强度函数嵌入相场断裂框架，用合成及实验强度数据校准，并在较大正则化长度下检验强度重现。结果针对所测材料与模型条件，不能直接推广到所有断裂问题。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Machine learning of strength surfaces enables high regularization length phase-field fracture",
+      "summary_original": "arXiv:2611.18473v1 Announce Type: cross Abstract: Classical phase-field models of brittle fracture capture toughness-controlled crack growth but not the material's strength surface, which governs crack nucleation. The theory of Kumar et al. (2020) incorporates the strength surface through a nucleation driving force, and Chockalingam (2025) derived this driving force for arbitrary strength surfaces described by $n$ material parameters, with which the phase-field strength surface (PFSS) converges to the material strength surface as the regularization length $\\varepsilon \\to 0$ and matches it exactly at $n$ chosen states for any $\\varepsilon$. In practice, however, the strength surface must be ",
+      "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "ALiBi 位置编码减少视觉 Transformer 的位置偏差",
+      "url": "https://arxiv.org/abs/2603.16840",
+      "body": "arXiv:2603.16840v3 Announce Type: replace-cross Abstract: Vision transformers (ViTs) - especially feature foundation models like DINOv2 - learn rich representations useful for many downstream tasks. However, architectural choices (such as positional encoding) can lead to these models displaying positional biases and artefacts independent of semantic content. This makes zero-shot adaption difficult in fields like material science, where images are often cross-sections of homogeneous microstructure (i.e. having no preferred direction). In this work, we investigate the positional bias in ViTs via linear probing, finding it present across a range of objectives and positional encodings, and subse",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究通过线性探针分析视觉模型的位置偏差，并微调相对位置编码以减轻其影响，在显微图像分割中进行测试。改善针对特定评测，不意味着已消除所有成像或数据偏差。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
+      "summary_original": "arXiv:2603.16840v3 Announce Type: replace-cross Abstract: Vision transformers (ViTs) - especially feature foundation models like DINOv2 - learn rich representations useful for many downstream tasks. However, architectural choices (such as positional encoding) can lead to these models displaying positional biases and artefacts independent of semantic content. This makes zero-shot adaption difficult in fields like material science, where images are often cross-sections of homogeneous microstructure (i.e. having no preferred direction). In this work, we investigate the positional bias in ViTs via linear probing, finding it present across a range of objectives and positional encodings, and subse",
+      "editorial_date": "2026-11-16"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Crystal Structure Prediction from Search to Learning: A 30-Year Expedition",
+      "body": "arXiv:2611.17670v1 Announce Type: new Abstract: Crystal structure prediction (CSP) determines periodic atomic or molecular arrangements from chemical composition and physical conditions. Over three decades, CSP has evolved from chemical construction and global energy optimization to hybrid approaches combining symmetry, learned potentials, adaptive search, and deep generative models. This survey reviews method, software, review, and benchmark records from 1996 to October 2026, covering inorganic and molecular crystals, including formula-conditioned diffusion, flow, and autoregressive models that preserve composition. We classify methods by candidate construction and exploration: template and",
+      "url": "https://arxiv.org/abs/2611.17670"
+    },
+    {
+      "title": "Electric Fields Turn Vacancy-trapping Grain Boundaries into Li-Ion Pathways in Li2O",
+      "body": "arXiv:2611.17679v1 Announce Type: new Abstract: Ion transport in solids has conventionally been understood from equilibrium diffusion, yet ions in batteries are driven by electric fields. Does field-driven ion transport follow equilibrium behavior? We examined this question in bulk Li2O and at its grain boundaries (GBs) using electric-field molecular dynamics combining a machine learning interatomic potential with a Bader charge prediction model. Although Li diffusion in cubic Li2O is isotropic at zero field, an electric field renders it orientation dependent because Li hops along a limited set of crystallographic pathways that the field biases unequally. At GBs, this anisotropy becomes a qu",
+      "url": "https://arxiv.org/abs/2611.17679"
+    },
+    {
+      "title": "Graph diffusion transformer for interpretable generation and inverse design of disordered atomic structures",
+      "body": "arXiv:2611.18420v1 Announce Type: new Abstract: Atomic disorder offers a potent degree of freedom to tailor material properties, yet the resulting vast configuration space obscures structure-property relations and hinders rational inverse design. Here we introduce Graph Amorphous Diffusion Transformer (GaDiT), a generative model that combines dynamic periodic graphs, masked conditioning and an interval-weighted training-noise distribution. GaDiT generates high-quality disordered structures while accelerating sampling by two orders of magnitude compared with existing corrector-based approaches, as demonstrated across two-dimensional amorphous carbon and three-dimensional amorphous silicon and",
+      "url": "https://arxiv.org/abs/2611.18420"
+    },
+    {
+      "title": "Validating Graph Neural Network Feature Attribution Through Local Perturbations: A Study on CoMoFeNiCu Decomposition Enthalpy",
+      "body": "arXiv:2611.18430v1 Announce Type: new Abstract: Graph neural networks (GNNs) show promise for predicting materials properties, but interpretability remains a challenge, particularly understanding whether attributed feature importance reflects physical reality or statistical artifacts. Here, we present a methods validation study that deliberately overfits a physics-aware GNN ensemble to probe the robustness of feature-ranking approaches. Using the CoMoFeNiCu high-entropy alloy system with three stoichiometries, we train GNNs to predict decomposition enthalpies from DFT-calculated structures while explicitly constraining output weights to encode feature importance. By design, our dataset is li",
+      "url": "https://arxiv.org/abs/2611.18430"
+    },
+    {
+      "title": "Fine-tuned atomistic foundation model for accurate sodium-carbon chemistry in Na-ion batteries",
+      "body": "arXiv:2611.18490v1 Announce Type: new Abstract: Atomistic foundation models have emerged as a promising route to DFT-level accuracy for materials simulation with complex chemical environments. However, their reliability across competing bonding regimes and, more importantly, how complex bonding affects predictions of material properties remain unclear. Among materials with competing bonding regimes, sodium storage in hard carbon poses a substantial challenge. Hard carbon features diverse local structural motifs, including defective and curved graphitic regions, amorphous regions, and closed/open pores. Motivated by its importance for Na-ion batteries, we systematically evaluate existing pret",
+      "url": "https://arxiv.org/abs/2611.18490"
+    },
+    {
+      "title": "Diffusion Tree Sampling for Inference Time Adaptation of Crystal Generative Models",
+      "body": "arXiv:2611.17462v1 Announce Type: cross Abstract: Diffusion-based generative models have become strong priors over plausible crystal structures, but turning that prior into promising candidates requires steering toward several conflicting properties at once. Fine-tuning is expensive and produces a new model for every new objective, while differentiable guidance is not applicable to many real-world tasks. We instead adapt these generative models at inference time using Diffusion Tree Sampling (DTS), a Monte Carlo tree search procedure over the denoising trajectory. We make two technical contributions on top of DTS that are particularly relevant for AI-for-science applications. First, we show ",
+      "url": "https://arxiv.org/abs/2611.17462"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-16T14:38:25.236839+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 20
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 5
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 50
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 10,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-16",
+    "items_applied": 25,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
