@@ -2,6 +2,45 @@
   "date": "2026年11月16日",
   "news": [
     {
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "body": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "body": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T17:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "body": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T12:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
       "body": "来源标题译文；原文访问受限，未核验正文。",
@@ -18,6 +57,45 @@
       "editorial_date": "2026-11-16"
     },
     {
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "body": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "body": "",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "body": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "英国国王信托与 OpenAI 宣布百万英镑合作",
       "url": "https://openai.com/index/the-kings-trust-and-openai",
       "body": "来源标题译文；原文访问受限，未核验正文。金额来自来源标题，未独立核实。",
@@ -32,6 +110,32 @@
       "title_original": "The King’s Trust and OpenAI launch £1m partnership",
       "body_original": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
       "editorial_date": "2026-11-16"
+    },
+    {
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "body": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "body": "",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-16"
+      ],
+      "importance": "normal"
     },
     {
       "title": "迈向在格点上定义标准模型的一步",
@@ -111,134 +215,6 @@
       "importance": "normal",
       "title_original": "XYBench: Helping with the problem behind the question",
       "body_original": "",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "OpenAI 介绍 ChatGPT Wallet",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-13",
-      "published_at": "2026-11-13T15:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-13"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing ChatGPT Wallet",
-      "body_original": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "llama.cpp 1.0 发布，明确接口兼容性边界",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "body": "项目发布 1.0 库版本，并说明今后 API 或 ABI 不兼容变更将体现为主版本升级。其重点是为依赖本地推理库的下游应用提供更清晰的兼容性约定，不代表所有硬件性能同步提升。",
-      "date": "2026-11-13",
-      "published_at": "2026-11-13T14:05:22+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-13"
-      ],
-      "importance": "normal",
-      "title_original": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "body_original": "",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "Shield 借助 OpenAI 协助技术人员处理旧门户工作",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-13",
-      "published_at": "2026-11-13T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-13"
-      ],
-      "importance": "normal",
-      "title_original": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "body_original": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "MIT 设计助手让工程师参与结构优化过程",
-      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "body": "研究系统在拓扑优化生成结构时向设计人员展示局部区域并收集反馈。报道中的实验改善了结构可制造性和屈曲承载表现；结论限定于论文所测设计场景。",
-      "date": "2026-11-13",
-      "published_at": "2026-11-13T00:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-13"
-      ],
-      "importance": "normal",
-      "title_original": "New AI “copilot” helps engineers design better structures",
-      "body_original": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "Robust AI 用移动机器人辅助仓库与工厂人员",
-      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-      "body": "MIT 报道 Carter 移动机器人如何结合力感应扶手、视觉和全向车轮，辅助人员搬运与拣货。报道介绍公司部署案例，不能据此推断所有工作环境中的效率或安全性。",
-      "date": "2026-11-13",
-      "published_at": "2026-11-13T00:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-13"
-      ],
-      "importance": "normal",
-      "title_original": "Helping robots fit into the human workplace",
-      "body_original": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "Amplitude 如何借助 OpenAI 在一至两天内推出产品改进",
-      "url": "https://openai.com/business/customer-stories/amplitude",
-      "body": "来源标题译文；原文访问受限，未核验正文。标题中的时间属于来源案例陈述，未独立核实。",
-      "date": "2026-11-12",
-      "published_at": "2026-11-12T20:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-12"
-      ],
-      "importance": "normal",
-      "title_original": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "body_original": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "IBM 发布面向模型上下文结构的 LLMON 标记语言",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "body": "LLMON 用显式标签、特殊令牌和标识符区分指令、工具响应及数据等上下文组件，并提供基于 Granite 的实验预览模型。其目标包括减少结构歧义，但不能据此认定已解决提示注入问题。",
-      "date": "2026-11-12",
-      "published_at": "2026-11-12T19:07:35+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-12"
-      ],
-      "importance": "normal",
-      "title_original": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "body_original": "",
-      "editorial_date": "2026-11-16"
-    },
-    {
-      "title": "林肯实验室三项技术获 2026 年 R&D 100 奖",
-      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-      "body": "获奖技术分别涉及嵌入式操作系统安全、超导与半导体芯片集成，以及减轻 5G 同频干扰的算法。报道说明技术转移和奖项背景，奖项本身不等同于对全部应用表现的独立验证。",
-      "date": "2026-11-12",
-      "published_at": "2026-11-12T16:15:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-12"
-      ],
-      "importance": "normal",
-      "title_original": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "body_original": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
       "editorial_date": "2026-11-16"
     }
   ],
@@ -491,19 +467,19 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-16T14:38:25.236839+00:00",
+  "fetched_at": "2026-11-16T21:33:43.061322+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 20
+      "items": 26
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "MIT AI",
@@ -515,7 +491,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 3
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -536,16 +512,16 @@
       "items": 50
     }
   ],
+  "editorial": {
+    "date": "2026-11-16",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 10,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-16",
-    "items_applied": 25,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
