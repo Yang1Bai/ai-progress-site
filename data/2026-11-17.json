@@ -2,6 +2,19 @@
   "date": "2026年11月17日",
   "news": [
     {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T17:45:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-17"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT：AI 时代仍需锻炼数学思维",
       "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
       "body": "MIT 数学教师 John Urschel 讨论人工智能时代培养批判性思维与解题能力的重要性，并介绍人类洞察与 AI 工具协作的经验。访谈属于教育与研究观点，不能视为对 AI 数学可靠性的全面验证。",
@@ -64,6 +77,19 @@
       "title_original": "Introducing OpenAI for Chile",
       "body_original": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "editorial_date": "2026-11-17"
+    },
+    {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "body": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-17"
+      ],
+      "importance": "normal"
     },
     {
       "title": "扩大科学家使用人工智能的机会",
@@ -162,22 +188,6 @@
       "editorial_date": "2026-11-17"
     },
     {
-      "title": "ChatGPT for Healthcare 扩展医疗服务支持方式",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T06:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "More ways to move care forward with ChatGPT for Healthcare",
-      "body_original": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "editorial_date": "2026-11-17"
-    },
-    {
       "title": "为医疗团队推进计算机操作智能体",
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "body": "来源标题译文；原文访问受限，未核验正文。",
@@ -194,6 +204,22 @@
       "editorial_date": "2026-11-17"
     },
     {
+      "title": "ChatGPT for Healthcare 扩展医疗服务支持方式",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-16",
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-16"
+      ],
+      "importance": "normal",
+      "title_original": "More ways to move care forward with ChatGPT for Healthcare",
+      "body_original": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "editorial_date": "2026-11-17"
+    },
+    {
       "title": "英国国王信托与 OpenAI 宣布百万英镑合作",
       "url": "https://openai.com/index/the-kings-trust-and-openai",
       "body": "来源标题译文；原文访问受限，未核验正文。",
@@ -207,38 +233,6 @@
       "importance": "normal",
       "title_original": "The King’s Trust and OpenAI launch £1m partnership",
       "body_original": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "Holiday Extras 的 dots 如何主动开展工作",
-      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "At Holiday Extras, dots get to work before anyone asks",
-      "body_original": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "Hugging Face 与 OpenRouter 合作简化开放权重模型调用",
-      "url": "https://huggingface.co/blog/openrouter",
-      "body": "双方宣布将 Hugging Face 的语言模型推理请求路由接入 OpenRouter，按价格、速度和可靠性选择提供商并提供失败重试。公告描述服务整合，不代表所有模型免费或适合所有数据使用场景。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
-      "body_original": "",
       "editorial_date": "2026-11-17"
     }
   ],
@@ -533,13 +527,13 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-17T14:11:30.227025+00:00",
+  "fetched_at": "2026-11-17T20:23:48.206198+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 23
+      "items": 26
     },
     {
       "source": "Hugging Face",
@@ -578,16 +572,16 @@
       "items": 114
     }
   ],
+  "editorial": {
+    "date": "2026-11-17",
+    "items_applied": 25,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 12,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-17",
-    "items_applied": 27,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
