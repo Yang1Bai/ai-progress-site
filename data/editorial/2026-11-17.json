@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-17",
+  "news": [
+    {
+      "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+      "title": "MIT：AI 时代仍需锻炼数学思维",
+      "body": "MIT 数学教师 John Urschel 讨论人工智能时代培养批判性思维与解题能力的重要性，并介绍人类洞察与 AI 工具协作的经验。访谈属于教育与研究观点，不能视为对 AI 数学可靠性的全面验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "title": "MIT 介绍让机器学习模型解释自身的研究",
+      "body": "报道介绍 Jacob Andreas 团队让模型用人类可理解的语言准确描述其学习内容的研究方向，目标是改善理解与沟通。让模型解释自身并不自动保证解释正确，仍需验证。"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "title": "用 AI 加强北约及盟国网络防御",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "title": "OpenAI 介绍面向智利的计划",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "扩大科学家使用人工智能的机会",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "title": "以新工具与支持加强打击网络儿童性虐待",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "title": "前沿科学：科学家如何使用 ChatGPT",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "title": "Revolut 如何提高目标并维持标准",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "LVMH 媒体部门宣布与 OpenAI 战略合作",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "title": "OpenAI 介绍首阶段嵌入式评估",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "title": "ChatGPT for Healthcare 扩展医疗服务支持方式",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "title": "为医疗团队推进计算机操作智能体",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "title": "英国国王信托与 OpenAI 宣布百万英镑合作",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "title": "Holiday Extras 的 dots 如何主动开展工作",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://huggingface.co/blog/openrouter",
+      "title": "Hugging Face 与 OpenRouter 合作简化开放权重模型调用",
+      "body": "双方宣布将 Hugging Face 的语言模型推理请求路由接入 OpenRouter，按价格、速度和可靠性选择提供商并提供失败重试。公告描述服务整合，不代表所有模型免费或适合所有数据使用场景。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.18797",
+      "title": "大数据与 AI 时代的材料理论和计算实践指南",
+      "summary": "这篇预印本专著以势能面和统计采样为主线，梳理力场、密度泛函、多体电子结构及材料机器学习。内容侧重教学与方法联系，不是新模型性能的单项实验验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.19039",
+      "title": "平带驱动的双极反常能斯特效应",
+      "summary": "预印本摘要：作者结合机器学习筛选与 Co₂TiGe 单晶实验，研究反常能斯特信号的极性翻转，并以能带计算解释机制。伏特级横向热电转换是其器件设计方向，不能据摘要认定完整器件已实现该输出。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.19596",
+      "title": "非理想实验数据中的学习曲线与辐射冷却涂层逆向设计",
+      "summary": "预印本摘要：自动化平台制备并表征涂层，研究预测误差随数据规模的变化，再进行逆向设计实验验证。作者观察到所测数据中的幂律趋势，不能假定所有材料数据都遵循同一规律。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.19793",
+      "title": "IANN：统一等变原子神经网络的训练与部署",
+      "summary": "预印本摘要：框架以统一数据对象、训练器和部署方式实现多种原子图网络，降低比较模型及连接分子动力学软件的成本。软件兼容性与效率仍需在具体环境和任务中验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.20247",
+      "title": "用机器学习预测材料的 GW 自能矩阵",
+      "summary": "预印本摘要：相位感知多体 Transformer 预测动量分辨的复数自能矩阵，而非仅预测标量能量修正。作者在二维材料数据和指定 GW 近似中验证准粒子能量与波函数；结论受数据及近似范围限制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.20585",
+      "title": "桌边 GPU 上的大规模图神经网络力场单点计算",
+      "summary": "预印本摘要：研究通过立方体与边界层分解，扩展 ALIGNN-FF 的能量和力评估规模，并展示多晶等案例。这里的大规模结果是单点评估，不应等同于已完成同等规模的长时间动力学。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.20706",
+      "title": "无需显式吸附物建模，筛选镍纳米颗粒上的水解离位点",
+      "summary": "预印本摘要：图网络用裸镍几何与位点锚定原子预测 OH 与 H 共吸附能，并判断弛豫后位点是否保留。测试显示可用于候选排序与保守筛选，但跨体系定量精度仍有变化，不能替代所有 DFT 验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.19658",
+      "title": "介观神经算子：从分子动力学学习跨尺度断裂本构",
+      "summary": "预印本摘要：方法从原子模拟的载荷和位移数据学习非局域本构，并通过核归一化与临界键伸长缩放约束跨尺度能量一致性。结果来自合成及粗粒化模拟检验，应用仍取决于训练数据和模型假设。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.20301",
+      "title": "神经网络代理预测双脉冲激光下硅薄膜的光热响应",
+      "summary": "预印本摘要：研究以多物理场模拟训练多输出网络，预测温度、载流子与光学响应，并快速扫描膜厚和脉冲间隔。精度针对模拟参考与训练范围，不能直接视为真实加工闭环控制已经验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.21398",
+      "title": "从 Dyson 方程视角理解多体机器学习中的自注意力",
+      "summary": "预印本摘要：作者将自注意力解释为实空间 Dyson 迭代，并用相关波函数案例讨论其相对求和池化的表达能力。这是理论解释与特定算例，不宜推广为所有注意力模型的普适保证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.14846",
+      "title": "用机器学习预筛半导体点缺陷",
+      "summary": "预印本摘要：研究比较描述符与回归模型，预测 4H-SiC 点缺陷形成能和零声子线，重点是跳过昂贵弛豫进行预筛。间隙缺陷误差较大，精细表征仍通常需要后续计算。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07998",
+      "title": "用几何分片学习聚合物多尺度分子表示",
+      "summary": "预印本摘要：作者将分子分片构造为半径约束优化问题，结合分片注意力整合多尺度结构信息，减少对预定义化学规则的依赖。本文摘要所述方法仍需结合具体数据集评估泛化能力。"
+    }
+  ]
+}
