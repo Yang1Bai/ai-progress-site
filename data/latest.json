@@ -2,6 +2,58 @@
   "date": "2026年11月18日",
   "news": [
     {
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "body": "",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T18:53:43+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "body": "",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T15:00:23+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "This featherweight, flying robot carries its own sensors and computers",
+      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "body": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T14:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "body": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "让 AI 文本检测器适应不断变化的写作条件",
       "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
       "body": "MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。",
@@ -18,6 +70,32 @@
       "editorial_date": "2026-11-18"
     },
     {
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "body": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "body": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "费加罗集团与 OpenAI 合作，将新闻内容引入 ChatGPT",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "body": "来源标题译文；原文访问受限，未核验正文。",
@@ -32,6 +110,32 @@
       "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "body_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "body": "",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "body": "",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal"
     },
     {
       "title": "OpenAI 介绍 GPT-6.2 Astra 与 Sol",
@@ -111,134 +215,6 @@
       "importance": "normal",
       "title_original": "Learning the language of machine learning",
       "body_original": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "用 AI 加强北约及盟国网络防御",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "title_original": "Strengthening NATO and allied cyber defenses with AI",
-      "body_original": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "Astra for Law 的法律智能表现",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "body": "来源标题译文；原文访问受限，未核验正文。标题中的领先表述属于来源主张，未独立核实。",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "title_original": "Astra for Law leads in legal intelligence",
-      "body_original": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "OpenAI 介绍面向智利的计划",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing OpenAI for Chile",
-      "body_original": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "扩大科学家使用人工智能的机会",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Broadening access to AI for scientists",
-      "body_original": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "以新工具与支持加强打击网络儿童性虐待",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T17:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "body_original": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "前沿科学：科学家如何使用 ChatGPT",
-      "url": "https://openai.com/index/science-at-the-frontier",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T12:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Science at the Frontier: How scientists use ChatGPT",
-      "body_original": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "Revolut 如何提高目标并维持标准",
-      "url": "https://openai.com/business/customer-stories/revolut",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T09:30:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "How Revolut raises ambition without lowering the bar",
-      "body_original": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "editorial_date": "2026-11-18"
-    },
-    {
-      "title": "LVMH 媒体部门宣布与 OpenAI 战略合作",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T09:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "body_original": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "editorial_date": "2026-11-18"
     }
   ],
@@ -428,25 +404,25 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-18T14:02:29.700513+00:00",
+  "fetched_at": "2026-11-18T19:53:18.023832+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 26
+      "items": 29
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 6
+      "items": 10
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "Google Research",
@@ -473,16 +449,16 @@
       "items": 76
     }
   ],
+  "editorial": {
+    "date": "2026-11-18",
+    "items_applied": 14,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 7,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-18",
-    "items_applied": 22,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
