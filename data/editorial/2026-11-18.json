@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-18",
+  "news": [
+    {
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "title": "让 AI 文本检测器适应不断变化的写作条件",
+      "body": "MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。"
+    },
+    {
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "费加罗集团与 OpenAI 合作，将新闻内容引入 ChatGPT",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "OpenAI 介绍 GPT-6.2 Astra 与 Sol",
+      "body": "来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "title": "MIT 关注人工智能对社会与人际关系的影响",
+      "body": "报道介绍 MIT Human Insight Collaborative 支持的跨学科项目，关注生成式 AI 如何改变学习、思考与社会互动。文中教育观察和项目背景不能直接推广为所有群体的因果结论。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "title": "OpenAI 介绍 ChatGPT for Sales",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+      "title": "MIT：AI 时代仍需锻炼数学思维",
+      "body": "MIT 数学教师 John Urschel 讨论人工智能时代培养批判性思维与解题能力的重要性，并介绍人类洞察与 AI 工具协作的经验。访谈属于教育与研究观点，不能视为对 AI 数学可靠性的全面验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "title": "MIT 介绍让机器学习模型解释自身的研究",
+      "body": "报道介绍 Jacob Andreas 团队让模型用人类可理解的语言准确描述其学习内容的研究方向，目标是改善理解与沟通。让模型解释自身并不自动保证解释正确，仍需验证。"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "title": "用 AI 加强北约及盟国网络防御",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/astra-law-6-2",
+      "title": "Astra for Law 的法律智能表现",
+      "body": "来源标题译文；原文访问受限，未核验正文。标题中的领先表述属于来源主张，未独立核实。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "title": "OpenAI 介绍面向智利的计划",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "扩大科学家使用人工智能的机会",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "title": "以新工具与支持加强打击网络儿童性虐待",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "title": "前沿科学：科学家如何使用 ChatGPT",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "title": "Revolut 如何提高目标并维持标准",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "title": "LVMH 媒体部门宣布与 OpenAI 战略合作",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.21900",
+      "title": "用经典势与机器学习势比较氟化锂动力学和输运",
+      "summary": "预印本摘要：作者比较熔融 LiF 的经典势、MACE 基础势及微调势，分析黏度、熔点与微观输运。机器学习势改善部分实验量的重现，但不同模型仍有明显差异，结论限于所测体系。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.21903",
+      "title": "quantEM：以可微物理统一定量电子显微分析",
+      "summary": "预印本摘要：开源软件将可微前向模型、表示、损失及优化器组织成可复用组件，覆盖成像、衍射、谱学和断层分析。统一软件框架有助于组合多模态方法，具体反演精度仍需逐任务验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.22444",
+      "title": "机器学习原子间势的效率综述",
+      "summary": "预印本综述摘要：作者用 ACE 与 GRACE 展开统一讨论多种势函数，比较架构、非线性处理及精度与成本权衡。效率必须在给定精度和数据条件下衡量，不能据此认定某种架构普遍最优。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.22140",
+      "title": "用合成晶体结构支持扩散预训练",
+      "summary": "预印本摘要：研究结合扰动弛豫、生成采样及原型枚举构建预训练结构，并用机器学习势减少逐个进行 DFT 弛豫的需求。作者比较不同扩散目标与材料性质任务；合成数据的收益仍取决于分布和下游任务。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03162",
+      "title": "ODAC25：可变形 MOF 气体吸附开放数据集",
+      "summary": "预印本摘要：数据集包含多种气体在金属有机框架中的 DFT 单点计算，考虑官能化、吸附构型及框架柔性，并发布训练后的原子间势。计算筛选与亨利系数演示不能直接等同于实际直接空气捕集工艺性能。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.00359",
+      "title": "混合多凸神经势描述材料族的超弹性",
+      "summary": "预印本摘要：方法将满足凸性与单调性约束的神经势组合起来，用材料描述符控制混合权重，并在打印材料实验数据和合成基准中测试。未见描述符上的泛化改善限于所测材料族，尚不是通用材料基础模型的证明。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.29362",
+      "title": "组合神经网络融合 X 射线与中子散射反演",
+      "summary": "预印本摘要：框架分别训练单观测后验估计器，在推理时组合互补测量，以减少重新训练联合模型的需求。反射率案例展示了带不确定性的联合精修，但融合信息不能自动消除所有反演非唯一性。"
+    }
+  ]
+}

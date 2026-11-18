@@ -1,10 +1,42 @@
 {
-  "date": "2026年11月17日",
+  "date": "2026年11月18日",
   "news": [
     {
-      "title": "Introducing GPT-6.2 Astra and Sol",
+      "title": "让 AI 文本检测器适应不断变化的写作条件",
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "body": "MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Helping AI text detectors keep up with changing conditions",
+      "body_original": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
+      "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "费加罗集团与 OpenAI 合作，将新闻内容引入 ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "body_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "OpenAI 介绍 GPT-6.2 Astra 与 Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "body": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "body": "来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。",
       "date": "2026-11-17",
       "published_at": "2026-11-17T17:45:00+00:00",
       "source": "OpenAI",
@@ -12,7 +44,42 @@
         "OpenAI",
         "2026-11-17"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Introducing GPT-6.2 Astra and Sol",
+      "body_original": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "MIT 关注人工智能对社会与人际关系的影响",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "body": "报道介绍 MIT Human Insight Collaborative 支持的跨学科项目，关注生成式 AI 如何改变学习、思考与社会互动。文中教育观察和项目背景不能直接推广为所有群体的因果结论。",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T15:40:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-17"
+      ],
+      "importance": "normal",
+      "title_original": "Putting a spotlight on AI, society, and humanity",
+      "body_original": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+      "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "OpenAI 介绍 ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-17"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing ChatGPT for Sales",
+      "body_original": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "MIT：AI 时代仍需锻炼数学思维",
@@ -28,7 +95,7 @@
       "importance": "normal",
       "title_original": "Q&A: Why building math muscles remains important in the AI era",
       "body_original": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "MIT 介绍让机器学习模型解释自身的研究",
@@ -44,7 +111,7 @@
       "importance": "normal",
       "title_original": "Learning the language of machine learning",
       "body_original": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "用 AI 加强北约及盟国网络防御",
@@ -60,7 +127,23 @@
       "importance": "normal",
       "title_original": "Strengthening NATO and allied cyber defenses with AI",
       "body_original": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
+    },
+    {
+      "title": "Astra for Law 的法律智能表现",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "body": "来源标题译文；原文访问受限，未核验正文。标题中的领先表述属于来源主张，未独立核实。",
+      "date": "2026-11-17",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-17"
+      ],
+      "importance": "normal",
+      "title_original": "Astra for Law leads in legal intelligence",
+      "body_original": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "OpenAI 介绍面向智利的计划",
@@ -76,20 +159,7 @@
       "importance": "normal",
       "title_original": "Introducing OpenAI for Chile",
       "body_original": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "body": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-17"
-      ],
-      "importance": "normal"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "扩大科学家使用人工智能的机会",
@@ -105,7 +175,7 @@
       "importance": "normal",
       "title_original": "Broadening access to AI for scientists",
       "body_original": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "以新工具与支持加强打击网络儿童性虐待",
@@ -121,7 +191,7 @@
       "importance": "normal",
       "title_original": "Strengthening the fight against online child sexual abuse with new tools and support",
       "body_original": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "前沿科学：科学家如何使用 ChatGPT",
@@ -137,7 +207,7 @@
       "importance": "normal",
       "title_original": "Science at the Frontier: How scientists use ChatGPT",
       "body_original": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "Revolut 如何提高目标并维持标准",
@@ -153,7 +223,7 @@
       "importance": "normal",
       "title_original": "How Revolut raises ambition without lowering the bar",
       "body_original": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     },
     {
       "title": "LVMH 媒体部门宣布与 OpenAI 战略合作",
@@ -169,325 +239,156 @@
       "importance": "normal",
       "title_original": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "body_original": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "OpenAI 介绍首阶段嵌入式评估",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Our first phase of embedded assessments",
-      "body_original": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "为医疗团队推进计算机操作智能体",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T06:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "Advancing computer-use agents for healthcare teams",
-      "body_original": "",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "ChatGPT for Healthcare 扩展医疗服务支持方式",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T06:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "More ways to move care forward with ChatGPT for Healthcare",
-      "body_original": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "英国国王信托与 OpenAI 宣布百万英镑合作",
-      "url": "https://openai.com/index/the-kings-trust-and-openai",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-16",
-      "published_at": "2026-11-16T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-16"
-      ],
-      "importance": "normal",
-      "title_original": "The King’s Trust and OpenAI launch £1m partnership",
-      "body_original": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
-      "editorial_date": "2026-11-17"
+      "editorial_date": "2026-11-18"
     }
   ],
   "papers": [
     {
-      "title": "大数据与 AI 时代的材料理论和计算实践指南",
-      "url": "https://arxiv.org/abs/2611.18797",
-      "body": "arXiv:2611.18797v1 Announce Type: new Abstract: Computational modelling has become a cornerstone of materials science, with advances in atomistic simulations, high-throughput computation, and artificial intelligence transforming how materials are understood, discovered, and designed. These developments build upon generations of theoretical innovations that have translated complex mathematical and physical principles into practical predictive tools. However, the growing diversity of computational methods presents challenges for practitioners seeking a coherent understanding of their theoretical foundations. Drawing upon the author's research experience, this monograph provides a practitioner-",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "用经典势与机器学习势比较氟化锂动力学和输运",
+      "url": "https://arxiv.org/abs/2611.21900",
+      "body": "arXiv:2611.21900v1 Announce Type: new Abstract: We perform molecular dynamics simulations of molten Lithium Fluoride, comparing the classical Buckingham and Born-Huggins-Mayer potentials with machine-learnt interatomic potentials - the MACE-MP-0b3 (small) foundation model potential, and a fine-tuned version thereof. We find that the MACE-MP-0b3, out-of-the-box, is able to accurately reproduce the experimental shear viscosity across the liquid state comparable with polarisable potentials despite not itself being polarisable. Previous viscosities computed using classical potentials are under-predicted, which has previously been attributed to a suppressed melting temperature. Prompted by this w",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "这篇预印本专著以势能面和统计采样为主线，梳理力场、密度泛函、多体电子结构及材料机器学习。内容侧重教学与方法联系，不是新模型性能的单项实验验证。",
+      "summary": "预印本摘要：作者比较熔融 LiF 的经典势、MACE 基础势及微调势，分析黏度、熔点与微观输运。机器学习势改善部分实验量的重现，但不同模型仍有明显差异，结论限于所测体系。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "A Practitioner's Guide to Materials Theory and Computation in the Age of Big Data and Artificial Intelligence",
-      "summary_original": "arXiv:2611.18797v1 Announce Type: new Abstract: Computational modelling has become a cornerstone of materials science, with advances in atomistic simulations, high-throughput computation, and artificial intelligence transforming how materials are understood, discovered, and designed. These developments build upon generations of theoretical innovations that have translated complex mathematical and physical principles into practical predictive tools. However, the growing diversity of computational methods presents challenges for practitioners seeking a coherent understanding of their theoretical foundations. Drawing upon the author's research experience, this monograph provides a practitioner-",
-      "editorial_date": "2026-11-17"
+      "title_original": "Dynamics and transport in LiF using classical and machine learned interatomic potentials",
+      "summary_original": "arXiv:2611.21900v1 Announce Type: new Abstract: We perform molecular dynamics simulations of molten Lithium Fluoride, comparing the classical Buckingham and Born-Huggins-Mayer potentials with machine-learnt interatomic potentials - the MACE-MP-0b3 (small) foundation model potential, and a fine-tuned version thereof. We find that the MACE-MP-0b3, out-of-the-box, is able to accurately reproduce the experimental shear viscosity across the liquid state comparable with polarisable potentials despite not itself being polarisable. Previous viscosities computed using classical potentials are under-predicted, which has previously been attributed to a suppressed melting temperature. Prompted by this w",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "平带驱动的双极反常能斯特效应",
-      "url": "https://arxiv.org/abs/2611.19039",
-      "body": "arXiv:2611.19039v1 Announce Type: new Abstract: Unipolar anomalous Nernst thermopiles are critically plagued by metallic interconnects, which induce heavy Joule dissipation and compromise the module's packing density, ultimately capping voltage generation. Here, we circumvent these limitations by establishing an intrinsic bipolar anomalous Nernst effect (BANE) paradigm, enabling seamless series integration analogous to Seebeck n-p pairs without passive metallic bridges. Focusing on flat-band topological systems, through machine learning assisted screening across multiple target properties, we identified 249 BANE materials, exhibiting near-room-temperature polarity switching. Guided by this p",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "quantEM：以可微物理统一定量电子显微分析",
+      "url": "https://arxiv.org/abs/2611.21903",
+      "body": "arXiv:2611.21903v1 Announce Type: new Abstract: Quantitative electron microscopy includes imaging, diffraction, spectroscopy, and tomography measurements, and the analysis of these measurements increasingly requires solving inverse problems with physical forward models. Open-source software has made many of these analyses widely available, but most packages are organized around a single modality, so that multimodal analyses require moving data between packages, and new methods cannot easily reuse the physical models and optimizers of existing ones. Here we present quantEM, an open-source Python package for quantitative electron microscopy that uses PyTorch tensors for computation and automat",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：作者结合机器学习筛选与 Co₂TiGe 单晶实验，研究反常能斯特信号的极性翻转，并以能带计算解释机制。伏特级横向热电转换是其器件设计方向，不能据摘要认定完整器件已实现该输出。",
+      "summary": "预印本摘要：开源软件将可微前向模型、表示、损失及优化器组织成可复用组件，覆盖成像、衍射、谱学和断层分析。统一软件框架有助于组合多模态方法，具体反演精度仍需逐任务验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Flat-band driven bipolar anomalous Nernst effect towards volt-scale transverse thermoelectric conversion",
-      "summary_original": "arXiv:2611.19039v1 Announce Type: new Abstract: Unipolar anomalous Nernst thermopiles are critically plagued by metallic interconnects, which induce heavy Joule dissipation and compromise the module's packing density, ultimately capping voltage generation. Here, we circumvent these limitations by establishing an intrinsic bipolar anomalous Nernst effect (BANE) paradigm, enabling seamless series integration analogous to Seebeck n-p pairs without passive metallic bridges. Focusing on flat-band topological systems, through machine learning assisted screening across multiple target properties, we identified 249 BANE materials, exhibiting near-room-temperature polarity switching. Guided by this p",
-      "editorial_date": "2026-11-17"
+      "title_original": "quantEM: Quantitative Electron Microscopy Analysis from Differentiable Physics to Neural Priors",
+      "summary_original": "arXiv:2611.21903v1 Announce Type: new Abstract: Quantitative electron microscopy includes imaging, diffraction, spectroscopy, and tomography measurements, and the analysis of these measurements increasingly requires solving inverse problems with physical forward models. Open-source software has made many of these analyses widely available, but most packages are organized around a single modality, so that multimodal analyses require moving data between packages, and new methods cannot easily reuse the physical models and optimizers of existing ones. Here we present quantEM, an open-source Python package for quantitative electron microscopy that uses PyTorch tensors for computation and automat",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "非理想实验数据中的学习曲线与辐射冷却涂层逆向设计",
-      "url": "https://arxiv.org/abs/2611.19596",
-      "body": "arXiv:2611.19596v1 Announce Type: new Abstract: Materials informatics increasingly targets multicomponent materials, yet experimental datasets inevitably contain non-ideal variations arising from imperfect uniformity and reproducibility in composition, coating formation, and measurement. Whether machine-learning prediction accuracy scales with amount of data under these conditions remains unclear. Here, we develop an automated platform that produced and optically characterized 11,520 radiative-cooling coatings spanning nine material and processing parameters. Forward and inverse neural networks, and a spectrum-conditioned diffusion model were trained on subsets of 10 to 10,000 samples. All m",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "机器学习原子间势的效率综述",
+      "url": "https://arxiv.org/abs/2611.22444",
+      "body": "arXiv:2611.22444v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) reach an accuracy close to quantum mechanical reference calculations at a small fraction of the cost. Efficiency is the purpose of MLIPs, yet strategies for efficient MLIPs have not been reviewed systematically. This review takes efficiency as its guideline. To compare MLIPs on a common footing, we represent them in a complete basis expansion, the Atomic Cluster Expansion (ACE) and its graph generalization (GRACE). The expansion is canonical, built from products of single-particle functions. Classical interatomic potentials, such as the embedded-atom method, and many modern MLIPs, including equiva",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：自动化平台制备并表征涂层，研究预测误差随数据规模的变化，再进行逆向设计实验验证。作者观察到所测数据中的幂律趋势，不能假定所有材料数据都遵循同一规律。",
+      "summary": "预印本综述摘要：作者用 ACE 与 GRACE 展开统一讨论多种势函数，比较架构、非线性处理及精度与成本权衡。效率必须在给定精度和数据条件下衡量，不能据此认定某种架构普遍最优。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Scaling laws in machine learning on non-ideal experimental data enable inverse design of radiative-cooling coatings",
-      "summary_original": "arXiv:2611.19596v1 Announce Type: new Abstract: Materials informatics increasingly targets multicomponent materials, yet experimental datasets inevitably contain non-ideal variations arising from imperfect uniformity and reproducibility in composition, coating formation, and measurement. Whether machine-learning prediction accuracy scales with amount of data under these conditions remains unclear. Here, we develop an automated platform that produced and optically characterized 11,520 radiative-cooling coatings spanning nine material and processing parameters. Forward and inverse neural networks, and a spectrum-conditioned diffusion model were trained on subsets of 10 to 10,000 samples. All m",
-      "editorial_date": "2026-11-17"
+      "title_original": "Efficient Machine Learning Interatomic Potentials",
+      "summary_original": "arXiv:2611.22444v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) reach an accuracy close to quantum mechanical reference calculations at a small fraction of the cost. Efficiency is the purpose of MLIPs, yet strategies for efficient MLIPs have not been reviewed systematically. This review takes efficiency as its guideline. To compare MLIPs on a common footing, we represent them in a complete basis expansion, the Atomic Cluster Expansion (ACE) and its graph generalization (GRACE). The expansion is canonical, built from products of single-particle functions. Classical interatomic potentials, such as the embedded-atom method, and many modern MLIPs, including equiva",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "IANN：统一等变原子神经网络的训练与部署",
-      "url": "https://arxiv.org/abs/2611.19793",
-      "body": "arXiv:2611.19793v1 Announce Type: new Abstract: Machine-learning interatomic potentials (MLIPs) now approach density functional theory (DFT) accuracy at a fraction of its cost, but the practical benefit is limited by software fragmentation: each state-of-the-art architecture is released as a separate codebase, with its own data format, configuration system, training loop and molecular-dynamics interface. Comparing two architectures on the same dataset, or moving a trained model into a production simulation, therefore requires substantial re-engineering. We introduce IANN (InterAtomic Neural Network), an open-source PyTorch framework that reimplements equivariant graph neural networks - PaiNN",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "用合成晶体结构支持扩散预训练",
+      "url": "https://arxiv.org/abs/2611.22140",
+      "body": "arXiv:2611.22140v1 Announce Type: cross Abstract: Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method retains a critical dependency: it requires structures residing near local minima of a potential energy surface, which have traditionally been obtained through costly DFT relaxations of known or physically synthesized compounds. This reliance constrains both the scale and the structural diversity of available pretraining data, leaving large regions ",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：框架以统一数据对象、训练器和部署方式实现多种原子图网络，降低比较模型及连接分子动力学软件的成本。软件兼容性与效率仍需在具体环境和任务中验证。",
+      "summary": "预印本摘要：研究结合扰动弛豫、生成采样及原型枚举构建预训练结构，并用机器学习势减少逐个进行 DFT 弛豫的需求。作者比较不同扩散目标与材料性质任务；合成数据的收益仍取决于分布和下游任务。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "IANN: A Unified Framework for Equivariant InterAtomic Neural Networks with User-Friendly Implementation",
-      "summary_original": "arXiv:2611.19793v1 Announce Type: new Abstract: Machine-learning interatomic potentials (MLIPs) now approach density functional theory (DFT) accuracy at a fraction of its cost, but the practical benefit is limited by software fragmentation: each state-of-the-art architecture is released as a separate codebase, with its own data format, configuration system, training loop and molecular-dynamics interface. Comparing two architectures on the same dataset, or moving a trained model into a production simulation, therefore requires substantial re-engineering. We introduce IANN (InterAtomic Neural Network), an open-source PyTorch framework that reimplements equivariant graph neural networks - PaiNN",
-      "editorial_date": "2026-11-17"
+      "title_original": "Synthetic Crystal Data Generation for Diffusion Pretraining in Material Property Prediction",
+      "summary_original": "arXiv:2611.22140v1 Announce Type: cross Abstract: Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method retains a critical dependency: it requires structures residing near local minima of a potential energy surface, which have traditionally been obtained through costly DFT relaxations of known or physically synthesized compounds. This reliance constrains both the scale and the structural diversity of available pretraining data, leaving large regions ",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "用机器学习预测材料的 GW 自能矩阵",
-      "url": "https://arxiv.org/abs/2611.20247",
-      "body": "arXiv:2611.20247v1 Announce Type: new Abstract: Machine learning of $GW$ in solids has largely focused on prediction of scalar quasiparticle energy corrections. Here, we introduce a phase-aware many-body transformer that predicts the full $\\mathbf{k}$-resolved complex self-energy matrix. As a proof of principle, we apply the model to predict quasiparticle energies before and after diagonalization of the quasiparticle Hamiltonian, obtaining a test set mean absolute error (MAE) of 29 meV for a dataset of 1745 2D materials in the static COHSEX approximation and 60 meV for a more limited dataset of 433 materials calculated within a plasmon-pole model. COHSEX pretraining followed by finetuning re",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "ODAC25：可变形 MOF 气体吸附开放数据集",
+      "url": "https://arxiv.org/abs/2508.03162",
+      "body": "arXiv:2508.03162v3 Announce Type: replace Abstract: Engineering economical and scalable processes for direct air capture (DAC) from humid air relies on atomistic modeling to search and identify promising sorbent materials from a vast chemical space. Machine learning has emerged as a powerful tool for predicting material properties in an efficient yet accurate manner, but these models require large sets of carefully curated training data. We present the Open DAC 2025 (ODAC25) dataset comprising nearly 60 million DFT single-point calculations for CO2, H2O, N2, and O2 adsorption in ~15,000 MOFs. ODAC25 introduces functionalized MOFs, high-energy adsorbate placements, and synthetically generated",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：相位感知多体 Transformer 预测动量分辨的复数自能矩阵，而非仅预测标量能量修正。作者在二维材料数据和指定 GW 近似中验证准粒子能量与波函数；结论受数据及近似范围限制。",
+      "summary": "预印本摘要：数据集包含多种气体在金属有机框架中的 DFT 单点计算，考虑官能化、吸附构型及框架柔性，并发布训练后的原子间势。计算筛选与亨利系数演示不能直接等同于实际直接空气捕集工艺性能。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Machine Learning the $GW$ Self-Energy Operator for Real Materials",
-      "summary_original": "arXiv:2611.20247v1 Announce Type: new Abstract: Machine learning of $GW$ in solids has largely focused on prediction of scalar quasiparticle energy corrections. Here, we introduce a phase-aware many-body transformer that predicts the full $\\mathbf{k}$-resolved complex self-energy matrix. As a proof of principle, we apply the model to predict quasiparticle energies before and after diagonalization of the quasiparticle Hamiltonian, obtaining a test set mean absolute error (MAE) of 29 meV for a dataset of 1745 2D materials in the static COHSEX approximation and 60 meV for a more limited dataset of 433 materials calculated within a plasmon-pole model. COHSEX pretraining followed by finetuning re",
-      "editorial_date": "2026-11-17"
+      "title_original": "An open dataset of gas adsorption in deformable metal-organic frameworks for direct air capture",
+      "summary_original": "arXiv:2508.03162v3 Announce Type: replace Abstract: Engineering economical and scalable processes for direct air capture (DAC) from humid air relies on atomistic modeling to search and identify promising sorbent materials from a vast chemical space. Machine learning has emerged as a powerful tool for predicting material properties in an efficient yet accurate manner, but these models require large sets of carefully curated training data. We present the Open DAC 2025 (ODAC25) dataset comprising nearly 60 million DFT single-point calculations for CO2, H2O, N2, and O2 adsorption in ~15,000 MOFs. ODAC25 introduces functionalized MOFs, high-energy adsorbate placements, and synthetically generated",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "桌边 GPU 上的大规模图神经网络力场单点计算",
-      "url": "https://arxiv.org/abs/2611.20585",
-      "body": "arXiv:2611.20585v1 Announce Type: new Abstract: Machine-learning force fields are capable of simulating billions of atoms, but usually require high-performance supercomputing clusters. We show that a universal graph neural network force field, ALIGNN-FF, evaluates energies and forces of more than one billion atoms on desk-side computers such as the NVIDIA GB10, which has 128 GB of unified memory, by using a cube-and-halo decomposition. The halo contains every atom within the model's 20 {\\AA} receptive field, which makes the result exact. One GB10 holds 216,000 atoms with forces as a single graph. The cube-and-halo decomposition removes this limit, enabling an evaluation of 2 billion atoms on",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "混合多凸神经势描述材料族的超弹性",
+      "url": "https://arxiv.org/abs/2609.00359",
+      "body": "arXiv:2609.00359v2 Announce Type: replace-cross Abstract: Hyperelastic constitutive models enable modeling large deformations in elastic solids. In common practice, a strain energy density function is prescribed in advance and model-specific parameters are calibrated from experiments. However, many applications require constitutive models for a family of related materials whose mechanical behavior varies with composition. A fixed constitutive model-form may not capture the full range of behavior across the family, while fitting separate forms does not provide a direct way to predict the response of new compositions. Recent work has developed data-driven constitutive models that learn flexibl",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究通过立方体与边界层分解，扩展 ALIGNN-FF 的能量和力评估规模，并展示多晶等案例。这里的大规模结果是单点评估，不应等同于已完成同等规模的长时间动力学。",
+      "summary": "预印本摘要：方法将满足凸性与单调性约束的神经势组合起来，用材料描述符控制混合权重，并在打印材料实验数据和合成基准中测试。未见描述符上的泛化改善限于所测材料族，尚不是通用材料基础模型的证明。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Scaling a Universal Graph Neural Network Force Field to Billions of Atoms on Desk-Side GPUs",
-      "summary_original": "arXiv:2611.20585v1 Announce Type: new Abstract: Machine-learning force fields are capable of simulating billions of atoms, but usually require high-performance supercomputing clusters. We show that a universal graph neural network force field, ALIGNN-FF, evaluates energies and forces of more than one billion atoms on desk-side computers such as the NVIDIA GB10, which has 128 GB of unified memory, by using a cube-and-halo decomposition. The halo contains every atom within the model's 20 {\\AA} receptive field, which makes the result exact. One GB10 holds 216,000 atoms with forces as a single graph. The cube-and-halo decomposition removes this limit, enabling an evaluation of 2 billion atoms on",
-      "editorial_date": "2026-11-17"
+      "title_original": "Mixture of Polyconvex Neural Potentials for Parametric Hyperelasticity: Towards Foundation Material Models",
+      "summary_original": "arXiv:2609.00359v2 Announce Type: replace-cross Abstract: Hyperelastic constitutive models enable modeling large deformations in elastic solids. In common practice, a strain energy density function is prescribed in advance and model-specific parameters are calibrated from experiments. However, many applications require constitutive models for a family of related materials whose mechanical behavior varies with composition. A fixed constitutive model-form may not capture the full range of behavior across the family, while fitting separate forms does not provide a direct way to predict the response of new compositions. Recent work has developed data-driven constitutive models that learn flexibl",
+      "editorial_date": "2026-11-18"
     },
     {
-      "title": "无需显式吸附物建模，筛选镍纳米颗粒上的水解离位点",
-      "url": "https://arxiv.org/abs/2611.20706",
-      "body": "arXiv:2611.20706v1 Announce Type: new Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-reference ",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
+      "title": "组合神经网络融合 X 射线与中子散射反演",
+      "url": "https://arxiv.org/abs/2610.29362",
+      "body": "arXiv:2610.29362v3 Announce Type: replace-cross Abstract: X-ray and neutron scattering are indispensable for structural characterization across condensed-matter physics and materials science. Yet, because scattering experiments generally record intensities without phase information, distinct structures can yield similar scattering patterns, rendering the corresponding inverse problems non-unique. This ambiguity can be reduced by combining complementary measurements, but their integration into machine-learning frameworks remains challenging. Here we introduce a modular framework for probabilistic multi-measurement analysis based on prior-amortized flow matching. Single-observation posterior e",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-17"
+        "2026-11-18"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：图网络用裸镍几何与位点锚定原子预测 OH 与 H 共吸附能，并判断弛豫后位点是否保留。测试显示可用于候选排序与保守筛选，但跨体系定量精度仍有变化，不能替代所有 DFT 验证。",
+      "summary": "预印本摘要：框架分别训练单观测后验估计器，在推理时组合互补测量，以减少重新训练联合模型的需求。反射率案例展示了带不确定性的联合精修，但融合信息不能自动消除所有反演非唯一性。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Adsorbate-Free Screening of Dissociative Water Adsorption on Nickel Nanoparticles via Graph Neural Networks",
-      "summary_original": "arXiv:2611.20706v1 Announce Type: new Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-reference ",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "介观神经算子：从分子动力学学习跨尺度断裂本构",
-      "url": "https://arxiv.org/abs/2611.19658",
-      "body": "arXiv:2611.19658v1 Announce Type: cross Abstract: Molecular dynamics (MD) simulations can capture the nanoscale physics of fracture at the atomistic level, but their computational cost prohibits predictions at the length scales and time scales needed for many applications. Machine learning approaches, on the other hand, have been proposed as heuristic surrogates for material fracture, yet they cannot guarantee the physical consistency of the predicted response. To address this shortcoming, we propose the mesoscale neural operator (MNO): a data-driven nonlocal constitutive model that is learned directly from MD loading and displacement data. After training, it can be used in continuum fractur",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：方法从原子模拟的载荷和位移数据学习非局域本构，并通过核归一化与临界键伸长缩放约束跨尺度能量一致性。结果来自合成及粗粒化模拟检验，应用仍取决于训练数据和模型假设。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Mesoscale Neural Operators: Learning Nonlinear Constitutive Laws from Molecular Dynamics for Scalable Fracture Predictions",
-      "summary_original": "arXiv:2611.19658v1 Announce Type: cross Abstract: Molecular dynamics (MD) simulations can capture the nanoscale physics of fracture at the atomistic level, but their computational cost prohibits predictions at the length scales and time scales needed for many applications. Machine learning approaches, on the other hand, have been proposed as heuristic surrogates for material fracture, yet they cannot guarantee the physical consistency of the predicted response. To address this shortcoming, we propose the mesoscale neural operator (MNO): a data-driven nonlocal constitutive model that is learned directly from MD loading and displacement data. After training, it can be used in continuum fractur",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "神经网络代理预测双脉冲激光下硅薄膜的光热响应",
-      "url": "https://arxiv.org/abs/2611.20301",
-      "body": "arXiv:2611.20301v1 Announce Type: cross Abstract: We introduce a multi-output feedforward neural network surrogate trained on a coupled multiple-reflection and two-temperature model to map double-pulse femtosecond laser excitation (1030 nm) of crystalline silicon films on fused silica across film thicknesses (50-500 nm) and inter-pulse delays (0-10ps). Trained via Levenberg-Marquardt optimization on 2000 physical simulations, the dual-hidden-layer network ([40,30] neurons) simultaneously predicts six strongly coupled optothermal observables, peak electron temperature, peak lattice temperature, peak carrier density, minimum and maximum absorptivity and minimum refractive index achieving coeff",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究以多物理场模拟训练多输出网络，预测温度、载流子与光学响应，并快速扫描膜厚和脉冲间隔。精度针对模拟参考与训练范围，不能直接视为真实加工闭环控制已经验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Multi-output neural network surrogate for double-pulse femtosecond optothermal control of thin silicon films on fused silica",
-      "summary_original": "arXiv:2611.20301v1 Announce Type: cross Abstract: We introduce a multi-output feedforward neural network surrogate trained on a coupled multiple-reflection and two-temperature model to map double-pulse femtosecond laser excitation (1030 nm) of crystalline silicon films on fused silica across film thicknesses (50-500 nm) and inter-pulse delays (0-10ps). Trained via Levenberg-Marquardt optimization on 2000 physical simulations, the dual-hidden-layer network ([40,30] neurons) simultaneously predicts six strongly coupled optothermal observables, peak electron temperature, peak lattice temperature, peak carrier density, minimum and maximum absorptivity and minimum refractive index achieving coeff",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "从 Dyson 方程视角理解多体机器学习中的自注意力",
-      "url": "https://arxiv.org/abs/2611.21398",
-      "body": "arXiv:2611.21398v1 Announce Type: cross Abstract: Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavefunctions and excited states? Sum-pooling is a mean-field (Hartree) model: its $O(1/N)$ off-diagonal Jacobian suffices for nearsighted ground-state energies, but erases nonlocal two-body correlations. We show that self-attention is a real-space Dyson iteration whose Boltzmann (softmax) kernel acts as a two-body self-energy. Because physical Hamiltonians act pairwise, L\\\"owdin's 2-RDM theorem and the Galitskii--Migdal relation guarantee that iterating a two-body propagator captures the full energetics of correlated matter.",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：作者将自注意力解释为实空间 Dyson 迭代，并用相关波函数案例讨论其相对求和池化的表达能力。这是理论解释与特定算例，不宜推广为所有注意力模型的普适保证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Self-attention is a Dyson equation for many-body machine learning",
-      "summary_original": "arXiv:2611.21398v1 Announce Type: cross Abstract: Why does symmetric sum-pooling (DeepSets) predict ground-state potentials to sub-meV accuracy, yet fail for correlated wavefunctions and excited states? Sum-pooling is a mean-field (Hartree) model: its $O(1/N)$ off-diagonal Jacobian suffices for nearsighted ground-state energies, but erases nonlocal two-body correlations. We show that self-attention is a real-space Dyson iteration whose Boltzmann (softmax) kernel acts as a two-body self-energy. Because physical Hamiltonians act pairwise, L\\\"owdin's 2-RDM theorem and the Galitskii--Migdal relation guarantee that iterating a two-body propagator captures the full energetics of correlated matter.",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "用机器学习预筛半导体点缺陷",
-      "url": "https://arxiv.org/abs/2609.14846",
-      "body": "arXiv:2609.14846v2 Announce Type: replace Abstract: High-throughput calculations using density-functional theory (DFT) are commonly used to explore point defects for applications in power electronics and quantum technologies. There is currently a major shift away from these traditional simulation techniques towards machine learning (ML) methods. We explore a class of physics-guided ML models for predicting defect formation energies and zero-phonon lines (ZPL) to identify point defects for quantum applications. The models are specifically targeted for use in a prescreening step for accelerated high-throughput workflows, and are therefore designed to avoid the costly relaxation step typically ",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究比较描述符与回归模型，预测 4H-SiC 点缺陷形成能和零声子线，重点是跳过昂贵弛豫进行预筛。间隙缺陷误差较大，精细表征仍通常需要后续计算。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Prescreening Point Defects in Semiconductors With Machine Learning",
-      "summary_original": "arXiv:2609.14846v2 Announce Type: replace Abstract: High-throughput calculations using density-functional theory (DFT) are commonly used to explore point defects for applications in power electronics and quantum technologies. There is currently a major shift away from these traditional simulation techniques towards machine learning (ML) methods. We explore a class of physics-guided ML models for predicting defect formation energies and zero-phonon lines (ZPL) to identify point defects for quantum applications. The models are specifically targeted for use in a prescreening step for accelerated high-throughput workflows, and are therefore designed to avoid the costly relaxation step typically ",
-      "editorial_date": "2026-11-17"
-    },
-    {
-      "title": "用几何分片学习聚合物多尺度分子表示",
-      "url": "https://arxiv.org/abs/2611.07998",
-      "body": "arXiv:2611.07998v3 Announce Type: replace-cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of mult",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：作者将分子分片构造为半径约束优化问题，结合分片注意力整合多尺度结构信息，减少对预定义化学规则的依赖。本文摘要所述方法仍需结合具体数据集评估泛化能力。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Towards Multiscale Molecular Representation Learning through Geometry-Based Fragmentation for Polymer Property Prediction",
-      "summary_original": "arXiv:2611.07998v3 Announce Type: replace-cross Abstract: It is well established that molecular substructures can contribute unequally to chemical and physical properties, with specific motifs or side chains often playing dominant roles. Fragment-based representations have therefore emerged as an effective strategy for incorporating chemically meaningful inductive biases, as exemplified by molecular fingerprints and fragment-based attention mechanisms. However, many existing fragmentation-based machine learning methods rely on predefined chemical rules, which may yield suboptimal fragmentation for previously unseen or chemically unfamiliar structures and often overlook the importance of mult",
-      "editorial_date": "2026-11-17"
+      "title_original": "Compositional neural networks for multimodal X-ray and neutron scattering inversion",
+      "summary_original": "arXiv:2610.29362v3 Announce Type: replace-cross Abstract: X-ray and neutron scattering are indispensable for structural characterization across condensed-matter physics and materials science. Yet, because scattering experiments generally record intensities without phase information, distinct structures can yield similar scattering patterns, rendering the corresponding inverse problems non-unique. This ambiguity can be reduced by combining complementary measurements, but their integration into machine-learning frameworks remains challenging. Here we introduce a modular framework for probabilistic multi-measurement analysis based on prior-amortized flow matching. Single-observation posterior e",
+      "editorial_date": "2026-11-18"
     }
   ],
   "leaders": [],
@@ -496,38 +397,38 @@
   "conferences": [],
   "science": [
     {
-      "title": "A Practitioner's Guide to Materials Theory and Computation in the Age of Big Data and Artificial Intelligence",
-      "body": "arXiv:2611.18797v1 Announce Type: new Abstract: Computational modelling has become a cornerstone of materials science, with advances in atomistic simulations, high-throughput computation, and artificial intelligence transforming how materials are understood, discovered, and designed. These developments build upon generations of theoretical innovations that have translated complex mathematical and physical principles into practical predictive tools. However, the growing diversity of computational methods presents challenges for practitioners seeking a coherent understanding of their theoretical foundations. Drawing upon the author's research experience, this monograph provides a practitioner-",
-      "url": "https://arxiv.org/abs/2611.18797"
+      "title": "Dynamics and transport in LiF using classical and machine learned interatomic potentials",
+      "body": "arXiv:2611.21900v1 Announce Type: new Abstract: We perform molecular dynamics simulations of molten Lithium Fluoride, comparing the classical Buckingham and Born-Huggins-Mayer potentials with machine-learnt interatomic potentials - the MACE-MP-0b3 (small) foundation model potential, and a fine-tuned version thereof. We find that the MACE-MP-0b3, out-of-the-box, is able to accurately reproduce the experimental shear viscosity across the liquid state comparable with polarisable potentials despite not itself being polarisable. Previous viscosities computed using classical potentials are under-predicted, which has previously been attributed to a suppressed melting temperature. Prompted by this w",
+      "url": "https://arxiv.org/abs/2611.21900"
     },
     {
-      "title": "Flat-band driven bipolar anomalous Nernst effect towards volt-scale transverse thermoelectric conversion",
-      "body": "arXiv:2611.19039v1 Announce Type: new Abstract: Unipolar anomalous Nernst thermopiles are critically plagued by metallic interconnects, which induce heavy Joule dissipation and compromise the module's packing density, ultimately capping voltage generation. Here, we circumvent these limitations by establishing an intrinsic bipolar anomalous Nernst effect (BANE) paradigm, enabling seamless series integration analogous to Seebeck n-p pairs without passive metallic bridges. Focusing on flat-band topological systems, through machine learning assisted screening across multiple target properties, we identified 249 BANE materials, exhibiting near-room-temperature polarity switching. Guided by this p",
-      "url": "https://arxiv.org/abs/2611.19039"
+      "title": "quantEM: Quantitative Electron Microscopy Analysis from Differentiable Physics to Neural Priors",
+      "body": "arXiv:2611.21903v1 Announce Type: new Abstract: Quantitative electron microscopy includes imaging, diffraction, spectroscopy, and tomography measurements, and the analysis of these measurements increasingly requires solving inverse problems with physical forward models. Open-source software has made many of these analyses widely available, but most packages are organized around a single modality, so that multimodal analyses require moving data between packages, and new methods cannot easily reuse the physical models and optimizers of existing ones. Here we present quantEM, an open-source Python package for quantitative electron microscopy that uses PyTorch tensors for computation and automat",
+      "url": "https://arxiv.org/abs/2611.21903"
     },
     {
-      "title": "Scaling laws in machine learning on non-ideal experimental data enable inverse design of radiative-cooling coatings",
-      "body": "arXiv:2611.19596v1 Announce Type: new Abstract: Materials informatics increasingly targets multicomponent materials, yet experimental datasets inevitably contain non-ideal variations arising from imperfect uniformity and reproducibility in composition, coating formation, and measurement. Whether machine-learning prediction accuracy scales with amount of data under these conditions remains unclear. Here, we develop an automated platform that produced and optically characterized 11,520 radiative-cooling coatings spanning nine material and processing parameters. Forward and inverse neural networks, and a spectrum-conditioned diffusion model were trained on subsets of 10 to 10,000 samples. All m",
-      "url": "https://arxiv.org/abs/2611.19596"
+      "title": "Efficient Machine Learning Interatomic Potentials",
+      "body": "arXiv:2611.22444v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) reach an accuracy close to quantum mechanical reference calculations at a small fraction of the cost. Efficiency is the purpose of MLIPs, yet strategies for efficient MLIPs have not been reviewed systematically. This review takes efficiency as its guideline. To compare MLIPs on a common footing, we represent them in a complete basis expansion, the Atomic Cluster Expansion (ACE) and its graph generalization (GRACE). The expansion is canonical, built from products of single-particle functions. Classical interatomic potentials, such as the embedded-atom method, and many modern MLIPs, including equiva",
+      "url": "https://arxiv.org/abs/2611.22444"
     },
     {
-      "title": "IANN: A Unified Framework for Equivariant InterAtomic Neural Networks with User-Friendly Implementation",
-      "body": "arXiv:2611.19793v1 Announce Type: new Abstract: Machine-learning interatomic potentials (MLIPs) now approach density functional theory (DFT) accuracy at a fraction of its cost, but the practical benefit is limited by software fragmentation: each state-of-the-art architecture is released as a separate codebase, with its own data format, configuration system, training loop and molecular-dynamics interface. Comparing two architectures on the same dataset, or moving a trained model into a production simulation, therefore requires substantial re-engineering. We introduce IANN (InterAtomic Neural Network), an open-source PyTorch framework that reimplements equivariant graph neural networks - PaiNN",
-      "url": "https://arxiv.org/abs/2611.19793"
+      "title": "Synthetic Crystal Data Generation for Diffusion Pretraining in Material Property Prediction",
+      "body": "arXiv:2611.22140v1 Announce Type: cross Abstract: Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method retains a critical dependency: it requires structures residing near local minima of a potential energy surface, which have traditionally been obtained through costly DFT relaxations of known or physically synthesized compounds. This reliance constrains both the scale and the structural diversity of available pretraining data, leaving large regions ",
+      "url": "https://arxiv.org/abs/2611.22140"
     },
     {
-      "title": "Machine Learning the $GW$ Self-Energy Operator for Real Materials",
-      "body": "arXiv:2611.20247v1 Announce Type: new Abstract: Machine learning of $GW$ in solids has largely focused on prediction of scalar quasiparticle energy corrections. Here, we introduce a phase-aware many-body transformer that predicts the full $\\mathbf{k}$-resolved complex self-energy matrix. As a proof of principle, we apply the model to predict quasiparticle energies before and after diagonalization of the quasiparticle Hamiltonian, obtaining a test set mean absolute error (MAE) of 29 meV for a dataset of 1745 2D materials in the static COHSEX approximation and 60 meV for a more limited dataset of 433 materials calculated within a plasmon-pole model. COHSEX pretraining followed by finetuning re",
-      "url": "https://arxiv.org/abs/2611.20247"
+      "title": "An open dataset of gas adsorption in deformable metal-organic frameworks for direct air capture",
+      "body": "arXiv:2508.03162v3 Announce Type: replace Abstract: Engineering economical and scalable processes for direct air capture (DAC) from humid air relies on atomistic modeling to search and identify promising sorbent materials from a vast chemical space. Machine learning has emerged as a powerful tool for predicting material properties in an efficient yet accurate manner, but these models require large sets of carefully curated training data. We present the Open DAC 2025 (ODAC25) dataset comprising nearly 60 million DFT single-point calculations for CO2, H2O, N2, and O2 adsorption in ~15,000 MOFs. ODAC25 introduces functionalized MOFs, high-energy adsorbate placements, and synthetically generated",
+      "url": "https://arxiv.org/abs/2508.03162"
     },
     {
-      "title": "Scaling a Universal Graph Neural Network Force Field to Billions of Atoms on Desk-Side GPUs",
-      "body": "arXiv:2611.20585v1 Announce Type: new Abstract: Machine-learning force fields are capable of simulating billions of atoms, but usually require high-performance supercomputing clusters. We show that a universal graph neural network force field, ALIGNN-FF, evaluates energies and forces of more than one billion atoms on desk-side computers such as the NVIDIA GB10, which has 128 GB of unified memory, by using a cube-and-halo decomposition. The halo contains every atom within the model's 20 {\\AA} receptive field, which makes the result exact. One GB10 holds 216,000 atoms with forces as a single graph. The cube-and-halo decomposition removes this limit, enabling an evaluation of 2 billion atoms on",
-      "url": "https://arxiv.org/abs/2611.20585"
+      "title": "Mixture of Polyconvex Neural Potentials for Parametric Hyperelasticity: Towards Foundation Material Models",
+      "body": "arXiv:2609.00359v2 Announce Type: replace-cross Abstract: Hyperelastic constitutive models enable modeling large deformations in elastic solids. In common practice, a strain energy density function is prescribed in advance and model-specific parameters are calibrated from experiments. However, many applications require constitutive models for a family of related materials whose mechanical behavior varies with composition. A fixed constitutive model-form may not capture the full range of behavior across the family, while fitting separate forms does not provide a direct way to predict the response of new compositions. Recent work has developed data-driven constitutive models that learn flexibl",
+      "url": "https://arxiv.org/abs/2609.00359"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-17T20:23:48.206198+00:00",
+  "fetched_at": "2026-11-18T14:02:29.700513+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -539,13 +440,13 @@
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 8
+      "items": 6
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 8
     },
     {
       "source": "Google Research",
@@ -569,19 +470,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 114
+      "items": 76
     }
   ],
-  "editorial": {
-    "date": "2026-11-17",
-    "items_applied": 25,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 12,
+    "paper_count": 7,
     "leader_count": 0,
     "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-18",
+    "items_applied": 22,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-17T20:23:50Z</updated>
+  <updated>2026-11-18T14:03:46Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月17日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-17.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-17.html</id>
-    <updated>2026-11-17T20:23:50Z</updated>
+    <title>每日汇总 2026年11月18日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-18.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-18.html</id>
+    <updated>2026-11-18T14:03:46Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, com…</title>
+    <title>MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端…</title>
+    <link href="https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118"/>
+    <id>https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118</id>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"/>
+    <id>https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership</id>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。…</title>
     <link href="https://openai.com/index/introducing-gpt-6-2-astra-sol"/>
     <id>https://openai.com/index/introducing-gpt-6-2-astra-sol</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.</summary>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。</summary>
+  </entry>
+  <entry>
+    <title>报道介绍 MIT Human Insight Collaborative 支持的跨学科项目，关注生成式 AI 如何改变学习、思考与社会互动。文中教育观察和项目背…</title>
+    <link href="https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117"/>
+    <id>https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117</id>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>报道介绍 MIT Human Insight Collaborative 支持的跨学科项目，关注生成式 AI 如何改变学习、思考与社会互动。文中教育观察和项目背景不能直接推广为所有群体的因果结论。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/index/introducing-chatgpt-for-sales"/>
+    <id>https://openai.com/index/introducing-chatgpt-for-sales</id>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
   <entry>
     <title>MIT 数学教师 John Urschel 讨论人工智能时代培养批判性思维与解题能力的重要性，并介绍人类洞察与 AI 工具协作的经验。访谈属于教育与研究观点，不…</title>
     <link href="https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117"/>
     <id>https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117</id>
-    <updated>2026-11-17T20:23:50Z</updated>
+    <updated>2026-11-18T14:03:46Z</updated>
     <summary>MIT 数学教师 John Urschel 讨论人工智能时代培养批判性思维与解题能力的重要性，并介绍人类洞察与 AI 工具协作的经验。访谈属于教育与研究观点，不能视为对 AI 数学可靠性的全面验证。</summary>
   </entry>
   <entry>
     <title>报道介绍 Jacob Andreas 团队让模型用人类可理解的语言准确描述其学习内容的研究方向，目标是改善理解与沟通。让模型解释自身并不自动保证解释正确，仍需验…</title>
     <link href="https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117"/>
     <id>https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117</id>
-    <updated>2026-11-17T20:23:50Z</updated>
+    <updated>2026-11-18T14:03:46Z</updated>
     <summary>报道介绍 Jacob Andreas 团队让模型用人类可理解的语言准确描述其学习内容的研究方向，目标是改善理解与沟通。让模型解释自身并不自动保证解释正确，仍需验证。</summary>
   </entry>
   <entry>
     <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"/>
     <id>https://openai.com/index/strengthening-nato-allied-cyber-defences-ai</id>
-    <updated>2026-11-17T20:23:50Z</updated>
+    <updated>2026-11-18T14:03:46Z</updated>
     <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。标题中的领先表述属于来源主张，未独立核实。…</title>
+    <link href="https://openai.com/index/astra-law-6-2"/>
+    <id>https://openai.com/index/astra-law-6-2</id>
+    <updated>2026-11-18T14:03:46Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。标题中的领先表述属于来源主张，未独立核实。</summary>
   </entry>
   <entry>
     <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/index/introducing-openai-for-chile"/>
     <id>https://openai.com/index/introducing-openai-for-chile</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Ever…</title>
-    <link href="https://openai.com/index/astra-law-6-2"/>
-    <id>https://openai.com/index/astra-law-6-2</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/expanding-chatgpt-for-academic-researchers"/>
-    <id>https://openai.com/index/expanding-chatgpt-for-academic-researchers</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/strengthening-online-child-safety"/>
-    <id>https://openai.com/index/strengthening-online-child-safety</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/science-at-the-frontier"/>
-    <id>https://openai.com/index/science-at-the-frontier</id>
-    <updated>2026-11-17T20:23:50Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/business/customer-stories/revolut"/>
-    <id>https://openai.com/business/customer-stories/revolut</id>
-    <updated>2026-11-17T20:23:50Z</updated>
+    <updated>2026-11-18T14:03:46Z</updated>
     <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
 </feed>
