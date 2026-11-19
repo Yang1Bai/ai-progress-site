@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-19",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "title": "DaisyRose-27B：探索更高效的模型后训练",
+      "body": "RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。"
+    },
+    {
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "title": "为什么微调耗时会超过 FLOP 估算",
+      "body": "作者分析共享 GPU 集群中的实际监督微调任务，讨论仅按浮点运算量估计端到端耗时的局限。该文章为后续论文预览，结论受生产任务样本和硬件环境限制。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "title": "将时间序列模型接入实时数据流",
+      "body": "IBM 与 Confluent 介绍将时间序列预测、异常检测等能力接入流式数据处理，让输出更接近实时业务流程。服务集成不保证预测准确，也不能替代业务场景验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "title": "自带传感器和计算单元的轻型飞行机器人",
+      "body": "MIT 展示携带传感器和计算单元的扑翼微型机器人，可脱离实验室运动捕捉系统进行导航。机器人仍连接外部电源，不能描述为完全无线自主飞行。"
+    },
+    {
+      "url": "https://openai.com/index/the-silent-consensus",
+      "title": "沉默的共识",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "科研加速：能力参差不齐的前沿",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "title": "住友生命管理层如何帮助团队采用 ChatGPT Enterprise",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "title": "走进 Codex 隔离运行环境",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "title": "从训练到部署管理前沿 AI 风险",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "title": "让 AI 文本检测器适应不断变化的写作条件",
+      "body": "MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。"
+    },
+    {
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "费加罗集团与 OpenAI 合作，将新闻内容引入 ChatGPT",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "使用 OpenAI 模型推进芯片设计",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "title": "用 SSD 流式加载专家，探索低内存 MoE 推理",
+      "body": "作者探索从 SSD 流式加载 MoE 专家，在有限内存设备上运行更大的模型。文中性能与内存表现属于特定硬件和配置下的实验，不能视为任意设备均可获得相同体验。"
+    },
+    {
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "title": "Rumble-2-Flash：覆盖多语言的小型语音识别模型",
+      "body": "发布方开源 Rumble-2-Flash 语音识别模型，介绍用在线蒸馏训练小模型并支持多语言与既有推理框架。语言覆盖与准确度仍需按具体语音场景检验。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "OpenAI 介绍 GPT-6.2 Astra 与 Sol",
+      "body": "来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.23535",
+      "title": "通用力场能否复现氧化锆的相变顺序",
+      "summary": "预印本摘要：作者以声子和变胞分子动力学测试多种通用力场，发现只有部分模型复现正确相变序列。静态性质表现不能替代有限温度验证，结论限于该材料与测试条件。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23873",
+      "title": "Matlantis PFP v9 扩展元素与训练结构覆盖",
+      "summary": "预印本技术说明：PFP v9 扩展 r2SCAN 训练数据中的元素、团簇及吸附结构，并比较形成能和吸附能表现。更广覆盖不意味着所有新元素与结构均达到同样精度。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.24130",
+      "title": "用等变扩散模型学习量子位置算符",
+      "summary": "预印本摘要：模型预测位置算符矩，关联 Wannier 中心及局域化，并在水、非晶硅和晶体等体系检验极化响应。所报泛化与光谱结果限于训练化学空间及测试体系。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.24148",
+      "title": "用机器学习势研究聚合物中的取向缺陷",
+      "summary": "预印本摘要：研究结合光聚合介电响应与时间序列分析，并用 MACE 势计算局部转动能量，讨论固化过程中集体弛豫与局域重取向的变化。模型描述仍需结合具体实验条件理解。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.24547",
+      "title": "MoSe₂/MoS₂ 横向异质结的取向依赖界面导热",
+      "summary": "预印本摘要：作者训练深度势并进行非平衡分子动力学，比较扶手椅与锯齿形界面的导热。计算发现取向差异及温度效应，不能直接等同于实际器件测量。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23342",
+      "title": "结合领域知识与图学习评估材料数据置信度",
+      "summary": "预印本摘要：方法将材料数据质量表达为连续置信度，结合物理化学规则、重复样本信息及图结构学习进行修正。置信度用于筛查可疑记录，不自动证明原始数据正确或错误。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.23561",
+      "title": "用神经算子加速地震序列模拟",
+      "summary": "预印本摘要：混合框架用常规求解器处理缓慢间震演化，用傅里叶神经算子替代高成本破裂阶段，并比较长期统计。模拟加速不等同于真实地震的发生时间预测。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.15294",
+      "title": "UniMatSim：统一机器学习势的高通量模拟流程",
+      "summary": "预印本摘要：框架通过抽象接口整合多种势模型，自动执行结构优化、弹性与声子等任务，并以二维体系筛选为案例。流程自动化不能替代势模型适用域和稳定性验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.01209",
+      "title": "发现可解释的晶体结构合理性筛选规则",
+      "summary": "预印本摘要：作者用智能体生成和检验候选规则，以几何与化学机制诊断晶体结构，并与已有结构和人工破坏结构比较。合理性与可合成性关联不能视为合成成功保证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.01898",
+      "title": "GEODE：保留晶体对称性的笛卡尔扩散生成",
+      "summary": "预印本摘要：方法先选择对称模板，再联合生成晶格、坐标与原子类型，并用约束损失保留指定对称性。生成稳定性与新颖性结果属于计算基准，仍需后续物理和实验验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.22140",
+      "title": "用合成晶体结构支持扩散预训练",
+      "summary": "预印本摘要：研究结合扰动弛豫、生成采样及原型枚举构建预训练结构，并用机器学习势减少逐个进行 DFT 弛豫的需求。作者比较不同扩散目标与材料性质任务；合成数据的收益仍取决于分布和下游任务。"
+    }
+  ]
+}
