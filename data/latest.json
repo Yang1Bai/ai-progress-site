@@ -2,6 +2,32 @@
   "date": "2026年11月19日",
   "news": [
     {
+      "title": "Study reveals data centers’ long-distance damage to air quality",
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "body": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T09:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "body": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "DaisyRose-27B：探索更高效的模型后训练",
       "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
       "body": "RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。",
@@ -82,22 +108,6 @@
       "editorial_date": "2026-11-19"
     },
     {
-      "title": "科研加速：能力参差不齐的前沿",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Research acceleration: The jagged frontier",
-      "body_original": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "editorial_date": "2026-11-19"
-    },
-    {
       "title": "住友生命管理层如何帮助团队采用 ChatGPT Enterprise",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "body": "来源标题译文；原文访问受限，未核验正文。",
@@ -111,6 +121,22 @@
       "importance": "normal",
       "title_original": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "body_original": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "editorial_date": "2026-11-19"
+    },
+    {
+      "title": "科研加速：能力参差不齐的前沿",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Research acceleration: The jagged frontier",
+      "body_original": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "editorial_date": "2026-11-19"
     },
     {
@@ -207,38 +233,6 @@
       "importance": "normal",
       "title_original": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
       "body_original": "",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "Rumble-2-Flash：覆盖多语言的小型语音识别模型",
-      "url": "https://huggingface.co/blog/rumble-2-flash",
-      "body": "发布方开源 Rumble-2-Flash 语音识别模型，介绍用在线蒸馏训练小模型并支持多语言与既有推理框架。语言覆盖与准确度仍需按具体语音场景检验。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
-      "body_original": "",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "OpenAI 介绍 GPT-6.2 Astra 与 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "body": "来源标题译文；原文访问受限，未核验正文，不补写性能或价格信息。",
-      "date": "2026-11-17",
-      "published_at": "2026-11-17T17:45:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-17"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing GPT-6.2 Astra and Sol",
-      "body_original": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "editorial_date": "2026-11-19"
     }
   ],
@@ -512,25 +506,25 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-19T13:56:18.759601+00:00",
+  "fetched_at": "2026-11-19T19:53:18.108909+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 27
+      "items": 28
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "Google Research",
@@ -557,16 +551,16 @@
       "items": 62
     }
   ],
+  "editorial": {
+    "date": "2026-11-19",
+    "items_applied": 24,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 11,
     "leader_count": 0,
     "science_count": 6
-  },
-  "editorial": {
-    "date": "2026-11-19",
-    "items_applied": 26,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
