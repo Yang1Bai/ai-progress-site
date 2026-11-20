@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-20T14:56:16Z</updated>
+  <updated>2026-11-20T19:33:01Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月20日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-20.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-20.html</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>A panel discussion at MIT explored AI’s implications for mathematical discovery …</title>
+    <link href="https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120"/>
+    <id>https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120</id>
+    <updated>2026-11-20T19:33:01Z</updated>
+    <summary>A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.</summary>
+  </entry>
+  <entry>
+    <title>MedChemBench evaluates how well AI models interpret molecular structures, reason…</title>
+    <link href="https://openai.com/index/introducing-medchembench"/>
+    <id>https://openai.com/index/introducing-medchembench</id>
+    <updated>2026-11-20T19:33:01Z</updated>
+    <summary>MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.</summary>
   </entry>
   <entry>
     <title>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效…</title>
     <link href="https://huggingface.co/blog/harness-adapters-at-scale"/>
     <id>https://huggingface.co/blog/harness-adapters-at-scale</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。</summary>
   </entry>
   <entry>
     <title>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速…</title>
     <link href="https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/"/>
     <id>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。</summary>
   </entry>
   <entry>
     <title>MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。…</title>
     <link href="https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119"/>
     <id>https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。</summary>
   </entry>
   <entry>
     <title>MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。…</title>
     <link href="https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"/>
     <id>https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。</summary>
   </entry>
   <entry>
     <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"/>
     <id>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</id>
-    <updated>2026-11-20T14:56:16Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/business/learn/deploying-daybreak-red"/>
-    <id>https://openai.com/business/learn/deploying-daybreak-red</id>
-    <updated>2026-11-20T14:56:16Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/business/learn/pr-scans-demo"/>
-    <id>https://openai.com/business/learn/pr-scans-demo</id>
-    <updated>2026-11-20T14:56:16Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/business/learn/codex-security-plugin-demo"/>
-    <id>https://openai.com/business/learn/codex-security-plugin-demo</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
   <entry>
     <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/business/learn/daybreak-blue-onboarding-demo"/>
     <id>https://openai.com/business/learn/daybreak-blue-onboarding-demo</id>
-    <updated>2026-11-20T14:56:16Z</updated>
+    <updated>2026-11-20T19:33:01Z</updated>
     <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
   <entry>
-    <title>RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模…</title>
-    <link href="https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"/>
-    <id>https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</id>
-    <updated>2026-11-20T14:56:16Z</updated>
-    <summary>RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。</summary>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/pr-scans-demo"/>
+    <id>https://openai.com/business/learn/pr-scans-demo</id>
+    <updated>2026-11-20T19:33:01Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/deploying-daybreak-red"/>
+    <id>https://openai.com/business/learn/deploying-daybreak-red</id>
+    <updated>2026-11-20T19:33:01Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
 </feed>
