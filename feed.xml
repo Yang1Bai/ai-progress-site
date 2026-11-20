@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-19T19:53:20Z</updated>
+  <updated>2026-11-20T14:56:16Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月19日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-19.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-19.html</id>
-    <updated>2026-11-19T19:53:20Z</updated>
+    <title>每日汇总 2026年11月20日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-20.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-20.html</id>
+    <updated>2026-11-20T14:56:16Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>Researchers find air pollution from data center electricity use can affect commu…</title>
-    <link href="https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"/>
-    <id>https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.</summary>
+    <title>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效…</title>
+    <link href="https://huggingface.co/blog/harness-adapters-at-scale"/>
+    <id>https://huggingface.co/blog/harness-adapters-at-scale</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。</summary>
   </entry>
   <entry>
-    <title>Learn how OpenAI built the Performance Factory, a system of Codex-powered workfl…</title>
+    <title>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速…</title>
+    <link href="https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/"/>
+    <id>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。</summary>
+  </entry>
+  <entry>
+    <title>MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。…</title>
+    <link href="https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119"/>
+    <id>https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。</summary>
+  </entry>
+  <entry>
+    <title>MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。…</title>
+    <link href="https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119"/>
+    <id>https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
     <link href="https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"/>
     <id>https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.</summary>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/deploying-daybreak-red"/>
+    <id>https://openai.com/business/learn/deploying-daybreak-red</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/pr-scans-demo"/>
+    <id>https://openai.com/business/learn/pr-scans-demo</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/codex-security-plugin-demo"/>
+    <id>https://openai.com/business/learn/codex-security-plugin-demo</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
+  </entry>
+  <entry>
+    <title>来源标题译文；原文访问受限，未核验正文。…</title>
+    <link href="https://openai.com/business/learn/daybreak-blue-onboarding-demo"/>
+    <id>https://openai.com/business/learn/daybreak-blue-onboarding-demo</id>
+    <updated>2026-11-20T14:56:16Z</updated>
+    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
   <entry>
     <title>RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模…</title>
     <link href="https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"/>
     <id>https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</id>
-    <updated>2026-11-19T19:53:20Z</updated>
+    <updated>2026-11-20T14:56:16Z</updated>
     <summary>RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。</summary>
-  </entry>
-  <entry>
-    <title>作者分析共享 GPU 集群中的实际监督微调任务，讨论仅按浮点运算量估计端到端耗时的局限。该文章为后续论文预览，结论受生产任务样本和硬件环境限制。…</title>
-    <link href="https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"/>
-    <id>https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>作者分析共享 GPU 集群中的实际监督微调任务，讨论仅按浮点运算量估计端到端耗时的局限。该文章为后续论文预览，结论受生产任务样本和硬件环境限制。</summary>
-  </entry>
-  <entry>
-    <title>IBM 与 Confluent 介绍将时间序列预测、异常检测等能力接入流式数据处理，让输出更接近实时业务流程。服务集成不保证预测准确，也不能替代业务场景验证。…</title>
-    <link href="https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse"/>
-    <id>https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>IBM 与 Confluent 介绍将时间序列预测、异常检测等能力接入流式数据处理，让输出更接近实时业务流程。服务集成不保证预测准确，也不能替代业务场景验证。</summary>
-  </entry>
-  <entry>
-    <title>MIT 展示携带传感器和计算单元的扑翼微型机器人，可脱离实验室运动捕捉系统进行导航。机器人仍连接外部电源，不能描述为完全无线自主飞行。…</title>
-    <link href="https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118"/>
-    <id>https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>MIT 展示携带传感器和计算单元的扑翼微型机器人，可脱离实验室运动捕捉系统进行导航。机器人仍连接外部电源，不能描述为完全无线自主飞行。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/the-silent-consensus"/>
-    <id>https://openai.com/index/the-silent-consensus</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/business/customer-stories/sumitomo-life"/>
-    <id>https://openai.com/business/customer-stories/sumitomo-life</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/research-acceleration-jagged-frontier"/>
-    <id>https://openai.com/index/research-acceleration-jagged-frontier</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
-  </entry>
-  <entry>
-    <title>来源标题译文；原文访问受限，未核验正文。…</title>
-    <link href="https://openai.com/index/inside-the-codex-sandbox"/>
-    <id>https://openai.com/index/inside-the-codex-sandbox</id>
-    <updated>2026-11-19T19:53:20Z</updated>
-    <summary>来源标题译文；原文访问受限，未核验正文。</summary>
   </entry>
 </feed>

@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-20",
+  "news": [
+    {
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "title": "针对智能体运行框架训练适配器",
+      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。"
+    },
+    {
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "title": "用量子关联挑战经典策略的游戏",
+      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "title": "AI 辅助分析医学研究如何共享代码",
+      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "title": "研究模拟数据中心用电对远方空气质量的影响",
+      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。"
+    },
+    {
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 响应速度",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "title": "部署 Daybreak Red",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "title": "查看拉取请求扫描的运行方式",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "title": "探索 Codex 安全插件",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "title": "开始使用 Daybreak Blue",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "title": "DaisyRose-27B：探索更高效的模型后训练",
+      "body": "RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。"
+    },
+    {
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "title": "为什么微调耗时会超过 FLOP 估算",
+      "body": "作者分析共享 GPU 集群中的实际监督微调任务，讨论仅按浮点运算量估计端到端耗时的局限。该文章为后续论文预览，结论受生产任务样本和硬件环境限制。"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "title": "将时间序列模型接入实时数据流",
+      "body": "IBM 与 Confluent 介绍将时间序列预测、异常检测等能力接入流式数据处理，让输出更接近实时业务流程。服务集成不保证预测准确，也不能替代业务场景验证。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "title": "自带传感器和计算单元的轻型飞行机器人",
+      "body": "MIT 展示携带传感器和计算单元的扑翼微型机器人，可脱离实验室运动捕捉系统进行导航。机器人仍连接外部电源，不能描述为完全无线自主飞行。"
+    },
+    {
+      "url": "https://openai.com/index/the-silent-consensus",
+      "title": "沉默的共识",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    },
+    {
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "title": "科研加速：能力参差不齐的前沿",
+      "body": "来源标题译文；原文访问受限，未核验正文。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.25127",
+      "title": "机器学习高通量筛选高熵碳化物",
+      "summary": "预印本摘要：研究用 MACE 与基于第一性原理数据训练的 DeePMD，筛选多种过渡金属碳化物的等摩尔和非等摩尔组成。稳定候选为计算预测，仍需进一步合成与验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25646",
+      "title": "AdsNet：由局部图直接预测吸附能",
+      "summary": "预印本摘要：等变图网络仅使用吸附物及邻近表面原子的局部图预测能量，并以解析力支持弛豫。精度结果限于其数据和测试条件，不能据此推断任意催化表面均适用。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26186",
+      "title": "将奖励与专家判断的偏差用于材料发现",
+      "summary": "预印本摘要：作者以平带为例，学习专家成对偏好并引导晶体扩散模型，探索固定数值评分遗漏的候选。偏差在此可能提供线索，不代表奖励失配普遍有益或候选已实验验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26349",
+      "title": "Perfumer：智能体连接结构预弛豫与能带预测",
+      "summary": "预印本摘要：框架将语言模型智能体、结构预弛豫和能带预测与 Quantum ESPRESSO 工作流结合，报告所测材料上的效率与误差。预测仍需参考计算校验，不是对第一性原理方法的全面替代。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.26528",
+      "title": "从非均匀实验识别可解释的超弹性应变能",
+      "summary": "预印本摘要：研究将本构 Kolmogorov-Arnold 网络嵌入有限元模型更新，利用位移场和反力训练，再通过剪枝与符号回归提取紧凑表达式。验证限定于所测橡胶、硅胶试样及加载条件。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25452",
+      "title": "FamilySpace：按元素族控制晶体生成",
+      "summary": "预印本摘要：作者观察晶体 VAE 的潜空间出现元素族组织，并设计多源流模型控制生成结构的元素族组成。可控生成不等同于稳定性、可合成性或目标性能已经得到保证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.25651",
+      "title": "MatVerse：材料领域多模态基础模型",
+      "summary": "预印本技术报告：研究通过材料语料后训练、推理蒸馏及一致性筛选适配基础模型，并在三类材料评测中比较表现。基准提升不代表所有科研推断均可靠，仍需独立验证。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.07339",
+      "title": "用轨道投影态密度增强材料图网络",
+      "summary": "预印本摘要：研究将 DFT 计算的局域轨道态密度与元素表示融合，用于超导温度和介电等性质预测。收益依赖任务与数据规模，也需要计入获取电子结构信息的计算成本。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.30621",
+      "title": "HetCat26 检验通用原子势的非均相催化迁移性",
+      "summary": "预印本摘要：基准覆盖表面、吸附、氧化物界面及反应网络。作者发现通用材料榜单表现难以直接预测催化任务表现，尤其吸附能和位点偏好仍可能失准，并强调训练数据一致性。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32678",
+      "title": "MateriaViva：整合晶体数据并检验设计新颖性",
+      "summary": "预印本摘要：研究跨数据库匹配结构、补全预测性质，并对生成候选的新颖性进行审计。补全性质属于模型预测，候选是否新颖及性能判断仍受数据库覆盖和验证预算限制。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.19582",
+      "title": "用物理引导学习校准 NV 金刚石磁强计",
+      "summary": "预印本摘要：框架将塞曼分裂信息嵌入学习流程，结合少量实验种子与合成谱改善仿真到实验迁移。精度和推理速度来自指定数据及硬件测试，不能无条件推广到全部传感环境。"
+    }
+  ]
+}

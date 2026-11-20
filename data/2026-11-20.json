@@ -1,0 +1,572 @@
+{
+  "date": "2026年11月20日",
+  "news": [
+    {
+      "title": "针对智能体运行框架训练适配器",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "body_original": "",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "用量子关联挑战经典策略的游戏",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T20:03:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "A game you cannot win unless you have a quantum computer",
+      "body_original": "Quantum",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "AI 辅助分析医学研究如何共享代码",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T17:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "AI helps researchers investigate how thousands of medical studies share code",
+      "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "研究模拟数据中心用电对远方空气质量的影响",
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T09:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Study reveals data centers’ long-distance damage to air quality",
+      "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 响应速度",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "body_original": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "部署 Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Deploying Daybreak Red",
+      "body_original": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "查看拉取请求扫描的运行方式",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "See PR scans in action",
+      "body_original": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "探索 Codex 安全插件",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Explore the Codex Security Plugin",
+      "body_original": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "开始使用 Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Get started with Daybreak Blue",
+      "body_original": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "DaisyRose-27B：探索更高效的模型后训练",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "body": "RadixArk 发布基于 Qwen 的模型，报告用精选长程智能体任务进行强化学习后训练，并在终端任务等基准中取得改进。成绩属于发布方评测；长训练会话不等同于模型原生上下文长度同步扩大。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T19:54:56+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "body_original": "",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "为什么微调耗时会超过 FLOP 估算",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "body": "作者分析共享 GPU 集群中的实际监督微调任务，讨论仅按浮点运算量估计端到端耗时的局限。该文章为后续论文预览，结论受生产任务样本和硬件环境限制。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T18:53:43+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Why your fine-tuning job takes longer than the FLOPs say",
+      "body_original": "",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "将时间序列模型接入实时数据流",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "body": "IBM 与 Confluent 介绍将时间序列预测、异常检测等能力接入流式数据处理，让输出更接近实时业务流程。服务集成不保证预测准确，也不能替代业务场景验证。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T15:00:23+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "body_original": "",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "自带传感器和计算单元的轻型飞行机器人",
+      "url": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+      "body": "MIT 展示携带传感器和计算单元的扑翼微型机器人，可脱离实验室运动捕捉系统进行导航。机器人仍连接外部电源，不能描述为完全无线自主飞行。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T14:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "This featherweight, flying robot carries its own sensors and computers",
+      "body_original": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "沉默的共识",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "The Silent Consensus",
+      "body_original": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "科研加速：能力参差不齐的前沿",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-18",
+      "published_at": "2026-11-18T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-18"
+      ],
+      "importance": "normal",
+      "title_original": "Research acceleration: The jagged frontier",
+      "body_original": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "editorial_date": "2026-11-20"
+    }
+  ],
+  "papers": [
+    {
+      "title": "机器学习高通量筛选高熵碳化物",
+      "url": "https://arxiv.org/abs/2611.25127",
+      "body": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究用 MACE 与基于第一性原理数据训练的 DeePMD，筛选多种过渡金属碳化物的等摩尔和非等摩尔组成。稳定候选为计算预测，仍需进一步合成与验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Machine Learning-Driven High-Throughput Screening of Equimolar and Non-Equimolar High-Entropy Carbides",
+      "summary_original": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "AdsNet：由局部图直接预测吸附能",
+      "url": "https://arxiv.org/abs/2611.25646",
+      "body": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：等变图网络仅使用吸附物及邻近表面原子的局部图预测能量，并以解析力支持弛豫。精度结果限于其数据和测试条件，不能据此推断任意催化表面均适用。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "summary_original": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "将奖励与专家判断的偏差用于材料发现",
+      "url": "https://arxiv.org/abs/2611.26186",
+      "body": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者以平带为例，学习专家成对偏好并引导晶体扩散模型，探索固定数值评分遗漏的候选。偏差在此可能提供线索，不代表奖励失配普遍有益或候选已实验验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Reward misalignment as an opportunity for materials discovery",
+      "summary_original": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "Perfumer：智能体连接结构预弛豫与能带预测",
+      "url": "https://arxiv.org/abs/2611.26349",
+      "body": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架将语言模型智能体、结构预弛豫和能带预测与 Quantum ESPRESSO 工作流结合，报告所测材料上的效率与误差。预测仍需参考计算校验，不是对第一性原理方法的全面替代。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "summary_original": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "从非均匀实验识别可解释的超弹性应变能",
+      "url": "https://arxiv.org/abs/2611.26528",
+      "body": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究将本构 Kolmogorov-Arnold 网络嵌入有限元模型更新，利用位移场和反力训练，再通过剪枝与符号回归提取紧凑表达式。验证限定于所测橡胶、硅胶试样及加载条件。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Constitutive Kolmogorov-Arnold Networks in Finite Element Model Updating: Closed-Form Hyperelastic Strain Energies from Heterogeneous Experiments",
+      "summary_original": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "FamilySpace：按元素族控制晶体生成",
+      "url": "https://arxiv.org/abs/2611.25452",
+      "body": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者观察晶体 VAE 的潜空间出现元素族组织，并设计多源流模型控制生成结构的元素族组成。可控生成不等同于稳定性、可合成性或目标性能已经得到保证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
+      "summary_original": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "MatVerse：材料领域多模态基础模型",
+      "url": "https://arxiv.org/abs/2611.25651",
+      "body": "arXiv:2611.25651v1 Announce Type: cross Abstract: Materials science involves highly heterogeneous scientific information, including textual knowledge, molecular and crystal structures, experimental characterization data, microscopy images, and structure-property relationships. Developing a general-purpose foundation model capable of understanding and reasoning over these diverse materials representations remains challenging. In this technical report, we introduce MatVerse, a materials foundation model built upon Intern-S2-Preview and further specialized through large-scale materials-domain post-training. We construct a large-scale multimodal training corpus covering materials knowledge, scie",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本技术报告：研究通过材料语料后训练、推理蒸馏及一致性筛选适配基础模型，并在三类材料评测中比较表现。基准提升不代表所有科研推断均可靠，仍需独立验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "MatVerse: A Foundation Model for Materials Science",
+      "summary_original": "arXiv:2611.25651v1 Announce Type: cross Abstract: Materials science involves highly heterogeneous scientific information, including textual knowledge, molecular and crystal structures, experimental characterization data, microscopy images, and structure-property relationships. Developing a general-purpose foundation model capable of understanding and reasoning over these diverse materials representations remains challenging. In this technical report, we introduce MatVerse, a materials foundation model built upon Intern-S2-Preview and further specialized through large-scale materials-domain post-training. We construct a large-scale multimodal training corpus covering materials knowledge, scie",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "用轨道投影态密度增强材料图网络",
+      "url": "https://arxiv.org/abs/2607.07339",
+      "body": "arXiv:2607.07339v2 Announce Type: replace Abstract: Graph neural networks have become the dominant machine-learning architecture for predicting materials properties from crystal structures. Yet the initialization of atomic node features has received comparatively little attention, and conventional approaches rely on static elemental descriptors that carry no information about the quantum-mechanical electronic environment of each atom in its crystalline host. Here we show that augmenting atomic node representations with site-projected orbital density of states (pDOS) fingerprints, computed directly from density functional theory calculations, yields systematic and substantial improvements in ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究将 DFT 计算的局域轨道态密度与元素表示融合，用于超导温度和介电等性质预测。收益依赖任务与数据规模，也需要计入获取电子结构信息的计算成本。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Encoding Orbital-Projected Densities of States in Graph Neural Networks for Materials Property Prediction",
+      "summary_original": "arXiv:2607.07339v2 Announce Type: replace Abstract: Graph neural networks have become the dominant machine-learning architecture for predicting materials properties from crystal structures. Yet the initialization of atomic node features has received comparatively little attention, and conventional approaches rely on static elemental descriptors that carry no information about the quantum-mechanical electronic environment of each atom in its crystalline host. Here we show that augmenting atomic node representations with site-projected orbital density of states (pDOS) fingerprints, computed directly from density functional theory calculations, yields systematic and substantial improvements in ",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "HetCat26 检验通用原子势的非均相催化迁移性",
+      "url": "https://arxiv.org/abs/2609.30621",
+      "body": "arXiv:2609.30621v2 Announce Type: replace Abstract: Foundation machine learning interatomic potentials (MLIPs) promise near-density functional theory (DFT) accuracy across broad areas of chemistry and materials science. However, their performance in describing systems and processes relevant to heterogeneous catalysis remains underexplored. Here, we introduce HetCat26, a collection of benchmark tests designed to assess pre-trained MLIPs across key aspects of catalytic modeling, including surface energetics, metal-metal oxide interactions, adsorption, and catalytic reaction networks. Evaluating eighteen foundation models, we find that performance on existing general materials benchmarks is onl",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：基准覆盖表面、吸附、氧化物界面及反应网络。作者发现通用材料榜单表现难以直接预测催化任务表现，尤其吸附能和位点偏好仍可能失准，并强调训练数据一致性。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Assessing the Transferability of General-Purpose MachineLearning Interatomic Potentials for Heterogeneous Catalysis with HetCat26",
+      "summary_original": "arXiv:2609.30621v2 Announce Type: replace Abstract: Foundation machine learning interatomic potentials (MLIPs) promise near-density functional theory (DFT) accuracy across broad areas of chemistry and materials science. However, their performance in describing systems and processes relevant to heterogeneous catalysis remains underexplored. Here, we introduce HetCat26, a collection of benchmark tests designed to assess pre-trained MLIPs across key aspects of catalytic modeling, including surface energetics, metal-metal oxide interactions, adsorption, and catalytic reaction networks. Evaluating eighteen foundation models, we find that performance on existing general materials benchmarks is onl",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "MateriaViva：整合晶体数据并检验设计新颖性",
+      "url": "https://arxiv.org/abs/2610.32678",
+      "body": "arXiv:2610.32678v2 Announce Type: replace Abstract: Forward screening and inverse design drive materials discovery, yet their limits remain unquantified because records of known crystal structures and properties are fragmented across databases. Consequently, forward screening leaves known crystals underexplored for new functions, whereas generative and autonomous discovery has repeatedly reported known phases or close variants as new materials. Here we match structures across 55 databases to assemble MateriaViva, a unified database of 14.6 million distinct crystals and over one billion property values. To provide the missing properties of every structure, a task we term property completion, ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究跨数据库匹配结构、补全预测性质，并对生成候选的新颖性进行审计。补全性质属于模型预测，候选是否新颖及性能判断仍受数据库覆盖和验证预算限制。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Probing the limits of materials design via a comprehensive crystal database of 14.6 million structures with 140 properties",
+      "summary_original": "arXiv:2610.32678v2 Announce Type: replace Abstract: Forward screening and inverse design drive materials discovery, yet their limits remain unquantified because records of known crystal structures and properties are fragmented across databases. Consequently, forward screening leaves known crystals underexplored for new functions, whereas generative and autonomous discovery has repeatedly reported known phases or close variants as new materials. Here we match structures across 55 databases to assemble MateriaViva, a unified database of 14.6 million distinct crystals and over one billion property values. To provide the missing properties of every structure, a task we term property completion, ",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "用物理引导学习校准 NV 金刚石磁强计",
+      "url": "https://arxiv.org/abs/2608.19582",
+      "body": "arXiv:2608.19582v2 Announce Type: replace-cross Abstract: Ensemble nitrogen-vacancy centers in diamond enable robust magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration and a reliance on external references. Conventional statistical machine learning requires massive training datasets and suffers from severe simulation-to-reality mismatches. To address this, we introduce a physics-guided hybrid machine learning framework that embeds Zeeman splitting directly into the learning pipeline. In an ablation study, our model demonstrates a nearly 3-fold improvement in precision and a 372-fold reduction in mean prediction bias over a purely statistical b",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架将塞曼分裂信息嵌入学习流程，结合少量实验种子与合成谱改善仿真到实验迁移。精度和推理速度来自指定数据及硬件测试，不能无条件推广到全部传感环境。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Physics-guided machine learning for sim-to-real calibration of NV diamond magnetometers",
+      "summary_original": "arXiv:2608.19582v2 Announce Type: replace-cross Abstract: Ensemble nitrogen-vacancy centers in diamond enable robust magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration and a reliance on external references. Conventional statistical machine learning requires massive training datasets and suffers from severe simulation-to-reality mismatches. To address this, we introduce a physics-guided hybrid machine learning framework that embeds Zeeman splitting directly into the learning pipeline. In an ablation study, our model demonstrates a nearly 3-fold improvement in precision and a 372-fold reduction in mean prediction bias over a purely statistical b",
+      "editorial_date": "2026-11-20"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Machine Learning-Driven High-Throughput Screening of Equimolar and Non-Equimolar High-Entropy Carbides",
+      "body": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "url": "https://arxiv.org/abs/2611.25127"
+    },
+    {
+      "title": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "body": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "url": "https://arxiv.org/abs/2611.25646"
+    },
+    {
+      "title": "Reward misalignment as an opportunity for materials discovery",
+      "body": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "url": "https://arxiv.org/abs/2611.26186"
+    },
+    {
+      "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "body": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "url": "https://arxiv.org/abs/2611.26349"
+    },
+    {
+      "title": "Constitutive Kolmogorov-Arnold Networks in Finite Element Model Updating: Closed-Form Hyperelastic Strain Energies from Heterogeneous Experiments",
+      "body": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "url": "https://arxiv.org/abs/2611.26528"
+    },
+    {
+      "title": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
+      "body": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "url": "https://arxiv.org/abs/2611.25452"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-20T14:55:07.692910+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 30
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 7
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 54
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 11,
+    "leader_count": 0,
+    "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-20",
+    "items_applied": 26,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}

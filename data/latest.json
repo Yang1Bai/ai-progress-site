@@ -1,10 +1,58 @@
 {
-  "date": "2026年11月19日",
+  "date": "2026年11月20日",
   "news": [
     {
-      "title": "Study reveals data centers’ long-distance damage to air quality",
+      "title": "针对智能体运行框架训练适配器",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "body_original": "",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "用量子关联挑战经典策略的游戏",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T20:03:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "A game you cannot win unless you have a quantum computer",
+      "body_original": "Quantum",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "AI 辅助分析医学研究如何共享代码",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T17:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "AI helps researchers investigate how thousands of medical studies share code",
+      "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "研究模拟数据中心用电对远方空气质量的影响",
       "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-      "body": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。",
       "date": "2026-11-19",
       "published_at": "2026-11-19T09:00:00-05:00",
       "source": "MIT AI",
@@ -12,12 +60,15 @@
         "MIT AI",
         "2026-11-19"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Study reveals data centers’ long-distance damage to air quality",
+      "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 响应速度",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "body": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
       "date": "2026-11-19",
       "published_at": "2026-11-19T08:00:00+00:00",
       "source": "OpenAI",
@@ -25,7 +76,74 @@
         "OpenAI",
         "2026-11-19"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "body_original": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "部署 Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Deploying Daybreak Red",
+      "body_original": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "查看拉取请求扫描的运行方式",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "See PR scans in action",
+      "body_original": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "探索 Codex 安全插件",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Explore the Codex Security Plugin",
+      "body_original": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "editorial_date": "2026-11-20"
+    },
+    {
+      "title": "开始使用 Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "body": "来源标题译文；原文访问受限，未核验正文。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Get started with Daybreak Blue",
+      "body_original": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "DaisyRose-27B：探索更高效的模型后训练",
@@ -41,7 +159,7 @@
       "importance": "normal",
       "title_original": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "body_original": "",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "为什么微调耗时会超过 FLOP 估算",
@@ -57,7 +175,7 @@
       "importance": "normal",
       "title_original": "Why your fine-tuning job takes longer than the FLOPs say",
       "body_original": "",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "将时间序列模型接入实时数据流",
@@ -73,7 +191,7 @@
       "importance": "normal",
       "title_original": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "body_original": "",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "自带传感器和计算单元的轻型飞行机器人",
@@ -89,7 +207,7 @@
       "importance": "normal",
       "title_original": "This featherweight, flying robot carries its own sensors and computers",
       "body_original": "The speedy microrobot flies without an attached motion-capture system, moving it closer to applications like agriculture or industrial surveillance.",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "沉默的共识",
@@ -105,23 +223,7 @@
       "importance": "normal",
       "title_original": "The Silent Consensus",
       "body_original": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "住友生命管理层如何帮助团队采用 ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "body_original": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     },
     {
       "title": "科研加速：能力参差不齐的前沿",
@@ -137,336 +239,240 @@
       "importance": "normal",
       "title_original": "Research acceleration: The jagged frontier",
       "body_original": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "走进 Codex 隔离运行环境",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Inside the Codex sandbox",
-      "body_original": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "从训练到部署管理前沿 AI 风险",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T06:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Managing frontier AI risk: From training to deployment",
-      "body_original": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "让 AI 文本检测器适应不断变化的写作条件",
-      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-      "body": "MIT 与康奈尔研究人员通过测试时自适应，让检测器利用新的无标签数据调整模型，以应对写作变化和伪装文本。报道中的实验改善不代表检测已可靠到可单独用于认定学术不端。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T00:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Helping AI text detectors keep up with changing conditions",
-      "body_original": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "费加罗集团与 OpenAI 合作，将新闻内容引入 ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "body_original": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "使用 OpenAI 模型推进芯片设计",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "body": "来源标题译文；原文访问受限，未核验正文。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "Advancing chip design with OpenAI models",
-      "body_original": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
-      "editorial_date": "2026-11-19"
-    },
-    {
-      "title": "用 SSD 流式加载专家，探索低内存 MoE 推理",
-      "url": "https://huggingface.co/blog/moe-expert-streaming",
-      "body": "作者探索从 SSD 流式加载 MoE 专家，在有限内存设备上运行更大的模型。文中性能与内存表现属于特定硬件和配置下的实验，不能视为任意设备均可获得相同体验。",
-      "date": "2026-11-18",
-      "published_at": "2026-11-18T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-18"
-      ],
-      "importance": "normal",
-      "title_original": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
-      "body_original": "",
-      "editorial_date": "2026-11-19"
+      "editorial_date": "2026-11-20"
     }
   ],
   "papers": [
     {
-      "title": "通用力场能否复现氧化锆的相变顺序",
-      "url": "https://arxiv.org/abs/2611.23535",
-      "body": "arXiv:2611.23535v1 Announce Type: new Abstract: Pretrained universal machine-learning force fields can reduce the cost of finite-temperature molecular dynamics relative to density functional theory. However, most benchmarks test only static properties and do not assess whether these models reproduce the correct phase-transition sequence. Here, we benchmark ten open-source universal machine-learning force fields for zirconia (ZrO$_2$) using phonon dispersion calculations and variable-cell isothermal-isobaric molecular dynamics. Zirconia is a useful test because it has three thermodynamically stable crystalline phases prior to melting, following the sequence monoclinic-tetragonal-cubic. Four m",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "机器学习高通量筛选高熵碳化物",
+      "url": "https://arxiv.org/abs/2611.25127",
+      "body": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：作者以声子和变胞分子动力学测试多种通用力场，发现只有部分模型复现正确相变序列。静态性质表现不能替代有限温度验证，结论限于该材料与测试条件。",
+      "summary": "预印本摘要：研究用 MACE 与基于第一性原理数据训练的 DeePMD，筛选多种过渡金属碳化物的等摩尔和非等摩尔组成。稳定候选为计算预测，仍需进一步合成与验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Application of Pretrained Universal Machine Learning Force-Fields for Phase Transitions Prediction in ZrO2",
-      "summary_original": "arXiv:2611.23535v1 Announce Type: new Abstract: Pretrained universal machine-learning force fields can reduce the cost of finite-temperature molecular dynamics relative to density functional theory. However, most benchmarks test only static properties and do not assess whether these models reproduce the correct phase-transition sequence. Here, we benchmark ten open-source universal machine-learning force fields for zirconia (ZrO$_2$) using phonon dispersion calculations and variable-cell isothermal-isobaric molecular dynamics. Zirconia is a useful test because it has three thermodynamically stable crystalline phases prior to melting, following the sequence monoclinic-tetragonal-cubic. Four m",
-      "editorial_date": "2026-11-19"
+      "title_original": "Machine Learning-Driven High-Throughput Screening of Equimolar and Non-Equimolar High-Entropy Carbides",
+      "summary_original": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "Matlantis PFP v9 扩展元素与训练结构覆盖",
-      "url": "https://arxiv.org/abs/2611.23873",
-      "body": "arXiv:2611.23873v1 Announce Type: new Abstract: Universal machine learning interatomic potentials (uMLIPs) make atomistic simulations possible at scales beyond the reach of density functional theory (DFT). Matlantis PFP is a uMLIP that treats a variety of domains, including crystals, molecules, and surfaces, with a single model. PFP v8 incorporated a training dataset computed with the r2SCAN functional, chosen for its good agreement with experiment, but the elements and domains covered by that dataset were limited. Here we present Matlantis PFP v9, in which the training data computed with the r2SCAN functional are extended to the lanthanides from Pr to Lu and to the elements from Po to Cm, f",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "AdsNet：由局部图直接预测吸附能",
+      "url": "https://arxiv.org/abs/2611.25646",
+      "body": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本技术说明：PFP v9 扩展 r2SCAN 训练数据中的元素、团簇及吸附结构，并比较形成能和吸附能表现。更广覆盖不意味着所有新元素与结构均达到同样精度。",
+      "summary": "预印本摘要：等变图网络仅使用吸附物及邻近表面原子的局部图预测能量，并以解析力支持弛豫。精度结果限于其数据和测试条件，不能据此推断任意催化表面均适用。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Technical Note on Matlantis PFP v9: Extending the Element and Domain Coverage of the r2SCAN Training Data",
-      "summary_original": "arXiv:2611.23873v1 Announce Type: new Abstract: Universal machine learning interatomic potentials (uMLIPs) make atomistic simulations possible at scales beyond the reach of density functional theory (DFT). Matlantis PFP is a uMLIP that treats a variety of domains, including crystals, molecules, and surfaces, with a single model. PFP v8 incorporated a training dataset computed with the r2SCAN functional, chosen for its good agreement with experiment, but the elements and domains covered by that dataset were limited. Here we present Matlantis PFP v9, in which the training data computed with the r2SCAN functional are extended to the lanthanides from Pr to Lu and to the elements from Po to Cm, f",
-      "editorial_date": "2026-11-19"
+      "title_original": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "summary_original": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "用等变扩散模型学习量子位置算符",
-      "url": "https://arxiv.org/abs/2611.24130",
-      "body": "arXiv:2611.24130v1 Announce Type: new Abstract: The quantum position operator and its response to perturbations underpin the functional properties of insulating materials. In the modern theory of polarization, Wannier charge centres encode Berry-phase polarization, while their structural derivatives determine key response functions. Here we introduce a universal diffusion model based on E(3)-equivariant graph neural networks for moments of the position operator, with the first moment defining Wannier centres and the second central moment their real-space localization. We demonstrate the framework for liquid water, amorphous silicon and crystalline BaTiO$_3$, and train a universal model that ",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "将奖励与专家判断的偏差用于材料发现",
+      "url": "https://arxiv.org/abs/2611.26186",
+      "body": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：模型预测位置算符矩，关联 Wannier 中心及局域化，并在水、非晶硅和晶体等体系检验极化响应。所报泛化与光谱结果限于训练化学空间及测试体系。",
+      "summary": "预印本摘要：作者以平带为例，学习专家成对偏好并引导晶体扩散模型，探索固定数值评分遗漏的候选。偏差在此可能提供线索，不代表奖励失配普遍有益或候选已实验验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "A Universal Diffusion Model for the Quantum Position Operator",
-      "summary_original": "arXiv:2611.24130v1 Announce Type: new Abstract: The quantum position operator and its response to perturbations underpin the functional properties of insulating materials. In the modern theory of polarization, Wannier charge centres encode Berry-phase polarization, while their structural derivatives determine key response functions. Here we introduce a universal diffusion model based on E(3)-equivariant graph neural networks for moments of the position operator, with the first moment defining Wannier centres and the second central moment their real-space localization. We demonstrate the framework for liquid water, amorphous silicon and crystalline BaTiO$_3$, and train a universal model that ",
-      "editorial_date": "2026-11-19"
+      "title_original": "Reward misalignment as an opportunity for materials discovery",
+      "summary_original": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "用机器学习势研究聚合物中的取向缺陷",
-      "url": "https://arxiv.org/abs/2611.24148",
-      "body": "arXiv:2611.24148v1 Announce Type: new Abstract: Photopolymerization of acrylated epoxidized soybean oil (AESO) is a convenient model of a self-organizing process in a soft, bio-based material: ultraviolet light starts a free-radical chain reaction, the growing network releases heat, and the mobility of molecular groups changes on several time scales at once. We follow this process from two sides. Experimentally, the real and imaginary parts of the dielectric permittivity of an AESO:VDM (1:0.5) mixture with 3 mol% of the photoinitiator DMPA were recorded at 500-5000 Hz under an intermittent on/off illumination protocol, and the resulting time series were analysed with a sliding-window Shannon",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "Perfumer：智能体连接结构预弛豫与能带预测",
+      "url": "https://arxiv.org/abs/2611.26349",
+      "body": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究结合光聚合介电响应与时间序列分析，并用 MACE 势计算局部转动能量，讨论固化过程中集体弛豫与局域重取向的变化。模型描述仍需结合具体实验条件理解。",
+      "summary": "预印本摘要：框架将语言模型智能体、结构预弛豫和能带预测与 Quantum ESPRESSO 工作流结合，报告所测材料上的效率与误差。预测仍需参考计算校验，不是对第一性原理方法的全面替代。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Machine learning interatomic potentials and orientational defects in polymers",
-      "summary_original": "arXiv:2611.24148v1 Announce Type: new Abstract: Photopolymerization of acrylated epoxidized soybean oil (AESO) is a convenient model of a self-organizing process in a soft, bio-based material: ultraviolet light starts a free-radical chain reaction, the growing network releases heat, and the mobility of molecular groups changes on several time scales at once. We follow this process from two sides. Experimentally, the real and imaginary parts of the dielectric permittivity of an AESO:VDM (1:0.5) mixture with 3 mol% of the photoinitiator DMPA were recorded at 500-5000 Hz under an intermittent on/off illumination protocol, and the resulting time series were analysed with a sliding-window Shannon",
-      "editorial_date": "2026-11-19"
+      "title_original": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "summary_original": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "MoSe₂/MoS₂ 横向异质结的取向依赖界面导热",
-      "url": "https://arxiv.org/abs/2611.24547",
-      "body": "arXiv:2611.24547v1 Announce Type: new Abstract: Managing heat flow across interfaces in lateral 2D transition-metal dichalcogenide (TMD) heterostructures is a key challenge for next-generation nanoelectronic and optoelectronic devices. To tackle this, we trained a deep learning interatomic potential (DLP) using DeePMD-kit on density functional theory (DFT) data, then paired it with non-equilibrium molecular dynamics (NEMD) simulations to study interfacial thermal conductance (ITC) in lateral MoSe$_2$/MoS$_2$ heterostructures, considering both armchair and zigzag interface orientations. The potential we trained closely matches DFT energies, forces, and phonon dispersion relations, which confi",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "从非均匀实验识别可解释的超弹性应变能",
+      "url": "https://arxiv.org/abs/2611.26528",
+      "body": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：作者训练深度势并进行非平衡分子动力学，比较扶手椅与锯齿形界面的导热。计算发现取向差异及温度效应，不能直接等同于实际器件测量。",
+      "summary": "预印本摘要：研究将本构 Kolmogorov-Arnold 网络嵌入有限元模型更新，利用位移场和反力训练，再通过剪枝与符号回归提取紧凑表达式。验证限定于所测橡胶、硅胶试样及加载条件。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Orientation-Tunable Interfacial Thermal Conductance in Lateral MoSe2/MoS2 Heterostructures: A Deep Potential Molecular Dynamics Study",
-      "summary_original": "arXiv:2611.24547v1 Announce Type: new Abstract: Managing heat flow across interfaces in lateral 2D transition-metal dichalcogenide (TMD) heterostructures is a key challenge for next-generation nanoelectronic and optoelectronic devices. To tackle this, we trained a deep learning interatomic potential (DLP) using DeePMD-kit on density functional theory (DFT) data, then paired it with non-equilibrium molecular dynamics (NEMD) simulations to study interfacial thermal conductance (ITC) in lateral MoSe$_2$/MoS$_2$ heterostructures, considering both armchair and zigzag interface orientations. The potential we trained closely matches DFT energies, forces, and phonon dispersion relations, which confi",
-      "editorial_date": "2026-11-19"
+      "title_original": "Constitutive Kolmogorov-Arnold Networks in Finite Element Model Updating: Closed-Form Hyperelastic Strain Energies from Heterogeneous Experiments",
+      "summary_original": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "结合领域知识与图学习评估材料数据置信度",
-      "url": "https://arxiv.org/abs/2611.23342",
-      "body": "arXiv:2611.23342v1 Announce Type: cross Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain ",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "FamilySpace：按元素族控制晶体生成",
+      "url": "https://arxiv.org/abs/2611.25452",
+      "body": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法将材料数据质量表达为连续置信度，结合物理化学规则、重复样本信息及图结构学习进行修正。置信度用于筛查可疑记录，不自动证明原始数据正确或错误。",
+      "summary": "预印本摘要：作者观察晶体 VAE 的潜空间出现元素族组织，并设计多源流模型控制生成结构的元素族组成。可控生成不等同于稳定性、可合成性或目标性能已经得到保证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
-      "summary_original": "arXiv:2611.23342v1 Announce Type: cross Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain ",
-      "editorial_date": "2026-11-19"
+      "title_original": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
+      "summary_original": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "用神经算子加速地震序列模拟",
-      "url": "https://arxiv.org/abs/2611.23561",
-      "body": "arXiv:2611.23561v1 Announce Type: cross Abstract: Earthquake sequence simulations involve slow interseismic processes and rapid dynamic ruptures. During interseismic periods, a numerical solver can take large time steps efficiently. During seismic periods, in contrast, the solver must drastically reduce the time step, and elastodynamic wave-mediated memory effects become significant; long-term simulations are therefore computationally expensive. We investigate the use of neural operators to accelerate earthquake sequence simulations. We train a Fourier neural operator (FNO) on data from high-fidelity, fully dynamic simulations to learn a jump map that advances the system state from before a ",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "MatVerse：材料领域多模态基础模型",
+      "url": "https://arxiv.org/abs/2611.25651",
+      "body": "arXiv:2611.25651v1 Announce Type: cross Abstract: Materials science involves highly heterogeneous scientific information, including textual knowledge, molecular and crystal structures, experimental characterization data, microscopy images, and structure-property relationships. Developing a general-purpose foundation model capable of understanding and reasoning over these diverse materials representations remains challenging. In this technical report, we introduce MatVerse, a materials foundation model built upon Intern-S2-Preview and further specialized through large-scale materials-domain post-training. We construct a large-scale multimodal training corpus covering materials knowledge, scie",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：混合框架用常规求解器处理缓慢间震演化，用傅里叶神经算子替代高成本破裂阶段，并比较长期统计。模拟加速不等同于真实地震的发生时间预测。",
+      "summary": "预印本技术报告：研究通过材料语料后训练、推理蒸馏及一致性筛选适配基础模型，并在三类材料评测中比较表现。基准提升不代表所有科研推断均可靠，仍需独立验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Machine-learned acceleration of earthquake sequence simulations",
-      "summary_original": "arXiv:2611.23561v1 Announce Type: cross Abstract: Earthquake sequence simulations involve slow interseismic processes and rapid dynamic ruptures. During interseismic periods, a numerical solver can take large time steps efficiently. During seismic periods, in contrast, the solver must drastically reduce the time step, and elastodynamic wave-mediated memory effects become significant; long-term simulations are therefore computationally expensive. We investigate the use of neural operators to accelerate earthquake sequence simulations. We train a Fourier neural operator (FNO) on data from high-fidelity, fully dynamic simulations to learn a jump map that advances the system state from before a ",
-      "editorial_date": "2026-11-19"
+      "title_original": "MatVerse: A Foundation Model for Materials Science",
+      "summary_original": "arXiv:2611.25651v1 Announce Type: cross Abstract: Materials science involves highly heterogeneous scientific information, including textual knowledge, molecular and crystal structures, experimental characterization data, microscopy images, and structure-property relationships. Developing a general-purpose foundation model capable of understanding and reasoning over these diverse materials representations remains challenging. In this technical report, we introduce MatVerse, a materials foundation model built upon Intern-S2-Preview and further specialized through large-scale materials-domain post-training. We construct a large-scale multimodal training corpus covering materials knowledge, scie",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "UniMatSim：统一机器学习势的高通量模拟流程",
-      "url": "https://arxiv.org/abs/2603.15294",
-      "body": "arXiv:2603.15294v2 Announce Type: replace Abstract: Universal machine learning interatomic potentials (UMLIPs) offer accuracy close to first-principles calculations at a fraction of the cost, showing significant potential for large-scale material simulations. However, the fragmented UMLIPs ecosystem lacks unified interface standards and integration frameworks, hindering their automated deployment in high-throughput workflows. To address this, we present UniMatSim, a modular Python framework. It systematically integrates various UMLIPs (e.g., CHGNet, M3GNet, MACE) and automates workflows from structural optimization to stability verification. The framework enables seamless model switching via",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "用轨道投影态密度增强材料图网络",
+      "url": "https://arxiv.org/abs/2607.07339",
+      "body": "arXiv:2607.07339v2 Announce Type: replace Abstract: Graph neural networks have become the dominant machine-learning architecture for predicting materials properties from crystal structures. Yet the initialization of atomic node features has received comparatively little attention, and conventional approaches rely on static elemental descriptors that carry no information about the quantum-mechanical electronic environment of each atom in its crystalline host. Here we show that augmenting atomic node representations with site-projected orbital density of states (pDOS) fingerprints, computed directly from density functional theory calculations, yields systematic and substantial improvements in ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：框架通过抽象接口整合多种势模型，自动执行结构优化、弹性与声子等任务，并以二维体系筛选为案例。流程自动化不能替代势模型适用域和稳定性验证。",
+      "summary": "预印本摘要：研究将 DFT 计算的局域轨道态密度与元素表示融合，用于超导温度和介电等性质预测。收益依赖任务与数据规模，也需要计入获取电子结构信息的计算成本。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "UniMatSim: A High-Throughput Materials Simulation Automation Framework Based on Universal Machine Learning Potentials",
-      "summary_original": "arXiv:2603.15294v2 Announce Type: replace Abstract: Universal machine learning interatomic potentials (UMLIPs) offer accuracy close to first-principles calculations at a fraction of the cost, showing significant potential for large-scale material simulations. However, the fragmented UMLIPs ecosystem lacks unified interface standards and integration frameworks, hindering their automated deployment in high-throughput workflows. To address this, we present UniMatSim, a modular Python framework. It systematically integrates various UMLIPs (e.g., CHGNet, M3GNet, MACE) and automates workflows from structural optimization to stability verification. The framework enables seamless model switching via",
-      "editorial_date": "2026-11-19"
+      "title_original": "Encoding Orbital-Projected Densities of States in Graph Neural Networks for Materials Property Prediction",
+      "summary_original": "arXiv:2607.07339v2 Announce Type: replace Abstract: Graph neural networks have become the dominant machine-learning architecture for predicting materials properties from crystal structures. Yet the initialization of atomic node features has received comparatively little attention, and conventional approaches rely on static elemental descriptors that carry no information about the quantum-mechanical electronic environment of each atom in its crystalline host. Here we show that augmenting atomic node representations with site-projected orbital density of states (pDOS) fingerprints, computed directly from density functional theory calculations, yields systematic and substantial improvements in ",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "发现可解释的晶体结构合理性筛选规则",
-      "url": "https://arxiv.org/abs/2609.01209",
-      "body": "arXiv:2609.01209v2 Announce Type: replace Abstract: Generative models and autonomous agents now propose candidate inorganic crystals by the million, yet most screens test little beyond a minimum-distance cutoff and give no chemical reason for failure. For nearly a century, Pauling's rules have served as the main empirical theory of crystal-structure stability, but they remain qualitative and idealized, leading to only 6.5% of known ionic crystals satisfying rules 2--5 simultaneously. Here our agents generate, test and refute two million candidate laws to discover eight Plausibility Rules for Inorganic Structures (PRIS). These laws encode five physical mechanisms: short-range repulsion, ionic",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "HetCat26 检验通用原子势的非均相催化迁移性",
+      "url": "https://arxiv.org/abs/2609.30621",
+      "body": "arXiv:2609.30621v2 Announce Type: replace Abstract: Foundation machine learning interatomic potentials (MLIPs) promise near-density functional theory (DFT) accuracy across broad areas of chemistry and materials science. However, their performance in describing systems and processes relevant to heterogeneous catalysis remains underexplored. Here, we introduce HetCat26, a collection of benchmark tests designed to assess pre-trained MLIPs across key aspects of catalytic modeling, including surface energetics, metal-metal oxide interactions, adsorption, and catalytic reaction networks. Evaluating eighteen foundation models, we find that performance on existing general materials benchmarks is onl",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：作者用智能体生成和检验候选规则，以几何与化学机制诊断晶体结构，并与已有结构和人工破坏结构比较。合理性与可合成性关联不能视为合成成功保证。",
+      "summary": "预印本摘要：基准覆盖表面、吸附、氧化物界面及反应网络。作者发现通用材料榜单表现难以直接预测催化任务表现，尤其吸附能和位点偏好仍可能失准，并强调训练数据一致性。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Autonomous discovery of new structure-plausibility laws for explainable and rapid crystal diagnosis and screening",
-      "summary_original": "arXiv:2609.01209v2 Announce Type: replace Abstract: Generative models and autonomous agents now propose candidate inorganic crystals by the million, yet most screens test little beyond a minimum-distance cutoff and give no chemical reason for failure. For nearly a century, Pauling's rules have served as the main empirical theory of crystal-structure stability, but they remain qualitative and idealized, leading to only 6.5% of known ionic crystals satisfying rules 2--5 simultaneously. Here our agents generate, test and refute two million candidate laws to discover eight Plausibility Rules for Inorganic Structures (PRIS). These laws encode five physical mechanisms: short-range repulsion, ionic",
-      "editorial_date": "2026-11-19"
+      "title_original": "Assessing the Transferability of General-Purpose MachineLearning Interatomic Potentials for Heterogeneous Catalysis with HetCat26",
+      "summary_original": "arXiv:2609.30621v2 Announce Type: replace Abstract: Foundation machine learning interatomic potentials (MLIPs) promise near-density functional theory (DFT) accuracy across broad areas of chemistry and materials science. However, their performance in describing systems and processes relevant to heterogeneous catalysis remains underexplored. Here, we introduce HetCat26, a collection of benchmark tests designed to assess pre-trained MLIPs across key aspects of catalytic modeling, including surface energetics, metal-metal oxide interactions, adsorption, and catalytic reaction networks. Evaluating eighteen foundation models, we find that performance on existing general materials benchmarks is onl",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "GEODE：保留晶体对称性的笛卡尔扩散生成",
-      "url": "https://arxiv.org/abs/2610.01898",
-      "body": "arXiv:2610.01898v2 Announce Type: replace Abstract: Most known inorganic crystals exhibit symmetric atomic arrangements, yet generative models often fail to reproduce them. Explicitly enforcing these symmetries has so far yielded fewer stable and novel structures than unconstrained generation. We introduce Generative Equivariant Orbit Diffusion Engine (GEODE), to our knowledge the first model to combine coordinate and lattice diffusion in Cartesian space. GEODE first samples symmetry templates, then jointly generates the lattice, atomic coordinates and atom types while preserving the specified symmetry with a novel Wyckoff-constrained loss. Cartesian diffusion gives coordinate noise a consis",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "MateriaViva：整合晶体数据并检验设计新颖性",
+      "url": "https://arxiv.org/abs/2610.32678",
+      "body": "arXiv:2610.32678v2 Announce Type: replace Abstract: Forward screening and inverse design drive materials discovery, yet their limits remain unquantified because records of known crystal structures and properties are fragmented across databases. Consequently, forward screening leaves known crystals underexplored for new functions, whereas generative and autonomous discovery has repeatedly reported known phases or close variants as new materials. Here we match structures across 55 databases to assemble MateriaViva, a unified database of 14.6 million distinct crystals and over one billion property values. To provide the missing properties of every structure, a task we term property completion, ",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法先选择对称模板，再联合生成晶格、坐标与原子类型，并用约束损失保留指定对称性。生成稳定性与新颖性结果属于计算基准，仍需后续物理和实验验证。",
+      "summary": "预印本摘要：研究跨数据库匹配结构、补全预测性质，并对生成候选的新颖性进行审计。补全性质属于模型预测，候选是否新颖及性能判断仍受数据库覆盖和验证预算限制。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "GEODE: Symmetry-Preserving Cartesian Diffusion for Crystal Generation",
-      "summary_original": "arXiv:2610.01898v2 Announce Type: replace Abstract: Most known inorganic crystals exhibit symmetric atomic arrangements, yet generative models often fail to reproduce them. Explicitly enforcing these symmetries has so far yielded fewer stable and novel structures than unconstrained generation. We introduce Generative Equivariant Orbit Diffusion Engine (GEODE), to our knowledge the first model to combine coordinate and lattice diffusion in Cartesian space. GEODE first samples symmetry templates, then jointly generates the lattice, atomic coordinates and atom types while preserving the specified symmetry with a novel Wyckoff-constrained loss. Cartesian diffusion gives coordinate noise a consis",
-      "editorial_date": "2026-11-19"
+      "title_original": "Probing the limits of materials design via a comprehensive crystal database of 14.6 million structures with 140 properties",
+      "summary_original": "arXiv:2610.32678v2 Announce Type: replace Abstract: Forward screening and inverse design drive materials discovery, yet their limits remain unquantified because records of known crystal structures and properties are fragmented across databases. Consequently, forward screening leaves known crystals underexplored for new functions, whereas generative and autonomous discovery has repeatedly reported known phases or close variants as new materials. Here we match structures across 55 databases to assemble MateriaViva, a unified database of 14.6 million distinct crystals and over one billion property values. To provide the missing properties of every structure, a task we term property completion, ",
+      "editorial_date": "2026-11-20"
     },
     {
-      "title": "用合成晶体结构支持扩散预训练",
-      "url": "https://arxiv.org/abs/2611.22140",
-      "body": "arXiv:2611.22140v2 Announce Type: replace-cross Abstract: Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method retains a critical dependency: it requires structures residing near local minima of a potential energy surface, which have traditionally been obtained through costly DFT relaxations of known or physically synthesized compounds. This reliance constrains both the scale and the structural diversity of available pretraining data, leaving large ",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00-05:00",
+      "title": "用物理引导学习校准 NV 金刚石磁强计",
+      "url": "https://arxiv.org/abs/2608.19582",
+      "body": "arXiv:2608.19582v2 Announce Type: replace-cross Abstract: Ensemble nitrogen-vacancy centers in diamond enable robust magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration and a reliance on external references. Conventional statistical machine learning requires massive training datasets and suffers from severe simulation-to-reality mismatches. To address this, we introduce a physics-guided hybrid machine learning framework that embeds Zeeman splitting directly into the learning pipeline. In an ablation study, our model demonstrates a nearly 3-fold improvement in precision and a 372-fold reduction in mean prediction bias over a purely statistical b",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-19"
+        "2026-11-20"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究结合扰动弛豫、生成采样及原型枚举构建预训练结构，并用机器学习势减少逐个进行 DFT 弛豫的需求。作者比较不同扩散目标与材料性质任务；合成数据的收益仍取决于分布和下游任务。",
+      "summary": "预印本摘要：框架将塞曼分裂信息嵌入学习流程，结合少量实验种子与合成谱改善仿真到实验迁移。精度和推理速度来自指定数据及硬件测试，不能无条件推广到全部传感环境。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Synthetic Crystal Data Generation for Diffusion Pretraining in Material Property Prediction",
-      "summary_original": "arXiv:2611.22140v2 Announce Type: replace-cross Abstract: Diffusion-based pretraining has emerged as a powerful strategy for learning transferable representations in graph neural networks for materials property prediction without requiring quantum-mechanical labels such as energies, forces, and stresses for every pretraining structure. However, the method retains a critical dependency: it requires structures residing near local minima of a potential energy surface, which have traditionally been obtained through costly DFT relaxations of known or physically synthesized compounds. This reliance constrains both the scale and the structural diversity of available pretraining data, leaving large ",
-      "editorial_date": "2026-11-19"
+      "title_original": "Physics-guided machine learning for sim-to-real calibration of NV diamond magnetometers",
+      "summary_original": "arXiv:2608.19582v2 Announce Type: replace-cross Abstract: Ensemble nitrogen-vacancy centers in diamond enable robust magnetometry in unshielded environments, yet deployment remains bottlenecked by complex calibration and a reliance on external references. Conventional statistical machine learning requires massive training datasets and suffers from severe simulation-to-reality mismatches. To address this, we introduce a physics-guided hybrid machine learning framework that embeds Zeeman splitting directly into the learning pipeline. In an ablation study, our model demonstrates a nearly 3-fold improvement in precision and a 372-fold reduction in mean prediction bias over a purely statistical b",
+      "editorial_date": "2026-11-20"
     }
   ],
   "leaders": [],
@@ -475,44 +481,44 @@
   "conferences": [],
   "science": [
     {
-      "title": "Application of Pretrained Universal Machine Learning Force-Fields for Phase Transitions Prediction in ZrO2",
-      "body": "arXiv:2611.23535v1 Announce Type: new Abstract: Pretrained universal machine-learning force fields can reduce the cost of finite-temperature molecular dynamics relative to density functional theory. However, most benchmarks test only static properties and do not assess whether these models reproduce the correct phase-transition sequence. Here, we benchmark ten open-source universal machine-learning force fields for zirconia (ZrO$_2$) using phonon dispersion calculations and variable-cell isothermal-isobaric molecular dynamics. Zirconia is a useful test because it has three thermodynamically stable crystalline phases prior to melting, following the sequence monoclinic-tetragonal-cubic. Four m",
-      "url": "https://arxiv.org/abs/2611.23535"
+      "title": "Machine Learning-Driven High-Throughput Screening of Equimolar and Non-Equimolar High-Entropy Carbides",
+      "body": "arXiv:2611.25127v1 Announce Type: new Abstract: Search for optimal compositions among high-entropy ceramics are challenging due to large composition space, which are unable to test either experimentally or by \\textit{ab initio} calculations. Here we present a high-throughput screening for equimolar and non-equimolar high-entropy carbides (HEC) among group IVB and VB transition metals (Ti, Zr, Hf, V, Nb and Ta). Large Atomistic Model MACE, and deep learning based interatomic potential DeePMD trained on \\textit{ab initio}-based dataset of structures are used to effectively screen over the thousands of potential non-equimolar compositions among high-entropy carbides of Ti, Zr, Hf, V, Nb and Ta ",
+      "url": "https://arxiv.org/abs/2611.25127"
     },
     {
-      "title": "Technical Note on Matlantis PFP v9: Extending the Element and Domain Coverage of the r2SCAN Training Data",
-      "body": "arXiv:2611.23873v1 Announce Type: new Abstract: Universal machine learning interatomic potentials (uMLIPs) make atomistic simulations possible at scales beyond the reach of density functional theory (DFT). Matlantis PFP is a uMLIP that treats a variety of domains, including crystals, molecules, and surfaces, with a single model. PFP v8 incorporated a training dataset computed with the r2SCAN functional, chosen for its good agreement with experiment, but the elements and domains covered by that dataset were limited. Here we present Matlantis PFP v9, in which the training data computed with the r2SCAN functional are extended to the lanthanides from Pr to Lu and to the elements from Po to Cm, f",
-      "url": "https://arxiv.org/abs/2611.23873"
+      "title": "AdsNet: A Graph Neural Network for Direct Adsorption Energy Prediction",
+      "body": "arXiv:2611.25646v1 Announce Type: new Abstract: Fast and accurate prediction of adsorption energies is critical for high-throughput computational catalyst screening, existing methods compromise either on evaluation speed (full-graph machine learning potentials) or geometric sensitivity (coordination-based models like the alpha-scheme). Here, we present AdsNet, an equivariant graph neural network that directly predicts adsorption energies in a single forward pass, which operates on a local graph restricted only to adsorbate atoms and its immediate surface neighbors within a cutoff radius. This local graph formulation decouples computational complexity from total system size while encoding con",
+      "url": "https://arxiv.org/abs/2611.25646"
     },
     {
-      "title": "A Universal Diffusion Model for the Quantum Position Operator",
-      "body": "arXiv:2611.24130v1 Announce Type: new Abstract: The quantum position operator and its response to perturbations underpin the functional properties of insulating materials. In the modern theory of polarization, Wannier charge centres encode Berry-phase polarization, while their structural derivatives determine key response functions. Here we introduce a universal diffusion model based on E(3)-equivariant graph neural networks for moments of the position operator, with the first moment defining Wannier centres and the second central moment their real-space localization. We demonstrate the framework for liquid water, amorphous silicon and crystalline BaTiO$_3$, and train a universal model that ",
-      "url": "https://arxiv.org/abs/2611.24130"
+      "title": "Reward misalignment as an opportunity for materials discovery",
+      "body": "arXiv:2611.26186v1 Announce Type: new Abstract: Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a numerical bandwidth score, but their disagreements are systematic and cannot be explained by an estimated 5% rate of mistaken labels. We learn the experts' preferences from pairwise comparisons and use them to guide a crystal diffusion model. The learned preferences and numerical score agree on ",
+      "url": "https://arxiv.org/abs/2611.26186"
     },
     {
-      "title": "Machine learning interatomic potentials and orientational defects in polymers",
-      "body": "arXiv:2611.24148v1 Announce Type: new Abstract: Photopolymerization of acrylated epoxidized soybean oil (AESO) is a convenient model of a self-organizing process in a soft, bio-based material: ultraviolet light starts a free-radical chain reaction, the growing network releases heat, and the mobility of molecular groups changes on several time scales at once. We follow this process from two sides. Experimentally, the real and imaginary parts of the dielectric permittivity of an AESO:VDM (1:0.5) mixture with 3 mol% of the photoinitiator DMPA were recorded at 500-5000 Hz under an intermittent on/off illumination protocol, and the resulting time series were analysed with a sliding-window Shannon",
-      "url": "https://arxiv.org/abs/2611.24148"
+      "title": "Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation",
+      "body": "arXiv:2611.26349v1 Announce Type: new Abstract: First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall speedup over QE alone. Perfumer-band model combines a periodic graph neural network with a latent Hermitian spectral head returns 12 band energies at any requested wavevector, preserving reciprocal lattice periodicity and time-reversal symmetry without constructing Hamiltonian. Trained on 12",
+      "url": "https://arxiv.org/abs/2611.26349"
     },
     {
-      "title": "Orientation-Tunable Interfacial Thermal Conductance in Lateral MoSe2/MoS2 Heterostructures: A Deep Potential Molecular Dynamics Study",
-      "body": "arXiv:2611.24547v1 Announce Type: new Abstract: Managing heat flow across interfaces in lateral 2D transition-metal dichalcogenide (TMD) heterostructures is a key challenge for next-generation nanoelectronic and optoelectronic devices. To tackle this, we trained a deep learning interatomic potential (DLP) using DeePMD-kit on density functional theory (DFT) data, then paired it with non-equilibrium molecular dynamics (NEMD) simulations to study interfacial thermal conductance (ITC) in lateral MoSe$_2$/MoS$_2$ heterostructures, considering both armchair and zigzag interface orientations. The potential we trained closely matches DFT energies, forces, and phonon dispersion relations, which confi",
-      "url": "https://arxiv.org/abs/2611.24547"
+      "title": "Constitutive Kolmogorov-Arnold Networks in Finite Element Model Updating: Closed-Form Hyperelastic Strain Energies from Heterogeneous Experiments",
+      "body": "arXiv:2611.26528v1 Announce Type: new Abstract: Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field measurements, such as those from digital image correlation (DIC), promise to solve the second, replacing those tests by a single heterogeneous one. Two gaps remain: flexibility during training with interpretability afterwards, and a way to train such a model on one heterogeneous test. Here we close both.",
+      "url": "https://arxiv.org/abs/2611.26528"
     },
     {
-      "title": "Confidence-Based Materials Data Quality Assessment via Domain Knowledge and Graph-Structured Learning",
-      "body": "arXiv:2611.23342v1 Announce Type: cross Abstract: The rapid development of materials machine learning relies on large-scale, heterogeneous datasets, yet model reliability is often compromised by imperfect data from diverse experiments, simulations, and database integration. Real-world materials databases may contain measurement errors, failed calculations, missing or duplicate records, and hidden violations of physicochemical constraints. Such problems are difficult to identify because corrupted samples may remain statistically plausible rather than appearing as explicit outliers. In this paper, we propose a confidence-based materials data quality assessment framework that integrates domain ",
-      "url": "https://arxiv.org/abs/2611.23342"
+      "title": "FamilySpace: From Emergent Chemical Semantics to Controllable Crystal Generation",
+      "body": "arXiv:2611.25452v1 Announce Type: cross Abstract: Latent crystal generative models typically combine a variational autoencoder (VAE) for learning atom-wise representations with a flow model that transports a simple source distribution to the learned latent distribution. However, previous studies have mainly focused on the quality of generated crystals, leaving the structure and generative utility of the atom-wise latent space largely unexplored. In this work, we show that even a vanilla crystal VAE implicitly organizes atom-wise latent representations according to elemental families, with different families occupying largely separated regions of the latent space. We term this phenomenon emer",
+      "url": "https://arxiv.org/abs/2611.25452"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-19T19:53:18.108909+00:00",
+  "fetched_at": "2026-11-20T14:55:07.692910+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 28
+      "items": 30
     },
     {
       "source": "Hugging Face",
@@ -524,13 +530,13 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 9
+      "items": 7
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 1
+      "items": 2
     },
     {
       "source": "Nature Materials",
@@ -548,19 +554,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 62
+      "items": 54
     }
   ],
-  "editorial": {
-    "date": "2026-11-19",
-    "items_applied": 24,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
     "paper_count": 11,
     "leader_count": 0,
     "science_count": 6
+  },
+  "editorial": {
+    "date": "2026-11-20",
+    "items_applied": 26,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
