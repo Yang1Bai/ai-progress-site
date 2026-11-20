@@ -125,6 +125,27 @@
     ],
     "faculty": [
       {
+        "title": "Assistant / Associate Professor in Energy Innovation - Engineering",
+        "org": "Purdue University, College of Engineering / Institute for Energy Innovation",
+        "location": "West Lafayette, Indiana, USA",
+        "url": "https://careers.purdue.edu/job/AssistantAssociate-Professor-in-Energy-Innovation-Engineering/44435-en_US/",
+        "deadline": "Review began 2026-11-09; open until filled",
+        "tags": [
+          "critical materials",
+          "energy storage",
+          "materials discovery",
+          "electrochemical characterization"
+        ],
+        "fit": "The critical materials initiative targets discovery, synthesis and characterization of scarce-element alternatives for energy technologies, a direct application of autonomous screening of inorganic electrocatalysts.",
+        "qs_world_rank": 100,
+        "qs_ranking_year": 2027,
+        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+        "source": "curated",
+        "last_audited_date": "2026-11-20",
+        "verified_date": "2026-11-20",
+        "review_begins_date": "2026-11-09"
+      },
+      {
         "title": "Tenure-Track Assistant / Associate Professor - Clean Energy Materials and Hydrogen Science",
         "org": "Shanghai Jiao Tong University, School of Materials Science and Engineering",
         "location": "Shanghai, China",
@@ -168,7 +189,7 @@
         "org": "Massachusetts Institute of Technology, Chemistry / Schwarzman College of Computing",
         "location": "Cambridge, Massachusetts, USA",
         "url": "https://academicjobsonline.org/ajo/jobs/33019",
-        "deadline": "Full consideration and review from 2026-11-15; no verified hard closure",
+        "deadline": "AJO lists 2026-11-22 23:59:59; employer text says review begins 2026-11-22; department lists full consideration 2026-11-15",
         "fit": "The joint search explicitly invites chemistry-informed models and AI-enabled experimentation. Closed-loop electrocatalyst discovery directly integrates both parts of the appointment.",
         "tags": [
           "AI-enabled experimentation",
@@ -180,29 +201,8 @@
         "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
         "official_posting": "https://chemistry.mit.edu/chemistry-news/department-of-chemistry-and-schwarzman-college-of-computing-seeks-assistant-professor-for-shared-appointment/",
         "verified_date": "2026-11-13",
-        "last_audited_date": "2026-11-13"
-      },
-      {
-        "title": "Assistant Professor - Experimental Physical Chemistry (Req 50066)",
-        "org": "University of Toronto, Department of Chemistry",
-        "location": "Toronto, Ontario, Canada",
-        "url": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Experimental-Physical-Chemistry-ON/606804817/",
-        "deadline": "2026-11-16",
-        "fit": "Automated electrochemistry can probe physical mechanisms at solid/liquid interfaces. This is an open experimental physical chemistry search; Req 50083 shares its single appointment. Three letters must arrive by 23:59 EST.",
-        "tags": [
-          "experimental physical chemistry",
-          "electrochemical interfaces"
-        ],
-        "source": "curated",
-        "qs_world_rank": 32,
-        "qs_ranking_year": 2027,
-        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
-        "official_posting": "https://jobs.utoronto.ca/job/Toronto-Assistant-Professor-Experimental-Physical-Chemistry-ON/606804817/",
-        "verified_date": "2026-11-13",
-        "last_audited_date": "2026-11-13",
-        "closing_date": "2026-11-16",
-        "closing_time": "23:59",
-        "closing_timezone": "America/Toronto"
+        "last_audited_date": "2026-11-20",
+        "audit_note": "Hard closure unconfirmed; timezone not verified."
       },
       {
         "title": "Tenure-Track Faculty Positions in Chemistry (including Assistant / Associate Professor)",
@@ -407,10 +407,9 @@
         "org": "The University of Hong Kong, Department of Materials and Energy",
         "location": "Hong Kong SAR, China",
         "url": "https://jobs.hku.hk/cw/en/job/537824/tenuretrack-associate-professorassistant-professor",
-        "deadline": "Portal close 2027-06-30 (HKT); review begins the same date and continues until filled; no clock time given",
+        "deadline": "Central portal: review from January 2027, until 2027-06-30 or filled earlier; department page: review from 2026-12-01",
         "rank": "Associate Professor / Assistant Professor (tenure track)",
-        "review_begins_date": "2027-06-30",
-        "deadline_time_note": "Hong Kong time; clock time not specified. Body says until filled after review begins.",
+        "deadline_time_note": "No clock time specified.",
         "tags": [
           "automated intelligent materials lab",
           "AI-driven materials discovery",
@@ -424,9 +423,9 @@
         "official_posting": "https://jobs.hku.hk/cw/en/job/537824/tenuretrack-associate-professorassistant-professor",
         "source": "curated",
         "verified_date": "2026-11-13",
-        "last_audited_date": "2026-11-13",
+        "last_audited_date": "2026-11-20",
         "audit_status": "verified_open",
-        "audit_note": "Portal closing date and review start currently coincide. Recheck before relying on availability after that date.",
+        "audit_note": "Central portal and departmental notice disagree on review start. December 1 is not a closing date.",
         "research_source": "https://mse.hku.hk/research/research-areas/",
         "application_status": "No submission recorded"
       },
@@ -459,37 +458,6 @@
         "last_audited_date": "2026-10-30",
         "audit_status": "verified_open",
         "audit_note": "Official posting independently read on 2026-10-30; retained. Review/priority dates are not hard closing deadlines."
-      },
-      {
-        "title": "Assistant Professor - Chemical and Biomolecular Engineering (Tenure Track)",
-        "org": "University of California, Berkeley, Department of Chemical and Biomolecular Engineering",
-        "location": "Berkeley, California, USA",
-        "url": "https://aprecruit.berkeley.edu/JPF05504",
-        "deadline": "2026-11-18",
-        "rank": "Assistant Professor (tenure track)",
-        "job_id": "JPF05504",
-        "closing_date": "2026-11-18",
-        "closing_time": "23:59",
-        "closing_timezone": "America/Los_Angeles",
-        "deadline_time_note": "Official final date and full-consideration date are November 18, 2026 at 11:59pm Pacific Time (PST). This is a hard final deadline.",
-        "tags": [
-          "experimental electrochemistry",
-          "inorganic synthesis",
-          "chemical reaction engineering",
-          "materials discovery"
-        ],
-        "fit": "The official tenure-track search welcomes every research area within chemical and biomolecular engineering. Fit is inferred from Yang's experimental electrocatalysis, autonomous inorganic synthesis and critical-material recovery program, with potential CBE/LBNL collaborations; the advertisement does not specifically prioritize autonomous laboratories.",
-        "qs_world_rank": 20,
-        "qs_rank_tied": true,
-        "qs_ranking_year": 2027,
-        "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
-        "official_posting": "https://aprecruit.berkeley.edu/JPF05504",
-        "source": "curated",
-        "verified_date": "2026-10-30",
-        "last_audited_date": "2026-10-30",
-        "audit_status": "verified_open",
-        "audit_note": "Official AP Recruit page independently read on October 30: TT Assistant Professor, final deadline 2026-11-18 23:59 Pacific.",
-        "application_status": "not_recorded"
       },
       {
         "title": "Open-Rank Full-Time Tenure-Track Faculty - Chemical Engineering",
@@ -815,7 +783,7 @@
         "org": "Hong Kong University of Science and Technology, Department of Materials",
         "location": "Clear Water Bay, Hong Kong",
         "url": "https://apply.interfolio.com/191744",
-        "deadline": "open",
+        "deadline": "Rolling review; open until filled",
         "tags": [
           "materials",
           "energy materials",
@@ -823,10 +791,13 @@
           "advanced synthesis"
         ],
         "source": "curated",
-        "last_audited_date": "2026-10-30",
-        "verified_date": "2026-10-23",
-        "audit_note": "Rechecked on 2026-10-30. Full current employer posting/date verification was limited by dynamic content or access errors; previous dates are retained as unverified, not treated as a newly confirmed deadline. Retained because closure was not confirmed.",
-        "audit_status": "verification_limited_retained"
+        "last_audited_date": "2026-11-20",
+        "verified_date": "2026-11-20",
+        "audit_note": "Employer posting identifies job 189912 and directs applications to Interfolio 191744; seeks AI-empowered and autonomous materials synthesis and discovery.",
+        "audit_status": "verified_open",
+        "official_posting": "https://academicjobsonline.org/ajo/jobs/33079",
+        "qs_world_rank": 33,
+        "qs_ranking_year": 2027
       },
       {
         "title": "Tenure-Track Faculty Position in Scientific Machine Learning and AI for Science",
