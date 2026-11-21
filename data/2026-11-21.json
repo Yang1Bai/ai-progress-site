@@ -1,0 +1,309 @@
+{
+  "date": "2026年11月21日",
+  "news": [
+    {
+      "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "body": "文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T23:30:30+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "body_original": "Generative AI",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "MIT 讨论多模态模型的理解与交互缺口",
+      "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+      "body": "MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T16:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
+      "body_original": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "为混沌系统的 AI 模型加入物理有界约束",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "body": "MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T15:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "New approach enables physically consistent AI models of chaotic systems",
+      "body_original": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "数学家讨论 AI 加速研究后的学科未来",
+      "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+      "body": "MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T10:20:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Following the “mathocalypse,” mathematicians consider the future",
+      "body_original": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "OpenAI 介绍应对对抗性蒸馏的防护",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "body": "文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T10:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Combatting adversarial distillation",
+      "body_original": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "body": "客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "MedChemBench 评估模型的药物化学推理",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "body": "基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Can AI help scientists identify promising drug candidates?",
+      "body_original": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "Inkling 2 Mini 探索循环层与本地多模态推理",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "body": "文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "body_original": "",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "针对智能体运行框架训练适配器",
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。",
+      "date": "2026-11-20",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-20"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "body_original": "",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "用量子关联挑战经典策略的游戏",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T20:03:00+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "A game you cannot win unless you have a quantum computer",
+      "body_original": "Quantum",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "AI 辅助分析医学研究如何共享代码",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T17:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "AI helps researchers investigate how thousands of medical studies share code",
+      "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "研究模拟数据中心用电对远方空气质量的影响",
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T09:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Study reveals data centers’ long-distance damage to air quality",
+      "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "OpenAI 介绍用于排查性能回归的 Performance Factory",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "body": "系统在性能告警后由智能体调查、提出修复供工程师审查，再于部署后验证性能是否恢复。文章报告内部流程经验，不意味着可无需人工评审地修改任意生产系统。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "body_original": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "Codex 安全插件工作流演示",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "body": "页面提供安全插件的演示，涵盖开始使用及查看录像中显示的结果。可读正文仅为演示简介，未据此补写具体扫描能力或效果。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "Explore the Codex Security Plugin",
+      "body_original": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "editorial_date": "2026-11-21"
+    },
+    {
+      "title": "拉取请求扫描工作流演示",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "body": "页面介绍演示者如何在拉取请求流程中查看扫描结果。可读正文仅为录像简介，未据此补写未展示的功能或准确率。",
+      "date": "2026-11-19",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-19"
+      ],
+      "importance": "normal",
+      "title_original": "See PR scans in action",
+      "body_original": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "editorial_date": "2026-11-21"
+    }
+  ],
+  "papers": [],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [],
+  "content_mode": "public",
+  "fetched_at": "2026-11-21T14:00:00.490216+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 32
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 10
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 2
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-11-21",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
