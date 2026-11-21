@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-21T14:01:07Z</updated>
+  <updated>2026-11-21T18:37:54Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月21日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-21.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-21.html</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
     <title>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任…</title>
     <link href="https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"/>
     <id>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。</summary>
   </entry>
   <entry>
     <title>MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。…</title>
     <link href="https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120"/>
     <id>https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。</summary>
   </entry>
   <entry>
     <title>MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。…</title>
     <link href="https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120"/>
     <id>https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。</summary>
   </entry>
   <entry>
     <title>MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。…</title>
     <link href="https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120"/>
     <id>https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。</summary>
   </entry>
   <entry>
     <title>文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。…</title>
     <link href="https://openai.com/index/combatting-adversarial-distillation"/>
     <id>https://openai.com/index/combatting-adversarial-distillation</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。</summary>
   </entry>
   <entry>
     <title>客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。…</title>
     <link href="https://openai.com/business/customer-stories/hebbia"/>
     <id>https://openai.com/business/customer-stories/hebbia</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。</summary>
   </entry>
   <entry>
     <title>基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。…</title>
     <link href="https://openai.com/index/introducing-medchembench"/>
     <id>https://openai.com/index/introducing-medchembench</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。</summary>
   </entry>
   <entry>
     <title>文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。…</title>
     <link href="https://huggingface.co/blog/inkling2mini"/>
     <id>https://huggingface.co/blog/inkling2mini</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。</summary>
   </entry>
   <entry>
     <title>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效…</title>
     <link href="https://huggingface.co/blog/harness-adapters-at-scale"/>
     <id>https://huggingface.co/blog/harness-adapters-at-scale</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。</summary>
   </entry>
   <entry>
     <title>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速…</title>
     <link href="https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/"/>
     <id>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</id>
-    <updated>2026-11-21T14:01:07Z</updated>
+    <updated>2026-11-21T18:37:54Z</updated>
     <summary>Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。</summary>
   </entry>
 </feed>
