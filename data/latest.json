@@ -1,5 +1,5 @@
 {
-  "date": "2026年11月21日",
+  "date": "2026年11月22日",
   "news": [
     {
       "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
@@ -15,7 +15,7 @@
       "importance": "normal",
       "title_original": "How Google Duplex evolved to also call businesses for you in Gemini",
       "body_original": "Generative AI",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "MIT 讨论多模态模型的理解与交互缺口",
@@ -31,7 +31,7 @@
       "importance": "normal",
       "title_original": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
       "body_original": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "为混沌系统的 AI 模型加入物理有界约束",
@@ -47,7 +47,7 @@
       "importance": "normal",
       "title_original": "New approach enables physically consistent AI models of chaotic systems",
       "body_original": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "数学家讨论 AI 加速研究后的学科未来",
@@ -63,7 +63,7 @@
       "importance": "normal",
       "title_original": "Following the “mathocalypse,” mathematicians consider the future",
       "body_original": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "OpenAI 介绍应对对抗性蒸馏的防护",
@@ -79,7 +79,7 @@
       "importance": "normal",
       "title_original": "Combatting adversarial distillation",
       "body_original": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
@@ -95,7 +95,7 @@
       "importance": "normal",
       "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "MedChemBench 评估模型的药物化学推理",
@@ -111,7 +111,7 @@
       "importance": "normal",
       "title_original": "Can AI help scientists identify promising drug candidates?",
       "body_original": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "Inkling 2 Mini 探索循环层与本地多模态推理",
@@ -127,7 +127,7 @@
       "importance": "normal",
       "title_original": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
       "body_original": "",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "针对智能体运行框架训练适配器",
@@ -143,7 +143,7 @@
       "importance": "normal",
       "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "body_original": "",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "用量子关联挑战经典策略的游戏",
@@ -159,7 +159,7 @@
       "importance": "normal",
       "title_original": "A game you cannot win unless you have a quantum computer",
       "body_original": "Quantum",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "AI 辅助分析医学研究如何共享代码",
@@ -175,7 +175,7 @@
       "importance": "normal",
       "title_original": "AI helps researchers investigate how thousands of medical studies share code",
       "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "研究模拟数据中心用电对远方空气质量的影响",
@@ -191,7 +191,7 @@
       "importance": "normal",
       "title_original": "Study reveals data centers’ long-distance damage to air quality",
       "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "OpenAI 介绍用于排查性能回归的 Performance Factory",
@@ -207,7 +207,7 @@
       "importance": "normal",
       "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "body_original": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "Codex 安全插件工作流演示",
@@ -223,7 +223,7 @@
       "importance": "normal",
       "title_original": "Explore the Codex Security Plugin",
       "body_original": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     },
     {
       "title": "拉取请求扫描工作流演示",
@@ -239,7 +239,7 @@
       "importance": "normal",
       "title_original": "See PR scans in action",
       "body_original": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "editorial_date": "2026-11-21"
+      "editorial_date": "2026-11-22"
     }
   ],
   "papers": [],
@@ -249,7 +249,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-11-21T18:37:53.234781+00:00",
+  "fetched_at": "2026-11-22T14:03:31.021831+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -294,16 +294,16 @@
       "items": 0
     }
   ],
-  "editorial": {
-    "date": "2026-11-21",
-    "items_applied": 15,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
     "paper_count": 0,
     "leader_count": 0,
     "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-11-22",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
