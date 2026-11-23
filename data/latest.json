@@ -2,6 +2,84 @@
   "date": "2026年11月23日",
   "news": [
     {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "body": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T21:20:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Supercharging transformer residual connections",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "body": "Algorithms & Theory",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T17:21:12+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "body": "",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T17:20:37+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Many languages, one common neural code",
+      "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
+      "body": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T16:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "body": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "body": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "MIT 用小型语言模型辅助模拟芯片设计",
       "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
       "body": "SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。",
@@ -144,102 +222,6 @@
       "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "MedChemBench 评估模型的药物化学推理",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "body": "基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Can AI help scientists identify promising drug candidates?",
-      "body_original": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "Inkling 2 Mini 探索循环层与本地多模态推理",
-      "url": "https://huggingface.co/blog/inkling2mini",
-      "body": "文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
-      "body_original": "",
-      "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "针对智能体运行框架训练适配器",
-      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
-      "body_original": "",
-      "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "用量子关联挑战经典策略的游戏",
-      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
-      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T20:03:00+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-11-19"
-      ],
-      "importance": "normal",
-      "title_original": "A game you cannot win unless you have a quantum computer",
-      "body_original": "Quantum",
-      "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "AI 辅助分析医学研究如何共享代码",
-      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
-      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T17:15:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-19"
-      ],
-      "importance": "normal",
-      "title_original": "AI helps researchers investigate how thousands of medical studies share code",
-      "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
-      "editorial_date": "2026-11-23"
-    },
-    {
-      "title": "研究模拟数据中心用电对远方空气质量的影响",
-      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
-      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T09:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-19"
-      ],
-      "importance": "normal",
-      "title_original": "Study reveals data centers’ long-distance damage to air quality",
-      "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
-      "editorial_date": "2026-11-23"
     }
   ],
   "papers": [
@@ -381,31 +363,31 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-23T14:49:35.075930+00:00",
+  "fetched_at": "2026-11-23T23:17:26.034403+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 23
+      "items": 24
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 8
+      "items": 9
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 11
+      "items": 12
     },
     {
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 2
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -426,16 +408,16 @@
       "items": 57
     }
   ],
+  "editorial": {
+    "date": "2026-11-23",
+    "items_applied": 14,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 5,
     "leader_count": 0,
     "science_count": 5
-  },
-  "editorial": {
-    "date": "2026-11-23",
-    "items_applied": 20,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
