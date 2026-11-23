@@ -1,10 +1,42 @@
 {
-  "date": "2026年11月22日",
+  "date": "2026年11月23日",
   "news": [
     {
-      "title": "Perplexity and Intelligence",
+      "title": "MIT 用小型语言模型辅助模拟芯片设计",
+      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "body": "SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "AI-driven technique could help engineers design analog chips faster and with less expense",
+      "body_original": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "如何构建和维护智能体评测",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "body": "Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无法被针对性优化。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "How to build and maintain an agentic evaluation",
+      "body_original": "",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "OpenAI 讨论困惑度与智能进展的关系",
       "url": "https://openai.com/index/perplexity-and-intelligence",
-      "body": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "body": "作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。",
       "date": "2026-11-22",
       "published_at": "2026-11-22T00:00:00+00:00",
       "source": "OpenAI",
@@ -12,7 +44,10 @@
         "OpenAI",
         "2026-11-22"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Perplexity and Intelligence",
+      "body_original": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
@@ -28,7 +63,7 @@
       "importance": "normal",
       "title_original": "How Google Duplex evolved to also call businesses for you in Gemini",
       "body_original": "Generative AI",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "MIT 讨论多模态模型的理解与交互缺口",
@@ -44,7 +79,7 @@
       "importance": "normal",
       "title_original": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
       "body_original": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "为混沌系统的 AI 模型加入物理有界约束",
@@ -60,7 +95,7 @@
       "importance": "normal",
       "title_original": "New approach enables physically consistent AI models of chaotic systems",
       "body_original": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "数学家讨论 AI 加速研究后的学科未来",
@@ -76,7 +111,7 @@
       "importance": "normal",
       "title_original": "Following the “mathocalypse,” mathematicians consider the future",
       "body_original": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "OpenAI 介绍应对对抗性蒸馏的防护",
@@ -92,7 +127,7 @@
       "importance": "normal",
       "title_original": "Combatting adversarial distillation",
       "body_original": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
@@ -108,7 +143,7 @@
       "importance": "normal",
       "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "MedChemBench 评估模型的药物化学推理",
@@ -124,7 +159,7 @@
       "importance": "normal",
       "title_original": "Can AI help scientists identify promising drug candidates?",
       "body_original": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "Inkling 2 Mini 探索循环层与本地多模态推理",
@@ -140,7 +175,7 @@
       "importance": "normal",
       "title_original": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
       "body_original": "",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "针对智能体运行框架训练适配器",
@@ -156,7 +191,7 @@
       "importance": "normal",
       "title_original": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
       "body_original": "",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "用量子关联挑战经典策略的游戏",
@@ -172,7 +207,7 @@
       "importance": "normal",
       "title_original": "A game you cannot win unless you have a quantum computer",
       "body_original": "Quantum",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "AI 辅助分析医学研究如何共享代码",
@@ -188,7 +223,7 @@
       "importance": "normal",
       "title_original": "AI helps researchers investigate how thousands of medical studies share code",
       "body_original": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
-      "editorial_date": "2026-11-22"
+      "editorial_date": "2026-11-23"
     },
     {
       "title": "研究模拟数据中心用电对远方空气质量的影响",
@@ -204,52 +239,155 @@
       "importance": "normal",
       "title_original": "Study reveals data centers’ long-distance damage to air quality",
       "body_original": "Researchers find air pollution from data center electricity use can affect communities far from the facilities, with some of the highest impacts in the Midwest.",
-      "editorial_date": "2026-11-22"
-    },
-    {
-      "title": "OpenAI 介绍用于排查性能回归的 Performance Factory",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "body": "系统在性能告警后由智能体调查、提出修复供工程师审查，再于部署后验证性能是否恢复。文章报告内部流程经验，不意味着可无需人工评审地修改任意生产系统。",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T08:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-19"
-      ],
-      "importance": "normal",
-      "title_original": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "body_original": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
-      "editorial_date": "2026-11-22"
-    },
-    {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "body": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "date": "2026-11-19",
-      "published_at": "2026-11-19T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-19"
-      ],
-      "importance": "normal"
+      "editorial_date": "2026-11-23"
     }
   ],
-  "papers": [],
+  "papers": [
+    {
+      "title": "校准半赫斯勒化合物晶格热导率的计算与实验偏差",
+      "url": "https://arxiv.org/abs/2611.26788",
+      "body": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究区分理想晶体计算与多晶实验热导率，使用温度相关传递函数校准系统偏差，并与结构机器学习预测结合。偏差可能来自多种散射机制，校准改善不保证每个化合物误差都降低。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Prediction of lattice thermal conductivity of half-Heusler compounds by machine learning and transfer-function calibration",
+      "summary_original": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "用对称约束扩散模型按目标能量生成晶界",
+      "url": "https://arxiv.org/abs/2611.27188",
+      "body": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：方法在周期晶胞中通过每步对称投影保持两条晶界等价，在铝的特定晶界中测试目标能量生成。超出训练能量范围时控制失效，候选新颖性也依赖采用的几何判据。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Generating grain boundary structures at a specified energy with a symmetry-constrained diffusion model",
+      "summary_original": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "褶皱石墨烯孔中的离子记忆与类突触功能",
+      "url": "https://arxiv.org/abs/2604.19228",
+      "body": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者研究孔边缘强曲率与堆叠造成的受限离子动力学，报告微米孔中的记忆效应及流体电路演示。类突触行为属于器件实验，不等同于已实现通用神经形态计算系统。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Rippled graphene pores as fluidic memristive devices with synaptic and neuromorphic functionalities",
+      "summary_original": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "以反应性描述符预测碱激发矿渣性能",
+      "url": "https://arxiv.org/abs/2606.06765",
+      "body": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究整理文献中的配方、原料和养护数据，比较机器学习特征，并用可解释反应性描述符探索设计空间。文献异质性与统计约束限制了预测范围，不能直接替代新配方实验。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
+      "summary_original": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
+      "editorial_date": "2026-11-23"
+    },
+    {
+      "title": "DP-Learner：在直积表示中预测电子结构哈密顿量",
+      "url": "https://arxiv.org/abs/2611.07695",
+      "body": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：框架直接在类似哈密顿量算符块的表示中传递消息，以减少表示转换并保留等变性。理论构造和性能主张需结合具体数据与算例评估，不能据摘要推断所有体系均准确。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
+      "summary_original": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
+      "editorial_date": "2026-11-23"
+    }
+  ],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [],
+  "science": [
+    {
+      "title": "Prediction of lattice thermal conductivity of half-Heusler compounds by machine learning and transfer-function calibration",
+      "body": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
+      "url": "https://arxiv.org/abs/2611.26788"
+    },
+    {
+      "title": "Generating grain boundary structures at a specified energy with a symmetry-constrained diffusion model",
+      "body": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
+      "url": "https://arxiv.org/abs/2611.27188"
+    },
+    {
+      "title": "Rippled graphene pores as fluidic memristive devices with synaptic and neuromorphic functionalities",
+      "body": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
+      "url": "https://arxiv.org/abs/2604.19228"
+    },
+    {
+      "title": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
+      "body": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
+      "url": "https://arxiv.org/abs/2606.06765"
+    },
+    {
+      "title": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
+      "body": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
+      "url": "https://arxiv.org/abs/2611.07695"
+    }
+  ],
   "content_mode": "public",
-  "fetched_at": "2026-11-22T18:58:15.465248+00:00",
+  "fetched_at": "2026-11-23T14:49:35.075930+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 33
+      "items": 23
     },
     {
       "source": "Hugging Face",
@@ -261,7 +399,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 10
+      "items": 11
     },
     {
       "source": "Google Research",
@@ -285,19 +423,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 0
+      "items": 57
     }
   ],
-  "editorial": {
-    "date": "2026-11-22",
-    "items_applied": 13,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 0,
+    "paper_count": 5,
     "leader_count": 0,
-    "science_count": 0
+    "science_count": 5
+  },
+  "editorial": {
+    "date": "2026-11-23",
+    "items_applied": 20,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-22T18:58:16Z</updated>
+  <updated>2026-11-23T14:50:35Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月22日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-22.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-22.html</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <title>每日汇总 2026年11月23日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-23.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-23.html</id>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>How perplexity measures progress in AI models, and why it could help developers …</title>
+    <title>SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性…</title>
+    <link href="https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"/>
+    <id>https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123</id>
+    <updated>2026-11-23T14:50:35Z</updated>
+    <summary>SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。</summary>
+  </entry>
+  <entry>
+    <title>Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无…</title>
+    <link href="https://huggingface.co/blog/agentic-evals"/>
+    <id>https://huggingface.co/blog/agentic-evals</id>
+    <updated>2026-11-23T14:50:35Z</updated>
+    <summary>Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无法被针对性优化。</summary>
+  </entry>
+  <entry>
+    <title>作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。…</title>
     <link href="https://openai.com/index/perplexity-and-intelligence"/>
     <id>https://openai.com/index/perplexity-and-intelligence</id>
-    <updated>2026-11-22T18:58:16Z</updated>
-    <summary>How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.</summary>
+    <updated>2026-11-23T14:50:35Z</updated>
+    <summary>作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。</summary>
   </entry>
   <entry>
     <title>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任…</title>
     <link href="https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"/>
     <id>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。</summary>
   </entry>
   <entry>
     <title>MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。…</title>
     <link href="https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120"/>
     <id>https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。</summary>
   </entry>
   <entry>
     <title>MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。…</title>
     <link href="https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120"/>
     <id>https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。</summary>
   </entry>
   <entry>
     <title>MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。…</title>
     <link href="https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120"/>
     <id>https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。</summary>
   </entry>
   <entry>
     <title>文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。…</title>
     <link href="https://openai.com/index/combatting-adversarial-distillation"/>
     <id>https://openai.com/index/combatting-adversarial-distillation</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。</summary>
   </entry>
   <entry>
     <title>客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。…</title>
     <link href="https://openai.com/business/customer-stories/hebbia"/>
     <id>https://openai.com/business/customer-stories/hebbia</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。</summary>
   </entry>
   <entry>
     <title>基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。…</title>
     <link href="https://openai.com/index/introducing-medchembench"/>
     <id>https://openai.com/index/introducing-medchembench</id>
-    <updated>2026-11-22T18:58:16Z</updated>
+    <updated>2026-11-23T14:50:35Z</updated>
     <summary>基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。</summary>
-  </entry>
-  <entry>
-    <title>文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。…</title>
-    <link href="https://huggingface.co/blog/inkling2mini"/>
-    <id>https://huggingface.co/blog/inkling2mini</id>
-    <updated>2026-11-22T18:58:16Z</updated>
-    <summary>文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。</summary>
-  </entry>
-  <entry>
-    <title>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效…</title>
-    <link href="https://huggingface.co/blog/harness-adapters-at-scale"/>
-    <id>https://huggingface.co/blog/harness-adapters-at-scale</id>
-    <updated>2026-11-22T18:58:16Z</updated>
-    <summary>作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。</summary>
   </entry>
 </feed>

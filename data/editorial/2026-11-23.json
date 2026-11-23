@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-23",
+  "news": [
+    {
+      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "title": "MIT 用小型语言模型辅助模拟芯片设计",
+      "body": "SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。"
+    },
+    {
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "title": "如何构建和维护智能体评测",
+      "body": "Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无法被针对性优化。"
+    },
+    {
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "title": "OpenAI 讨论困惑度与智能进展的关系",
+      "body": "作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。"
+    },
+    {
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
+      "body": "文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
+      "title": "MIT 讨论多模态模型的理解与交互缺口",
+      "body": "MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。"
+    },
+    {
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "title": "为混沌系统的 AI 模型加入物理有界约束",
+      "body": "MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
+      "title": "数学家讨论 AI 加速研究后的学科未来",
+      "body": "MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。"
+    },
+    {
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "title": "OpenAI 介绍应对对抗性蒸馏的防护",
+      "body": "文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。"
+    },
+    {
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
+      "body": "客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。"
+    },
+    {
+      "url": "https://openai.com/index/introducing-medchembench",
+      "title": "MedChemBench 评估模型的药物化学推理",
+      "body": "基准考察模型如何联系分子结构和实验结果，解释证据并选择后续化合物。作者报告模型在不同任务上表现不均；基准得分不能代替真实药物的合成、实验和临床验证。"
+    },
+    {
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "title": "Inkling 2 Mini 探索循环层与本地多模态推理",
+      "body": "文章介绍使用循环 Transformer 层的混合专家模型及本地运行支持。初步体验评价仍需更系统的验证，实际速度和内存要求取决于格式、硬件和推理配置。"
+    },
+    {
+      "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "title": "针对智能体运行框架训练适配器",
+      "body": "作者介绍在特定任务分布和运行框架内，用强化学习训练 LoRA 适配器，以改善模型表现及令牌效率。结果来自所测模型、任务和框架，不能推广为所有工作负载均能降本提效。"
+    },
+    {
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "title": "用量子关联挑战经典策略的游戏",
+      "body": "Google 介绍在超导处理器上测试量子情境性的方法，以受约束的协作游戏解释经典与量子策略差异。理想策略的优势不意味着实际硬件无噪声，也不是对所有计算任务的加速证明。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "title": "AI 辅助分析医学研究如何共享代码",
+      "body": "MIT 等机构研究临床预测研究中的代码共享方式，强调公开代码还需清晰结构与说明才能支持理解和复用。报道是科研可复现性研究，不提供临床治疗结论。"
+    },
+    {
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "title": "研究模拟数据中心用电对远方空气质量的影响",
+      "body": "MIT 研究将电网调度与大气污染模型相结合，估算数据中心用电可能影响远离设施所在地的空气质量和健康。影响量来自模型估计，不能当作逐例观测的因果归属。"
+    }
+  ],
+  "papers": [
+    {
+      "url": "https://arxiv.org/abs/2611.26788",
+      "title": "校准半赫斯勒化合物晶格热导率的计算与实验偏差",
+      "summary": "预印本摘要：研究区分理想晶体计算与多晶实验热导率，使用温度相关传递函数校准系统偏差，并与结构机器学习预测结合。偏差可能来自多种散射机制，校准改善不保证每个化合物误差都降低。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.27188",
+      "title": "用对称约束扩散模型按目标能量生成晶界",
+      "summary": "预印本摘要：方法在周期晶胞中通过每步对称投影保持两条晶界等价，在铝的特定晶界中测试目标能量生成。超出训练能量范围时控制失效，候选新颖性也依赖采用的几何判据。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.19228",
+      "title": "褶皱石墨烯孔中的离子记忆与类突触功能",
+      "summary": "预印本摘要：作者研究孔边缘强曲率与堆叠造成的受限离子动力学，报告微米孔中的记忆效应及流体电路演示。类突触行为属于器件实验，不等同于已实现通用神经形态计算系统。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.06765",
+      "title": "以反应性描述符预测碱激发矿渣性能",
+      "summary": "预印本摘要：研究整理文献中的配方、原料和养护数据，比较机器学习特征，并用可解释反应性描述符探索设计空间。文献异质性与统计约束限制了预测范围，不能直接替代新配方实验。"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.07695",
+      "title": "DP-Learner：在直积表示中预测电子结构哈密顿量",
+      "summary": "预印本摘要：框架直接在类似哈密顿量算符块的表示中传递消息，以减少表示转换并保留等变性。理论构造和性能主张需结合具体数据与算例评估，不能据摘要推断所有体系均准确。"
+    }
+  ]
+}
