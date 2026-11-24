@@ -2,6 +2,84 @@
   "date": "2026年11月24日",
   "news": [
     {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "body": "",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T16:34:13+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "body": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T14:30:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "body": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "body": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "body": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "body": "",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal"
+    },
+    {
       "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
       "body": "项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。",
@@ -144,102 +222,6 @@
       "title_original": "Perplexity and Intelligence",
       "body_original": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
-      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
-      "body": "文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T23:30:30+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "How Google Duplex evolved to also call businesses for you in Gemini",
-      "body_original": "Generative AI",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "MIT 讨论多模态模型的理解与交互缺口",
-      "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
-      "body": "MIT-IBM 团队介绍通过基准与少量监督方法，研究语音、视觉和语言之间的对应关系。表面上的多模态流畅性不等于充分理解，访谈强调发现和修补具体能力缺口。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T16:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
-      "body_original": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "为混沌系统的 AI 模型加入物理有界约束",
-      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
-      "body": "MIT 研究在机器学习动力系统中引入物理约束，减少长期预测漂移到不可能状态的风险。有界性保证受方法假设约束，不能等同于对所有天气或湍流预测均准确。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T15:00:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "New approach enables physically consistent AI models of chaotic systems",
-      "body_original": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "数学家讨论 AI 加速研究后的学科未来",
-      "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
-      "body": "MIT 圆桌讨论 AI 数学成果的质量、研究规范和数学职业变化。报道呈现多位学者观点与讨论背景，不代表对数学工作未来的统一结论。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T10:20:00-05:00",
-      "source": "MIT AI",
-      "tags": [
-        "MIT AI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Following the “mathocalypse,” mathematicians consider the future",
-      "body_original": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "OpenAI 介绍应对对抗性蒸馏的防护",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "body": "文章说明结合测试、训练、分类器、接口保护及调查应对未授权能力提取，尤其关注受保护推理信息。相关防护是机构报告，不能据此认定已彻底消除风险。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T10:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Combatting adversarial distillation",
-      "body_original": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
-      "url": "https://openai.com/business/customer-stories/hebbia",
-      "body": "客户案例介绍模型在选择支持文件和按要求生成演示文稿上的测试。结果来自 Hebbia 的特定评测；文中的交易尽调场景为假设示例，不代表实际交易效果。",
-      "date": "2026-11-20",
-      "published_at": "2026-11-20T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-20"
-      ],
-      "importance": "normal",
-      "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "editorial_date": "2026-11-24"
     }
   ],
   "papers": [
@@ -381,19 +363,19 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-24T14:04:52.001432+00:00",
+  "fetched_at": "2026-11-24T21:51:48.060792+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 20
+      "items": 23
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 9
+      "items": 10
     },
     {
       "source": "MIT AI",
@@ -426,16 +408,16 @@
       "items": 105
     }
   ],
+  "editorial": {
+    "date": "2026-11-24",
+    "items_applied": 14,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  },
   "stats": {
     "news_count": 15,
     "paper_count": 5,
     "leader_count": 0,
     "science_count": 5
-  },
-  "editorial": {
-    "date": "2026-11-24",
-    "items_applied": 20,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
   }
 }
