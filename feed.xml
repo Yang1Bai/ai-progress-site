@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-23T23:17:27Z</updated>
+  <updated>2026-11-24T14:05:53Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
-    <title>每日汇总 2026年11月23日</title>
-    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-23.html"/>
-    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-23.html</id>
-    <updated>2026-11-23T23:17:27Z</updated>
+    <title>每日汇总 2026年11月24日</title>
+    <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-24.html"/>
+    <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-24.html</id>
+    <updated>2026-11-24T14:05:53Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
-    <title>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps t…</title>
+    <title>项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。…</title>
     <link href="https://openai.com/index/introducing-shirudo"/>
     <id>https://openai.com/index/introducing-shirudo</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary>OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.</summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。</summary>
   </entry>
   <entry>
-    <title>Algorithms &amp; Theory…</title>
+    <title>Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件…</title>
     <link href="https://research.google/blog/supercharging-transformer-residual-connections/"/>
     <id>https://research.google/blog/supercharging-transformer-residual-connections/</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary>Algorithms &amp; Theory</summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件均有相同加速。</summary>
   </entry>
   <entry>
-    <title>…</title>
+    <title>基准与训练数据关注遮挡、视角变化及复杂物体交互中的点轨迹，考察既有跟踪器能否适应真实操作。跟踪评测表现不等同于完整机器人的安全性或任务成功率。…</title>
     <link href="https://huggingface.co/blog/allenai/robotrack"/>
     <id>https://huggingface.co/blog/allenai/robotrack</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary></summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>基准与训练数据关注遮挡、视角变化及复杂物体交互中的点轨迹，考察既有跟踪器能否适应真实操作。跟踪评测表现不等同于完整机器人的安全性或任务成功率。</summary>
   </entry>
   <entry>
-    <title>Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the…</title>
+    <title>MIT 研究用多语言模型预测脑响应，并在多种语言使用者中发现共享处理模式。模型与脑活动的对应关系不能直接证明所有语言机制相同，相关诊断用途仍需进一步验证。…</title>
     <link href="https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"/>
     <id>https://news.mit.edu/2026/many-languages-one-common-neural-code-1123</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary>Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.</summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>MIT 研究用多语言模型预测脑响应，并在多种语言使用者中发现共享处理模式。模型与脑活动的对应关系不能直接证明所有语言机制相同，相关诊断用途仍需进一步验证。</summary>
   </entry>
   <entry>
-    <title>Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’…</title>
+    <title>页面介绍一场关于连接业务背景、复用工作流和协作外部律师的讨论。可读正文仅为活动简介，未据此补写具体功能或法律服务效果。…</title>
     <link href="https://openai.com/business/learn/connected-intelligence-for-in-house-legal"/>
     <id>https://openai.com/business/learn/connected-intelligence-for-in-house-legal</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary>Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.</summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>页面介绍一场关于连接业务背景、复用工作流和协作外部律师的讨论。可读正文仅为活动简介，未据此补写具体功能或法律服务效果。</summary>
   </entry>
   <entry>
-    <title>Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with t…</title>
+    <title>客户案例说明用模型辅助创建操作程序、连接工具和处理客服对话。标题中的自动化比例与周期为来源案例主张，不能推广为任何企业都能获得的效果。…</title>
     <link href="https://openai.com/business/customer-stories/richpanel-ai-customer-support"/>
     <id>https://openai.com/business/customer-stories/richpanel-ai-customer-support</id>
-    <updated>2026-11-23T23:17:27Z</updated>
-    <summary>Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.</summary>
+    <updated>2026-11-24T14:05:53Z</updated>
+    <summary>客户案例说明用模型辅助创建操作程序、连接工具和处理客服对话。标题中的自动化比例与周期为来源案例主张，不能推广为任何企业都能获得的效果。</summary>
   </entry>
   <entry>
     <title>SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性…</title>
     <link href="https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"/>
     <id>https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123</id>
-    <updated>2026-11-23T23:17:27Z</updated>
+    <updated>2026-11-24T14:05:53Z</updated>
     <summary>SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。</summary>
   </entry>
   <entry>
     <title>Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无…</title>
     <link href="https://huggingface.co/blog/agentic-evals"/>
     <id>https://huggingface.co/blog/agentic-evals</id>
-    <updated>2026-11-23T23:17:27Z</updated>
+    <updated>2026-11-24T14:05:53Z</updated>
     <summary>Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无法被针对性优化。</summary>
   </entry>
   <entry>
     <title>作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。…</title>
     <link href="https://openai.com/index/perplexity-and-intelligence"/>
     <id>https://openai.com/index/perplexity-and-intelligence</id>
-    <updated>2026-11-23T23:17:27Z</updated>
+    <updated>2026-11-24T14:05:53Z</updated>
     <summary>作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。</summary>
   </entry>
   <entry>
     <title>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任…</title>
     <link href="https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"/>
     <id>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</id>
-    <updated>2026-11-23T23:17:27Z</updated>
+    <updated>2026-11-24T14:05:53Z</updated>
     <summary>文章介绍如何结合语音理解、上下文推理和低延迟语音合成，让 Duplex 在 Gemini 中辅助用户联系商家完成现实任务。内容是产品与架构介绍，实际可用范围和任务可靠性需按具体场景核实。</summary>
   </entry>
 </feed>

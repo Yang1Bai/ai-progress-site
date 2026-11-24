@@ -1,10 +1,10 @@
 {
-  "date": "2026年11月23日",
+  "date": "2026年11月24日",
   "news": [
     {
-      "title": "OpenAI and Cisco introduce Shirudo",
+      "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
-      "body": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "body": "项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T21:20:00+00:00",
       "source": "OpenAI",
@@ -12,12 +12,15 @@
         "OpenAI",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "OpenAI and Cisco introduce Shirudo",
+      "body_original": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "Supercharging transformer residual connections",
+      "title": "用深度交叉注意力改进 Transformer 残差连接",
       "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-      "body": "Algorithms & Theory",
+      "body": "Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件均有相同加速。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T17:21:12+00:00",
       "source": "Google Research",
@@ -25,12 +28,15 @@
         "Google Research",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Supercharging transformer residual connections",
+      "body_original": "Algorithms & Theory",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "title": "RoboTrack 检验真实机器人操作中的点跟踪",
       "url": "https://huggingface.co/blog/allenai/robotrack",
-      "body": "",
+      "body": "基准与训练数据关注遮挡、视角变化及复杂物体交互中的点轨迹，考察既有跟踪器能否适应真实操作。跟踪评测表现不等同于完整机器人的安全性或任务成功率。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T17:20:37+00:00",
       "source": "Hugging Face",
@@ -38,12 +44,15 @@
         "Hugging Face",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "body_original": "",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "Many languages, one common neural code",
+      "title": "多语言模型帮助研究跨语言共享的神经表征",
       "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
-      "body": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "body": "MIT 研究用多语言模型预测脑响应，并在多种语言使用者中发现共享处理模式。模型与脑活动的对应关系不能直接证明所有语言机制相同，相关诊断用途仍需进一步验证。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T16:15:00-05:00",
       "source": "MIT AI",
@@ -51,12 +60,15 @@
         "MIT AI",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Many languages, one common neural code",
+      "body_original": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "Connected intelligence for in-house legal",
+      "title": "企业法务团队的 AI 工作流讨论",
       "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-      "body": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "body": "页面介绍一场关于连接业务背景、复用工作流和协作外部律师的讨论。可读正文仅为活动简介，未据此补写具体功能或法律服务效果。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T08:00:00+00:00",
       "source": "OpenAI",
@@ -64,12 +76,15 @@
         "OpenAI",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Connected intelligence for in-house legal",
+      "body_original": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "title": "Richpanel 介绍用 AI 配置客服工具与流程",
       "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "body": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "body": "客户案例说明用模型辅助创建操作程序、连接工具和处理客服对话。标题中的自动化比例与周期为来源案例主张，不能推广为任何企业都能获得的效果。",
       "date": "2026-11-23",
       "published_at": "2026-11-23T08:00:00+00:00",
       "source": "OpenAI",
@@ -77,7 +92,10 @@
         "OpenAI",
         "2026-11-23"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Richpanel helps companies automate 50% of support in 30 days",
+      "body_original": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "MIT 用小型语言模型辅助模拟芯片设计",
@@ -93,7 +111,7 @@
       "importance": "normal",
       "title_original": "AI-driven technique could help engineers design analog chips faster and with less expense",
       "body_original": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "如何构建和维护智能体评测",
@@ -109,7 +127,7 @@
       "importance": "normal",
       "title_original": "How to build and maintain an agentic evaluation",
       "body_original": "",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "OpenAI 讨论困惑度与智能进展的关系",
@@ -125,7 +143,7 @@
       "importance": "normal",
       "title_original": "Perplexity and Intelligence",
       "body_original": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "Google 回顾 Duplex 从电话对话到 Gemini 任务的演进",
@@ -141,7 +159,7 @@
       "importance": "normal",
       "title_original": "How Google Duplex evolved to also call businesses for you in Gemini",
       "body_original": "Generative AI",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "MIT 讨论多模态模型的理解与交互缺口",
@@ -157,7 +175,7 @@
       "importance": "normal",
       "title_original": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
       "body_original": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "为混沌系统的 AI 模型加入物理有界约束",
@@ -173,7 +191,7 @@
       "importance": "normal",
       "title_original": "New approach enables physically consistent AI models of chaotic systems",
       "body_original": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "数学家讨论 AI 加速研究后的学科未来",
@@ -189,7 +207,7 @@
       "importance": "normal",
       "title_original": "Following the “mathocalypse,” mathematicians consider the future",
       "body_original": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "OpenAI 介绍应对对抗性蒸馏的防护",
@@ -205,7 +223,7 @@
       "importance": "normal",
       "title_original": "Combatting adversarial distillation",
       "body_original": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     },
     {
       "title": "Hebbia 报告 GPT-6 Astra 的金融研究测试表现",
@@ -221,114 +239,114 @@
       "importance": "normal",
       "title_original": "Hebbia sees improvements in financial research with GPT-6 Astra",
       "body_original": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-      "editorial_date": "2026-11-23"
+      "editorial_date": "2026-11-24"
     }
   ],
   "papers": [
     {
-      "title": "校准半赫斯勒化合物晶格热导率的计算与实验偏差",
-      "url": "https://arxiv.org/abs/2611.26788",
-      "body": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "title": "CLFF：自动化并发学习力场与材料性质计算",
+      "url": "https://arxiv.org/abs/2611.29187",
+      "body": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-23"
+        "2026-11-24"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究区分理想晶体计算与多晶实验热导率，使用温度相关传递函数校准系统偏差，并与结构机器学习预测结合。偏差可能来自多种散射机制，校准改善不保证每个化合物误差都降低。",
+      "summary": "预印本摘要：框架整合势模型训练、采样、不确定性选样、量子标注和数据扩充，并支持跨异构远程资源异步分配任务。自动化有助于流程复用，但模型精度仍依赖标注和适用域验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Prediction of lattice thermal conductivity of half-Heusler compounds by machine learning and transfer-function calibration",
-      "summary_original": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
-      "editorial_date": "2026-11-23"
+      "title_original": "CLFF: Automated Framework for Concurrent Learning Force Fields and Material Property Calculations",
+      "summary_original": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "用对称约束扩散模型按目标能量生成晶界",
-      "url": "https://arxiv.org/abs/2611.27188",
-      "body": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "title": "用小规模 GW 数据训练图网络预测大超胞准粒子能级",
+      "url": "https://arxiv.org/abs/2611.29349",
+      "body": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-23"
+        "2026-11-24"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法在周期晶胞中通过每步对称投影保持两条晶界等价，在铝的特定晶界中测试目标能量生成。超出训练能量范围时控制失效，候选新颖性也依赖采用的几何判据。",
+      "summary": "预印本摘要：方法结合 DFT 波函数的局域轨道投影与结构图，探索由较小 GW 计算向大超胞迁移。仍需计入 DFT 特征成本，泛化取决于训练数据是否覆盖目标物理情景。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Generating grain boundary structures at a specified energy with a symmetry-constrained diffusion model",
-      "summary_original": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
-      "editorial_date": "2026-11-23"
+      "title_original": "Graph Neural Networks for Accurate Quasiparticle Energy Levels in Large Supercells of Transition Metal Dichalcogenides",
+      "summary_original": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "褶皱石墨烯孔中的离子记忆与类突触功能",
-      "url": "https://arxiv.org/abs/2604.19228",
-      "body": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "title": "用贝叶斯结构因果模型连接电极制备与催化表现",
+      "url": "https://arxiv.org/abs/2606.30898",
+      "body": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-23"
+        "2026-11-24"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：作者研究孔边缘强曲率与堆叠造成的受限离子动力学，报告微米孔中的记忆效应及流体电路演示。类突触行为属于器件实验，不等同于已实现通用神经形态计算系统。",
+      "summary": "预印本摘要：作者在碱性旋转圆盘电极体系中，以小样本多模态数据和物理结构假设分析负载、载体比例、活性位与厚度的关系。因果解释依赖假设和具体实验，不可直接推广到所有催化剂或器件。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Rippled graphene pores as fluidic memristive devices with synaptic and neuromorphic functionalities",
-      "summary_original": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
-      "editorial_date": "2026-11-23"
+      "title_original": "Bridging electrode preparation and electrocatalyst performance with physics-based causal AI using Bayesian Structural Causal Models",
+      "summary_original": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "以反应性描述符预测碱激发矿渣性能",
-      "url": "https://arxiv.org/abs/2606.06765",
-      "body": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "title": "以裸镍结构筛选水解离吸附位点",
+      "url": "https://arxiv.org/abs/2611.20706",
+      "body": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-23"
+        "2026-11-24"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：研究整理文献中的配方、原料和养护数据，比较机器学习特征，并用可解释反应性描述符探索设计空间。文献异质性与统计约束限制了预测范围，不能直接替代新配方实验。",
+      "summary": "预印本摘要：图网络用裸镍几何和位点锚定原子预测 OH 与 H 共吸附能，并判断弛豫后位点是否保留。方法适合候选排序和保守筛选，跨体系定量精度仍可能变化。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
-      "summary_original": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
-      "editorial_date": "2026-11-23"
+      "title_original": "Adsorbate-Free Screening of Dissociative Water Adsorption on Nickel Nanoparticles via Graph Neural Networks",
+      "summary_original": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
+      "editorial_date": "2026-11-24"
     },
     {
-      "title": "DP-Learner：在直积表示中预测电子结构哈密顿量",
-      "url": "https://arxiv.org/abs/2611.07695",
-      "body": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00-05:00",
+      "title": "NeFTY：以可微热传导求解器进行三维热层析",
+      "url": "https://arxiv.org/abs/2603.11045",
+      "body": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-23"
+        "2026-11-24"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：框架直接在类似哈密顿量算符块的表示中传递消息，以减少表示转换并保留等变性。理论构造和性能主张需结合具体数据与算例评估，不能据摘要推断所有体系均准确。",
+      "summary": "预印本摘要：方法把连续神经场表示的热扩散率送入可微隐式求解器，以表面测量误差反演内部结构，并在合成三维基准中比较。满足离散方程不自动解决反演非唯一性，实际无损检测仍需实验验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
-      "summary_original": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
-      "editorial_date": "2026-11-23"
+      "title_original": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+      "summary_original": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
+      "editorial_date": "2026-11-24"
     }
   ],
   "leaders": [],
@@ -337,39 +355,39 @@
   "conferences": [],
   "science": [
     {
-      "title": "Prediction of lattice thermal conductivity of half-Heusler compounds by machine learning and transfer-function calibration",
-      "body": "arXiv:2611.26788v1 Announce Type: new Abstract: High-throughput searches for half-Heusler thermoelectrics increasingly rely on lattice thermal conductivity ($\\kappa_L$) from first-principles calculations, or from machine-learning models trained on them. These calculations describe an ideal single crystal, whereas measurements are made on polycrystalline samples, in which grain boundaries and defects scatter heat as well. The resulting gap between calculated and measured $\\kappa_L$ has been noted for individual compounds but not, to our knowledge, quantified across a materials class, so the values used for screening carry an unknown, systematic bias. Here we quantify and correct this bias for",
-      "url": "https://arxiv.org/abs/2611.26788"
+      "title": "CLFF: Automated Framework for Concurrent Learning Force Fields and Material Property Calculations",
+      "body": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
+      "url": "https://arxiv.org/abs/2611.29187"
     },
     {
-      "title": "Generating grain boundary structures at a specified energy with a symmetry-constrained diffusion model",
-      "body": "arXiv:2611.27188v1 Announce Type: new Abstract: Grain boundaries (GBs) govern many properties of polycrystalline materials, and inverse design would make the GB structure itself a design variable. Crystal generative models such as MatterGen operate on periodic cells, which contain two GBs. The cell energy defines a single GB only when the two are equivalent, but existing models do not enforce this equivalence. Building on MatterGen, we developed a symmetry-constrained diffusion model in which the two GBs are related by a symmetry operation: atoms near one GB are generated, and those near the other are reconstructed through a symmetry projection applied at every denoising step. We applied it ",
-      "url": "https://arxiv.org/abs/2611.27188"
+      "title": "Graph Neural Networks for Accurate Quasiparticle Energy Levels in Large Supercells of Transition Metal Dichalcogenides",
+      "body": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
+      "url": "https://arxiv.org/abs/2611.29349"
     },
     {
-      "title": "Rippled graphene pores as fluidic memristive devices with synaptic and neuromorphic functionalities",
-      "body": "arXiv:2604.19228v2 Announce Type: replace Abstract: Nanofluidic memristive devices work with nanoscale pores and ions dissolved in water, which harness the ionic memory effect aiming to store and process information. These devices share the same charge carriers as biological systems and bring hope for better emulating the neural functions and developing ionic circuits for neuromorphic applications. Specially, theory and experiments suggest that nanoconfinement is essential for inducing a memory effect, which places limit on the pore size to nm-scale or smaller. Such devices are difficult to scale up with precision and operate with long-term stability. Here, we show that a micrometer size por",
-      "url": "https://arxiv.org/abs/2604.19228"
+      "title": "Bridging electrode preparation and electrocatalyst performance with physics-based causal AI using Bayesian Structural Causal Models",
+      "body": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
+      "url": "https://arxiv.org/abs/2606.30898"
     },
     {
-      "title": "Reactivity-Informed Machine Learning for Performance Prediction and Design Space Exploration of Alkali-Activated Slag",
-      "body": "arXiv:2606.06765v2 Announce Type: replace Abstract: Establishing quantitative relationships among mix design, raw material properties, curing conditions, and performance remains a long-standing challenge in cementitious materials, particularly for alkali-activated materials with variable precursor and activator chemistry. Here, we curated the largest literature-derived alkali-activated slag (AAS) dataset to date, comprising over 3100 compressive strength records, 155 chemically distinct ground granulated blast-furnace slags (GGBSs), and 24 attributes incorporating precursor chemistry, fineness, and reactivity. Multiple machine learning (ML) algorithms were benchmarked across progressively en",
-      "url": "https://arxiv.org/abs/2606.06765"
+      "title": "Adsorbate-Free Screening of Dissociative Water Adsorption on Nickel Nanoparticles via Graph Neural Networks",
+      "body": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
+      "url": "https://arxiv.org/abs/2611.20706"
     },
     {
-      "title": "Equivariant Deep Learning in Direct-Product Space for Electronic-Structure Hamiltonian Prediction",
-      "body": "arXiv:2611.07695v2 Announce Type: replace-cross Abstract: Most existing equivariant architectures for Hamiltonian prediction propagate features in direct-sum spaces of irreducible spherical tensors, whereas the target Hamiltonian is naturally an operator block in a direct-product representation over local orbital and spin bases. This representation mismatch fragments contiguous Hamiltonian blocks, obscures direct manipulation of orbital couplings, and organizes features into irregular angular-momentum components that require numerous transformations and are poorly aligned with efficient hardware execution and memory management. To address both the representation mismatch and computational bo",
-      "url": "https://arxiv.org/abs/2611.07695"
+      "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
+      "body": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
+      "url": "https://arxiv.org/abs/2603.11045"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-23T23:17:26.034403+00:00",
+  "fetched_at": "2026-11-24T14:04:52.001432+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 24
+      "items": 20
     },
     {
       "source": "Hugging Face",
@@ -381,7 +399,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 12
+      "items": 10
     },
     {
       "source": "Google Research",
@@ -405,19 +423,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 57
+      "items": 105
     }
   ],
-  "editorial": {
-    "date": "2026-11-23",
-    "items_applied": 14,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
     "paper_count": 5,
     "leader_count": 0,
     "science_count": 5
+  },
+  "editorial": {
+    "date": "2026-11-24",
+    "items_applied": 20,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }
