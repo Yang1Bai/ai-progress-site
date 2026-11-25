@@ -1,10 +1,26 @@
 {
-  "date": "2026年11月24日",
+  "date": "2026年11月25日",
   "news": [
     {
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "title": "用 CUGA 构建印度地区语言语音助手",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "body": "文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T10:22:09+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "An Indic Voice Agent with CUGA",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Microduck 避障：从仿真训练到真实机器人",
       "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "body": "",
+      "body": "教程保持行走策略不变，另训基于飞行时间传感的控制器，调整手柄速度命令以绕开障碍。流程涵盖评测和部署准备，仿真表现不能替代真实硬件的安全验证。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T16:34:13+00:00",
       "source": "Hugging Face",
@@ -12,12 +28,15 @@
         "Hugging Face",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "title": "TangiMap 用智能体个性化映射实体控件",
       "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
-      "body": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "body": "MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T14:30:00-05:00",
       "source": "MIT AI",
@@ -25,12 +44,15 @@
         "MIT AI",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "body_original": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "title": "OpenAI 报告 GPT-6 系列的蛋白设计能力",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "body": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "body": "研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T13:00:00+00:00",
       "source": "OpenAI",
@@ -38,12 +60,15 @@
         "OpenAI",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "body_original": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "Searching for distant planets with Astra",
+      "title": "业余天文学家用 Astra 与 Codex 筛选行星信号",
       "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
-      "body": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "body": "案例介绍在公开望远镜数据中搜索潜在凌星信号，并把候选交给专业研究人员进一步检查。候选线索不等同于已确认发现新的系外行星。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T11:00:00+00:00",
       "source": "OpenAI",
@@ -51,12 +76,15 @@
         "OpenAI",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "Searching for distant planets with Astra",
+      "body_original": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "How Intentful uses dots to make more time for growth",
+      "title": "Intentful 用 dots 辅助研究与提案准备",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
-      "body": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "body": "客户案例介绍创始人用智能体整理资料、比较客户信息并准备提案。所报时间收益来自个别工作流程，不能视为所有小企业的普遍效果。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T00:00:00+00:00",
       "source": "OpenAI",
@@ -64,12 +92,15 @@
         "OpenAI",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "How Intentful uses dots to make more time for growth",
+      "body_original": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "How iFood scales coding agents across 15,000 repositories",
+      "title": "iFood 用远程平台扩展编码智能体任务",
       "url": "https://openai.com/business/customer-stories/ifood",
-      "body": "",
+      "body": "案例介绍通过接口启动隔离环境中的维护任务，并返回合并请求，供团队处理跨仓库工作。自动化规模及成效为客户报告，不意味着可省略代码审查和安全验证。",
       "date": "2026-11-24",
       "published_at": "2026-11-24T00:00:00+00:00",
       "source": "OpenAI",
@@ -77,7 +108,26 @@
         "OpenAI",
         "2026-11-24"
       ],
-      "importance": "normal"
+      "importance": "normal",
+      "title_original": "How iFood scales coding agents across 15,000 repositories",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Clay 将客户研究与销售工作流接入 Codex 和 ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "body": "案例介绍整合企业记录、代理检索和公开资料，用于客户研究及市场拓展流程。产品集成与用户反馈不等同于已经证明销售增长的独立因果效果。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Clay helps sales teams win with Codex and ChatGPT",
+      "body_original": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
@@ -93,7 +143,7 @@
       "importance": "normal",
       "title_original": "OpenAI and Cisco introduce Shirudo",
       "body_original": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "用深度交叉注意力改进 Transformer 残差连接",
@@ -109,7 +159,7 @@
       "importance": "normal",
       "title_original": "Supercharging transformer residual connections",
       "body_original": "Algorithms & Theory",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "RoboTrack 检验真实机器人操作中的点跟踪",
@@ -125,7 +175,7 @@
       "importance": "normal",
       "title_original": "RoboTrack: Point tracking for real-world robotic manipulation",
       "body_original": "",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "多语言模型帮助研究跨语言共享的神经表征",
@@ -141,7 +191,7 @@
       "importance": "normal",
       "title_original": "Many languages, one common neural code",
       "body_original": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "企业法务团队的 AI 工作流讨论",
@@ -157,7 +207,7 @@
       "importance": "normal",
       "title_original": "Connected intelligence for in-house legal",
       "body_original": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "Richpanel 介绍用 AI 配置客服工具与流程",
@@ -173,7 +223,7 @@
       "importance": "normal",
       "title_original": "Richpanel helps companies automate 50% of support in 30 days",
       "body_original": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     },
     {
       "title": "MIT 用小型语言模型辅助模拟芯片设计",
@@ -189,146 +239,51 @@
       "importance": "normal",
       "title_original": "AI-driven technique could help engineers design analog chips faster and with less expense",
       "body_original": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "如何构建和维护智能体评测",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "body": "Hugging Face 讨论任务设计、可靠评分、验证及开源基础设施，强调评测结论应与实际任务和证据相匹配。共享轨迹和环境有助于复查，但不能自动保证评测无偏或无法被针对性优化。",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T00:00:00+00:00",
-      "source": "Hugging Face",
-      "tags": [
-        "Hugging Face",
-        "2026-11-23"
-      ],
-      "importance": "normal",
-      "title_original": "How to build and maintain an agentic evaluation",
-      "body_original": "",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "OpenAI 讨论困惑度与智能进展的关系",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "body": "作者主张用困惑度或交叉熵追踪预训练进展，并作为开发者之间比较与安全讨论的共同依据。这是作者提出的观点，单一语言建模损失不能直接概括全部下游能力和风险。",
-      "date": "2026-11-22",
-      "published_at": "2026-11-22T00:00:00+00:00",
-      "source": "OpenAI",
-      "tags": [
-        "OpenAI",
-        "2026-11-22"
-      ],
-      "importance": "normal",
-      "title_original": "Perplexity and Intelligence",
-      "body_original": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "editorial_date": "2026-11-24"
+      "editorial_date": "2026-11-25"
     }
   ],
   "papers": [
     {
-      "title": "CLFF：自动化并发学习力场与材料性质计算",
-      "url": "https://arxiv.org/abs/2611.29187",
-      "body": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
-      "date": "2026-11-24",
-      "published_at": "2026-11-24T00:00:00-05:00",
+      "title": "用通用神经网络势比较轻金属初期氧化膜生长",
+      "url": "https://arxiv.org/abs/2611.32659",
+      "body": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-24"
+        "2026-11-25"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：框架整合势模型训练、采样、不确定性选样、量子标注和数据扩充，并支持跨异构远程资源异步分配任务。自动化有助于流程复用，但模型精度仍依赖标注和适用域验证。",
+      "summary": "预印本摘要：研究在持续补充氧气的分子动力学中比较 Al、Mg 和 Ti 氧化膜，讨论生长方向及随时间变化。模拟使用很高氧压和短时间尺度，不能直接等同于常压长期钝化行为。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "CLFF: Automated Framework for Concurrent Learning Force Fields and Material Property Calculations",
-      "summary_original": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
-      "editorial_date": "2026-11-24"
+      "title_original": "Comparative Molecular Dynamics Study of Initial Oxide Film Growth on Al, Mg, and Ti Using a Universal Neural Network Potential",
+      "summary_original": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "editorial_date": "2026-11-25"
     },
     {
-      "title": "用小规模 GW 数据训练图网络预测大超胞准粒子能级",
-      "url": "https://arxiv.org/abs/2611.29349",
-      "body": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
-      "date": "2026-11-24",
-      "published_at": "2026-11-24T00:00:00-05:00",
+      "title": "实验引导机器学习分子动力学解析 MoTaW 压痕塑性",
+      "url": "https://arxiv.org/abs/2601.06846",
+      "body": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T00:00:00-05:00",
       "source": "arXiv materials",
       "tags": [
         "arXiv materials",
-        "2026-11-24"
+        "2026-11-25"
       ],
       "importance": "normal",
       "venue": "arXiv materials",
       "venue_type": "conf",
-      "summary": "预印本摘要：方法结合 DFT 波函数的局域轨道投影与结构图，探索由较小 GW 计算向大超胞迁移。仍需计入 DFT 特征成本，泛化取决于训练数据是否覆盖目标物理情景。",
+      "summary": "预印本摘要：作者结合球形纳米压痕与 tabGAP 模拟，用载荷位移响应选择可比较实验，并分析晶向相关滑移和位错机制。弹性段吻合不代表所有塑性阶段均已得到定量验证。",
       "authors": "作者见原文",
       "is_week_pick": false,
-      "title_original": "Graph Neural Networks for Accurate Quasiparticle Energy Levels in Large Supercells of Transition Metal Dichalcogenides",
-      "summary_original": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "用贝叶斯结构因果模型连接电极制备与催化表现",
-      "url": "https://arxiv.org/abs/2606.30898",
-      "body": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
-      "date": "2026-11-24",
-      "published_at": "2026-11-24T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-24"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：作者在碱性旋转圆盘电极体系中，以小样本多模态数据和物理结构假设分析负载、载体比例、活性位与厚度的关系。因果解释依赖假设和具体实验，不可直接推广到所有催化剂或器件。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Bridging electrode preparation and electrocatalyst performance with physics-based causal AI using Bayesian Structural Causal Models",
-      "summary_original": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "以裸镍结构筛选水解离吸附位点",
-      "url": "https://arxiv.org/abs/2611.20706",
-      "body": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
-      "date": "2026-11-24",
-      "published_at": "2026-11-24T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-24"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：图网络用裸镍几何和位点锚定原子预测 OH 与 H 共吸附能，并判断弛豫后位点是否保留。方法适合候选排序和保守筛选，跨体系定量精度仍可能变化。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Adsorbate-Free Screening of Dissociative Water Adsorption on Nickel Nanoparticles via Graph Neural Networks",
-      "summary_original": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
-      "editorial_date": "2026-11-24"
-    },
-    {
-      "title": "NeFTY：以可微热传导求解器进行三维热层析",
-      "url": "https://arxiv.org/abs/2603.11045",
-      "body": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
-      "date": "2026-11-24",
-      "published_at": "2026-11-24T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-24"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：方法把连续神经场表示的热扩散率送入可微隐式求解器，以表面测量误差反演内部结构，并在合成三维基准中比较。满足离散方程不自动解决反演非唯一性，实际无损检测仍需实验验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
-      "summary_original": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
-      "editorial_date": "2026-11-24"
+      "title_original": "Nanoindentation induced plasticity in equiatomic MoTaW alloys by experimentally guided machine learning molecular dynamics simulations",
+      "summary_original": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "editorial_date": "2026-11-25"
     }
   ],
   "leaders": [],
@@ -337,51 +292,36 @@
   "conferences": [],
   "science": [
     {
-      "title": "CLFF: Automated Framework for Concurrent Learning Force Fields and Material Property Calculations",
-      "body": "arXiv:2611.29187v1 Announce Type: new Abstract: Machine learning interatomic potentials (MLIPs) offer an efficient paradigm for large-scale atomistic simulations with near first-principles accuracy. However, developing and deploying these potentials often involves intricate procedures that require substantial manual effort and domain expertise. In this work, we present CLFF, an open-source Python framework designed to automate concurrent learning workflows for MLIPs. CLFF integrates model training, MLIP-driven sampling, uncertainty-based candidate selection, quantum-mechanical labeling, and dataset augmentation into a unified workflow. The framework currently supports several modern graph-ba",
-      "url": "https://arxiv.org/abs/2611.29187"
+      "title": "Comparative Molecular Dynamics Study of Initial Oxide Film Growth on Al, Mg, and Ti Using a Universal Neural Network Potential",
+      "body": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "url": "https://arxiv.org/abs/2611.32659"
     },
     {
-      "title": "Graph Neural Networks for Accurate Quasiparticle Energy Levels in Large Supercells of Transition Metal Dichalcogenides",
-      "body": "arXiv:2611.29349v1 Announce Type: new Abstract: The GW method is the one of the main workhorses of the materials science community to accurately calculate the electronic bandgap of materials, as it overcomes the gap underestimation problem from Density Functional Theory (DFT). Despite its accuracy, its computational cost becomes prohibitive when calculations have more than 10-100 atoms, which makes more difficult its use for defects, surfaces and moir\\'e systems that demand large supercells. To overcome this problem, we developed a Graph Neural Network trained with smaller GW calculations which can make accurate predictions on large supercells at a small fraction of the computational cost. O",
-      "url": "https://arxiv.org/abs/2611.29349"
-    },
-    {
-      "title": "Bridging electrode preparation and electrocatalyst performance with physics-based causal AI using Bayesian Structural Causal Models",
-      "body": "arXiv:2606.30898v2 Announce Type: replace Abstract: State-of-the-art artificial intelligence (AI) and Machine-Learning (ML) tools have not yet enabled rapid design of next-generation materials. Detailed physical understanding of how material properties affect device performance is required to advance materials development. For example, optimization of ink parameters for electrocatalysts has no known physical mathematical model and thus insights are difficult to translate from material studies to device studies. Herein, we demonstrate how to use the emerging AI tool, physics-based structural causal models (SCMs), to extract quantitative causative insights from complex heterogeneous electroche",
-      "url": "https://arxiv.org/abs/2606.30898"
-    },
-    {
-      "title": "Adsorbate-Free Screening of Dissociative Water Adsorption on Nickel Nanoparticles via Graph Neural Networks",
-      "body": "arXiv:2611.20706v2 Announce Type: replace Abstract: Dissociative water adsorption is a key step in heterogeneous and electrochemical catalysis, but on finite Ni nanosystems the OH$^*$ and H$^*$ fragments can occupy many combinations of surface sites, making exhaustive density functional theory (DFT) screening impractical. We introduce a graph neural network (GNN) framework with an adsorbate-free representation: candidate O- and H-binding sites are defined by sets of Ni atoms (\\textit{anchors}), and each site pair is encoded as a graph constructed solely from these anchors and their local Ni environment. Using only MACE-relaxed bare Ni geometries as input, separate GNNs predict the DFT-refere",
-      "url": "https://arxiv.org/abs/2611.20706"
-    },
-    {
-      "title": "Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation",
-      "body": "arXiv:2603.11045v3 Announce Type: replace-cross Abstract: Inverse problems for stiff parabolic partial differential equations (PDEs), such as the inverse heat conduction problem (IHCP), are severely ill-posed: the forward map rapidly damps high-frequency interior structure before it reaches the boundary. Soft-constrained physics-informed neural networks (PINNs), which embed the PDE as a residual penalty, decouple the diffusivity from the surface data in their standard two-network inverse formulation, and the evaluated variants fit boundary measurements while leaving the interior field essentially untouched. We propose Neural Field Thermal Tomography (NeFTY), a hard-constrained neural field f",
-      "url": "https://arxiv.org/abs/2603.11045"
+      "title": "Nanoindentation induced plasticity in equiatomic MoTaW alloys by experimentally guided machine learning molecular dynamics simulations",
+      "body": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "url": "https://arxiv.org/abs/2601.06846"
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-24T21:51:48.060792+00:00",
+  "fetched_at": "2026-11-25T13:56:34.625986+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 23
+      "items": 17
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 10
+      "items": 8
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 10
+      "items": 9
     },
     {
       "source": "Google Research",
@@ -405,19 +345,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 105
+      "items": 64
     }
   ],
-  "editorial": {
-    "date": "2026-11-24",
-    "items_applied": 14,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 5,
+    "paper_count": 2,
     "leader_count": 0,
-    "science_count": 5
+    "science_count": 2
+  },
+  "editorial": {
+    "date": "2026-11-25",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

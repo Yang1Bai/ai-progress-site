@@ -1,0 +1,363 @@
+{
+  "date": "2026年11月25日",
+  "news": [
+    {
+      "title": "用 CUGA 构建印度地区语言语音助手",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "body": "文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T10:22:09+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "An Indic Voice Agent with CUGA",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Microduck 避障：从仿真训练到真实机器人",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "body": "教程保持行走策略不变，另训基于飞行时间传感的控制器，调整手柄速度命令以绕开障碍。流程涵盖评测和部署准备，仿真表现不能替代真实硬件的安全验证。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T16:34:13+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "TangiMap 用智能体个性化映射实体控件",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "body": "MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T14:30:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "body_original": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "OpenAI 报告 GPT-6 系列的蛋白设计能力",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "body": "研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "body_original": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "业余天文学家用 Astra 与 Codex 筛选行星信号",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "body": "案例介绍在公开望远镜数据中搜索潜在凌星信号，并把候选交给专业研究人员进一步检查。候选线索不等同于已确认发现新的系外行星。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Searching for distant planets with Astra",
+      "body_original": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Intentful 用 dots 辅助研究与提案准备",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "body": "客户案例介绍创始人用智能体整理资料、比较客户信息并准备提案。所报时间收益来自个别工作流程，不能视为所有小企业的普遍效果。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "How Intentful uses dots to make more time for growth",
+      "body_original": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "iFood 用远程平台扩展编码智能体任务",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "body": "案例介绍通过接口启动隔离环境中的维护任务，并返回合并请求，供团队处理跨仓库工作。自动化规模及成效为客户报告，不意味着可省略代码审查和安全验证。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "How iFood scales coding agents across 15,000 repositories",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Clay 将客户研究与销售工作流接入 Codex 和 ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "body": "案例介绍整合企业记录、代理检索和公开资料，用于客户研究及市场拓展流程。产品集成与用户反馈不等同于已经证明销售增长的独立因果效果。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Clay helps sales teams win with Codex and ChatGPT",
+      "body_original": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "body": "项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T21:20:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI and Cisco introduce Shirudo",
+      "body_original": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "用深度交叉注意力改进 Transformer 残差连接",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "body": "Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件均有相同加速。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T17:21:12+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "Supercharging transformer residual connections",
+      "body_original": "Algorithms & Theory",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "RoboTrack 检验真实机器人操作中的点跟踪",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "body": "基准与训练数据关注遮挡、视角变化及复杂物体交互中的点轨迹，考察既有跟踪器能否适应真实操作。跟踪评测表现不等同于完整机器人的安全性或任务成功率。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T17:20:37+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "body_original": "",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "多语言模型帮助研究跨语言共享的神经表征",
+      "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
+      "body": "MIT 研究用多语言模型预测脑响应，并在多种语言使用者中发现共享处理模式。模型与脑活动的对应关系不能直接证明所有语言机制相同，相关诊断用途仍需进一步验证。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T16:15:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "Many languages, one common neural code",
+      "body_original": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "企业法务团队的 AI 工作流讨论",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "body": "页面介绍一场关于连接业务背景、复用工作流和协作外部律师的讨论。可读正文仅为活动简介，未据此补写具体功能或法律服务效果。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "Connected intelligence for in-house legal",
+      "body_original": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "Richpanel 介绍用 AI 配置客服工具与流程",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "body": "客户案例说明用模型辅助创建操作程序、连接工具和处理客服对话。标题中的自动化比例与周期为来源案例主张，不能推广为任何企业都能获得的效果。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T08:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "Richpanel helps companies automate 50% of support in 30 days",
+      "body_original": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "MIT 用小型语言模型辅助模拟芯片设计",
+      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "body": "SLIC 方法探索训练小型语言模型辅助模拟集成电路设计，目标是减少原型迭代成本及对云端大模型的依赖。报道描述研究方法与潜在用途，不代表所有电路已达到可制造性和性能要求。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T00:00:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "AI-driven technique could help engineers design analog chips faster and with less expense",
+      "body_original": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "editorial_date": "2026-11-25"
+    }
+  ],
+  "papers": [
+    {
+      "title": "用通用神经网络势比较轻金属初期氧化膜生长",
+      "url": "https://arxiv.org/abs/2611.32659",
+      "body": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：研究在持续补充氧气的分子动力学中比较 Al、Mg 和 Ti 氧化膜，讨论生长方向及随时间变化。模拟使用很高氧压和短时间尺度，不能直接等同于常压长期钝化行为。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Comparative Molecular Dynamics Study of Initial Oxide Film Growth on Al, Mg, and Ti Using a Universal Neural Network Potential",
+      "summary_original": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "editorial_date": "2026-11-25"
+    },
+    {
+      "title": "实验引导机器学习分子动力学解析 MoTaW 压痕塑性",
+      "url": "https://arxiv.org/abs/2601.06846",
+      "body": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T00:00:00-05:00",
+      "source": "arXiv materials",
+      "tags": [
+        "arXiv materials",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "venue": "arXiv materials",
+      "venue_type": "conf",
+      "summary": "预印本摘要：作者结合球形纳米压痕与 tabGAP 模拟，用载荷位移响应选择可比较实验，并分析晶向相关滑移和位错机制。弹性段吻合不代表所有塑性阶段均已得到定量验证。",
+      "authors": "作者见原文",
+      "is_week_pick": false,
+      "title_original": "Nanoindentation induced plasticity in equiatomic MoTaW alloys by experimentally guided machine learning molecular dynamics simulations",
+      "summary_original": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "editorial_date": "2026-11-25"
+    }
+  ],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [
+    {
+      "title": "Comparative Molecular Dynamics Study of Initial Oxide Film Growth on Al, Mg, and Ti Using a Universal Neural Network Potential",
+      "body": "arXiv:2611.32659v1 Announce Type: new Abstract: Spontaneous formation of an oxide film, which may be passive, is found in many metals such as Al and Ti. We report direct computational observation of oxide film formation on the three major light structural metals, Al, Mg, and Ti, with molecular dynamics (MD) using a universal neural network potential (NNP). O2 molecules were supplied during MD simulations to replenish O consumed by the metal. Al and Ti formed a 1-2 nm thick film within a few ps of the simulation with O2 gas pressure of 102-103 atm. The film thicknesses of all metal oxides continued to increase proportionally to the logarithm of simulation time, consistent with Cabrera-Mott th",
+      "url": "https://arxiv.org/abs/2611.32659"
+    },
+    {
+      "title": "Nanoindentation induced plasticity in equiatomic MoTaW alloys by experimentally guided machine learning molecular dynamics simulations",
+      "body": "arXiv:2601.06846v2 Announce Type: replace Abstract: Refractory complex concentrated alloys (RCCA) exhibit exceptional strength and thermal stability, yet their plastic deformation mechanisms under complex contact loading remain insufficiently understood. Here, the nanoindentation response of an equiatomic MoTaW alloy is investigated through a combined experimental and atomistically resolved modeling approach. Spherical nanoindentation experiments are coupled with large scale molecular dynamics simulations employing a tabulated low dimensional Gaussian Approximation Potential (tabGAP), enabling near DFT accuracy. A physics based similarity criterion, implemented via PCA of load-displacement c",
+      "url": "https://arxiv.org/abs/2601.06846"
+    }
+  ],
+  "content_mode": "public",
+  "fetched_at": "2026-11-25T13:56:34.625986+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 17
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 64
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 2,
+    "leader_count": 0,
+    "science_count": 2
+  },
+  "editorial": {
+    "date": "2026-11-25",
+    "items_applied": 17,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
