@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-25T13:57:52Z</updated>
+  <updated>2026-11-25T20:58:49Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月25日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-25.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-25.html</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"/>
+    <id>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</id>
+    <updated>2026-11-25T20:58:49Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Generative AI…</title>
+    <link href="https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/"/>
+    <id>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</id>
+    <updated>2026-11-25T20:58:49Z</updated>
+    <summary>Generative AI</summary>
   </entry>
   <entry>
     <title>文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。…</title>
     <link href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"/>
     <id>https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。</summary>
+  </entry>
+  <entry>
+    <title>…</title>
+    <link href="https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"/>
+    <id>https://huggingface.co/blog/inkling-2-mini-inference-hillclimb</id>
+    <updated>2026-11-25T20:58:49Z</updated>
+    <summary></summary>
   </entry>
   <entry>
     <title>教程保持行走策略不变，另训基于飞行时间传感的控制器，调整手柄速度命令以绕开障碍。流程涵盖评测和部署准备，仿真表现不能替代真实硬件的安全验证。…</title>
     <link href="https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"/>
     <id>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>教程保持行走策略不变，另训基于飞行时间传感的控制器，调整手柄速度命令以绕开障碍。流程涵盖评测和部署准备，仿真表现不能替代真实硬件的安全验证。</summary>
   </entry>
   <entry>
     <title>MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。…</title>
     <link href="https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"/>
     <id>https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。</summary>
   </entry>
   <entry>
     <title>研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。…</title>
     <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
     <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。</summary>
   </entry>
   <entry>
     <title>案例介绍在公开望远镜数据中搜索潜在凌星信号，并把候选交给专业研究人员进一步检查。候选线索不等同于已确认发现新的系外行星。…</title>
     <link href="https://openai.com/index/searching-for-distant-planets-with-astra"/>
     <id>https://openai.com/index/searching-for-distant-planets-with-astra</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>案例介绍在公开望远镜数据中搜索潜在凌星信号，并把候选交给专业研究人员进一步检查。候选线索不等同于已确认发现新的系外行星。</summary>
   </entry>
   <entry>
     <title>客户案例介绍创始人用智能体整理资料、比较客户信息并准备提案。所报时间收益来自个别工作流程，不能视为所有小企业的普遍效果。…</title>
     <link href="https://openai.com/business/customer-stories/intentful-dots"/>
     <id>https://openai.com/business/customer-stories/intentful-dots</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>客户案例介绍创始人用智能体整理资料、比较客户信息并准备提案。所报时间收益来自个别工作流程，不能视为所有小企业的普遍效果。</summary>
   </entry>
   <entry>
     <title>案例介绍通过接口启动隔离环境中的维护任务，并返回合并请求，供团队处理跨仓库工作。自动化规模及成效为客户报告，不意味着可省略代码审查和安全验证。…</title>
     <link href="https://openai.com/business/customer-stories/ifood"/>
     <id>https://openai.com/business/customer-stories/ifood</id>
-    <updated>2026-11-25T13:57:52Z</updated>
+    <updated>2026-11-25T20:58:49Z</updated>
     <summary>案例介绍通过接口启动隔离环境中的维护任务，并返回合并请求，供团队处理跨仓库工作。自动化规模及成效为客户报告，不意味着可省略代码审查和安全验证。</summary>
-  </entry>
-  <entry>
-    <title>案例介绍整合企业记录、代理检索和公开资料，用于客户研究及市场拓展流程。产品集成与用户反馈不等同于已经证明销售增长的独立因果效果。…</title>
-    <link href="https://openai.com/business/customer-stories/clay-plugins-openai"/>
-    <id>https://openai.com/business/customer-stories/clay-plugins-openai</id>
-    <updated>2026-11-25T13:57:52Z</updated>
-    <summary>案例介绍整合企业记录、代理检索和公开资料，用于客户研究及市场拓展流程。产品集成与用户反馈不等同于已经证明销售增长的独立因果效果。</summary>
-  </entry>
-  <entry>
-    <title>项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。…</title>
-    <link href="https://openai.com/index/introducing-shirudo"/>
-    <id>https://openai.com/index/introducing-shirudo</id>
-    <updated>2026-11-25T13:57:52Z</updated>
-    <summary>项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。</summary>
-  </entry>
-  <entry>
-    <title>Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件…</title>
-    <link href="https://research.google/blog/supercharging-transformer-residual-connections/"/>
-    <id>https://research.google/blog/supercharging-transformer-residual-connections/</id>
-    <updated>2026-11-25T13:57:52Z</updated>
-    <summary>Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件均有相同加速。</summary>
   </entry>
 </feed>
