@@ -329,7 +329,7 @@
     }
   ],
   "content_mode": "public",
-  "fetched_at": "2026-11-26T14:04:29.172673+00:00",
+  "fetched_at": "2026-11-26T20:51:35.442094+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -353,7 +353,7 @@
       "source": "Google Research",
       "url": "https://research.google/blog/rss/",
       "status": "ok",
-      "items": 4
+      "items": 3
     },
     {
       "source": "Nature Materials",
@@ -374,16 +374,16 @@
       "items": 69
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 3,
-    "leader_count": 0,
-    "science_count": 3
-  },
   "editorial": {
     "date": "2026-11-26",
     "items_applied": 18,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 3,
+    "leader_count": 0,
+    "science_count": 3
   }
 }
