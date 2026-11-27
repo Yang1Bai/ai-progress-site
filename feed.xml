@@ -5,83 +5,83 @@
   <link href="https://yang1bai.github.io/ai-progress-site/feed.xml" rel="self"/>
   <link href="https://yang1bai.github.io/ai-progress-site/"/>
   <id>https://yang1bai.github.io/ai-progress-site/</id>
-  <updated>2026-11-27T14:04:34Z</updated>
+  <updated>2026-11-27T20:36:39Z</updated>
   <author><name>AI Progress Hub</name></author>
   <entry>
     <title>每日汇总 2026年11月27日</title>
     <link href="https://yang1bai.github.io/ai-progress-site/archive/2026-11-27.html"/>
     <id>https://yang1bai.github.io/ai-progress-site/archive/2026-11-27.html</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>今日 AI 大事 · 领袖观点 · AI4Science · AI4Material 论文完整汇总。</summary>
   </entry>
   <entry>
     <title>作者介绍将分镜脚本接入视频与音频生成管线，并优化特定 Trainium3 配置下的推理。所报耗时是在模型加载后的测试结果，与其他平台的比较条件不完全一致，不能视…</title>
     <link href="https://huggingface.co/blog/video-trainium3"/>
     <id>https://huggingface.co/blog/video-trainium3</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>作者介绍将分镜脚本接入视频与音频生成管线，并优化特定 Trainium3 配置下的推理。所报耗时是在模型加载后的测试结果，与其他平台的比较条件不完全一致，不能视为通用性能结论。</summary>
   </entry>
   <entry>
     <title>看板按硬件、模型、构建版本和量化方式比较提示处理及文本生成吞吐，并公开流程和结果。标准测试与实际长上下文应用不同，性能判断需匹配具体配置。…</title>
     <link href="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"/>
     <id>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>看板按硬件、模型、构建版本和量化方式比较提示处理及文本生成吞吐，并公开流程和结果。标准测试与实际长上下文应用不同，性能判断需匹配具体配置。</summary>
   </entry>
   <entry>
     <title>文章介绍文档图像到结构化内容模型的合成数据、训练配方和推理加速组件。表格结构与图表估读仍可能出错，下游检索和数据提取需要校验。…</title>
     <link href="https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"/>
     <id>https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>文章介绍文档图像到结构化内容模型的合成数据、训练配方和推理加速组件。表格结构与图表估读仍可能出错，下游检索和数据提取需要校验。</summary>
   </entry>
   <entry>
     <title>系列从共享模型和可验证任务出发，讨论智能体通信与训练。增加智能体会改变上下文、预算和复杂性，不能假定数量增加必然提高任务表现。…</title>
     <link href="https://huggingface.co/blog/training-swarms"/>
     <id>https://huggingface.co/blog/training-swarms</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>系列从共享模型和可验证任务出发，讨论智能体通信与训练。增加智能体会改变上下文、预算和复杂性，不能假定数量增加必然提高任务表现。</summary>
   </entry>
   <entry>
     <title>文章基于科学家访谈讨论证据检查、方法复现、隐私和实验约束，强调委托任务不免除研究者责任。访谈反映受访者经验，不是所有学科的统一规范。…</title>
     <link href="https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"/>
     <id>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>文章基于科学家访谈讨论证据检查、方法复现、隐私和实验约束，强调委托任务不免除研究者责任。访谈反映受访者经验，不是所有学科的统一规范。</summary>
   </entry>
   <entry>
     <title>Google 为目标智能体设定隐藏动机，再让助手依据用户叙述进行推断，以构造可验证标签。模拟揭示叙述框架对推理的影响，但不直接代表真实人际关系中的准确度。…</title>
     <link href="https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/"/>
     <id>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>Google 为目标智能体设定隐藏动机，再让助手依据用户叙述进行推断，以构造可验证标签。模拟揭示叙述框架对推理的影响，但不直接代表真实人际关系中的准确度。</summary>
   </entry>
   <entry>
     <title>文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。…</title>
     <link href="https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"/>
     <id>https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。</summary>
   </entry>
   <entry>
     <title>文章探索特定 GPU 上的内核兼容和推理配置，并用编码智能体进行实验。所报表现取决于硬件、版本及参数，不能视为所有本地设备的通用速度。…</title>
     <link href="https://huggingface.co/blog/inkling-2-mini-inference-hillclimb"/>
     <id>https://huggingface.co/blog/inkling-2-mini-inference-hillclimb</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>文章探索特定 GPU 上的内核兼容和推理配置，并用编码智能体进行实验。所报表现取决于硬件、版本及参数，不能视为所有本地设备的通用速度。</summary>
   </entry>
   <entry>
     <title>MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。…</title>
     <link href="https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"/>
     <id>https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。</summary>
   </entry>
   <entry>
     <title>研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。…</title>
     <link href="https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"/>
     <id>https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities</id>
-    <updated>2026-11-27T14:04:34Z</updated>
+    <updated>2026-11-27T20:36:39Z</updated>
     <summary>研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。</summary>
   </entry>
 </feed>

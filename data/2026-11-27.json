@@ -249,7 +249,7 @@
   "conferences": [],
   "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-11-27T14:04:00.105134+00:00",
+  "fetched_at": "2026-11-27T20:36:38.052314+00:00",
   "sources": [
     {
       "source": "OpenAI",
@@ -267,7 +267,7 @@
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 6
+      "items": 4
     },
     {
       "source": "Google Research",
@@ -294,16 +294,16 @@
       "items": 0
     }
   ],
-  "stats": {
-    "news_count": 15,
-    "paper_count": 0,
-    "leader_count": 0,
-    "science_count": 0
-  },
   "editorial": {
     "date": "2026-11-27",
     "items_applied": 15,
     "editor": "Codex",
     "mode": "source_grounded_chinese"
+  },
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
   }
 }
