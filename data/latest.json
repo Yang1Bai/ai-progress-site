@@ -1,6 +1,22 @@
 {
-  "date": "2026年11月26日",
+  "date": "2026年11月27日",
   "news": [
+    {
+      "title": "在 Trainium3 上用 LTX-2.5 生成视频",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "body": "作者介绍将分镜脚本接入视频与音频生成管线，并优化特定 Trainium3 配置下的推理。所报耗时是在模型加载后的测试结果，与其他平台的比较条件不完全一致，不能视为通用性能结论。",
+      "date": "2026-11-27",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-27"
+      ],
+      "importance": "normal",
+      "title_original": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
     {
       "title": "llama.cpp 与 AMD 发布本地推理性能看板",
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
@@ -15,7 +31,7 @@
       "importance": "normal",
       "title_original": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "Nemotron 3.5 Parse 补充开放数据、微调与推理优化",
@@ -31,7 +47,7 @@
       "importance": "normal",
       "title_original": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "多智能体系统的构建、训练与评测教程",
@@ -47,7 +63,7 @@
       "importance": "normal",
       "title_original": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "科学家如何界定 AI 智能体的委托边界",
@@ -63,7 +79,7 @@
       "importance": "normal",
       "title_original": "Where scientists draw the line on AI agents",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "用多智能体模拟评测可验证的社会推理",
@@ -79,7 +95,7 @@
       "importance": "normal",
       "title_original": "Verifiable Social Reasoning for LLM Assistants",
       "body_original": "Generative AI",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "用 CUGA 构建印度地区语言语音助手",
@@ -95,7 +111,7 @@
       "importance": "normal",
       "title_original": "An Indic Voice Agent with CUGA",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "在单张 RTX PRO 6000 上优化 Inkling 2 Mini 推理",
@@ -111,7 +127,7 @@
       "importance": "normal",
       "title_original": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "TangiMap 用智能体个性化映射实体控件",
@@ -127,7 +143,7 @@
       "importance": "normal",
       "title_original": "Agentic system personalizes physical controls to help users “DJ their art”",
       "body_original": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "OpenAI 报告 GPT-6 系列的蛋白设计能力",
@@ -143,7 +159,7 @@
       "importance": "normal",
       "title_original": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "body_original": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "业余天文学家用 Astra 与 Codex 筛选行星信号",
@@ -159,7 +175,7 @@
       "importance": "normal",
       "title_original": "Searching for distant planets with Astra",
       "body_original": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "Intentful 用 dots 辅助研究与提案准备",
@@ -175,7 +191,7 @@
       "importance": "normal",
       "title_original": "How Intentful uses dots to make more time for growth",
       "body_original": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "iFood 用远程平台扩展编码智能体任务",
@@ -191,7 +207,7 @@
       "importance": "normal",
       "title_original": "How iFood scales coding agents across 15,000 repositories",
       "body_original": "",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "Clay 将客户研究与销售工作流接入 Codex 和 ChatGPT",
@@ -207,7 +223,7 @@
       "importance": "normal",
       "title_original": "Clay helps sales teams win with Codex and ChatGPT",
       "body_original": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     },
     {
       "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
@@ -223,131 +239,35 @@
       "importance": "normal",
       "title_original": "OpenAI and Cisco introduce Shirudo",
       "body_original": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "editorial_date": "2026-11-26"
-    },
-    {
-      "title": "用深度交叉注意力改进 Transformer 残差连接",
-      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-      "body": "Google 介绍 DeepCrossAttention，通过可学习权重和跨深度注意力动态组合前层输出。作者报告所测条件下的效率改善，不能据此推断所有模型与硬件均有相同加速。",
-      "date": "2026-11-23",
-      "published_at": "2026-11-23T17:21:12+00:00",
-      "source": "Google Research",
-      "tags": [
-        "Google Research",
-        "2026-11-23"
-      ],
-      "importance": "normal",
-      "title_original": "Supercharging transformer residual connections",
-      "body_original": "Algorithms & Theory",
-      "editorial_date": "2026-11-26"
+      "editorial_date": "2026-11-27"
     }
   ],
-  "papers": [
-    {
-      "title": "AlphaDiffract 从粉末衍射图预测晶体学参数",
-      "url": "https://arxiv.org/abs/2603.23367",
-      "body": "arXiv:2603.23367v2 Announce Type: replace Abstract: Materials identification and structural understanding from powder X-ray diffraction (PXRD) data are long-standing challenges in materials science, fundamental to discovering and characterizing novel materials. A prerequisite for full structure solution is the accurate determination of the crystal lattice, including lattice parameters and crystallographic symmetries. Traditional methods for this are iterative and typically require expert input, and while existing deep learning approaches have shown promise, a robust, single-shot method for comprehensive lattice determination from experimental data remains a key goal. Here, we introduce Alpha",
-      "date": "2026-11-26",
-      "published_at": "2026-11-26T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-26"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：模型联合预测晶系、空间群和晶格参数，并用大规模模拟衍射训练、实验图谱测试迁移。预测晶格不等同于完成全结构求解，实验噪声与数据分布仍会影响可靠性。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "AlphaDiffract: Automated Crystallographic Analysis of Powder X-ray Diffraction Data",
-      "summary_original": "arXiv:2603.23367v2 Announce Type: replace Abstract: Materials identification and structural understanding from powder X-ray diffraction (PXRD) data are long-standing challenges in materials science, fundamental to discovering and characterizing novel materials. A prerequisite for full structure solution is the accurate determination of the crystal lattice, including lattice parameters and crystallographic symmetries. Traditional methods for this are iterative and typically require expert input, and while existing deep learning approaches have shown promise, a robust, single-shot method for comprehensive lattice determination from experimental data remains a key goal. Here, we introduce Alpha",
-      "editorial_date": "2026-11-26"
-    },
-    {
-      "title": "面向不平衡多保真原子数据的大规模图基础模型",
-      "url": "https://arxiv.org/abs/2604.15380",
-      "body": "arXiv:2604.15380v2 Announce Type: replace Abstract: We present an exascale workflow for atomistic graph foundation models using HydraGNN. Multi-task learning enables joint training across 16 heterogeneous first-principles datasets representing over 467 million unique structures (over 544 million cumulative branch records) and covering 85+ elements. A shared graph neural network backbone with dataset-specific prediction heads accommodates the strongly imbalanced, multi-source, multi-fidelity corpus, supported by scalable ADIOS2/DDStore data management. Composition-conditioned weighting combines source-specific predictions into a single deployable model. Six large-scale hyperparameter optimiza",
-      "date": "2026-11-26",
-      "published_at": "2026-11-26T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-26"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：HydraGNN 工作流以共享骨干和数据集专属输出头整合多源原子数据，并比较超算扩展与下游迁移。迁移收益随任务和适配方式变化，超算筛选速度不能推广到普通硬件。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Exascale Multi-Task Graph Foundation Models for Imbalanced, Multi-Fidelity Atomistic Data",
-      "summary_original": "arXiv:2604.15380v2 Announce Type: replace Abstract: We present an exascale workflow for atomistic graph foundation models using HydraGNN. Multi-task learning enables joint training across 16 heterogeneous first-principles datasets representing over 467 million unique structures (over 544 million cumulative branch records) and covering 85+ elements. A shared graph neural network backbone with dataset-specific prediction heads accommodates the strongly imbalanced, multi-source, multi-fidelity corpus, supported by scalable ADIOS2/DDStore data management. Composition-conditioned weighting combines source-specific predictions into a single deployable model. Six large-scale hyperparameter optimiza",
-      "editorial_date": "2026-11-26"
-    },
-    {
-      "title": "Sb₂S₃ 相变材料的各向异性结晶动力学",
-      "url": "https://arxiv.org/abs/2605.20785",
-      "body": "arXiv:2605.20785v2 Announce Type: replace Abstract: Antimony sulfide (Sb$_2$S$_3$), an Earth-abundant and sustainable chalcogenide, has emerged as a promising phase change material (PCM) due to its ultra-low optical losses, broadband transparency, and reversible phase-change capacity. In this work, we developed a machine learning force field based on the moment tensor potential approach, allowing us to understand the atomistic origin of the structural evolution and crystallization kinetics in Sb$_2$S$_3$ for the first time, by enabling large-scale molecular dynamics simulations (up to 7680 atoms for 40 ns). Sb$_2$S$_3$ has anisotropic growth rates with the (100) facet ($Pnma$ space group) ex",
-      "date": "2026-11-26",
-      "published_at": "2026-11-26T00:00:00-05:00",
-      "source": "arXiv materials",
-      "tags": [
-        "arXiv materials",
-        "2026-11-26"
-      ],
-      "importance": "normal",
-      "venue": "arXiv materials",
-      "venue_type": "conf",
-      "summary": "预印本摘要：研究训练矩张量势进行分子动力学，比较不同晶面生长及界面原子运动，讨论界面控制机制。结果来自特定模型、温度与时间尺度，仍需结合实验验证。",
-      "authors": "作者见原文",
-      "is_week_pick": false,
-      "title_original": "Anisotropic Crystallization Kinetics and Interfacial Dynamics of Phase-Change Material Sb$_2$S$_3$",
-      "summary_original": "arXiv:2605.20785v2 Announce Type: replace Abstract: Antimony sulfide (Sb$_2$S$_3$), an Earth-abundant and sustainable chalcogenide, has emerged as a promising phase change material (PCM) due to its ultra-low optical losses, broadband transparency, and reversible phase-change capacity. In this work, we developed a machine learning force field based on the moment tensor potential approach, allowing us to understand the atomistic origin of the structural evolution and crystallization kinetics in Sb$_2$S$_3$ for the first time, by enabling large-scale molecular dynamics simulations (up to 7680 atoms for 40 ns). Sb$_2$S$_3$ has anisotropic growth rates with the (100) facet ($Pnma$ space group) ex",
-      "editorial_date": "2026-11-26"
-    }
-  ],
+  "papers": [],
   "leaders": [],
   "models": [],
   "benchmarks": [],
   "conferences": [],
-  "science": [
-    {
-      "title": "AlphaDiffract: Automated Crystallographic Analysis of Powder X-ray Diffraction Data",
-      "body": "arXiv:2603.23367v2 Announce Type: replace Abstract: Materials identification and structural understanding from powder X-ray diffraction (PXRD) data are long-standing challenges in materials science, fundamental to discovering and characterizing novel materials. A prerequisite for full structure solution is the accurate determination of the crystal lattice, including lattice parameters and crystallographic symmetries. Traditional methods for this are iterative and typically require expert input, and while existing deep learning approaches have shown promise, a robust, single-shot method for comprehensive lattice determination from experimental data remains a key goal. Here, we introduce Alpha",
-      "url": "https://arxiv.org/abs/2603.23367"
-    },
-    {
-      "title": "Exascale Multi-Task Graph Foundation Models for Imbalanced, Multi-Fidelity Atomistic Data",
-      "body": "arXiv:2604.15380v2 Announce Type: replace Abstract: We present an exascale workflow for atomistic graph foundation models using HydraGNN. Multi-task learning enables joint training across 16 heterogeneous first-principles datasets representing over 467 million unique structures (over 544 million cumulative branch records) and covering 85+ elements. A shared graph neural network backbone with dataset-specific prediction heads accommodates the strongly imbalanced, multi-source, multi-fidelity corpus, supported by scalable ADIOS2/DDStore data management. Composition-conditioned weighting combines source-specific predictions into a single deployable model. Six large-scale hyperparameter optimiza",
-      "url": "https://arxiv.org/abs/2604.15380"
-    },
-    {
-      "title": "Anisotropic Crystallization Kinetics and Interfacial Dynamics of Phase-Change Material Sb$_2$S$_3$",
-      "body": "arXiv:2605.20785v2 Announce Type: replace Abstract: Antimony sulfide (Sb$_2$S$_3$), an Earth-abundant and sustainable chalcogenide, has emerged as a promising phase change material (PCM) due to its ultra-low optical losses, broadband transparency, and reversible phase-change capacity. In this work, we developed a machine learning force field based on the moment tensor potential approach, allowing us to understand the atomistic origin of the structural evolution and crystallization kinetics in Sb$_2$S$_3$ for the first time, by enabling large-scale molecular dynamics simulations (up to 7680 atoms for 40 ns). Sb$_2$S$_3$ has anisotropic growth rates with the (100) facet ($Pnma$ space group) ex",
-      "url": "https://arxiv.org/abs/2605.20785"
-    }
-  ],
+  "science": [],
   "content_mode": "public",
-  "fetched_at": "2026-11-26T20:51:35.442094+00:00",
+  "fetched_at": "2026-11-27T14:04:00.105134+00:00",
   "sources": [
     {
       "source": "OpenAI",
       "url": "https://openai.com/news/rss.xml",
       "status": "ok",
-      "items": 12
+      "items": 9
     },
     {
       "source": "Hugging Face",
       "url": "https://huggingface.co/blog/feed.xml",
       "status": "ok",
-      "items": 9
+      "items": 8
     },
     {
       "source": "MIT AI",
       "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
       "status": "ok",
-      "items": 7
+      "items": 6
     },
     {
       "source": "Google Research",
@@ -371,19 +291,19 @@
       "source": "arXiv materials",
       "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
       "status": "ok",
-      "items": 69
+      "items": 0
     }
   ],
-  "editorial": {
-    "date": "2026-11-26",
-    "items_applied": 18,
-    "editor": "Codex",
-    "mode": "source_grounded_chinese"
-  },
   "stats": {
     "news_count": 15,
-    "paper_count": 3,
+    "paper_count": 0,
     "leader_count": 0,
-    "science_count": 3
+    "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-11-27",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
   }
 }

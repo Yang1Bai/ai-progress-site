@@ -1,0 +1,309 @@
+{
+  "date": "2026年11月27日",
+  "news": [
+    {
+      "title": "在 Trainium3 上用 LTX-2.5 生成视频",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "body": "作者介绍将分镜脚本接入视频与音频生成管线，并优化特定 Trainium3 配置下的推理。所报耗时是在模型加载后的测试结果，与其他平台的比较条件不完全一致，不能视为通用性能结论。",
+      "date": "2026-11-27",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-27"
+      ],
+      "importance": "normal",
+      "title_original": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "llama.cpp 与 AMD 发布本地推理性能看板",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "body": "看板按硬件、模型、构建版本和量化方式比较提示处理及文本生成吞吐，并公开流程和结果。标准测试与实际长上下文应用不同，性能判断需匹配具体配置。",
+      "date": "2026-11-26",
+      "published_at": "2026-11-26T11:37:17+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-26"
+      ],
+      "importance": "normal",
+      "title_original": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "Nemotron 3.5 Parse 补充开放数据、微调与推理优化",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "body": "文章介绍文档图像到结构化内容模型的合成数据、训练配方和推理加速组件。表格结构与图表估读仍可能出错，下游检索和数据提取需要校验。",
+      "date": "2026-11-26",
+      "published_at": "2026-11-26T05:05:36+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-26"
+      ],
+      "importance": "normal",
+      "title_original": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "多智能体系统的构建、训练与评测教程",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "body": "系列从共享模型和可验证任务出发，讨论智能体通信与训练。增加智能体会改变上下文、预算和复杂性，不能假定数量增加必然提高任务表现。",
+      "date": "2026-11-26",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-26"
+      ],
+      "importance": "normal",
+      "title_original": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "科学家如何界定 AI 智能体的委托边界",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "body": "文章基于科学家访谈讨论证据检查、方法复现、隐私和实验约束，强调委托任务不免除研究者责任。访谈反映受访者经验，不是所有学科的统一规范。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T18:52:55+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "Where scientists draw the line on AI agents",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "用多智能体模拟评测可验证的社会推理",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "body": "Google 为目标智能体设定隐藏动机，再让助手依据用户叙述进行推断，以构造可验证标签。模拟揭示叙述框架对推理的影响，但不直接代表真实人际关系中的准确度。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T17:10:27+00:00",
+      "source": "Google Research",
+      "tags": [
+        "Google Research",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "Verifiable Social Reasoning for LLM Assistants",
+      "body_original": "Generative AI",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "用 CUGA 构建印度地区语言语音助手",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "body": "文章以农业问答为例，介绍在文本智能体外连接语音识别和合成，并讨论跨语言检索。原型支持多种语音提供方式，实际回答质量仍依赖资料覆盖、检索和语音识别验证。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T10:22:09+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "An Indic Voice Agent with CUGA",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "在单张 RTX PRO 6000 上优化 Inkling 2 Mini 推理",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "body": "文章探索特定 GPU 上的内核兼容和推理配置，并用编码智能体进行实验。所报表现取决于硬件、版本及参数，不能视为所有本地设备的通用速度。",
+      "date": "2026-11-25",
+      "published_at": "2026-11-25T00:00:00+00:00",
+      "source": "Hugging Face",
+      "tags": [
+        "Hugging Face",
+        "2026-11-25"
+      ],
+      "importance": "normal",
+      "title_original": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "TangiMap 用智能体个性化映射实体控件",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "body": "MIT 系统根据软件、用户习惯和设备背景，把数字界面控件映射到实体输入，探索更具触感的创作交互。研究演示不意味着所有软件和设备都能无配置兼容。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T14:30:00-05:00",
+      "source": "MIT AI",
+      "tags": [
+        "MIT AI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "body_original": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "OpenAI 报告 GPT-6 系列的蛋白设计能力",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "body": "研究报告用推理与通用代码生成蛋白结构和序列，并在合作实验中观察到部分设计的结合证据。实验候选筛选和序列供应仍使用专门模型；结合结果不等同于药物有效或安全。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T13:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "body_original": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "业余天文学家用 Astra 与 Codex 筛选行星信号",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "body": "案例介绍在公开望远镜数据中搜索潜在凌星信号，并把候选交给专业研究人员进一步检查。候选线索不等同于已确认发现新的系外行星。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T11:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Searching for distant planets with Astra",
+      "body_original": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "Intentful 用 dots 辅助研究与提案准备",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "body": "客户案例介绍创始人用智能体整理资料、比较客户信息并准备提案。所报时间收益来自个别工作流程，不能视为所有小企业的普遍效果。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "How Intentful uses dots to make more time for growth",
+      "body_original": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "iFood 用远程平台扩展编码智能体任务",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "body": "案例介绍通过接口启动隔离环境中的维护任务，并返回合并请求，供团队处理跨仓库工作。自动化规模及成效为客户报告，不意味着可省略代码审查和安全验证。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "How iFood scales coding agents across 15,000 repositories",
+      "body_original": "",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "Clay 将客户研究与销售工作流接入 Codex 和 ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "body": "案例介绍整合企业记录、代理检索和公开资料，用于客户研究及市场拓展流程。产品集成与用户反馈不等同于已经证明销售增长的独立因果效果。",
+      "date": "2026-11-24",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-24"
+      ],
+      "importance": "normal",
+      "title_original": "Clay helps sales teams win with Codex and ChatGPT",
+      "body_original": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "editorial_date": "2026-11-27"
+    },
+    {
+      "title": "OpenAI 与 Cisco 推出 Linux 运行时防护项目 Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "body": "项目探索在补丁部署期间，经操作员批准应用临时防护以阻断特定漏洞行为，同时维持服务。受控测试不代表对所有漏洞有效，临时防护也不能替代补丁与验证。",
+      "date": "2026-11-23",
+      "published_at": "2026-11-23T21:20:00+00:00",
+      "source": "OpenAI",
+      "tags": [
+        "OpenAI",
+        "2026-11-23"
+      ],
+      "importance": "normal",
+      "title_original": "OpenAI and Cisco introduce Shirudo",
+      "body_original": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "editorial_date": "2026-11-27"
+    }
+  ],
+  "papers": [],
+  "leaders": [],
+  "models": [],
+  "benchmarks": [],
+  "conferences": [],
+  "science": [],
+  "content_mode": "public",
+  "fetched_at": "2026-11-27T14:04:00.105134+00:00",
+  "sources": [
+    {
+      "source": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok",
+      "items": 9
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "MIT AI",
+      "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+      "status": "ok",
+      "items": 6
+    },
+    {
+      "source": "Google Research",
+      "url": "https://research.google/blog/rss/",
+      "status": "ok",
+      "items": 3
+    },
+    {
+      "source": "Nature Materials",
+      "url": "https://www.nature.com/nmat.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "Nature Catalysis",
+      "url": "https://www.nature.com/natcatal.rss",
+      "status": "ok",
+      "items": 8
+    },
+    {
+      "source": "arXiv materials",
+      "url": "https://rss.arxiv.org/rss/cond-mat.mtrl-sci",
+      "status": "ok",
+      "items": 0
+    }
+  ],
+  "stats": {
+    "news_count": 15,
+    "paper_count": 0,
+    "leader_count": 0,
+    "science_count": 0
+  },
+  "editorial": {
+    "date": "2026-11-27",
+    "items_applied": 15,
+    "editor": "Codex",
+    "mode": "source_grounded_chinese"
+  }
+}
